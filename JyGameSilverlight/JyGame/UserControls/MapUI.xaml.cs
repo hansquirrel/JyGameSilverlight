@@ -1340,70 +1340,72 @@ namespace JyGame.UserControls
 
         public void showDonate()
         {
-            this.IsEnabled = false;
-            List<Dialog> dialogs = new List<Dialog>();
+            MessageBox.Show("功能关闭。");
+            //this.IsEnabled = false;
 
-            Dialog dialog1 = new Dialog();
-            dialog1.role = "汉家松鼠";
-            dialog1.type = "DIALOG";
-            dialog1.info = "(举着一面小铜锣)各位乡亲，各位乡亲！";
-            dialogs.Add(dialog1);
+            //List<Dialog> dialogs = new List<Dialog>();
 
-            Dialog dialog2 = new Dialog();
-            dialog2.role = "汉家松鼠";
-            dialog2.type = "DIALOG";
-            dialog2.info = "捐款啦，捐款啦！";
-            dialogs.Add(dialog2);
+            //Dialog dialog1 = new Dialog();
+            //dialog1.role = "汉家松鼠";
+            //dialog1.type = "DIALOG";
+            //dialog1.info = "(举着一面小铜锣)各位乡亲，各位乡亲！";
+            //dialogs.Add(dialog1);
 
-            Dialog dialog3 = new Dialog();
-            dialog3.role = "汉家松鼠";
-            dialog3.type = "DIALOG";
-            dialog3.info = "感谢您一直以来对于金X的喜欢。我们深知，自己做得还很不足，还有太多地方不尽如人意...您的一点美意，将帮助我们更好地完善这个金庸世界，使它更加丰富多彩！";
-            dialogs.Add(dialog3);
+            //Dialog dialog2 = new Dialog();
+            //dialog2.role = "汉家松鼠";
+            //dialog2.type = "DIALOG";
+            //dialog2.info = "捐款啦，捐款啦！";
+            //dialogs.Add(dialog2);
 
-            Dialog dialog4 = new Dialog();
-            dialog4.role = "汉家松鼠";
-            dialog4.type = "DIALOG";
-            dialog4.info = "也许是一包烟钱、也许是一顿饭钱...这对我们来说都会是莫大的鼓舞和支持！亲爱的玩家，我们需要您！让我们一起携手努力，使金X可以走得更高、更远吧！";
-            dialogs.Add(dialog4);
+            //Dialog dialog3 = new Dialog();
+            //dialog3.role = "汉家松鼠";
+            //dialog3.type = "DIALOG";
+            //dialog3.info = "感谢您一直以来对于金X的喜欢。我们深知，自己做得还很不足，还有太多地方不尽如人意...您的一点美意，将帮助我们更好地完善这个金庸世界，使它更加丰富多彩！";
+            //dialogs.Add(dialog3);
 
-            Dialog dialog5 = new Dialog();
-            dialog5.role = "汉家松鼠";
-            dialog5.type = "DIALOG";
-            dialog5.info = "我们设立了一个支付宝账号，并进行了实名认证。滴水之恩，涌泉相报。捐赠时请留下您的QQ、邮箱等联系方式，方便我们与您取得联系！";
-            dialogs.Add(dialog5);
+            //Dialog dialog4 = new Dialog();
+            //dialog4.role = "汉家松鼠";
+            //dialog4.type = "DIALOG";
+            //dialog4.info = "也许是一包烟钱、也许是一顿饭钱...这对我们来说都会是莫大的鼓舞和支持！亲爱的玩家，我们需要您！让我们一起携手努力，使金X可以走得更高、更远吧！";
+            //dialogs.Add(dialog4);
 
-            Dialog dialog6 = new Dialog();
-            dialog6.role = "汉家松鼠";
-            dialog6.type = "DIALOG";
-            dialog6.info = "祝您游戏愉快！再次感谢您的大力支持！（以下将展示支付宝二维码，请用支付宝客户端扫描捐款，实名认证户名“庞杨”即汉家松鼠.子尹童鞋）";
-            dialogs.Add(dialog6);
+            //Dialog dialog5 = new Dialog();
+            //dialog5.role = "汉家松鼠";
+            //dialog5.type = "DIALOG";
+            //dialog5.info = "我们设立了一个支付宝账号，并进行了实名认证。滴水之恩，涌泉相报。捐赠时请留下您的QQ、邮箱等联系方式，方便我们与您取得联系！";
+            //dialogs.Add(dialog5);
 
-            //Dialog dialog7 = new Dialog();
-            //dialog7.role = "汉家松鼠";
-            //dialog7.type = "DIALOG";
-            //dialog7.info = "如果您的浏览器拦截了弹出的支付宝窗口，您可以手动允许该窗口弹出。对于没有显示就直接拦截支付窗口的浏览器...";
-            //dialogs.Add(dialog7);
+            //Dialog dialog6 = new Dialog();
+            //dialog6.role = "汉家松鼠";
+            //dialog6.type = "DIALOG";
+            //dialog6.info = "祝您游戏愉快！再次感谢您的大力支持！（以下将展示支付宝二维码，请用支付宝客户端扫描捐款，实名认证户名“庞杨”即汉家松鼠.子尹童鞋）";
+            //dialogs.Add(dialog6);
 
-            Dialog dialog8 = new Dialog();
-            dialog8.role = "支付宝二维码";
-            dialog8.type = "DIALOG";
-            dialog8.info = "请使用支付宝客户端扫描我来为汉家松鼠捐款！";
-            dialogs.Add(dialog8);
+            ////Dialog dialog7 = new Dialog();
+            ////dialog7.role = "汉家松鼠";
+            ////dialog7.type = "DIALOG";
+            ////dialog7.info = "如果您的浏览器拦截了弹出的支付宝窗口，您可以手动允许该窗口弹出。对于没有显示就直接拦截支付窗口的浏览器...";
+            ////dialogs.Add(dialog7);
 
-            Dialog dialog9 = new Dialog();
-            dialog9.role = "支付宝二维码";
-            dialog9.type = "DIALOG";
-            dialog9.info = "谢谢您对金X的大力支持！";
-            dialogs.Add(dialog9);
+            //Dialog dialog8 = new Dialog();
+            //dialog8.role = "支付宝二维码";
+            //dialog8.type = "DIALOG";
+            //dialog8.info = "请使用支付宝客户端扫描我来为汉家松鼠捐款！";
+            //dialogs.Add(dialog8);
 
-            dialogs.Add(new Dialog() { role = "汉家松鼠", type = "DIALOG", info = "您也可以通过支付宝转账，账号：hanjiasongshu@163.com" });
-            dialogs.Add(new Dialog() { role = "汉家松鼠", type = "DIALOG", info = "如果你是国际友人，可以通过paypal转账，账号：hanjiasongshu@163.com，实名认证“成功”（汉家松鼠.cg同学）" });
+            //Dialog dialog9 = new Dialog();
+            //dialog9.role = "支付宝二维码";
+            //dialog9.type = "DIALOG";
+            //dialog9.info = "谢谢您对金X的大力支持！";
+            //dialogs.Add(dialog9);
+
+            //dialogs.Add(new Dialog() { role = "汉家松鼠", type = "DIALOG", info = "您也可以通过支付宝转账，账号：hanjiasongshu@163.com" });
+            //dialogs.Add(new Dialog() { role = "汉家松鼠", type = "DIALOG", info = "如果你是国际友人，可以通过paypal转账，账号：hanjiasongshu@163.com，实名认证“成功”（汉家松鼠.cg同学）" });
 
 
-            //Clipboard.SetText("https://me.alipay.com/hanjiasongshu");
-            this.IsEnabled = true;
-            uiHost.dialogPanel.ShowDialogs(dialogs);
+            ////Clipboard.SetText("https://me.alipay.com/hanjiasongshu");
+            //this.IsEnabled = true;
+            //uiHost.dialogPanel.ShowDialogs(dialogs);
         }
 
         void toDonateURL(int i)
