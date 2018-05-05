@@ -1,0 +1,2273 @@
+<animations>
+  <animation name="long_jin">
+    <group name="skill">
+      <image anchorx="180" anchory="288" w="358" h="327" />
+      <image anchorx="180" anchory="288" w="358" h="327" />
+      <image anchorx="180" anchory="288" w="359" h="327" />
+      <image anchorx="180" anchory="288" w="359" h="327" />
+      <image anchorx="180" anchory="288" w="358" h="327" />
+      <image anchorx="180" anchory="288" w="358" h="327" />
+      <image anchorx="180" anchory="288" w="358" h="327" />
+      <image anchorx="180" anchory="288" w="358" h="327" />
+      <image anchorx="180" anchory="288" w="358" h="327" />
+    </group>
+  </animation>
+  <animation name="baozha_lan">
+    <group name="skill">
+      <image anchorx="33" anchory="60" w="67" h="60" />
+      <image anchorx="38" anchory="68" w="76" h="68" />
+      <image anchorx="43" anchory="74" w="86" h="74" />
+      <image anchorx="44" anchory="77" w="88" h="77" />
+      <image anchorx="45" anchory="77" w="91" h="77" />
+      <image anchorx="48" anchory="78" w="96" h="78" />
+      <image anchorx="49" anchory="77" w="99" h="77" />
+      <image anchorx="48" anchory="78" w="96" h="78" />
+      <image anchorx="46" anchory="78" w="92" h="78" />
+      <image anchorx="37" anchory="79" w="74" h="79" />
+      <image anchorx="35" anchory="77" w="74" h="56" />
+      <image anchorx="35" anchory="77" w="74" h="51" />
+      <image anchorx="35" anchory="77" w="75" h="45" />
+    </group>
+  </animation>
+  <animation name="huozhu_hong">
+    <group name="skill">
+      <image anchorx="21" anchory="177" w="42" h="175" />
+      <image anchorx="30" anchory="178" w="60" h="178" />
+      <image anchorx="33" anchory="178" w="66" h="178" />
+      <image anchorx="32" anchory="178" w="65" h="178" />
+      <image anchorx="36" anchory="178" w="72" h="178" />
+      <image anchorx="37" anchory="177" w="74" h="177" />
+      <image anchorx="36" anchory="176" w="73" h="176" />
+      <image anchorx="33" anchory="176" w="67" h="176" />
+      <image anchorx="37" anchory="166" w="75" h="166" />
+      <image anchorx="37" anchory="155" w="75" h="155" />
+      <image anchorx="31" anchory="120" w="63" h="120" />
+      <image anchorx="32" anchory="121" w="65" h="121" />
+      <image anchorx="31" anchory="124" w="62" h="124" />
+    </group>
+  </animation>
+  <animation name="anranxiaohunzhang">
+    <group name="skill">
+      <image anchorx="34" anchory="87" w="68" h="87" />
+      <image anchorx="40" anchory="97" w="80" h="97" />
+      <image anchorx="43" anchory="104" w="86" h="104" />
+      <image anchorx="43" anchory="102" w="88" h="107" />
+      <image anchorx="45" anchory="105" w="90" h="105" />
+      <image anchorx="43" anchory="102" w="90" h="107" />
+      <image anchorx="44" anchory="101" w="90" h="107" />
+      <image anchorx="44" anchory="99" w="89" h="108" />
+      <image anchorx="44" anchory="98" w="89" h="101" />
+      <image anchorx="44" anchory="102" w="88" h="102" />
+      <image anchorx="42" anchory="94" w="84" h="94" />
+      <image anchorx="44" anchory="92" w="81" h="94" />
+      <image anchorx="42" anchory="86" w="78" h="90" />
+      <image anchorx="37" anchory="87" w="74" h="87" />
+      <image anchorx="37" anchory="82" w="75" h="82" />
+      <image anchorx="24" anchory="65" w="49" h="65" />
+    </group>
+  </animation>
+  <animation name="biaoxue">
+    <group name="skill">
+      <image anchorx="16" anchory="44" w="33" h="44" />
+      <image anchorx="25" anchory="58" w="50" h="58" />
+      <image anchorx="35" anchory="69" w="70" h="69" />
+      <image anchorx="40" anchory="70" w="80" h="70" />
+      <image anchorx="41" anchory="60" w="82" h="60" />
+      <image anchorx="42" anchory="60" w="84" h="60" />
+      <image anchorx="42" anchory="60" w="85" h="60" />
+      <image anchorx="43" anchory="59" w="86" h="59" />
+      <image anchorx="35" anchory="33" w="71" h="33" />
+    </group>
+  </animation>
+  <animation name="baozha_cheng">
+    <group name="skill">
+      <image anchorx="33" anchory="60" w="67" h="60" />
+      <image anchorx="38" anchory="68" w="76" h="68" />
+      <image anchorx="43" anchory="74" w="86" h="74" />
+      <image anchorx="44" anchory="77" w="88" h="77" />
+      <image anchorx="45" anchory="77" w="91" h="77" />
+      <image anchorx="48" anchory="78" w="96" h="78" />
+      <image anchorx="49" anchory="77" w="99" h="77" />
+      <image anchorx="48" anchory="78" w="96" h="78" />
+      <image anchorx="46" anchory="78" w="92" h="78" />
+      <image anchorx="37" anchory="79" w="74" h="79" />
+      <image anchorx="37" anchory="56" w="74" h="56" />
+    </group>
+  </animation>
+  <animation name="bingpo">
+    <group name="skill">
+      <image anchorx="1" anchory="100" w="41" h="46" />
+      <image anchorx="1" anchory="103" w="82" h="74" />
+      <image anchorx="3" anchory="122" w="128" h="107" />
+      <image anchorx="3" anchory="141" w="175" h="140" />
+      <image anchorx="8" anchory="150" w="214" h="149" />
+      <image anchorx="6" anchory="123" w="177" h="116" />
+      <image anchorx="14" anchory="86" w="135" h="83" />
+      <image anchorx="19" anchory="70" w="108" h="66" />
+      <image anchorx="20" anchory="74" w="114" h="69" />
+      <image anchorx="21" anchory="75" w="121" h="71" />
+      <image anchorx="21" anchory="76" w="133" h="69" />
+      <image anchorx="21" anchory="76" w="139" h="69" />
+      <image anchorx="22" anchory="70" w="142" h="67" />
+      <image anchorx="22" anchory="69" w="123" h="65" />
+      <image anchorx="22" anchory="65" w="125" h="60" />
+    </group>
+  </animation>
+  <animation name="pixiejianfa">
+    <group name="skill">
+      <image anchorx="27" anchory="79" w="60" h="54" />
+      <image anchorx="38" anchory="81" w="77" h="81" />
+      <image anchorx="38" anchory="85" w="77" h="85" />
+      <image anchorx="41" anchory="87" w="82" h="87" />
+      <image anchorx="43" anchory="89" w="86" h="89" />
+      <image anchorx="47" anchory="88" w="94" h="88" />
+      <image anchorx="57" anchory="89" w="115" h="89" />
+      <image anchorx="61" anchory="73" w="122" h="73" />
+      <image anchorx="61" anchory="75" w="123" h="75" />
+      <image anchorx="62" anchory="79" w="125" h="79" />
+      <image anchorx="57" anchory="80" w="115" h="80" />
+    </group>
+  </animation>
+  <animation name="dabiaoxue">
+    <group name="skill">
+      <image anchorx="17" anchory="84" w="26" h="17" />
+      <image anchorx="17" anchory="84" w="32" h="35" />
+      <image anchorx="20" anchory="85" w="43" h="39" />
+      <image anchorx="20" anchory="88" w="55" h="59" />
+      <image anchorx="40" anchory="95" w="81" h="79" />
+      <image anchorx="41" anchory="95" w="98" h="91" />
+      <image anchorx="55" anchory="97" w="112" h="96" />
+      <image anchorx="54" anchory="96" w="119" h="97" />
+      <image anchorx="61" anchory="98" w="129" h="98" />
+      <image anchorx="61" anchory="98" w="137" h="96" />
+      <image anchorx="71" anchory="101" w="143" h="100" />
+      <image anchorx="73" anchory="100" w="143" h="98" />
+      <image anchorx="73" anchory="100" w="145" h="95" />
+      <image anchorx="73" anchory="100" w="146" h="88" />
+      <image anchorx="73" anchory="100" w="145" h="83" />
+      <image anchorx="67" anchory="90" w="137" h="76" />
+    </group>
+  </animation>
+  <animation name="heixue">
+    <group name="skill">
+      <image anchorx="16" anchory="44" w="33" h="44" />
+      <image anchorx="25" anchory="58" w="50" h="58" />
+      <image anchorx="35" anchory="69" w="70" h="69" />
+      <image anchorx="40" anchory="70" w="80" h="70" />
+      <image anchorx="41" anchory="60" w="82" h="60" />
+      <image anchorx="42" anchory="60" w="84" h="60" />
+      <image anchorx="42" anchory="60" w="85" h="60" />
+      <image anchorx="43" anchory="59" w="86" h="59" />
+      <image anchorx="35" anchory="33" w="71" h="33" />
+    </group>
+  </animation>
+  <animation name="hujiadaofa">
+    <group name="skill">
+      <image anchorx="27" anchory="50" w="54" h="50" />
+      <image anchorx="34" anchory="63" w="68" h="63" />
+      <image anchorx="38" anchory="74" w="76" h="74" />
+      <image anchorx="42" anchory="92" w="84" h="92" />
+      <image anchorx="51" anchory="97" w="102" h="97" />
+      <image anchorx="57" anchory="104" w="114" h="104" />
+      <image anchorx="60" anchory="99" w="120" h="99" />
+      <image anchorx="61" anchory="99" w="122" h="99" />
+      <image anchorx="62" anchory="98" w="125" h="98" />
+      <image anchorx="63" anchory="97" w="126" h="97" />
+      <image anchorx="59" anchory="96" w="118" h="96" />
+      <image anchorx="58" anchory="86" w="117" h="86" />
+      <image anchorx="58" anchory="71" w="117" h="71" />
+    </group>
+  </animation>
+  <animation name="jinshejianfa">
+    <group name="skill">
+      <image anchorx="4" anchory="8" w="8" h="8" />
+      <image anchorx="8" anchory="23" w="17" h="23" />
+      <image anchorx="16" anchory="42" w="32" h="42" />
+      <image anchorx="18" anchory="55" w="37" h="55" />
+      <image anchorx="19" anchory="57" w="38" h="57" />
+      <image anchorx="19" anchory="57" w="39" h="57" />
+      <image anchorx="24" anchory="58" w="48" h="58" />
+      <image anchorx="33" anchory="57" w="67" h="57" />
+      <image anchorx="47" anchory="62" w="95" h="62" />
+      <image anchorx="56" anchory="64" w="112" h="64" />
+      <image anchorx="63" anchory="66" w="126" h="66" />
+      <image anchorx="66" anchory="66" w="132" h="66" />
+      <image anchorx="67" anchory="60" w="135" h="60" />
+    </group>
+  </animation>
+  <animation name="jiuyangshengong">
+    <group name="skill">
+      <image anchorx="11" anchory="91" w="22" h="11" />
+      <image anchorx="24" anchory="97" w="49" h="49" />
+      <image anchorx="26" anchory="98" w="57" h="53" />
+      <image anchorx="32" anchory="98" w="67" h="61" />
+      <image anchorx="29" anchory="102" w="58" h="37" />
+      <image anchorx="24" anchory="90" w="47" h="28" />
+      <image anchorx="19" anchory="90" w="37" h="24" />
+    </group>
+  </animation>
+  <animation name="kongmingquan">
+    <group name="skill">
+      <image anchorx="41" anchory="79" w="83" h="64" />
+      <image anchorx="50" anchory="88" w="102" h="75" />
+      <image anchorx="50" anchory="88" w="109" h="80" />
+      <image anchorx="50" anchory="104" w="113" h="89" />
+      <image anchorx="51" anchory="104" w="117" h="92" />
+      <image anchorx="53" anchory="105" w="119" h="93" />
+      <image anchorx="54" anchory="102" w="120" h="93" />
+      <image anchorx="54" anchory="102" w="120" h="91" />
+      <image anchorx="54" anchory="102" w="119" h="73" />
+      <image anchorx="62" anchory="90" w="122" h="71" />
+      <image anchorx="62" anchory="90" w="125" h="71" />
+    </group>
+  </animation>
+  <animation name="kulou">
+    <group name="skill">
+      <image anchorx="19" anchory="55" w="38" h="36" />
+      <image anchorx="20" anchory="55" w="42" h="32" />
+      <image anchorx="18" anchory="65" w="37" h="39" />
+      <image anchorx="18" anchory="65" w="38" h="49" />
+      <image anchorx="18" anchory="65" w="38" h="40" />
+      <image anchorx="16" anchory="61" w="28" h="35" />
+      <image anchorx="14" anchory="48" w="27" h="21" />
+      <image anchorx="10" anchory="44" w="23" h="17" />
+      <image anchorx="9" anchory="48" w="20" h="15" />
+    </group>
+  </animation>
+  <animation name="miaojiajianfa">
+    <group name="skill">
+      <image anchorx="30" anchory="66" w="61" h="66" />
+      <image anchorx="34" anchory="70" w="69" h="70" />
+      <image anchorx="46" anchory="71" w="92" h="71" />
+      <image anchorx="48" anchory="73" w="97" h="73" />
+      <image anchorx="51" anchory="75" w="102" h="75" />
+      <image anchorx="50" anchory="74" w="100" h="74" />
+      <image anchorx="41" anchory="75" w="83" h="75" />
+      <image anchorx="48" anchory="77" w="97" h="77" />
+      <image anchorx="52" anchory="78" w="105" h="78" />
+      <image anchorx="48" anchory="51" w="96" h="51" />
+      <image anchorx="53" anchory="48" w="106" h="48" />
+      <image anchorx="32" anchory="48" w="65" h="48" />
+    </group>
+  </animation>
+  <animation name="pilihuo">
+    <group name="skill">
+      <image anchorx="20" anchory="40" w="41" h="40" />
+      <image anchorx="41" anchory="45" w="82" h="45" />
+      <image anchorx="38" anchory="60" w="76" h="60" />
+      <image anchorx="51" anchory="53" w="103" h="53" />
+      <image anchorx="41" anchory="57" w="83" h="57" />
+      <image anchorx="32" anchory="66" w="65" h="66" />
+      <image anchorx="32" anchory="76" w="65" h="76" />
+      <image anchorx="33" anchory="83" w="66" h="83" />
+      <image anchorx="33" anchory="82" w="66" h="82" />
+      <image anchorx="23" anchory="78" w="46" h="78" />
+      <image anchorx="23" anchory="78" w="46" h="78" />
+    </group>
+  </animation>
+  <animation name="xuantiejianfa">
+    <group name="skill">
+      <image anchorx="26" anchory="23" w="53" h="23" />
+      <image anchorx="29" anchory="33" w="59" h="33" />
+      <image anchorx="31" anchory="41" w="63" h="41" />
+      <image anchorx="35" anchory="52" w="71" h="52" />
+      <image anchorx="36" anchory="62" w="73" h="62" />
+      <image anchorx="39" anchory="72" w="79" h="72" />
+      <image anchorx="40" anchory="78" w="81" h="78" />
+      <image anchorx="39" anchory="86" w="78" h="86" />
+      <image anchorx="38" anchory="91" w="77" h="91" />
+      <image anchorx="39" anchory="98" w="79" h="98" />
+      <image anchorx="40" anchory="88" w="81" h="88" />
+      <image anchorx="39" anchory="83" w="78" h="83" />
+      <image anchorx="38" anchory="69" w="77" h="69" />
+      <image anchorx="37" anchory="65" w="74" h="65" />
+      <image anchorx="37" anchory="52" w="74" h="52" />
+      <image anchorx="36" anchory="51" w="72" h="51" />
+    </group>
+  </animation>
+  <animation name="taiji">
+    <group name="skill">
+      <image anchorx="17" anchory="44" w="33" h="24" />
+      <image anchorx="23" anchory="53" w="45" h="37" />
+      <image anchorx="28" anchory="53" w="54" h="32" />
+      <image anchorx="24" anchory="53" w="51" h="35" />
+      <image anchorx="23" anchory="46" w="46" h="25" />
+      <image anchorx="20" anchory="49" w="41" h="32" />
+      <image anchorx="18" anchory="49" w="36" h="28" />
+      <image anchorx="17" anchory="44" w="34" h="24" />
+    </group>
+  </animation>
+  <animation name="xuezhao">
+    <group name="skill">
+      <image anchorx="17" anchory="42" w="34" h="42" />
+      <image anchorx="30" anchory="49" w="60" h="49" />
+      <image anchorx="37" anchory="60" w="74" h="60" />
+      <image anchorx="47" anchory="65" w="95" h="65" />
+      <image anchorx="54" anchory="65" w="108" h="65" />
+      <image anchorx="59" anchory="65" w="118" h="65" />
+      <image anchorx="62" anchory="64" w="125" h="64" />
+      <image anchorx="63" anchory="63" w="127" h="63" />
+      <image anchorx="64" anchory="64" w="128" h="64" />
+      <image anchorx="64" anchory="65" w="129" h="65" />
+      <image anchorx="64" anchory="65" w="128" h="65" />
+    </group>
+  </animation>
+  <animation name="yuanquan">
+    <group name="skill">
+      <image anchorx="14" anchory="37" w="29" h="37" />
+      <image anchorx="18" anchory="51" w="37" h="51" />
+      <image anchorx="19" anchory="58" w="39" h="58" />
+      <image anchorx="20" anchory="65" w="41" h="65" />
+      <image anchorx="20" anchory="64" w="41" h="64" />
+      <image anchorx="16" anchory="53" w="33" h="53" />
+      <image anchorx="16" anchory="44" w="32" h="44" />
+      <image anchorx="12" anchory="30" w="25" h="30" />
+      <image anchorx="6" anchory="19" w="12" h="19" />
+      <image anchorx="5" anchory="18" w="11" h="18" />
+    </group>
+  </animation>
+  <animation name="yuxiaojianfa">
+    <group name="skill">
+      <image anchorx="13" anchory="31" w="27" h="31" />
+      <image anchorx="31" anchory="49" w="62" h="49" />
+      <image anchorx="32" anchory="55" w="64" h="55" />
+      <image anchorx="32" anchory="58" w="64" h="58" />
+      <image anchorx="35" anchory="66" w="71" h="66" />
+      <image anchorx="40" anchory="70" w="80" h="70" />
+      <image anchorx="44" anchory="78" w="88" h="78" />
+      <image anchorx="46" anchory="81" w="92" h="81" />
+      <image anchorx="48" anchory="82" w="96" h="82" />
+      <image anchorx="53" anchory="82" w="107" h="82" />
+      <image anchorx="57" anchory="76" w="115" h="76" />
+      <image anchorx="57" anchory="78" w="115" h="78" />
+      <image anchorx="31" anchory="74" w="62" h="74" />
+      <image anchorx="32" anchory="48" w="65" h="48" />
+    </group>
+  </animation>
+  <animation name="recover">
+    <group name="skill">
+      <image anchorx="3" anchory="22" w="6" h="22" />
+      <image anchorx="5" anchory="24" w="10" h="24" />
+      <image anchorx="6" anchory="26" w="13" h="26" />
+      <image anchorx="6" anchory="27" w="12" h="27" />
+      <image anchorx="8" anchory="33" w="17" h="33" />
+      <image anchorx="8" anchory="34" w="16" h="34" />
+      <image anchorx="8" anchory="27" w="17" h="27" />
+      <image anchorx="6" anchory="24" w="12" h="24" />
+      <image anchorx="6" anchory="21" w="13" h="21" />
+    </group>
+  </animation>
+  <animation name="baozha">
+    <group name="skill">
+      <image anchorx="8" anchory="16" w="16" h="16" />
+      <image anchorx="22" anchory="42" w="45" h="42" />
+      <image anchorx="35" anchory="67" w="70" h="67" />
+      <image anchorx="39" anchory="73" w="79" h="73" />
+      <image anchorx="41" anchory="76" w="83" h="76" />
+      <image anchorx="42" anchory="77" w="85" h="77" />
+      <image anchorx="43" anchory="73" w="87" h="73" />
+      <image anchorx="44" anchory="54" w="88" h="54" />
+      <image anchorx="15" anchory="36" w="30" h="36" />
+    </group>
+  </animation>
+  <animation name="jiqi1">
+    <group name="skill">
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+    </group>
+  </animation>
+  <animation name="jiqi2">
+    <group name="skill">
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+    </group>
+  </animation>
+  <animation name="aoyi1">
+    <group name="skill">
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+      <image anchorx="400" anchory="600" w="800" h="600" />
+    </group>
+  </animation>
+  <animation name="aoyi2">
+    <group name="skill">
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+    </group>
+  </animation>
+  <animation name="aoyi3">
+    <group name="skill">
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+    </group>
+  </animation>
+  <animation name="aoyi4">
+    <group name="skill">
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+    </group>
+  </animation>
+  <animation name="aoyi5">
+    <group name="skill">
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+    </group>
+  </animation>
+  <animation name="aoyi6">
+    <group name="skill">
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+    </group>
+  </animation>
+  <animation name="aoyi7">
+    <group name="skill">
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+      <image anchorx="100" anchory="150" w="200" h="150" />
+    </group>
+  </animation>
+  <animation name="taiji2">
+    <group name="skill">
+      <image anchorx="93" anchory="259" w="186" h="322" />
+      <image anchorx="93" anchory="259" w="186" h="322" />
+      <image anchorx="93" anchory="259" w="186" h="322" />
+      <image anchorx="93" anchory="259" w="186" h="322" />
+      <image anchorx="93" anchory="259" w="186" h="322" />
+      <image anchorx="93" anchory="259" w="186" h="322" />
+      <image anchorx="93" anchory="259" w="186" h="322" />
+      <image anchorx="93" anchory="259" w="186" h="322" />
+      <image anchorx="93" anchory="259" w="186" h="322" />
+      <image anchorx="93" anchory="259" w="186" h="322" />
+      <image anchorx="93" anchory="259" w="186" h="322" />
+      <image anchorx="93" anchory="259" w="186" h="322" />
+      <image anchorx="93" anchory="259" w="186" h="322" />
+      <image anchorx="93" anchory="259" w="186" h="322" />
+      <image anchorx="93" anchory="259" w="186" h="322" />
+      <image anchorx="93" anchory="259" w="186" h="322" />
+      <image anchorx="93" anchory="259" w="186" h="322" />
+      <image anchorx="93" anchory="259" w="186" h="322" />
+      <image anchorx="93" anchory="259" w="186" h="322" />
+      <image anchorx="93" anchory="259" w="186" h="322" />
+      <image anchorx="93" anchory="259" w="186" h="322" />
+      <image anchorx="93" anchory="259" w="186" h="322" />
+      <image anchorx="93" anchory="259" w="186" h="322" />
+    </group>
+  </animation>
+  <animation name="guanghuan_blue">
+    <group name="skill">
+      <image anchorx="142" anchory="105" w="300" h="200" />
+      <image anchorx="142" anchory="105" w="300" h="200" />
+      <image anchorx="142" anchory="105" w="300" h="200" />
+      <image anchorx="142" anchory="105" w="300" h="200" />
+      <image anchorx="142" anchory="105" w="300" h="200" />
+      <image anchorx="142" anchory="105" w="300" h="200" />
+      <image anchorx="142" anchory="105" w="300" h="200" />
+      <image anchorx="142" anchory="105" w="300" h="200" />
+      <image anchorx="142" anchory="105" w="300" h="200" />
+      <image anchorx="142" anchory="105" w="300" h="200" />
+    </group>
+  </animation>
+  <animation name="guanghuan_yellow">
+    <group name="skill">
+      <image anchorx="64" anchory="86" w="128" h="128" />
+      <image anchorx="64" anchory="86" w="128" h="128" />
+      <image anchorx="64" anchory="86" w="128" h="128" />
+      <image anchorx="64" anchory="86" w="128" h="128" />
+      <image anchorx="64" anchory="86" w="128" h="128" />
+      <image anchorx="64" anchory="86" w="128" h="128" />
+      <image anchorx="64" anchory="86" w="128" h="128" />
+      <image anchorx="64" anchory="86" w="128" h="128" />
+      <image anchorx="64" anchory="86" w="128" h="128" />
+      <image anchorx="64" anchory="86" w="128" h="128" />
+      <image anchorx="64" anchory="86" w="128" h="128" />
+      <image anchorx="64" anchory="86" w="128" h="128" />
+      <image anchorx="64" anchory="86" w="128" h="128" />
+      <image anchorx="64" anchory="86" w="128" h="128" />
+      <image anchorx="64" anchory="86" w="128" h="128" />
+    </group>
+  </animation>
+  <animation name="guanghuan_orange">
+    <group name="skill">
+      <image anchorx="65" anchory="84" w="128" h="128" />
+      <image anchorx="65" anchory="85" w="128" h="128" />
+      <image anchorx="65" anchory="85" w="128" h="128" />
+      <image anchorx="65" anchory="85" w="128" h="128" />
+      <image anchorx="65" anchory="85" w="128" h="128" />
+      <image anchorx="65" anchory="85" w="128" h="128" />
+      <image anchorx="65" anchory="85" w="128" h="128" />
+      <image anchorx="65" anchory="85" w="128" h="128" />
+      <image anchorx="65" anchory="85" w="128" h="128" />
+      <image anchorx="65" anchory="85" w="128" h="128" />
+      <image anchorx="65" anchory="85" w="128" h="128" />
+      <image anchorx="65" anchory="85" w="128" h="128" />
+      <image anchorx="65" anchory="85" w="128" h="128" />
+      <image anchorx="65" anchory="85" w="128" h="128" />
+      <image anchorx="65" anchory="85" w="128" h="128" />
+    </group>
+  </animation>
+  <animation name="guanghuan_blue2">
+    <group name="skill">
+      <image anchorx="64" anchory="90" w="128" h="128" />
+      <image anchorx="64" anchory="90" w="128" h="128" />
+      <image anchorx="64" anchory="90" w="128" h="128" />
+      <image anchorx="64" anchory="90" w="128" h="128" />
+      <image anchorx="64" anchory="90" w="128" h="128" />
+      <image anchorx="64" anchory="90" w="128" h="128" />
+      <image anchorx="64" anchory="90" w="128" h="128" />
+      <image anchorx="64" anchory="90" w="128" h="128" />
+      <image anchorx="64" anchory="90" w="128" h="128" />
+      <image anchorx="64" anchory="90" w="128" h="128" />
+      <image anchorx="64" anchory="90" w="128" h="128" />
+      <image anchorx="64" anchory="90" w="128" h="128" />
+      <image anchorx="64" anchory="90" w="128" h="128" />
+      <image anchorx="64" anchory="90" w="128" h="128" />
+      <image anchorx="64" anchory="90" w="128" h="128" />
+    </group>
+  </animation>
+  <animation name="guanghuan_yellow2">
+    <group name="skill">
+      <image anchorx="0" anchory="1" w="1" h="1" />
+      <image anchorx="56" anchory="44" w="114" h="89" />
+      <image anchorx="65" anchory="51" w="130" h="98" />
+      <image anchorx="80" anchory="53" w="160" h="114" />
+      <image anchorx="96" anchory="62" w="192" h="135" />
+      <image anchorx="113" anchory="71" w="227" h="159" />
+      <image anchorx="131" anchory="81" w="263" h="184" />
+      <image anchorx="149" anchory="88" w="301" h="210" />
+      <image anchorx="167" anchory="98" w="336" h="235" />
+      <image anchorx="167" anchory="98" w="333" h="231" />
+      <image anchorx="153" anchory="89" w="303" h="208" />
+      <image anchorx="64" anchory="40" w="128" h="92" />
+      <image anchorx="61" anchory="42" w="124" h="91" />
+      <image anchorx="56" anchory="41" w="114" h="86" />
+      <image anchorx="52" anchory="42" w="112" h="75" />
+      <image anchorx="52" anchory="42" w="1" h="1" />
+      <image anchorx="55" anchory="43" w="117" h="80" />
+      <image anchorx="64" anchory="37" w="126" h="88" />
+      <image anchorx="64" anchory="39" w="128" h="90" />
+      <image anchorx="66" anchory="41" w="128" h="93" />
+      <image anchorx="63" anchory="45" w="126" h="92" />
+      <image anchorx="61" anchory="40" w="123" h="86" />
+      <image anchorx="63" anchory="41" w="117" h="81" />
+      <image anchorx="53" anchory="43" w="108" h="76" />
+      <image anchorx="54" anchory="43" w="1" h="1" />
+    </group>
+  </animation>
+  <animation name="guanghuan_white">
+    <group name="skill">
+      <image anchorx="128" anchory="155" w="256" h="218" />
+      <image anchorx="128" anchory="155" w="256" h="218" />
+      <image anchorx="128" anchory="155" w="256" h="218" />
+      <image anchorx="128" anchory="155" w="256" h="218" />
+      <image anchorx="128" anchory="155" w="256" h="218" />
+      <image anchorx="128" anchory="155" w="256" h="218" />
+      <image anchorx="128" anchory="155" w="256" h="218" />
+      <image anchorx="128" anchory="155" w="256" h="218" />
+      <image anchorx="128" anchory="155" w="256" h="218" />
+      <image anchorx="128" anchory="155" w="256" h="218" />
+      <image anchorx="128" anchory="155" w="256" h="218" />
+      <image anchorx="128" anchory="155" w="256" h="218" />
+      <image anchorx="128" anchory="155" w="256" h="218" />
+      <image anchorx="128" anchory="155" w="256" h="218" />
+    </group>
+  </animation>
+  <animation name="guanghuan_bianfu">
+    <group name="skill">
+      <image anchorx="66" anchory="134" w="146" h="181" />
+      <image anchorx="61" anchory="118" w="123" h="148" />
+      <image anchorx="63" anchory="97" w="127" h="147" />
+      <image anchorx="71" anchory="119" w="145" h="175" />
+      <image anchorx="69" anchory="126" w="138" h="180" />
+      <image anchorx="75" anchory="124" w="159" h="179" />
+      <image anchorx="71" anchory="124" w="161" h="180" />
+      <image anchorx="71" anchory="124" w="148" h="155" />
+      <image anchorx="63" anchory="125" w="127" h="161" />
+      <image anchorx="57" anchory="133" w="137" h="162" />
+      <image anchorx="51" anchory="128" w="116" h="173" />
+      <image anchorx="50" anchory="103" w="107" h="139" />
+      <image anchorx="65" anchory="91" w="133" h="138" />
+      <image anchorx="60" anchory="68" w="121" h="115" />
+      <image anchorx="69" anchory="50" w="141" h="104" />
+      <image anchorx="65" anchory="50" w="133" h="103" />
+      <image anchorx="72" anchory="69" w="148" h="122" />
+      <image anchorx="70" anchory="58" w="136" h="85" />
+      <image anchorx="74" anchory="70" w="157" h="122" />
+      <image anchorx="81" anchory="77" w="170" h="146" />
+    </group>
+  </animation>
+  <animation name="guanghuan_yellow3">
+    <group name="skill">
+      <image anchorx="127" anchory="110" w="256" h="250" />
+      <image anchorx="127" anchory="110" w="256" h="250" />
+      <image anchorx="127" anchory="110" w="256" h="250" />
+      <image anchorx="127" anchory="110" w="256" h="250" />
+      <image anchorx="127" anchory="110" w="256" h="250" />
+      <image anchorx="127" anchory="110" w="256" h="250" />
+      <image anchorx="127" anchory="110" w="256" h="250" />
+      <image anchorx="127" anchory="110" w="256" h="250" />
+      <image anchorx="127" anchory="110" w="256" h="250" />
+      <image anchorx="127" anchory="110" w="256" h="250" />
+      <image anchorx="127" anchory="110" w="256" h="250" />
+      <image anchorx="127" anchory="110" w="256" h="250" />
+      <image anchorx="127" anchory="110" w="256" h="250" />
+      <image anchorx="127" anchory="110" w="256" h="250" />
+      <image anchorx="127" anchory="110" w="256" h="250" />
+      <image anchorx="127" anchory="110" w="256" h="250" />
+      <image anchorx="127" anchory="110" w="256" h="250" />
+      <image anchorx="127" anchory="110" w="256" h="250" />
+      <image anchorx="127" anchory="110" w="256" h="250" />
+      <image anchorx="127" anchory="110" w="256" h="250" />
+      <image anchorx="127" anchory="110" w="256" h="250" />
+      <image anchorx="127" anchory="110" w="256" h="250" />
+      <image anchorx="127" anchory="110" w="256" h="250" />
+      <image anchorx="127" anchory="110" w="256" h="250" />
+      <image anchorx="127" anchory="110" w="256" h="250" />
+      <image anchorx="127" anchory="110" w="256" h="250" />
+    </group>
+  </animation>
+  <animation name="taiji_blue">
+    <group name="skill">
+      <image anchorx="86" anchory="162" w="180" h="200" />
+      <image anchorx="86" anchory="162" w="180" h="200" />
+      <image anchorx="86" anchory="162" w="180" h="200" />
+      <image anchorx="86" anchory="162" w="180" h="200" />
+      <image anchorx="86" anchory="162" w="180" h="200" />
+      <image anchorx="86" anchory="162" w="180" h="200" />
+      <image anchorx="86" anchory="162" w="180" h="200" />
+      <image anchorx="86" anchory="162" w="180" h="200" />
+      <image anchorx="86" anchory="162" w="180" h="200" />
+      <image anchorx="86" anchory="162" w="180" h="200" />
+      <image anchorx="86" anchory="162" w="180" h="200" />
+      <image anchorx="86" anchory="162" w="180" h="200" />
+      <image anchorx="86" anchory="162" w="180" h="200" />
+      <image anchorx="86" anchory="162" w="180" h="200" />
+      <image anchorx="86" anchory="162" w="180" h="200" />
+      <image anchorx="86" anchory="162" w="180" h="200" />
+      <image anchorx="86" anchory="162" w="180" h="200" />
+      <image anchorx="86" anchory="162" w="180" h="200" />
+    </group>
+  </animation>
+  <animation name="maichong_blue">
+    <group name="skill">
+      <image anchorx="128" anchory="220" w="250" h="300" />
+      <image anchorx="128" anchory="220" w="250" h="300" />
+      <image anchorx="128" anchory="220" w="250" h="300" />
+      <image anchorx="128" anchory="220" w="250" h="300" />
+      <image anchorx="128" anchory="220" w="250" h="300" />
+      <image anchorx="128" anchory="220" w="250" h="300" />
+      <image anchorx="128" anchory="220" w="250" h="300" />
+      <image anchorx="128" anchory="220" w="250" h="250" />
+      <image anchorx="130" anchory="203" w="250" h="250" />
+      <image anchorx="130" anchory="203" w="250" h="250" />
+      <image anchorx="129" anchory="203" w="250" h="250" />
+    </group>
+  </animation>
+  <animation name="maichong_blue2">
+    <group name="skill">
+      <image anchorx="80" anchory="262" w="160" h="300" />
+      <image anchorx="80" anchory="262" w="160" h="300" />
+      <image anchorx="80" anchory="262" w="160" h="300" />
+      <image anchorx="80" anchory="262" w="160" h="300" />
+      <image anchorx="80" anchory="262" w="160" h="300" />
+      <image anchorx="80" anchory="262" w="160" h="300" />
+      <image anchorx="80" anchory="262" w="160" h="300" />
+    </group>
+  </animation>
+  <animation name="zhang">
+    <group name="skill">
+      <image anchorx="131" anchory="279" w="260" h="320" />
+      <image anchorx="131" anchory="263" w="260" h="320" />
+      <image anchorx="79" anchory="142" w="150" h="140" />
+      <image anchorx="131" anchory="279" w="260" h="320" />
+      <image anchorx="131" anchory="279" w="260" h="320" />
+      <image anchorx="131" anchory="279" w="260" h="320" />
+    </group>
+  </animation>
+  <animation name="long">
+    <group name="skill">
+      <image anchorx="80" anchory="97" w="160" h="120" />
+      <image anchorx="80" anchory="97" w="160" h="120" />
+      <image anchorx="80" anchory="97" w="160" h="120" />
+      <image anchorx="80" anchory="97" w="160" h="120" />
+      <image anchorx="80" anchory="97" w="160" h="120" />
+      <image anchorx="80" anchory="97" w="160" h="120" />
+      <image anchorx="80" anchory="97" w="160" h="120" />
+      <image anchorx="80" anchory="97" w="160" h="120" />
+      <image anchorx="80" anchory="97" w="160" h="120" />
+      <image anchorx="122" anchory="304" w="250" h="350" />
+      <image anchorx="122" anchory="304" w="250" h="350" />
+      <image anchorx="122" anchory="304" w="250" h="350" />
+      <image anchorx="122" anchory="304" w="250" h="350" />
+      <image anchorx="122" anchory="304" w="250" h="350" />
+      <image anchorx="122" anchory="304" w="250" h="350" />
+      <image anchorx="122" anchory="304" w="250" h="350" />
+      <image anchorx="122" anchory="304" w="250" h="350" />
+      <image anchorx="122" anchory="304" w="250" h="350" />
+    </group>
+  </animation>
+  <animation name="bingdong">
+    <group name="skill">
+      <image anchorx="200" anchory="322" w="400" h="400" />
+      <image anchorx="200" anchory="322" w="400" h="400" />
+      <image anchorx="200" anchory="322" w="400" h="400" />
+      <image anchorx="200" anchory="322" w="400" h="400" />
+      <image anchorx="200" anchory="322" w="400" h="400" />
+      <image anchorx="200" anchory="322" w="400" h="400" />
+      <image anchorx="200" anchory="322" w="400" h="400" />
+      <image anchorx="200" anchory="322" w="400" h="400" />
+      <image anchorx="200" anchory="322" w="400" h="400" />
+      <image anchorx="200" anchory="322" w="400" h="400" />
+      <image anchorx="200" anchory="322" w="400" h="400" />
+      <image anchorx="200" anchory="322" w="400" h="400" />
+      <image anchorx="200" anchory="322" w="400" h="400" />
+      <image anchorx="200" anchory="322" w="400" h="400" />
+      <image anchorx="200" anchory="322" w="400" h="400" />
+      <image anchorx="200" anchory="322" w="400" h="400" />
+      <image anchorx="200" anchory="322" w="400" h="400" />
+      <image anchorx="200" anchory="322" w="400" h="400" />
+      <image anchorx="200" anchory="322" w="400" h="400" />
+      <image anchorx="200" anchory="322" w="400" h="400" />
+      <image anchorx="200" anchory="322" w="400" h="400" />
+      <image anchorx="200" anchory="322" w="400" h="400" />
+      <image anchorx="200" anchory="322" w="400" h="400" />
+    </group>
+  </animation>
+  <animation name="kulou_green">
+    <group name="skill">
+      <image anchorx="79" anchory="236" w="155" h="259" />
+      <image anchorx="302" anchory="448" w="600" h="500" />
+      <image anchorx="302" anchory="448" w="600" h="500" />
+      <image anchorx="302" anchory="448" w="600" h="500" />
+      <image anchorx="302" anchory="448" w="600" h="500" />
+      <image anchorx="302" anchory="448" w="600" h="500" />
+      <image anchorx="302" anchory="448" w="600" h="500" />
+      <image anchorx="302" anchory="448" w="600" h="500" />
+      <image anchorx="302" anchory="448" w="600" h="500" />
+      <image anchorx="302" anchory="448" w="600" h="500" />
+      <image anchorx="302" anchory="448" w="600" h="500" />
+      <image anchorx="162" anchory="414" w="349" h="365" />
+      <image anchorx="148" anchory="410" w="299" h="370" />
+      <image anchorx="148" anchory="410" w="306" h="375" />
+    </group>
+  </animation>
+  <animation name="luoshi">
+    <group name="skill">
+      <image anchorx="136" anchory="216" w="240" h="280" />
+      <image anchorx="135" anchory="216" w="240" h="280" />
+      <image anchorx="135" anchory="216" w="240" h="280" />
+      <image anchorx="135" anchory="216" w="240" h="280" />
+      <image anchorx="135" anchory="216" w="240" h="280" />
+      <image anchorx="135" anchory="216" w="240" h="280" />
+      <image anchorx="135" anchory="216" w="240" h="280" />
+      <image anchorx="135" anchory="216" w="240" h="280" />
+      <image anchorx="135" anchory="216" w="240" h="280" />
+    </group>
+  </animation>
+  <animation name="luoxing_yellow">
+    <group name="skill">
+      <image anchorx="50" anchory="110" w="100" h="110" />
+      <image anchorx="50" anchory="110" w="100" h="110" />
+      <image anchorx="50" anchory="110" w="100" h="110" />
+      <image anchorx="50" anchory="110" w="100" h="110" />
+      <image anchorx="50" anchory="110" w="100" h="110" />
+      <image anchorx="50" anchory="110" w="100" h="110" />
+      <image anchorx="50" anchory="110" w="100" h="110" />
+      <image anchorx="50" anchory="110" w="100" h="110" />
+    </group>
+  </animation>
+  <animation name="ball_purple">
+    <group name="skill">
+      <image anchorx="110" anchory="230" w="220" h="230" />
+      <image anchorx="110" anchory="230" w="220" h="230" />
+      <image anchorx="110" anchory="230" w="220" h="230" />
+      <image anchorx="110" anchory="230" w="220" h="230" />
+      <image anchorx="110" anchory="230" w="220" h="230" />
+      <image anchorx="110" anchory="230" w="220" h="230" />
+      <image anchorx="110" anchory="230" w="220" h="230" />
+      <image anchorx="110" anchory="230" w="220" h="230" />
+      <image anchorx="110" anchory="230" w="220" h="230" />
+      <image anchorx="110" anchory="230" w="220" h="230" />
+      <image anchorx="110" anchory="230" w="220" h="230" />
+      <image anchorx="110" anchory="230" w="220" h="230" />
+    </group>
+  </animation>
+  <animation name="luoxing_purple">
+    <group name="skill">
+      <image anchorx="78" anchory="252" w="150" h="280" />
+      <image anchorx="78" anchory="243" w="150" h="280" />
+      <image anchorx="78" anchory="243" w="150" h="280" />
+      <image anchorx="78" anchory="243" w="150" h="280" />
+      <image anchorx="78" anchory="243" w="150" h="280" />
+      <image anchorx="78" anchory="243" w="150" h="280" />
+      <image anchorx="78" anchory="243" w="150" h="280" />
+    </group>
+  </animation>
+  <animation name="baozha2">
+    <group name="skill">
+      <image anchorx="75" anchory="140" w="150" h="140" />
+      <image anchorx="75" anchory="140" w="150" h="140" />
+      <image anchorx="75" anchory="140" w="150" h="140" />
+      <image anchorx="75" anchory="140" w="150" h="140" />
+      <image anchorx="75" anchory="140" w="150" h="140" />
+      <image anchorx="75" anchory="140" w="150" h="140" />
+    </group>
+  </animation>
+  <animation name="hua">
+    <group name="skill">
+      <image anchorx="102" anchory="81" w="147" h="115" />
+      <image anchorx="104" anchory="94" w="160" h="142" />
+      <image anchorx="102" anchory="81" w="168" h="111" />
+      <image anchorx="125" anchory="251" w="250" h="300" />
+      <image anchorx="125" anchory="251" w="250" h="300" />
+      <image anchorx="125" anchory="251" w="250" h="300" />
+      <image anchorx="125" anchory="251" w="250" h="300" />
+      <image anchorx="125" anchory="251" w="250" h="300" />
+      <image anchorx="125" anchory="251" w="250" h="300" />
+      <image anchorx="125" anchory="250" w="250" h="300" />
+      <image anchorx="125" anchory="250" w="250" h="300" />
+    </group>
+  </animation>
+  <animation name="quanji">
+    <group name="skill">
+      <image anchorx="5" anchory="198" w="500" h="300" />
+      <image anchorx="5" anchory="202" w="500" h="300" />
+      <image anchorx="2" anchory="201" w="218" h="163" />
+      <image anchorx="250" anchory="184" w="500" h="300" />
+      <image anchorx="250" anchory="184" w="500" h="300" />
+      <image anchorx="250" anchory="184" w="500" h="300" />
+      <image anchorx="250" anchory="184" w="500" h="300" />
+      <image anchorx="250" anchory="184" w="500" h="300" />
+      <image anchorx="250" anchory="184" w="500" h="300" />
+      <image anchorx="36" anchory="118" w="116" h="223" />
+      <image anchorx="38" anchory="124" w="119" h="224" />
+      <image anchorx="38" anchory="124" w="99" h="208" />
+      <image anchorx="38" anchory="124" w="92" h="208" />
+      <image anchorx="42" anchory="125" w="96" h="177" />
+    </group>
+  </animation>
+  <animation name="long3">
+    <group name="skill">
+      <image anchorx="154" anchory="223" w="300" h="400" />
+      <image anchorx="154" anchory="223" w="300" h="400" />
+      <image anchorx="154" anchory="223" w="300" h="400" />
+      <image anchorx="153" anchory="251" w="300" h="400" />
+      <image anchorx="162" anchory="333" w="300" h="400" />
+      <image anchorx="163" anchory="332" w="300" h="400" />
+      <image anchorx="163" anchory="331" w="300" h="400" />
+      <image anchorx="163" anchory="331" w="300" h="400" />
+      <image anchorx="163" anchory="331" w="300" h="400" />
+      <image anchorx="163" anchory="331" w="300" h="400" />
+      <image anchorx="163" anchory="331" w="300" h="400" />
+    </group>
+  </animation>
+  <animation name="zhua">
+    <group name="skill">
+      <image anchorx="131" anchory="337" w="263" h="337" />
+      <image anchorx="131" anchory="337" w="263" h="337" />
+      <image anchorx="131" anchory="337" w="263" h="337" />
+      <image anchorx="131" anchory="337" w="263" h="337" />
+      <image anchorx="131" anchory="337" w="263" h="337" />
+      <image anchorx="131" anchory="337" w="263" h="337" />
+      <image anchorx="131" anchory="337" w="263" h="337" />
+      <image anchorx="131" anchory="337" w="263" h="337" />
+    </group>
+  </animation>
+  <animation name="longjuanfeng_green">
+    <group name="skill">
+      <image anchorx="214" anchory="270" w="400" h="400" />
+      <image anchorx="214" anchory="270" w="400" h="400" />
+      <image anchorx="214" anchory="270" w="400" h="400" />
+      <image anchorx="214" anchory="270" w="400" h="400" />
+      <image anchorx="214" anchory="270" w="400" h="400" />
+      <image anchorx="214" anchory="270" w="400" h="400" />
+      <image anchorx="214" anchory="270" w="400" h="400" />
+      <image anchorx="214" anchory="270" w="400" h="400" />
+      <image anchorx="214" anchory="270" w="400" h="400" />
+      <image anchorx="214" anchory="270" w="400" h="400" />
+    </group>
+  </animation>
+  <animation name="foxiang">
+    <group name="skill">
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+    </group>
+  </animation>
+  <animation name="qiege_blue">
+    <group name="skill">
+      <image anchorx="174" anchory="286" w="350" h="350" />
+      <image anchorx="174" anchory="286" w="350" h="350" />
+      <image anchorx="174" anchory="286" w="350" h="350" />
+      <image anchorx="174" anchory="286" w="350" h="350" />
+      <image anchorx="174" anchory="286" w="350" h="350" />
+      <image anchorx="174" anchory="286" w="350" h="350" />
+      <image anchorx="174" anchory="286" w="350" h="350" />
+      <image anchorx="174" anchory="286" w="350" h="350" />
+      <image anchorx="174" anchory="286" w="350" h="350" />
+      <image anchorx="174" anchory="286" w="350" h="350" />
+      <image anchorx="174" anchory="286" w="350" h="350" />
+      <image anchorx="174" anchory="286" w="350" h="350" />
+      <image anchorx="174" anchory="286" w="350" h="350" />
+      <image anchorx="174" anchory="286" w="350" h="350" />
+      <image anchorx="174" anchory="286" w="350" h="350" />
+    </group>
+  </animation>
+  <animation name="longjuanfeng2">
+    <group name="skill">
+      <image anchorx="198" anchory="310" w="400" h="400" />
+      <image anchorx="198" anchory="310" w="400" h="400" />
+      <image anchorx="198" anchory="310" w="400" h="400" />
+      <image anchorx="198" anchory="310" w="400" h="400" />
+      <image anchorx="198" anchory="310" w="400" h="400" />
+      <image anchorx="198" anchory="310" w="400" h="400" />
+      <image anchorx="198" anchory="310" w="400" h="400" />
+      <image anchorx="198" anchory="310" w="400" h="400" />
+      <image anchorx="198" anchory="310" w="400" h="400" />
+      <image anchorx="198" anchory="310" w="400" h="400" />
+      <image anchorx="198" anchory="310" w="400" h="400" />
+      <image anchorx="198" anchory="310" w="400" h="400" />
+      <image anchorx="198" anchory="310" w="400" h="400" />
+      <image anchorx="198" anchory="310" w="400" h="400" />
+    </group>
+  </animation>
+  <animation name="aoyi_xianglong">
+    <group name="skill">
+      <image anchorx="83" anchory="82" w="180" h="150" />
+      <image anchorx="83" anchory="82" w="180" h="150" />
+      <image anchorx="83" anchory="82" w="180" h="150" />
+      <image anchorx="83" anchory="82" w="180" h="150" />
+      <image anchorx="83" anchory="82" w="180" h="150" />
+      <image anchorx="83" anchory="82" w="180" h="150" />
+      <image anchorx="83" anchory="82" w="180" h="150" />
+      <image anchorx="83" anchory="82" w="180" h="150" />
+      <image anchorx="83" anchory="82" w="180" h="150" />
+      <image anchorx="83" anchory="82" w="180" h="150" />
+      <image anchorx="83" anchory="82" w="180" h="150" />
+      <image anchorx="83" anchory="82" w="180" h="150" />
+      <image anchorx="83" anchory="82" w="180" h="150" />
+      <image anchorx="83" anchory="82" w="180" h="150" />
+      <image anchorx="83" anchory="82" w="180" h="150" />
+      <image anchorx="83" anchory="82" w="180" h="150" />
+      <image anchorx="83" anchory="82" w="180" h="150" />
+      <image anchorx="83" anchory="82" w="180" h="150" />
+    </group>
+  </animation>
+  <animation name="aoyi_taiji">
+    <group name="skill">
+      <image anchorx="131" anchory="87" w="250" h="150" />
+      <image anchorx="131" anchory="87" w="250" h="150" />
+      <image anchorx="131" anchory="87" w="250" h="150" />
+      <image anchorx="131" anchory="87" w="250" h="150" />
+      <image anchorx="131" anchory="87" w="250" h="150" />
+      <image anchorx="131" anchory="87" w="250" h="150" />
+      <image anchorx="131" anchory="87" w="250" h="150" />
+      <image anchorx="131" anchory="87" w="250" h="150" />
+      <image anchorx="131" anchory="87" w="250" h="150" />
+      <image anchorx="131" anchory="87" w="250" h="150" />
+      <image anchorx="131" anchory="87" w="250" h="150" />
+      <image anchorx="131" anchory="87" w="250" h="150" />
+      <image anchorx="131" anchory="87" w="250" h="150" />
+      <image anchorx="131" anchory="87" w="250" h="150" />
+      <image anchorx="131" anchory="87" w="250" h="150" />
+      <image anchorx="131" anchory="87" w="250" h="150" />
+    </group>
+  </animation>
+  <animation name="huozhu_green">
+    <group name="skill">
+      <image anchorx="96" anchory="217" w="200" h="250" />
+      <image anchorx="96" anchory="217" w="200" h="250" />
+      <image anchorx="96" anchory="217" w="200" h="250" />
+      <image anchorx="96" anchory="217" w="200" h="250" />
+      <image anchorx="96" anchory="217" w="200" h="250" />
+      <image anchorx="96" anchory="217" w="200" h="250" />
+      <image anchorx="96" anchory="217" w="200" h="250" />
+      <image anchorx="96" anchory="217" w="200" h="250" />
+      <image anchorx="96" anchory="217" w="200" h="250" />
+      <image anchorx="96" anchory="217" w="200" h="250" />
+      <image anchorx="96" anchory="217" w="200" h="250" />
+      <image anchorx="96" anchory="217" w="200" h="250" />
+      <image anchorx="96" anchory="217" w="200" h="250" />
+      <image anchorx="96" anchory="217" w="200" h="250" />
+      <image anchorx="96" anchory="217" w="200" h="250" />
+      <image anchorx="96" anchory="217" w="200" h="250" />
+      <image anchorx="96" anchory="217" w="200" h="250" />
+    </group>
+  </animation>
+  <animation name="light">
+    <group name="skill">
+      <image anchorx="100" anchory="300" w="200" h="300" />
+      <image anchorx="100" anchory="300" w="200" h="300" />
+      <image anchorx="100" anchory="300" w="200" h="300" />
+      <image anchorx="100" anchory="300" w="200" h="300" />
+      <image anchorx="100" anchory="300" w="200" h="300" />
+      <image anchorx="100" anchory="300" w="200" h="300" />
+      <image anchorx="100" anchory="300" w="200" h="300" />
+      <image anchorx="100" anchory="300" w="200" h="300" />
+      <image anchorx="100" anchory="300" w="200" h="300" />
+      <image anchorx="100" anchory="300" w="200" h="300" />
+    </group>
+  </animation>
+  <animation name="huozhu_jin">
+    <group name="skill">
+      <image anchorx="74" anchory="304" w="181" h="324" />
+      <image anchorx="80" anchory="252" w="214" h="295" />
+      <image anchorx="96" anchory="514" w="221" h="514" />
+      <image anchorx="96" anchory="514" w="193" h="515" />
+      <image anchorx="104" anchory="516" w="209" h="522" />
+      <image anchorx="116" anchory="524" w="223" h="527" />
+      <image anchorx="124" anchory="526" w="243" h="527" />
+      <image anchorx="134" anchory="514" w="274" h="520" />
+      <image anchorx="122" anchory="506" w="240" h="521" />
+      <image anchorx="122" anchory="506" w="241" h="513" />
+      <image anchorx="116" anchory="476" w="227" h="489" />
+      <image anchorx="105" anchory="464" w="211" h="464" />
+      <image anchorx="100" anchory="461" w="201" h="461" />
+    </group>
+  </animation>
+  <animation name="fire">
+    <group name="skill">
+      <image anchorx="140" anchory="308" w="280" h="350" />
+      <image anchorx="140" anchory="308" w="280" h="350" />
+      <image anchorx="140" anchory="308" w="280" h="350" />
+      <image anchorx="140" anchory="308" w="280" h="350" />
+      <image anchorx="140" anchory="308" w="280" h="350" />
+      <image anchorx="140" anchory="308" w="280" h="350" />
+      <image anchorx="140" anchory="308" w="280" h="350" />
+      <image anchorx="140" anchory="308" w="280" h="350" />
+      <image anchorx="140" anchory="308" w="280" h="350" />
+      <image anchorx="140" anchory="308" w="280" h="350" />
+      <image anchorx="140" anchory="308" w="280" h="350" />
+      <image anchorx="140" anchory="308" w="280" h="350" />
+      <image anchorx="140" anchory="308" w="280" h="350" />
+      <image anchorx="140" anchory="308" w="280" h="350" />
+      <image anchorx="140" anchory="308" w="280" h="350" />
+      <image anchorx="140" anchory="308" w="280" h="350" />
+      <image anchorx="140" anchory="308" w="280" h="350" />
+      <image anchorx="140" anchory="308" w="280" h="350" />
+      <image anchorx="140" anchory="308" w="280" h="350" />
+      <image anchorx="140" anchory="308" w="280" h="350" />
+    </group>
+  </animation>
+  <animation name="bingkuai">
+    <group name="skill">
+      <image anchorx="217" anchory="191" w="442" h="274" />
+      <image anchorx="217" anchory="191" w="442" h="274" />
+      <image anchorx="217" anchory="191" w="442" h="274" />
+      <image anchorx="217" anchory="191" w="442" h="274" />
+      <image anchorx="217" anchory="191" w="442" h="274" />
+      <image anchorx="217" anchory="191" w="442" h="274" />
+      <image anchorx="217" anchory="191" w="442" h="274" />
+      <image anchorx="217" anchory="191" w="442" h="274" />
+      <image anchorx="217" anchory="191" w="442" h="274" />
+      <image anchorx="217" anchory="191" w="442" h="274" />
+      <image anchorx="217" anchory="191" w="442" h="274" />
+      <image anchorx="217" anchory="191" w="442" h="274" />
+      <image anchorx="217" anchory="191" w="442" h="274" />
+      <image anchorx="217" anchory="191" w="442" h="274" />
+      <image anchorx="217" anchory="191" w="442" h="274" />
+      <image anchorx="217" anchory="191" w="442" h="274" />
+      <image anchorx="217" anchory="191" w="442" h="274" />
+      <image anchorx="217" anchory="191" w="442" h="274" />
+      <image anchorx="217" anchory="191" w="442" h="274" />
+      <image anchorx="217" anchory="191" w="442" h="274" />
+    </group>
+  </animation>
+  <animation name="dalei">
+    <group name="skill">
+      <image anchorx="149" anchory="270" w="300" h="300" />
+      <image anchorx="149" anchory="270" w="300" h="300" />
+      <image anchorx="149" anchory="270" w="300" h="300" />
+      <image anchorx="149" anchory="270" w="300" h="300" />
+      <image anchorx="149" anchory="270" w="300" h="300" />
+      <image anchorx="149" anchory="270" w="300" h="300" />
+      <image anchorx="149" anchory="270" w="300" h="300" />
+      <image anchorx="149" anchory="270" w="300" h="300" />
+      <image anchorx="149" anchory="270" w="300" h="300" />
+      <image anchorx="149" anchory="270" w="300" h="300" />
+      <image anchorx="149" anchory="270" w="300" h="300" />
+      <image anchorx="149" anchory="270" w="300" h="300" />
+      <image anchorx="149" anchory="270" w="300" h="300" />
+      <image anchorx="149" anchory="270" w="300" h="300" />
+      <image anchorx="149" anchory="270" w="300" h="300" />
+      <image anchorx="149" anchory="270" w="300" h="300" />
+      <image anchorx="149" anchory="270" w="300" h="300" />
+      <image anchorx="149" anchory="270" w="300" h="300" />
+      <image anchorx="149" anchory="270" w="300" h="300" />
+      <image anchorx="149" anchory="270" w="300" h="300" />
+      <image anchorx="149" anchory="270" w="300" h="300" />
+      <image anchorx="149" anchory="270" w="300" h="300" />
+      <image anchorx="149" anchory="270" w="300" h="300" />
+      <image anchorx="149" anchory="270" w="300" h="300" />
+      <image anchorx="149" anchory="270" w="300" h="300" />
+    </group>
+  </animation>
+  <animation name="baozha3">
+    <group name="skill">
+      <image anchorx="75" anchory="156" w="149" h="181" />
+      <image anchorx="75" anchory="156" w="149" h="181" />
+      <image anchorx="75" anchory="156" w="149" h="181" />
+      <image anchorx="75" anchory="156" w="149" h="181" />
+      <image anchorx="75" anchory="156" w="149" h="181" />
+      <image anchorx="75" anchory="156" w="149" h="181" />
+      <image anchorx="75" anchory="156" w="149" h="181" />
+      <image anchorx="75" anchory="156" w="149" h="181" />
+      <image anchorx="75" anchory="156" w="149" h="181" />
+      <image anchorx="75" anchory="156" w="149" h="181" />
+      <image anchorx="75" anchory="156" w="149" h="181" />
+      <image anchorx="75" anchory="156" w="149" h="181" />
+      <image anchorx="75" anchory="156" w="149" h="181" />
+    </group>
+  </animation>
+  <animation name="baozha4">
+    <group name="skill">
+      <image anchorx="154" anchory="154" w="307" h="190" />
+      <image anchorx="154" anchory="156" w="307" h="190" />
+      <image anchorx="154" anchory="156" w="307" h="190" />
+      <image anchorx="154" anchory="156" w="307" h="190" />
+      <image anchorx="154" anchory="156" w="307" h="190" />
+      <image anchorx="154" anchory="156" w="307" h="190" />
+      <image anchorx="154" anchory="156" w="307" h="190" />
+      <image anchorx="154" anchory="156" w="307" h="190" />
+      <image anchorx="154" anchory="156" w="307" h="190" />
+      <image anchorx="154" anchory="156" w="307" h="190" />
+      <image anchorx="154" anchory="156" w="307" h="190" />
+      <image anchorx="154" anchory="156" w="307" h="190" />
+      <image anchorx="154" anchory="156" w="307" h="190" />
+      <image anchorx="154" anchory="156" w="307" h="190" />
+      <image anchorx="154" anchory="156" w="307" h="190" />
+      <image anchorx="154" anchory="156" w="307" h="190" />
+      <image anchorx="154" anchory="156" w="307" h="190" />
+      <image anchorx="154" anchory="156" w="307" h="190" />
+      <image anchorx="154" anchory="156" w="307" h="190" />
+    </group>
+  </animation>
+  <animation name="taiji3">
+    <group name="skill">
+      <image anchorx="114" anchory="204" w="232" h="273" />
+      <image anchorx="114" anchory="204" w="232" h="273" />
+      <image anchorx="114" anchory="210" w="231" h="278" />
+      <image anchorx="113" anchory="210" w="227" h="278" />
+      <image anchorx="114" anchory="210" w="231" h="278" />
+      <image anchorx="115" anchory="205" w="233" h="274" />
+    </group>
+  </animation>
+  <animation name="baozha5">
+    <group name="skill">
+      <image anchorx="129" anchory="217" w="256" h="256" />
+      <image anchorx="129" anchory="217" w="256" h="256" />
+      <image anchorx="129" anchory="217" w="256" h="256" />
+      <image anchorx="129" anchory="217" w="256" h="256" />
+      <image anchorx="129" anchory="217" w="256" h="256" />
+      <image anchorx="129" anchory="217" w="256" h="256" />
+      <image anchorx="129" anchory="217" w="256" h="256" />
+      <image anchorx="129" anchory="217" w="256" h="256" />
+      <image anchorx="129" anchory="217" w="256" h="256" />
+      <image anchorx="129" anchory="217" w="256" h="256" />
+      <image anchorx="129" anchory="217" w="256" h="256" />
+      <image anchorx="129" anchory="217" w="256" h="256" />
+      <image anchorx="129" anchory="217" w="256" h="256" />
+      <image anchorx="129" anchory="217" w="256" h="256" />
+      <image anchorx="129" anchory="217" w="256" h="256" />
+      <image anchorx="129" anchory="217" w="256" h="256" />
+      <image anchorx="129" anchory="217" w="256" h="256" />
+      <image anchorx="129" anchory="217" w="256" h="256" />
+      <image anchorx="129" anchory="217" w="256" h="256" />
+    </group>
+  </animation>
+  <animation name="taiji4">
+    <group name="skill">
+      <image anchorx="138" anchory="198" w="280" h="280" />
+      <image anchorx="138" anchory="198" w="280" h="280" />
+      <image anchorx="138" anchory="198" w="280" h="280" />
+      <image anchorx="138" anchory="198" w="280" h="280" />
+      <image anchorx="138" anchory="198" w="280" h="280" />
+      <image anchorx="138" anchory="198" w="280" h="280" />
+      <image anchorx="138" anchory="198" w="280" h="280" />
+      <image anchorx="138" anchory="198" w="280" h="280" />
+      <image anchorx="138" anchory="198" w="280" h="280" />
+      <image anchorx="138" anchory="198" w="280" h="280" />
+      <image anchorx="138" anchory="198" w="280" h="280" />
+      <image anchorx="138" anchory="198" w="280" h="280" />
+      <image anchorx="138" anchory="198" w="280" h="280" />
+      <image anchorx="138" anchory="198" w="280" h="280" />
+      <image anchorx="138" anchory="198" w="280" h="280" />
+      <image anchorx="138" anchory="198" w="280" h="280" />
+      <image anchorx="138" anchory="198" w="280" h="280" />
+      <image anchorx="138" anchory="198" w="280" h="280" />
+    </group>
+  </animation>
+  <animation name="duyao">
+    <group name="skill">
+      <image anchorx="159" anchory="150" w="293" h="203" />
+      <image anchorx="159" anchory="150" w="293" h="203" />
+      <image anchorx="159" anchory="150" w="293" h="203" />
+      <image anchorx="159" anchory="150" w="293" h="203" />
+      <image anchorx="159" anchory="150" w="293" h="203" />
+      <image anchorx="159" anchory="150" w="293" h="203" />
+      <image anchorx="159" anchory="150" w="293" h="203" />
+      <image anchorx="159" anchory="150" w="293" h="203" />
+      <image anchorx="159" anchory="150" w="293" h="203" />
+      <image anchorx="159" anchory="150" w="293" h="203" />
+      <image anchorx="159" anchory="150" w="293" h="203" />
+      <image anchorx="159" anchory="150" w="293" h="203" />
+      <image anchorx="159" anchory="150" w="293" h="203" />
+      <image anchorx="159" anchory="150" w="293" h="203" />
+      <image anchorx="159" anchory="150" w="293" h="203" />
+      <image anchorx="159" anchory="150" w="293" h="203" />
+      <image anchorx="159" anchory="150" w="293" h="203" />
+      <image anchorx="159" anchory="150" w="293" h="203" />
+      <image anchorx="159" anchory="150" w="293" h="203" />
+      <image anchorx="159" anchory="150" w="293" h="203" />
+    </group>
+  </animation>
+  <animation name="duyao2">
+    <group name="skill">
+      <image anchorx="146" anchory="117" w="292" h="195" />
+      <image anchorx="146" anchory="117" w="292" h="195" />
+      <image anchorx="146" anchory="117" w="292" h="195" />
+      <image anchorx="146" anchory="117" w="292" h="195" />
+      <image anchorx="146" anchory="117" w="292" h="195" />
+      <image anchorx="146" anchory="117" w="292" h="195" />
+      <image anchorx="146" anchory="117" w="292" h="195" />
+      <image anchorx="146" anchory="117" w="292" h="195" />
+      <image anchorx="146" anchory="117" w="292" h="195" />
+      <image anchorx="146" anchory="117" w="292" h="195" />
+      <image anchorx="146" anchory="117" w="292" h="195" />
+      <image anchorx="146" anchory="117" w="292" h="195" />
+      <image anchorx="146" anchory="117" w="292" h="195" />
+      <image anchorx="146" anchory="117" w="292" h="195" />
+    </group>
+  </animation>
+  <animation name="baozha_blue">
+    <group name="skill">
+      <image anchorx="117" anchory="164" w="232" h="217" />
+      <image anchorx="117" anchory="164" w="232" h="217" />
+      <image anchorx="117" anchory="164" w="232" h="217" />
+      <image anchorx="117" anchory="164" w="232" h="217" />
+      <image anchorx="117" anchory="164" w="232" h="217" />
+      <image anchorx="117" anchory="164" w="232" h="217" />
+      <image anchorx="117" anchory="164" w="232" h="217" />
+      <image anchorx="117" anchory="164" w="232" h="217" />
+      <image anchorx="117" anchory="164" w="232" h="217" />
+      <image anchorx="117" anchory="164" w="232" h="217" />
+      <image anchorx="117" anchory="164" w="232" h="217" />
+      <image anchorx="117" anchory="164" w="232" h="217" />
+      <image anchorx="117" anchory="164" w="232" h="217" />
+    </group>
+  </animation>
+  <animation name="baozha_yellow">
+    <group name="skill">
+      <image anchorx="122" anchory="156" w="241" h="225" />
+      <image anchorx="122" anchory="156" w="241" h="225" />
+      <image anchorx="122" anchory="156" w="241" h="225" />
+      <image anchorx="122" anchory="156" w="241" h="225" />
+      <image anchorx="122" anchory="156" w="241" h="225" />
+      <image anchorx="122" anchory="156" w="241" h="225" />
+      <image anchorx="122" anchory="156" w="241" h="225" />
+      <image anchorx="122" anchory="156" w="241" h="225" />
+      <image anchorx="122" anchory="156" w="241" h="225" />
+      <image anchorx="122" anchory="156" w="241" h="225" />
+      <image anchorx="122" anchory="156" w="241" h="225" />
+      <image anchorx="122" anchory="156" w="241" h="225" />
+      <image anchorx="122" anchory="156" w="241" h="225" />
+    </group>
+  </animation>
+  <animation name="baozha_green">
+    <group name="skill">
+      <image anchorx="127" anchory="148" w="250" h="221" />
+      <image anchorx="127" anchory="148" w="250" h="221" />
+      <image anchorx="127" anchory="148" w="250" h="221" />
+      <image anchorx="127" anchory="148" w="250" h="221" />
+      <image anchorx="127" anchory="148" w="250" h="221" />
+      <image anchorx="127" anchory="148" w="250" h="221" />
+      <image anchorx="127" anchory="148" w="250" h="221" />
+      <image anchorx="127" anchory="148" w="250" h="221" />
+      <image anchorx="127" anchory="148" w="250" h="221" />
+      <image anchorx="127" anchory="148" w="250" h="221" />
+      <image anchorx="127" anchory="148" w="250" h="221" />
+      <image anchorx="127" anchory="148" w="250" h="221" />
+      <image anchorx="127" anchory="148" w="250" h="221" />
+    </group>
+  </animation>
+  <animation name="fo">
+    <group name="skill">
+      <image anchorx="145" anchory="311" w="290" h="311" />
+      <image anchorx="145" anchory="311" w="290" h="311" />
+      <image anchorx="145" anchory="311" w="290" h="311" />
+      <image anchorx="145" anchory="311" w="290" h="311" />
+      <image anchorx="145" anchory="311" w="290" h="311" />
+      <image anchorx="145" anchory="311" w="290" h="311" />
+      <image anchorx="145" anchory="311" w="290" h="311" />
+      <image anchorx="145" anchory="311" w="290" h="311" />
+      <image anchorx="145" anchory="311" w="290" h="311" />
+      <image anchorx="145" anchory="311" w="290" h="311" />
+    </group>
+  </animation>
+  <animation name="flower">
+    <group name="skill">
+      <image anchorx="8" anchory="17" w="13" h="13" />
+      <image anchorx="17" anchory="32" w="29" h="29" />
+      <image anchorx="24" anchory="47" w="47" h="46" />
+      <image anchorx="31" anchory="59" w="60" h="61" />
+      <image anchorx="37" anchory="69" w="68" h="67" />
+      <image anchorx="40" anchory="75" w="76" h="75" />
+      <image anchorx="44" anchory="83" w="83" h="83" />
+      <image anchorx="52" anchory="95" w="93" h="92" />
+      <image anchorx="54" anchory="101" w="101" h="101" />
+      <image anchorx="49" anchory="103" w="105" h="105" />
+      <image anchorx="45" anchory="85" w="90" h="90" />
+      <image anchorx="41" anchory="87" w="87" h="87" />
+    </group>
+  </animation>
+  <animation name="guanghuan_shengji">
+    <group name="skill">
+      <image anchorx="77" anchory="192" w="155" h="192" />
+      <image anchorx="76" anchory="197" w="153" h="197" />
+      <image anchorx="80" anchory="363" w="160" h="363" />
+      <image anchorx="86" anchory="302" w="172" h="352" />
+      <image anchorx="94" anchory="325" w="183" h="389" />
+      <image anchorx="87" anchory="250" w="175" h="303" />
+      <image anchorx="104" anchory="229" w="194" h="295" />
+      <image anchorx="102" anchory="163" w="207" h="254" />
+      <image anchorx="81" anchory="49" w="163" h="97" />
+    </group>
+  </animation>
+  <animation name="anqi">
+    <group name="skill">
+      <image anchorx="78" anchory="150" w="150" h="150" />
+      <image anchorx="78" anchory="150" w="150" h="150" />
+      <image anchorx="78" anchory="150" w="150" h="150" />
+      <image anchorx="78" anchory="150" w="150" h="150" />
+      <image anchorx="78" anchory="150" w="150" h="150" />
+    </group>
+  </animation>
+  <animation name="hit">
+    <group name="skill">
+      <image anchorx="138" anchory="199" w="274" h="264" />
+      <image anchorx="138" anchory="199" w="274" h="264" />
+      <image anchorx="138" anchory="199" w="274" h="264" />
+      <image anchorx="138" anchory="199" w="274" h="264" />
+      <image anchorx="138" anchory="199" w="274" h="264" />
+      <image anchorx="137" anchory="199" w="274" h="264" />
+      <image anchorx="137" anchory="197" w="274" h="264" />
+    </group>
+  </animation>
+  <animation name="flower2">
+    <group name="skill">
+      <image anchorx="50" anchory="100" w="100" h="100" />
+      <image anchorx="50" anchory="100" w="100" h="100" />
+      <image anchorx="50" anchory="100" w="100" h="100" />
+      <image anchorx="50" anchory="100" w="100" h="100" />
+      <image anchorx="50" anchory="100" w="100" h="100" />
+      <image anchorx="50" anchory="100" w="100" h="100" />
+      <image anchorx="50" anchory="100" w="100" h="100" />
+      <image anchorx="50" anchory="100" w="100" h="100" />
+      <image anchorx="50" anchory="100" w="100" h="100" />
+      <image anchorx="50" anchory="100" w="100" h="100" />
+      <image anchorx="50" anchory="100" w="100" h="100" />
+      <image anchorx="50" anchory="100" w="100" h="100" />
+      <image anchorx="50" anchory="100" w="100" h="100" />
+      <image anchorx="50" anchory="100" w="100" h="100" />
+    </group>
+  </animation>
+  <animation name="bingdong2">
+    <group name="skill">
+      <image anchorx="250" anchory="188" w="489" h="329" />
+      <image anchorx="250" anchory="188" w="489" h="329" />
+      <image anchorx="250" anchory="188" w="492" h="329" />
+      <image anchorx="250" anchory="188" w="492" h="329" />
+      <image anchorx="250" anchory="188" w="490" h="329" />
+      <image anchorx="250" anchory="188" w="477" h="329" />
+      <image anchorx="170" anchory="147" w="325" h="262" />
+      <image anchorx="73" anchory="69" w="140" h="97" />
+    </group>
+  </animation>
+  <animation name="bingpao">
+    <group name="skill">
+      <image anchorx="29" anchory="82" w="149" h="71" />
+      <image anchorx="67" anchory="94" w="162" h="115" />
+      <image anchorx="156" anchory="92" w="329" h="160" />
+      <image anchorx="162" anchory="195" w="333" h="262" />
+      <image anchorx="140" anchory="272" w="295" h="329" />
+      <image anchorx="142" anchory="264" w="308" h="339" />
+      <image anchorx="93" anchory="217" w="209" h="266" />
+      <image anchorx="6" anchory="154" w="36" h="81" />
+    </group>
+  </animation>
+  <animation name="gunzi">
+    <group name="skill">
+      <image anchorx="169" anchory="180" w="350" h="300" />
+      <image anchorx="169" anchory="180" w="350" h="300" />
+      <image anchorx="169" anchory="180" w="350" h="300" />
+      <image anchorx="169" anchory="180" w="350" h="300" />
+      <image anchorx="169" anchory="180" w="350" h="300" />
+      <image anchorx="169" anchory="180" w="350" h="300" />
+      <image anchorx="169" anchory="180" w="350" h="300" />
+      <image anchorx="169" anchory="180" w="350" h="300" />
+      <image anchorx="169" anchory="180" w="350" h="300" />
+    </group>
+  </animation>
+  <animation name="flower_jian">
+    <group name="skill">
+      <image anchorx="121" anchory="157" w="242" h="157" />
+      <image anchorx="121" anchory="363" w="243" h="363" />
+      <image anchorx="105" anchory="339" w="232" h="340" />
+      <image anchorx="85" anchory="337" w="198" h="339" />
+      <image anchorx="81" anchory="325" w="226" h="325" />
+      <image anchorx="82" anchory="335" w="258" h="339" />
+      <image anchorx="76" anchory="319" w="270" h="321" />
+      <image anchorx="75" anchory="299" w="270" h="298" />
+      <image anchorx="81" anchory="299" w="221" h="280" />
+      <image anchorx="72" anchory="300" w="228" h="267" />
+    </group>
+  </animation>
+  <animation name="jian_zhan">
+    <group name="skill">
+      <image anchorx="119" anchory="213" w="170" h="260" />
+      <image anchorx="196" anchory="280" w="310" h="330" />
+      <image anchorx="206" anchory="315" w="330" h="370" />
+      <image anchorx="224" anchory="317" w="370" h="390" />
+      <image anchorx="216" anchory="318" w="370" h="390" />
+      <image anchorx="223" anchory="320" w="380" h="390" />
+      <image anchorx="242" anchory="328" w="380" h="390" />
+      <image anchorx="266" anchory="320" w="410" h="390" />
+      <image anchorx="274" anchory="330" w="400" h="390" />
+      <image anchorx="266" anchory="322" w="380" h="370" />
+      <image anchorx="244" anchory="318" w="360" h="370" />
+      <image anchorx="221" anchory="150" w="340" h="230" />
+      <image anchorx="197" anchory="141" w="320" h="230" />
+      <image anchorx="166" anchory="85" w="290" h="190" />
+    </group>
+  </animation>
+  <animation name="jianqi">
+    <group name="skill">
+      <image anchorx="30" anchory="248" w="60" h="248" />
+      <image anchorx="30" anchory="248" w="60" h="248" />
+      <image anchorx="30" anchory="248" w="60" h="248" />
+      <image anchorx="29" anchory="318" w="58" h="318" />
+      <image anchorx="142" anchory="314" w="253" h="314" />
+      <image anchorx="148" anchory="338" w="247" h="340" />
+      <image anchorx="202" anchory="319" w="424" h="404" />
+      <image anchorx="214" anchory="216" w="427" h="309" />
+      <image anchorx="216" anchory="250" w="435" h="346" />
+    </group>
+  </animation>
+  <animation name="bagua">
+    <group name="skill">
+      <image anchorx="211" anchory="250" w="430" h="360" />
+      <image anchorx="211" anchory="250" w="430" h="360" />
+      <image anchorx="211" anchory="250" w="430" h="360" />
+      <image anchorx="211" anchory="250" w="430" h="360" />
+      <image anchorx="211" anchory="250" w="430" h="360" />
+      <image anchorx="211" anchory="250" w="430" h="360" />
+      <image anchorx="211" anchory="250" w="430" h="360" />
+      <image anchorx="211" anchory="250" w="430" h="360" />
+    </group>
+  </animation>
+  <animation name="yunshi">
+    <group name="skill">
+      <image anchorx="225" anchory="288" w="430" h="360" />
+      <image anchorx="225" anchory="288" w="430" h="360" />
+      <image anchorx="225" anchory="288" w="430" h="360" />
+      <image anchorx="225" anchory="288" w="430" h="360" />
+      <image anchorx="225" anchory="288" w="430" h="360" />
+      <image anchorx="225" anchory="288" w="430" h="360" />
+      <image anchorx="225" anchory="288" w="430" h="360" />
+    </group>
+  </animation>
+  <animation name="yunshi_big">
+    <group name="skill">
+      <image anchorx="310" anchory="436" w="620" h="566" />
+      <image anchorx="310" anchory="436" w="620" h="566" />
+      <image anchorx="310" anchory="436" w="620" h="566" />
+      <image anchorx="310" anchory="436" w="620" h="566" />
+      <image anchorx="310" anchory="436" w="620" h="566" />
+      <image anchorx="310" anchory="436" w="620" h="566" />
+      <image anchorx="310" anchory="436" w="620" h="566" />
+      <image anchorx="310" anchory="436" w="620" h="566" />
+      <image anchorx="310" anchory="436" w="620" h="566" />
+      <image anchorx="310" anchory="436" w="620" h="566" />
+      <image anchorx="310" anchory="436" w="620" h="566" />
+      <image anchorx="310" anchory="436" w="620" h="566" />
+      <image anchorx="310" anchory="436" w="620" h="566" />
+      <image anchorx="310" anchory="436" w="620" h="566" />
+      <image anchorx="310" anchory="436" w="620" h="566" />
+    </group>
+  </animation>
+  <animation name="quantou_zadi">
+    <group name="skill">
+      <image anchorx="222" anchory="218" w="430" h="360" />
+      <image anchorx="222" anchory="218" w="430" h="360" />
+      <image anchorx="222" anchory="218" w="430" h="360" />
+      <image anchorx="222" anchory="218" w="430" h="360" />
+      <image anchorx="222" anchory="218" w="430" h="360" />
+      <image anchorx="222" anchory="218" w="430" h="360" />
+      <image anchorx="222" anchory="218" w="430" h="360" />
+      <image anchorx="222" anchory="218" w="430" h="360" />
+      <image anchorx="222" anchory="218" w="430" h="360" />
+      <image anchorx="222" anchory="218" w="430" h="360" />
+      <image anchorx="222" anchory="218" w="430" h="360" />
+      <image anchorx="222" anchory="218" w="430" h="360" />
+      <image anchorx="222" anchory="218" w="430" h="360" />
+    </group>
+  </animation>
+  <animation name="xiayu">
+    <group name="skill">
+      <image anchorx="204" anchory="247" w="430" h="360" />
+      <image anchorx="204" anchory="247" w="430" h="360" />
+      <image anchorx="204" anchory="247" w="430" h="360" />
+      <image anchorx="204" anchory="247" w="430" h="360" />
+      <image anchorx="204" anchory="247" w="430" h="360" />
+      <image anchorx="204" anchory="247" w="430" h="360" />
+      <image anchorx="204" anchory="247" w="430" h="360" />
+      <image anchorx="204" anchory="247" w="430" h="360" />
+      <image anchorx="204" anchory="247" w="430" h="360" />
+      <image anchorx="204" anchory="247" w="430" h="360" />
+      <image anchorx="204" anchory="247" w="430" h="360" />
+      <image anchorx="204" anchory="247" w="430" h="360" />
+      <image anchorx="204" anchory="247" w="430" h="360" />
+      <image anchorx="204" anchory="247" w="430" h="360" />
+      <image anchorx="204" anchory="247" w="430" h="360" />
+      <image anchorx="204" anchory="247" w="430" h="360" />
+    </group>
+  </animation>
+  <animation name="aoyi_fire">
+    <group name="skill">
+      <image anchorx="130" anchory="125" w="260" h="125" />
+      <image anchorx="134" anchory="138" w="269" h="138" />
+      <image anchorx="325" anchory="230" w="651" h="230" />
+      <image anchorx="318" anchory="226" w="637" h="226" />
+      <image anchorx="333" anchory="286" w="667" h="286" />
+      <image anchorx="348" anchory="317" w="697" h="317" />
+      <image anchorx="356" anchory="349" w="713" h="349" />
+      <image anchorx="394" anchory="375" w="789" h="375" />
+      <image anchorx="438" anchory="404" w="877" h="404" />
+      <image anchorx="479" anchory="430" w="958" h="430" />
+      <image anchorx="507" anchory="455" w="1015" h="455" />
+    </group>
+  </animation>
+  <animation name="aoyi_flower">
+    <group name="skill">
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+    </group>
+  </animation>
+  <animation name="aoyi_light">
+    <group name="skill">
+      <image anchorx="101" anchory="182" w="202" h="182" />
+      <image anchorx="98" anchory="181" w="196" h="181" />
+      <image anchorx="89" anchory="190" w="179" h="190" />
+      <image anchorx="75" anchory="190" w="150" h="190" />
+      <image anchorx="81" anchory="188" w="162" h="188" />
+      <image anchorx="82" anchory="170" w="164" h="170" />
+      <image anchorx="78" anchory="127" w="156" h="127" />
+      <image anchorx="63" anchory="66" w="127" h="66" />
+      <image anchorx="26" anchory="24" w="53" h="24" />
+    </group>
+  </animation>
+  <animation name="aoyi_yezi">
+    <group name="skill">
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+    </group>
+  </animation>
+  <animation name="aoyi_lanyan">
+    <group name="skill">
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+    </group>
+  </animation>
+  <animation name="aoyi_she">
+    <group name="skill">
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+      <image anchorx="320" anchory="480" w="640" h="480" />
+    </group>
+  </animation>
+  <animation name="aoyi_shengsifu">
+    <group name="skill">
+      <image anchorx="101" anchory="127" w="186" h="231" />
+      <image anchorx="102" anchory="193" w="188" h="300" />
+      <image anchorx="104" anchory="270" w="191" h="343" />
+      <image anchorx="126" anchory="304" w="255" h="359" />
+      <image anchorx="134" anchory="386" w="268" h="416" />
+      <image anchorx="302" anchory="384" w="600" h="500" />
+      <image anchorx="302" anchory="384" w="600" h="500" />
+      <image anchorx="302" anchory="384" w="600" h="500" />
+      <image anchorx="302" anchory="384" w="600" h="500" />
+      <image anchorx="302" anchory="384" w="600" h="500" />
+      <image anchorx="302" anchory="384" w="600" h="500" />
+      <image anchorx="302" anchory="384" w="600" h="500" />
+    </group>
+  </animation>
+  <animation name="aoyi_jinzhong">
+    <group name="skill">
+      <image anchorx="150" anchory="300" w="300" h="300" />
+      <image anchorx="150" anchory="300" w="300" h="300" />
+      <image anchorx="150" anchory="300" w="300" h="300" />
+      <image anchorx="150" anchory="300" w="300" h="300" />
+      <image anchorx="150" anchory="300" w="300" h="300" />
+      <image anchorx="150" anchory="300" w="300" h="300" />
+      <image anchorx="150" anchory="300" w="300" h="300" />
+      <image anchorx="150" anchory="300" w="300" h="300" />
+      <image anchorx="150" anchory="300" w="300" h="300" />
+      <image anchorx="150" anchory="300" w="300" h="300" />
+    </group>
+  </animation>
+  <animation name="aoyi_laolong">
+    <group name="skill">
+      <image anchorx="124" anchory="268" w="231" h="404" />
+      <image anchorx="266" anchory="428" w="538" h="521" />
+      <image anchorx="298" anchory="434" w="603" h="508" />
+      <image anchorx="336" anchory="434" w="663" h="508" />
+      <image anchorx="362" anchory="440" w="721" h="508" />
+      <image anchorx="362" anchory="440" w="706" h="508" />
+      <image anchorx="362" anchory="440" w="712" h="508" />
+      <image anchorx="316" anchory="428" w="627" h="508" />
+      <image anchorx="316" anchory="420" w="644" h="508" />
+      <image anchorx="318" anchory="402" w="641" h="496" />
+    </group>
+  </animation>
+  <animation name="aoyi_quanblue">
+    <group name="skill">
+      <image anchorx="180" anchory="280" w="360" h="280" />
+      <image anchorx="180" anchory="280" w="360" h="280" />
+      <image anchorx="180" anchory="280" w="360" h="280" />
+      <image anchorx="180" anchory="280" w="360" h="280" />
+      <image anchorx="180" anchory="280" w="360" h="280" />
+      <image anchorx="180" anchory="280" w="360" h="280" />
+    </group>
+  </animation>
+  <animation name="aoyi_bluelight">
+    <group name="skill">
+      <image anchorx="138" anchory="142" w="450" h="200" />
+      <image anchorx="220" anchory="149" w="450" h="200" />
+      <image anchorx="220" anchory="149" w="450" h="200" />
+      <image anchorx="247" anchory="150" w="450" h="200" />
+      <image anchorx="228" anchory="145" w="450" h="200" />
+      <image anchorx="236" anchory="145" w="450" h="200" />
+      <image anchorx="259" anchory="137" w="450" h="200" />
+      <image anchorx="256" anchory="137" w="450" h="200" />
+      <image anchorx="256" anchory="137" w="450" h="200" />
+      <image anchorx="256" anchory="113" w="450" h="200" />
+    </group>
+  </animation>
+  <animation name="aoyi_zhangblue">
+    <group name="skill">
+      <image anchorx="150" anchory="220" w="300" h="220" />
+      <image anchorx="150" anchory="220" w="300" h="220" />
+      <image anchorx="150" anchory="220" w="300" h="220" />
+      <image anchorx="150" anchory="220" w="300" h="220" />
+      <image anchorx="150" anchory="220" w="300" h="220" />
+      <image anchorx="150" anchory="220" w="300" h="220" />
+      <image anchorx="150" anchory="220" w="300" h="220" />
+      <image anchorx="150" anchory="220" w="300" h="220" />
+      <image anchorx="150" anchory="220" w="300" h="220" />
+    </group>
+  </animation>
+  <animation name="aoyi_multizhongblue">
+    <group name="skill">
+      <image anchorx="75" anchory="220" w="150" h="220" />
+      <image anchorx="75" anchory="220" w="150" h="220" />
+      <image anchorx="75" anchory="220" w="150" h="220" />
+      <image anchorx="75" anchory="220" w="150" h="220" />
+      <image anchorx="75" anchory="220" w="150" h="220" />
+      <image anchorx="75" anchory="220" w="150" h="220" />
+      <image anchorx="75" anchory="220" w="150" h="220" />
+      <image anchorx="75" anchory="220" w="150" h="220" />
+    </group>
+  </animation>
+  <animation name="aoyi_hongzha">
+    <group name="skill">
+      <image anchorx="375" anchory="750" w="750" h="750" />
+      <image anchorx="375" anchory="750" w="750" h="750" />
+      <image anchorx="375" anchory="750" w="750" h="750" />
+      <image anchorx="375" anchory="750" w="750" h="750" />
+      <image anchorx="375" anchory="750" w="750" h="750" />
+      <image anchorx="375" anchory="750" w="750" h="750" />
+      <image anchorx="375" anchory="750" w="750" h="750" />
+      <image anchorx="375" anchory="750" w="750" h="750" />
+      <image anchorx="375" anchory="750" w="750" h="750" />
+      <image anchorx="375" anchory="750" w="750" h="750" />
+      <image anchorx="375" anchory="750" w="750" h="750" />
+      <image anchorx="375" anchory="750" w="750" h="750" />
+    </group>
+  </animation>
+  <animation name="jianhuan">
+    <group name="skill">
+      <image anchorx="72" anchory="179" w="150" h="220" />
+      <image anchorx="72" anchory="179" w="150" h="220" />
+      <image anchorx="72" anchory="179" w="150" h="220" />
+      <image anchorx="72" anchory="179" w="150" h="220" />
+      <image anchorx="72" anchory="179" w="150" h="220" />
+      <image anchorx="72" anchory="179" w="150" h="220" />
+      <image anchorx="72" anchory="179" w="150" h="220" />
+      <image anchorx="72" anchory="179" w="150" h="220" />
+      <image anchorx="72" anchory="179" w="150" h="220" />
+      <image anchorx="72" anchory="179" w="150" h="220" />
+      <image anchorx="72" anchory="179" w="150" h="220" />
+      <image anchorx="72" anchory="179" w="150" h="220" />
+      <image anchorx="72" anchory="179" w="150" h="220" />
+      <image anchorx="72" anchory="179" w="150" h="220" />
+      <image anchorx="72" anchory="179" w="150" h="220" />
+    </group>
+  </animation>
+  <animation name="gunzi2">
+    <group name="skill">
+      <image anchorx="121" anchory="183" w="240" h="220" />
+      <image anchorx="121" anchory="183" w="240" h="220" />
+      <image anchorx="121" anchory="183" w="240" h="220" />
+      <image anchorx="121" anchory="183" w="240" h="220" />
+      <image anchorx="121" anchory="183" w="240" h="220" />
+      <image anchorx="121" anchory="183" w="240" h="220" />
+      <image anchorx="121" anchory="183" w="240" h="220" />
+      <image anchorx="121" anchory="183" w="240" h="220" />
+      <image anchorx="121" anchory="183" w="240" h="220" />
+      <image anchorx="121" anchory="183" w="240" h="220" />
+      <image anchorx="121" anchory="183" w="240" h="220" />
+      <image anchorx="121" anchory="183" w="240" h="220" />
+      <image anchorx="121" anchory="183" w="240" h="220" />
+    </group>
+  </animation>
+  <animation name="ziguang">
+    <group name="skill">
+      <image anchorx="254" anchory="322" w="500" h="500" />
+      <image anchorx="254" anchory="322" w="500" h="500" />
+      <image anchorx="254" anchory="322" w="500" h="500" />
+      <image anchorx="254" anchory="322" w="500" h="500" />
+      <image anchorx="254" anchory="322" w="500" h="500" />
+      <image anchorx="292" anchory="354" w="500" h="500" />
+      <image anchorx="292" anchory="354" w="500" h="500" />
+      <image anchorx="292" anchory="354" w="500" h="500" />
+      <image anchorx="292" anchory="354" w="500" h="500" />
+      <image anchorx="292" anchory="354" w="500" h="500" />
+      <image anchorx="232" anchory="336" w="500" h="500" />
+      <image anchorx="352" anchory="340" w="500" h="500" />
+      <image anchorx="352" anchory="340" w="500" h="500" />
+      <image anchorx="352" anchory="340" w="500" h="500" />
+      <image anchorx="352" anchory="340" w="500" h="500" />
+      <image anchorx="352" anchory="340" w="500" h="500" />
+    </group>
+  </animation>
+  <animation name="aoyi_gunzibaozha">
+    <group name="skill">
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+    </group>
+  </animation>
+  <animation name="aoyi_guangjian">
+    <group name="skill">
+      <image anchorx="375" anchory="300" w="750" h="300" />
+      <image anchorx="375" anchory="300" w="750" h="300" />
+      <image anchorx="375" anchory="300" w="750" h="300" />
+      <image anchorx="375" anchory="300" w="750" h="300" />
+      <image anchorx="375" anchory="300" w="750" h="300" />
+      <image anchorx="375" anchory="300" w="750" h="300" />
+      <image anchorx="375" anchory="300" w="750" h="300" />
+      <image anchorx="375" anchory="300" w="750" h="300" />
+      <image anchorx="375" anchory="300" w="750" h="300" />
+      <image anchorx="375" anchory="300" w="750" h="300" />
+      <image anchorx="375" anchory="300" w="750" h="300" />
+    </group>
+  </animation>
+  <animation name="aoyi_huanrao">
+    <group name="skill">
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+    </group>
+  </animation>
+  <animation name="aoyi_banruozhang">
+    <group name="skill">
+      <image anchorx="325" anchory="600" w="650" h="600" />
+      <image anchorx="325" anchory="600" w="650" h="600" />
+      <image anchorx="325" anchory="600" w="650" h="600" />
+      <image anchorx="325" anchory="600" w="650" h="600" />
+      <image anchorx="325" anchory="600" w="650" h="600" />
+      <image anchorx="325" anchory="600" w="650" h="600" />
+      <image anchorx="325" anchory="600" w="650" h="600" />
+      <image anchorx="325" anchory="600" w="650" h="600" />
+      <image anchorx="325" anchory="600" w="650" h="600" />
+      <image anchorx="325" anchory="600" w="650" h="600" />
+      <image anchorx="325" anchory="600" w="650" h="600" />
+      <image anchorx="325" anchory="600" w="650" h="600" />
+      <image anchorx="325" anchory="600" w="650" h="600" />
+      <image anchorx="325" anchory="600" w="650" h="600" />
+      <image anchorx="325" anchory="600" w="650" h="600" />
+      <image anchorx="325" anchory="600" w="650" h="600" />
+      <image anchorx="325" anchory="600" w="650" h="600" />
+      <image anchorx="325" anchory="600" w="650" h="600" />
+    </group>
+  </animation>
+  <animation name="aoyi_baguadao">
+    <group name="skill">
+      <image anchorx="350" anchory="700" w="700" h="700" />
+      <image anchorx="244" anchory="618" w="488" h="618" />
+      <image anchorx="255" anchory="550" w="510" h="550" />
+      <image anchorx="270" anchory="530" w="541" h="530" />
+      <image anchorx="260" anchory="450" w="520" h="450" />
+      <image anchorx="247" anchory="460" w="494" h="460" />
+      <image anchorx="236" anchory="460" w="473" h="460" />
+      <image anchorx="223" anchory="440" w="446" h="440" />
+    </group>
+  </animation>
+  <animation name="aoyi_baguajian">
+    <group name="skill">
+      <image anchorx="350" anchory="750" w="700" h="750" />
+      <image anchorx="350" anchory="750" w="700" h="750" />
+      <image anchorx="350" anchory="750" w="700" h="750" />
+      <image anchorx="350" anchory="750" w="700" h="750" />
+      <image anchorx="350" anchory="750" w="700" h="750" />
+      <image anchorx="350" anchory="750" w="700" h="750" />
+      <image anchorx="350" anchory="750" w="700" h="750" />
+      <image anchorx="350" anchory="750" w="700" h="750" />
+    </group>
+  </animation>
+  <animation name="aoyi_zhua">
+    <group name="skill">
+      <image anchorx="150" anchory="300" w="300" h="300" />
+      <image anchorx="150" anchory="300" w="300" h="300" />
+      <image anchorx="150" anchory="300" w="300" h="300" />
+      <image anchorx="150" anchory="300" w="300" h="300" />
+      <image anchorx="150" anchory="300" w="300" h="300" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+      <image anchorx="250" anchory="500" w="500" h="500" />
+    </group>
+  </animation>
+  <animation name="aoyi_quanpurple">
+    <group name="skill">
+      <image anchorx="215" anchory="300" w="430" h="300" />
+      <image anchorx="215" anchory="300" w="430" h="300" />
+      <image anchorx="215" anchory="300" w="430" h="300" />
+      <image anchorx="215" anchory="300" w="430" h="300" />
+      <image anchorx="215" anchory="300" w="430" h="300" />
+      <image anchorx="215" anchory="300" w="430" h="300" />
+      <image anchorx="215" anchory="300" w="430" h="300" />
+      <image anchorx="215" anchory="300" w="430" h="300" />
+    </group>
+  </animation>
+  <animation name="aoyi_guangzhu">
+    <group name="skill">
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+      <image anchorx="320" anchory="350" w="640" h="350" />
+    </group>
+  </animation>
+  <animation name="aoyi_jianguangblue">
+    <group name="skill">
+      <image anchorx="250" anchory="400" w="500" h="400" />
+      <image anchorx="250" anchory="400" w="500" h="400" />
+      <image anchorx="250" anchory="400" w="500" h="400" />
+      <image anchorx="250" anchory="400" w="500" h="400" />
+      <image anchorx="250" anchory="400" w="500" h="400" />
+      <image anchorx="250" anchory="400" w="500" h="400" />
+      <image anchorx="250" anchory="400" w="500" h="400" />
+      <image anchorx="250" anchory="400" w="500" h="400" />
+      <image anchorx="250" anchory="400" w="500" h="400" />
+      <image anchorx="250" anchory="400" w="500" h="400" />
+      <image anchorx="250" anchory="400" w="500" h="400" />
+      <image anchorx="250" anchory="400" w="500" h="400" />
+      <image anchorx="250" anchory="400" w="500" h="400" />
+      <image anchorx="250" anchory="400" w="500" h="400" />
+      <image anchorx="250" anchory="400" w="500" h="400" />
+      <image anchorx="250" anchory="400" w="500" h="400" />
+      <image anchorx="250" anchory="400" w="500" h="400" />
+      <image anchorx="250" anchory="400" w="500" h="400" />
+      <image anchorx="250" anchory="400" w="500" h="400" />
+      <image anchorx="250" anchory="400" w="500" h="400" />
+      <image anchorx="250" anchory="400" w="500" h="400" />
+      <image anchorx="250" anchory="400" w="500" h="400" />
+      <image anchorx="150" anchory="300" w="300" h="300" />
+    </group>
+  </animation>
+  <animation name="aoyi_dagoubang">
+    <group name="skill">
+      <image anchorx="400" anchory="400" w="800" h="400" />
+      <image anchorx="400" anchory="400" w="800" h="400" />
+      <image anchorx="400" anchory="400" w="800" h="400" />
+      <image anchorx="400" anchory="400" w="800" h="400" />
+      <image anchorx="400" anchory="400" w="800" h="400" />
+      <image anchorx="400" anchory="400" w="800" h="400" />
+    </group>
+  </animation>
+  <animation name="aoyi_long">
+    <group name="skill">
+      <image anchorx="300" anchory="400" w="600" h="400" />
+      <image anchorx="300" anchory="400" w="600" h="400" />
+      <image anchorx="300" anchory="400" w="600" h="400" />
+      <image anchorx="300" anchory="400" w="600" h="400" />
+      <image anchorx="300" anchory="400" w="600" h="400" />
+      <image anchorx="300" anchory="400" w="600" h="400" />
+      <image anchorx="300" anchory="400" w="600" h="400" />
+      <image anchorx="300" anchory="400" w="600" h="400" />
+      <image anchorx="300" anchory="400" w="600" h="400" />
+      <image anchorx="300" anchory="400" w="600" h="400" />
+    </group>
+  </animation>
+  <animation name="aoyi_long2">
+    <group name="skill">
+      <image anchorx="250" anchory="450" w="500" h="450" />
+      <image anchorx="250" anchory="450" w="500" h="450" />
+      <image anchorx="250" anchory="450" w="500" h="450" />
+      <image anchorx="250" anchory="450" w="500" h="450" />
+      <image anchorx="250" anchory="450" w="500" h="450" />
+      <image anchorx="250" anchory="450" w="500" h="450" />
+      <image anchorx="250" anchory="450" w="500" h="450" />
+      <image anchorx="250" anchory="450" w="500" h="450" />
+      <image anchorx="250" anchory="450" w="500" h="450" />
+      <image anchorx="250" anchory="450" w="500" h="450" />
+      <image anchorx="250" anchory="450" w="500" h="450" />
+    </group>
+  </animation>
+  <animation name="aoyi_long4">
+    <group name="skill">
+      <image anchorx="370" anchory="500" w="740" h="500" />
+      <image anchorx="370" anchory="500" w="740" h="500" />
+      <image anchorx="370" anchory="500" w="740" h="500" />
+      <image anchorx="370" anchory="500" w="740" h="500" />
+      <image anchorx="370" anchory="500" w="740" h="500" />
+      <image anchorx="370" anchory="500" w="740" h="500" />
+      <image anchorx="370" anchory="500" w="740" h="500" />
+      <image anchorx="370" anchory="500" w="740" h="500" />
+      <image anchorx="370" anchory="500" w="740" h="500" />
+      <image anchorx="370" anchory="500" w="740" h="500" />
+      <image anchorx="370" anchory="500" w="740" h="500" />
+      <image anchorx="370" anchory="500" w="740" h="500" />
+      <image anchorx="370" anchory="500" w="740" h="500" />
+    </group>
+  </animation>
+  <animation name="aoyi_long3">
+    <group name="skill">
+      <image anchorx="400" anchory="480" w="800" h="480" />
+      <image anchorx="400" anchory="480" w="800" h="480" />
+      <image anchorx="400" anchory="480" w="800" h="480" />
+      <image anchorx="400" anchory="480" w="800" h="480" />
+      <image anchorx="400" anchory="480" w="800" h="480" />
+      <image anchorx="400" anchory="480" w="800" h="480" />
+      <image anchorx="400" anchory="480" w="800" h="480" />
+      <image anchorx="400" anchory="480" w="800" h="480" />
+      <image anchorx="400" anchory="480" w="800" h="480" />
+      <image anchorx="400" anchory="480" w="800" h="480" />
+      <image anchorx="400" anchory="480" w="800" h="480" />
+      <image anchorx="400" anchory="480" w="800" h="480" />
+    </group>
+  </animation>
+  <animation name="aoyi_jianpurple">
+    <group name="skill">
+      <image anchorx="300" anchory="330" w="600" h="330" />
+      <image anchorx="300" anchory="330" w="600" h="330" />
+      <image anchorx="300" anchory="330" w="600" h="330" />
+      <image anchorx="300" anchory="330" w="600" h="330" />
+      <image anchorx="300" anchory="330" w="600" h="330" />
+      <image anchorx="300" anchory="330" w="600" h="330" />
+      <image anchorx="300" anchory="330" w="600" h="330" />
+      <image anchorx="300" anchory="330" w="600" h="330" />
+      <image anchorx="300" anchory="330" w="600" h="330" />
+      <image anchorx="300" anchory="330" w="600" h="330" />
+      <image anchorx="300" anchory="330" w="600" h="330" />
+      <image anchorx="300" anchory="330" w="600" h="330" />
+      <image anchorx="300" anchory="330" w="600" h="330" />
+      <image anchorx="300" anchory="330" w="600" h="330" />
+      <image anchorx="300" anchory="330" w="600" h="330" />
+      <image anchorx="300" anchory="330" w="600" h="330" />
+      <image anchorx="300" anchory="330" w="600" h="330" />
+      <image anchorx="300" anchory="330" w="600" h="330" />
+      <image anchorx="300" anchory="330" w="600" h="330" />
+      <image anchorx="300" anchory="330" w="600" h="330" />
+      <image anchorx="300" anchory="330" w="600" h="330" />
+      <image anchorx="300" anchory="330" w="600" h="330" />
+    </group>
+  </animation>
+  <animation name="aoyi_jianying">
+    <group name="skill">
+      <image anchorx="450" anchory="300" w="900" h="300" />
+      <image anchorx="450" anchory="300" w="900" h="300" />
+      <image anchorx="450" anchory="300" w="900" h="300" />
+      <image anchorx="450" anchory="300" w="900" h="300" />
+      <image anchorx="450" anchory="300" w="900" h="300" />
+      <image anchorx="450" anchory="300" w="900" h="300" />
+    </group>
+  </animation>
+  <animation name="aoyi_kuihua">
+    <group name="skill">
+      <image anchorx="350" anchory="300" w="700" h="300" />
+      <image anchorx="350" anchory="300" w="700" h="300" />
+      <image anchorx="350" anchory="300" w="700" h="300" />
+      <image anchorx="350" anchory="300" w="700" h="300" />
+      <image anchorx="350" anchory="300" w="700" h="300" />
+      <image anchorx="350" anchory="300" w="700" h="300" />
+      <image anchorx="350" anchory="300" w="700" h="300" />
+      <image anchorx="350" anchory="300" w="700" h="300" />
+      <image anchorx="350" anchory="300" w="700" h="300" />
+      <image anchorx="350" anchory="300" w="700" h="300" />
+      <image anchorx="350" anchory="300" w="700" h="300" />
+      <image anchorx="350" anchory="300" w="700" h="300" />
+      <image anchorx="350" anchory="300" w="700" h="300" />
+      <image anchorx="350" anchory="300" w="700" h="300" />
+      <image anchorx="350" anchory="300" w="700" h="300" />
+      <image anchorx="350" anchory="300" w="700" h="300" />
+      <image anchorx="350" anchory="300" w="700" h="300" />
+      <image anchorx="350" anchory="300" w="700" h="300" />
+      <image anchorx="350" anchory="300" w="700" h="300" />
+    </group>
+  </animation>
+  <animation name="aoyi_baozhahuo">
+    <group name="skill">
+      <image anchorx="174" anchory="217" w="348" h="217" />
+      <image anchorx="255" anchory="342" w="510" h="342" />
+      <image anchorx="331" anchory="371" w="662" h="371" />
+      <image anchorx="384" anchory="509" w="768" h="509" />
+      <image anchorx="389" anchory="561" w="778" h="561" />
+      <image anchorx="425" anchory="712" w="850" h="712" />
+      <image anchorx="397" anchory="772" w="794" h="772" />
+      <image anchorx="425" anchory="1000" w="850" h="1000" />
+      <image anchorx="425" anchory="1000" w="850" h="1000" />
+      <image anchorx="425" anchory="1000" w="850" h="1000" />
+    </group>
+  </animation>
+  <animation name="aoyi_longhuozhu">
+    <group name="skill">
+      <image anchorx="400" anchory="900" w="800" h="900" />
+      <image anchorx="400" anchory="900" w="800" h="900" />
+      <image anchorx="400" anchory="900" w="800" h="900" />
+      <image anchorx="400" anchory="900" w="800" h="900" />
+      <image anchorx="400" anchory="900" w="800" h="900" />
+      <image anchorx="400" anchory="900" w="800" h="900" />
+      <image anchorx="400" anchory="900" w="800" h="900" />
+      <image anchorx="400" anchory="900" w="800" h="900" />
+      <image anchorx="400" anchory="900" w="800" h="900" />
+      <image anchorx="400" anchory="900" w="800" h="900" />
+      <image anchorx="400" anchory="900" w="800" h="900" />
+      <image anchorx="400" anchory="900" w="800" h="900" />
+      <image anchorx="400" anchory="900" w="800" h="900" />
+      <image anchorx="400" anchory="900" w="800" h="900" />
+      <image anchorx="400" anchory="900" w="800" h="900" />
+      <image anchorx="400" anchory="900" w="800" h="900" />
+      <image anchorx="400" anchory="900" w="800" h="900" />
+      <image anchorx="400" anchory="900" w="800" h="900" />
+      <image anchorx="400" anchory="900" w="800" h="900" />
+      <image anchorx="400" anchory="900" w="800" h="900" />
+      <image anchorx="400" anchory="900" w="800" h="900" />
+      <image anchorx="400" anchory="900" w="800" h="900" />
+      <image anchorx="400" anchory="900" w="800" h="900" />
+    </group>
+  </animation>
+  <animation name="tianjian">
+    <group name="skill">
+      <image anchorx="29" anchory="247" w="60" h="248" />
+      <image anchorx="29" anchory="247" w="60" h="248" />
+      <image anchorx="29" anchory="247" w="60" h="248" />
+      <image anchorx="28" anchory="322" w="58" h="318" />
+      <image anchorx="142" anchory="270" w="253" h="314" />
+      <image anchorx="142" anchory="278" w="247" h="340" />
+      <image anchorx="100" anchory="300" w="199" h="358" />
+      <image anchorx="106" anchory="312" w="214" h="304" />
+    </group>
+  </animation>
+</animations>

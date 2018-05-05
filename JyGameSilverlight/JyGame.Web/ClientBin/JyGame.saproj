@@ -1,0 +1,150 @@
+<SmartAssemblyProject ProjectId="{b33810c2-31f6-4dfe-a664-a63a8da0be38}" Version="2.0">
+    <MainAssemblyFileName>.\JyGame.xap</MainAssemblyFileName>
+    <FriendlyName>金庸群侠传X</FriendlyName>
+    <CompanyName>汉家松鼠</CompanyName>
+    <Configuration Name="Release">
+        <Options>
+            <ExceptionReporting EmailToBeNotified="hanjiasongshu@163.com" ReportExceptions="0" Template="res:{SmartExceptions}.Silverlight.dll" />
+            <FeatureUsageReporting Template="res:SmartUsageWithUIConsentFirstRun1033.dll" />
+            <StringsEncoding Encode="1" />
+            <StrongNameSigning />
+            <OtherOptimizations />
+            <Obfuscation ChangeMethodParent="1" FieldsNameMangling="3" NameMangling="3" />
+            <OtherProtections />
+            <Debugging />
+        </Options>
+        <ApplicationName>金庸群侠传X</ApplicationName>
+        <Destination DestinationFileName=".\JyGame_secure.xap" />
+        <Assemblies>
+            <Assembly AssemblyName="JyGame, Culture=neutral, PublicKeyToken=null">
+                <Merging>
+                    <ResourcesCompression />
+                    <MemberRefsProxy />
+                    <Pruning Prune="1">
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation Obfuscate="1">
+                        <Exclusion />
+                    </Obfuscation>
+                    <ControlFlow Obfuscate="1" ObfuscationLevel="3" />
+                </Merging>
+                <Embedding />
+            </Assembly>
+            <Assembly AssemblyName="JyGame.BattleNet, Culture=neutral, PublicKeyToken=null">
+                <Merging Merge="1">
+                    <Pruning Prune="1">
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation Obfuscate="1">
+                        <Exclusion />
+                    </Obfuscation>
+                    <ControlFlow Obfuscate="1" ObfuscationLevel="3" />
+                    <MemberRefsProxy />
+                    <ResourcesCompression />
+                </Merging>
+                <Embedding />
+            </Assembly>
+            <Assembly AssemblyName="System.Windows, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="mscorlib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="System, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="System.Net, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="System.Xml, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="System.Core, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="System.Runtime.Serialization, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="System.Xml.Linq, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="System.Windows.Controls.Data.Input, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="System.ComponentModel.DataAnnotations, Culture=neutral, PublicKeyToken=ddd0da4d3e678217">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="Microsoft.Expression.Drawing, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="Microsoft.Expression.Interactions, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="System.Windows.Interactivity, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="System.Windows.Browser, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="System.ServiceModel.Web, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="SmartAssembly.StringsEncoding, Culture=neutral, PublicKeyToken=7f465a1c156d4d57">
+                <Merging>
+                    <Pruning>
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation>
+                        <Exclusion />
+                    </Obfuscation>
+                </Merging>
+            </Assembly>
+            <Assembly AssemblyName="SmartAssembly.LicenseSilverlight, Culture=neutral, PublicKeyToken=null">
+                <Merging>
+                    <Pruning>
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation>
+                        <Exclusion />
+                    </Obfuscation>
+                </Merging>
+            </Assembly>
+            <Assembly AssemblyName="SmartAssembly.LicenseSilverlight, Culture=neutral, PublicKeyToken=7f465a1c156d4d57">
+                <Merging>
+                    <Pruning>
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation>
+                        <Exclusion />
+                    </Obfuscation>
+                </Merging>
+            </Assembly>
+            <Assembly AssemblyName="SmartExceptionsSilverlight, Culture=neutral, PublicKeyToken=7f465a1c156d4d57">
+                <Merging>
+                    <Pruning>
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation>
+                        <Exclusion />
+                    </Obfuscation>
+                </Merging>
+            </Assembly>
+            <Assembly AssemblyName="System.Windows.Controls, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="SmartExceptionsCore, Culture=neutral, PublicKeyToken=7f465a1c156d4d57">
+                <Merging>
+                    <Pruning>
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation>
+                        <Exclusion />
+                    </Obfuscation>
+                </Merging>
+            </Assembly>
+            <Assembly AssemblyName="System.ServiceModel, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+                <Merging />
+            </Assembly>
+        </Assemblies>
+    </Configuration>
+</SmartAssemblyProject>

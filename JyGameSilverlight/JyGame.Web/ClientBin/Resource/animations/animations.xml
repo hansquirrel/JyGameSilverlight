@@ -1,0 +1,4933 @@
+<animations>
+  <animation name="heshang_gun">
+    <group name="stand">
+      <image anchorx="17" w="46" h="117" />
+      <image anchorx="17" w="46" h="117" />
+      <image anchorx="17" w="47" h="118" />
+      <image anchorx="17" w="47" h="117" />
+    </group>
+    <group name="move">
+      <image anchorx="19" w="58" h="112" />
+      <image anchorx="22" w="60" h="112" />
+      <image anchorx="31" w="66" h="116" />
+      <image anchorx="26" w="71" h="116" />
+      <image anchorx="20" w="71" h="119" />
+      <image anchorx="21" w="69" h="116" />
+      <image anchorx="30" w="69" h="115" />
+      <image anchorx="26" w="64" h="114" />
+    </group>
+    <group name="attack">
+      <image anchorx="21" w="88" h="143" />
+      <image anchorx="62" w="119" h="137" />
+      <image anchorx="84" w="136" h="121" />
+      <image anchorx="25" w="141" h="114" />
+      <image anchorx="24" w="126" h="108" />
+      <image anchorx="22" w="127" h="112" />
+      <image anchorx="25" w="118" h="106" />
+      <image anchorx="21" w="77" h="136" />
+    </group>
+  </animation>
+  <animation name="heshang_quan">
+    <group name="stand">
+      <image anchorx="20" w="40" h="114" />
+      <image anchorx="20" w="40" h="114" />
+      <image anchorx="20" w="40" h="114" />
+      <image anchorx="20" w="40" h="114" />
+    </group>
+    <group name="move">
+      <image anchorx="17" w="35" h="112" />
+      <image anchorx="23" w="47" h="107" />
+      <image anchorx="30" w="60" h="105" />
+      <image anchorx="24" w="48" h="109" />
+      <image anchorx="19" w="39" h="112" />
+      <image anchorx="25" w="51" h="111" />
+      <image anchorx="33" w="66" h="109" />
+      <image anchorx="28" w="57" h="110" />
+    </group>
+    <group name="attack">
+      <image anchorx="23" w="58" h="106" />
+      <image anchorx="38" w="74" h="104" />
+      <image anchorx="29" w="70" h="102" />
+      <image anchorx="11" w="66" h="99" />
+      <image anchorx="12" w="94" h="97" />
+      <image anchorx="11" w="87" h="99" />
+      <image anchorx="14" w="57" h="103" />
+    </group>
+  </animation>
+  <animation name="jinlunfawang">
+    <group name="stand">
+      <image anchorx="24" w="49" h="113" />
+      <image anchorx="25" w="50" h="114" />
+      <image anchorx="25" w="51" h="114" />
+      <image anchorx="25" w="50" h="114" />
+    </group>
+    <group name="move">
+      <image anchorx="26" w="59" h="108" />
+      <image anchorx="26" w="59" h="107" />
+      <image anchorx="26" w="63" h="104" />
+      <image anchorx="25" w="66" h="108" />
+      <image anchorx="27" w="69" h="110" />
+      <image anchorx="35" w="78" h="111" />
+      <image anchorx="25" w="66" h="113" />
+      <image anchorx="25" w="62" h="111" />
+    </group>
+    <group name="attack">
+      <image anchorx="22" w="95" h="110" />
+      <image anchorx="24" w="75" h="116" />
+      <image anchorx="32" w="68" h="133" />
+      <image anchorx="42" w="83" h="135" />
+      <image anchorx="16" w="90" h="122" />
+      <image anchorx="14" w="116" h="109" />
+      <image anchorx="21" w="120" h="109" />
+      <image anchorx="15" w="108" h="110" />
+    </group>
+  </animation>
+  <animation name="sengren_chanzhang">
+    <group name="stand">
+      <image anchorx="28" w="56" h="115" />
+      <image anchorx="28" w="56" h="115" />
+      <image anchorx="28" w="56" h="115" />
+      <image anchorx="28" w="56" h="115" />
+    </group>
+    <group name="move">
+      <image anchorx="34" w="86" h="120" />
+      <image anchorx="34" w="84" h="121" />
+      <image anchorx="35" w="85" h="120" />
+      <image anchorx="47" w="99" h="111" />
+      <image anchorx="74" w="117" h="110" />
+      <image anchorx="87" w="122" h="108" />
+      <image anchorx="76" w="117" h="110" />
+      <image anchorx="46" w="99" h="112" />
+    </group>
+    <group name="attack">
+      <image anchorx="32" w="81" h="129" />
+      <image anchorx="61" w="95" h="126" />
+      <image anchorx="41" w="83" h="134" />
+      <image anchorx="85" w="129" h="108" />
+      <image anchorx="85" w="124" h="109" />
+      <image anchorx="15" w="100" h="105" />
+      <image anchorx="18" w="158" h="106" />
+      <image anchorx="20" w="157" h="103" />
+    </group>
+  </animation>
+  <animation name="heshang_gun2">
+    <group name="stand">
+      <image anchorx="14" w="43" h="112" />
+      <image anchorx="15" w="43" h="111" />
+      <image anchorx="13" w="43" h="111" />
+      <image anchorx="13" w="43" h="111" />
+    </group>
+    <group name="move">
+      <image anchorx="18" w="67" h="134" />
+      <image anchorx="27" w="67" h="141" />
+      <image anchorx="28" w="79" h="132" />
+      <image anchorx="17" w="84" h="108" />
+      <image anchorx="32" w="102" h="108" />
+      <image anchorx="42" w="108" h="105" />
+      <image anchorx="29" w="102" h="107" />
+      <image anchorx="15" w="83" h="110" />
+    </group>
+    <group name="attack">
+      <image anchorx="53" w="92" h="108" />
+      <image anchorx="77" w="112" h="132" />
+      <image anchorx="79" w="118" h="141" />
+      <image anchorx="23" w="79" h="104" />
+      <image anchorx="23" w="146" h="127" />
+      <image anchorx="17" w="148" h="127" />
+      <image anchorx="15" w="125" h="119" />
+      <image anchorx="16" w="66" h="106" />
+    </group>
+  </animation>
+  <animation name="daoshi_1">
+    <group name="stand">
+      <image anchorx="13" w="27" h="113" />
+      <image anchorx="14" w="28" h="113" />
+      <image anchorx="14" w="29" h="113" />
+      <image anchorx="14" w="28" h="113" />
+    </group>
+    <group name="move">
+      <image anchorx="26" w="65" h="111" />
+      <image anchorx="31" w="67" h="110" />
+      <image anchorx="38" w="71" h="112" />
+      <image anchorx="38" w="71" h="111" />
+      <image anchorx="36" w="76" h="107" />
+      <image anchorx="36" w="72" h="108" />
+      <image anchorx="36" w="69" h="112" />
+      <image anchorx="36" w="70" h="113" />
+    </group>
+    <group name="attack">
+      <image anchorx="25" w="78" h="112" />
+      <image anchorx="26" w="79" h="112" />
+      <image anchorx="37" w="80" h="112" />
+      <image anchorx="39" w="85" h="112" />
+      <image anchorx="20" w="113" h="114" />
+      <image anchorx="22" w="145" h="116" />
+      <image anchorx="17" w="117" h="115" />
+    </group>
+  </animation>
+  <animation name="daoshi_2">
+    <group name="stand">
+      <image anchorx="20" w="56" h="116" />
+      <image anchorx="17" w="51" h="115" />
+      <image anchorx="19" w="49" h="114" />
+      <image anchorx="20" w="53" h="115" />
+    </group>
+    <group name="move">
+      <image anchorx="20" w="62" h="107" />
+      <image anchorx="29" w="66" h="110" />
+      <image anchorx="41" w="73" h="111" />
+      <image anchorx="51" w="82" h="111" />
+      <image anchorx="54" w="89" h="109" />
+      <image anchorx="48" w="84" h="109" />
+      <image anchorx="40" w="75" h="109" />
+      <image anchorx="22" w="63" h="108" />
+    </group>
+    <group name="attack">
+      <image anchorx="23" w="88" h="111" />
+      <image anchorx="19" w="49" h="108" />
+      <image anchorx="67" w="97" h="106" />
+      <image anchorx="14" w="61" h="107" />
+      <image anchorx="20" w="110" h="121" />
+      <image anchorx="34" w="107" h="135" />
+      <image anchorx="16" w="87" h="123" />
+      <image anchorx="37" w="80" h="102" />
+    </group>
+  </animation>
+  <animation name="daoshi_3">
+    <group name="stand">
+      <image anchorx="56" w="79" h="115" />
+      <image anchorx="56" w="80" h="115" />
+      <image anchorx="53" w="78" h="114" />
+      <image anchorx="53" w="79" h="115" />
+    </group>
+    <group name="move">
+      <image anchorx="31" w="80" h="107" />
+      <image anchorx="35" w="81" h="109" />
+      <image anchorx="41" w="76" h="111" />
+      <image anchorx="47" w="74" h="110" />
+      <image anchorx="49" w="82" h="108" />
+      <image anchorx="48" w="75" h="108" />
+      <image anchorx="41" w="76" h="108" />
+      <image anchorx="34" w="80" h="107" />
+    </group>
+    <group name="attack">
+      <image anchorx="20" w="65" h="113" />
+      <image anchorx="38" w="82" h="124" />
+      <image anchorx="38" w="67" h="117" />
+      <image anchorx="48" w="90" h="113" />
+      <image anchorx="64" w="113" h="107" />
+      <image anchorx="68" w="118" h="93" />
+      <image anchorx="50" w="96" h="98" />
+      <image anchorx="23" w="66" h="113" />
+    </group>
+  </animation>
+  <animation name="daoshi_4">
+    <group name="stand">
+      <image anchorx="18" w="37" h="114" />
+      <image anchorx="19" w="38" h="114" />
+      <image anchorx="22" w="44" h="114" />
+      <image anchorx="18" w="37" h="114" />
+    </group>
+    <group name="move">
+      <image anchorx="32" w="64" h="107" />
+      <image anchorx="30" w="60" h="109" />
+      <image anchorx="32" w="64" h="110" />
+      <image anchorx="31" w="63" h="111" />
+      <image anchorx="32" w="65" h="108" />
+      <image anchorx="30" w="61" h="108" />
+      <image anchorx="31" w="62" h="107" />
+      <image anchorx="29" w="58" h="106" />
+    </group>
+    <group name="attack">
+      <image anchorx="19" w="76" h="145" />
+      <image anchorx="36" w="88" h="113" />
+      <image anchorx="23" w="75" h="136" />
+      <image anchorx="10" w="134" h="111" />
+      <image anchorx="9" w="154" h="102" />
+      <image anchorx="9" w="93" h="102" />
+      <image anchorx="16" w="93" h="102" />
+      <image anchorx="13" w="78" h="104" />
+    </group>
+  </animation>
+  <animation name="nigu_1">
+    <group name="stand">
+      <image anchorx="15" w="31" h="109" />
+      <image anchorx="16" w="32" h="109" />
+      <image anchorx="15" w="31" h="109" />
+      <image anchorx="16" w="32" h="109" />
+    </group>
+    <group name="move">
+      <image anchorx="24" w="49" h="107" />
+      <image anchorx="28" w="56" h="107" />
+      <image anchorx="28" w="57" h="108" />
+      <image anchorx="24" w="49" h="108" />
+      <image anchorx="24" w="48" h="106" />
+      <image anchorx="28" w="56" h="107" />
+      <image anchorx="29" w="58" h="112" />
+      <image anchorx="26" w="53" h="109" />
+    </group>
+    <group name="attack">
+      <image anchorx="17" w="74" h="110" />
+      <image anchorx="15" w="62" h="109" />
+      <image anchorx="18" w="52" h="108" />
+      <image anchorx="23" w="56" h="107" />
+      <image anchorx="31" w="113" h="109" />
+      <image anchorx="31" w="111" h="112" />
+      <image anchorx="27" w="80" h="113" />
+      <image anchorx="31" w="124" h="111" />
+    </group>
+  </animation>
+  <animation name="zhangsanfeng">
+    <group name="stand">
+      <image anchorx="21" w="43" h="125" />
+      <image anchorx="21" w="42" h="125" />
+      <image anchorx="21" w="42" h="125" />
+      <image anchorx="21" w="42" h="125" />
+    </group>
+    <group name="move">
+      <image anchorx="32" w="64" h="123" />
+      <image anchorx="33" w="66" h="122" />
+      <image anchorx="36" w="73" h="121" />
+      <image anchorx="35" w="71" h="121" />
+      <image anchorx="29" w="59" h="120" />
+      <image anchorx="29" w="59" h="117" />
+      <image anchorx="29" w="58" h="122" />
+      <image anchorx="27" w="55" h="124" />
+    </group>
+    <group name="attack">
+      <image anchorx="37" w="83" h="115" />
+      <image anchorx="35" w="83" h="119" />
+      <image anchorx="32" w="70" h="123" />
+      <image anchorx="39" w="68" h="135" />
+      <image anchorx="47" w="84" h="140" />
+      <image anchorx="70" w="101" h="128" />
+      <image anchorx="44" w="98" h="112" />
+      <image anchorx="53" w="107" h="110" />
+    </group>
+  </animation>
+  <animation name="jianke_1">
+    <group name="stand">
+      <image anchorx="14" w="29" h="111" />
+      <image anchorx="14" w="28" h="111" />
+      <image anchorx="15" w="30" h="111" />
+      <image anchorx="15" w="30" h="111" />
+    </group>
+    <group name="move">
+      <image anchorx="26" w="60" h="108" />
+      <image anchorx="24" w="58" h="106" />
+      <image anchorx="23" w="55" h="104" />
+      <image anchorx="22" w="54" h="104" />
+      <image anchorx="25" w="62" h="104" />
+      <image anchorx="25" w="57" h="107" />
+      <image anchorx="23" w="47" h="112" />
+      <image anchorx="24" w="49" h="110" />
+    </group>
+    <group name="attack">
+      <image anchorx="35" w="81" h="108" />
+      <image anchorx="27" w="83" h="108" />
+      <image anchorx="25" w="56" h="109" />
+      <image anchorx="23" w="53" h="117" />
+      <image anchorx="36" w="124" h="108" />
+      <image anchorx="38" w="82" h="103" />
+      <image anchorx="40" w="73" h="104" />
+      <image anchorx="29" w="58" h="109" />
+    </group>
+  </animation>
+  <animation name="buyi_shuangquan">
+    <group name="stand">
+      <image anchorx="23" w="44" h="113" />
+      <image anchorx="23" w="44" h="112" />
+      <image anchorx="24" w="45" h="113" />
+      <image anchorx="24" w="45" h="113" />
+    </group>
+    <group name="move">
+      <image anchorx="28" w="56" h="112" />
+      <image anchorx="31" w="63" h="109" />
+      <image anchorx="32" w="64" h="108" />
+      <image anchorx="29" w="58" h="105" />
+      <image anchorx="24" w="48" h="106" />
+      <image anchorx="31" w="63" h="106" />
+      <image anchorx="29" w="58" h="110" />
+      <image anchorx="29" w="58" h="111" />
+    </group>
+    <group name="attack">
+      <image anchorx="18" w="37" h="116" />
+      <image anchorx="24" w="49" h="108" />
+      <image anchorx="24" w="46" h="103" />
+      <image anchorx="25" w="72" h="102" />
+      <image anchorx="20" w="95" h="101" />
+      <image anchorx="23" w="92" h="103" />
+      <image anchorx="22" w="66" h="110" />
+      <image anchorx="18" w="52" h="116" />
+    </group>
+  </animation>
+  <animation name="xiaonvhai">
+    <group name="stand">
+      <image anchorx="11" w="23" h="90" />
+      <image anchorx="11" w="23" h="90" />
+      <image anchorx="12" w="24" h="89" />
+      <image anchorx="12" w="25" h="90" />
+    </group>
+    <group name="move">
+      <image anchorx="26" w="63" h="87" />
+      <image anchorx="25" w="56" h="84" />
+      <image anchorx="22" w="41" h="81" />
+      <image anchorx="20" w="48" h="85" />
+      <image anchorx="26" w="60" h="82" />
+      <image anchorx="26" w="60" h="85" />
+      <image anchorx="26" w="48" h="88" />
+      <image anchorx="23" w="47" h="89" />
+    </group>
+    <group name="attack">
+      <image anchorx="19" w="64" h="89" />
+      <image anchorx="26" w="66" h="86" />
+      <image anchorx="32" w="60" h="82" />
+      <image anchorx="34" w="60" h="80" />
+      <image anchorx="19" w="63" h="82" />
+      <image anchorx="17" w="81" h="90" />
+      <image anchorx="12" w="70" h="90" />
+      <image anchorx="11" w="49" h="88" />
+    </group>
+  </animation>
+  <animation name="nv_shuangjian">
+    <group name="stand">
+      <image anchorx="19" w="32" h="114" />
+      <image anchorx="16" w="30" h="112" />
+      <image anchorx="15" w="28" h="112" />
+      <image anchorx="16" w="28" h="112" />
+    </group>
+    <group name="move">
+      <image anchorx="35" w="71" h="108" />
+      <image anchorx="35" w="70" h="105" />
+      <image anchorx="35" w="70" h="106" />
+      <image anchorx="32" w="65" h="108" />
+      <image anchorx="35" w="70" h="108" />
+      <image anchorx="34" w="69" h="106" />
+      <image anchorx="32" w="64" h="107" />
+      <image anchorx="32" w="65" h="109" />
+    </group>
+    <group name="attack">
+      <image anchorx="36" w="73" h="108" />
+      <image anchorx="52" w="85" h="103" />
+      <image anchorx="45" w="78" h="115" />
+      <image anchorx="21" w="110" h="101" />
+      <image anchorx="22" w="147" h="101" />
+      <image anchorx="20" w="141" h="102" />
+      <image anchorx="20" w="99" h="103" />
+      <image anchorx="30" w="65" h="104" />
+    </group>
+  </animation>
+  <animation name="jianke_nv_purple">
+    <group name="stand">
+      <image anchorx="47" w="66" h="105" />
+      <image anchorx="47" w="66" h="105" />
+      <image anchorx="48" w="66" h="106" />
+      <image anchorx="48" w="66" h="106" />
+    </group>
+    <group name="move">
+      <image anchorx="49" w="85" h="104" />
+      <image anchorx="49" w="88" h="102" />
+      <image anchorx="51" w="82" h="102" />
+      <image anchorx="51" w="72" h="103" />
+      <image anchorx="50" w="81" h="103" />
+      <image anchorx="48" w="86" h="101" />
+      <image anchorx="48" w="84" h="103" />
+      <image anchorx="48" w="80" h="104" />
+    </group>
+    <group name="attack">
+      <image anchorx="51" w="89" h="124" />
+      <image anchorx="58" w="85" h="118" />
+      <image anchorx="61" w="95" h="104" />
+      <image anchorx="41" w="112" h="99" />
+      <image anchorx="37" w="88" h="106" />
+      <image anchorx="39" w="89" h="110" />
+      <image anchorx="51" w="130" h="101" />
+      <image anchorx="53" w="96" h="110" />
+    </group>
+  </animation>
+  <animation name="jianke_nv_yellow">
+    <group name="stand">
+      <image anchorx="41" w="84" h="105" />
+      <image anchorx="40" w="85" h="106" />
+      <image anchorx="40" w="84" h="105" />
+      <image anchorx="37" w="84" h="106" />
+    </group>
+    <group name="move">
+      <image anchorx="53" w="89" h="100" />
+      <image anchorx="50" w="84" h="99" />
+      <image anchorx="46" w="84" h="96" />
+      <image anchorx="41" w="85" h="97" />
+      <image anchorx="33" w="84" h="97" />
+      <image anchorx="38" w="85" h="100" />
+      <image anchorx="44" w="85" h="103" />
+      <image anchorx="53" w="83" h="103" />
+    </group>
+    <group name="attack">
+      <image anchorx="45" w="81" h="102" />
+      <image anchorx="50" w="83" h="101" />
+      <image anchorx="50" w="85" h="100" />
+      <image anchorx="18" w="120" h="98" />
+      <image anchorx="22" w="68" h="97" />
+      <image anchorx="17" w="66" h="98" />
+      <image anchorx="18" w="106" h="99" />
+      <image anchorx="24" w="101" h="101" />
+    </group>
+  </animation>
+  <animation name="jianke_nv_tu">
+    <group name="stand">
+      <image anchorx="43" w="81" h="102" />
+      <image anchorx="40" w="81" h="102" />
+      <image anchorx="41" w="82" h="102" />
+      <image anchorx="40" w="80" h="102" />
+    </group>
+    <group name="move">
+      <image anchorx="52" w="89" h="100" />
+      <image anchorx="52" w="84" h="99" />
+      <image anchorx="47" w="84" h="96" />
+      <image anchorx="40" w="85" h="98" />
+      <image anchorx="32" w="83" h="96" />
+      <image anchorx="36" w="85" h="99" />
+      <image anchorx="42" w="85" h="104" />
+      <image anchorx="51" w="83" h="103" />
+    </group>
+    <group name="attack">
+      <image anchorx="44" w="81" h="102" />
+      <image anchorx="52" w="82" h="101" />
+      <image anchorx="53" w="85" h="100" />
+      <image anchorx="17" w="119" h="98" />
+      <image anchorx="26" w="70" h="97" />
+      <image anchorx="16" w="66" h="98" />
+      <image anchorx="22" w="107" h="99" />
+      <image anchorx="24" w="100" h="101" />
+    </group>
+  </animation>
+  <animation name="quan_nv">
+    <group name="stand">
+      <image anchorx="16" w="33" h="103" />
+      <image anchorx="16" w="33" h="103" />
+      <image anchorx="16" w="33" h="103" />
+      <image anchorx="16" w="33" h="103" />
+    </group>
+    <group name="move">
+      <image anchorx="26" w="48" h="101" />
+      <image anchorx="23" w="55" h="99" />
+      <image anchorx="23" w="52" h="99" />
+      <image anchorx="21" w="53" h="101" />
+      <image anchorx="23" w="52" h="99" />
+      <image anchorx="22" w="56" h="95" />
+      <image anchorx="25" w="53" h="100" />
+      <image anchorx="24" w="52" h="101" />
+    </group>
+    <group name="attack">
+      <image anchorx="19" w="48" h="101" />
+      <image anchorx="21" w="52" h="97" />
+      <image anchorx="24" w="57" h="94" />
+      <image anchorx="33" w="80" h="96" />
+      <image anchorx="34" w="98" h="96" />
+      <image anchorx="19" w="84" h="97" />
+      <image anchorx="18" w="69" h="100" />
+      <image anchorx="26" w="64" h="101" />
+    </group>
+  </animation>
+  <animation name="fengzi">
+    <group name="stand">
+      <image anchorx="36" w="64" h="103" />
+      <image anchorx="36" w="69" h="101" />
+      <image anchorx="36" w="72" h="101" />
+      <image anchorx="36" w="67" h="103" />
+    </group>
+    <group name="move">
+      <image anchorx="35" w="70" h="105" />
+      <image anchorx="37" w="75" h="104" />
+      <image anchorx="35" w="70" h="100" />
+      <image anchorx="30" w="61" h="101" />
+      <image anchorx="37" w="74" h="102" />
+      <image anchorx="39" w="79" h="100" />
+      <image anchorx="36" w="72" h="101" />
+      <image anchorx="30" w="61" h="104" />
+    </group>
+    <group name="attack">
+      <image anchorx="36" w="82" h="106" />
+      <image anchorx="36" w="92" h="113" />
+      <image anchorx="30" w="98" h="122" />
+      <image anchorx="30" w="91" h="112" />
+      <image anchorx="29" w="93" h="105" />
+      <image anchorx="27" w="97" h="123" />
+      <image anchorx="29" w="92" h="117" />
+      <image anchorx="26" w="75" h="105" />
+    </group>
+  </animation>
+  <animation name="quezi_chuizi">
+    <group name="stand">
+      <image anchorx="37" w="74" h="109" />
+      <image anchorx="37" w="74" h="109" />
+      <image anchorx="36" w="73" h="109" />
+      <image anchorx="36" w="73" h="109" />
+    </group>
+    <group name="move">
+      <image anchorx="38" w="74" h="105" />
+      <image anchorx="38" w="73" h="105" />
+      <image anchorx="35" w="74" h="104" />
+      <image anchorx="33" w="74" h="105" />
+      <image anchorx="29" w="73" h="106" />
+      <image anchorx="30" w="73" h="108" />
+      <image anchorx="30" w="73" h="106" />
+      <image anchorx="30" w="73" h="103" />
+    </group>
+    <group name="attack">
+      <image anchorx="35" w="74" h="107" />
+      <image anchorx="27" w="49" h="110" />
+      <image anchorx="41" w="66" h="123" />
+      <image anchorx="29" w="65" h="136" />
+      <image anchorx="32" w="113" h="107" />
+      <image anchorx="32" w="113" h="107" />
+      <image anchorx="29" w="93" h="107" />
+      <image anchorx="29" w="75" h="107" />
+    </group>
+  </animation>
+  <animation name="qiaofu_futou">
+    <group name="stand">
+      <image anchorx="38" w="80" h="112" />
+      <image anchorx="40" w="83" h="112" />
+      <image anchorx="37" w="84" h="112" />
+      <image anchorx="35" w="83" h="112" />
+    </group>
+    <group name="move">
+      <image anchorx="40" w="92" h="108" />
+      <image anchorx="39" w="88" h="110" />
+      <image anchorx="39" w="94" h="102" />
+      <image anchorx="38" w="93" h="104" />
+      <image anchorx="38" w="76" h="106" />
+      <image anchorx="37" w="73" h="105" />
+      <image anchorx="36" w="74" h="106" />
+      <image anchorx="34" w="91" h="109" />
+    </group>
+    <group name="attack">
+      <image anchorx="42" w="67" h="115" />
+      <image anchorx="47" w="78" h="114" />
+      <image anchorx="47" w="76" h="113" />
+      <image anchorx="40" w="72" h="109" />
+      <image anchorx="29" w="110" h="106" />
+      <image anchorx="28" w="110" h="107" />
+      <image anchorx="28" w="85" h="107" />
+      <image anchorx="33" w="61" h="114" />
+    </group>
+  </animation>
+  <animation name="nongfu_chutou">
+    <group name="stand">
+      <image anchorx="22" w="44" h="112" />
+      <image anchorx="22" w="45" h="112" />
+      <image anchorx="22" w="45" h="112" />
+      <image anchorx="22" w="45" h="112" />
+    </group>
+    <group name="move">
+      <image anchorx="46" w="92" h="108" />
+      <image anchorx="46" w="93" h="106" />
+      <image anchorx="46" w="92" h="104" />
+      <image anchorx="45" w="91" h="104" />
+      <image anchorx="44" w="88" h="104" />
+      <image anchorx="43" w="87" h="101" />
+      <image anchorx="44" w="88" h="103" />
+      <image anchorx="45" w="91" h="107" />
+    </group>
+    <group name="attack">
+      <image anchorx="42" w="84" h="108" />
+      <image anchorx="59" w="89" h="103" />
+      <image anchorx="67" w="92" h="102" />
+      <image anchorx="18" w="60" h="101" />
+      <image anchorx="20" w="112" h="102" />
+      <image anchorx="19" w="119" h="102" />
+      <image anchorx="20" w="86" h="102" />
+      <image anchorx="31" w="69" h="103" />
+    </group>
+  </animation>
+  <animation name="gongzi_shanzi">
+    <group name="stand">
+      <image anchorx="17" w="54" h="112" />
+      <image anchorx="18" w="48" h="112" />
+      <image anchorx="18" w="44" h="112" />
+      <image anchorx="17" w="48" h="112" />
+    </group>
+    <group name="move">
+      <image anchorx="21" w="70" h="108" />
+      <image anchorx="28" w="79" h="105" />
+      <image anchorx="31" w="83" h="105" />
+      <image anchorx="27" w="73" h="106" />
+      <image anchorx="27" w="58" h="106" />
+      <image anchorx="26" w="61" h="103" />
+      <image anchorx="26" w="59" h="107" />
+      <image anchorx="26" w="69" h="108" />
+    </group>
+    <group name="attack">
+      <image anchorx="21" w="70" h="111" />
+      <image anchorx="23" w="52" h="135" />
+      <image anchorx="31" w="50" h="136" />
+      <image anchorx="15" w="73" h="111" />
+      <image anchorx="18" w="52" h="111" />
+      <image anchorx="16" w="81" h="129" />
+      <image anchorx="18" w="72" h="131" />
+      <image anchorx="19" w="75" h="116" />
+    </group>
+  </animation>
+  <animation name="gongzi_pifeng">
+    <group name="stand">
+      <image anchorx="42" w="62" h="116" />
+      <image anchorx="42" w="62" h="116" />
+      <image anchorx="42" w="62" h="117" />
+      <image anchorx="42" w="62" h="116" />
+    </group>
+    <group name="move">
+      <image anchorx="44" w="73" h="105" />
+      <image anchorx="44" w="71" h="105" />
+      <image anchorx="44" w="69" h="109" />
+      <image anchorx="44" w="68" h="113" />
+      <image anchorx="44" w="71" h="111" />
+      <image anchorx="44" w="75" h="107" />
+      <image anchorx="44" w="79" h="106" />
+      <image anchorx="44" w="81" h="108" />
+    </group>
+  </animation>
+  <animation name="jianke_nv_hua">
+    <group name="stand">
+      <image anchorx="15" w="31" h="102" />
+      <image anchorx="16" w="32" h="102" />
+      <image anchorx="16" w="33" h="102" />
+      <image anchorx="16" w="33" h="102" />
+    </group>
+    <group name="move">
+      <image anchorx="34" w="73" h="100" />
+      <image anchorx="27" w="64" h="96" />
+      <image anchorx="16" w="39" h="95" />
+      <image anchorx="21" w="54" h="98" />
+      <image anchorx="34" w="71" h="98" />
+      <image anchorx="30" w="67" h="100" />
+      <image anchorx="23" w="46" h="104" />
+      <image anchorx="23" w="47" h="105" />
+    </group>
+    <group name="attack">
+      <image anchorx="18" w="70" h="104" />
+      <image anchorx="18" w="71" h="103" />
+      <image anchorx="31" w="80" h="101" />
+      <image anchorx="31" w="87" h="100" />
+      <image anchorx="30" w="119" h="99" />
+      <image anchorx="23" w="141" h="102" />
+      <image anchorx="15" w="121" h="100" />
+      <image anchorx="13" w="80" h="103" />
+    </group>
+  </animation>
+  <animation name="nv_miaozu">
+    <group name="stand">
+      <image anchorx="27" w="54" h="126" />
+      <image anchorx="27" w="54" h="126" />
+      <image anchorx="27" w="54" h="125" />
+      <image anchorx="27" w="54" h="126" />
+    </group>
+    <group name="move">
+      <image anchorx="24" w="63" h="123" />
+      <image anchorx="33" w="90" h="120" />
+      <image anchorx="23" w="82" h="122" />
+      <image anchorx="19" w="54" h="122" />
+      <image anchorx="19" w="47" h="123" />
+      <image anchorx="28" w="57" h="124" />
+      <image anchorx="21" w="44" h="127" />
+      <image anchorx="21" w="51" h="125" />
+    </group>
+  </animation>
+  <animation name="langzhong">
+    <group name="stand">
+      <image anchorx="30" w="61" h="111" />
+      <image anchorx="27" w="55" h="110" />
+      <image anchorx="28" w="56" h="110" />
+      <image anchorx="27" w="55" h="111" />
+    </group>
+    <group name="move">
+      <image anchorx="34" w="71" h="101" />
+      <image anchorx="34" w="70" h="102" />
+      <image anchorx="34" w="71" h="105" />
+      <image anchorx="32" w="57" h="106" />
+      <image anchorx="30" w="68" h="103" />
+      <image anchorx="31" w="64" h="101" />
+      <image anchorx="31" w="68" h="102" />
+      <image anchorx="31" w="58" h="99" />
+    </group>
+  </animation>
+  <animation name="jianke_zhangmen">
+    <group name="stand">
+      <image anchorx="19" w="39" h="118" />
+      <image anchorx="20" w="40" h="118" />
+      <image anchorx="20" w="40" h="117" />
+      <image anchorx="20" w="40" h="118" />
+    </group>
+    <group name="move">
+      <image anchorx="34" w="81" h="115" />
+      <image anchorx="28" w="78" h="111" />
+      <image anchorx="31" w="82" h="111" />
+      <image anchorx="31" w="83" h="113" />
+      <image anchorx="34" w="71" h="114" />
+      <image anchorx="34" w="68" h="112" />
+      <image anchorx="30" w="61" h="115" />
+      <image anchorx="28" w="56" h="116" />
+    </group>
+    <group name="attack">
+      <image anchorx="29" w="69" h="114" />
+      <image anchorx="57" w="101" h="147" />
+      <image anchorx="39" w="90" h="165" />
+      <image anchorx="39" w="88" h="147" />
+      <image anchorx="34" w="130" h="121" />
+      <image anchorx="44" w="167" h="106" />
+      <image anchorx="36" w="166" h="106" />
+      <image anchorx="59" w="104" h="100" />
+    </group>
+  </animation>
+  <animation name="jianke_gongzi">
+    <group name="stand">
+      <image anchorx="68" w="85" h="120" />
+      <image anchorx="68" w="84" h="121" />
+      <image anchorx="68" w="83" h="121" />
+      <image anchorx="68" w="84" h="121" />
+    </group>
+    <group name="move">
+      <image anchorx="49" w="74" h="112" />
+      <image anchorx="44" w="70" h="111" />
+      <image anchorx="46" w="77" h="112" />
+      <image anchorx="58" w="87" h="111" />
+      <image anchorx="65" w="90" h="109" />
+      <image anchorx="64" w="93" h="110" />
+      <image anchorx="61" w="92" h="112" />
+      <image anchorx="57" w="88" h="114" />
+    </group>
+    <group name="attack">
+      <image anchorx="32" w="96" h="121" />
+      <image anchorx="40" w="70" h="129" />
+      <image anchorx="39" w="146" h="109" />
+      <image anchorx="28" w="156" h="109" />
+      <image anchorx="26" w="146" h="108" />
+      <image anchorx="20" w="110" h="136" />
+      <image anchorx="23" w="100" h="113" />
+      <image anchorx="36" w="121" h="116" />
+    </group>
+  </animation>
+  <animation name="laoren_purple">
+    <group name="stand">
+      <image anchorx="21" w="43" h="109" />
+      <image anchorx="21" w="42" h="111" />
+      <image anchorx="20" w="41" h="111" />
+      <image anchorx="21" w="42" h="111" />
+    </group>
+    <group name="move">
+      <image anchorx="29" w="71" h="110" />
+      <image anchorx="28" w="68" h="108" />
+      <image anchorx="28" w="66" h="104" />
+      <image anchorx="28" w="65" h="100" />
+      <image anchorx="28" w="54" h="102" />
+      <image anchorx="28" w="60" h="104" />
+      <image anchorx="28" w="54" h="106" />
+      <image anchorx="28" w="54" h="109" />
+    </group>
+  </animation>
+  <animation name="qigai_old">
+    <group name="stand">
+      <image anchorx="23" w="46" h="107" />
+      <image anchorx="24" w="48" h="107" />
+      <image anchorx="24" w="49" h="107" />
+      <image anchorx="24" w="49" h="107" />
+    </group>
+    <group name="move">
+      <image anchorx="33" w="90" h="107" />
+      <image anchorx="32" w="86" h="105" />
+      <image anchorx="26" w="78" h="105" />
+      <image anchorx="26" w="74" h="103" />
+      <image anchorx="26" w="69" h="103" />
+      <image anchorx="26" w="63" h="103" />
+      <image anchorx="26" w="62" h="106" />
+      <image anchorx="26" w="57" h="107" />
+    </group>
+  </animation>
+  <animation name="jianke_gongzi2">
+    <group name="stand">
+      <image anchorx="21" w="42" h="115" />
+      <image anchorx="20" w="40" h="115" />
+      <image anchorx="19" w="39" h="114" />
+      <image anchorx="20" w="40" h="115" />
+    </group>
+    <group name="move">
+      <image anchorx="36" w="73" h="108" />
+      <image anchorx="34" w="69" h="107" />
+      <image anchorx="25" w="50" h="101" />
+      <image anchorx="26" w="52" h="103" />
+      <image anchorx="33" w="67" h="102" />
+      <image anchorx="32" w="65" h="104" />
+      <image anchorx="23" w="47" h="109" />
+      <image anchorx="29" w="59" h="111" />
+    </group>
+    <group name="attack">
+      <image anchorx="21" w="48" h="130" />
+      <image anchorx="31" w="55" h="134" />
+      <image anchorx="73" w="95" h="111" />
+      <image anchorx="79" w="102" h="110" />
+      <image anchorx="38" w="138" h="105" />
+      <image anchorx="44" w="90" h="105" />
+      <image anchorx="22" w="107" h="104" />
+    </group>
+  </animation>
+  <animation name="menpai_dizi_jian">
+    <group name="stand">
+      <image anchorx="28" w="65" h="113" />
+      <image anchorx="19" w="57" h="114" />
+      <image anchorx="19" w="55" h="114" />
+      <image anchorx="19" w="56" h="114" />
+    </group>
+    <group name="move">
+      <image anchorx="35" w="76" h="109" />
+      <image anchorx="45" w="78" h="108" />
+      <image anchorx="39" w="76" h="105" />
+      <image anchorx="25" w="69" h="104" />
+      <image anchorx="19" w="63" h="106" />
+      <image anchorx="23" w="69" h="106" />
+      <image anchorx="28" w="75" h="108" />
+      <image anchorx="28" w="76" h="109" />
+    </group>
+    <group name="attack">
+      <image anchorx="27" w="67" h="123" />
+      <image anchorx="79" w="114" h="103" />
+      <image anchorx="84" w="117" h="99" />
+      <image anchorx="31" w="136" h="99" />
+      <image anchorx="32" w="102" h="97" />
+      <image anchorx="31" w="90" h="100" />
+      <image anchorx="31" w="116" h="102" />
+      <image anchorx="29" w="92" h="106" />
+    </group>
+  </animation>
+  <animation name="menpai_dizi_jian_nv">
+    <group name="stand">
+      <image anchorx="36" w="75" h="113" />
+      <image anchorx="29" w="70" h="112" />
+      <image anchorx="26" w="66" h="112" />
+      <image anchorx="29" w="70" h="112" />
+    </group>
+    <group name="move">
+      <image anchorx="42" w="78" h="109" />
+      <image anchorx="43" w="79" h="108" />
+      <image anchorx="41" w="79" h="107" />
+      <image anchorx="33" w="79" h="109" />
+      <image anchorx="16" w="72" h="108" />
+      <image anchorx="31" w="85" h="106" />
+      <image anchorx="27" w="87" h="108" />
+      <image anchorx="29" w="80" h="110" />
+    </group>
+    <group name="attack">
+      <image anchorx="48" w="121" h="125" />
+      <image anchorx="70" w="103" h="146" />
+      <image anchorx="70" w="106" h="123" />
+      <image anchorx="25" w="115" h="109" />
+      <image anchorx="22" w="80" h="96" />
+      <image anchorx="38" w="106" h="126" />
+    </group>
+  </animation>
+  <animation name="qigai_old2">
+    <group name="stand">
+      <image anchorx="24" w="48" h="131" />
+      <image anchorx="23" w="46" h="134" />
+      <image anchorx="23" w="47" h="133" />
+      <image anchorx="24" w="48" h="131" />
+    </group>
+    <group name="move">
+      <image anchorx="22" w="60" h="132" />
+      <image anchorx="28" w="67" h="128" />
+      <image anchorx="28" w="67" h="132" />
+      <image anchorx="21" w="54" h="131" />
+      <image anchorx="20" w="48" h="129" />
+      <image anchorx="27" w="59" h="125" />
+      <image anchorx="27" w="60" h="125" />
+      <image anchorx="22" w="55" h="129" />
+    </group>
+  </animation>
+  <animation name="menpai_dizi_chishen">
+    <group name="stand">
+      <image anchorx="17" w="35" h="107" />
+      <image anchorx="18" w="36" h="107" />
+      <image anchorx="18" w="36" h="107" />
+      <image anchorx="18" w="36" h="107" />
+    </group>
+    <group name="move">
+      <image anchorx="33" w="66" h="106" />
+      <image anchorx="30" w="61" h="103" />
+      <image anchorx="31" w="62" h="101" />
+      <image anchorx="30" w="61" h="100" />
+      <image anchorx="25" w="50" h="101" />
+      <image anchorx="26" w="53" h="99" />
+      <image anchorx="25" w="51" h="101" />
+      <image anchorx="25" w="50" h="104" />
+    </group>
+  </animation>
+  <animation name="menpai_dizi_gaibang">
+    <group name="stand">
+      <image anchorx="18" w="37" h="138" />
+      <image anchorx="18" w="37" h="140" />
+      <image anchorx="18" w="36" h="141" />
+      <image anchorx="18" w="37" h="140" />
+    </group>
+    <group name="move">
+      <image anchorx="20" w="90" h="115" />
+      <image anchorx="27" w="90" h="128" />
+      <image anchorx="27" w="103" h="113" />
+      <image anchorx="24" w="104" h="108" />
+      <image anchorx="43" w="113" h="108" />
+      <image anchorx="49" w="107" h="103" />
+      <image anchorx="43" w="113" h="107" />
+      <image anchorx="23" w="105" h="109" />
+    </group>
+  </animation>
+  <animation name="meinv_jian">
+    <group name="stand">
+      <image anchorx="14" w="28" h="104" />
+      <image anchorx="14" w="28" h="104" />
+      <image anchorx="14" w="28" h="104" />
+      <image anchorx="14" w="28" h="104" />
+    </group>
+    <group name="move">
+      <image anchorx="20" w="40" h="99" />
+      <image anchorx="19" w="39" h="98" />
+      <image anchorx="22" w="45" h="99" />
+      <image anchorx="20" w="40" h="100" />
+      <image anchorx="18" w="37" h="102" />
+      <image anchorx="19" w="38" h="101" />
+      <image anchorx="22" w="45" h="100" />
+      <image anchorx="19" w="39" h="99" />
+    </group>
+    <group name="attack">
+      <image anchorx="17" w="100" h="105" />
+      <image anchorx="23" w="58" h="105" />
+      <image anchorx="70" w="115" h="105" />
+      <image anchorx="85" w="128" h="105" />
+      <image anchorx="45" w="87" h="105" />
+      <image anchorx="16" w="59" h="101" />
+      <image anchorx="16" w="55" h="124" />
+      <image anchorx="51" w="71" h="108" />
+      <image anchorx="35" w="58" h="112" />
+      <image anchorx="39" w="113" h="101" />
+      <image anchorx="33" w="84" h="92" />
+      <image anchorx="23" w="76" h="94" />
+      <image anchorx="39" w="79" h="102" />
+      <image anchorx="27" w="71" h="103" />
+      <image anchorx="29" w="127" h="110" />
+      <image anchorx="18" w="144" h="108" />
+      <image anchorx="13" w="134" h="110" />
+      <image anchorx="16" w="114" h="107" />
+      <image anchorx="14" w="110" h="101" />
+      <image anchorx="22" w="108" h="104" />
+    </group>
+  </animation>
+  <animation name="xiannv_1">
+    <group name="stand">
+      <image anchorx="38" w="76" h="108" />
+      <image anchorx="38" w="76" h="108" />
+      <image anchorx="38" w="76" h="108" />
+      <image anchorx="38" w="76" h="108" />
+    </group>
+    <group name="move">
+      <image anchorx="36" w="72" h="105" />
+      <image anchorx="36" w="73" h="107" />
+      <image anchorx="34" w="68" h="108" />
+      <image anchorx="34" w="68" h="107" />
+      <image anchorx="34" w="69" h="106" />
+      <image anchorx="35" w="71" h="106" />
+      <image anchorx="36" w="73" h="108" />
+      <image anchorx="35" w="71" h="106" />
+    </group>
+    <group name="attack">
+      <image anchorx="54" w="108" h="114" />
+      <image anchorx="52" w="104" h="114" />
+      <image anchorx="49" w="99" h="117" />
+      <image anchorx="45" w="91" h="122" />
+      <image anchorx="43" w="87" h="146" />
+      <image anchorx="46" w="113" h="133" />
+      <image anchorx="39" w="83" h="160" />
+      <image anchorx="42" w="84" h="119" />
+      <image anchorx="34" w="96" h="106" />
+      <image anchorx="37" w="75" h="107" />
+      <image anchorx="62" w="100" h="106" />
+      <image anchorx="70" w="105" h="112" />
+      <image anchorx="69" w="148" h="115" />
+      <image anchorx="63" w="152" h="116" />
+      <image anchorx="60" w="103" h="113" />
+      <image anchorx="50" w="137" h="112" />
+      <image anchorx="43" w="131" h="112" />
+      <image anchorx="41" w="110" h="114" />
+      <image anchorx="36" w="93" h="112" />
+      <image anchorx="36" w="87" h="113" />
+    </group>
+  </animation>
+  <animation name="limochou">
+    <group name="stand">
+      <image anchorx="24" w="63" h="107" />
+      <image anchorx="23" w="62" h="107" />
+      <image anchorx="21" w="62" h="107" />
+      <image anchorx="21" w="61" h="107" />
+    </group>
+    <group name="move">
+      <image anchorx="27" w="76" h="109" />
+      <image anchorx="24" w="73" h="109" />
+      <image anchorx="29" w="69" h="110" />
+      <image anchorx="29" w="59" h="107" />
+      <image anchorx="26" w="58" h="107" />
+      <image anchorx="26" w="66" h="109" />
+    </group>
+    <group name="attack">
+      <image anchorx="32" w="65" h="104" />
+      <image anchorx="33" w="66" h="107" />
+      <image anchorx="32" w="65" h="110" />
+      <image anchorx="37" w="75" h="104" />
+      <image anchorx="39" w="105" h="99" />
+      <image anchorx="38" w="132" h="95" />
+      <image anchorx="38" w="81" h="109" />
+      <image anchorx="38" w="74" h="110" />
+      <image anchorx="43" w="81" h="149" />
+      <image anchorx="36" w="95" h="95" />
+      <image anchorx="37" w="158" h="93" />
+      <image anchorx="39" w="105" h="96" />
+      <image anchorx="42" w="69" h="103" />
+      <image anchorx="40" w="70" h="108" />
+      <image anchorx="35" w="79" h="103" />
+      <image anchorx="41" w="102" h="97" />
+      <image anchorx="39" w="107" h="96" />
+      <image anchorx="32" w="102" h="100" />
+      <image anchorx="32" w="92" h="105" />
+      <image anchorx="32" w="77" h="106" />
+    </group>
+  </animation>
+  <animation name="daogu2">
+    <group name="stand">
+      <image anchorx="13" w="27" h="111" />
+      <image anchorx="13" w="26" h="111" />
+      <image anchorx="12" w="25" h="111" />
+      <image anchorx="12" w="25" h="111" />
+    </group>
+    <group name="move">
+      <image anchorx="36" w="83" h="109" />
+      <image anchorx="33" w="80" h="106" />
+      <image anchorx="27" w="70" h="106" />
+      <image anchorx="28" w="65" h="106" />
+      <image anchorx="34" w="76" h="103" />
+      <image anchorx="34" w="75" h="106" />
+      <image anchorx="26" w="60" h="109" />
+      <image anchorx="26" w="56" h="110" />
+    </group>
+    <group name="attack">
+      <image anchorx="20" w="78" h="112" />
+      <image anchorx="18" w="91" h="111" />
+      <image anchorx="20" w="51" h="109" />
+      <image anchorx="32" w="62" h="107" />
+      <image anchorx="49" w="113" h="106" />
+      <image anchorx="43" w="67" h="106" />
+      <image anchorx="30" w="61" h="108" />
+      <image anchorx="21" w="59" h="117" />
+    </group>
+  </animation>
+  <animation name="yangguo_duanbi">
+    <group name="stand">
+      <image anchorx="22" w="42" h="127" />
+      <image anchorx="16" w="36" h="126" />
+      <image anchorx="17" w="37" h="126" />
+      <image anchorx="16" w="36" h="126" />
+    </group>
+    <group name="move">
+      <image anchorx="33" w="70" h="125" />
+      <image anchorx="33" w="79" h="123" />
+      <image anchorx="33" w="86" h="121" />
+      <image anchorx="33" w="83" h="124" />
+      <image anchorx="33" w="77" h="123" />
+      <image anchorx="36" w="69" h="121" />
+      <image anchorx="31" w="66" h="123" />
+      <image anchorx="32" w="64" h="126" />
+    </group>
+    <group name="attack">
+      <image anchorx="41" w="108" h="114" />
+      <image anchorx="48" w="136" h="114" />
+      <image anchorx="48" w="151" h="119" />
+      <image anchorx="50" w="151" h="132" />
+      <image anchorx="44" w="84" h="143" />
+      <image anchorx="72" w="115" h="163" />
+      <image anchorx="104" w="144" h="153" />
+      <image anchorx="101" w="134" h="139" />
+      <image anchorx="37" w="74" h="184" />
+      <image anchorx="38" w="160" h="104" />
+      <image anchorx="35" w="70" h="114" />
+      <image anchorx="58" w="90" h="99" />
+      <image anchorx="56" w="129" h="99" />
+      <image anchorx="53" w="85" h="103" />
+      <image anchorx="80" w="112" h="138" />
+      <image anchorx="72" w="106" h="168" />
+      <image anchorx="64" w="94" h="148" />
+      <image anchorx="45" w="67" h="105" />
+      <image anchorx="32" w="64" h="110" />
+      <image anchorx="35" w="81" h="113" />
+    </group>
+  </animation>
+  <animation name="laopopo">
+    <group name="stand">
+      <image anchorx="26" w="53" h="86" />
+      <image anchorx="25" w="51" h="84" />
+      <image anchorx="27" w="55" h="88" />
+    </group>
+    <group name="move">
+      <image anchorx="23" w="46" h="85" />
+      <image anchorx="26" w="53" h="86" />
+      <image anchorx="29" w="58" h="86" />
+      <image anchorx="27" w="54" h="85" />
+      <image anchorx="23" w="46" h="85" />
+      <image anchorx="24" w="48" h="85" />
+      <image anchorx="24" w="49" h="85" />
+      <image anchorx="24" w="49" h="85" />
+    </group>
+  </animation>
+  <animation name="meinv_jian2">
+    <group name="stand">
+      <image anchorx="21" w="42" h="111" />
+      <image anchorx="20" w="41" h="111" />
+      <image anchorx="20" w="41" h="111" />
+      <image anchorx="20" w="41" h="111" />
+    </group>
+    <group name="move">
+      <image anchorx="24" w="56" h="107" />
+      <image anchorx="21" w="54" h="110" />
+      <image anchorx="19" w="50" h="111" />
+      <image anchorx="19" w="53" h="109" />
+      <image anchorx="23" w="57" h="107" />
+      <image anchorx="25" w="52" h="107" />
+    </group>
+  </animation>
+  <animation name="pangzi_jian">
+    <group name="stand">
+      <image anchorx="28" w="57" h="110" />
+      <image anchorx="29" w="58" h="110" />
+      <image anchorx="29" w="58" h="110" />
+      <image anchorx="29" w="58" h="110" />
+    </group>
+    <group name="move">
+      <image anchorx="33" w="66" h="103" />
+      <image anchorx="36" w="73" h="103" />
+      <image anchorx="33" w="67" h="106" />
+      <image anchorx="35" w="70" h="108" />
+      <image anchorx="36" w="73" h="106" />
+      <image anchorx="39" w="79" h="104" />
+      <image anchorx="36" w="73" h="106" />
+    </group>
+    <group name="attack">
+      <image anchorx="44" w="79" h="104" />
+      <image anchorx="41" w="131" h="103" />
+      <image anchorx="38" w="144" h="102" />
+      <image anchorx="47" w="88" h="104" />
+      <image anchorx="34" w="128" h="103" />
+      <image anchorx="31" w="150" h="102" />
+      <image anchorx="35" w="116" h="103" />
+      <image anchorx="42" w="89" h="104" />
+    </group>
+  </animation>
+  <animation name="daoke_1">
+    <group name="stand">
+      <image anchorx="38" w="76" h="114" />
+      <image anchorx="38" w="76" h="114" />
+      <image anchorx="38" w="76" h="114" />
+      <image anchorx="38" w="76" h="114" />
+    </group>
+    <group name="move">
+      <image anchorx="28" w="63" h="111" />
+      <image anchorx="27" w="63" h="109" />
+      <image anchorx="27" w="67" h="110" />
+      <image anchorx="28" w="66" h="114" />
+      <image anchorx="37" w="73" h="112" />
+      <image anchorx="45" w="84" h="106" />
+      <image anchorx="35" w="73" h="109" />
+      <image anchorx="25" w="63" h="111" />
+    </group>
+  </animation>
+  <animation name="gongzi_jian">
+    <group name="stand">
+      <image anchorx="26" w="53" h="106" />
+      <image anchorx="26" w="52" h="106" />
+      <image anchorx="26" w="53" h="106" />
+      <image anchorx="26" w="53" h="106" />
+    </group>
+    <group name="move">
+      <image anchorx="36" w="61" h="101" />
+      <image anchorx="38" w="66" h="100" />
+      <image anchorx="45" w="71" h="101" />
+      <image anchorx="40" w="68" h="103" />
+      <image anchorx="35" w="61" h="104" />
+      <image anchorx="26" w="54" h="103" />
+      <image anchorx="23" w="51" h="102" />
+      <image anchorx="23" w="54" h="101" />
+    </group>
+    <group name="attack">
+      <image anchorx="53" w="94" h="109" />
+      <image anchorx="85" w="130" h="106" />
+      <image anchorx="60" w="101" h="104" />
+      <image anchorx="33" w="113" h="109" />
+      <image anchorx="49" w="118" h="103" />
+      <image anchorx="45" w="118" h="104" />
+      <image anchorx="23" w="103" h="106" />
+      <image anchorx="33" w="67" h="109" />
+    </group>
+  </animation>
+  <animation name="shaonian_shoupi">
+    <group name="stand">
+      <image anchorx="17" w="34" h="117" />
+      <image anchorx="17" w="34" h="117" />
+      <image anchorx="17" w="34" h="117" />
+      <image anchorx="17" w="34" h="117" />
+    </group>
+    <group name="move">
+      <image anchorx="24" w="49" h="112" />
+      <image anchorx="29" w="59" h="110" />
+      <image anchorx="24" w="48" h="111" />
+      <image anchorx="19" w="43" h="107" />
+      <image anchorx="19" w="46" h="105" />
+      <image anchorx="27" w="57" h="109" />
+      <image anchorx="22" w="45" h="112" />
+      <image anchorx="18" w="46" h="114" />
+    </group>
+  </animation>
+  <animation name="eba_dao">
+    <group name="stand">
+      <image anchorx="41" w="73" h="118" />
+      <image anchorx="42" w="74" h="118" />
+      <image anchorx="42" w="74" h="118" />
+      <image anchorx="43" w="73" h="118" />
+    </group>
+    <group name="move">
+      <image anchorx="36" w="77" h="111" />
+      <image anchorx="39" w="78" h="112" />
+      <image anchorx="38" w="77" h="109" />
+      <image anchorx="37" w="75" h="110" />
+      <image anchorx="39" w="79" h="108" />
+      <image anchorx="39" w="78" h="109" />
+      <image anchorx="37" w="74" h="113" />
+      <image anchorx="37" w="75" h="113" />
+    </group>
+    <group name="attack">
+      <image anchorx="26" w="62" h="113" />
+      <image anchorx="23" w="57" h="113" />
+      <image anchorx="44" w="82" h="152" />
+      <image anchorx="70" w="103" h="132" />
+      <image anchorx="22" w="51" h="142" />
+      <image anchorx="28" w="152" h="113" />
+      <image anchorx="27" w="130" h="110" />
+      <image anchorx="27" w="104" h="112" />
+    </group>
+  </animation>
+  <animation name="menpai_dizi_xuedao">
+    <group name="stand">
+      <image anchorx="29" w="58" h="114" />
+      <image anchorx="29" w="58" h="116" />
+      <image anchorx="29" w="58" h="117" />
+      <image anchorx="29" w="58" h="116" />
+    </group>
+    <group name="move">
+      <image anchorx="30" w="66" h="117" />
+      <image anchorx="30" w="64" h="113" />
+      <image anchorx="21" w="42" h="110" />
+      <image anchorx="23" w="47" h="110" />
+      <image anchorx="29" w="59" h="109" />
+      <image anchorx="27" w="55" h="113" />
+      <image anchorx="21" w="42" h="117" />
+      <image anchorx="22" w="44" h="117" />
+    </group>
+    <group name="attack">
+      <image anchorx="17" w="55" h="135" />
+      <image anchorx="26" w="65" h="139" />
+      <image anchorx="46" w="74" h="115" />
+      <image anchorx="51" w="76" h="113" />
+      <image anchorx="27" w="114" h="109" />
+      <image anchorx="27" w="50" h="117" />
+      <image anchorx="27" w="47" h="119" />
+      <image anchorx="18" w="99" h="113" />
+    </group>
+  </animation>
+  <animation name="laotou_zuigui">
+    <group name="stand">
+      <image anchorx="19" w="38" h="118" />
+      <image anchorx="19" w="39" h="117" />
+      <image anchorx="19" w="39" h="116" />
+      <image anchorx="19" w="39" h="117" />
+    </group>
+    <group name="move">
+      <image anchorx="23" w="45" h="104" />
+      <image anchorx="23" w="51" h="106" />
+      <image anchorx="30" w="61" h="106" />
+      <image anchorx="30" w="57" h="109" />
+      <image anchorx="30" w="55" h="109" />
+      <image anchorx="28" w="61" h="110" />
+      <image anchorx="30" w="65" h="109" />
+      <image anchorx="22" w="58" h="109" />
+    </group>
+  </animation>
+  <animation name="tiechou">
+    <group name="stand">
+      <image anchorx="20" w="48" h="107" />
+      <image anchorx="18" w="37" h="115" />
+      <image anchorx="17" w="30" h="118" />
+      <image anchorx="17" w="37" h="115" />
+    </group>
+    <group name="move">
+      <image anchorx="25" w="61" h="107" />
+      <image anchorx="30" w="60" h="104" />
+      <image anchorx="25" w="51" h="104" />
+      <image anchorx="24" w="42" h="105" />
+      <image anchorx="26" w="59" h="98" />
+      <image anchorx="30" w="59" h="101" />
+      <image anchorx="19" w="41" h="106" />
+      <image anchorx="14" w="43" h="109" />
+    </group>
+    <group name="attack">
+      <image anchorx="20" w="46" h="108" />
+      <image anchorx="21" w="43" h="123" />
+      <image anchorx="33" w="66" h="121" />
+      <image anchorx="44" w="84" h="117" />
+      <image anchorx="9" w="55" h="123" />
+      <image anchorx="16" w="89" h="88" />
+      <image anchorx="42" w="84" h="91" />
+      <image anchorx="35" w="70" h="100" />
+    </group>
+  </animation>
+  <animation name="eba_langyabang">
+    <group name="stand">
+      <image anchorx="24" w="49" h="112" />
+      <image anchorx="25" w="50" h="112" />
+      <image anchorx="25" w="50" h="112" />
+      <image anchorx="25" w="50" h="112" />
+    </group>
+    <group name="move">
+      <image anchorx="20" w="78" h="112" />
+      <image anchorx="25" w="76" h="123" />
+      <image anchorx="25" w="88" h="108" />
+      <image anchorx="20" w="88" h="105" />
+      <image anchorx="18" w="74" h="105" />
+      <image anchorx="23" w="67" h="106" />
+      <image anchorx="28" w="83" h="106" />
+      <image anchorx="16" w="86" h="109" />
+    </group>
+  </animation>
+  <animation name="jianke_mengmianren">
+    <group name="stand">
+      <image anchorx="17" w="36" h="114" />
+      <image anchorx="17" w="35" h="114" />
+      <image anchorx="17" w="35" h="114" />
+      <image anchorx="17" w="34" h="114" />
+    </group>
+    <group name="move">
+      <image anchorx="31" w="71" h="113" />
+      <image anchorx="37" w="75" h="111" />
+      <image anchorx="39" w="68" h="107" />
+      <image anchorx="37" w="66" h="109" />
+      <image anchorx="32" w="70" h="107" />
+      <image anchorx="34" w="68" h="108" />
+      <image anchorx="34" w="69" h="113" />
+      <image anchorx="30" w="61" h="114" />
+    </group>
+    <group name="attack">
+      <image anchorx="32" w="93" h="109" />
+      <image anchorx="21" w="78" h="112" />
+      <image anchorx="25" w="81" h="110" />
+      <image anchorx="48" w="96" h="108" />
+      <image anchorx="51" w="97" h="108" />
+      <image anchorx="32" w="119" h="114" />
+      <image anchorx="39" w="165" h="116" />
+      <image anchorx="37" w="155" h="116" />
+    </group>
+  </animation>
+  <animation name="xiake_jian">
+    <group name="stand">
+      <image anchorx="21" w="43" h="110" />
+      <image anchorx="21" w="42" h="110" />
+      <image anchorx="21" w="42" h="110" />
+      <image anchorx="21" w="42" h="110" />
+    </group>
+    <group name="move">
+      <image anchorx="36" w="74" h="107" />
+      <image anchorx="35" w="70" h="106" />
+      <image anchorx="33" w="66" h="107" />
+      <image anchorx="31" w="62" h="106" />
+      <image anchorx="29" w="58" h="105" />
+      <image anchorx="31" w="63" h="103" />
+      <image anchorx="29" w="58" h="107" />
+      <image anchorx="28" w="57" h="107" />
+    </group>
+    <group name="attack">
+      <image anchorx="32" w="76" h="110" />
+      <image anchorx="51" w="96" h="108" />
+      <image anchorx="40" w="88" h="106" />
+      <image anchorx="39" w="92" h="103" />
+      <image anchorx="36" w="121" h="100" />
+      <image anchorx="32" w="124" h="100" />
+      <image anchorx="33" w="84" h="106" />
+      <image anchorx="33" w="78" h="109" />
+    </group>
+  </animation>
+  <animation name="qigai_jian">
+    <group name="stand">
+      <image anchorx="26" w="103" h="104" />
+      <image anchorx="21" w="95" h="104" />
+      <image anchorx="22" w="93" h="104" />
+      <image anchorx="27" w="101" h="104" />
+    </group>
+    <group name="move">
+      <image anchorx="32" w="87" h="105" />
+      <image anchorx="27" w="85" h="104" />
+      <image anchorx="24" w="82" h="102" />
+      <image anchorx="24" w="85" h="106" />
+      <image anchorx="24" w="82" h="107" />
+      <image anchorx="24" w="74" h="106" />
+      <image anchorx="24" w="73" h="103" />
+      <image anchorx="24" w="76" h="103" />
+    </group>
+  </animation>
+  <animation name="menpai_dizi_daoshi">
+    <group name="stand">
+      <image anchorx="28" w="56" h="125" />
+      <image anchorx="26" w="53" h="125" />
+      <image anchorx="26" w="53" h="125" />
+      <image anchorx="27" w="55" h="124" />
+    </group>
+    <group name="move">
+      <image anchorx="37" w="67" h="122" />
+      <image anchorx="38" w="77" h="123" />
+      <image anchorx="34" w="69" h="123" />
+      <image anchorx="39" w="78" h="122" />
+      <image anchorx="34" w="69" h="118" />
+      <image anchorx="38" w="77" h="123" />
+      <image anchorx="32" w="65" h="123" />
+      <image anchorx="39" w="78" h="123" />
+    </group>
+    <group name="attack">
+      <image anchorx="38" w="76" h="116" />
+      <image anchorx="47" w="94" h="133" />
+      <image anchorx="57" w="107" h="134" />
+      <image anchorx="31" w="131" h="108" />
+      <image anchorx="30" w="128" h="106" />
+      <image anchorx="37" w="144" h="109" />
+      <image anchorx="34" w="146" h="114" />
+      <image anchorx="33" w="100" h="123" />
+    </group>
+  </animation>
+  <animation name="huiyi_laoye">
+    <group name="stand">
+      <image anchorx="18" w="36" h="119" />
+      <image anchorx="18" w="36" h="119" />
+      <image anchorx="18" w="36" h="119" />
+      <image anchorx="18" w="36" h="119" />
+    </group>
+    <group name="move">
+      <image anchorx="21" w="42" h="114" />
+      <image anchorx="29" w="59" h="115" />
+      <image anchorx="24" w="48" h="119" />
+      <image anchorx="33" w="67" h="118" />
+      <image anchorx="21" w="42" h="114" />
+      <image anchorx="28" w="56" h="116" />
+      <image anchorx="23" w="46" h="119" />
+      <image anchorx="32" w="64" h="118" />
+    </group>
+  </animation>
+  <animation name="daoke">
+    <group name="stand">
+      <image anchorx="17" w="34" h="117" />
+      <image anchorx="16" w="33" h="120" />
+      <image anchorx="16" w="32" h="120" />
+      <image anchorx="17" w="34" h="117" />
+    </group>
+    <group name="move">
+      <image anchorx="32" w="64" h="111" />
+      <image anchorx="30" w="61" h="108" />
+      <image anchorx="26" w="53" h="113" />
+      <image anchorx="27" w="55" h="113" />
+      <image anchorx="30" w="60" h="113" />
+      <image anchorx="28" w="57" h="113" />
+      <image anchorx="28" w="56" h="115" />
+      <image anchorx="28" w="56" h="115" />
+    </group>
+  </animation>
+  <animation name="xiucai">
+    <group name="stand">
+      <image anchorx="17" w="34" h="113" />
+      <image anchorx="17" w="35" h="113" />
+      <image anchorx="17" w="35" h="113" />
+      <image anchorx="18" w="36" h="113" />
+    </group>
+    <group name="move">
+      <image anchorx="29" w="59" h="112" />
+      <image anchorx="36" w="72" h="109" />
+      <image anchorx="39" w="78" h="111" />
+      <image anchorx="34" w="69" h="112" />
+      <image anchorx="36" w="73" h="108" />
+      <image anchorx="39" w="78" h="109" />
+      <image anchorx="41" w="83" h="112" />
+      <image anchorx="37" w="74" h="114" />
+    </group>
+  </animation>
+  <animation name="xiaoer">
+    <group name="stand">
+      <image anchorx="17" w="34" h="108" />
+      <image anchorx="17" w="34" h="108" />
+      <image anchorx="17" w="34" h="108" />
+      <image anchorx="17" w="35" h="108" />
+    </group>
+    <group name="move">
+      <image anchorx="20" w="41" h="107" />
+      <image anchorx="27" w="55" h="105" />
+      <image anchorx="26" w="52" h="104" />
+      <image anchorx="20" w="40" h="103" />
+      <image anchorx="19" w="38" h="103" />
+      <image anchorx="28" w="57" h="102" />
+      <image anchorx="25" w="51" h="106" />
+      <image anchorx="19" w="38" h="108" />
+    </group>
+  </animation>
+  <animation name="daniang_jian">
+    <group name="stand">
+      <image anchorx="17" w="35" h="117" />
+      <image anchorx="17" w="35" h="117" />
+      <image anchorx="17" w="35" h="115" />
+      <image anchorx="17" w="35" h="117" />
+    </group>
+    <group name="move">
+      <image anchorx="17" w="34" h="116" />
+      <image anchorx="22" w="44" h="113" />
+      <image anchorx="25" w="51" h="114" />
+      <image anchorx="23" w="46" h="117" />
+      <image anchorx="20" w="40" h="118" />
+      <image anchorx="24" w="49" h="116" />
+      <image anchorx="27" w="54" h="115" />
+      <image anchorx="22" w="45" h="116" />
+    </group>
+  </animation>
+  <animation name="zhangmen_jian">
+    <group name="stand">
+      <image anchorx="30" w="60" h="127" />
+      <image anchorx="29" w="59" h="128" />
+      <image anchorx="29" w="59" h="128" />
+      <image anchorx="30" w="60" h="127" />
+    </group>
+    <group name="move">
+      <image anchorx="33" w="67" h="121" />
+      <image anchorx="35" w="70" h="120" />
+      <image anchorx="40" w="81" h="122" />
+      <image anchorx="38" w="76" h="123" />
+      <image anchorx="34" w="68" h="123" />
+      <image anchorx="33" w="67" h="124" />
+      <image anchorx="37" w="74" h="127" />
+      <image anchorx="31" w="62" h="127" />
+    </group>
+  </animation>
+  <animation name="qiangdao">
+    <group name="stand">
+      <image anchorx="34" w="68" h="115" />
+      <image anchorx="33" w="67" h="114" />
+      <image anchorx="33" w="67" h="114" />
+      <image anchorx="34" w="68" h="115" />
+    </group>
+    <group name="move">
+      <image anchorx="30" w="60" h="122" />
+      <image anchorx="30" w="60" h="121" />
+      <image anchorx="30" w="60" h="122" />
+      <image anchorx="29" w="58" h="122" />
+      <image anchorx="27" w="55" h="123" />
+      <image anchorx="28" w="57" h="123" />
+      <image anchorx="25" w="51" h="123" />
+      <image anchorx="27" w="55" h="122" />
+    </group>
+  </animation>
+  <animation name="xiaobing">
+    <group name="stand">
+      <image anchorx="40" w="62" h="115" />
+      <image anchorx="42" w="61" h="115" />
+      <image anchorx="44" w="61" h="115" />
+      <image anchorx="44" w="62" h="115" />
+    </group>
+    <group name="move">
+      <image anchorx="50" w="74" h="113" />
+      <image anchorx="49" w="81" h="111" />
+      <image anchorx="50" w="80" h="114" />
+      <image anchorx="49" w="79" h="115" />
+      <image anchorx="40" w="69" h="116" />
+      <image anchorx="34" w="67" h="113" />
+      <image anchorx="42" w="70" h="113" />
+      <image anchorx="47" w="73" h="114" />
+    </group>
+  </animation>
+  <animation name="qiangdao2">
+    <group name="stand">
+      <image anchorx="26" w="52" h="121" />
+      <image anchorx="26" w="52" h="121" />
+      <image anchorx="26" w="52" h="121" />
+      <image anchorx="26" w="52" h="121" />
+    </group>
+    <group name="move">
+      <image anchorx="25" w="50" h="115" />
+      <image anchorx="29" w="59" h="113" />
+      <image anchorx="30" w="60" h="117" />
+      <image anchorx="26" w="52" h="119" />
+      <image anchorx="30" w="60" h="119" />
+      <image anchorx="33" w="66" h="117" />
+      <image anchorx="29" w="59" h="115" />
+      <image anchorx="26" w="53" h="114" />
+    </group>
+  </animation>
+  <animation name="xiaobing2">
+    <group name="stand">
+      <image anchorx="14" w="61" h="116" />
+      <image anchorx="16" w="61" h="116" />
+      <image anchorx="16" w="60" h="116" />
+      <image anchorx="16" w="60" h="116" />
+    </group>
+    <group name="move">
+      <image anchorx="25" w="44" h="117" />
+      <image anchorx="25" w="58" h="117" />
+      <image anchorx="25" w="54" h="117" />
+      <image anchorx="25" w="49" h="117" />
+      <image anchorx="19" w="55" h="117" />
+      <image anchorx="19" w="61" h="114" />
+      <image anchorx="19" w="59" h="114" />
+      <image anchorx="24" w="49" h="114" />
+    </group>
+  </animation>
+  <animation name="xiaobing3">
+    <group name="stand">
+      <image anchorx="22" w="35" h="113" />
+      <image anchorx="27" w="38" h="113" />
+      <image anchorx="27" w="38" h="114" />
+      <image anchorx="23" w="36" h="113" />
+    </group>
+    <group name="move">
+      <image anchorx="22" w="44" h="110" />
+      <image anchorx="23" w="47" h="109" />
+      <image anchorx="21" w="52" h="109" />
+      <image anchorx="24" w="48" h="112" />
+      <image anchorx="21" w="43" h="113" />
+      <image anchorx="24" w="49" h="112" />
+      <image anchorx="24" w="56" h="109" />
+      <image anchorx="25" w="50" h="109" />
+    </group>
+  </animation>
+  <animation name="daogu_red">
+    <group name="stand">
+      <image anchorx="36" w="73" h="122" />
+      <image anchorx="36" w="72" h="122" />
+      <image anchorx="36" w="72" h="122" />
+      <image anchorx="36" w="72" h="122" />
+    </group>
+    <group name="move">
+      <image anchorx="27" w="67" h="119" />
+      <image anchorx="27" w="69" h="118" />
+      <image anchorx="27" w="70" h="120" />
+      <image anchorx="27" w="68" h="122" />
+      <image anchorx="27" w="64" h="121" />
+      <image anchorx="27" w="60" h="120" />
+      <image anchorx="27" w="59" h="121" />
+      <image anchorx="27" w="63" h="122" />
+    </group>
+  </animation>
+  <animation name="daoshi_jian_yellow">
+    <group name="stand">
+      <image anchorx="37" w="75" h="112" />
+      <image anchorx="37" w="74" h="112" />
+      <image anchorx="37" w="74" h="112" />
+      <image anchorx="36" w="73" h="112" />
+    </group>
+    <group name="move">
+      <image anchorx="39" w="78" h="108" />
+      <image anchorx="35" w="75" h="106" />
+      <image anchorx="29" w="71" h="102" />
+      <image anchorx="25" w="70" h="106" />
+      <image anchorx="27" w="77" h="104" />
+      <image anchorx="35" w="84" h="105" />
+      <image anchorx="27" w="72" h="109" />
+      <image anchorx="28" w="68" h="110" />
+    </group>
+    <group name="attack">
+      <image anchorx="32" w="120" h="111" />
+      <image anchorx="31" w="126" h="110" />
+      <image anchorx="30" w="65" h="166" />
+      <image anchorx="56" w="93" h="135" />
+      <image anchorx="54" w="164" h="149" />
+    </group>
+  </animation>
+  <animation name="shaonv_blue">
+    <group name="stand">
+      <image anchorx="48" w="66" h="111" />
+      <image anchorx="48" w="65" h="110" />
+      <image anchorx="48" w="65" h="110" />
+      <image anchorx="48" w="65" h="110" />
+    </group>
+    <group name="move">
+      <image anchorx="46" w="69" h="102" />
+      <image anchorx="52" w="76" h="99" />
+      <image anchorx="58" w="84" h="98" />
+      <image anchorx="54" w="77" h="101" />
+      <image anchorx="47" w="68" h="103" />
+      <image anchorx="42" w="63" h="105" />
+      <image anchorx="38" w="64" h="102" />
+      <image anchorx="41" w="65" h="100" />
+    </group>
+  </animation>
+  <animation name="daniang_blue">
+    <group name="stand">
+      <image anchorx="20" w="41" h="113" />
+      <image anchorx="20" w="41" h="113" />
+      <image anchorx="20" w="40" h="113" />
+      <image anchorx="20" w="41" h="113" />
+    </group>
+    <group name="move">
+      <image anchorx="25" w="50" h="112" />
+      <image anchorx="28" w="56" h="111" />
+      <image anchorx="30" w="55" h="112" />
+      <image anchorx="29" w="48" h="111" />
+      <image anchorx="22" w="45" h="109" />
+      <image anchorx="23" w="46" h="110" />
+      <image anchorx="27" w="45" h="112" />
+      <image anchorx="25" w="42" h="114" />
+    </group>
+  </animation>
+  <animation name="daoshi_jian_blue">
+    <group name="stand">
+      <image anchorx="20" w="41" h="115" />
+      <image anchorx="20" w="41" h="114" />
+      <image anchorx="20" w="41" h="114" />
+      <image anchorx="20" w="41" h="114" />
+    </group>
+    <group name="move">
+      <image anchorx="40" w="77" h="106" />
+      <image anchorx="55" w="92" h="102" />
+      <image anchorx="62" w="95" h="105" />
+      <image anchorx="58" w="87" h="107" />
+      <image anchorx="39" w="66" h="109" />
+      <image anchorx="23" w="56" h="108" />
+      <image anchorx="29" w="62" h="106" />
+      <image anchorx="30" w="57" h="107" />
+    </group>
+    <group name="attack">
+      <image anchorx="29" w="73" h="107" />
+      <image anchorx="25" w="71" h="109" />
+      <image anchorx="27" w="70" h="111" />
+      <image anchorx="38" w="126" h="116" />
+      <image anchorx="35" w="98" h="109" />
+      <image anchorx="26" w="84" h="95" />
+      <image anchorx="22" w="85" h="94" />
+      <image anchorx="20" w="65" h="101" />
+    </group>
+  </animation>
+  <animation name="daoshi_jian_green">
+    <group name="stand">
+      <image anchorx="50" w="75" h="106" />
+      <image anchorx="48" w="73" h="106" />
+      <image anchorx="46" w="71" h="106" />
+      <image anchorx="49" w="73" h="106" />
+    </group>
+    <group name="move">
+      <image anchorx="27" w="54" h="103" />
+      <image anchorx="32" w="64" h="102" />
+      <image anchorx="28" w="56" h="102" />
+      <image anchorx="18" w="37" h="103" />
+      <image anchorx="18" w="37" h="102" />
+      <image anchorx="28" w="56" h="100" />
+      <image anchorx="24" w="48" h="103" />
+      <image anchorx="18" w="36" h="104" />
+    </group>
+    <group name="attack">
+      <image anchorx="23" w="71" h="98" />
+      <image anchorx="45" w="81" h="96" />
+      <image anchorx="48" w="78" h="95" />
+      <image anchorx="38" w="67" h="94" />
+      <image anchorx="26" w="91" h="91" />
+      <image anchorx="16" w="128" h="89" />
+      <image anchorx="17" w="118" h="90" />
+      <image anchorx="20" w="80" h="115" />
+    </group>
+  </animation>
+  <animation name="menpai_mingjiao_jian">
+    <group name="stand">
+      <image anchorx="42" w="65" h="105" />
+      <image anchorx="42" w="66" h="105" />
+      <image anchorx="42" w="67" h="105" />
+      <image anchorx="42" w="66" h="105" />
+    </group>
+    <group name="move">
+      <image anchorx="48" w="86" h="104" />
+      <image anchorx="53" w="90" h="103" />
+      <image anchorx="46" w="84" h="104" />
+      <image anchorx="35" w="67" h="103" />
+      <image anchorx="22" w="53" h="102" />
+      <image anchorx="28" w="60" h="101" />
+      <image anchorx="25" w="55" h="103" />
+      <image anchorx="35" w="62" h="105" />
+    </group>
+    <group name="attack">
+      <image anchorx="35" w="81" h="101" />
+      <image anchorx="21" w="86" h="92" />
+      <image anchorx="23" w="93" h="87" />
+      <image anchorx="23" w="88" h="90" />
+      <image anchorx="23" w="68" h="97" />
+      <image anchorx="32" w="64" h="108" />
+      <image anchorx="41" w="83" h="102" />
+      <image anchorx="37" w="78" h="103" />
+    </group>
+  </animation>
+  <animation name="bosi_shengshi">
+    <group name="stand">
+      <image anchorx="15" w="33" h="106" />
+      <image anchorx="15" w="33" h="106" />
+      <image anchorx="15" w="32" h="106" />
+      <image anchorx="15" w="33" h="106" />
+    </group>
+    <group name="move">
+      <image anchorx="17" w="47" h="105" />
+      <image anchorx="21" w="60" h="103" />
+      <image anchorx="22" w="56" h="105" />
+      <image anchorx="19" w="43" h="105" />
+      <image anchorx="16" w="45" h="103" />
+      <image anchorx="24" w="59" h="101" />
+      <image anchorx="24" w="55" h="103" />
+      <image anchorx="20" w="41" h="104" />
+    </group>
+    <group name="attack">
+      <image anchorx="23" w="66" h="92" />
+      <image anchorx="22" w="56" h="92" />
+      <image anchorx="36" w="79" h="92" />
+      <image anchorx="29" w="76" h="93" />
+      <image anchorx="21" w="62" h="99" />
+      <image anchorx="29" w="78" h="99" />
+      <image anchorx="26" w="75" h="101" />
+      <image anchorx="18" w="59" h="105" />
+    </group>
+  </animation>
+  <animation name="menpai_shaolin_jian">
+    <group name="stand">
+      <image anchorx="29" w="59" h="108" />
+      <image anchorx="30" w="60" h="108" />
+      <image anchorx="29" w="59" h="108" />
+      <image anchorx="30" w="60" h="108" />
+    </group>
+    <group name="move">
+      <image anchorx="47" w="78" h="104" />
+      <image anchorx="51" w="86" h="102" />
+      <image anchorx="45" w="75" h="103" />
+      <image anchorx="26" w="62" h="102" />
+      <image anchorx="23" w="64" h="102" />
+      <image anchorx="25" w="67" h="100" />
+      <image anchorx="29" w="71" h="103" />
+      <image anchorx="32" w="66" h="105" />
+    </group>
+    <group name="attack">
+      <image anchorx="39" w="90" h="105" />
+      <image anchorx="48" w="81" h="106" />
+      <image anchorx="38" w="84" h="104" />
+      <image anchorx="30" w="98" h="101" />
+      <image anchorx="34" w="128" h="100" />
+      <image anchorx="35" w="140" h="101" />
+      <image anchorx="33" w="101" h="103" />
+      <image anchorx="30" w="89" h="105" />
+    </group>
+  </animation>
+  <animation name="shaolin_jian_zongse">
+    <group name="stand">
+      <image anchorx="30" w="60" h="106" />
+      <image anchorx="30" w="60" h="106" />
+      <image anchorx="30" w="60" h="106" />
+      <image anchorx="30" w="60" h="106" />
+    </group>
+    <group name="move">
+      <image anchorx="35" w="70" h="104" />
+      <image anchorx="40" w="80" h="101" />
+      <image anchorx="36" w="72" h="102" />
+      <image anchorx="29" w="58" h="104" />
+      <image anchorx="25" w="63" h="102" />
+      <image anchorx="25" w="66" h="100" />
+      <image anchorx="28" w="67" h="103" />
+      <image anchorx="30" w="65" h="104" />
+    </group>
+    <group name="attack">
+      <image anchorx="35" w="71" h="103" />
+      <image anchorx="51" w="107" h="102" />
+      <image anchorx="43" w="108" h="100" />
+      <image anchorx="26" w="101" h="98" />
+      <image anchorx="31" w="143" h="101" />
+      <image anchorx="31" w="137" h="94" />
+      <image anchorx="31" w="100" h="100" />
+      <image anchorx="31" w="60" h="102" />
+    </group>
+  </animation>
+  <animation name="menpai_nigu">
+    <group name="stand">
+      <image anchorx="18" w="37" h="107" />
+      <image anchorx="18" w="37" h="107" />
+      <image anchorx="18" w="37" h="107" />
+      <image anchorx="18" w="36" h="107" />
+    </group>
+    <group name="move">
+      <image anchorx="33" w="75" h="104" />
+      <image anchorx="37" w="74" h="102" />
+      <image anchorx="35" w="71" h="104" />
+      <image anchorx="35" w="66" h="105" />
+      <image anchorx="37" w="61" h="103" />
+      <image anchorx="37" w="69" h="100" />
+      <image anchorx="37" w="69" h="103" />
+      <image anchorx="36" w="69" h="104" />
+    </group>
+  </animation>
+  <animation name="menpai_nigu2">
+    <group name="stand">
+      <image anchorx="22" w="57" h="114" />
+      <image anchorx="21" w="56" h="114" />
+      <image anchorx="21" w="56" h="114" />
+      <image anchorx="21" w="57" h="114" />
+    </group>
+    <group name="move">
+      <image anchorx="40" w="75" h="112" />
+      <image anchorx="46" w="84" h="109" />
+      <image anchorx="42" w="75" h="110" />
+      <image anchorx="25" w="60" h="112" />
+      <image anchorx="24" w="65" h="110" />
+      <image anchorx="24" w="68" h="108" />
+      <image anchorx="31" w="72" h="110" />
+      <image anchorx="33" w="66" h="111" />
+    </group>
+  </animation>
+  <animation name="nigu_black">
+    <group name="stand">
+      <image anchorx="19" w="37" h="107" />
+      <image anchorx="15" w="33" h="107" />
+      <image anchorx="17" w="34" h="107" />
+      <image anchorx="18" w="36" h="107" />
+    </group>
+    <group name="move">
+      <image anchorx="26" w="66" h="105" />
+      <image anchorx="26" w="63" h="102" />
+      <image anchorx="25" w="65" h="104" />
+      <image anchorx="26" w="61" h="105" />
+      <image anchorx="27" w="50" h="103" />
+      <image anchorx="27" w="59" h="100" />
+      <image anchorx="29" w="57" h="103" />
+      <image anchorx="29" w="58" h="104" />
+    </group>
+  </animation>
+  <animation name="menpai_emei">
+    <group name="stand">
+      <image anchorx="15" w="31" h="110" />
+      <image anchorx="15" w="30" h="109" />
+      <image anchorx="14" w="28" h="109" />
+      <image anchorx="15" w="30" h="109" />
+    </group>
+    <group name="move">
+      <image anchorx="26" w="63" h="106" />
+      <image anchorx="30" w="69" h="104" />
+      <image anchorx="28" w="63" h="100" />
+      <image anchorx="20" w="48" h="102" />
+      <image anchorx="28" w="56" h="102" />
+      <image anchorx="31" w="63" h="106" />
+      <image anchorx="29" w="59" h="110" />
+      <image anchorx="21" w="43" h="108" />
+    </group>
+    <group name="attack">
+      <image anchorx="28" w="54" h="107" />
+      <image anchorx="15" w="85" h="109" />
+      <image anchorx="19" w="81" h="106" />
+      <image anchorx="31" w="86" h="102" />
+      <image anchorx="41" w="94" h="100" />
+      <image anchorx="24" w="108" h="103" />
+      <image anchorx="49" w="161" h="108" />
+      <image anchorx="44" w="139" h="109" />
+    </group>
+  </animation>
+  <animation name="nv_jianke">
+    <group name="stand">
+      <image anchorx="10" w="21" h="106" />
+      <image anchorx="10" w="21" h="106" />
+      <image anchorx="11" w="23" h="106" />
+      <image anchorx="11" w="22" h="106" />
+    </group>
+    <group name="move">
+      <image anchorx="29" w="60" h="101" />
+      <image anchorx="29" w="56" h="99" />
+      <image anchorx="19" w="39" h="97" />
+      <image anchorx="22" w="44" h="97" />
+      <image anchorx="27" w="55" h="96" />
+      <image anchorx="28" w="57" h="99" />
+      <image anchorx="21" w="42" h="104" />
+      <image anchorx="21" w="42" h="103" />
+    </group>
+    <group name="attack">
+      <image anchorx="27" w="78" h="90" />
+      <image anchorx="18" w="46" h="115" />
+      <image anchorx="18" w="71" h="101" />
+      <image anchorx="32" w="62" h="104" />
+      <image anchorx="59" w="94" h="107" />
+      <image anchorx="19" w="84" h="120" />
+      <image anchorx="19" w="133" h="111" />
+      <image anchorx="15" w="123" h="106" />
+    </group>
+  </animation>
+  <animation name="menpai_nigu_3">
+    <group name="stand">
+      <image anchorx="13" w="27" h="105" />
+      <image anchorx="14" w="39" h="105" />
+      <image anchorx="14" w="41" h="104" />
+      <image anchorx="14" w="39" h="104" />
+    </group>
+    <group name="move">
+      <image anchorx="21" w="42" h="101" />
+      <image anchorx="19" w="38" h="99" />
+      <image anchorx="24" w="49" h="98" />
+      <image anchorx="25" w="51" h="101" />
+      <image anchorx="19" w="39" h="103" />
+      <image anchorx="20" w="41" h="102" />
+      <image anchorx="26" w="52" h="99" />
+      <image anchorx="26" w="52" h="101" />
+    </group>
+    <group name="attack">
+      <image anchorx="26" w="79" h="103" />
+      <image anchorx="28" w="56" h="100" />
+      <image anchorx="39" w="75" h="94" />
+      <image anchorx="25" w="68" h="95" />
+      <image anchorx="30" w="124" h="105" />
+      <image anchorx="27" w="125" h="106" />
+      <image anchorx="22" w="108" h="100" />
+      <image anchorx="19" w="82" h="102" />
+    </group>
+  </animation>
+  <animation name="xiaobing_quan">
+    <group name="stand">
+      <image anchorx="16" w="33" h="112" />
+      <image anchorx="16" w="33" h="112" />
+      <image anchorx="16" w="33" h="112" />
+      <image anchorx="16" w="33" h="112" />
+    </group>
+    <group name="move">
+      <image anchorx="18" w="37" h="110" />
+      <image anchorx="28" w="56" h="109" />
+      <image anchorx="24" w="49" h="111" />
+      <image anchorx="17" w="34" h="114" />
+      <image anchorx="22" w="45" h="113" />
+      <image anchorx="28" w="57" h="111" />
+      <image anchorx="22" w="44" h="111" />
+      <image anchorx="16" w="32" h="111" />
+    </group>
+    <group name="attack">
+      <image anchorx="25" w="62" h="111" />
+      <image anchorx="39" w="72" h="109" />
+      <image anchorx="35" w="67" h="120" />
+      <image anchorx="22" w="67" h="113" />
+      <image anchorx="14" w="87" h="107" />
+      <image anchorx="14" w="81" h="108" />
+      <image anchorx="14" w="56" h="110" />
+      <image anchorx="14" w="56" h="111" />
+    </group>
+  </animation>
+  <animation name="wangye">
+    <group name="stand">
+      <image anchorx="38" w="76" h="115" />
+      <image anchorx="38" w="77" h="115" />
+      <image anchorx="38" w="77" h="115" />
+      <image anchorx="38" w="77" h="115" />
+    </group>
+    <group name="move">
+      <image anchorx="60" w="95" h="111" />
+      <image anchorx="56" w="102" h="108" />
+      <image anchorx="40" w="87" h="104" />
+      <image anchorx="34" w="79" h="105" />
+      <image anchorx="27" w="77" h="105" />
+      <image anchorx="30" w="77" h="109" />
+      <image anchorx="30" w="72" h="113" />
+      <image anchorx="48" w="83" h="112" />
+    </group>
+  </animation>
+  <animation name="renzhe">
+    <group name="stand">
+      <image anchorx="16" w="33" h="115" />
+      <image anchorx="16" w="32" h="115" />
+      <image anchorx="17" w="34" h="114" />
+      <image anchorx="16" w="33" h="114" />
+    </group>
+    <group name="move">
+      <image anchorx="28" w="52" h="112" />
+      <image anchorx="26" w="61" h="109" />
+      <image anchorx="31" w="57" h="109" />
+      <image anchorx="34" w="56" h="112" />
+      <image anchorx="34" w="62" h="111" />
+      <image anchorx="34" w="71" h="108" />
+      <image anchorx="34" w="63" h="112" />
+      <image anchorx="33" w="56" h="113" />
+    </group>
+  </animation>
+  <animation name="xiake_jian2">
+    <group name="stand">
+      <image anchorx="17" w="35" h="120" />
+      <image anchorx="18" w="37" h="120" />
+      <image anchorx="19" w="39" h="120" />
+      <image anchorx="19" w="38" h="120" />
+    </group>
+    <group name="move">
+      <image anchorx="40" w="81" h="114" />
+      <image anchorx="25" w="62" h="108" />
+      <image anchorx="24" w="57" h="109" />
+      <image anchorx="34" w="76" h="110" />
+      <image anchorx="34" w="74" h="113" />
+      <image anchorx="30" w="62" h="117" />
+      <image anchorx="25" w="57" h="118" />
+      <image anchorx="32" w="69" h="116" />
+    </group>
+    <group name="attack">
+      <image anchorx="18" w="101" h="119" />
+      <image anchorx="23" w="57" h="159" />
+      <image anchorx="59" w="94" h="146" />
+      <image anchorx="88" w="113" h="117" />
+      <image anchorx="27" w="153" h="115" />
+      <image anchorx="31" w="103" h="115" />
+    </group>
+  </animation>
+  <animation name="shaonv_jian">
+    <group name="stand">
+      <image anchorx="38" w="61" h="112" />
+      <image anchorx="36" w="58" h="112" />
+      <image anchorx="38" w="59" h="112" />
+      <image anchorx="38" w="60" h="111" />
+    </group>
+    <group name="move">
+      <image anchorx="39" w="67" h="105" />
+      <image anchorx="39" w="72" h="103" />
+      <image anchorx="39" w="68" h="102" />
+      <image anchorx="39" w="57" h="104" />
+      <image anchorx="37" w="58" h="102" />
+      <image anchorx="37" w="70" h="104" />
+      <image anchorx="37" w="65" h="107" />
+      <image anchorx="37" w="66" h="106" />
+    </group>
+    <group name="attack">
+      <image anchorx="36" w="68" h="107" />
+      <image anchorx="57" w="88" h="105" />
+      <image anchorx="52" w="88" h="106" />
+      <image anchorx="38" w="84" h="105" />
+      <image anchorx="30" w="133" h="104" />
+      <image anchorx="30" w="140" h="106" />
+      <image anchorx="30" w="81" h="106" />
+      <image anchorx="38" w="81" h="107" />
+    </group>
+  </animation>
+  <animation name="shaonv_jian_green">
+    <group name="stand">
+      <image anchorx="37" w="74" h="107" />
+      <image anchorx="37" w="74" h="107" />
+      <image anchorx="37" w="74" h="106" />
+      <image anchorx="37" w="74" h="107" />
+    </group>
+    <group name="move">
+      <image anchorx="58" w="88" h="103" />
+      <image anchorx="54" w="82" h="104" />
+      <image anchorx="39" w="75" h="103" />
+      <image anchorx="24" w="65" h="100" />
+      <image anchorx="29" w="72" h="102" />
+      <image anchorx="30" w="73" h="103" />
+      <image anchorx="31" w="68" h="107" />
+      <image anchorx="47" w="77" h="106" />
+    </group>
+  </animation>
+  <animation name="gongzi_shanzi2">
+    <group name="stand">
+      <image anchorx="20" w="62" h="114" />
+      <image anchorx="20" w="59" h="114" />
+      <image anchorx="20" w="57" h="114" />
+      <image anchorx="20" w="59" h="114" />
+    </group>
+    <group name="move">
+      <image anchorx="28" w="69" h="108" />
+      <image anchorx="28" w="77" h="111" />
+      <image anchorx="28" w="72" h="112" />
+      <image anchorx="24" w="66" h="112" />
+      <image anchorx="24" w="64" h="110" />
+      <image anchorx="28" w="63" h="108" />
+      <image anchorx="28" w="73" h="108" />
+      <image anchorx="27" w="76" h="108" />
+    </group>
+    <group name="attack">
+      <image anchorx="26" w="53" h="114" />
+      <image anchorx="23" w="64" h="114" />
+      <image anchorx="30" w="61" h="107" />
+      <image anchorx="39" w="72" h="104" />
+      <image anchorx="58" w="93" h="105" />
+      <image anchorx="53" w="106" h="104" />
+      <image anchorx="56" w="112" h="102" />
+      <image anchorx="58" w="116" h="103" />
+    </group>
+  </animation>
+  <animation name="tufu">
+    <group name="stand">
+      <image anchorx="24" w="68" h="113" />
+      <image anchorx="24" w="70" h="113" />
+      <image anchorx="24" w="72" h="113" />
+      <image anchorx="24" w="70" h="113" />
+    </group>
+    <group name="move">
+      <image anchorx="19" w="68" h="109" />
+      <image anchorx="24" w="71" h="110" />
+      <image anchorx="26" w="79" h="107" />
+      <image anchorx="23" w="78" h="104" />
+      <image anchorx="18" w="60" h="102" />
+      <image anchorx="26" w="67" h="101" />
+      <image anchorx="27" w="69" h="105" />
+      <image anchorx="17" w="73" h="108" />
+    </group>
+  </animation>
+  <animation name="shaonv_jianke">
+    <group name="stand">
+      <image anchorx="43" w="86" h="106" />
+      <image anchorx="43" w="86" h="106" />
+      <image anchorx="42" w="86" h="105" />
+      <image anchorx="42" w="86" h="106" />
+    </group>
+    <group name="move">
+      <image anchorx="43" w="86" h="99" />
+      <image anchorx="43" w="86" h="102" />
+      <image anchorx="43" w="86" h="104" />
+      <image anchorx="43" w="87" h="103" />
+      <image anchorx="43" w="87" h="102" />
+      <image anchorx="43" w="87" h="101" />
+      <image anchorx="43" w="86" h="103" />
+      <image anchorx="43" w="86" h="103" />
+    </group>
+    <group name="attack">
+      <image anchorx="21" w="122" h="102" />
+      <image anchorx="23" w="58" h="152" />
+      <image anchorx="81" w="118" h="94" />
+      <image anchorx="62" w="107" h="107" />
+      <image anchorx="27" w="148" h="90" />
+      <image anchorx="53" w="102" h="93" />
+      <image anchorx="34" w="74" h="99" />
+      <image anchorx="45" w="91" h="135" />
+    </group>
+  </animation>
+  <animation name="pangzi_quan">
+    <group name="stand">
+      <image anchorx="20" w="40" h="101" />
+      <image anchorx="20" w="41" h="101" />
+      <image anchorx="21" w="42" h="102" />
+      <image anchorx="20" w="41" h="101" />
+    </group>
+    <group name="move">
+      <image anchorx="27" w="54" h="95" />
+      <image anchorx="29" w="58" h="94" />
+      <image anchorx="28" w="56" h="91" />
+      <image anchorx="28" w="57" h="92" />
+      <image anchorx="26" w="53" h="90" />
+      <image anchorx="27" w="54" h="90" />
+      <image anchorx="26" w="52" h="91" />
+      <image anchorx="26" w="53" h="94" />
+    </group>
+    <group name="attack">
+      <image anchorx="25" w="51" h="95" />
+      <image anchorx="32" w="65" h="92" />
+      <image anchorx="45" w="83" h="91" />
+      <image anchorx="51" w="88" h="93" />
+      <image anchorx="43" w="78" h="95" />
+      <image anchorx="39" w="99" h="91" />
+      <image anchorx="37" w="112" h="87" />
+      <image anchorx="27" w="98" h="91" />
+    </group>
+  </animation>
+  <animation name="daozhu_gun">
+    <group name="stand">
+      <image anchorx="28" w="57" h="117" />
+      <image anchorx="28" w="57" h="119" />
+      <image anchorx="28" w="56" h="119" />
+      <image anchorx="28" w="56" h="119" />
+    </group>
+    <group name="move">
+      <image anchorx="40" w="80" h="107" />
+      <image anchorx="42" w="84" h="108" />
+      <image anchorx="40" w="80" h="110" />
+      <image anchorx="36" w="72" h="110" />
+      <image anchorx="37" w="75" h="110" />
+      <image anchorx="40" w="80" h="110" />
+      <image anchorx="38" w="77" h="109" />
+      <image anchorx="37" w="74" h="108" />
+    </group>
+    <group name="attack">
+      <image anchorx="61" w="96" h="108" />
+      <image anchorx="73" w="112" h="100" />
+      <image anchorx="69" w="107" h="108" />
+      <image anchorx="27" w="64" h="125" />
+      <image anchorx="44" w="84" h="122" />
+      <image anchorx="25" w="71" h="125" />
+      <image anchorx="36" w="93" h="105" />
+      <image anchorx="44" w="125" h="106" />
+    </group>
+  </animation>
+  <animation name="qigai_bi">
+    <group name="stand">
+      <image anchorx="23" w="89" h="113" />
+      <image anchorx="23" w="90" h="113" />
+      <image anchorx="23" w="92" h="113" />
+      <image anchorx="23" w="91" h="113" />
+    </group>
+    <group name="move">
+      <image anchorx="37" w="107" h="105" />
+      <image anchorx="35" w="103" h="105" />
+      <image anchorx="23" w="88" h="109" />
+      <image anchorx="35" w="105" h="111" />
+      <image anchorx="41" w="112" h="110" />
+      <image anchorx="35" w="106" h="104" />
+      <image anchorx="21" w="87" h="101" />
+      <image anchorx="33" w="103" h="103" />
+    </group>
+    <group name="attack">
+      <image anchorx="58" w="91" h="104" />
+      <image anchorx="55" w="105" h="104" />
+      <image anchorx="29" w="115" h="124" />
+      <image anchorx="35" w="162" h="162" />
+      <image anchorx="28" w="150" h="104" />
+      <image anchorx="28" w="161" h="100" />
+      <image anchorx="28" w="140" h="105" />
+      <image anchorx="40" w="86" h="106" />
+    </group>
+  </animation>
+  <animation name="duanyanqing">
+    <group name="stand">
+      <image anchorx="27" w="54" h="129" />
+      <image anchorx="26" w="53" h="129" />
+      <image anchorx="26" w="53" h="129" />
+      <image anchorx="26" w="53" h="129" />
+    </group>
+    <group name="move">
+      <image anchorx="40" w="115" h="97" />
+      <image anchorx="26" w="66" h="103" />
+      <image anchorx="26" w="68" h="107" />
+      <image anchorx="26" w="85" h="116" />
+      <image anchorx="40" w="105" h="116" />
+      <image anchorx="26" w="65" h="115" />
+      <image anchorx="20" w="64" h="116" />
+      <image anchorx="20" w="88" h="111" />
+    </group>
+  </animation>
+  <animation name="yeerniang">
+    <group name="stand">
+      <image anchorx="22" w="44" h="104" />
+      <image anchorx="22" w="44" h="104" />
+      <image anchorx="22" w="44" h="104" />
+      <image anchorx="22" w="44" h="104" />
+    </group>
+    <group name="move">
+      <image anchorx="35" w="57" h="101" />
+      <image anchorx="35" w="59" h="101" />
+      <image anchorx="33" w="61" h="100" />
+      <image anchorx="33" w="61" h="99" />
+      <image anchorx="33" w="59" h="101" />
+      <image anchorx="28" w="56" h="101" />
+      <image anchorx="28" w="54" h="99" />
+      <image anchorx="25" w="54" h="99" />
+    </group>
+  </animation>
+  <animation name="nanhaieshen">
+    <group name="stand">
+      <image anchorx="22" w="121" h="120" />
+      <image anchorx="16" w="112" h="119" />
+      <image anchorx="16" w="104" h="118" />
+      <image anchorx="16" w="112" h="119" />
+    </group>
+    <group name="move">
+      <image anchorx="35" w="136" h="116" />
+      <image anchorx="27" w="122" h="114" />
+      <image anchorx="18" w="99" h="113" />
+      <image anchorx="17" w="92" h="120" />
+      <image anchorx="24" w="121" h="117" />
+    </group>
+    <group name="attack">
+      <image anchorx="22" w="107" h="124" />
+      <image anchorx="21" w="106" h="121" />
+      <image anchorx="29" w="75" h="182" />
+      <image anchorx="70" w="120" h="164" />
+      <image anchorx="26" w="71" h="142" />
+      <image anchorx="35" w="165" h="111" />
+      <image anchorx="33" w="141" h="114" />
+      <image anchorx="22" w="121" h="119" />
+    </group>
+  </animation>
+  <animation name="yunzhonghe">
+    <group name="stand">
+      <image anchorx="23" w="79" h="103" />
+      <image anchorx="21" w="74" h="109" />
+      <image anchorx="20" w="70" h="113" />
+      <image anchorx="20" w="74" h="108" />
+    </group>
+    <group name="move">
+      <image anchorx="31" w="89" h="110" />
+      <image anchorx="36" w="91" h="108" />
+      <image anchorx="33" w="89" h="103" />
+      <image anchorx="16" w="78" h="104" />
+      <image anchorx="31" w="92" h="105" />
+      <image anchorx="35" w="94" h="105" />
+      <image anchorx="31" w="92" h="104" />
+      <image anchorx="17" w="79" h="108" />
+    </group>
+    <group name="attack">
+      <image anchorx="35" w="86" h="85" />
+      <image anchorx="35" w="82" h="82" />
+      <image anchorx="62" w="124" h="137" />
+      <image anchorx="76" w="163" h="113" />
+      <image anchorx="25" w="94" h="128" />
+      <image anchorx="59" w="147" h="95" />
+      <image anchorx="23" w="86" h="102" />
+      <image anchorx="19" w="79" h="98" />
+    </group>
+  </animation>
+  <animation name="shaonian_jianke">
+    <group name="stand">
+      <image anchorx="35" w="57" h="111" />
+      <image anchorx="35" w="57" h="111" />
+      <image anchorx="35" w="57" h="111" />
+      <image anchorx="35" w="57" h="111" />
+    </group>
+    <group name="move">
+      <image anchorx="35" w="60" h="107" />
+      <image anchorx="37" w="68" h="104" />
+      <image anchorx="37" w="69" h="106" />
+      <image anchorx="37" w="65" h="110" />
+      <image anchorx="37" w="62" h="111" />
+      <image anchorx="37" w="65" h="110" />
+      <image anchorx="36" w="67" h="107" />
+      <image anchorx="33" w="63" h="109" />
+    </group>
+  </animation>
+  <animation name="chenjialuo">
+    <group name="stand">
+      <image anchorx="25" w="50" h="110" />
+      <image anchorx="25" w="50" h="110" />
+      <image anchorx="24" w="49" h="110" />
+      <image anchorx="25" w="50" h="110" />
+    </group>
+    <group name="move">
+      <image anchorx="26" w="52" h="106" />
+      <image anchorx="30" w="61" h="102" />
+      <image anchorx="32" w="64" h="102" />
+      <image anchorx="30" w="60" h="105" />
+      <image anchorx="27" w="55" h="108" />
+      <image anchorx="30" w="61" h="108" />
+      <image anchorx="32" w="64" h="104" />
+      <image anchorx="30" w="60" h="105" />
+    </group>
+  </animation>
+  <animation name="tianboguang">
+    <group name="stand">
+      <image anchorx="15" w="62" h="105" />
+      <image anchorx="15" w="64" h="105" />
+      <image anchorx="15" w="62" h="105" />
+      <image anchorx="15" w="62" h="105" />
+    </group>
+    <group name="move">
+      <image anchorx="27" w="80" h="104" />
+      <image anchorx="22" w="78" h="102" />
+      <image anchorx="27" w="83" h="101" />
+      <image anchorx="24" w="77" h="104" />
+      <image anchorx="24" w="67" h="102" />
+      <image anchorx="24" w="65" h="99" />
+      <image anchorx="28" w="72" h="103" />
+      <image anchorx="26" w="79" h="104" />
+    </group>
+  </animation>
+  <animation name="shaonv_quan">
+    <group name="stand">
+      <image anchorx="14" w="29" h="107" />
+      <image anchorx="14" w="29" h="107" />
+      <image anchorx="14" w="29" h="107" />
+      <image anchorx="14" w="29" h="107" />
+    </group>
+    <group name="move">
+      <image anchorx="24" w="60" h="105" />
+      <image anchorx="22" w="56" h="102" />
+      <image anchorx="19" w="37" h="100" />
+      <image anchorx="16" w="45" h="105" />
+      <image anchorx="22" w="57" h="103" />
+      <image anchorx="21" w="57" h="105" />
+      <image anchorx="21" w="45" h="107" />
+      <image anchorx="18" w="43" h="107" />
+    </group>
+    <group name="attack">
+      <image anchorx="17" w="38" h="105" />
+      <image anchorx="17" w="41" h="106" />
+      <image anchorx="20" w="44" h="106" />
+      <image anchorx="25" w="49" h="106" />
+      <image anchorx="18" w="46" h="106" />
+      <image anchorx="24" w="71" h="112" />
+      <image anchorx="18" w="61" h="111" />
+      <image anchorx="16" w="47" h="109" />
+    </group>
+  </animation>
+  <animation name="hufei">
+    <group name="stand">
+      <image anchorx="19" w="86" h="120" />
+      <image anchorx="19" w="85" h="120" />
+      <image anchorx="19" w="84" h="120" />
+      <image anchorx="19" w="85" h="120" />
+    </group>
+    <group name="move">
+      <image anchorx="26" w="87" h="116" />
+      <image anchorx="26" w="86" h="114" />
+      <image anchorx="24" w="88" h="116" />
+      <image anchorx="24" w="84" h="118" />
+      <image anchorx="24" w="81" h="117" />
+      <image anchorx="31" w="82" h="115" />
+      <image anchorx="25" w="82" h="115" />
+      <image anchorx="25" w="87" h="115" />
+    </group>
+    <group name="attack">
+      <image anchorx="33" w="69" h="131" />
+      <image anchorx="33" w="71" h="111" />
+      <image anchorx="62" w="95" h="106" />
+      <image anchorx="81" w="115" h="129" />
+      <image anchorx="62" w="116" h="112" />
+      <image anchorx="49" w="146" h="128" />
+      <image anchorx="23" w="77" h="164" />
+      <image anchorx="25" w="112" h="132" />
+      <image anchorx="24" w="78" h="125" />
+      <image anchorx="25" w="121" h="126" />
+      <image anchorx="24" w="71" h="124" />
+      <image anchorx="24" w="150" h="121" />
+    </group>
+  </animation>
+  <animation name="miaorenfeng">
+    <group name="stand">
+      <image anchorx="15" w="44" h="115" />
+      <image anchorx="15" w="46" h="115" />
+      <image anchorx="15" w="46" h="115" />
+      <image anchorx="15" w="46" h="115" />
+    </group>
+    <group name="move">
+      <image anchorx="30" w="60" h="112" />
+      <image anchorx="25" w="50" h="113" />
+      <image anchorx="26" w="52" h="111" />
+      <image anchorx="26" w="53" h="111" />
+      <image anchorx="29" w="58" h="111" />
+      <image anchorx="27" w="55" h="114" />
+      <image anchorx="24" w="48" h="116" />
+      <image anchorx="22" w="45" h="114" />
+    </group>
+    <group name="attack">
+      <image anchorx="19" w="81" h="112" />
+      <image anchorx="19" w="79" h="111" />
+      <image anchorx="23" w="82" h="110" />
+      <image anchorx="25" w="86" h="109" />
+      <image anchorx="25" w="116" h="118" />
+      <image anchorx="31" w="144" h="126" />
+      <image anchorx="31" w="131" h="126" />
+      <image anchorx="30" w="73" h="156" />
+    </group>
+  </animation>
+  <animation name="menggu">
+    <group name="stand">
+      <image anchorx="21" w="43" h="114" />
+      <image anchorx="22" w="44" h="114" />
+      <image anchorx="22" w="45" h="114" />
+      <image anchorx="22" w="44" h="114" />
+    </group>
+    <group name="move">
+      <image anchorx="28" w="57" h="110" />
+      <image anchorx="31" w="62" h="107" />
+      <image anchorx="31" w="63" h="109" />
+      <image anchorx="27" w="55" h="111" />
+      <image anchorx="22" w="44" h="107" />
+      <image anchorx="28" w="57" h="106" />
+      <image anchorx="25" w="51" h="110" />
+      <image anchorx="25" w="50" h="113" />
+    </group>
+    <group name="attack">
+      <image anchorx="29" w="61" h="106" />
+      <image anchorx="39" w="71" h="103" />
+      <image anchorx="51" w="86" h="111" />
+      <image anchorx="60" w="91" h="113" />
+      <image anchorx="49" w="83" h="113" />
+      <image anchorx="47" w="82" h="108" />
+      <image anchorx="46" w="77" h="101" />
+      <image anchorx="38" w="76" h="103" />
+      <image anchorx="34" w="109" h="106" />
+      <image anchorx="31" w="104" h="104" />
+      <image anchorx="39" w="78" h="113" />
+      <image anchorx="53" w="85" h="121" />
+      <image anchorx="67" w="105" h="101" />
+      <image anchorx="71" w="110" h="105" />
+      <image anchorx="46" w="101" h="108" />
+      <image anchorx="23" w="104" h="96" />
+      <image anchorx="21" w="95" h="97" />
+      <image anchorx="24" w="86" h="100" />
+      <image anchorx="27" w="77" h="103" />
+      <image anchorx="27" w="70" h="105" />
+    </group>
+  </animation>
+  <animation name="mengguwangye">
+    <group name="stand">
+      <image anchorx="19" w="38" h="116" />
+      <image anchorx="18" w="37" h="115" />
+      <image anchorx="18" w="37" h="115" />
+      <image anchorx="19" w="38" h="115" />
+    </group>
+    <group name="move">
+      <image anchorx="29" w="59" h="114" />
+      <image anchorx="26" w="52" h="113" />
+      <image anchorx="26" w="52" h="111" />
+      <image anchorx="27" w="54" h="116" />
+      <image anchorx="28" w="56" h="117" />
+      <image anchorx="25" w="50" h="116" />
+      <image anchorx="24" w="49" h="114" />
+      <image anchorx="28" w="56" h="115" />
+    </group>
+    <group name="attack">
+      <image anchorx="45" w="90" h="103" />
+      <image anchorx="45" w="91" h="102" />
+      <image anchorx="43" w="86" h="106" />
+      <image anchorx="43" w="86" h="104" />
+      <image anchorx="39" w="79" h="102" />
+      <image anchorx="30" w="61" h="105" />
+      <image anchorx="60" w="120" h="107" />
+      <image anchorx="54" w="109" h="111" />
+      <image anchorx="36" w="73" h="109" />
+      <image anchorx="46" w="93" h="105" />
+      <image anchorx="39" w="79" h="107" />
+      <image anchorx="47" w="94" h="106" />
+      <image anchorx="48" w="97" h="95" />
+      <image anchorx="39" w="78" h="104" />
+      <image anchorx="13" w="91" h="99" />
+      <image anchorx="6" w="86" h="113" />
+      <image anchorx="6" w="110" h="96" />
+      <image anchorx="6" w="112" h="90" />
+      <image anchorx="6" w="105" h="84" />
+      <image anchorx="6" w="94" h="98" />
+    </group>
+  </animation>
+  <animation name="chenjinnan">
+    <group name="stand">
+      <image anchorx="22" w="44" h="113" />
+      <image anchorx="23" w="46" h="113" />
+      <image anchorx="24" w="48" h="113" />
+      <image anchorx="23" w="46" h="113" />
+    </group>
+    <group name="move">
+      <image anchorx="32" w="65" h="103" />
+      <image anchorx="29" w="59" h="107" />
+      <image anchorx="24" w="49" h="108" />
+      <image anchorx="27" w="55" h="108" />
+      <image anchorx="30" w="60" h="106" />
+      <image anchorx="29" w="58" h="107" />
+      <image anchorx="25" w="50" h="105" />
+      <image anchorx="28" w="56" h="104" />
+    </group>
+  </animation>
+  <animation name="shaonv_shuanger">
+    <group name="stand">
+      <image anchorx="15" w="30" h="108" />
+      <image anchorx="15" w="30" h="108" />
+      <image anchorx="15" w="31" h="107" />
+      <image anchorx="15" w="30" h="108" />
+    </group>
+    <group name="move">
+      <image anchorx="21" w="43" h="106" />
+      <image anchorx="29" w="58" h="103" />
+      <image anchorx="27" w="55" h="104" />
+      <image anchorx="14" w="29" h="105" />
+      <image anchorx="22" w="44" h="104" />
+      <image anchorx="29" w="59" h="101" />
+      <image anchorx="27" w="55" h="104" />
+      <image anchorx="14" w="29" h="105" />
+    </group>
+    <group name="attack">
+      <image anchorx="14" w="54" h="111" />
+      <image anchorx="18" w="38" h="131" />
+      <image anchorx="27" w="45" h="96" />
+      <image anchorx="17" w="56" h="98" />
+      <image anchorx="10" w="77" h="101" />
+      <image anchorx="7" w="81" h="101" />
+      <image anchorx="7" w="71" h="105" />
+      <image anchorx="12" w="57" h="109" />
+    </group>
+  </animation>
+  <animation name="laoye">
+    <group name="stand">
+      <image anchorx="21" w="42" h="108" />
+      <image anchorx="21" w="42" h="108" />
+      <image anchorx="20" w="41" h="108" />
+      <image anchorx="21" w="42" h="108" />
+    </group>
+    <group name="move">
+      <image anchorx="28" w="57" h="107" />
+      <image anchorx="31" w="62" h="105" />
+      <image anchorx="27" w="55" h="105" />
+      <image anchorx="25" w="51" h="106" />
+      <image anchorx="25" w="50" h="104" />
+      <image anchorx="31" w="62" h="103" />
+      <image anchorx="27" w="54" h="106" />
+      <image anchorx="22" w="45" h="107" />
+    </group>
+    <group name="attack">
+      <image anchorx="26" w="52" h="106" />
+      <image anchorx="34" w="61" h="123" />
+      <image anchorx="40" w="67" h="136" />
+      <image anchorx="36" w="74" h="124" />
+      <image anchorx="26" w="86" h="105" />
+      <image anchorx="19" w="83" h="105" />
+      <image anchorx="21" w="67" h="105" />
+      <image anchorx="25" w="50" h="106" />
+    </group>
+  </animation>
+  <animation name="laoye2">
+    <group name="stand">
+      <image anchorx="21" w="42" h="117" />
+      <image anchorx="21" w="43" h="117" />
+      <image anchorx="21" w="43" h="117" />
+      <image anchorx="21" w="43" h="117" />
+    </group>
+    <group name="move">
+      <image anchorx="30" w="60" h="112" />
+      <image anchorx="32" w="64" h="110" />
+      <image anchorx="34" w="68" h="113" />
+      <image anchorx="31" w="62" h="115" />
+      <image anchorx="29" w="59" h="114" />
+      <image anchorx="30" w="61" h="112" />
+      <image anchorx="34" w="68" h="111" />
+      <image anchorx="31" w="63" h="112" />
+    </group>
+  </animation>
+  <animation name="shaonv_red">
+    <group name="stand">
+      <image anchorx="22" w="45" h="101" />
+      <image anchorx="22" w="45" h="101" />
+      <image anchorx="22" w="45" h="101" />
+      <image anchorx="22" w="45" h="101" />
+    </group>
+    <group name="move">
+      <image anchorx="18" w="37" h="96" />
+      <image anchorx="16" w="52" h="95" />
+      <image anchorx="24" w="64" h="96" />
+      <image anchorx="24" w="63" h="98" />
+      <image anchorx="18" w="50" h="101" />
+      <image anchorx="12" w="45" h="100" />
+      <image anchorx="21" w="55" h="97" />
+      <image anchorx="21" w="51" h="98" />
+    </group>
+  </animation>
+  <animation name="shaonv_huizu">
+    <group name="stand">
+      <image anchorx="21" w="43" h="114" />
+      <image anchorx="21" w="43" h="114" />
+      <image anchorx="21" w="43" h="114" />
+      <image anchorx="21" w="43" h="114" />
+    </group>
+    <group name="move">
+      <image anchorx="26" w="53" h="107" />
+      <image anchorx="28" w="56" h="105" />
+      <image anchorx="28" w="57" h="105" />
+      <image anchorx="24" w="48" h="106" />
+      <image anchorx="25" w="50" h="106" />
+      <image anchorx="28" w="56" h="103" />
+      <image anchorx="28" w="56" h="106" />
+      <image anchorx="23" w="46" h="107" />
+    </group>
+  </animation>
+  <animation name="linpingzhi">
+    <group name="stand">
+      <image anchorx="45" w="64" h="118" />
+      <image anchorx="46" w="64" h="118" />
+      <image anchorx="46" w="65" h="118" />
+      <image anchorx="46" w="64" h="118" />
+    </group>
+    <group name="move">
+      <image anchorx="53" w="79" h="115" />
+      <image anchorx="53" w="81" h="114" />
+      <image anchorx="53" w="81" h="114" />
+      <image anchorx="53" w="79" h="115" />
+      <image anchorx="53" w="77" h="115" />
+      <image anchorx="53" w="80" h="113" />
+      <image anchorx="53" w="80" h="114" />
+      <image anchorx="53" w="79" h="115" />
+    </group>
+    <group name="attack">
+      <image anchorx="45" w="73" h="117" />
+      <image anchorx="45" w="75" h="116" />
+      <image anchorx="45" w="81" h="115" />
+      <image anchorx="45" w="95" h="113" />
+      <image anchorx="45" w="74" h="112" />
+      <image anchorx="45" w="84" h="111" />
+      <image anchorx="45" w="88" h="110" />
+      <image anchorx="45" w="77" h="110" />
+    </group>
+  </animation>
+  <animation name="daoke2">
+    <group name="stand">
+      <image anchorx="49" w="88" h="117" />
+      <image anchorx="46" w="86" h="117" />
+      <image anchorx="46" w="86" h="116" />
+      <image anchorx="46" w="87" h="117" />
+    </group>
+    <group name="move">
+      <image anchorx="44" w="88" h="110" />
+      <image anchorx="46" w="92" h="107" />
+      <image anchorx="43" w="87" h="106" />
+      <image anchorx="33" w="83" h="104" />
+      <image anchorx="28" w="83" h="105" />
+      <image anchorx="29" w="89" h="106" />
+      <image anchorx="32" w="90" h="109" />
+      <image anchorx="32" w="83" h="110" />
+    </group>
+    <group name="attack">
+      <image anchorx="23" w="79" h="110" />
+      <image anchorx="41" w="101" h="126" />
+      <image anchorx="70" w="129" h="125" />
+      <image anchorx="23" w="100" h="116" />
+      <image anchorx="28" w="148" h="120" />
+      <image anchorx="24" w="154" h="116" />
+      <image anchorx="23" w="127" h="106" />
+      <image anchorx="20" w="71" h="109" />
+    </group>
+  </animation>
+  <animation name="gonggong">
+    <group name="stand">
+      <image anchorx="24" w="48" h="111" />
+      <image anchorx="26" w="52" h="110" />
+      <image anchorx="25" w="51" h="110" />
+      <image anchorx="24" w="49" h="110" />
+    </group>
+    <group name="move">
+      <image anchorx="33" w="66" h="100" />
+      <image anchorx="33" w="66" h="105" />
+      <image anchorx="35" w="70" h="105" />
+      <image anchorx="35" w="70" h="105" />
+      <image anchorx="37" w="75" h="103" />
+      <image anchorx="38" w="77" h="103" />
+      <image anchorx="39" w="78" h="102" />
+      <image anchorx="38" w="76" h="100" />
+    </group>
+  </animation>
+  <animation name="baobiao">
+    <group name="stand">
+      <image anchorx="24" w="49" h="127" />
+      <image anchorx="23" w="47" h="128" />
+      <image anchorx="23" w="46" h="128" />
+      <image anchorx="24" w="49" h="128" />
+    </group>
+    <group name="move">
+      <image anchorx="32" w="65" h="132" />
+      <image anchorx="31" w="63" h="134" />
+      <image anchorx="33" w="66" h="134" />
+    </group>
+  </animation>
+  <animation name="qiangdao_gun">
+    <group name="stand">
+      <image anchorx="39" w="78" h="107" />
+      <image anchorx="42" w="85" h="109" />
+      <image anchorx="44" w="89" h="110" />
+      <image anchorx="43" w="86" h="109" />
+    </group>
+    <group name="move">
+      <image anchorx="29" w="90" h="107" />
+      <image anchorx="25" w="91" h="108" />
+      <image anchorx="32" w="94" h="104" />
+      <image anchorx="51" w="92" h="106" />
+      <image anchorx="57" w="98" h="104" />
+      <image anchorx="57" w="95" h="105" />
+      <image anchorx="45" w="96" h="109" />
+      <image anchorx="18" w="86" h="109" />
+    </group>
+    <group name="attack">
+      <image anchorx="15" w="54" h="136" />
+      <image anchorx="22" w="47" h="145" />
+      <image anchorx="72" w="95" h="130" />
+      <image anchorx="108" w="132" h="116" />
+      <image anchorx="28" w="61" h="121" />
+      <image anchorx="22" w="157" h="113" />
+      <image anchorx="21" w="140" h="111" />
+      <image anchorx="18" w="107" h="111" />
+    </group>
+  </animation>
+  <animation name="daoke3">
+    <group name="stand">
+      <image anchorx="26" w="52" h="114" />
+      <image anchorx="26" w="53" h="118" />
+      <image anchorx="27" w="54" h="122" />
+      <image anchorx="26" w="53" h="119" />
+    </group>
+    <group name="move">
+      <image anchorx="26" w="104" h="106" />
+      <image anchorx="26" w="100" h="105" />
+      <image anchorx="15" w="92" h="101" />
+      <image anchorx="23" w="86" h="102" />
+      <image anchorx="28" w="81" h="101" />
+      <image anchorx="25" w="84" h="105" />
+      <image anchorx="16" w="90" h="109" />
+      <image anchorx="22" w="100" h="109" />
+    </group>
+    <group name="attack">
+      <image anchorx="20" w="63" h="107" />
+      <image anchorx="26" w="59" h="112" />
+      <image anchorx="33" w="60" h="132" />
+      <image anchorx="54" w="77" h="133" />
+      <image anchorx="23" w="62" h="118" />
+      <image anchorx="24" w="141" h="111" />
+      <image anchorx="24" w="130" h="103" />
+      <image anchorx="24" w="101" h="106" />
+    </group>
+  </animation>
+  <animation name="huangrong">
+    <group name="stand">
+      <image anchorx="43" w="86" h="107" />
+      <image anchorx="43" w="86" h="108" />
+      <image anchorx="43" w="87" h="108" />
+      <image anchorx="43" w="87" h="107" />
+    </group>
+    <group name="move">
+      <image anchorx="51" w="84" h="105" />
+      <image anchorx="56" w="86" h="102" />
+      <image anchorx="50" w="84" h="103" />
+      <image anchorx="36" w="81" h="104" />
+      <image anchorx="16" w="67" h="104" />
+      <image anchorx="21" w="75" h="101" />
+      <image anchorx="26" w="78" h="104" />
+      <image anchorx="36" w="82" h="106" />
+    </group>
+  </animation>
+  <animation name="gongsunzhi">
+    <group name="stand">
+      <image anchorx="14" w="28" h="113" />
+      <image anchorx="14" w="28" h="113" />
+      <image anchorx="14" w="28" h="112" />
+      <image anchorx="13" w="27" h="113" />
+    </group>
+    <group name="move">
+      <image anchorx="37" w="89" h="108" />
+      <image anchorx="42" w="91" h="107" />
+      <image anchorx="27" w="68" h="106" />
+      <image anchorx="27" w="65" h="106" />
+      <image anchorx="42" w="85" h="104" />
+      <image anchorx="42" w="85" h="105" />
+      <image anchorx="30" w="61" h="110" />
+      <image anchorx="28" w="56" h="110" />
+    </group>
+    <group name="attack">
+      <image anchorx="29" w="91" h="111" />
+      <image anchorx="29" w="113" h="109" />
+      <image anchorx="49" w="122" h="149" />
+      <image anchorx="27" w="93" h="140" />
+      <image anchorx="46" w="166" h="107" />
+      <image anchorx="27" w="111" h="104" />
+      <image anchorx="49" w="171" h="103" />
+      <image anchorx="32" w="138" h="107" />
+    </group>
+  </animation>
+  <animation name="jianghurenshi_quan">
+    <group name="stand">
+      <image anchorx="25" w="50" h="90" />
+      <image anchorx="25" w="49" h="89" />
+      <image anchorx="25" w="49" h="89" />
+      <image anchorx="24" w="49" h="90" />
+    </group>
+    <group name="move">
+      <image anchorx="19" w="39" h="93" />
+      <image anchorx="21" w="43" h="94" />
+      <image anchorx="26" w="53" h="91" />
+      <image anchorx="26" w="52" h="93" />
+      <image anchorx="28" w="56" h="95" />
+      <image anchorx="25" w="50" h="95" />
+      <image anchorx="25" w="51" h="92" />
+      <image anchorx="24" w="49" h="91" />
+    </group>
+    <group name="attack">
+      <image anchorx="20" w="40" h="92" />
+      <image anchorx="28" w="57" h="91" />
+      <image anchorx="29" w="58" h="90" />
+      <image anchorx="21" w="50" h="88" />
+      <image anchorx="25" w="78" h="87" />
+      <image anchorx="25" w="80" h="87" />
+      <image anchorx="25" w="67" h="90" />
+      <image anchorx="23" w="56" h="92" />
+    </group>
+  </animation>
+  <animation name="xizang_quan">
+    <group name="stand">
+      <image anchorx="33" w="67" h="110" />
+      <image anchorx="33" w="67" h="110" />
+      <image anchorx="33" w="67" h="111" />
+      <image anchorx="33" w="67" h="110" />
+    </group>
+    <group name="move">
+      <image anchorx="38" w="77" h="114" />
+      <image anchorx="35" w="70" h="111" />
+      <image anchorx="32" w="65" h="111" />
+      <image anchorx="33" w="67" h="113" />
+      <image anchorx="34" w="69" h="114" />
+      <image anchorx="39" w="78" h="113" />
+      <image anchorx="34" w="68" h="115" />
+      <image anchorx="35" w="70" h="114" />
+    </group>
+    <group name="attack">
+      <image anchorx="27" w="69" h="113" />
+      <image anchorx="27" w="78" h="108" />
+      <image anchorx="27" w="76" h="108" />
+      <image anchorx="39" w="88" h="104" />
+      <image anchorx="47" w="114" h="102" />
+      <image anchorx="41" w="109" h="107" />
+      <image anchorx="32" w="91" h="112" />
+      <image anchorx="27" w="71" h="111" />
+    </group>
+  </animation>
+  <animation name="jianghurenshi_zhang">
+    <group name="stand">
+      <image anchorx="20" w="40" h="126" />
+      <image anchorx="19" w="39" h="126" />
+      <image anchorx="19" w="38" h="126" />
+      <image anchorx="18" w="39" h="126" />
+    </group>
+    <group name="move">
+      <image anchorx="26" w="52" h="120" />
+      <image anchorx="27" w="55" h="122" />
+      <image anchorx="27" w="54" h="122" />
+      <image anchorx="31" w="62" h="123" />
+      <image anchorx="34" w="68" h="123" />
+      <image anchorx="35" w="71" h="124" />
+      <image anchorx="34" w="68" h="123" />
+      <image anchorx="31" w="62" h="120" />
+    </group>
+    <group name="attack">
+      <image anchorx="23" w="48" h="122" />
+      <image anchorx="31" w="48" h="115" />
+      <image anchorx="41" w="58" h="109" />
+      <image anchorx="40" w="86" h="108" />
+      <image anchorx="38" w="128" h="110" />
+      <image anchorx="25" w="110" h="112" />
+      <image anchorx="19" w="79" h="118" />
+      <image anchorx="20" w="72" h="122" />
+    </group>
+  </animation>
+  <animation name="jianghurenshi_zhang2">
+    <group name="stand">
+      <image anchorx="23" w="47" h="128" />
+      <image anchorx="24" w="48" h="128" />
+      <image anchorx="24" w="48" h="128" />
+      <image anchorx="23" w="47" h="128" />
+    </group>
+    <group name="move">
+      <image anchorx="25" w="51" h="118" />
+      <image anchorx="28" w="57" h="119" />
+      <image anchorx="32" w="64" h="118" />
+      <image anchorx="23" w="47" h="122" />
+      <image anchorx="25" w="50" h="123" />
+      <image anchorx="30" w="61" h="121" />
+      <image anchorx="28" w="56" h="118" />
+      <image anchorx="24" w="48" h="117" />
+    </group>
+    <group name="attack">
+      <image anchorx="30" w="72" h="121" />
+      <image anchorx="46" w="70" h="116" />
+      <image anchorx="41" w="63" h="113" />
+      <image anchorx="26" w="73" h="112" />
+      <image anchorx="15" w="96" h="110" />
+      <image anchorx="16" w="94" h="112" />
+      <image anchorx="16" w="71" h="118" />
+      <image anchorx="26" w="68" h="121" />
+    </group>
+  </animation>
+  <animation name="weisuonan">
+    <group name="stand">
+      <image anchorx="20" w="40" h="114" />
+      <image anchorx="16" w="40" h="115" />
+      <image anchorx="16" w="40" h="115" />
+      <image anchorx="19" w="39" h="114" />
+    </group>
+    <group name="move">
+      <image anchorx="32" w="64" h="113" />
+      <image anchorx="34" w="69" h="112" />
+      <image anchorx="39" w="78" h="112" />
+      <image anchorx="40" w="81" h="115" />
+      <image anchorx="39" w="78" h="118" />
+      <image anchorx="35" w="71" h="117" />
+      <image anchorx="31" w="63" h="114" />
+      <image anchorx="28" w="57" h="114" />
+    </group>
+    <group name="attack">
+      <image anchorx="32" w="65" h="110" />
+      <image anchorx="29" w="53" h="119" />
+      <image anchorx="30" w="55" h="128" />
+      <image anchorx="27" w="73" h="117" />
+      <image anchorx="27" w="96" h="104" />
+      <image anchorx="25" w="95" h="105" />
+      <image anchorx="24" w="76" h="108" />
+      <image anchorx="27" w="70" h="109" />
+    </group>
+  </animation>
+  <animation name="diyun">
+    <group name="stand">
+      <image anchorx="22" w="45" h="115" />
+      <image anchorx="23" w="47" h="115" />
+      <image anchorx="22" w="45" h="115" />
+      <image anchorx="22" w="44" h="115" />
+    </group>
+    <group name="move">
+      <image anchorx="32" w="65" h="118" />
+      <image anchorx="25" w="67" h="116" />
+      <image anchorx="24" w="62" h="110" />
+      <image anchorx="26" w="59" h="107" />
+      <image anchorx="33" w="67" h="104" />
+      <image anchorx="37" w="75" h="108" />
+      <image anchorx="38" w="76" h="117" />
+      <image anchorx="31" w="63" h="120" />
+    </group>
+    <group name="attack">
+      <image anchorx="19" w="53" h="128" />
+      <image anchorx="19" w="58" h="146" />
+      <image anchorx="51" w="82" h="133" />
+      <image anchorx="69" w="85" h="130" />
+      <image anchorx="29" w="132" h="119" />
+      <image anchorx="73" w="93" h="111" />
+      <image anchorx="26" w="64" h="117" />
+      <image anchorx="23" w="105" h="107" />
+    </group>
+  </animation>
+  <animation name="muren">
+    <group name="stand">
+      <image anchorx="13" w="27" h="119" />
+    </group>
+    <group name="move">
+      <image anchorx="28" w="57" h="116" />
+      <image anchorx="23" w="47" h="115" />
+      <image anchorx="16" w="32" h="112" />
+      <image anchorx="22" w="44" h="114" />
+      <image anchorx="28" w="56" h="113" />
+      <image anchorx="25" w="51" h="115" />
+      <image anchorx="17" w="35" h="118" />
+      <image anchorx="19" w="39" h="118" />
+    </group>
+    <group name="attack">
+      <image anchorx="15" w="30" h="117" />
+      <image anchorx="36" w="73" h="117" />
+      <image anchorx="65" w="100" h="125" />
+      <image anchorx="19" w="38" h="130" />
+      <image anchorx="56" w="124" h="112" />
+      <image anchorx="20" w="56" h="112" />
+      <image anchorx="32" w="75" h="120" />
+      <image anchorx="63" w="126" h="111" />
+    </group>
+  </animation>
+  <animation name="shaonv_jian2">
+    <group name="stand">
+      <image anchorx="13" w="27" h="107" />
+      <image anchorx="13" w="27" h="107" />
+      <image anchorx="13" w="27" h="108" />
+      <image anchorx="13" w="27" h="108" />
+    </group>
+    <group name="move">
+      <image anchorx="30" w="61" h="106" />
+      <image anchorx="27" w="54" h="99" />
+      <image anchorx="20" w="40" h="99" />
+      <image anchorx="22" w="45" h="102" />
+      <image anchorx="29" w="58" h="101" />
+      <image anchorx="28" w="56" h="103" />
+      <image anchorx="21" w="43" h="107" />
+      <image anchorx="20" w="41" h="107" />
+    </group>
+    <group name="attack">
+      <image anchorx="18" w="88" h="105" />
+      <image anchorx="22" w="74" h="116" />
+      <image anchorx="32" w="56" h="134" />
+      <image anchorx="39" w="55" h="123" />
+      <image anchorx="29" w="98" h="100" />
+      <image anchorx="41" w="67" h="108" />
+      <image anchorx="36" w="62" h="112" />
+      <image anchorx="23" w="61" h="104" />
+    </group>
+  </animation>
+  <animation name="meichaofeng">
+    <group name="stand">
+      <image anchorx="14" w="28" h="109" />
+      <image anchorx="14" w="28" h="110" />
+      <image anchorx="14" w="28" h="111" />
+      <image anchorx="14" w="28" h="110" />
+    </group>
+    <group name="move">
+      <image anchorx="33" w="66" h="105" />
+      <image anchorx="30" w="61" h="104" />
+      <image anchorx="24" w="49" h="101" />
+      <image anchorx="25" w="51" h="106" />
+      <image anchorx="30" w="60" h="106" />
+      <image anchorx="31" w="62" h="105" />
+      <image anchorx="29" w="58" h="108" />
+      <image anchorx="27" w="55" h="108" />
+    </group>
+    <group name="attack">
+      <image anchorx="22" w="44" h="105" />
+      <image anchorx="27" w="54" h="107" />
+      <image anchorx="59" w="109" h="111" />
+      <image anchorx="61" w="112" h="112" />
+      <image anchorx="22" w="45" h="129" />
+      <image anchorx="59" w="121" h="107" />
+      <image anchorx="53" w="107" h="101" />
+      <image anchorx="37" w="75" h="104" />
+    </group>
+  </animation>
+  <animation name="huizushaonv_dao">
+    <group name="stand">
+      <image anchorx="12" w="24" h="106" />
+      <image anchorx="12" w="24" h="107" />
+      <image anchorx="12" w="24" h="108" />
+      <image anchorx="12" w="24" h="107" />
+    </group>
+    <group name="move">
+      <image anchorx="32" w="64" h="105" />
+      <image anchorx="28" w="56" h="105" />
+      <image anchorx="18" w="36" h="100" />
+      <image anchorx="17" w="47" h="103" />
+      <image anchorx="23" w="62" h="100" />
+      <image anchorx="24" w="61" h="103" />
+      <image anchorx="22" w="45" h="106" />
+      <image anchorx="21" w="43" h="107" />
+    </group>
+    <group name="attack">
+      <image anchorx="18" w="48" h="105" />
+      <image anchorx="18" w="50" h="104" />
+      <image anchorx="23" w="71" h="103" />
+      <image anchorx="28" w="74" h="103" />
+      <image anchorx="34" w="86" h="105" />
+      <image anchorx="39" w="118" h="104" />
+      <image anchorx="37" w="104" h="103" />
+      <image anchorx="18" w="58" h="104" />
+    </group>
+  </animation>
+  <animation name="mengnan_quan">
+    <group name="stand">
+      <image anchorx="19" w="54" h="116" />
+      <image anchorx="19" w="52" h="116" />
+      <image anchorx="19" w="51" h="116" />
+      <image anchorx="19" w="52" h="116" />
+    </group>
+    <group name="move">
+      <image anchorx="28" w="68" h="114" />
+      <image anchorx="33" w="69" h="114" />
+      <image anchorx="34" w="68" h="110" />
+      <image anchorx="31" w="63" h="111" />
+      <image anchorx="32" w="64" h="110" />
+      <image anchorx="32" w="65" h="114" />
+      <image anchorx="31" w="62" h="116" />
+      <image anchorx="32" w="64" h="117" />
+    </group>
+    <group name="attack">
+      <image anchorx="20" w="41" h="117" />
+      <image anchorx="26" w="60" h="116" />
+      <image anchorx="31" w="75" h="115" />
+      <image anchorx="27" w="73" h="113" />
+      <image anchorx="29" w="64" h="114" />
+      <image anchorx="40" w="94" h="120" />
+      <image anchorx="36" w="87" h="112" />
+      <image anchorx="27" w="69" h="111" />
+    </group>
+  </animation>
+  <animation name="yanji">
+    <group name="stand">
+      <image anchorx="13" w="27" h="112" />
+      <image anchorx="14" w="28" h="112" />
+      <image anchorx="14" w="28" h="112" />
+      <image anchorx="14" w="28" h="112" />
+    </group>
+    <group name="move">
+      <image anchorx="29" w="58" h="108" />
+      <image anchorx="31" w="62" h="110" />
+      <image anchorx="27" w="54" h="110" />
+      <image anchorx="23" w="47" h="108" />
+      <image anchorx="29" w="59" h="108" />
+      <image anchorx="31" w="62" h="110" />
+      <image anchorx="30" w="61" h="112" />
+      <image anchorx="27" w="55" h="111" />
+    </group>
+    <group name="attack">
+      <image anchorx="18" w="80" h="113" />
+      <image anchorx="18" w="96" h="114" />
+      <image anchorx="20" w="59" h="148" />
+      <image anchorx="37" w="76" h="127" />
+      <image anchorx="29" w="103" h="112" />
+      <image anchorx="29" w="71" h="110" />
+    </group>
+  </animation>
+  <animation name="xingxing">
+    <group name="stand">
+      <image anchorx="37" w="90" h="120" />
+      <image anchorx="36" w="86" h="121" />
+      <image anchorx="35" w="78" h="122" />
+      <image anchorx="32" w="97" h="125" />
+      <image anchorx="32" w="79" h="129" />
+      <image anchorx="32" w="95" h="126" />
+      <image anchorx="32" w="77" h="122" />
+      <image anchorx="32" w="79" h="121" />
+    </group>
+    <group name="move">
+      <image anchorx="64" w="119" h="118" />
+      <image anchorx="64" w="118" h="119" />
+      <image anchorx="39" w="117" h="111" />
+      <image anchorx="55" w="141" h="107" />
+      <image anchorx="66" w="147" h="103" />
+      <image anchorx="57" w="123" h="110" />
+      <image anchorx="51" w="99" h="116" />
+      <image anchorx="58" w="117" h="117" />
+    </group>
+  </animation>
+  <animation name="wudang_xiake">
+    <group name="stand">
+      <image anchorx="17" w="35" h="118" />
+      <image anchorx="18" w="36" h="118" />
+      <image anchorx="18" w="37" h="118" />
+      <image anchorx="18" w="36" h="118" />
+    </group>
+    <group name="move">
+      <image anchorx="23" w="47" h="114" />
+      <image anchorx="28" w="57" h="112" />
+      <image anchorx="28" w="57" h="113" />
+      <image anchorx="20" w="40" h="115" />
+      <image anchorx="22" w="45" h="115" />
+      <image anchorx="28" w="57" h="113" />
+      <image anchorx="29" w="58" h="115" />
+      <image anchorx="21" w="43" h="115" />
+    </group>
+    <group name="attack">
+      <image anchorx="19" w="79" h="113" />
+      <image anchorx="33" w="57" h="111" />
+      <image anchorx="37" w="62" h="110" />
+      <image anchorx="20" w="80" h="124" />
+      <image anchorx="18" w="125" h="110" />
+      <image anchorx="19" w="91" h="108" />
+      <image anchorx="19" w="67" h="119" />
+      <image anchorx="36" w="89" h="105" />
+      <image anchorx="41" w="99" h="101" />
+      <image anchorx="22" w="80" h="103" />
+      <image anchorx="18" w="121" h="105" />
+      <image anchorx="25" w="116" h="133" />
+      <image anchorx="34" w="68" h="129" />
+      <image anchorx="38" w="63" h="126" />
+      <image anchorx="47" w="72" h="127" />
+      <image anchorx="42" w="70" h="136" />
+      <image anchorx="19" w="119" h="131" />
+      <image anchorx="18" w="133" h="107" />
+      <image anchorx="16" w="118" h="109" />
+      <image anchorx="16" w="101" h="111" />
+    </group>
+  </animation>
+  <animation name="linghuchong">
+    <group name="stand">
+      <image anchorx="19" w="38" h="109" />
+      <image anchorx="20" w="40" h="109" />
+      <image anchorx="20" w="40" h="109" />
+      <image anchorx="19" w="39" h="109" />
+    </group>
+    <group name="move">
+      <image anchorx="21" w="57" h="108" />
+      <image anchorx="29" w="69" h="105" />
+      <image anchorx="32" w="64" h="103" />
+      <image anchorx="16" w="46" h="103" />
+      <image anchorx="17" w="49" h="105" />
+      <image anchorx="35" w="71" h="104" />
+      <image anchorx="33" w="66" h="105" />
+      <image anchorx="26" w="53" h="107" />
+    </group>
+    <group name="attack">
+      <image anchorx="66" w="94" h="113" />
+      <image anchorx="63" w="89" h="97" />
+      <image anchorx="34" w="75" h="92" />
+      <image anchorx="25" w="100" h="88" />
+      <image anchorx="26" w="131" h="87" />
+      <image anchorx="26" w="131" h="93" />
+      <image anchorx="26" w="120" h="101" />
+      <image anchorx="26" w="79" h="119" />
+      <image anchorx="26" w="68" h="136" />
+      <image anchorx="26" w="61" h="134" />
+      <image anchorx="30" w="72" h="151" />
+      <image anchorx="32" w="96" h="109" />
+      <image anchorx="36" w="100" h="83" />
+    </group>
+  </animation>
+  <animation name="jianke_cool">
+    <group name="stand">
+      <image anchorx="20" w="40" h="104" />
+      <image anchorx="20" w="40" h="104" />
+      <image anchorx="20" w="40" h="104" />
+      <image anchorx="20" w="40" h="104" />
+    </group>
+    <group name="move">
+      <image anchorx="25" w="50" h="103" />
+      <image anchorx="24" w="48" h="101" />
+      <image anchorx="22" w="44" h="103" />
+      <image anchorx="22" w="40" h="102" />
+      <image anchorx="19" w="43" h="100" />
+      <image anchorx="19" w="50" h="100" />
+      <image anchorx="17" w="52" h="102" />
+      <image anchorx="17" w="51" h="105" />
+    </group>
+    <group name="attack">
+      <image anchorx="68" w="94" h="97" />
+      <image anchorx="78" w="106" h="96" />
+      <image anchorx="78" w="102" h="95" />
+      <image anchorx="28" w="66" h="94" />
+      <image anchorx="33" w="128" h="95" />
+      <image anchorx="33" w="138" h="103" />
+      <image anchorx="27" w="71" h="95" />
+      <image anchorx="35" w="70" h="96" />
+    </group>
+  </animation>
+  <animation name="meichaofeng2">
+    <group name="stand">
+      <image anchorx="18" w="36" h="105" />
+      <image anchorx="18" w="37" h="105" />
+      <image anchorx="18" w="37" h="105" />
+      <image anchorx="18" w="36" h="105" />
+    </group>
+    <group name="move">
+      <image anchorx="21" w="43" h="104" />
+      <image anchorx="27" w="54" h="101" />
+      <image anchorx="25" w="51" h="102" />
+      <image anchorx="19" w="38" h="103" />
+      <image anchorx="17" w="35" h="102" />
+      <image anchorx="28" w="56" h="100" />
+      <image anchorx="26" w="53" h="103" />
+      <image anchorx="18" w="37" h="103" />
+    </group>
+    <group name="attack">
+      <image anchorx="30" w="61" h="96" />
+      <image anchorx="29" w="58" h="98" />
+      <image anchorx="41" w="82" h="101" />
+      <image anchorx="29" w="59" h="101" />
+      <image anchorx="38" w="76" h="103" />
+      <image anchorx="44" w="89" h="92" />
+      <image anchorx="40" w="81" h="92" />
+      <image anchorx="40" w="80" h="93" />
+      <image anchorx="45" w="91" h="96" />
+      <image anchorx="51" w="103" h="98" />
+      <image anchorx="39" w="78" h="98" />
+      <image anchorx="41" w="83" h="98" />
+      <image anchorx="32" w="64" h="98" />
+      <image anchorx="38" w="76" h="102" />
+      <image anchorx="33" w="67" h="115" />
+      <image anchorx="46" w="92" h="94" />
+      <image anchorx="50" w="100" h="88" />
+      <image anchorx="48" w="97" h="83" />
+      <image anchorx="44" w="88" h="85" />
+      <image anchorx="36" w="72" h="92" />
+    </group>
+  </animation>
+  <animation name="abi">
+    <group name="stand">
+      <image anchorx="17" w="34" h="109" />
+      <image anchorx="17" w="34" h="110" />
+      <image anchorx="17" w="34" h="110" />
+      <image anchorx="17" w="34" h="110" />
+    </group>
+    <group name="move">
+      <image anchorx="25" w="50" h="105" />
+      <image anchorx="24" w="49" h="104" />
+      <image anchorx="25" w="51" h="104" />
+      <image anchorx="26" w="52" h="103" />
+      <image anchorx="27" w="54" h="103" />
+      <image anchorx="27" w="54" h="102" />
+      <image anchorx="27" w="54" h="104" />
+      <image anchorx="26" w="53" h="105" />
+    </group>
+    <group name="attack">
+      <image anchorx="24" w="48" h="107" />
+      <image anchorx="31" w="63" h="103" />
+      <image anchorx="30" w="61" h="110" />
+      <image anchorx="31" w="62" h="101" />
+      <image anchorx="53" w="107" h="103" />
+      <image anchorx="50" w="100" h="103" />
+      <image anchorx="42" w="84" h="104" />
+      <image anchorx="34" w="69" h="106" />
+    </group>
+  </animation>
+  <animation name="ouyangke">
+    <group name="stand">
+      <image anchorx="24" w="49" h="109" />
+      <image anchorx="26" w="52" h="109" />
+      <image anchorx="26" w="53" h="109" />
+      <image anchorx="27" w="54" h="109" />
+    </group>
+    <group name="move">
+      <image anchorx="34" w="69" h="109" />
+      <image anchorx="38" w="76" h="108" />
+      <image anchorx="38" w="77" h="104" />
+      <image anchorx="39" w="78" h="104" />
+      <image anchorx="30" w="61" h="106" />
+      <image anchorx="32" w="65" h="107" />
+      <image anchorx="33" w="67" h="106" />
+      <image anchorx="35" w="70" h="108" />
+    </group>
+    <group name="attack">
+      <image anchorx="37" w="74" h="109" />
+      <image anchorx="38" w="77" h="111" />
+      <image anchorx="43" w="86" h="112" />
+      <image anchorx="42" w="85" h="109" />
+      <image anchorx="37" w="75" h="107" />
+      <image anchorx="57" w="114" h="107" />
+      <image anchorx="46" w="93" h="116" />
+      <image anchorx="53" w="106" h="106" />
+      <image anchorx="38" w="77" h="102" />
+      <image anchorx="42" w="84" h="102" />
+      <image anchorx="31" w="63" h="110" />
+      <image anchorx="39" w="79" h="111" />
+      <image anchorx="40" w="81" h="106" />
+      <image anchorx="40" w="80" h="110" />
+      <image anchorx="48" w="97" h="99" />
+      <image anchorx="42" w="84" h="98" />
+      <image anchorx="45" w="90" h="103" />
+      <image anchorx="41" w="83" h="98" />
+      <image anchorx="42" w="85" h="102" />
+      <image anchorx="42" w="84" h="106" />
+    </group>
+  </animation>
+  <animation name="xiaobing4">
+    <group name="stand">
+      <image anchorx="21" w="42" h="112" />
+      <image anchorx="20" w="40" h="112" />
+      <image anchorx="20" w="40" h="112" />
+      <image anchorx="20" w="41" h="112" />
+    </group>
+    <group name="move">
+      <image anchorx="24" w="48" h="110" />
+      <image anchorx="30" w="61" h="109" />
+      <image anchorx="29" w="58" h="111" />
+      <image anchorx="24" w="49" h="114" />
+      <image anchorx="26" w="53" h="112" />
+      <image anchorx="28" w="57" h="111" />
+      <image anchorx="25" w="51" h="110" />
+      <image anchorx="23" w="47" h="111" />
+    </group>
+    <group name="attack">
+      <image anchorx="29" w="78" h="103" />
+      <image anchorx="37" w="75" h="108" />
+      <image anchorx="38" w="77" h="126" />
+      <image anchorx="63" w="103" h="108" />
+      <image anchorx="36" w="102" h="93" />
+      <image anchorx="41" w="155" h="92" />
+      <image anchorx="34" w="121" h="95" />
+      <image anchorx="31" w="102" h="99" />
+    </group>
+  </animation>
+  <animation name="miaozu_quan">
+    <group name="stand">
+      <image anchorx="24" w="49" h="116" />
+      <image anchorx="23" w="47" h="116" />
+      <image anchorx="23" w="47" h="116" />
+      <image anchorx="24" w="48" h="116" />
+    </group>
+    <group name="move">
+      <image anchorx="29" w="58" h="114" />
+      <image anchorx="29" w="58" h="113" />
+      <image anchorx="30" w="60" h="116" />
+      <image anchorx="31" w="62" h="118" />
+      <image anchorx="30" w="60" h="118" />
+      <image anchorx="31" w="62" h="115" />
+      <image anchorx="29" w="59" h="115" />
+      <image anchorx="29" w="59" h="114" />
+    </group>
+    <group name="attack">
+      <image anchorx="43" w="86" h="103" />
+      <image anchorx="45" w="90" h="105" />
+      <image anchorx="39" w="95" h="107" />
+      <image anchorx="53" w="91" h="126" />
+      <image anchorx="44" w="110" h="101" />
+      <image anchorx="36" w="86" h="112" />
+      <image anchorx="29" w="73" h="107" />
+      <image anchorx="34" w="77" h="104" />
+    </group>
+  </animation>
+  <animation name="fengqingyang">
+    <group name="stand">
+      <image anchorx="23" w="46" h="107" />
+      <image anchorx="24" w="48" h="107" />
+      <image anchorx="24" w="49" h="107" />
+      <image anchorx="24" w="49" h="107" />
+    </group>
+    <group name="move">
+      <image anchorx="30" w="90" h="107" />
+      <image anchorx="30" w="86" h="105" />
+      <image anchorx="25" w="78" h="105" />
+      <image anchorx="25" w="74" h="103" />
+      <image anchorx="25" w="69" h="103" />
+      <image anchorx="25" w="63" h="103" />
+      <image anchorx="29" w="62" h="106" />
+      <image anchorx="26" w="57" h="107" />
+    </group>
+    <group name="attack">
+      <image anchorx="23" w="39" h="112" />
+      <image anchorx="40" w="74" h="106" />
+      <image anchorx="50" w="112" h="105" />
+      <image anchorx="47" w="113" h="105" />
+      <image anchorx="46" w="137" h="104" />
+      <image anchorx="41" w="142" h="106" />
+      <image anchorx="41" w="77" h="147" />
+      <image anchorx="45" w="124" h="99" />
+      <image anchorx="43" w="108" h="99" />
+      <image anchorx="37" w="76" h="97" />
+      <image anchorx="40" w="64" h="96" />
+      <image anchorx="39" w="59" h="99" />
+      <image anchorx="33" w="54" h="113" />
+      <image anchorx="33" w="51" h="106" />
+      <image anchorx="78" w="119" h="97" />
+      <image anchorx="24" w="67" h="106" />
+      <image anchorx="26" w="94" h="95" />
+      <image anchorx="38" w="146" h="85" />
+      <image anchorx="42" w="127" h="87" />
+      <image anchorx="42" w="111" h="92" />
+    </group>
+  </animation>
+  <animation name="murenqing">
+    <group name="stand">
+      <image anchorx="21" w="43" h="109" />
+      <image anchorx="21" w="42" h="111" />
+      <image anchorx="20" w="41" h="111" />
+      <image anchorx="21" w="42" h="111" />
+    </group>
+    <group name="move">
+      <image anchorx="33" w="71" h="110" />
+      <image anchorx="28" w="68" h="108" />
+      <image anchorx="28" w="66" h="104" />
+      <image anchorx="28" w="65" h="100" />
+      <image anchorx="24" w="54" h="102" />
+      <image anchorx="30" w="60" h="104" />
+      <image anchorx="27" w="54" h="106" />
+      <image anchorx="27" w="54" h="109" />
+    </group>
+    <group name="attack">
+      <image anchorx="33" w="67" h="103" />
+      <image anchorx="53" w="89" h="100" />
+      <image anchorx="50" w="87" h="96" />
+      <image anchorx="29" w="94" h="96" />
+      <image anchorx="21" w="113" h="95" />
+      <image anchorx="20" w="109" h="97" />
+      <image anchorx="19" w="89" h="102" />
+      <image anchorx="19" w="78" h="103" />
+    </group>
+  </animation>
+  <animation name="jianke">
+    <group name="stand">
+      <image anchorx="36" w="72" h="116" />
+      <image anchorx="36" w="72" h="116" />
+      <image anchorx="35" w="71" h="116" />
+      <image anchorx="36" w="72" h="116" />
+    </group>
+    <group name="move">
+      <image anchorx="23" w="72" h="109" />
+      <image anchorx="23" w="70" h="106" />
+      <image anchorx="27" w="74" h="107" />
+      <image anchorx="23" w="74" h="110" />
+      <image anchorx="23" w="76" h="112" />
+      <image anchorx="24" w="76" h="111" />
+      <image anchorx="30" w="80" h="108" />
+      <image anchorx="26" w="79" h="110" />
+    </group>
+    <group name="attack">
+      <image anchorx="20" w="50" h="113" />
+      <image anchorx="20" w="37" h="115" />
+      <image anchorx="75" w="103" h="105" />
+      <image anchorx="76" w="108" h="106" />
+      <image anchorx="34" w="109" h="108" />
+      <image anchorx="40" w="147" h="116" />
+      <image anchorx="35" w="78" h="104" />
+      <image anchorx="33" w="73" h="104" />
+      <image anchorx="32" w="104" h="102" />
+      <image anchorx="29" w="61" h="110" />
+      <image anchorx="44" w="69" h="99" />
+      <image anchorx="28" w="61" h="107" />
+      <image anchorx="32" w="113" h="102" />
+      <image anchorx="30" w="76" h="110" />
+      <image anchorx="50" w="100" h="103" />
+      <image anchorx="33" w="71" h="105" />
+      <image anchorx="23" w="47" h="107" />
+      <image anchorx="18" w="37" h="117" />
+      <image anchorx="28" w="57" h="116" />
+      <image anchorx="37" w="74" h="114" />
+    </group>
+  </animation>
+  <animation name="nv_jianke2">
+    <group name="stand">
+      <image anchorx="30" w="61" h="105" />
+      <image anchorx="30" w="61" h="105" />
+      <image anchorx="31" w="62" h="105" />
+      <image anchorx="31" w="62" h="105" />
+    </group>
+    <group name="move">
+      <image anchorx="34" w="68" h="100" />
+      <image anchorx="33" w="66" h="100" />
+      <image anchorx="32" w="65" h="101" />
+      <image anchorx="33" w="66" h="102" />
+      <image anchorx="33" w="66" h="103" />
+      <image anchorx="33" w="66" h="102" />
+      <image anchorx="33" w="66" h="101" />
+      <image anchorx="33" w="66" h="100" />
+    </group>
+    <group name="attack">
+      <image anchorx="40" w="65" h="105" />
+      <image anchorx="43" w="73" h="116" />
+      <image anchorx="40" w="70" h="125" />
+      <image anchorx="41" w="119" h="100" />
+      <image anchorx="45" w="88" h="100" />
+      <image anchorx="54" w="104" h="103" />
+      <image anchorx="37" w="81" h="103" />
+      <image anchorx="40" w="80" h="104" />
+    </group>
+  </animation>
+  <animation name="xuedaolaozu">
+    <group name="stand">
+      <image anchorx="21" w="43" h="114" />
+      <image anchorx="22" w="45" h="114" />
+      <image anchorx="23" w="46" h="114" />
+      <image anchorx="22" w="45" h="114" />
+    </group>
+    <group name="move">
+      <image anchorx="31" w="62" h="111" />
+      <image anchorx="34" w="68" h="110" />
+      <image anchorx="34" w="68" h="107" />
+      <image anchorx="26" w="53" h="109" />
+      <image anchorx="32" w="64" h="108" />
+      <image anchorx="36" w="73" h="105" />
+      <image anchorx="34" w="68" h="108" />
+      <image anchorx="27" w="55" h="111" />
+    </group>
+    <group name="attack">
+      <image anchorx="23" w="78" h="160" />
+      <image anchorx="28" w="88" h="165" />
+      <image anchorx="52" w="84" h="142" />
+      <image anchorx="80" w="102" h="138" />
+      <image anchorx="100" w="120" h="109" />
+      <image anchorx="23" w="78" h="101" />
+      <image anchorx="24" w="159" h="87" />
+      <image anchorx="23" w="94" h="148" />
+      <image anchorx="82" w="100" h="154" />
+      <image anchorx="99" w="124" h="134" />
+      <image anchorx="107" w="140" h="113" />
+      <image anchorx="102" w="136" h="110" />
+      <image anchorx="91" w="151" h="167" />
+      <image anchorx="101" w="186" h="228" />
+      <image anchorx="34" w="150" h="245" />
+      <image anchorx="32" w="169" h="189" />
+      <image anchorx="31" w="169" h="114" />
+      <image anchorx="26" w="149" h="80" />
+      <image anchorx="29" w="126" h="118" />
+      <image anchorx="22" w="88" h="151" />
+    </group>
+  </animation>
+  <animation name="jinlunfawang2">
+    <group name="stand">
+      <image anchorx="28" w="57" h="124" />
+      <image anchorx="28" w="56" h="123" />
+      <image anchorx="27" w="55" h="123" />
+      <image anchorx="28" w="56" h="123" />
+    </group>
+    <group name="move">
+      <image anchorx="38" w="77" h="122" />
+      <image anchorx="38" w="76" h="118" />
+      <image anchorx="42" w="84" h="119" />
+      <image anchorx="41" w="83" h="121" />
+      <image anchorx="40" w="80" h="116" />
+      <image anchorx="38" w="77" h="117" />
+      <image anchorx="38" w="77" h="121" />
+      <image anchorx="36" w="73" h="123" />
+    </group>
+    <group name="attack">
+      <image anchorx="34" w="69" h="117" />
+      <image anchorx="35" w="70" h="105" />
+      <image anchorx="35" w="70" h="108" />
+      <image anchorx="33" w="67" h="129" />
+      <image anchorx="33" w="66" h="157" />
+      <image anchorx="27" w="54" h="169" />
+      <image anchorx="42" w="84" h="170" />
+      <image anchorx="40" w="81" h="136" />
+      <image anchorx="41" w="83" h="148" />
+      <image anchorx="41" w="83" h="180" />
+      <image anchorx="42" w="84" h="191" />
+      <image anchorx="41" w="83" h="187" />
+      <image anchorx="53" w="106" h="181" />
+      <image anchorx="51" w="130" h="164" />
+      <image anchorx="31" w="146" h="143" />
+      <image anchorx="31" w="186" h="123" />
+      <image anchorx="31" w="186" h="124" />
+      <image anchorx="23" w="189" h="125" />
+      <image anchorx="23" w="192" h="126" />
+      <image anchorx="20" w="93" h="126" />
+    </group>
+  </animation>
+  <animation name="diao">
+    <group name="stand">
+      <image anchorx="107" w="173" h="116" />
+      <image anchorx="109" w="181" h="111" />
+      <image anchorx="107" w="184" h="107" />
+      <image anchorx="107" w="181" h="110" />
+    </group>
+    <group name="move">
+      <image anchorx="100" w="173" h="111" />
+      <image anchorx="96" w="177" h="107" />
+      <image anchorx="96" w="180" h="104" />
+      <image anchorx="96" w="179" h="104" />
+      <image anchorx="97" w="178" h="105" />
+      <image anchorx="100" w="179" h="103" />
+      <image anchorx="103" w="180" h="104" />
+      <image anchorx="103" w="178" h="102" />
+    </group>
+    <group name="attack">
+      <image anchorx="101" w="177" h="195" />
+      <image anchorx="99" w="171" h="203" />
+      <image anchorx="99" w="163" h="192" />
+      <image anchorx="97" w="169" h="154" />
+      <image anchorx="97" w="241" h="126" />
+      <image anchorx="105" w="253" h="123" />
+      <image anchorx="105" w="255" h="126" />
+      <image anchorx="110" w="240" h="129" />
+    </group>
+  </animation>
+  <animation name="zhangsongxi">
+    <group name="stand">
+      <image anchorx="15" w="31" h="111" />
+      <image anchorx="16" w="32" h="111" />
+      <image anchorx="16" w="33" h="110" />
+      <image anchorx="16" w="32" h="110" />
+    </group>
+    <group name="move">
+      <image anchorx="24" w="48" h="107" />
+      <image anchorx="26" w="53" h="106" />
+      <image anchorx="27" w="54" h="106" />
+      <image anchorx="26" w="53" h="107" />
+      <image anchorx="26" w="52" h="106" />
+      <image anchorx="27" w="55" h="104" />
+      <image anchorx="29" w="58" h="107" />
+      <image anchorx="26" w="52" h="108" />
+    </group>
+    <group name="attack">
+      <image anchorx="19" w="39" h="110" />
+      <image anchorx="24" w="56" h="109" />
+      <image anchorx="26" w="64" h="109" />
+      <image anchorx="18" w="53" h="108" />
+      <image anchorx="18" w="50" h="108" />
+      <image anchorx="18" w="51" h="110" />
+      <image anchorx="18" w="50" h="112" />
+      <image anchorx="18" w="50" h="109" />
+      <image anchorx="18" w="50" h="109" />
+      <image anchorx="18" w="49" h="112" />
+      <image anchorx="18" w="54" h="109" />
+      <image anchorx="26" w="55" h="108" />
+      <image anchorx="28" w="61" h="108" />
+      <image anchorx="23" w="73" h="104" />
+      <image anchorx="25" w="82" h="101" />
+      <image anchorx="31" w="61" h="99" />
+      <image anchorx="32" w="95" h="98" />
+      <image anchorx="32" w="99" h="98" />
+      <image anchorx="32" w="80" h="102" />
+      <image anchorx="26" w="56" h="106" />
+    </group>
+  </animation>
+  <animation name="huangrong2">
+    <group name="stand">
+      <image anchorx="34" w="69" h="108" />
+      <image anchorx="38" w="76" h="115" />
+      <image anchorx="37" w="74" h="116" />
+      <image anchorx="38" w="76" h="115" />
+    </group>
+    <group name="move">
+      <image anchorx="27" w="97" h="107" />
+      <image anchorx="30" w="94" h="106" />
+      <image anchorx="29" w="97" h="107" />
+      <image anchorx="29" w="99" h="106" />
+      <image anchorx="29" w="90" h="105" />
+      <image anchorx="29" w="83" h="104" />
+      <image anchorx="29" w="92" h="107" />
+      <image anchorx="29" w="97" h="108" />
+    </group>
+    <group name="attack">
+      <image anchorx="29" w="78" h="127" />
+      <image anchorx="29" w="78" h="112" />
+      <image anchorx="29" w="78" h="112" />
+      <image anchorx="29" w="71" h="119" />
+      <image anchorx="51" w="79" h="124" />
+      <image anchorx="36" w="81" h="114" />
+      <image anchorx="37" w="119" h="100" />
+      <image anchorx="41" w="78" h="100" />
+      <image anchorx="36" w="113" h="98" />
+      <image anchorx="36" w="88" h="98" />
+      <image anchorx="53" w="93" h="103" />
+      <image anchorx="35" w="107" h="101" />
+      <image anchorx="38" w="167" h="101" />
+      <image anchorx="38" w="115" h="100" />
+      <image anchorx="60" w="95" h="99" />
+      <image anchorx="37" w="122" h="101" />
+      <image anchorx="41" w="167" h="99" />
+      <image anchorx="39" w="152" h="108" />
+      <image anchorx="37" w="126" h="120" />
+      <image anchorx="28" w="75" h="122" />
+    </group>
+  </animation>
+  <animation name="guoxiang">
+    <group name="stand">
+      <image anchorx="19" w="60" h="112" />
+      <image anchorx="19" w="59" h="113" />
+      <image anchorx="19" w="57" h="115" />
+      <image anchorx="19" w="58" h="113" />
+    </group>
+    <group name="move">
+      <image anchorx="23" w="77" h="107" />
+      <image anchorx="23" w="65" h="105" />
+      <image anchorx="27" w="67" h="102" />
+      <image anchorx="27" w="74" h="105" />
+      <image anchorx="24" w="81" h="107" />
+      <image anchorx="24" w="86" h="107" />
+      <image anchorx="24" w="87" h="104" />
+      <image anchorx="30" w="91" h="104" />
+    </group>
+    <group name="attack">
+      <image anchorx="26" w="65" h="106" />
+      <image anchorx="29" w="75" h="112" />
+      <image anchorx="35" w="73" h="98" />
+      <image anchorx="45" w="144" h="105" />
+      <image anchorx="43" w="146" h="106" />
+      <image anchorx="35" w="74" h="97" />
+      <image anchorx="35" w="83" h="106" />
+      <image anchorx="30" w="75" h="110" />
+    </group>
+  </animation>
+  <animation name="jinhuapopo">
+    <group name="stand">
+      <image anchorx="36" w="72" h="113" />
+      <image anchorx="36" w="72" h="113" />
+      <image anchorx="36" w="72" h="113" />
+      <image anchorx="36" w="72" h="113" />
+    </group>
+    <group name="move">
+      <image anchorx="34" w="92" h="113" />
+      <image anchorx="34" w="95" h="113" />
+      <image anchorx="34" w="92" h="111" />
+      <image anchorx="34" w="86" h="111" />
+      <image anchorx="34" w="77" h="110" />
+      <image anchorx="34" w="72" h="109" />
+      <image anchorx="30" w="74" h="107" />
+      <image anchorx="30" w="83" h="110" />
+    </group>
+    <group name="attack">
+      <image anchorx="30" w="101" h="102" />
+      <image anchorx="40" w="111" h="101" />
+      <image anchorx="79" w="131" h="100" />
+      <image anchorx="101" w="152" h="105" />
+      <image anchorx="100" w="152" h="106" />
+      <image anchorx="66" w="118" h="99" />
+      <image anchorx="75" w="124" h="122" />
+      <image anchorx="100" w="146" h="99" />
+      <image anchorx="79" w="123" h="98" />
+      <image anchorx="28" w="113" h="93" />
+      <image anchorx="31" w="153" h="91" />
+      <image anchorx="28" w="133" h="94" />
+      <image anchorx="72" w="132" h="96" />
+      <image anchorx="73" w="123" h="98" />
+      <image anchorx="28" w="136" h="92" />
+      <image anchorx="27" w="153" h="90" />
+      <image anchorx="29" w="153" h="92" />
+      <image anchorx="28" w="139" h="96" />
+      <image anchorx="22" w="118" h="99" />
+      <image anchorx="21" w="103" h="101" />
+    </group>
+  </animation>
+  <animation name="baimeiyingwang">
+    <group name="stand">
+      <image anchorx="31" w="44" h="114" />
+      <image anchorx="25" w="43" h="114" />
+      <image anchorx="23" w="43" h="113" />
+      <image anchorx="23" w="41" h="114" />
+    </group>
+    <group name="move">
+      <image anchorx="39" w="78" h="109" />
+      <image anchorx="37" w="74" h="108" />
+      <image anchorx="43" w="87" h="106" />
+      <image anchorx="40" w="81" h="107" />
+      <image anchorx="40" w="80" h="105" />
+      <image anchorx="37" w="75" h="106" />
+      <image anchorx="33" w="67" h="110" />
+      <image anchorx="32" w="65" h="111" />
+    </group>
+    <group name="attack">
+      <image anchorx="54" w="109" h="102" />
+      <image anchorx="48" w="96" h="105" />
+      <image anchorx="38" w="76" h="108" />
+      <image anchorx="40" w="80" h="111" />
+      <image anchorx="25" w="62" h="114" />
+      <image anchorx="34" w="85" h="108" />
+      <image anchorx="47" w="113" h="100" />
+      <image anchorx="47" w="98" h="103" />
+    </group>
+  </animation>
+  <animation name="jinmaoshiwang">
+    <group name="stand">
+      <image anchorx="23" w="47" h="139" />
+      <image anchorx="23" w="47" h="139" />
+      <image anchorx="23" w="47" h="139" />
+      <image anchorx="23" w="47" h="139" />
+    </group>
+    <group name="move">
+      <image anchorx="65" w="101" h="125" />
+      <image anchorx="77" w="108" h="120" />
+      <image anchorx="80" w="118" h="119" />
+      <image anchorx="75" w="110" h="124" />
+      <image anchorx="67" w="101" h="127" />
+      <image anchorx="59" w="103" h="127" />
+      <image anchorx="57" w="103" h="124" />
+      <image anchorx="57" w="102" h="123" />
+    </group>
+    <group name="attack">
+      <image anchorx="23" w="76" h="160" />
+      <image anchorx="23" w="74" h="135" />
+      <image anchorx="25" w="71" h="143" />
+      <image anchorx="51" w="90" h="150" />
+      <image anchorx="83" w="103" h="150" />
+      <image anchorx="96" w="148" h="133" />
+      <image anchorx="54" w="138" h="131" />
+      <image anchorx="48" w="120" h="153" />
+      <image anchorx="50" w="137" h="148" />
+      <image anchorx="77" w="143" h="102" />
+      <image anchorx="71" w="93" h="119" />
+      <image anchorx="63" w="105" h="161" />
+      <image anchorx="41" w="106" h="153" />
+      <image anchorx="41" w="145" h="99" />
+      <image anchorx="41" w="160" h="91" />
+      <image anchorx="41" w="159" h="91" />
+      <image anchorx="33" w="150" h="97" />
+      <image anchorx="31" w="127" h="112" />
+      <image anchorx="25" w="94" h="143" />
+      <image anchorx="22" w="72" h="160" />
+    </group>
+  </animation>
+  <animation name="weiyixiao">
+    <group name="stand">
+      <image anchorx="27" w="55" h="139" />
+      <image anchorx="28" w="57" h="139" />
+      <image anchorx="30" w="61" h="137" />
+      <image anchorx="28" w="56" h="139" />
+    </group>
+    <group name="move">
+      <image anchorx="40" w="81" h="134" />
+      <image anchorx="42" w="85" h="131" />
+      <image anchorx="37" w="74" h="134" />
+      <image anchorx="38" w="77" h="131" />
+      <image anchorx="45" w="91" h="134" />
+      <image anchorx="41" w="82" h="138" />
+      <image anchorx="37" w="75" h="140" />
+      <image anchorx="39" w="78" h="140" />
+    </group>
+    <group name="attack">
+      <image anchorx="37" w="65" h="135" />
+      <image anchorx="41" w="83" h="136" />
+      <image anchorx="47" w="80" h="136" />
+      <image anchorx="37" w="74" h="138" />
+      <image anchorx="44" w="89" h="138" />
+      <image anchorx="37" w="108" h="136" />
+      <image anchorx="41" w="111" h="137" />
+      <image anchorx="36" w="90" h="137" />
+    </group>
+  </animation>
+  <animation name="fanyao">
+    <group name="stand">
+      <image anchorx="18" w="37" h="115" />
+      <image anchorx="19" w="38" h="115" />
+      <image anchorx="19" w="38" h="115" />
+      <image anchorx="18" w="37" h="115" />
+    </group>
+    <group name="move">
+      <image anchorx="21" w="50" h="111" />
+      <image anchorx="27" w="58" h="108" />
+      <image anchorx="27" w="59" h="108" />
+      <image anchorx="21" w="56" h="106" />
+      <image anchorx="21" w="53" h="107" />
+      <image anchorx="26" w="58" h="107" />
+      <image anchorx="26" w="59" h="109" />
+      <image anchorx="18" w="53" h="112" />
+    </group>
+    <group name="attack">
+      <image anchorx="21" w="54" h="108" />
+      <image anchorx="27" w="55" h="100" />
+      <image anchorx="29" w="59" h="103" />
+      <image anchorx="30" w="61" h="115" />
+      <image anchorx="32" w="64" h="119" />
+      <image anchorx="30" w="61" h="129" />
+      <image anchorx="30" w="61" h="127" />
+      <image anchorx="39" w="79" h="97" />
+      <image anchorx="47" w="77" h="103" />
+      <image anchorx="28" w="79" h="117" />
+      <image anchorx="35" w="78" h="105" />
+      <image anchorx="35" w="84" h="104" />
+      <image anchorx="41" w="82" h="101" />
+      <image anchorx="21" w="69" h="107" />
+      <image anchorx="23" w="69" h="124" />
+      <image anchorx="27" w="54" h="128" />
+      <image anchorx="28" w="57" h="107" />
+      <image anchorx="28" w="57" h="95" />
+      <image anchorx="29" w="58" h="99" />
+      <image anchorx="27" w="55" h="106" />
+    </group>
+  </animation>
+  <animation name="daoke_cool">
+    <group name="stand">
+      <image anchorx="15" w="30" h="120" />
+      <image anchorx="15" w="31" h="121" />
+      <image anchorx="17" w="34" h="122" />
+      <image anchorx="15" w="31" h="121" />
+    </group>
+    <group name="move">
+      <image anchorx="21" w="43" h="113" />
+      <image anchorx="28" w="57" h="111" />
+      <image anchorx="26" w="52" h="109" />
+      <image anchorx="18" w="37" h="110" />
+      <image anchorx="23" w="47" h="112" />
+      <image anchorx="28" w="57" h="112" />
+      <image anchorx="26" w="53" h="113" />
+      <image anchorx="19" w="38" h="115" />
+    </group>
+    <group name="attack">
+      <image anchorx="39" w="74" h="106" />
+      <image anchorx="35" w="75" h="109" />
+      <image anchorx="79" w="117" h="129" />
+      <image anchorx="40" w="139" h="103" />
+      <image anchorx="40" w="129" h="97" />
+      <image anchorx="20" w="108" h="102" />
+      <image anchorx="26" w="96" h="108" />
+      <image anchorx="36" w="85" h="108" />
+    </group>
+  </animation>
+  <animation name="jianke_cool2">
+    <group name="stand">
+      <image anchorx="16" w="60" h="109" />
+      <image anchorx="15" w="59" h="109" />
+      <image anchorx="15" w="60" h="109" />
+      <image anchorx="15" w="60" h="109" />
+    </group>
+    <group name="move">
+      <image anchorx="30" w="71" h="106" />
+      <image anchorx="30" w="68" h="104" />
+      <image anchorx="29" w="69" h="106" />
+      <image anchorx="29" w="72" h="105" />
+      <image anchorx="29" w="68" h="103" />
+      <image anchorx="21" w="65" h="104" />
+      <image anchorx="27" w="68" h="106" />
+      <image anchorx="25" w="68" h="107" />
+    </group>
+    <group name="attack">
+      <image anchorx="53" w="90" h="102" />
+      <image anchorx="79" w="120" h="107" />
+      <image anchorx="74" w="121" h="100" />
+      <image anchorx="64" w="100" h="106" />
+      <image anchorx="57" w="78" h="96" />
+      <image anchorx="31" w="62" h="107" />
+      <image anchorx="43" w="88" h="100" />
+      <image anchorx="45" w="90" h="102" />
+    </group>
+  </animation>
+  <animation name="yangguo2">
+    <group name="stand">
+      <image anchorx="19" w="39" h="132" />
+      <image anchorx="19" w="38" h="131" />
+      <image anchorx="19" w="38" h="131" />
+      <image anchorx="19" w="38" h="131" />
+    </group>
+    <group name="move">
+      <image anchorx="27" w="65" h="123" />
+      <image anchorx="27" w="52" h="122" />
+      <image anchorx="18" w="44" h="120" />
+      <image anchorx="22" w="55" h="122" />
+      <image anchorx="27" w="63" h="124" />
+      <image anchorx="25" w="59" h="126" />
+      <image anchorx="17" w="49" h="129" />
+      <image anchorx="21" w="69" h="127" />
+    </group>
+    <group name="attack">
+      <image anchorx="26" w="62" h="130" />
+      <image anchorx="31" w="75" h="125" />
+      <image anchorx="35" w="84" h="116" />
+      <image anchorx="35" w="68" h="110" />
+      <image anchorx="60" w="93" h="106" />
+      <image anchorx="54" w="119" h="110" />
+      <image anchorx="47" w="97" h="116" />
+      <image anchorx="42" w="84" h="124" />
+    </group>
+  </animation>
+  <animation name="tongren">
+    <group name="stand">
+      <image anchorx="32" w="64" h="106" />
+      <image anchorx="32" w="65" h="105" />
+      <image anchorx="32" w="65" h="104" />
+      <image anchorx="32" w="65" h="105" />
+    </group>
+    <group name="move">
+      <image anchorx="32" w="64" h="110" />
+      <image anchorx="27" w="55" h="108" />
+      <image anchorx="19" w="38" h="105" />
+      <image anchorx="25" w="50" h="106" />
+      <image anchorx="31" w="63" h="106" />
+      <image anchorx="30" w="60" h="109" />
+      <image anchorx="20" w="40" h="113" />
+      <image anchorx="22" w="44" h="113" />
+    </group>
+    <group name="attack">
+      <image anchorx="29" w="76" h="104" />
+      <image anchorx="40" w="86" h="99" />
+      <image anchorx="45" w="87" h="94" />
+      <image anchorx="47" w="80" h="93" />
+      <image anchorx="32" w="60" h="103" />
+      <image anchorx="31" w="102" h="107" />
+      <image anchorx="32" w="91" h="108" />
+      <image anchorx="32" w="61" h="106" />
+    </group>
+  </animation>
+  <animation name="mugaofeng">
+    <group name="stand">
+      <image anchorx="25" w="84" h="95" />
+      <image anchorx="24" w="84" h="96" />
+      <image anchorx="24" w="84" h="98" />
+      <image anchorx="24" w="83" h="97" />
+    </group>
+    <group name="move">
+      <image anchorx="31" w="88" h="94" />
+      <image anchorx="25" w="87" h="91" />
+      <image anchorx="25" w="86" h="88" />
+      <image anchorx="25" w="85" h="87" />
+      <image anchorx="25" w="85" h="85" />
+      <image anchorx="25" w="85" h="88" />
+      <image anchorx="25" w="85" h="92" />
+      <image anchorx="25" w="86" h="94" />
+    </group>
+    <group name="attack">
+      <image anchorx="30" w="71" h="94" />
+      <image anchorx="31" w="85" h="92" />
+      <image anchorx="31" w="114" h="94" />
+      <image anchorx="31" w="87" h="133" />
+      <image anchorx="31" w="86" h="105" />
+      <image anchorx="31" w="85" h="94" />
+      <image anchorx="27" w="81" h="92" />
+      <image anchorx="27" w="84" h="93" />
+    </group>
+  </animation>
+  <animation name="huangyaoshi">
+    <group name="stand">
+      <image anchorx="24" w="49" h="116" />
+      <image anchorx="24" w="48" h="116" />
+      <image anchorx="24" w="48" h="116" />
+      <image anchorx="24" w="49" h="116" />
+    </group>
+    <group name="move">
+      <image anchorx="35" w="90" h="109" />
+      <image anchorx="30" w="83" h="107" />
+      <image anchorx="21" w="64" h="106" />
+      <image anchorx="27" w="52" h="109" />
+      <image anchorx="33" w="66" h="108" />
+      <image anchorx="31" w="63" h="109" />
+      <image anchorx="27" w="55" h="113" />
+      <image anchorx="25" w="70" h="111" />
+    </group>
+    <group name="attack">
+      <image anchorx="18" w="66" h="115" />
+      <image anchorx="18" w="57" h="123" />
+      <image anchorx="45" w="81" h="135" />
+      <image anchorx="54" w="85" h="130" />
+      <image anchorx="26" w="81" h="111" />
+      <image anchorx="32" w="74" h="107" />
+      <image anchorx="32" w="72" h="108" />
+      <image anchorx="26" w="69" h="113" />
+    </group>
+  </animation>
+  <animation name="shaonian_quan">
+    <group name="stand">
+      <image anchorx="14" w="28" h="118" />
+      <image anchorx="14" w="28" h="118" />
+      <image anchorx="14" w="28" h="118" />
+      <image anchorx="14" w="28" h="117" />
+    </group>
+    <group name="move">
+      <image anchorx="23" w="47" h="113" />
+      <image anchorx="30" w="61" h="111" />
+      <image anchorx="29" w="58" h="109" />
+      <image anchorx="17" w="35" h="109" />
+      <image anchorx="22" w="44" h="110" />
+      <image anchorx="30" w="60" h="110" />
+      <image anchorx="27" w="55" h="110" />
+      <image anchorx="17" w="34" h="113" />
+    </group>
+    <group name="attack">
+      <image anchorx="29" w="79" h="109" />
+      <image anchorx="34" w="68" h="100" />
+      <image anchorx="31" w="59" h="93" />
+      <image anchorx="19" w="79" h="96" />
+      <image anchorx="11" w="114" h="99" />
+      <image anchorx="9" w="109" h="100" />
+      <image anchorx="9" w="76" h="104" />
+      <image anchorx="14" w="72" h="110" />
+    </group>
+  </animation>
+  <animation name="ouyangfeng">
+    <group name="stand">
+      <image anchorx="34" w="69" h="113" />
+      <image anchorx="34" w="69" h="113" />
+      <image anchorx="35" w="70" h="112" />
+      <image anchorx="34" w="69" h="113" />
+    </group>
+    <group name="move">
+      <image anchorx="32" w="89" h="111" />
+      <image anchorx="32" w="90" h="107" />
+      <image anchorx="32" w="90" h="105" />
+      <image anchorx="30" w="89" h="105" />
+      <image anchorx="29" w="87" h="105" />
+      <image anchorx="29" w="88" h="106" />
+      <image anchorx="29" w="90" h="110" />
+      <image anchorx="35" w="90" h="111" />
+    </group>
+    <group name="attack">
+      <image anchorx="22" w="108" h="109" />
+      <image anchorx="22" w="76" h="134" />
+      <image anchorx="29" w="68" h="154" />
+      <image anchorx="56" w="99" h="143" />
+      <image anchorx="28" w="77" h="161" />
+      <image anchorx="26" w="157" h="112" />
+      <image anchorx="26" w="155" h="106" />
+      <image anchorx="22" w="133" h="107" />
+    </group>
+  </animation>
+  <animation name="nvhai_quan">
+    <group name="stand">
+      <image anchorx="14" w="28" h="106" />
+      <image anchorx="14" w="28" h="106" />
+      <image anchorx="14" w="28" h="106" />
+      <image anchorx="14" w="27" h="106" />
+    </group>
+    <group name="move">
+      <image anchorx="18" w="57" h="103" />
+      <image anchorx="24" w="68" h="102" />
+      <image anchorx="18" w="59" h="103" />
+      <image anchorx="16" w="46" h="103" />
+      <image anchorx="16" w="43" h="101" />
+      <image anchorx="20" w="44" h="101" />
+      <image anchorx="25" w="43" h="103" />
+      <image anchorx="30" w="50" h="104" />
+    </group>
+    <group name="attack">
+      <image anchorx="34" w="72" h="94" />
+      <image anchorx="34" w="75" h="98" />
+      <image anchorx="36" w="78" h="95" />
+      <image anchorx="28" w="77" h="94" />
+      <image anchorx="37" w="102" h="108" />
+      <image anchorx="35" w="106" h="105" />
+      <image anchorx="33" w="103" h="106" />
+      <image anchorx="31" w="82" h="93" />
+    </group>
+  </animation>
+  <animation name="daoke_shaonian">
+    <group name="stand">
+      <image anchorx="45" w="72" h="126" />
+      <image anchorx="42" w="70" h="126" />
+      <image anchorx="45" w="73" h="126" />
+      <image anchorx="45" w="74" h="126" />
+    </group>
+    <group name="move">
+      <image anchorx="52" w="83" h="122" />
+      <image anchorx="52" w="84" h="118" />
+      <image anchorx="52" w="83" h="121" />
+      <image anchorx="52" w="79" h="123" />
+      <image anchorx="52" w="74" h="125" />
+      <image anchorx="52" w="81" h="122" />
+      <image anchorx="52" w="80" h="122" />
+      <image anchorx="52" w="80" h="123" />
+    </group>
+    <group name="attack">
+      <image anchorx="32" w="73" h="111" />
+      <image anchorx="44" w="92" h="103" />
+      <image anchorx="50" w="101" h="96" />
+      <image anchorx="80" w="139" h="97" />
+      <image anchorx="46" w="100" h="110" />
+      <image anchorx="47" w="152" h="130" />
+      <image anchorx="43" w="94" h="135" />
+      <image anchorx="39" w="79" h="135" />
+    </group>
+  </animation>
+  <animation name="meiniansheng">
+    <group name="stand">
+      <image anchorx="22" w="44" h="105" />
+      <image anchorx="21" w="42" h="105" />
+      <image anchorx="21" w="42" h="104" />
+      <image anchorx="21" w="42" h="105" />
+    </group>
+    <group name="move">
+      <image anchorx="20" w="79" h="105" />
+      <image anchorx="23" w="84" h="104" />
+      <image anchorx="26" w="89" h="102" />
+      <image anchorx="24" w="86" h="98" />
+      <image anchorx="24" w="81" h="98" />
+      <image anchorx="29" w="75" h="98" />
+      <image anchorx="29" w="82" h="101" />
+      <image anchorx="20" w="82" h="104" />
+    </group>
+    <group name="attack">
+      <image anchorx="34" w="66" h="101" />
+      <image anchorx="55" w="83" h="99" />
+      <image anchorx="80" w="101" h="96" />
+      <image anchorx="73" w="91" h="95" />
+      <image anchorx="33" w="74" h="99" />
+      <image anchorx="33" w="71" h="101" />
+      <image anchorx="31" w="60" h="119" />
+      <image anchorx="60" w="89" h="131" />
+      <image anchorx="34" w="69" h="106" />
+      <image anchorx="36" w="135" h="91" />
+      <image anchorx="36" w="96" h="89" />
+      <image anchorx="61" w="86" h="114" />
+      <image anchorx="67" w="85" h="113" />
+      <image anchorx="32" w="125" h="93" />
+      <image anchorx="32" w="140" h="92" />
+      <image anchorx="32" w="134" h="97" />
+      <image anchorx="31" w="82" h="101" />
+      <image anchorx="34" w="67" h="106" />
+      <image anchorx="47" w="76" h="102" />
+      <image anchorx="39" w="68" h="101" />
+    </group>
+  </animation>
+  <animation name="duanyu">
+    <group name="stand">
+      <image anchorx="22" w="45" h="111" />
+      <image anchorx="23" w="46" h="111" />
+      <image anchorx="24" w="48" h="111" />
+      <image anchorx="23" w="46" h="111" />
+    </group>
+    <group name="move">
+      <image anchorx="27" w="62" h="109" />
+      <image anchorx="27" w="66" h="108" />
+      <image anchorx="26" w="61" h="107" />
+      <image anchorx="24" w="53" h="107" />
+      <image anchorx="25" w="50" h="105" />
+      <image anchorx="25" w="56" h="106" />
+      <image anchorx="25" w="54" h="109" />
+      <image anchorx="25" w="53" h="111" />
+    </group>
+    <group name="attack">
+      <image anchorx="23" w="59" h="115" />
+      <image anchorx="24" w="62" h="114" />
+      <image anchorx="30" w="63" h="112" />
+      <image anchorx="32" w="65" h="112" />
+      <image anchorx="37" w="75" h="112" />
+      <image anchorx="31" w="100" h="110" />
+      <image anchorx="15" w="96" h="104" />
+      <image anchorx="14" w="100" h="110" />
+      <image anchorx="19" w="94" h="132" />
+      <image anchorx="19" w="89" h="128" />
+      <image anchorx="9" w="108" h="114" />
+      <image anchorx="13" w="100" h="98" />
+      <image anchorx="11" w="103" h="99" />
+      <image anchorx="11" w="117" h="99" />
+      <image anchorx="11" w="116" h="99" />
+      <image anchorx="11" w="97" h="112" />
+      <image anchorx="11" w="62" h="123" />
+      <image anchorx="18" w="65" h="123" />
+      <image anchorx="25" w="66" h="114" />
+      <image anchorx="25" w="68" h="114" />
+    </group>
+  </animation>
+  <animation name="weixiaobao">
+    <group name="stand">
+      <image anchorx="26" w="42" h="109" />
+      <image anchorx="30" w="43" h="110" />
+      <image anchorx="29" w="43" h="110" />
+      <image anchorx="29" w="43" h="110" />
+    </group>
+    <group name="move">
+      <image anchorx="33" w="67" h="109" />
+      <image anchorx="35" w="70" h="106" />
+      <image anchorx="32" w="64" h="105" />
+      <image anchorx="28" w="56" h="103" />
+      <image anchorx="31" w="63" h="103" />
+      <image anchorx="32" w="65" h="102" />
+      <image anchorx="29" w="59" h="106" />
+      <image anchorx="25" w="50" h="109" />
+    </group>
+    <group name="attack">
+      <image anchorx="25" w="50" h="108" />
+      <image anchorx="22" w="44" h="108" />
+      <image anchorx="20" w="40" h="108" />
+      <image anchorx="31" w="48" h="108" />
+      <image anchorx="25" w="73" h="106" />
+      <image anchorx="21" w="88" h="101" />
+      <image anchorx="20" w="71" h="103" />
+      <image anchorx="20" w="49" h="106" />
+    </group>
+  </animation>
+  <animation name="ake">
+    <group name="stand">
+      <image anchorx="15" w="31" h="106" />
+      <image anchorx="14" w="29" h="106" />
+      <image anchorx="14" w="28" h="106" />
+      <image anchorx="15" w="30" h="106" />
+    </group>
+    <group name="move">
+      <image anchorx="34" w="68" h="105" />
+      <image anchorx="30" w="60" h="101" />
+      <image anchorx="27" w="55" h="99" />
+      <image anchorx="23" w="47" h="100" />
+      <image anchorx="33" w="66" h="103" />
+      <image anchorx="32" w="64" h="102" />
+      <image anchorx="24" w="48" h="104" />
+      <image anchorx="19" w="39" h="106" />
+    </group>
+    <group name="attack">
+      <image anchorx="36" w="86" h="109" />
+      <image anchorx="17" w="68" h="108" />
+      <image anchorx="27" w="77" h="108" />
+      <image anchorx="27" w="84" h="109" />
+      <image anchorx="18" w="111" h="110" />
+      <image anchorx="32" w="151" h="115" />
+      <image anchorx="39" w="141" h="109" />
+      <image anchorx="38" w="104" h="105" />
+    </group>
+  </animation>
+  <animation name="qingbing">
+    <group name="stand">
+      <image anchorx="39" w="79" h="118" />
+      <image anchorx="39" w="79" h="118" />
+      <image anchorx="39" w="79" h="118" />
+      <image anchorx="39" w="79" h="118" />
+    </group>
+    <group name="move">
+      <image anchorx="42" w="84" h="106" />
+      <image anchorx="38" w="77" h="103" />
+      <image anchorx="38" w="77" h="100" />
+      <image anchorx="39" w="79" h="99" />
+      <image anchorx="38" w="77" h="105" />
+      <image anchorx="38" w="77" h="110" />
+      <image anchorx="38" w="77" h="111" />
+      <image anchorx="43" w="86" h="109" />
+    </group>
+    <group name="attack">
+      <image anchorx="54" w="108" h="111" />
+      <image anchorx="57" w="84" h="118" />
+      <image anchorx="56" w="77" h="111" />
+      <image anchorx="61" w="74" h="108" />
+      <image anchorx="59" w="88" h="133" />
+      <image anchorx="55" w="144" h="92" />
+      <image anchorx="55" w="137" h="95" />
+      <image anchorx="54" w="128" h="103" />
+    </group>
+  </animation>
+  <animation name="weixiaobao2">
+    <group name="stand">
+      <image anchorx="27" w="54" h="118" />
+      <image anchorx="12" w="38" h="119" />
+      <image anchorx="20" w="44" h="119" />
+      <image anchorx="31" w="57" h="119" />
+    </group>
+    <group name="move">
+      <image anchorx="34" w="76" h="112" />
+      <image anchorx="34" w="73" h="111" />
+      <image anchorx="19" w="54" h="107" />
+      <image anchorx="26" w="56" h="109" />
+      <image anchorx="37" w="75" h="109" />
+      <image anchorx="29" w="69" h="113" />
+      <image anchorx="17" w="46" h="117" />
+      <image anchorx="26" w="64" h="116" />
+    </group>
+  </animation>
+  <animation name="menpai_dizi_gaibang2">
+    <group name="stand">
+      <image anchorx="19" w="70" h="98" />
+      <image anchorx="19" w="71" h="99" />
+      <image anchorx="19" w="70" h="100" />
+      <image anchorx="19" w="69" h="99" />
+    </group>
+    <group name="move">
+      <image anchorx="28" w="76" h="100" />
+      <image anchorx="33" w="79" h="101" />
+      <image anchorx="33" w="78" h="96" />
+      <image anchorx="33" w="79" h="99" />
+      <image anchorx="26" w="78" h="101" />
+      <image anchorx="22" w="73" h="100" />
+      <image anchorx="22" w="75" h="99" />
+      <image anchorx="22" w="73" h="98" />
+    </group>
+    <group name="attack">
+      <image anchorx="47" w="87" h="107" />
+      <image anchorx="30" w="87" h="100" />
+      <image anchorx="30" w="135" h="100" />
+      <image anchorx="29" w="78" h="141" />
+      <image anchorx="30" w="84" h="125" />
+      <image anchorx="23" w="123" h="100" />
+      <image anchorx="22" w="117" h="100" />
+      <image anchorx="20" w="64" h="112" />
+    </group>
+  </animation>
+  <animation name="dongfangbubai">
+    <group name="stand">
+      <image anchorx="17" w="34" h="110" />
+      <image anchorx="17" w="34" h="110" />
+      <image anchorx="17" w="34" h="110" />
+      <image anchorx="17" w="34" h="110" />
+      <image anchorx="17" w="34" h="110" />
+      <image anchorx="17" w="34" h="110" />
+      <image anchorx="17" w="34" h="110" />
+      <image anchorx="17" w="34" h="110" />
+    </group>
+    <group name="move">
+      <image anchorx="34" w="60" h="110" />
+      <image anchorx="38" w="59" h="110" />
+      <image anchorx="46" w="65" h="110" />
+      <image anchorx="51" w="74" h="110" />
+      <image anchorx="53" w="81" h="110" />
+      <image anchorx="50" w="70" h="110" />
+      <image anchorx="44" w="59" h="110" />
+      <image anchorx="37" w="57" h="110" />
+    </group>
+    <group name="attack">
+      <image anchorx="19" w="39" h="110" />
+      <image anchorx="26" w="52" h="110" />
+      <image anchorx="36" w="72" h="110" />
+      <image anchorx="39" w="78" h="110" />
+      <image anchorx="48" w="97" h="110" />
+      <image anchorx="78" w="156" h="110" />
+      <image anchorx="50" w="100" h="110" />
+      <image anchorx="40" w="81" h="110" />
+    </group>
+  </animation>
+  <animation name="duanyu2">
+    <group name="stand">
+      <image anchorx="25" w="43" h="110" />
+      <image anchorx="25" w="43" h="110" />
+      <image anchorx="27" w="48" h="110" />
+      <image anchorx="23" w="47" h="110" />
+      <image anchorx="24" w="49" h="110" />
+      <image anchorx="25" w="50" h="110" />
+      <image anchorx="26" w="52" h="110" />
+      <image anchorx="24" w="48" h="110" />
+    </group>
+    <group name="move">
+      <image anchorx="36" w="73" h="110" />
+      <image anchorx="29" w="58" h="110" />
+      <image anchorx="27" w="55" h="110" />
+      <image anchorx="30" w="60" h="110" />
+      <image anchorx="37" w="74" h="110" />
+      <image anchorx="30" w="60" h="110" />
+      <image anchorx="27" w="55" h="110" />
+      <image anchorx="27" w="54" h="110" />
+    </group>
+    <group name="attack">
+      <image anchorx="23" w="42" h="110" />
+      <image anchorx="23" w="45" h="110" />
+      <image anchorx="30" w="54" h="110" />
+      <image anchorx="32" w="61" h="110" />
+      <image anchorx="35" w="67" h="110" />
+      <image anchorx="60" w="152" h="110" />
+      <image anchorx="52" w="89" h="110" />
+      <image anchorx="31" w="59" h="110" />
+    </group>
+  </animation>
+  <animation name="duguqiubai">
+    <group name="stand">
+      <image anchorx="20" w="40" h="110" />
+      <image anchorx="19" w="39" h="110" />
+      <image anchorx="20" w="40" h="110" />
+      <image anchorx="19" w="39" h="110" />
+      <image anchorx="20" w="40" h="110" />
+      <image anchorx="20" w="40" h="110" />
+      <image anchorx="20" w="40" h="110" />
+      <image anchorx="20" w="40" h="110" />
+    </group>
+    <group name="move">
+      <image anchorx="28" w="56" h="110" />
+      <image anchorx="25" w="50" h="110" />
+      <image anchorx="28" w="57" h="110" />
+      <image anchorx="31" w="62" h="110" />
+      <image anchorx="23" w="47" h="110" />
+      <image anchorx="21" w="43" h="110" />
+      <image anchorx="30" w="61" h="110" />
+    </group>
+    <group name="attack">
+      <image anchorx="22" w="44" h="110" />
+      <image anchorx="23" w="47" h="110" />
+      <image anchorx="24" w="49" h="110" />
+      <image anchorx="30" w="85" h="110" />
+      <image anchorx="94" w="153" h="110" />
+      <image anchorx="45" w="72" h="110" />
+      <image anchorx="30" w="102" h="110" />
+    </group>
+  </animation>
+  <animation name="huangshang">
+    <group name="stand">
+      <image anchorx="15" w="30" h="110" />
+      <image anchorx="15" w="31" h="110" />
+      <image anchorx="16" w="33" h="110" />
+      <image anchorx="16" w="33" h="110" />
+      <image anchorx="16" w="32" h="110" />
+      <image anchorx="16" w="32" h="110" />
+      <image anchorx="16" w="32" h="110" />
+      <image anchorx="16" w="32" h="110" />
+    </group>
+    <group name="move">
+      <image anchorx="37" w="75" h="110" />
+      <image anchorx="27" w="55" h="110" />
+      <image anchorx="27" w="55" h="110" />
+      <image anchorx="32" w="65" h="110" />
+      <image anchorx="40" w="80" h="110" />
+      <image anchorx="30" w="60" h="110" />
+      <image anchorx="31" w="62" h="110" />
+      <image anchorx="32" w="65" h="110" />
+    </group>
+    <group name="attack">
+      <image anchorx="20" w="40" h="110" />
+      <image anchorx="24" w="48" h="110" />
+      <image anchorx="33" w="50" h="110" />
+      <image anchorx="30" w="53" h="110" />
+      <image anchorx="42" w="90" h="110" />
+      <image anchorx="66" w="113" h="110" />
+      <image anchorx="62" w="110" h="110" />
+      <image anchorx="41" w="82" h="110" />
+    </group>
+  </animation>
+  <animation name="linghuchong2">
+    <group name="stand">
+      <image anchorx="25" w="80" h="110" />
+      <image anchorx="25" w="80" h="110" />
+      <image anchorx="25" w="81" h="110" />
+      <image anchorx="25" w="81" h="110" />
+      <image anchorx="25" w="81" h="110" />
+      <image anchorx="25" w="81" h="110" />
+      <image anchorx="25" w="80" h="110" />
+      <image anchorx="25" w="79" h="110" />
+    </group>
+    <group name="move">
+      <image anchorx="43" w="80" h="110" />
+      <image anchorx="42" w="85" h="110" />
+      <image anchorx="42" w="93" h="110" />
+      <image anchorx="40" w="97" h="110" />
+      <image anchorx="40" w="99" h="110" />
+      <image anchorx="43" w="101" h="110" />
+      <image anchorx="43" w="92" h="110" />
+      <image anchorx="43" w="78" h="110" />
+    </group>
+    <group name="attack">
+      <image anchorx="32" w="66" h="110" />
+      <image anchorx="45" w="81" h="110" />
+      <image anchorx="55" w="83" h="110" />
+      <image anchorx="58" w="86" h="110" />
+      <image anchorx="50" w="117" h="110" />
+      <image anchorx="50" w="126" h="110" />
+      <image anchorx="51" w="100" h="110" />
+      <image anchorx="49" w="97" h="110" />
+    </group>
+  </animation>
+  <animation name="qiaofeng">
+    <group name="stand">
+      <image anchorx="23" w="46" h="113" />
+      <image anchorx="23" w="46" h="114" />
+      <image anchorx="24" w="49" h="114" />
+      <image anchorx="24" w="49" h="114" />
+      <image anchorx="23" w="47" h="114" />
+      <image anchorx="24" w="49" h="114" />
+      <image anchorx="24" w="48" h="114" />
+      <image anchorx="23" w="47" h="114" />
+    </group>
+    <group name="move">
+      <image anchorx="29" w="58" h="106" />
+      <image anchorx="26" w="52" h="107" />
+      <image anchorx="28" w="57" h="107" />
+      <image anchorx="26" w="52" h="106" />
+      <image anchorx="29" w="58" h="105" />
+      <image anchorx="26" w="52" h="106" />
+      <image anchorx="28" w="56" h="107" />
+      <image anchorx="25" w="50" h="106" />
+    </group>
+    <group name="attack">
+      <image anchorx="26" w="52" h="114" />
+      <image anchorx="27" w="55" h="114" />
+      <image anchorx="23" w="56" h="110" />
+      <image anchorx="31" w="86" h="101" />
+      <image anchorx="31" w="83" h="98" />
+      <image anchorx="39" w="72" h="97" />
+      <image anchorx="24" w="102" h="123" />
+      <image anchorx="17" w="58" h="120" />
+      <image anchorx="48" w="134" h="135" />
+      <image anchorx="23" w="62" h="105" />
+      <image anchorx="22" w="51" h="110" />
+    </group>
+  </animation>
+  <animation name="gaibang_zhanglao">
+    <group name="stand">
+      <image anchorx="30" w="61" h="106" />
+      <image anchorx="31" w="62" h="106" />
+      <image anchorx="31" w="62" h="106" />
+      <image anchorx="31" w="62" h="106" />
+    </group>
+    <group name="move">
+      <image anchorx="26" w="52" h="110" />
+      <image anchorx="29" w="58" h="110" />
+      <image anchorx="30" w="60" h="107" />
+      <image anchorx="27" w="55" h="107" />
+      <image anchorx="25" w="50" h="110" />
+      <image anchorx="22" w="45" h="113" />
+      <image anchorx="25" w="51" h="115" />
+      <image anchorx="26" w="52" h="115" />
+    </group>
+    <group name="attack">
+      <image anchorx="34" w="84" h="84" />
+      <image anchorx="31" w="58" h="83" />
+      <image anchorx="56" w="90" h="84" />
+      <image anchorx="79" w="114" h="85" />
+      <image anchorx="50" w="108" h="87" />
+      <image anchorx="39" w="132" h="89" />
+      <image anchorx="39" w="135" h="90" />
+      <image anchorx="39" w="109" h="87" />
+    </group>
+  </animation>
+  <animation name="saodiseng">
+    <group name="stand">
+      <image anchorx="31" w="63" h="110" />
+      <image anchorx="34" w="69" h="110" />
+      <image anchorx="32" w="65" h="110" />
+      <image anchorx="31" w="62" h="110" />
+      <image anchorx="30" w="60" h="110" />
+      <image anchorx="30" w="61" h="110" />
+    </group>
+    <group name="move">
+      <image anchorx="38" w="77" h="110" />
+      <image anchorx="34" w="69" h="110" />
+      <image anchorx="33" w="67" h="110" />
+      <image anchorx="35" w="70" h="110" />
+      <image anchorx="36" w="72" h="110" />
+      <image anchorx="34" w="68" h="110" />
+      <image anchorx="34" w="68" h="110" />
+      <image anchorx="34" w="69" h="110" />
+    </group>
+    <group name="attack">
+      <image anchorx="23" w="58" h="110" />
+      <image anchorx="23" w="63" h="110" />
+      <image anchorx="23" w="69" h="110" />
+      <image anchorx="23" w="74" h="110" />
+      <image anchorx="23" w="76" h="110" />
+      <image anchorx="28" w="82" h="110" />
+      <image anchorx="26" w="134" h="110" />
+      <image anchorx="34" w="68" h="110" />
+    </group>
+  </animation>
+  <animation name="shaolin_fangzhang">
+    <group name="stand">
+      <image anchorx="26" w="53" h="105" />
+      <image anchorx="26" w="53" h="106" />
+      <image anchorx="26" w="53" h="107" />
+      <image anchorx="26" w="53" h="106" />
+    </group>
+    <group name="move">
+      <image anchorx="34" w="69" h="104" />
+      <image anchorx="31" w="63" h="102" />
+      <image anchorx="33" w="66" h="100" />
+      <image anchorx="33" w="66" h="103" />
+      <image anchorx="25" w="59" h="102" />
+      <image anchorx="25" w="57" h="99" />
+      <image anchorx="30" w="62" h="101" />
+      <image anchorx="33" w="67" h="104" />
+    </group>
+    <group name="attack">
+      <image anchorx="27" w="58" h="108" />
+      <image anchorx="49" w="76" h="105" />
+      <image anchorx="52" w="80" h="102" />
+      <image anchorx="25" w="79" h="102" />
+      <image anchorx="25" w="89" h="104" />
+      <image anchorx="25" w="88" h="104" />
+      <image anchorx="25" w="61" h="106" />
+      <image anchorx="25" w="55" h="108" />
+    </group>
+  </animation>
+</animations>
