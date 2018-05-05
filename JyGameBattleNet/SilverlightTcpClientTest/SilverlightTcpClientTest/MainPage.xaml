@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="SilverlightTcpClientTest.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400" Width="400" Height="300">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+    	<Button x:Name="sendButton" Content="send" Height="33" Margin="124,0,160,33" VerticalAlignment="Bottom" Click="sendButton_Click"/>
+    	<ListBox x:Name="recvListBox" HorizontalAlignment="Left" Margin="18,30,0,89" Width="164"/>
+    	<TextBox x:Name="sendText" HorizontalAlignment="Right" Margin="0,147,40,89" TextWrapping="Wrap" Width="139"/>
+    	<TextBlock HorizontalAlignment="Right" Height="17" Margin="0,126,105,0" TextWrapping="Wrap" Text="发送信息" VerticalAlignment="Top" Width="74"/>
+    	<TextBlock HorizontalAlignment="Left" Height="17" Margin="18,9,0,0" TextWrapping="Wrap" Text="接收信息" VerticalAlignment="Top" Width="74"/>
+
+    </Grid>
+</UserControl>

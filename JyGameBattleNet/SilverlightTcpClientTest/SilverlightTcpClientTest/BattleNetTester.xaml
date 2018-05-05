@@ -1,0 +1,43 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
+	mc:Ignorable="d"
+	x:Class="SilverlightTcpClientTest.BattleNetTester"
+	d:DesignWidth="640" d:DesignHeight="480" Width="800" Height="600" Loaded="UserControl_Loaded">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<ListBox x:Name="onlineUserListbox" HorizontalAlignment="Left" Margin="8,131,0,285" Width="171"/>
+		<TextBox x:Name="userText" HorizontalAlignment="Left" Height="29" Margin="118,8,0,0" TextWrapping="Wrap" Text="admin" VerticalAlignment="Top" Width="180"/>
+		<Button x:Name="loginButton" Content="登陆" Height="29" Margin="330,41,389,0" VerticalAlignment="Top" Click="loginButton_Click"/>
+		<Button x:Name="logoutButton" Content="登出" Height="29" Margin="0,41,287,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="81" Click="logoutButton_Click" IsEnabled="False"/>
+		<PasswordBox x:Name="passwordText" HorizontalAlignment="Left" Height="29" Margin="118,41,0,0" VerticalAlignment="Top" Width="180" Password="123456"/>
+		<sdk:Label HorizontalAlignment="Left" Height="18" Margin="60,12,0,0" VerticalAlignment="Top" Width="45" Content="用户名"/>
+		<sdk:Label HorizontalAlignment="Left" Height="18" Margin="60,45,0,0" VerticalAlignment="Top" Width="45" Content="密码"/>
+		<sdk:Label HorizontalAlignment="Left" Height="18" Margin="8,109,0,0" VerticalAlignment="Top" Width="97" Content="在线用户列表"/>
+		<ListBox x:Name="chatBox" Margin="209,131,8,285"/>
+		<sdk:Label HorizontalAlignment="Left" Height="18" Margin="209,109,0,0" VerticalAlignment="Top" Width="97" Content="聊天室"/>
+		<Button x:Name="createGameButton" Content="发起对战" HorizontalAlignment="Left" Height="28" Margin="8,0,0,253" VerticalAlignment="Bottom" Width="84" Click="createGameButton_Click"/>
+		<TextBox x:Name="chatTextBox" Height="28" Margin="0,0,114,253" TextWrapping="Wrap" VerticalAlignment="Bottom" KeyDown="chatTextBox_KeyDown" HorizontalAlignment="Right" Width="254"/>
+		<Button x:Name="chatButton" Content="发送" HorizontalAlignment="Right" Height="28" Margin="0,0,8,253" VerticalAlignment="Bottom" Width="102" Click="chatButton_Click"/>
+		<ListBox x:Name="saveListBox" HorizontalAlignment="Left" Margin="8,0,0,49" Width="44" Height="120" VerticalAlignment="Bottom" SelectionChanged="saveListBox_SelectionChanged"/>
+		<sdk:Label HorizontalAlignment="Left" Height="18" Margin="8,0,0,173" VerticalAlignment="Bottom" Width="60" Content="存档列表"/>
+		<TextBox x:Name="saveContent" HorizontalAlignment="Left" Height="120" Margin="69,0,0,49" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="110"/>
+		<sdk:Label HorizontalAlignment="Left" Height="18" Margin="69,0,0,173" VerticalAlignment="Bottom" Width="60" Content="存档内容"/>
+		<Button x:Name="saveButton" Content="保存" HorizontalAlignment="Left" Height="22" Margin="69,0,0,23" VerticalAlignment="Bottom" Width="60" Click="saveButton_Click"/>
+		<TextBlock HorizontalAlignment="Left" Height="18" Margin="209,87,0,0" TextWrapping="Wrap" Text="大厅状态" VerticalAlignment="Top" Width="51"/>
+		<TextBlock x:Name="hostStatusTextbox" Height="18" Margin="282,87,190,0" TextWrapping="Wrap" Text="当前状态" VerticalAlignment="Top" Foreground="Red"/>
+		<Button x:Name="refreshOnlineUsersButton" Content="刷新" HorizontalAlignment="Left" Height="22" Margin="92,105,0,0" VerticalAlignment="Top" Width="59" Click="refreshOnlineUsersButton_Click"/>
+		<Button x:Name="clearChatButton" Content="清空" HorizontalAlignment="Left" Height="22" Margin="330,106,0,0" VerticalAlignment="Top" Width="59" Click="clearChatButton_Click"/>
+		<Button x:Name="refreshSaveButton" Content="刷新" HorizontalAlignment="Left" Height="22" Margin="6,0,0,23" VerticalAlignment="Bottom" Width="46" Click="refreshSaveButton_Click"/>
+		<TextBox Height="28" Margin="0,0,177,163" TextWrapping="Wrap" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="188"/>
+		<sdk:Label Height="18" Margin="371,0,369,171" VerticalAlignment="Bottom" Content="游戏编号"/>
+		<TextBox Height="110" Margin="0,0,177,49" TextWrapping="Wrap" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="188"/>
+		<sdk:Label Height="18" Margin="371,0,369,139" VerticalAlignment="Bottom" Content="游戏结果"/>
+		<Button Content="提交" Height="22" Margin="0,0,177,23" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="91" Click="Button_Click"/>
+		<TextBox x:Name="channelText" Height="28" Margin="219,0,389,253" TextWrapping="Wrap" VerticalAlignment="Bottom" Text="ALL"/>
+		<sdk:Label HorizontalAlignment="Left" Height="18" Margin="188,0,0,259" VerticalAlignment="Bottom" Width="51" Content="频道"/>
+	</Grid>
+</UserControl>
