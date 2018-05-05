@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+  <!-- type 0消耗品  1武器  2防具  3特殊  4经书  5任务物品 6技能之书 7天赋之书 8上限物品-->
+  <items>
+    <!--任务物品-->
+    <item name="黄金包裹一" desc="整整一包裹的金子，金灿灿的好是耀眼" type="5" pic="物品.包裹" level="6"/>
+    <item name="黄金包裹二" desc="整整一包裹的金子，金灿灿的好是耀眼" type="5" pic="物品.包裹" level="6"/>
+    <item name="温青青的发簪" desc="女人用的簪子,犹有暗香缭绕，头部刻有青青字样" type="5" pic="物品.发簪" level="6"/>
+    <item name="龙游帮VIP令牌" desc="龙游帮高端大气上档次的VIP令牌" type="5" pic="物品.龙游帮VIP令牌" level="6"/>
+    <item name="金蛇藏宝图" desc="金蛇郎君夏雪宜当年所得藏宝图" type="5" pic="物品.地图" level="6"/>
+    <!--武器-->
+    <item name="真.金蛇剑" desc="正版金蛇剑" pic="物品.金蛇剑" type="1" level="6" talent="金蛇郎君#金蛇狂舞#剑系装备" price="1000">
+      <require name="jianfa" argvs="70"/>
+      <require name="shenfa" argvs="70"/>
+      <trigger name="attack" argvs="200,10"/>
+    </item>
+    <item name="万劫指" desc="爪类利器" pic="物品.万劫指" type="1" level="4" talent="拳系装备" drop="true" price="300">
+      <require name="quanzhang" argvs="60"/>
+      <require name="bili" argvs="60"/>
+      <trigger name="attack" argvs="120,10"/>
+    </item>
+    <item name="碧水剑" desc="宝剑泛蓝有如水光映射" pic="物品.碧水剑" type="1" level="4" talent="剑系装备" drop="true" price="200">
+      <require name="jianfa" argvs="60"/>
+      <require name="shenfa" argvs="60"/>
+      <trigger name="attack" argvs="100,10"/>
+    </item>
+    <item name="龙头拐杖" desc="杖头呈龙形，宛如活物" pic="物品.龙头拐杖" type="1" level="4" talent="奇门装备" drop="true" price="300">
+      <require name="qimen" argvs="60"/>
+      <require name="bili" argvs="60"/>
+      <trigger name="attack" argvs="80,10"/>
+    </item>
+    <item name="不二枪" desc="号称天下第一枪，对枪法类武功有极大加成" pic="物品.不二枪" type="1" level="4"  talent="奇门装备" drop="true" price="300">
+      <require name="qimen" argvs="80"/>
+      <require name="bili" argvs="80"/>
+      <trigger name="attack" argvs="100,10"/>
+    </item>
+    <item name="软鞭" desc="钢制软鞭" pic="物品.软鞭" type="1" level="3" talent="奇门装备" drop="true" price="150">
+      <require name="qimen" argvs="50"/>
+      <require name="bili" argvs="50"/>
+      <trigger name="attack" argvs="80,8"/>
+    </item>
+    
+
+    <!--特殊-->
+    <item name="铁剑令" desc="铁剑门掌门令牌，见此令如见祖师" type="3" pic="物品.铁剑令" level="6" price="1000" talent="铁剑掌门">
+      <trigger name="attack" argvs="30,5"/>
+      <trigger name="defence" argvs="15,0"/>
+    </item>
+    <item name="金蛇手抄本" desc="金蛇郎君毕生武学领悟心得" type="3" pic="物品.宝典" level="6" price="1000" talent="金蛇郎君">
+      <trigger name="attack" argvs="25,10"/>
+      <trigger name="defence" argvs="15,10"/>
+    </item>
+    <!--天赋-->
+    <item name="精明天赋书" desc="黄真的生意哲学。" type="7" pic="物品.宝典" level="6" price="1000">
+      <require name="wuxing" argvs="80"/>
+      <trigger name="talent" argvs="精明"/>
+    </item>
+    <item name="左右互搏术" desc="周伯通自创的双手互击之术,一定概率两次攻击。" type="7" pic="物品.宝典" level="6" price="1000">
+      <require name="wuxing" argvs="100"/>
+      <trigger name="talent" argvs="左右互搏"/>
+    </item>
+    <item name="生意经" desc="黄真的经商理念。" type="7" pic="物品.宝典" level="6" price="1000">
+      <require name="wuxing" argvs="100"/>
+      <require name="fuyuan" argvs="85"/>
+      <trigger name="talent" argvs="精打细算"/>
+    </item>
+    <item name="医术汇总" desc="安小慧的悲天悯人，能感化你吗？" type="7" pic="物品.宝典" level="6" price="1000">
+      <require name="wuxing" argvs="70"/>
+      <require name="dingli" argvs="80"/>
+      <trigger name="talent" argvs="救死扶伤"/>
+    </item>
+    <item name="华山拳法纲要" desc="归辛树40年拳法苦修的精髓，浓浓的都是爱" type="7" pic="物品.拳谱" level="6" price="1000">
+      <require name="quanzhang" argvs="80"/>
+      <require name="bili" argvs="80"/>
+      <trigger name="talent" argvs="神拳无敌"/>
+    </item>
+    <!--武功秘籍 -->
+    <item name="金蛇剑法秘籍残篇" desc="金蛇郎君纵横天下的剑法秘籍,不过似乎最后少了几页" type="4" pic="物品.剑谱" level="4" price="1500">
+      <require name="jianfa" argvs="50"/>
+      <require name="wuxing" argvs="60"/>
+      <require name="dingli" argvs="50"/>
+      <trigger name="skill" argvs="金蛇剑法,9"/>
+    </item>
+    <item name="金蛇游身掌掌谱" desc="记载了金蛇游身掌36式" type="4" pic="物品.拳谱" level="4" price="1500">
+      <require name="quanzhang" argvs="60"/>
+      <require name="bili" argvs="60"/>
+      <trigger name="skill" argvs="金蛇游身掌,10"/>
+    </item>
+    <item name="金蛇剑法真解" desc="金蛇郎君纵横天下的剑法秘籍,这一定是完整版了" type="4" pic="物品.剑谱" level="6" price="15000">
+      <require name="jianfa" argvs="90"/>
+      <require name="wuxing" argvs="80"/>
+      <require name="dingli" argvs="60"/>
+      <trigger name="skill" argvs="金蛇剑法,12"/>
+    </item>
+    <item name="铁血大旗功秘籍" desc="铁剑门失传已久的内功绝学，练至大成有夺天之造化" type="4" pic="物品.宝典" level="6" price="15000">
+      <require name="gengu" argvs="100"/>
+      <require name="wuxing" argvs="80"/>
+      <require name="bili" argvs="80"/>
+      <require name="dingli" argvs="80"/>
+      <trigger name="internalskill" argvs="铁血大旗功,9"/>
+    </item>
+    <item name="铁血大旗功真本" desc="铁剑门失传已久的内功绝学，练至大成有夺天之造化" type="4" pic="物品.宝典" level="6" price="15000">
+      <require name="gengu" argvs="110"/>
+      <require name="wuxing" argvs="100"/>
+      <require name="bili" argvs="100"/>
+      <require name="dingli" argvs="80"/>
+      <trigger name="internalskill" argvs="铁血大旗功,11"/>
+    </item>
+    <item name="石梁心法秘籍" desc="石梁派粗浅的内功秘籍" type="4" pic="物品.宝典" level="2" price="500">
+      <require name="gengu" argvs="40"/>
+      <trigger name="internalskill" argvs="石梁心法,10"/>
+    </item>
+    <item name="破玉拳秘籍" desc="华山派高深拳法" type="4" pic="物品.拳谱" level="4" price="2000">
+      <require name="quanzhang" argvs="60"/>
+      <require name="bili" argvs="80"/>
+      <trigger name="skill" argvs="破玉拳,10"/>
+     </item>
+    <item name="破玉拳真解" desc="华山派至深拳法" type="4" pic="物品.拳谱" level="6" price="2000">
+      <require name="quanzhang" argvs="100"/>
+      <require name="bili" argvs="100"/>
+      <trigger name="skill" argvs="破玉拳,12"/>
+    </item>
+    <item name="混元功秘籍" desc="华山派高深内功,由外而内,毫无走火入魔风险" type="4" pic="物品.宝典" level="5" price="3000">
+      <require name="wuxing" argvs="60"/>
+      <require name="gengu" argvs="80"/>
+      <trigger name="internalskill" argvs="混元功,10"/>
+    </item>
+    <item name="天外飞龙秘籍" desc="华山派剑法绝招" type="4" pic="物品.剑谱" level="6" price="15000">
+      <require name="jianfa" argvs="110"/>
+      <require name="bili" argvs="100"/>
+      <require name="shenfa" argvs="95"/>
+      <trigger name="skill" argvs="天外飞龙,10"/>
+    </item>
+    <item name="碧落苍穹秘籍" desc="铁剑门失传剑法，碧落苍穹九重天" type="4" pic="物品.剑谱" level="6" price="15000">
+      <require name="jianfa" argvs="110"/>
+      <require name="bili" argvs="80"/>
+      <require name="shenfa" argvs="80"/>
+      <trigger name="skill" argvs="碧落苍穹,10"/>
+    </item>
+  </items>

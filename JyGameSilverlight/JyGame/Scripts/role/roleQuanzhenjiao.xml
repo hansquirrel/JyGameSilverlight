@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <roles>
+    <!--非战斗-->
+    <role key="尹志平" animation="menpai_dizi_jian" name="尹志平" head="头像.尹志平" hp="1400" maxhp="1400" mp="1500" maxmp="1500"
+  wuxing="60" shenfa="60" bili="70" gengu="70" fuyuan="50" dingli="50" quanzhang="70" jianfa="70" daofa="0" qimen="0" level="15"
+      arenaJoinProb="0" female="0" talent="清风#好色">
+      <skills>
+        <skill name="全真剑法" level="10" maxlevel="10"/>
+        <skill name="昊天掌" level="10" maxlevel="10"/>
+        <skill name="一剑化三清" level="10" maxlevel="10"/>
+      </skills>
+      <internal_skills>
+        <internal_skill name="全真心法" level="10" equipped="1" maxlevel="10"/>
+      </internal_skills>
+    </role>
+
+    <role key="赵志敬" animation="wudang_xiake" name="赵志敬" head="头像.赵志敬" hp="1000" maxhp="1000" mp="1500" maxmp="1500"
+  wuxing="60" shenfa="60" bili="70" gengu="70" fuyuan="50" dingli="50" quanzhang="70" jianfa="70" daofa="0" qimen="0" level="15"
+      arenaJoinProb="0" female="0" talent="清风#阴谋家">
+      <skills>
+        <skill name="全真剑法" level="10" maxlevel="10"/>
+        <skill name="昊天掌" level="10" maxlevel="10"/>
+        <skill name="一剑化三清" level="10" maxlevel="10"/>
+      </skills>
+      <internal_skills>
+        <internal_skill name="全真心法" level="10" equipped="1" maxlevel="10"/>
+      </internal_skills>
+    </role>
+
+    <role key="苗守一" animation="menpai_dizi_jian" name="苗守一" head="头像.苗守一" hp="400" maxhp="400" mp="500" maxmp="500"
+  wuxing="40" shenfa="60" bili="70" gengu="70" fuyuan="50" dingli="50" quanzhang="40" jianfa="40" daofa="0" qimen="0" level="4"
+      arenaJoinProb="0" female="0" talent="清风">
+      <skills>
+        <skill name="全真剑法" level="5" maxlevel="10"/>
+      </skills>
+      <internal_skills>
+        <internal_skill name="全真心法" level="5" equipped="1" maxlevel="10"/>
+      </internal_skills>
+    </role>
+    <role key="谭守诚" animation="menpai_dizi_jian" name="谭守诚" head="头像.苗守一" hp="800" maxhp="800" mp="1500" maxmp="1500"
+  wuxing="40" shenfa="60" bili="70" gengu="70" fuyuan="50" dingli="50" quanzhang="50" jianfa="50" daofa="0" qimen="0" level="8"
+      arenaJoinProb="0" female="0" talent="清风">
+      <skills>
+        <skill name="全真剑法" level="8" maxlevel="10"/>
+      </skills>
+      <internal_skills>
+        <internal_skill name="全真心法" level="8" equipped="1" maxlevel="10"/>
+      </internal_skills>
+    </role>
+    <role key="李志常" animation="menpai_dizi_jian" name="李志常" head="头像.苗守一" hp="1400" maxhp="1400" mp="1500" maxmp="1500"
+  wuxing="40" shenfa="60" bili="70" gengu="70" fuyuan="50" dingli="80" quanzhang="70" jianfa="78" daofa="0" qimen="0" level="14"
+      arenaJoinProb="0" female="0" talent="清风">
+      <skills>
+        <skill name="全真剑法" level="10" maxlevel="10"/>
+        <skill name="昊天掌" level="10" maxlevel="10"/>
+      </skills>
+      <internal_skills>
+        <internal_skill name="全真心法" level="10" equipped="1" maxlevel="10"/>
+      </internal_skills>
+    </role>
+    <role key="马钰" animation="zhangmen_jian" name="马钰" head="头像.马钰" hp="2400" maxhp="2400" mp="2500" maxmp="2500"
+  wuxing="80" shenfa="80" bili="70" gengu="70" fuyuan="50" dingli="80" quanzhang="80" jianfa="88" daofa="0" qimen="0" level="18"
+      arenaJoinProb="0" female="0" talent="清风">
+      <skills>
+        <skill name="全真剑法" level="10" maxlevel="10"/>
+        <skill name="一剑化三清" level="10" maxlevel="10"/>
+        <skill name="七星七绝剑" level="10" maxlevel="10"/>
+        <skill name="昊天掌" level="10" maxlevel="10"/>
+        <skill name="三花聚顶掌" level="10" maxlevel="10"/>
+      </skills>
+      <internal_skills>
+        <internal_skill name="全真心法" level="10" equipped="0" maxlevel="10"/>
+        <internal_skill name="先天功" level="10" equipped="1" maxlevel="10"/>
+      </internal_skills>
+    </role>
+    <role key="孙不二" animation="jianke_nv_purple" name="孙不二" head="头像.孙不二" hp="2200" maxhp="2200" mp="2500" maxmp="2500"
+  wuxing="60" shenfa="70" bili="70" gengu="70" fuyuan="50" dingli="80" quanzhang="80" jianfa="78" daofa="0" qimen="0" level="17"
+      arenaJoinProb="0" female="1" talent="清风">
+      <skills>
+        <skill name="全真剑法" level="10" maxlevel="10"/>
+        <skill name="一剑化三清" level="10" maxlevel="10"/>
+        <skill name="昊天掌" level="10" maxlevel="10"/>
+        <skill name="三花聚顶掌" level="10" maxlevel="10"/>
+      </skills>
+      <internal_skills>
+        <internal_skill name="全真心法" level="10" equipped="0" maxlevel="10"/>
+        <internal_skill name="先天功" level="8" equipped="1" maxlevel="10"/>
+      </internal_skills>
+    </role>
+    <role key="丘处机" animation="zhangmen_jian" name="丘处机" head="头像.丘处机" hp="3200" maxhp="3200" mp="3500" maxmp="3500"
+      wuxing="60" shenfa="100" bili="100" gengu="100" fuyuan="50" dingli="100" quanzhang="80" jianfa="100" daofa="0" qimen="0" level="20"
+          arenaJoinProb="0" female="0" talent="清风">
+      <skills>
+        <skill name="全真剑法" level="10" maxlevel="10"/>
+        <skill name="一剑化三清" level="10" maxlevel="10"/>
+        <skill name="昊天掌" level="10" maxlevel="10"/>
+        <skill name="三花聚顶掌" level="10" maxlevel="10"/>
+        <skill name="七星七绝剑" level="10" maxlevel="10"/>
+      </skills>
+      <internal_skills>
+        <internal_skill name="全真心法" level="10" equipped="0" maxlevel="10"/>
+        <internal_skill name="先天功" level="10" equipped="1" maxlevel="10"/>
+      </internal_skills>
+    </role>
+    
+    <role key="黄裳" animation="huangshang" name="黄裳" head="头像.黄裳" hp="7000" maxhp="7000" mp="7000" maxmp="7000"
+ wuxing="100" shenfa="150" bili="160" gengu="160" fuyuan="100" dingli="150" quanzhang="120" jianfa="120" daofa="120" qimen="120" level="30"
+ arenaJoinProb="0" female="0" talent="孤独求败">
+      <skills>
+        <skill name="九阴白骨爪" level="20" maxlevel="20"/>
+      </skills>
+      <internal_skills>
+        <internal_skill name="九阴神功" level="14" equipped="1" maxlevel="14"/>
+      </internal_skills>
+    </role>
+    <!-- 非战斗角色 -->
+    <role key="御虚阁" animation="menpai_dizi_xuedao" name="御虚阁" head="地图.佛堂" hp="1000" maxhp="1000" mp="1500" maxmp="1500"
+  wuxing="60" shenfa="60" bili="70" gengu="70" fuyuan="50" dingli="50" quanzhang="40" jianfa="0" daofa="70" qimen="0" level="13"
+      arenaJoinProb="0" female="0" talent="嗜血狂魔" arena="no">
+      <skills>
+        <skill name="血刀大法" level="10" maxlevel="10"/>
+      </skills>
+      <internal_skills>
+        <internal_skill name="基本内功" level="10" equipped="1" maxlevel="10"/>
+      </internal_skills>
+    </role>
+    <role key="烧香坊" animation="menpai_dizi_xuedao" name="烧香坊" head="地图.佛堂" hp="1000" maxhp="1000" mp="1500" maxmp="1500"
+  wuxing="60" shenfa="60" bili="70" gengu="70" fuyuan="50" dingli="50" quanzhang="40" jianfa="0" daofa="70" qimen="0" level="13"
+      arenaJoinProb="0" female="0" talent="嗜血狂魔" arena="no">
+      <skills>
+        <skill name="血刀大法" level="10" maxlevel="10"/>
+      </skills>
+      <internal_skills>
+        <internal_skill name="基本内功" level="10" equipped="1" maxlevel="10"/>
+      </internal_skills>
+    </role>
+    <role key="静念楼" animation="menpai_dizi_xuedao" name="静念楼" head="地图.藏书" hp="1000" maxhp="1000" mp="1500" maxmp="1500"
+  wuxing="60" shenfa="60" bili="70" gengu="70" fuyuan="50" dingli="50" quanzhang="40" jianfa="0" daofa="70" qimen="0" level="13"
+      arenaJoinProb="0" female="0" talent="嗜血狂魔" arena="no">
+      <skills>
+        <skill name="血刀大法" level="10" maxlevel="10"/>
+      </skills>
+      <internal_skills>
+        <internal_skill name="基本内功" level="10" equipped="1" maxlevel="10"/>
+      </internal_skills>
+    </role>
+  </roles>
+</root>

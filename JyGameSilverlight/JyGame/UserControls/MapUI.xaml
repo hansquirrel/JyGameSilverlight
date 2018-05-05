@@ -1,0 +1,70 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:JyGame="clr-namespace:JyGame" xmlns:local="clr-namespace:JyGame.UserControls" xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" x:Class="JyGame.UserControls.MapUI"
+    mc:Ignorable="d"
+    d:DesignHeight="600" d:DesignWidth="800" BorderThickness="0" Loaded="UserControl_Loaded">
+    
+    <Canvas x:Name="LayoutRoot" Height="600" Width="800" Background="Black">
+        <Canvas.Clip>
+            <RectangleGeometry Rect="0, 0, 800, 600"/>
+        </Canvas.Clip>
+        <Image x:Name="background" Stretch="Fill" Source="/Resource/maps/daditu.jpg" Height="600" Width="800" Canvas.ZIndex="0"/>
+        <Canvas x:Name="info" Canvas.ZIndex="10" Visibility="Collapsed">
+            <Image Source="/Resource/ui/info.png" Stretch="None" Opacity="0.8"/>
+            <TextBlock x:Name="location" Height="25" Width="86" Canvas.Left="92" Canvas.Top="6" Text="地点"   FontWeight="Bold" FontSize="15"  Foreground="#FFFFD100">
+            	<TextBlock.Effect>
+            		<DropShadowEffect ShadowDepth="4"/>
+            	</TextBlock.Effect>
+            </TextBlock>
+            <TextBlock x:Name="lv" Height="25" Width="186" Canvas.Left="178" Canvas.Top="6" Text="战斗难度"   FontSize="14"  Foreground="#FFFF2121" HorizontalAlignment="Right" >
+            	<TextBlock.Effect>
+            		<DropShadowEffect ShadowDepth="3"/>
+            	</TextBlock.Effect>
+            </TextBlock>
+            <TextBlock x:Name="description" Height="56" Width="272" Canvas.Left="92" Canvas.Top="32" Text="事件描述或地点描述"    Foreground="White" TextWrapping="Wrap" FontSize="12" FontWeight="Normal" >
+            	<TextBlock.Effect>
+            		<DropShadowEffect ShadowDepth="2" Opacity="0.8"/>
+            	</TextBlock.Effect>
+            </TextBlock>
+            <Image x:Name="infoHeadImage" Height="70" Width="70" Canvas.Left="15" Canvas.Top="17" Stretch="Fill"/>
+        </Canvas>
+        <Button x:Name="定位用" Canvas.Left="631" Canvas.Top="255" Height="22" Width="21" Opacity="0" RenderTransformOrigin="1.917,-0.364"/>
+        <TextBlock x:Name="TimeBlock" Height="18" TextWrapping="Wrap" Text="江湖一年 五月初八" Canvas.Top="569" Width="226" Foreground="Red" FontWeight="Bold" FontSize="14.667" Canvas.Left="162" TextAlignment="Right"/>
+        <Button x:Name="ArenaButton" Background="{x:Null}" BorderThickness="5" Canvas.Left="685" Canvas.Top="18" Content="竞技场" Height="85" Width="45" Click="ArenaButton_Click" Opacity="0.6" Visibility="Collapsed" />
+        <JyGame:MapPointer x:Name="mapPointer" Height="30" Canvas.Left="8" Canvas.Top="8" Width="30" Canvas.ZIndex="1101"/>
+        <TextBlock x:Name="locateLabel" Height="18" Canvas.Left="12" TextWrapping="Wrap" Text="当前位置" Canvas.Top="570" Width="72" Foreground="Red" FontWeight="Bold" FontSize="14.667"/>
+        <TextBlock x:Name="currentLocateText" Height="22" Canvas.Left="84" TextWrapping="Wrap" Text="CurrentLocate" Canvas.Top="570" Width="289" Foreground="Red" FontWeight="Bold" FontSize="14.667"/>
+        <Button Background="{x:Null}" BorderThickness="5" Canvas.Left="692" Canvas.Top="507" Content="练功" Height="85" x:Name="PracButton" Opacity="0.6" Width="45" Click="PracButton_Click" Visibility="Collapsed"/>
+        <Button Background="{x:Null}" BorderThickness="5" Canvas.Left="487" Canvas.Top="508" Content="测试" Height="85" x:Name="TestButton" Opacity="0.6" Width="45" Click="TestButton_Click" Visibility="Collapsed"/>
+        <Canvas Height="70" Canvas.Left="23" Canvas.Top="18" Width="165">
+       	       <Image Source="/Resource/ui/nick.png" Stretch="Fill" Opacity="0.8" Width="200" Height="70" Canvas.Top="-12"/>
+			   <TextBlock x:Name="nickLabel" Height="34" Canvas.Left="53"  Text="初出茅庐" Width="150" FontWeight="Bold" FontSize="18.667" Foreground="#FFEF5E00" Canvas.Top="-4">
+			   	<TextBlock.Effect>
+			   		<DropShadowEffect/>
+			   	</TextBlock.Effect>
+			   </TextBlock>
+			   <Image x:Name="zhujueHead" Height="49" Canvas.Top="-4" Width="40" Source="/Resource/heads/zhujue.png" Canvas.Left="4" Stretch="UniformToFill"/>
+			   <TextBlock x:Name="gameModeText" Height="13" Canvas.Left="49" TextWrapping="Wrap" Text="难度：普通" Canvas.Top="17" Width="146" Foreground="Red" FontWeight="Bold" FontSize="13.333" TextAlignment="Right">
+			   	<TextBlock.Effect>
+			   		<DropShadowEffect/>
+			   	</TextBlock.Effect>
+			   </TextBlock>
+			   <TextBlock x:Name="rankText" Height="13" Canvas.Left="49" TextWrapping="Wrap" Text="江湖排名：未上榜" Canvas.Top="34" Width="146" Foreground="Yellow" FontWeight="Bold" FontSize="13.333" ToolTipService.ToolTip="江湖排名，你可以到武道大会去参加比武来提升自己的名次。">
+			   	<TextBlock.Effect>
+			   		<DropShadowEffect/>
+			   	</TextBlock.Effect>
+			   </TextBlock>
+		</Canvas>
+        <Canvas x:Name="ButtonsCanvas" Height="124" Width="412" Canvas.Left="410" Canvas.Top="491">
+            <Image x:Name="ButtonDonate" Height="120" Canvas.Left="324" Width="60" Source="/Resource/ui/donate.png"/>
+            <Image x:Name="ButtonZhuangtai" Height="120" Width="60" Source="/Resource/ui/button_zhuangtai.png"/>
+            <Image x:Name="ButtonWupin" Height="120" Canvas.Left="130" Width="60" Source="/Resource/ui/button_wupin.png"/>
+            <Image x:Name="ButtonRizhi" Height="120" Canvas.Left="65" Width="60" Source="/Resource/ui/button_rizhi.png"/>
+            <Image x:Name="ButtonXitong" Height="120" Canvas.Left="195" Width="60" Source="/Resource/ui/button_xitong.png"/>
+            <Image x:Name="ButtonGonglue" Height="120" Canvas.Left="260" Width="60" Source="/Resource/ui/button_gonglue.png" Canvas.ZIndex="-7"/>
+        </Canvas>
+    </Canvas>
+</UserControl>

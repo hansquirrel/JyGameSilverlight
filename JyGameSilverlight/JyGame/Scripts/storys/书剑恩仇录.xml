@@ -1,0 +1,82 @@
+<root>
+  <story name="书剑恩仇录_回族部落一般">
+    <action type="DIALOG" value="霍青桐#草海边是连绵的群山，天山下是我们的故乡。" />
+  </story>
+  <story name="书剑恩仇录_回族部落">
+    <action type="BACKGROUND" value="地图.塞外" />
+    <action type="MUSIC" value="音乐.太行八径" />
+    <action type="DIALOG" value="朝廷走狗#乖乖把可兰经交出来吧！" />
+    <action type="DIALOG" value="霍青桐#卑鄙的中原人，只知道仗势欺人。" />
+    <action type="DIALOG" value="主角#美女，我来帮你！" />
+    <action type="BATTLE" value="回族部落_战斗" />
+    <result ret="win" type="story" value="书剑恩仇录_回族部落霍青桐" />
+  </story>
+  <story name="书剑恩仇录_回族部落霍青桐">
+    <action type="BACKGROUND" value="地图.塞外" />
+    <action type="MUSIC" value="音乐.太行八径" />
+    <action type="DIALOG" value="霍青桐#感谢你为我们解了围。" />
+    <action type="DIALOG" value="主角#呵呵，小意思..." />
+    <action type="DIALOG" value="霍青桐#我们回族的圣物可兰经不见了，小哥你能帮忙找回来吗？" />
+    <action type="DIALOG" value="主角#找回来，这个，没问题...不过..." />
+    <action type="DIALOG" value="霍青桐#不过？" />
+    <action type="DIALOG" value="主角#为啥你不和我一起去找呢，你看我这么弱弱的..." />
+    <action type="DIALOG" value="霍青桐#刚你不是把他们都杀退了么..." />
+    <action type="DIALOG" value="主角#哈哈，侥幸，侥幸。不如我们一起去找，有个照应嘛。" />
+    <action type="DIALOG" value="霍青桐#嗯...好吧，最近族里事情不算很多。" />
+    <action type="DIALOG" value="主角#太好了，太好了。有你这样的高手在，顿时安心了。（嘿嘿...）" />
+    <action type="JOIN" value="霍青桐" />
+    <action type="ITEM" value="三分剑术#1" />
+  </story>
+  <story name="书剑恩仇录_六和塔一般">
+    <action type="DIALOG" value="朝廷走狗#这里是关押钦犯的重地，闲杂人等滚远点。" />
+  </story>
+  <story name="书剑恩仇录_六和塔">
+    <action type="BACKGROUND" value="地图.城市2" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="张召重#这里是关押钦犯的重地，闲杂人等滚远点。哦？今天来了个大人物。" />
+    <action type="DIALOG" value="主角#啊呀...我才不是什么大人物嘛...张大人客气了..." />
+    <action type="DIALOG" value="张召重#我有说你么？" />
+    <action type="DIALOG" value="主角#......" />
+    <action type="DIALOG" value="陈家洛#好了，张大人，我直奔主题。放了文当家，一切好商量。" />
+    <action type="DIALOG" value="张召重#可是可以，不过我有一个条件。" />
+    <action type="DIALOG" value="陈家洛#但说无妨。" />
+    <action type="DIALOG" value="张召重#就是拿你命来换！" />
+    <action type="DIALOG" value="主角#陈大当家，小心！" />
+    <action type="BATTLE" value="六和塔_战斗" />
+    <result ret="win" type="story" value="书剑恩仇录_六和塔胜" />
+  </story>
+  <story name="书剑恩仇录_六和塔胜">
+    <action type="BACKGROUND" value="地图.城市2" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="张召重#哼，陈家洛，咱们下回再多亲近亲近。" />
+    <action type="DIALOG" value="主角#喂！把你打跑的明明是我啊..." />
+    <action type="DIALOG" value="陈家洛#感谢小兄弟出手相助。" />
+    <action type="DIALOG" value="主角#小意思啦。" />
+    <action type="DIALOG" value="陈家洛#好了，文当家也救出来了，我们先走了。小兄弟，后会有期。" />
+    <action type="DIALOG" value="主角#嗯，后会有期。" />
+    <action type="ITEM" value="百花错拳谱#1" />
+    <action type="ITEM" value="武当心法抄本#1" />
+    <action type="LOG" value="六和塔营救文泰来。" />
+  </story>
+  <story name="书剑恩仇录_庖丁解牛">
+    <action type="BACKGROUND" value="地图.塞外" />
+    <action type="MUSIC" value="音乐.太行八径" />
+    <action type="DIALOG" value="张召重#今天要彻底剿灭你们这帮回人！" />
+    <action type="DIALOG" value="张召重#不过那个香香公主挺不错的，留下来给我享用享用..." />
+    <action type="DIALOG" value="霍青桐#呸，无耻！" />
+    <action type="DIALOG" value="主角#霍姑娘，对方人多势众..." />
+    <action type="DIALOG" value="陈家洛#不怕，还有我来帮忙！" />
+    <action type="DIALOG" value="主角#陈大当家，你的拳法终于大成了！" />
+    <action type="JOIN" value="陈家洛" />
+    <action type="BATTLE" value="庖丁解牛_战斗" />
+    <result ret="win" type="story" value="书剑恩仇录_庖丁解牛胜" />
+  </story>
+  <story name="书剑恩仇录_庖丁解牛胜">
+    <action type="DIALOG" value="张召重#啊！陈家洛...（张召重软倒在地）" />
+    <action type="DIALOG" value="陈家洛#恶人自有恶报。" />
+    <action type="DIALOG" value="主角#陈大当家，多谢相助！" />
+    <action type="DIALOG" value="陈家洛#兄弟，别客气。驱除鞑虏，算我一份！" />
+    <action type="ITEM" value="柔云剑法秘籍#1" />
+    <action type="NICK" value="融会贯通" />
+  </story>
+</root>

@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root> 
+  <story name="霹雳堂_胜利">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="孔八拉#恭喜你，获得胜利！"/>
+    <action type="ITEM" value="道家仙丹#1"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_杨过">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="杨过#呼呼，终于通过了试炼。"/>
+    <action type="DIALOG" value="主角#杨兄，恭喜了！"/>
+    <action type="DIALOG" value="杨过#这一势黯然销魂掌，终于有了新的领悟。"/>
+    <action type="LEARN.SKILL" value="杨过#黯然销魂掌#12"/>
+    <action type="LEARN.TALENT" value="杨过#铁拳无双"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_段誉">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="段誉#原来如此！原来如此！"/>
+    <action type="DIALOG" value="主角#段兄，大理段氏的武功，果然独步天下！"/>
+    <action type="LEARN.SKILL" value="段誉#六脉神剑#12"/>
+    <action type="LEARN.TALENT" value="段誉#灵心慧质"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_袁承志">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="袁承志#金蛇剑法果然奇妙无穷！"/>
+    <action type="LEARN.SKILL" value="袁承志#金蛇剑法#15"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_狄云">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="狄云#这邪恶的血刀门武功……"/>
+    <action type="DIALOG" value="主角#狄云兄，正邪在于人，而非武学本身"/>
+    <action type="DIALOG" value="狄云#你说的对！"/>
+    <action type="LEARN.SKILL" value="狄云#血刀大法#14"/>
+    <action type="LEARN.TALENT" value="狄云#血海魔功"/>
+    <action type="LEARN.TALENT" value="狄云#哀歌"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_胡斐">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="胡斐#我胡家刀法果然洒脱飘逸！"/>
+    <action type="DIALOG" value="主角#但胡兄你这刀法太霸道了，每次都打着队友啊！"/>
+    <action type="DIALOG" value="胡斐#放心，我已经领悟出胡家刀法精妙招式，不再会误伤了！"/>
+    <action type="LEARN.SKILL" value="胡斐#胡家刀法#14"/>
+    <action type="LEARN.TALENT" value="胡斐#灵心慧质"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_张无忌">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="张无忌#啊！浑身发热好像火焰在燃烧。"/>
+    <action type="DIALOG" value="主角#无忌小哥，你没事吧？"/>
+    <action type="DIALOG" value="张无忌#放心，看我的，乾坤大挪移！"/>
+    <action type="LEARN.INTERNALSKILL" value="张无忌#九阳神功#14"/>
+    <action type="REMOVE.TALENT" value="张无忌#乾坤大挪移"/>
+    <action type="LEARN.TALENT" value="张无忌#乾坤大挪移奥义"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_程英.初级">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="程英.初级#瞻彼淇奥，绿竹猗猗，有匪君子，如切如磋，如琢如磨……"/>
+    <action type="LEARN.SKILL" value="程英.初级#落英神剑掌#14"/>
+    <action type="LEARN.SKILL" value="程英.初级#玉箫剑法#14"/>
+    <action type="LEARN.SKILL" value="程英.初级#弹指神通#14"/>
+    <action type="LEARN.INTERNALSKILL" value="程英.初级#九阴神功#12"/>
+    <action type="LEARN.TALENT" value="程英.初级#追魂"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_程英.高级">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="程英.高级#瞻彼淇奥，绿竹猗猗，有匪君子，如切如磋，如琢如磨……"/>
+    <action type="LEARN.SKILL" value="程英.高级#落英神剑掌#14"/>
+    <action type="LEARN.SKILL" value="程英.高级#玉箫剑法#14"/>
+    <action type="LEARN.SKILL" value="程英.高级#弹指神通#14"/>
+    <action type="LEARN.INTERNALSKILL" value="程英.高级#九阴神功#12"/>
+    <action type="LEARN.TALENT" value="程英.高级#追魂"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_郭襄">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="郭襄#风铃渡口、绝情谷底、峨眉金顶，大哥哥，一路走来，我真的很开心！"/>
+    <action type="DIALOG" value="杨过#襄儿……"/>
+    <action type="LEARN.SKILL" value="郭襄#落英神剑掌#14"/>
+    <action type="LEARN.SKILL" value="郭襄#玉箫剑法#14"/>
+    <action type="LEARN.SKILL" value="郭襄#弹指神通#14"/>
+    <action type="LEARN.INTERNALSKILL" value="郭襄#九阴神功#12"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_田伯光">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="田伯光#哈哈哈哈！没想到老子也有牛逼的一天！"/>
+    <action type="DIALOG" value="田伯光#老子终于不再是那个初期打酱油的角色了，多谢你！兄弟。"/>
+    <action type="DIALOG" value="主角#田兄！恭喜恭喜！"/>
+    <action type="DIALOG" value="田伯光#兄弟，来给你分享几个我的宝物！"/>
+    <action type="ITEM" value="春宫图#2"/>
+    <action type="DIALOG" value="主角#（鼻血喷张）这这这……"/>
+    <action type="DIALOG" value="田伯光#嘿嘿！有意思吧。"/>
+    <action type="LEARN.SKILL" value="田伯光#狂风刀法#20"/>
+    <action type="GET_POINT" value="田伯光#20"/>
+    <action type="UPGRADE.刀法" value="田伯光#30"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_小龙女">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="小龙女#过儿，祖师婆婆传下来的武功果然厉害。"/>
+    <action type="DIALOG" value="杨过#是啊，龙儿，恭喜你又精进一层！"/>
+    <action type="LEARN.SKILL" value="小龙女#玉女素心剑#15"/>
+    <action type="LEARN.TALENT" value="小龙女#左右互搏"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_木婉清">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="木婉清#段郎！这六脉神剑的武功真是神奇。"/>
+    <action type="DIALOG" value="段誉#是啊！清妹，来我再教你几手我的绝招！看好了！"/>
+    <action type="LEARN.SKILL" value="木婉清#六脉神剑#12"/>
+    <action type="LEARN.TALENT" value="木婉清#灵心慧质"/>
+    <action type="LEARN.SPECIALSKILL" value="木婉清#凌波微步"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_田归农">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="田归农#嘿嘿，没想到我田归农也能登上如此高手的宝座。"/>
+    <action type="DIALOG" value="田归农#看在你这么卖力给我练级的份上，送你几件宝物吧！"/>
+    <action type="ITEM" value="厚黑学#1"/>
+    <action type="ITEM" value="真.天龙宝剑#1"/>
+    <action type="DIALOG" value="主角#不错！算你有良心！"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_段正淳">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="段正淳#看来我风流了这么多年，武功却一点也没落下。"/>
+    <action type="DIALOG" value="主角#是啊，段王爷，我真是佩服你有一颗滚烫的肾啊！"/>
+    <action type="DIALOG" value="段正淳#兄弟，不需着急，我这就把我的绝世秘籍传授给你。你只需这般这般勾引女人……"/>
+    <action type="LEARN.TALENT" value="主角#段王爷的电眼"/>
+    <action type="DIALOG" value="主角#哇靠，从今以后把妞无敌了！"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_阎基">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="阎基#你真是个变态啊，我这么弱你还能把我练到这么牛B。"/>
+    <action type="DIALOG" value="主角#累死爷了，老子就是想看看你这家伙能给啥奖励啊！别让我失望！"/>
+    <action type="DIALOG" value="阎基#好吧，看在你这么卖力的份上，把我珍藏多年的宝物送你了！"/>
+    <action type="ITEM" value="厚黑学#1"/>
+    <action type="ITEM" value="沾衣十八跌#1"/>
+    <action type="ITEM" value="素心神剑心得#1"/>
+    <action type="DIALOG" value="主角#不错！算你小子识相！"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_程灵素">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="程灵素#师父，我终于将我药王门发扬光大了！让世人知道，毒并不是用来害人的，还是一门绝世神功！"/>
+    <action type="ITEM" value="药王神篇#1"/>
+    <action type="ITEM" value="妙手仁心#1"/>
+    <action type="LEARN.TALENT" value="程灵素#医仙"/>
+    <action type="LEARN.TALENT" value="程灵素#隔空取物"/>
+    <action type="UPGRADE.MAXHP" value="程灵素#1000"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_郭靖">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="主角#郭兄，看着你从蒙古包里的那个二百五慢慢成为当今世上一代巨侠，真是赏心悦目啊！"/>
+    <action type="DIALOG" value="郭靖#哈哈哈哈，过奖过奖！作为射雕的主角，我当然很虎啦！"/>
+    <action type="DIALOG" value="主角#必须的！（这家伙真不谦虚）"/>
+    <action type="LEARN.SKILL" value="郭靖#降龙十八掌#13"/>
+    <action type="LEARN.SKILL" value="郭靖#打狗棒法#12"/>
+    <action type="LEARN.TALENT" value="郭靖#铁拳无双"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_黄蓉">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="黄蓉#这一招的名称，可得罪了，叫作‘棒打双犬’！"/>
+    <action type="LEARN.SKILL" value="黄蓉#打狗棒法#14"/>
+    <action type="ITEM" value="打狗棒法#1"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_阿朱">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="阿朱#嘻嘻，你真厉害，这也能将我练上来，让我过了一把高手的瘾！"/>
+    <action type="LEARN.TALENT" value="阿朱#百变千幻"/>
+    <action type="DIALOG" value="阿朱#作为报答，我就教你一手易容术吧！"/>
+    <action type="LEARN.SPECIALSKILL" value="主角#易容术"/>
+    <action type="DIALOG" value="主角#这可是好技能啊，谢谢你，阿朱姑娘！"/>
+    <action type="ITEM" value="无尽斗志#1"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_阿碧">
+    <action type="BACKGROUND" value="地图.湘江"/>
+    <action type="MUSIC" value="音乐.武侠流水"/>
+    <action type="DIALOG" value="阿碧#菡萏香连十顷陂~" />
+    <action type="DIALOG" value="阿碧#小姑贪戏采莲迟~" />
+    <action type="DIALOG" value="阿碧#晚来弄水船头湿~" />
+    <action type="DIALOG" value="阿碧#更脱红裙裹鸭儿~" />
+    <action type="DIALOG" value="主角#阿碧，你歌唱的真好听！"/>
+    <action type="DIALOG" value="阿碧#哥哥，那我也来教你唱好勿好？" />
+    <action type="DIALOG" value="主角#额，我这汉子唱这种江南小曲恐怕不在行哩。"/>
+    <action type="DIALOG" value="阿碧#嘻嘻，那算啦~（阿碧开始继续唱歌）" />
+    <action type="DIALOG" value="阿碧#万缕垂杨柳浪莺鸣~" />
+    <action type="DIALOG" value="阿碧#绿野上蝴蝶诉情~" />
+    <action type="DIALOG" value="阿碧#盛放红菱吐艳水上~" />
+    <action type="DIALOG" value="阿碧#湖上把鸳鸯订~" />
+    <action type="DIALOG" value="主角#（沉醉了）" />
+    <action type="LEARN.SPECIALSKILL" value="阿碧#吴侬软语"/>
+    <action type="LEARN.TALENT" value="阿碧#吴侬软语"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_钟灵">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="钟灵#好玩好玩，大哥哥，我的闪电貂厉不厉害？" />
+    <action type="DIALOG" value="主角#这个小家伙实在是太精灵太厉害了。" />
+    <action type="DIALOG" value="钟灵#那我把它送给大哥哥好不好？" />
+    <action type="DIALOG" value="主角#啊，这可是你的宠物呀！" />
+    <action type="DIALOG" value="钟灵#反正我以后都和大哥哥在一起嘛，你的就是我的。以后雕雕就是我俩的宠物！" />
+    <action type="LEARN.SPECIALSKILL" value="钟灵#闪电貂" />
+    <action type="LEARN.SPECIALSKILL" value="主角#闪电貂" />
+    <action type="ITEM" value="飞向天际#1"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_慕容复">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="慕容复#如今武功精进如斯，看来我大燕国复国有望了！" />
+    <action type="DIALOG" value="主角#慕容兄，恭喜恭喜！" />
+    <action type="DIALOG" value="慕容复#（我要号令武林，共同为我的复国志向努力）谢谢！" />
+    <action type="LEARN.TALENT" value="慕容复#博览群书" />
+    <action type="LEARN.TALENT" value="慕容复#阴谋家" />
+    <action type="LEARN.SKILL" value="慕容复#斗转星移#15"/>
+    <action type="ITEM" value="斗转星移之法#1"/>
+    <action type="GET_POINT" value="慕容复#15"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_乔峰">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="乔峰#哈哈哈，痛快痛快！兄弟，今天你我要喝个痛快。" />
+    <action type="DIALOG" value="主角#乔兄，真乃好汉子！（豪气顿生）干了！" />
+    <action type="LEARN.SKILL" value="乔峰#降龙十八掌#13"/>
+    <action type="LEARN.TALENT" value="乔峰#碎裂的怒吼"/>
+    <action type="GET_POINT" value="乔峰#10"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_王语嫣">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="王语嫣#（脸红）以前学武功都是因为表哥喜欢武学，其实我自己却真的不喜欢打打杀杀。" />
+    <action type="DIALOG" value="王语嫣#没想到今天的我，却也成了一个江湖侠女，不知值得喜还是悲……" />
+    <action type="DIALOG" value="主角#（你可知道为了练你，练到我都吐血了……）" />
+    <action type="DIALOG" value="王语嫣#不管怎样，还是谢谢你，丑哥哥。" />
+    <action type="DIALOG" value="主角#……不许说我丑。" />
+    <action type="DIALOG" value="王语嫣#嘻嘻！这些书我早已滚瓜烂熟了，送给你吧！" />
+    <action type="ITEM" value="王语嫣的武学概要#2"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_阿紫">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="阿紫#好玩好玩！" />
+    <action type="DIALOG" value="阿紫#从今以后，我就是星宿派大师姐，哦不！应该是大掌门啦，哈哈！丁春秋老贼也不是我的对手！" />
+    <action type="LEARN.SKILL" value="阿紫#三阴蜈蚣爪#20"/>
+    <action type="LEARN.INTERNALSKILL" value="阿紫#化功大法#20"/>
+    <action type="GET_POINT" value="阿紫#30"/>
+    <action type="ITEM" value="道家仙丹#2"/>
+    <action type="ITEM" value="隔空取物#1"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_令狐冲">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="令狐冲#好酒好酒！行走江湖别无所求，一壶好酒一把剑！" />
+    <action type="DIALOG" value="主角#冲哥，剑在心中，无招胜有招，天下更何求啊" />
+    <action type="DIALOG" value="令狐冲#正是！干杯！" />
+    <action type="LEARN.SKILL" value="令狐冲#独孤九剑#14"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_蓝凤凰">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="蓝凤凰#嘻嘻，冲哥哥，我厉不厉害？" />
+    <action type="DIALOG" value="令狐冲#哈哈！妹子进步很大！" />
+    <action type="LEARN.SKILL" value="蓝凤凰#毒龙鞭法#15"/>
+    <action type="LEARN.TALENT" value="蓝凤凰#毒圣"/>
+    <action type="ITEM" value="道家仙丹#2"/>
+    <action type="ITEM" value="妙手仁心#1"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_曲非烟">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="令狐冲#曲妹妹，你好厉害！" />
+    <action type="DIALOG" value="曲非烟#令狐哥哥，谢谢你！没有你，我只能永远活在仇恨中。" />
+    <action type="LEARN.SKILL" value="曲非烟#日月鞭法#15"/>
+    <action type="GET_POINT" value="曲非烟#20"/>
+    <action type="ITEM" value="道家仙丹#2"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_平一指">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="平一指#你真是个变态啊。" />
+    <action type="DIALOG" value="主角#？" />
+    <action type="DIALOG" value="平一指#我这么烂的基础属性，你还能把我练到这么牛逼。。。作为奖励，送你一些药吧！" />
+    <action type="DIALOG" value="主角#（失望）就一些药啊？" />
+    <action type="DIALOG" value="平一指#别小瞧这些药，很无敌的！" />
+    <action type="ITEM" value="圣战之药#15"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_任盈盈">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="主角#圣姑威武！" />
+    <action type="DIALOG" value="任盈盈#嘻嘻，我来教你，你应该说“日月神教，千秋万载，一统江湖”" />
+    <action type="DIALOG" value="主角#壮哉我大圣姑，一桶浆糊！" />
+    <action type="DIALOG" value="任盈盈#（白了一眼）" />
+    <action type="LEARN.SKILL" value="任盈盈#日月鞭法#15"/>
+    <action type="LEARN.SKILL" value="任盈盈#独孤九剑#13"/>
+    <action type="UPGRADE.MAXHP" value="任盈盈#1000"/>
+    <action type="UPGRADE.MAXMP" value="任盈盈#1000"/>
+    <action type="GET_POINT" value="任盈盈#10"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_血刀老祖">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="血刀老祖#好汉威武，好汉荡漾，好汉你是我心中的红太阳！把我培养得这么虎，简直是我的再生父母啊！" />
+    <action type="DIALOG" value="主角#够了够了，大男人这样拍马屁，一身鸡皮疙瘩！" />
+    <action type="LEARN.SKILL" value="血刀老祖#血刀大法#15"/>
+    <action type="UPGRADE.MAXHP" value="血刀老祖#1000"/>
+    <action type="UPGRADE.MAXMP" value="血刀老祖#1000"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_水笙">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="水笙#狄大哥，我们真的成长了好多！" />
+    <action type="DIALOG" value="狄云#是呀，要多谢这位小兄弟了！" />
+    <action type="DIALOG" value="主角#过奖过奖！（赶紧，奖品拿来）" />
+    <action type="LEARN.SKILL" value="水笙#连城剑法#14"/>
+    <action type="UPGRADE.MAXHP" value="水笙#1000"/>
+    <action type="UPGRADE.MAXMP" value="水笙#1000"/>
+    <action type="ITEM" value="道家仙丹#1"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_李文秀">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="李文秀#你说的对，人不能活在回忆里！活着的人，应该追求的是未来耀眼的幸福。" />
+    <action type="DIALOG" value="李文秀#谢谢你！让看到世界这么大，让我看到有这么多需要帮助的人们，让我的生命这么耀眼！" />
+    <action type="DIALOG" value="主角#不客气！我也谢谢你这么久以来对我的帮助！" />
+    <action type="LEARN.SKILL" value="李文秀#流星锤#20"/>
+    <action type="UPGRADE.MAXHP" value="李文秀#1000"/>
+    <action type="UPGRADE.MAXMP" value="李文秀#1000"/>
+    <action type="UPGRADE.奇门" value="李文秀#20" />
+    <action type="ITEM" value="道家仙丹#1"/>
+    <action type="ITEM" value="灵心慧质#1"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_霍青桐">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="主角#好厉害的妹子，不愧是翠羽黄衫！" />
+    <action type="DIALOG" value="霍青桐#谢谢少侠！" />
+    <action type="LEARN.SKILL" value="霍青桐#三分剑法#20"/>
+    <action type="UPGRADE.MAXHP" value="霍青桐#1000"/>
+    <action type="UPGRADE.MAXMP" value="霍青桐#1000"/>
+    <action type="UPGRADE.剑法" value="霍青桐#20" />
+    <action type="ITEM" value="道家仙丹#1"/>
+    <action type="ITEM" value="灵心慧质#1"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_陈家洛">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="主角#威武我红花会大当家！" />
+    <action type="DIALOG" value="陈家洛#少侠过奖！这些年来和你一起历练才能达到这种武功境界！" />
+    <action type="LEARN.SKILL" value="陈家洛#百花错拳#15"/>
+    <action type="LEARN.SKILL" value="陈家洛#庖丁解牛#15"/>
+    <action type="UPGRADE.MAXHP" value="陈家洛#1000"/>
+    <action type="UPGRADE.MAXMP" value="陈家洛#1000"/>
+    <action type="UPGRADE.拳掌" value="陈家洛#20" />
+    <action type="DIALOG" value="陈家洛#这招将敌人打飞的技能，就教给你吧！" />
+    <action type="ITEM" value="飞向天际#1"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_韦小宝">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="韦小宝#你爷爷的，小宝也这么能打？" />
+    <action type="DIALOG" value="主角#你爷爷的，不是我培养你怎么也能有今天！" />
+    <action type="DIALOG" value="韦小宝#你爷爷的，武功神马的我最讨厌了，脚底抹油鸟生鱼汤吹溜拍马我到是在行。" />
+    <action type="DIALOG" value="主角#小宝哥，那你就教做哥哥的两手吧！" />
+    <action type="DIALOG" value="韦小宝#嘿嘿，看好了！" />
+    <action type="LEARN.SPECIALSKILL" value="主角#撒石灰"/>
+    <action type="LEARN.SPECIALSKILL" value="主角#溜须拍马"/>
+    <action type="LEARN.TALENT" value="主角#神行百变"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_阿珂">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="汉家松鼠#真服了你了。这么烂的角色你也培养。" />
+    <action type="DIALOG" value="阿珂#不许说我烂……" />
+    <action type="DIALOG" value="主角#我不就是想看看有神马奖励么……我容易么" />
+    <action type="DIALOG" value="汉家松鼠#好吧！给你！" />
+    <action type="ITEM" value="素心神剑心得#1"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_苏荃">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="汉家松鼠#真服了你了。这么烂的角色你也培养。" />
+    <action type="DIALOG" value="苏荃#不许说我烂……" />
+    <action type="DIALOG" value="主角#我不就是想看看有神马奖励么……我容易么" />
+    <action type="DIALOG" value="汉家松鼠#好吧！给你！" />
+    <action type="ITEM" value="沾衣十八跌#1"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_九难">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="九难#我都断了一只手你还这么摧残我，没人性啊！" />
+    <action type="DIALOG" value="主角#。。那啥，今天天气很好啊。。" />
+    <action type="LEARN.SKILL" value="九难#金蛇剑法#15"/>
+    <action type="LEARN.SKILL" value="九难#漫天花雨#15"/>
+    <action type="LEARN.SKILL" value="九难#混元掌#15"/>
+    <action type="LEARN.INTERNALSKILL" value="九难#混元功#15"/>
+    <action type="UPGRADE.MAXHP" value="九难#1000"/>
+    <action type="UPGRADE.MAXMP" value="九难#1000"/>
+    <action type="UPGRADE.拳掌" value="九难#15" />
+    <action type="UPGRADE.剑法" value="九难#15" />
+    <action type="UPGRADE.奇门" value="九难#15" />
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_杨冰儿">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="主角#师姐，好功夫！" />
+    <action type="DIALOG" value="杨冰儿#师弟，过奖了！我们这可真是一并携手，为古墓派在江湖上打出了大大的名声。" />
+    <action type="DIALOG" value="主角#是啊！我古墓派的武功，真是精深无穷！" />
+    <action type="LEARN.SKILL" value="杨冰儿#玉女素心剑#15"/>
+    <action type="LEARN.INTERNALSKILL" value="杨冰儿#九阴神功#12"/>
+    <action type="ITEM" value="素心神剑心得#1"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_达尔巴">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="主角#师兄，好功夫！" />
+    <action type="DIALOG" value="达尔巴#师弟，过奖了！壮哉我大轮寺，真是横行江湖啊！" />
+    <action type="LEARN.SKILL" value="达尔巴#火焰刀法#15"/>
+    <action type="LEARN.INTERNALSKILL" value="达尔巴#龙象般若功#15"/>
+    <action type="ITEM" value="金钟罩心法#1"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_崔秋山">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="主角#崔大哥，好功夫！" />
+    <action type="DIALOG" value="崔秋山#小兄弟，这也多亏了你啊，我那么弱你都能把我练成这样，不容易啊！" />
+    <action type="LEARN.SKILL" value="崔秋山#混元掌#15"/>
+    <action type="LEARN.SKILL" value="崔秋山#破玉拳#15"/>
+    <action type="ITEM" value="金钟罩心法#1"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_儿时袁承志">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="汉家松鼠#你这变态啊，虐待儿童啊，这角色都弱成这般渣样了你还能打过去啊！你是不是人啊！" />
+    <action type="DIALOG" value="主角#NND，你以为我容易么，快呕血三十升了好不好！废话少说，奖励拿来！" />
+    <action type="LEARN.SKILL" value="儿时袁承志#金蛇剑法#15"/>
+    <action type="LEARN.SKILL" value="儿时袁承志#破玉拳#15"/>
+    <action type="ITEM" value="铁血大旗功秘籍#1"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_金蛇郎君">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="金蛇郎君#不是说好去挖宝藏的么，你为啥把我练这么厉害都还不去挖？不挖我怎么走人啊！" />
+    <action type="DIALOG" value="主角#嘿嘿嘿，休想，乖乖陪着你女儿女婿给我打工吧！" />
+    <action type="LEARN.SKILL" value="金蛇郎君#金蛇剑法#20"/>
+    <action type="ITEM" value="金蛇剑法真解#1"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+  <story name="霹雳堂_温青青">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="温青青#哎呀，我这么厉害，相公都不是我对手了，这可怎么办？" />
+    <action type="DIALOG" value="主角#这有什么不好的！他要是敢嚣张你就削他，削死他！" />
+    <action type="LEARN.SKILL" value="温青青#金蛇剑法#15"/>
+    <action type="LEARN.TALENT" value="温青青#无尽斗志" />
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+ <story name="霹雳堂_阿九">
+    <action type="BACKGROUND" value="地图.霹雳堂"/>
+    <action type="MUSIC" value="音乐.武林至尊"/>
+    <action type="DIALOG" value="阿九#哎呀，我这么厉害，承志大哥会不会觉得我太厉害不敢要我了啊？这可怎么办？" />
+    <action type="DIALOG" value="主角#这有什么不好的！他要是敢嚣张你就削他，削死他！" />
+    <action type="LEARN.SKILL" value="阿九#金蛇剑法#15"/>
+    <action type="LEARN.SKILL" value="阿九#混元掌#15"/>
+    <action type="LEARN.TALENT" value="阿九#混元一气"/>
+    <action type="ITEM" value="铁血大旗功秘籍#1"/>
+    <result ret="0" type="map" value="霹雳堂" />
+  </story>
+</root>

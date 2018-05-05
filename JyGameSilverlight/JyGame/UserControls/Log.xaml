@@ -1,0 +1,43 @@
+﻿<UserControl
+    x:Class="JyGame.UserControls.Log"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Toolkit"
+    xmlns:local="clr-namespace:JyGame"
+    xmlns:JyGame_UserControls="clr-namespace:JyGame.UserControls"
+    xmlns:JyGame="clr-namespace:JyGame"
+	xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+	mc:Ignorable="d"
+	d:DesignWidth="800" d:DesignHeight="600" Width="597" Height="477" AllowDrop="True">
+
+    <Canvas x:Name="LayoutRoot" AllowDrop="True" Opacity="0.9" Width="597" Height="477" Canvas.Left="120" Canvas.Top="34">
+        <Canvas.Background>
+            <ImageBrush Stretch="Fill" ImageSource="/Resource/ui/info.png"/>
+        </Canvas.Background>
+        <TextBlock Height="34" Canvas.Left="247" TextWrapping="Wrap" Text="江湖日志" Canvas.Top="9" Width="225" FontWeight="Bold" FontSize="20" Foreground="Black"/>
+        <ScrollViewer Canvas.Left="36" Canvas.Top="49" Height="176" Width="531">
+        	<StackPanel x:Name="logPanel"/>
+        </ScrollViewer>
+        <Button x:Name="copyButton" Content="复制到剪切板" Height="26" Canvas.Left="360" Width="124" Click="copyButton_Click" Canvas.Top="13" Foreground="Black" BorderThickness="5" Opacity="0.58" BorderBrush="#FFA29E9B">
+        	<Button.Background>
+        		<ImageBrush Stretch="Fill"/>
+        	</Button.Background>
+        </Button>
+        <Button x:Name="Cancel" Content="关闭" Height="26" Canvas.Left="499" Width="80" Click="Cancel_Click" Canvas.Top="13" Foreground="Black" BorderThickness="5" Opacity="0.58" BorderBrush="#FFA29E9B">
+        	<Button.Background>
+        		<ImageBrush Stretch="Fill"/>
+        	</Button.Background>
+        </Button>
+        <TextBlock Height="34" Canvas.Left="247" TextWrapping="Wrap" Text="获得成就" Canvas.Top="241" Width="113" FontWeight="Bold" FontSize="20" Foreground="Black" ToolTipService.ToolTip="点击切换称号"/>
+        <ScrollViewer Canvas.Left="36" Canvas.Top="280" Height="169" Width="531">
+        	<StackPanel x:Name="nickPanel"/>
+        </ScrollViewer>
+        <Button x:Name="nickCopyButton" Content="复制到剪切板" Height="26" Canvas.Left="360" Width="124" Canvas.Top="246" Foreground="Black" BorderThickness="5" Opacity="0.58" BorderBrush="#FFA29E9B" Click="nickCopyButton_Click">
+        	<Button.Background>
+        		<ImageBrush Stretch="Fill"/>
+        	</Button.Background>
+        </Button>
+    </Canvas>
+ </UserControl>

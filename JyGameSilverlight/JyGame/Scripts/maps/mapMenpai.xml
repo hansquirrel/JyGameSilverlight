@@ -1,0 +1,738 @@
+<root>
+  <!-- 可选scenarioType有dialog（剧情类的统称，载入剧情模块）、battle（战斗类的统称，载入战斗模块）-->
+  <!-- 可选type 有 once（唯一剧情）、unlimited（可无数次触发)-->
+  <!-- 指定某个地点可能触发的事件 -->
+  <!--
+  <location name="昆仑绝顶" x="23" y="227" description="昆仑山是道家第一仙山，绵延千里，不知其所往，亦不知其所止。昆仑绝顶为剑门前辈何道人隐居之所。">
+    <event name="original_昆仑山.开场白"  scenarioType="scenario" type="once" probability="100" description="隐居昆仑的剑门高人何道人推算到天下大势的变化，命令主角你出门游历锻炼。不料已入邪道的鹤仙人来袭，何道人拼死抵抗，换得你的一线生机。">
+      <condition type="none" value=""/>
+    </event>
+  </location>
+  -->
+  <maps>
+    <!-- 古墓派 -->
+    <map name="门派古墓" pic="地图.古墓派">
+      <musics>
+        <music name="音乐.神雕.舒缓" />
+      </musics>
+      <maprole roleKey="黄衫女子" description="清丽脱俗的黄衫女子">
+        <event type="story" value="门派古墓_再试左右互搏">
+          <condition type="should_finish" value="门派古墓_左右互搏" />
+          <condition type="should_not_finish" value="门派古墓_左右互搏行" />
+        </event>
+        <event repeat="once" type="story" value="门派古墓_左右互搏">
+          <condition type="should_finish" value="门派古墓_古墓出师" />
+          <condition type="should_finish" value="mainStory_组织1" />
+          <condition type="should_finish" value="门派古墓_回古墓.玄铁剑法3胜" />
+          <condition type="should_finish" value="original_周伯通胜" />
+        </event>
+        <event type="story" value="门派古墓_回古墓.玄铁剑法选择">
+          <condition type="should_finish" value="门派古墓_古墓出师" />
+          <condition type="should_finish" value="mainStory_神秘剑客1" />
+          <condition type="should_finish" value="门派古墓_回古墓.玄铁剑法" />
+          <condition type="should_not_finish" value="门派古墓_回古墓.玄铁剑法练习" />
+        </event>
+        <event repeat="once" type="story" value="门派古墓_回古墓.玄铁剑法">
+          <condition type="should_finish" value="门派古墓_古墓出师" />
+          <condition type="should_finish" value="mainStory_神秘剑客1" />
+        </event>
+        <event repeat="once" type="story" value="门派古墓_回古墓.玉蜂浆">
+          <condition type="should_finish" value="门派古墓_古墓出师" />
+          <condition type="should_finish" value="mainStory_黑暗的阴影1" />
+          <condition type="should_not_finish" value="mainStory_神秘剑客1" />
+        </event>
+        <event type="story" value="门派古墓_回古墓">
+          <condition type="should_finish" value="门派古墓_古墓出师" />
+        </event>
+      </maprole>
+      <maprole roleKey="天罗地网之间" pic="地图.古墓天罗地网之间" description="天罗地网之间（学习天罗地网掌）">
+        <event type="story" value="门派古墓_天罗地网之间">
+          <condition type="should_not_finish" value="门派古墓_古墓出师" />
+        </event>
+      </maprole>
+      <maprole roleKey="寒玉之间" pic="地图.古墓寒玉之间" description="寒玉之间（学习玉女心经）">
+        <event type="story" value="门派古墓_寒玉之间">
+          <condition type="should_not_finish" value="门派古墓_古墓出师" />
+        </event>
+      </maprole>
+      <maprole roleKey="祖师之间" pic="地图.古墓师祖之间" description="祖师之间（学习玉女剑法）">
+        <event type="story" value="门派古墓_祖师之间">
+          <condition type="should_not_finish" value="门派古墓_古墓出师" />
+        </event>
+      </maprole>
+      <maprole roleKey="古墓侧室" pic="地图.古墓玉蜂之间" description="古墓侧室">
+        <event type="map" value="古墓侧室" />
+      </maprole>
+    </map>
+    <map name="古墓侧室" pic="地图.古墓玉蜂之间">
+      <musics>
+        <music name="音乐.神雕.舒缓" />
+      </musics>
+      <maprole roleKey="绳床之间" pic="地图.古墓绳床之间" description="绳床之间（学习定力）">
+        <event type="story" value="门派古墓_绳床之间">
+          <condition type="should_not_finish" value="门派古墓_古墓出师" />
+        </event>
+      </maprole>
+      <maprole roleKey="玉蜂之间" pic="地图.古墓玉蜂之间" description="玉蜂之间（学习玉蜂针）">
+        <event type="story" value="门派古墓_玉蜂之间">
+          <condition type="should_not_finish" value="门派古墓_古墓出师" />
+        </event>
+      </maprole>
+      <maprole roleKey="古墓走廊" pic="地图.古墓走廊" description="前往古墓派众人居所">
+        <event type="map" value="古墓走廊" />
+      </maprole>
+      <maprole roleKey="古墓正厅" pic="地图.古墓派" description="返回古墓正厅">
+        <event type="map" value="门派古墓" />
+      </maprole>
+      <maprole roleKey="back" description="返回江湖！">
+        <event type="map" value="大地图">
+          <condition type="should_finish" value="门派古墓_古墓出师" />
+        </event>
+        <event type="story" value="门派古墓_出不去">
+          <condition type="should_not_finish" value="门派古墓_古墓出师" />
+        </event>
+      </maprole>
+    </map>
+    <map name="古墓走廊" pic="地图.古墓走廊">
+      <musics>
+        <music name="音乐.神雕.舒缓" />
+      </musics>
+      <maprole roleKey="掌门之间" pic="地图.古墓绳床之间" description="古墓掌门居所"></maprole>
+      <maprole roleKey="杨冰儿房间" pic="地图.古墓绳床之间" description="杨冰儿的房间">
+        <event type="map" value="杨冰儿房间"></event>
+      </maprole>
+      <maprole roleKey="古墓侧室" pic="地图.古墓玉蜂之间" description="返回古墓侧室">
+        <event type="map" value="古墓侧室" />
+      </maprole>
+    </map>
+    <map name="杨冰儿房间" pic="地图.古墓绳床之间">
+      <musics>
+        <music name="音乐.室内_安静" />
+      </musics>
+      <maprole roleKey="杨冰儿" description="古墓派弟子杨冰儿">
+        <event repeat="once" type="story" value="门派古墓_杨冰儿初登场" />
+        <event type="story" value="门派古墓_杨冰儿比武">
+          <condition type="should_finish" value="门派古墓_杨冰儿初登场" />
+          <condition type="should_not_finish" value="门派古墓_古墓出师" />
+        </event>
+      </maprole>
+      <maprole roleKey="古墓走廊" pic="地图.古墓走廊" description="返回古墓走廊">
+        <event type="map" value="古墓走廊" />
+      </maprole>
+    </map>
+    <!-- 大轮寺-->
+    <map name="门派大轮寺" pic="地图.大轮寺正殿">
+      <musics>
+        <music name="音乐.天龙八部.佛音4" />
+      </musics>
+      <maprole roleKey="金轮法王" description="武艺高超的金轮法王">
+        <event repeat="once" type="story" value="门派大轮寺_回大轮寺.龙象秘籍">
+          <condition type="should_finish" value="门派大轮寺_回大轮寺.霍都" />
+          <condition type="should_finish" value="门派大轮寺_回大轮寺.郭襄" />
+        </event>
+        <event repeat="once" type="story" value="门派大轮寺_回大轮寺.霍都">
+          <condition type="should_finish" value="门派大轮寺_大轮寺出师" />
+          <condition type="should_finish" value="门派大轮寺_霍都胜" />
+        </event>
+        <event repeat="once" type="story" value="门派大轮寺_回大轮寺.郭襄">
+          <condition type="should_finish" value="门派大轮寺_大轮寺出师" />
+          <condition type="in_team" value="郭襄" />
+        </event>
+        <event type="story" value="门派大轮寺_回大轮寺">
+          <condition type="should_finish" value="门派大轮寺_大轮寺出师" />
+        </event>
+      </maprole>
+      <maprole roleKey="修炼密宗大手印" pic="地图.大轮寺武场" description="修炼密宗大手印">
+        <event type="story" value="门派大轮寺_密宗大手印">
+          <condition type="should_not_finish" value="门派大轮寺_大轮寺出师" />
+        </event>
+      </maprole>
+      <maprole roleKey="修炼无上大力杆" pic="地图.大轮寺武场" description="修炼无上大力杆">
+        <event type="story" value="门派大轮寺_无上大力杆">
+          <condition type="should_not_finish" value="门派大轮寺_大轮寺出师" />
+        </event>
+      </maprole>
+      <maprole roleKey="修炼漫天花雨" pic="地图.大轮寺武场" description="修炼漫天花雨">
+        <event type="story" value="门派大轮寺_漫天花雨">
+          <condition type="should_not_finish" value="门派大轮寺_大轮寺出师" />
+        </event>
+      </maprole>
+      <maprole roleKey="大轮寺雪山" pic="地图.大轮寺雪山" description="大轮寺雪山">
+        <event type="map" value="大轮寺雪山" />
+      </maprole>
+    </map>
+    <map name="大轮寺雪山" pic="地图.大轮寺雪山">
+      <musics>
+        <music name="音乐.天龙八部.佛音4" />
+      </musics>
+      <maprole roleKey="欢喜禅" pic="地图.大轮寺雪山" description="参悟欢喜禅">
+        <event type="story" value="门派大轮寺_参禅">
+          <condition type="should_not_finish" value="门派大轮寺_大轮寺出师" />
+        </event>
+      </maprole>
+      <maprole roleKey="雪中行走" pic="地图.大轮寺雪山" description="练习雪中行走">
+        <event type="story" value="门派大轮寺_雪山小路">
+          <condition type="should_not_finish" value="门派大轮寺_大轮寺出师" />
+        </event>
+      </maprole>
+      <maprole roleKey="大轮寺雪谷" pic="地图.大轮寺雪谷1" description="前往大轮寺雪谷">
+        <event type="map" value="大轮寺雪谷" />
+      </maprole>
+      <maprole roleKey="大轮寺" pic="地图.大轮寺正殿" description="返回大轮寺">
+        <event type="map" value="门派大轮寺" />
+      </maprole>
+      <maprole roleKey="back" description="返回江湖！">
+        <event type="map" value="大地图">
+          <condition type="should_finish" value="门派大轮寺_大轮寺出师" />
+        </event>
+        <event type="story" value="门派大轮寺_出不去">
+          <condition type="should_not_finish" value="门派大轮寺_大轮寺出师" />
+        </event>
+      </maprole>
+    </map>
+    <map name="大轮寺雪谷" pic="地图.大轮寺雪谷1">
+      <musics>
+        <music name="音乐.天龙八部.佛音4" />
+      </musics>
+      <maprole roleKey="桑结" description="大护法桑结">
+        <event type="story" value="门派大轮寺_桑结负">
+          <condition type="should_finish" value="门派大轮寺_桑结胜" />
+        </event>
+        <event type="story" value="门派大轮寺_桑结2">
+          <condition type="should_finish" value="门派大轮寺_桑结1" />
+          <condition type="should_not_finish" value="门派大轮寺_桑结胜" />
+        </event>
+        <event repeat="once" type="story" value="门派大轮寺_桑结1" />
+      </maprole>
+      <maprole roleKey="大轮寺雪谷深处" pic="地图.大轮寺雪谷2" description="大轮寺雪谷深处">
+        <event type="map" value="大轮寺雪谷深处" />
+      </maprole>
+      <maprole roleKey="大轮寺雪山" pic="地图.大轮寺雪山" description="返回大轮寺雪山">
+        <event type="map" value="大轮寺雪山" />
+      </maprole>
+    </map>
+    <map name="大轮寺雪谷深处" pic="地图.大轮寺雪谷2">
+      <musics>
+        <music name="音乐.天龙八部.佛音4" />
+      </musics>
+      <maprole roleKey="达尔巴" description="臂力惊人的达尔巴">
+        <event type="story" value="门派大轮寺_达尔巴负">
+          <condition type="should_finish" value="门派大轮寺_达尔巴胜" />
+        </event>
+        <event type="story" value="门派大轮寺_达尔巴2">
+          <condition type="should_finish" value="门派大轮寺_达尔巴1" />
+          <condition type="should_not_finish" value="门派大轮寺_达尔巴胜" />
+        </event>
+        <event repeat="once" type="story" value="门派大轮寺_达尔巴1" />
+      </maprole>
+      <maprole roleKey="灵智上人" description="大轮寺灵智上人">
+        <event type="story" value="门派大轮寺_灵智上人负">
+          <condition type="should_finish" value="门派大轮寺_灵智上人胜" />
+        </event>
+        <event type="story" value="门派大轮寺_灵智上人2">
+          <condition type="should_finish" value="门派大轮寺_灵智上人1" />
+          <condition type="should_not_finish" value="门派大轮寺_灵智上人胜" />
+        </event>
+        <event repeat="once" type="story" value="门派大轮寺_灵智上人1" />
+      </maprole>
+      <maprole roleKey="大轮寺雪谷" pic="地图.大轮寺雪谷1" description="返回大轮寺雪谷">
+        <event type="map" value="大轮寺雪谷" />
+      </maprole>
+    </map>
+    
+    <!--血刀门-->
+    <map name="血刀门" pic="地图.血刀门">
+      <musics>
+        <music name="音乐.血刀门" />
+      </musics>
+      <maprole roleKey="血刀老祖" description="血刀门掌门人，血刀老祖">
+        <event type="story" value="血刀门_血刀老祖杀死狄云" repeat="once">
+          <condition type="should_finish" value="血刀门_出师" />
+        </event>
+        <event type="story" value="血刀门_血刀老祖杀死狄云执行中">
+          <condition type="should_finish" value="血刀门_血刀老祖杀死狄云OK" />
+          <condition type="should_not_finish" value="连城诀_唐诗山洞.狄云死亡"/>
+        </event>
+        <event type="story" value="血刀门_血刀老祖杀死狄云完成" repeat="once">
+          <condition type="should_finish" value="连城诀_唐诗山洞.狄云死亡" />
+        </event>
+        <event type="story" value="血刀门_血刀老祖的试炼" repeat="once">
+          <condition type="should_finish" value="mainStory_黑暗的阴影1" />
+          <condition type="should_finish" value="血刀门_血刀老祖杀死狄云完成" />
+        </event>
+        <event type="story" value="血刀门_血刀老祖废话">
+          <condition type="should_finish" value="血刀门_出师" />
+        </event>
+      </maprole>
+      <maprole roleKey="善勇" description="血刀门，善勇">
+        <event type="story" value="血刀门_善勇" repeat="once">
+          <condition type="should_not_finish" value="血刀门_出师" />
+        </event>
+        <event type="story" value="血刀门_善勇2">
+          <condition type="should_not_finish" value="血刀门_出师" />
+        </event>
+      </maprole>
+      <maprole roleKey="胜谛" description="血刀门，胜谛">
+        <event type="story" value="血刀门_胜谛" repeat="once">
+          <condition type="should_not_finish" value="血刀门_出师" />
+        </event>
+        <event type="story" value="血刀门_胜谛2">
+          <condition type="should_not_finish" value="血刀门_胜谛帮4" />
+          <condition type="should_not_finish" value="血刀门_出师" />
+        </event>
+        <event type="story" value="血刀门_胜谛事后">
+          <condition type="should_not_finish" value="血刀门_出师" />
+        </event>
+      </maprole>
+      <maprole roleKey="宝象" description="血刀门，宝象">
+        <event type="story" value="血刀门_宝象" repeat="once">
+          <condition type="should_not_finish" value="血刀门_出师" />
+        </event>
+        <event type="story" value="血刀门_宝象2">
+          <condition type="should_not_finish" value="血刀门_出师" />
+        </event>
+      </maprole>
+      <maprole roleKey="back" description="返回江湖！">
+        <event type="map" value="大地图">
+          <condition type="should_finish" value="血刀门_出师" />
+        </event>
+      </maprole>
+    </map>
+
+    <!-- 全真教 -->
+    <map name="全真教" pic="地图.全真教">
+      <musics>
+        <music name="音乐.全真教" />
+      </musics>
+      <maprole roleKey="马钰" description="全真教掌门人，马钰">
+        <event type="story" value="全真教_马钰考核" repeat="once">
+          <condition type="should_finish" value="全真教_出师"/>
+          <condition type="should_finish" value="全真教_周伯通胜"/>
+        </event>
+        <event type="story" value="全真教_马钰废话">
+          <condition type="should_finish" value="全真教_出师"/>
+        </event>
+      </maprole>
+      <maprole roleKey="烧香坊" description="烧香坊，许多人在这里烧香祈求神灵的保佑">
+        <event type="story" value="全真教_烧香坊">
+          <condition type="should_not_finish" value="全真教_出师"/>
+        </event>
+      </maprole>
+      <maprole roleKey="静念楼" description="静念楼，可以安静的在这里打坐">
+        <event type="story" value="全真教_静念楼">
+          <condition type="should_not_finish" value="全真教_出师"/>
+        </event>
+      </maprole>
+      <maprole roleKey="尹志平" description="全真教尹志平">
+        <event type="story" value="全真教_尹志平" repeat="once">
+          <condition type="should_not_finish" value="全真教_出师"/>
+        </event>
+        <event type="story" value="全真教_尹志平内功">
+          <condition type="skill_less_than" value="主角#全真心法#10"/>
+          <condition type="should_not_finish" value="全真教_出师"/>
+        </event>
+        <event type="story" value="全真教_尹志平内功修炼完毕" repeat="once">
+          <condition type="skill_more_than" value="主角#全真心法#10"/>
+          <condition type="should_not_finish" value="全真教_出师"/>
+        </event>
+        <event type="story" value="全真教_尹志平2">
+          <condition type="should_finish" value="全真教_尹志平内功修炼完毕"/>
+          <condition type="should_not_finish" value="全真教_出师"/>
+        </event>
+      </maprole>
+      <maprole roleKey="赵志敬" description="全真教赵志敬">
+        <event type="story" value="全真教_赵志敬" repeat="once">
+          <condition type="should_not_finish" value="全真教_出师"/>
+        </event>
+        <event type="story" value="全真教_讨好赵志敬后">
+          <condition type="should_finish" value="全真教_讨好赵志敬"/>
+          <condition type="skill_less_than" value="主角#全真剑法#10"/>
+          <condition type="should_not_finish" value="全真教_出师"/>
+        </event>
+        <event type="story" value="全真教_讨好赵志敬开小灶" probability="50">
+          <condition type="should_finish" value="全真教_讨好赵志敬"/>
+          <condition type="skill_more_than" value="主角#全真剑法#10"/>
+          <condition type="should_not_finish" value="全真教_出师"/>
+        </event>
+        <event type="story" value="全真教_讨好赵志敬开小灶2">
+          <condition type="should_finish" value="全真教_讨好赵志敬"/>
+          <condition type="skill_more_than" value="主角#全真剑法#10"/>
+          <condition type="should_not_finish" value="全真教_出师"/>
+        </event>
+      </maprole>
+      <maprole roleKey="苗守一" description="全真教，武功最菜的弟子苗守一">
+        <event type="story" value="全真教_苗守一练习"/>
+      </maprole>
+      
+      <maprole roleKey="孙不二" description="全真教清静散人，孙不二">
+        <event type="story" value="全真教_孙不二" repeat="once">
+          <condition type="should_finish" value="全真教_出师"/>
+          <condition type="not_in_team" value="田伯光"/>
+        </event>
+        <event type="story" value="全真教_孙不二进行中">
+          <condition type="should_finish" value="全真教_孙不二是"/>
+          <condition type="should_not_finish" value="全真教_杀死田伯光完成"/>
+        </event>
+        <event type="story" value="全真教_孙不二完成任务" repeat="once">
+          <condition type="should_finish" value="全真教_杀死田伯光完成"/>
+        </event>
+      </maprole>
+      <maprole roleKey="back" description="返回江湖！">
+        <event type="map" value="大地图">
+          <condition type="should_finish" value="全真教_出师" />
+        </event>
+      </maprole>
+    </map>
+
+    <!-- 灵鹫宫-->
+    <map name="灵鹫宫" pic="地图.灵鹫宫">
+      <musics>
+        <music name="音乐.天外村" />
+      </musics>
+      <maprole roleKey="秦婆婆" description="灵鹫宫“大管家”秦婆婆。">
+        <event type="story" value="灵鹫宫_秦婆婆1">
+          <condition type="should_finish" value="门派灵鹫宫_出师"/>
+          <condition type="should_not_finish" value="灵鹫宫_密室武学"/>
+          <condition type="should_not_finish" value="灵鹫宫_攻打完成珍珑棋局大战胜利"/>
+        </event>
+        <event type="story" value="灵鹫宫_秦婆婆2">
+          <condition type="should_finish" value="门派灵鹫宫_出师"/>
+          <condition type="should_finish" value="灵鹫宫_密室武学"/>
+          <condition type="should_not_finish" value="灵鹫宫_攻打完成珍珑棋局大战胜利"/>
+        </event>
+      </maprole>
+      <maprole roleKey="九尊殿" description="八荒六合，九天独尊">
+        <event type="story" value="灵鹫宫.九尊殿">
+          <condition type="should_not_finish" value="门派灵鹫宫_出师"/>
+        </event>
+      </maprole>
+      <maprole roleKey="御虚阁" description="灵虚御风而不知其止，渺渺兮觉羽化而登仙">
+        <event probability="25" repeat="once" type="story" value="灵鹫宫_修炼天山掌法1">
+          <condition type="should_not_finish" value="门派灵鹫宫_出师"/>
+        </event>
+        <event probability="5" repeat="once" type="story" value="灵鹫宫_修炼天山掌法2">
+          <condition type="should_not_finish" value="门派灵鹫宫_出师"/>
+        </event>
+        <event type="story" value="灵鹫宫.御虚阁">
+          <condition type="should_not_finish" value="门派灵鹫宫_出师"/>
+        </event>
+      </maprole>
+      <maprole roleKey="九宫阁" description="九宫八卦，易经归藏">
+        <event  repeat="once" type="story" value="灵鹫宫_修炼归藏剑">
+          <condition type="should_not_finish" value="门派灵鹫宫_出师"/>
+        </event>
+        <event  repeat="once" type="story" value="灵鹫宫_修炼归藏剑1">
+          <condition type="should_not_finish" value="门派灵鹫宫_出师"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑"/>
+        </event>
+        <event  repeat="once" type="story" value="灵鹫宫_修炼归藏剑2">
+          <condition type="should_not_finish" value="门派灵鹫宫_出师"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑1"/>
+        </event>
+        <event  repeat="once" type="story" value="灵鹫宫_修炼归藏剑3">
+          <condition type="should_not_finish" value="门派灵鹫宫_出师"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑1"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑2"/>
+        </event>
+        <event  repeat="once" type="story" value="灵鹫宫_修炼归藏剑4">
+          <condition type="should_not_finish" value="门派灵鹫宫_出师"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑1"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑2"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑3"/>
+        </event>
+        <event  repeat="once" type="story" value="灵鹫宫_修炼归藏剑5">
+          <condition type="should_not_finish" value="门派灵鹫宫_出师"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑1"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑2"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑3"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑4"/>
+        </event>
+        <event  repeat="once" type="story" value="灵鹫宫_修炼归藏剑6">
+          <condition type="should_not_finish" value="门派灵鹫宫_出师"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑1"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑2"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑3"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑4"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑5"/>
+        </event>
+        <event  repeat="once" type="story" value="灵鹫宫_修炼归藏剑7">
+          <condition type="should_not_finish" value="门派灵鹫宫_出师"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑1"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑2"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑3"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑4"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑5"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑6"/>
+        </event>
+        <event  repeat="once" type="story" value="灵鹫宫_修炼归藏剑8">
+          <condition type="should_not_finish" value="门派灵鹫宫_出师"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑1"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑2"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑3"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑4"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑5"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑6"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑7"/>
+        </event>
+        <event  type="story" value="灵鹫宫_修炼归藏剑9">
+          <condition type="should_not_finish" value="门派灵鹫宫_出师"/>
+          <condition type="should_finish" value="灵鹫宫_修炼归藏剑8"/>
+        </event>
+      </maprole>
+      <maprole roleKey="九华阁" description="山川锦绣，九月九华">
+        <event type="story" value="灵鹫宫_读书识字">
+          <condition type="should_not_finish" value="门派灵鹫宫_出师"/>
+        </event>
+      </maprole>
+      <maprole roleKey="灵鹫宫后山树林" description="后山树林，菊剑在踢毽子要一起玩么？">
+        <event probability="25" repeat="once" type="story" value="灵鹫宫_间谍">
+          <condition type="should_not_finish" value="门派灵鹫宫_出师"/>
+        </event>
+        <event probability="30" repeat="once" type="story" value="灵鹫宫_委屈求全1">
+          <condition type="should_finish" value="灵鹫宫_委屈求全"/>
+          <condition type="should_not_finish" value="门派灵鹫宫_出师"/>
+        </event>
+        <event probability="20"  type="story" value="灵鹫宫_好好练功">
+          <condition type="should_not_finish" value="门派灵鹫宫_出师"/>
+        </event>
+        <event type="story" value="灵鹫宫_踢毽子">
+          <condition type="should_not_finish" value="门派灵鹫宫_出师"/>
+        </event>
+      </maprole>
+      <maprole roleKey="back" description="返回江湖！">
+        <event type="map" value="大地图">
+          <condition type="should_finish" value="门派灵鹫宫_出师" />
+        </event>
+      </maprole>
+    </map>
+
+
+       <map name="少林寺内" pic="地图.少林寺内">
+      <musics>
+        <music name="音乐.少林山门" />
+      </musics>
+      <maprole roleKey="罗汉堂" pic="地图.罗汉堂" description="少林十八罗汉居住的地方">
+        <event repeat="once" type="story" value="少林派_少林拳法">
+          <condition type="should_not_finish" value="少林派_不剃度" />
+        </event>
+        <event type="story" value="少林派_少林拳法1">
+          <condition type="should_finish" value="少林派_少林拳法" />
+        </event>
+        <event type="story" value="少林派_少林拳法2">
+        </event>
+      </maprole>
+      <maprole roleKey="戒律院" pic="地图.戒律院" description="少林弟子受戒场所">
+        <event repeat="once" type="story" value="少林派_少林棍法">
+          <condition type="should_finish" value="少林派_不剃度" />
+        </event>
+        <event type="story" value="少林派_少林棍法1">
+          <condition type="should_finish" value="少林派_少林棍法" />
+        </event>
+        <event type="story" value="少林派_少林棍法2">
+        </event>
+      </maprole>
+      <maprole roleKey="大雄宝殿" pic="地图.大雄宝殿" description="方证大师在此讲经">
+        <event  type="story" value="少林派_讲经殿">
+        </event>
+      </maprole>
+      <maprole roleKey="初祖庵" pic="地图.初祖庵" description="达摩曾在此参佛">
+        <event  type="story" value="少林派_初祖庵">
+        </event>
+      </maprole>
+      <maprole roleKey="后山" pic="地图.少林后山" description="和尚们后山的生活">
+        <event type="map" value="少林后山" />
+      </maprole>
+    </map>
+    <map name="少林后山" pic="地图.少林后山">
+      <maprole roleKey="塔林" pic="地图.少林塔林" description="埋葬历代高僧舍利子的地方">
+        <event type="story" value="少林派_塔林">
+        </event>
+      </maprole>
+      <maprole roleKey="少林伙夫" description="每天管着几千小和尚，老和尚的伙食">
+        <event type="story" value="少林派_厨房">
+        </event>
+      </maprole>
+      <maprole roleKey="东汉三阙" pic="地图.东汉三阙" description="汉代就有的遗迹，存留至今">
+        <event repeat ="once"  type="story" value="少林派_东汉三阙">
+        </event>
+        <event   type="story" value="少林派_东汉三阙1">
+          <condition type="should_finish" value="少林派_东汉三阙" />
+        </event>
+      </maprole>
+      <maprole roleKey="back" description="返回本院">
+        <event type="map" value="少林寺内" />
+      </maprole>
+    </map>
+    <map name="南少林" pic="地图.南少林">
+      <music>
+        <music name="音乐.少林山门" />
+      </music>
+      <maprole roleKey="本真和尚" description="现在是你师傅了">
+        <event repeat="once"  type="story" value="少林寺_福建南少林破败" />
+        <event type="story" value="少林寺_福建南少林小洪拳">
+          <condition type="should_finish" value="少林寺_福建南少林破败"/>
+        </event>
+       </maprole>
+      <maprole roleKey="雷老虎" description="拳打武当，脚踢少林雷老虎是也">
+        <event repeat="once"  type="story" value="少林寺_大洪拳" />
+        <event type="story" value="南少林_大洪拳胜利">
+          <condition type="should_finish" value="少林寺_大洪拳"/>
+        </event>
+      </maprole>
+    </map>
+ 
+<!-- 昆仑派-->
+    <map name="昆仑派" pic="地图.昆仑派">
+      <musics>
+        <music name="音乐.天外村" />
+      </musics>
+      
+     </map>
+  <!-- 武当派-->
+    <map name="武当广场" pic="地图.武当广场">
+      <musics>
+        <music name="音乐.武当" />
+      </musics>
+      <maprole roleKey="三清殿" pic="地图.三清殿" description="武当派贡放真武大帝的地方">
+        <event type="map" value="三清殿"/>
+      </maprole>
+      <maprole roleKey="宋青书" description="武当侠客宋远桥的儿子，青年一代武当弟子中的佼佼者">
+        <event type="story" value="武当派_宋青书介绍" repeat="once" description="听宋青书为武当派新人做介绍。">
+          <condition type="should_not_finish" value="武当派_出师"/>
+        </event>
+        <event type="story" value="武当派_宋青书">
+          <condition type="should_not_finish" value="武当派_出师"/>
+        </event>
+      </maprole>
+      <maprole roleKey="俞莲舟" description="武当七侠排名第二，俞莲舟">
+        <event repeat="once" type="story" value="武当派_俞莲舟考校">
+          <condition type="skill_more_than" value="主角#绵掌#10"/>
+        </event>
+        <event type="story" value="武当派_俞莲舟">
+          <condition type="skill_less_than" value="主角#绵掌#10"/>
+          <condition type="should_not_finish" value="武当派_俞莲舟绝户虎爪手"/>
+        </event>
+      </maprole>
+      <maprole roleKey="张三丰" description="武当派祖师，张三丰">
+        <event type="story" value="武当派_少年张三丰" repeat="once">
+          <condition type="in_team" value="郭襄" />
+        </event>
+        <event type="story" value="武当派_张三丰2">
+          <condition type="skill_less_than" value="主角#武当九阳功#10"/>
+          <condition type="should_finish" value="武当派_少年张三丰"/>
+        </event>
+        <event type="story" value="武当派_山顶悟道" repeat="once">
+          <condition type="skill_more_than" value="主角#武当九阳功#10"/>
+          <condtiion type="should_finish" value="武当派_少年张三丰"/>
+        </event>
+        <event type="story" value="武当派_太极拳剑">
+          <condition type="should_finish" value="武当派_出师"/>
+          <condition type="should_not_finish" value="武当派_太极拳剑3"/>
+        </event>
+      </maprole>
+      <maprole roleKey="后山练功场" pic="地图.武当后山" description="武当派后山">
+        <event type="map" value="后山练功场" />
+      </maprole>
+      <maprole roleKey="back" description="返回武当派门口">
+        <event type="map" value="武当派" >
+          <condition type="should_finish" value="武当派_出师"/>
+        </event>
+      </maprole>
+    </map>
+    <map name="三清殿" pic="地图.三清殿">
+      <musics>
+        <music name="音乐.武当" />
+      </musics>
+      <maprole roleKey="俞岱岩" description="武当七侠排行第三，俞岱岩，负责教授弟子基础心法">
+        <event  repeat="once" type="story" value="武当派_武当心法">
+          <condition type="should_not_finish" value="武当派_出师"/>
+        </event>
+        <event type="story" value="武当派_武当心法1">
+          <condition type="should_finish" value="武当派_武当心法"/>
+          <condition type="should_not_finish" value="武当派_出师"/>
+        </event>
+      </maprole>
+      <maprole roleKey="宋远桥" description="武当七侠老大，宋远桥，负责教授弟子拳法">
+        <event repeat="once" probability="15" type="story" value="武当派_宋远桥" description="嫉恶如仇的宋远桥今天有话要说。" lv="1">
+          <condition type="should_not_finish" value="武当派_出师"/>
+        </event>
+        <event repeat="once" probability="15" type="story" value="武当派_宋远桥1" description="嫉恶如仇的宋远桥今天有话要说。" lv="5">
+          <condition type="should_finish" value="武当派_宋远桥"/>
+          <condition type="should_not_finish" value="武当派_出师"/>
+        </event>
+        <event type="story" value="武当派_绵掌">
+          <condition type="should_not_finish" value="武当派_出师"/>
+        </event>
+      
+        <!-- 出师以后的侠义任务 -->
+        <event repeat="once" type="story" value="武当派_宋远桥玄冥二老" description="嫉恶如仇的宋远桥今天有话要说。" lv="10">
+          <condition type="should_finish" value="武当派_出师"/>
+          <condition type="should_finish" value="武当派_黑白双煞之战胜利"/>
+        </event>
+        <event repeat="once" type="story" value="武当派_宋远桥余沧海" description="嫉恶如仇的宋远桥今天有话要说。" lv="15">
+          <condition type="should_finish" value="武当派_出师"/>
+          <condition type="should_finish" value="武当派_宋远桥玄冥二老胜利"/>
+        </event>
+      </maprole>
+      <maprole roleKey="莫声谷" description="武当七侠排行第七，莫声谷，负责教授弟子身法和剑法">
+        <event type="story" value="武当派_梯云纵" probability="50" repeat="once">
+          <condition type="shenfa_greater_than" value="主角#75"/>
+          <condition type="should_not_finish" value="武当派_出师"/>
+        </event>
+        <event type="story" value="武当派_身法" probability="50">
+          <condition type="should_not_finish" value="武当派_梯云纵"/>
+          <condition type="should_not_finish" value="武当派_出师"/>
+        </event>
+        <event type="story" value="武当派_绕指柔剑">
+          <condition type="should_not_finish" value="武当派_出师"/>
+        </event>
+      </maprole>
+      <maprole roleKey="back" description="返回武当广场">
+        <event type="map" value="武当广场" />
+      </maprole>
+    </map>
+    
+    <map name="后山练功场" pic="地图.武当后山">
+      <maprole roleKey="殷梨亭" description="武当派，殷梨亭，总是心事重重的样子">
+        <event type="story" value="武当派_殷梨亭" probability="40" repeat="once">
+          <condition type="in_time" value="亥#子#丑"/>
+          <condition type="should_not_finish" value="武当派_出师"/>
+        </event>
+        <event type="story" value="武当派_神门十三剑" probability="40" repeat="once" description="武当派，殷梨亭，满怀笑容，看上去很开心。">
+          <condition type="should_finish" value="武当派_殷梨亭爱杨不悔"/>
+          <condition type="exceed_day" value="100"/>
+        </event>
+        <event type="story" value="武当派_殷梨亭邪" repeat="once" lv="15">
+          <condition type="in_time" value="亥#子#丑"/>
+          <condition type="should_finish" value="武当派_殷梨亭质问2"/>
+          <condition type="have_item" value="杨不悔的发簪"/>
+          <condition type="should_finish" value="武当派_出师"/>
+        </event>
+      </maprole>
+      <maprole roleKey="随便逛逛" pic="地图.村口2" description="到武当派各处随便逛逛。">
+        <event type="story" value="武当派_天柱峰" probability="20">
+          <condition type="should_not_finish" value="武当派_出师"/>
+        </event>
+        <event type="story" value="武当派_复真观" probability="20">
+          <condition type="should_not_finish" value="武当派_出师"/>
+        </event>
+        <event type="story" value="武当派_玉虚宫" probability="20">
+          <condition type="should_not_finish" value="武当派_出师"/>
+        </event>
+        <event type="story" value="武当派_太和山" >
+          <condition type="should_not_finish" value="武当派_出师"/>
+        </event>
+      </maprole>
+      <maprole roleKey="back" description="返回武当广场">
+        <event type="map" value="武当广场" />
+      </maprole>
+    </map>
+  </maps>
+</root>

@@ -1,0 +1,58 @@
+<root>
+  <story name ="昆仑派入门1">
+    <action type="BACKGROUND" value="地图.昆仑山"/>
+    <action type="DIALOG" value="主角#这...这白茫茫的一片,神马情况?!门派呢?说好的门派呢?"/>
+    <action type="DIALOG" value="昆仑派弟子#什么人?"/>
+    <action type="DIALOG" value="主角#哦有人就好,我是南贤介绍来...拜师的."/>
+    <action type="DIALOG" value="昆仑派弟子#哦,南贤大师介绍的啊,跟我来吧."/>
+    <result ret="0" type="story" value="昆仑派入门2" />
+  </story>
+  <story name ="昆仑派入门2">
+    <action type="BACKGROUND" value="地图.昆仑派"/>
+    <action type="DIALOG" value="主角#哇,这风景,太震撼了!"/>
+    <action type="DIALOG" value="昆仑派弟子#少见多怪,带你见我们掌门,要尊敬一点知道吗?"/>
+    <action type="DIALOG" value="主角#好的,敢问贵掌门是哪一位啊?"/>
+    <action type="DIALOG" value="何太冲#便是老夫了!"/>
+    <result ret="0" type="story" value="昆仑派入门3" />
+  </story>
+  <story name ="昆仑派入门3">
+    <action type="BACKGROUND" value="地图.昆仑派"/>
+    <action type="DIALOG" value="何太冲#你说你是南贤那老家伙介绍来的?"/>
+    <action type="DIALOG" value="主角#是的(老家伙?)"/>
+    <action type="DIALOG" value="何太冲#很好,那我便收了你!"/>
+    <action type="NICK" value="昆仑派弟子" />
+    <action type="LEARN.TALENT" value="主角#御剑" />
+    <action type="ITEM" value="昆仑派装束"/>
+    <action type="MENPAI" value="昆仑派" />
+    <action type="DIALOG" value="何太冲#唔,目前柴房已经有人了,那你就先从洗茅厕开始吧!"/>
+    <action type="DIALOG" value="主角#啊?茅厕?不!我不去!"/>
+    <action type="DIALOG" value="何太冲#不去?嘿嘿,入我门来,可由不得你,走你!"/>  
+    <result ret="0" type="map" value="昆仑派茅厕"/>
+  </story>
+  <story name ="昆仑派茅厕1">
+    <action type="DIALOG" value="主角#我靠，老家伙好深厚的内力，直接把我扔到这来了?"/>
+    <action type="DIALOG" value="主角#好臭!先看看能不能出去。"/>
+    <result ret="0" type="map" value="昆仑派茅厕"/>
+  </story>
+  <story name ="昆仑派茅厕2">
+    <action type="DIALOG" value="主角#咦，门好像没锁嘛，那要是我溜出去应该也没人知道。"/>
+    <action type="SELECT" value="主角#要出去吗？ #出去！ #还是算了"/>  
+    <result ret="0" type="stroy" value="昆仑派出茅厕"/>
+    <result ret="1" type="stroy" value="昆仑派留茅厕"/>
+  </story>
+  <story name ="昆仑派出茅厕">
+  <action type="DIALOG" value="主角#堂堂男子汉大丈夫，怎么能窝在茅房里！"/>
+    <result ret="0" type="story" value="昆仑派出茅厕2"/>
+  </story>
+  <story name ="昆仑派留茅厕">
+    <action type="DIALOG" value="主角#还是算了，说不定茅厕也能有奇遇！（反正门开着随时能出去，先看看这里有没什么秘籍之类的，哦呵呵呵）"/>
+    <result ret="0" type="map" value="昆仑派茅厕"/>
+  </story>
+  <story name="昆仑派出茅厕2">
+    <action type="story" value="主角#这就出来了？。。。这也太轻松了吧，还会以为有什么执法堂长老之类的出没把我赶回去什么的。"/>
+    <action type="story" value="何太冲#说的好，既然你这么有觉悟，那就自己去刑堂领罚吧！"/>
+    <action type="story" value="主角#啊？不要啊，掌门，我知道错了，求求你给我一次机会让我改过自新吧，掌门英明神武，风流倜傥，玉树临风，天下无敌……"/>
+    <action type="story" value="何太冲#说的好，既然你这么有觉悟，那就自己去武堂学武吧！"/>
+    <action type="story" value="主角#哎？。。。好我马上就去（这么简单就忽悠过去了。。。）"/>
+  </story>
+</root>

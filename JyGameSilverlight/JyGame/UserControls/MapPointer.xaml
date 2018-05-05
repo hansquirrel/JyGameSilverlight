@@ -1,0 +1,27 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing"
+	mc:Ignorable="d"
+	x:Class="JyGame.MapPointer"
+	d:DesignWidth="640" d:DesignHeight="480" Width="30" Height="30">
+	<UserControl.Resources>
+		<Storyboard x:Name="Storyboard1">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="image">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="3.5"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</UserControl.Resources>
+
+	<Grid x:Name="LayoutRoot">
+		<Image x:Name="image" Margin="0,0,0,8" Source="/Resource/heads/zhujue.png" RenderTransformOrigin="0.5,0.5">
+			<Image.RenderTransform>
+				<CompositeTransform/>
+			</Image.RenderTransform>
+		</Image>
+		<Path Data="M-206,137.75" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="-206,0,0,-108.75" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Bottom" Width="1"/>
+	</Grid>
+</UserControl>

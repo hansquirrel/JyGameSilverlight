@@ -1,0 +1,93 @@
+<root>
+  <story name="tlbb.xz_擂鼓山1">
+    <action type="BACKGROUND" value="地图.擂鼓山" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派" />
+    <action type="DIALOG" value="段延庆#珍珑棋局，气象万千。能解开此局者，必有王者气象！" />
+    <action type="DIALOG" value="慕容复#这棋局仿佛人生，心机用尽，反送了卿卿性命！啊！" />
+    <action type="DIALOG" value="主角#喂！" />
+    <action type="DIALOG" value="慕容复#我败了，这局我解不开。" />
+    <action type="DIALOG" value="主角#我试试。" />
+    <action type="DIALOG" value="主角#皇图霸业，武林神话，千古流芳，不过梦一场…" />
+    <action type="BATTLE" value="擂鼓山神秘人_战斗" />
+    <result ret="win" type="story" value="tlbb.xz_擂鼓山2胜" />
+    <result ret="lose" type="story" value="tlbb.xz_擂鼓山2" />
+  </story>
+  <story name="tlbb.xz_擂鼓山2">
+    <action type="BACKGROUND" value="地图.擂鼓山" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派" />
+    <action type="DIALOG" value="主角#好可怕，这棋局太难了。" />
+    <action type="DIALOG" value="主角#啊！！！难道我解不开！（胡乱一手）" />
+    <action type="DIALOG" value="主角#啊！（这步棋，看似笨拙，其实是险中求生的无上妙手啊！）" />
+    <action type="DIALOG" value="苏星河#哈哈，老夫等了一辈子，终于等来了有缘人啊！" />
+    <action type="DIALOG" value="主角#咦？聋哑先生苏星河原来会说话。" />
+    <action type="DIALOG" value="苏星河#老夫若不是忌惮本门叛徒丁春秋，何必在这里装聋卖傻。小兄弟，请进去小屋。" />
+    <action type="DIALOG" value="丁春秋#嘿，休想！" />
+    <action type="DIALOG" value="慕容复#（趁机搅浑水！）" />
+    <action type="DIALOG" value="段延庆#不错，休想独享宝贝！" />
+    <action type="BATTLE" value="擂鼓山_战斗" />
+    <result ret="win" type="story" value="tlbb.xz_擂鼓山3" />
+  </story>
+  <story name="tlbb.xz_擂鼓山2胜">
+    <action type="BACKGROUND" value="地图.擂鼓山" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派" />
+    <action type="ITEM" value="野球拳秘籍#1" />
+    <action type="NICK" value="野球神拳" />
+    <action type="DIALOG" value="主角#好可怕，这棋局太难了。" />
+    <action type="DIALOG" value="主角#啊！！！难道我解不开！（胡乱一手）" />
+    <action type="DIALOG" value="主角#啊！（这步棋，看似笨拙，其实是险中求生的无上妙手啊！）" />
+    <action type="DIALOG" value="苏星河#哈哈，老夫等了一辈子，终于等来了有缘人啊！" />
+    <action type="DIALOG" value="主角#咦？聋哑先生苏星河原来会说话。" />
+    <action type="DIALOG" value="苏星河#老夫若不是忌惮本门叛徒丁春秋，何必在这里装聋卖傻。小兄弟，请进去小屋。" />
+    <action type="DIALOG" value="丁春秋#嘿，休想！" />
+    <action type="DIALOG" value="慕容复#（趁机搅浑水！）" />
+    <action type="DIALOG" value="段延庆#不错，休想独享宝贝！" />
+    <action type="BATTLE" value="擂鼓山_战斗" />
+    <result ret="win" type="story" value="tlbb.xz_擂鼓山3" />
+  </story>
+  <story name="tlbb.xz_擂鼓山3">
+    <action type="BACKGROUND" value="地图.室内" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="无崖子#居然是个奇怪长相的人解开了局。罢了，天意啊。小兄弟，今天你中奖了。" />
+    <action type="DIALOG" value="主角#那个..中奖我很喜欢，可不可以不要说我长相奇怪..." />
+    <action type="DIALOG" value="无崖子#小兄弟，受我逍遥派奇功吧！" />
+    <action type="DIALOG" value="主角#等等，我还没做好准备啊！" />
+    <action type="DIALOG" value="无崖子#我管你！" />
+    <action type="DIALOG" value="无崖子#（两柱香后）" />
+    <action type="UPGRADE.MAXHP" value="主角#1000" />
+    <action type="UPGRADE.MAXMP" value="主角#2000" />
+    <action type="UPGRADE.臂力" value="主角#10" />
+    <action type="UPGRADE.根骨" value="主角#10" />
+    <action type="UPGRADE.福缘" value="主角#10" />
+    <action type="UPGRADE.身法" value="主角#10" />
+    <action type="UPGRADE.定力" value="主角#10" />
+    <action type="UPGRADE.悟性" value="主角#10" />
+    <action type="UPGRADE.拳掌" value="主角#10" />
+    <action type="UPGRADE.剑法" value="主角#10" />
+    <action type="UPGRADE.刀法" value="主角#10" />
+    <action type="UPGRADE.奇门" value="主角#10" />
+    <action type="DIALOG" value="无崖子#好了，我一身功力都传给了你。你如今是逍遥派掌门，戴上这个扳指，替我杀了丁春秋。" />
+    <action type="DIALOG" value="主角#老前辈，你好蛮横啊，我什么都没答应啊…" />
+    <action type="DIALOG" value="无崖子#别跟我唧唧歪歪唐僧一样，功已经传给你，就当答应了我这个老头子吧。这可是我的临终心愿。" />
+    <action type="DIALOG" value="主角#你要走了？" />
+    <action type="DIALOG" value="无崖子#废话，我死命拖到这一刻，就是为了后继有人啊。如今大功已成，我也可以安心去了。" />
+    <action type="DIALOG" value="主角#我又没说要帮你…" />
+    <action type="DIALOG" value="无崖子#攻略上说了，你会帮我的…" />
+    <action type="DIALOG" value="无崖子#我的戏份完了，bye bye… （无崖子缓缓闭上眼睛）" />
+    <action type="DIALOG" value="主角#喂！" />
+    <result ret="0" type="story" value="tlbb.xz_擂鼓山4" />
+  </story>
+  <story name="tlbb.xz_擂鼓山4">
+    <action type="BACKGROUND" value="地图.室内" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="苏星河#师傅！（痛哭流涕）" />
+    <action type="DIALOG" value="主角#好了，现在是什么情况？（摸摸指环）" />
+    <action type="DIALOG" value="苏星河#啊！拜见掌门人！" />
+    <action type="DIALOG" value="主角#你别啊！" />
+    <action type="DIALOG" value="苏星河#求掌门人铲除逆贼丁春秋。" />
+    <action type="DIALOG" value="主角#这...铲除可以啊，只要怪不猛，报酬高..." />
+    <action type="DIALOG" value="苏星河#但求主持公道。" />
+    <action type="DIALOG" value="主角#好吧，我去杀丁老怪！" />
+    <action type="NICK" value="逍遥掌门" />
+    <action type="LOG" value="擂鼓山破珍珑棋局，无崖子传功。" />
+  </story>
+</root>

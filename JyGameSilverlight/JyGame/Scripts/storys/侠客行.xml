@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <story name="侠客行_赏善罚恶令">
+    <action type="BACKGROUND" value="地图.府门前" />
+    <action type="MUSIC" value="音乐.金庸群侠传5" />
+    <action type="DIALOG" value="张三#善有善报，恶有恶报！侠客岛赏善罚恶使者，前来拜见商家堡堡主！" />
+    <action type="DIALOG" value="李四#我们奉侠客岛岛主之命，手持铜牌前来，邀请贵堡堡赴鄙岛相叙，喝上一碗腊八粥。" />
+    <action type="DIALOG" value="张三#（伸手入怀取出两块铜牌），听说商家堡堡主商剑鸣喜穿黑衣挎长刀，我怎么看着诸位都不太像啊？" />
+    <action type="DIALOG" value="李四#确实都不大像。" />
+    <action type="DIALOG" value="李四#快说！" />
+    <action type="SELECT" value="主角#（要不要接这赏善罚恶令，去喝那腊八粥呢?）#接#不接" />
+    <result ret="0" type="story" value="侠客行_接令" />
+    <result ret="1" type="story" value="侠客行_不接令" />
+  </story>
+  <story name="侠客行_接令">
+    <action type="DIALOG" value="主角#商家堡现在的堡主是我，商剑鸣那老匹夫，自知不敌，已经将堡主只为让给我了！" />
+    <action type="DIALOG" value="张三#（细细的打量了你一番）呵呵，英雄出少年啊！这位小兄弟果然英武不凡，气势惊人啊，那商剑鸣，武功平平还占着一堡之位，合该退位让贤了！" />
+    <action type="DIALOG" value="主角#（这人好狂的语气）" />
+    <action type="DIALOG" value="李四#接令" />
+    <action type="DIALOG" value="张三#对对，你看这铜牌？" />
+    <action type="DIALOG" value="主角#拿来吧！（伸手接过铜牌）" />
+    <action type="DIALOG" value="张三#痛快！小兄弟，我二人就在杭州等你，载你上岛喝上一碗腊八粥！" />
+    <action type="DIALOG" value="主角#二位使者放心，本堡主既然敢接了这赏善罚恶令，就定当遵守诺言，于期赶到！" />
+    <action type="LOG" value="接了侠客岛的赏善罚恶令"/>
+  </story>
+  <story name="侠客行_不接令">
+    <action type="DIALOG" value="主角#（随便指了一个人），这二位使者，我们老堡主已经传位给这位大人了，他就是我们的现任堡主啊。堡主，去接牌子吧？" />
+    <action type="DIALOG" value="路人甲#啊？" />
+    <action type="DIALOG" value="商家堡成员#是啊堡主，去接了牌子吧，咱们纵使武功不行，但也不能掉了咱商家堡的脸啊！" />
+    <action type="DIALOG" value="路人甲#啊？这……（犹犹豫豫的从张三手中接过牌子）" />
+    <action type="DIALOG" value="张三#好，那一月十九日腊八节，我二人就在杭州等候堡主，咱们不见不散。" />
+    <action type="DIALOG" value="李四#不见不散！" />
+    <action type="DIALOG" value="主角#（赶紧散了吧，傻瓜才去呢！）" />
+  </story>
+  <story name="侠客行_杭州">
+    <action type="BACKGROUND" value="地图.杭州" />
+    <action type="MUSIC" value="音乐.金庸群侠传5" />
+    <action type="DIALOG" value="主角#二位使者！" />
+    <action type="DIALOG" value="张三#小兄弟果然守信，我张三佩服！" />
+    <action type="DIALOG" value="李四#请与一边等候。" />
+    <action type="DIALOG" value="张三#呵呵，我这兄弟就这脾性，小兄弟莫怪，莫怪。请稍等一会待大家到齐，咱们就起航去往侠客岛。" />
+    <action type="DIALOG" value="主角#（片刻之后）" />
+    <action type="DIALOG" value="张三#时辰已到，诸位守信赶来的掌门，教主，帮主，堡主们，请上船吧！那些没有赶来的，自然会有人去料理他们。" />
+    <action type="DIALOG" value="李四#起航！" />
+    <result ret="0" type="story" value="侠客行_侠客岛0"/>
+  </story>
+  <story name="侠客行_侠客岛0">
+    <action type="BACKGROUND" value="地图.侠客岛" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派" />
+    <action type="DIALOG" value="龙岛主#诸位掌教们！各位远道光临，敝岛无以为敬。这碗腊八粥外边倒还不易喝到，其中最主要的一味‘断肠蚀骨腐心草’，要开花之后效力方着。" />
+    <action type="DIALOG" value="龙岛主#但这草隔十年才开一次花。我们总要等其开花之后，这才邀请江湖同道来此同享，屈指算来，这是第四回邀请。请，请，不用客气。" />
+    <action type="DIALOG" value="主角#（哈哈！增加内力的大补品腊八粥，我来啦！）咕咚咕咚咕咚，爽，再来一碗！！" />
+    <action type="UPGRADE.MAXMP" value="主角#400" />
+    <action type="DIALOG" value="木岛主#这，这位小兄弟倒是有胆识，却可惜这‘断肠蚀骨腐心草’每年就这么多，要想再多喝一碗，可真没有啦！" />
+    <action type="DIALOG" value="主角#岛主！这个可以有！" />
+    <action type="DIALOG" value="龙岛主#小兄弟，这个真没有。" />
+    <action type="DIALOG" value="木岛主#（还是赶紧岔开话题吧）我观小兄弟胆识过人，要知这腊八粥卖相不好，里面煮的又都是毒草毒物，这几年以来，鲜少有人能像小兄弟一样痛快的。却不知……？" />
+    <action type="DIALOG" value="主角#在下商家堡堡主！" />
+    <action type="DIALOG" value="龙岛主#哦！不愧是中原第一大堡，辈有人才出啊！真是人杰地灵，人杰地灵。" />
+    <action type="DIALOG" value="主角#（这就给我降了不知道多少辈分了，还是赶紧跨入正题吧！）不知二位堡主武功通神，还要叫我等前来，是所为何事？" />
+    <action type="DIALOG" value="龙岛主#哦！是这样的，诸位掌教们！四十年前，我和木兄弟相交，意气相投，本想联手江湖，在武林中赏善罚恶，好好做一番事业，不意甫出江湖，便发现了一张地图。" />
+    <action type="DIALOG" value="龙岛主#从那图旁所注的小字中细加参详，得悉图中所绘的无名荒岛之上，藏有一份惊天动地的武功秘诀。我二人对这武功秘诀参详不出，甚至各自对这武功的见解也有分歧，所以就广邀天下英豪，上岛来一同参详。" />
+    <action type="DIALOG" value="木岛主#不错，诸位要是想离去，岛边自然有船相送。洞往里边走便是这部武功秘诀，分为二十四座石室，各位可随意来去观看，看得累了，可到洞外散心，一应饮食，各石室中均有制备，各位可随意取用，不必客气！" />
+    <action type="SELECT" value="主角#要离开这里么？#离开#留下" />
+    <result ret="0" type="map" value="大地图" />
+    <result ret="1" type="map" value="侠客岛" />
+  </story>
+
+  <story name="侠客行_龙岛主">
+    <action type="DIALOG" value="龙岛主#我二人发现这个岛的时候，还发现了一块石碑，上面刻着这武功的由来。原来元末明初的时候，元朝大肆打击武林人士，到了明永乐年间，朝廷更是同时组建了锦衣卫和东厂大肆捕杀武林人士。" />
+    <action type="DIALOG" value="龙岛主#使得当时的武林受到了极大的打击！当时有张氏和赵氏夫妻二人，张氏内功高强，武功盖世，赵氏则精通天下武功，智谋过人。" />
+    <action type="DIALOG" value="龙岛主#他夫妻二人为了不使当时的众般武功失传，便到了这个荒岛上，融合了二人的武功创造出了这太玄神功。" />
+  </story>
+  <story name="侠客行_木岛主">
+    <action type="DIALOG" value="木岛主#诸位要是想离去，岛边自然有船相送。洞往里边走便是这部武功秘诀，分为二十四座石室，各位可随意来去观看，看得累了，可到洞外散心，一应饮食，各石室中均有制备，各位可随意取用，不必客气！" />
+    <action type="SELECT" value="主角#要离开这里么？#离开#留下" />
+    <result ret="0" type="map" value="大地图" />
+    <result ret="1" type="map" value="侠客岛" />
+  </story>
+  <story name="侠客行_白自在">
+    <action type="DIALOG" value="白自在#唔，是你啊，你在这一批来的人当中算是最有胆量的了，不错不错，后生可畏！" />
+  </story>
+  <story name="侠客行_石破天">
+    <action type="DIALOG" value="石破天#再让我睡一会……睡完这一觉……随便看看就回去找阿黄了……" />
+  </story>
+  <story name="侠客行_太玄经">
+    <action type="DIALOG" value="主角#（这太玄神功我自然是知道真相的，不就是‘小蝌蚪’么，但这么多的‘小蝌蚪’在身体里钻来钻去会不会出问题？毕竟我还不是石破天那个怪胎啊！怎么办？感觉很是危险的样子）" />
+    <action type="SELECT" value="主角#这太玄神功应该怎么对待？#自己练！#回去找石破天" />
+    <result ret="0" type="story" value="侠客行_主_修炼太玄" />
+    <result ret="1" type="story" value="侠客行_石_修炼太玄" />
+  </story>
+  <story name="侠客行_主_修炼太玄">
+    <action type="MUSIC" value="音乐.金庸群侠传4" />
+    <action type="DIALOG" value="主角#（第一天）" />
+    <action type="DIALOG" value="主角#（恩……先是至阳穴，然后是悬枢穴，接着是中渚穴……）" />
+    <action type="DIALOG" value="主角#（第二天）" />
+    <action type="DIALOG" value="主角#（哼，哼哼，万法化极，百穴归一！生生不息，汹涌无极！哈哈哈哈，这天下谁还能阻我！）" />
+    <action type="DIALOG" value="主角#（第三天）" />
+    <action type="DIALOG" value="主角#废物，你们都是废物，都去死好了！哼，哈哈哈哈！赵客缦胡缨，吴钩霜雪明。银鞍照白马，飒沓如流星。十步杀一人，千里不留行。事了拂衣去，深藏身与名。闲过信陵饮，脱剑膝前横。" />
+    <action type="DIALOG" value="主角#将炙啖朱亥，持觞劝侯嬴。三杯吐然诺，五岳倒为轻。眼花耳热后，意气素霓生。救赵挥金槌，邯郸先震惊。千秋二壮士，煊赫大梁城。纵死侠骨香，不惭世上英。谁能书阁下，白首太玄经！！" />
+    <action type="BATTLE" value="侠客行_主角太玄经"/>
+    <result ret="win" type="story" value="侠客行_主太玄神功"/>
+  </story>
+  <story name="侠客行_主太玄神功">
+    <action type="BACKGROUND" value="地图.侠客岛"/>
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派" />
+    <action type="DIALOG" value="主角#啊！我，我怎么了？你们怎么了啊？" />
+    <action type="DIALOG" value="木岛主#小兄弟，你，你静坐了三天之后，适才突然发狂，竟无论敌我发起疯来！岛上这么多人联手，才堪堪将你拖住。看来……" />
+    <action type="DIALOG" value="龙岛主#看来小兄弟是练成了这传说中的太玄经，能，能不能告诉我等，这侠客行中有何秘密？小兄弟是如何练了这太玄经的？" />
+    <action type="DIALOG" value="主角#其实，那不是诗……我只能说这么多。哈哈，龙岛主，木岛主，小弟这就告辞了！" />
+    <action type="UPGRADE.MAXMP" value="主角#2000" />
+    <action type="GET_POINT" value="主角#25" />
+    <action type="UPGRADE.根骨" value="主角#20" />
+    <action type="LEARN.INTERNALSKILL" value="主角#太玄神功#10" />
+    <action type="LOG" value="参悟了侠客岛的太玄神功"/>
+    <action type="NICK" value="侠客行"/>
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  <story name="侠客行_主杭州石清">
+    <action type="BACKGROUND" value="地图.酒楼"/>
+    <action type="MUSIC" value="音乐.天龙八部2"/>
+    <action type="DIALOG" value="石清#堡主留步！" />
+    <action type="DIALOG" value="主角#你是谁？你认得我？" />
+    <action type="DIALOG" value="石清#是，堡主侠客岛上力敌各大派掌门，习得太玄神功，已经传遍武林。堡主，在下夫妇二人有一事相求！" />
+    <action type="DIALOG" value="主角#什么事，说来听听？" />
+    <action type="DIALOG" value="石清#是这样的，我有一不孝子，名为石中玉，他……他侮辱了雪山派白老爷子的孙女，并且畏罪潜逃。堡主跟我这不孝子有一面之缘，希望日后见到，能亲自提他去雪山派给白老爷子赔罪！" />
+    <action type="DIALOG" value="主角#石中玉？我不认识啊？" />
+    <action type="DIALOG" value="石清#他曾化名为石破天，与堡主一道上过侠客岛。" />
+    <action type="DIALOG" value="主角#石破天？好，我记下了。" />
+    <action type="LOG" value="答应帮石清夫妇寻找儿子"/>
+  </story>
+  <story name="侠客行_主张家口">
+    <action type="BACKGROUND" value="地图.市井"/>
+    <action type="MUSIC" value="音乐.室内_世俗"/>
+    <action type="DIALOG" value="主角#石破天!" />
+    <action type="DIALOG" value="石破天#啊？" />
+    <action type="DIALOG" value="主角#是这样的……(把石清夫妇的委托说了一遍）……所以你就跟我走一趟，澄清一下怎么样？" />
+    <action type="DIALOG" value="石破天#成，走你。" />
+    <result ret="0" type="story" value="侠客行_主雪山0"/>
+  </story>
+  <story name="侠客行_主雪山0">
+    <action type="BACKGROUND" value="地图.雪山派"/>
+    <action type="DIALOG" value="石中玉#谢烟客，我命你平了这雪山派！" />
+    <action type="DIALOG" value="谢烟客#老夫受人所托，前来平了你雪山派，雪山派的一干废物，速速前来领死吧！" />
+    <action type="DIALOG" value="白自在#哼，我雪山大派岂能容你放肆！石中玉，哼哼……" />
+    <action type="DIALOG" value="主角#二位等等，这都是误会！" />
+    <action type="BATTLE" value="侠客行_主角大雪山" />
+    <result ret="win" type="story" value="侠客行_主雪山"/>
+  </story>
+  <story name="侠客行_主雪山">
+    <action type="DIALOG" value="谢烟客#哼，你是何人？"/>
+    <action type="DIALOG" value="白自在#（拱手）堡主侠客岛一别，今天为何而到此啊？"/>
+    <action type="DIALOG" value="主角#哎，其实这都是误会，你们看这是谁？（拉出石破天）"/>
+    <action type="DIALOG" value="石清#（双眼来回看着石破天与石中玉，一时竟也分辨不清）这，这个，哪个是我那不孝子？"/>
+    <action type="DIALOG" value="石中玉#爹。。娘。。"/>
+    <action type="DIALOG" value="主角#其实，是这么个情况……叽里咕噜……就是这么个事，大家把事情说开，不就好了么"/>
+    <action type="DIALOG" value="谢烟客#狗杂种，原来世界上还有与你这般相像的人，老夫都差点酿下大错了。你到底有什么愿望，速速说来，我与你办成了便是。"/>
+    <action type="DIALOG" value="石破天#谢伯伯，你就把石中玉带在身边，教导他做人和武功吧。（他冒充我做坏事，做了坏事还要我背黑锅，老子什么时候被人NTR了都不知道，你最好一辈子都别回来）"/>
+    <action type="DIALOG" value="石中玉#啊？救命啊爹娘！！！"/>
+    <action type="DIALOG" value="石清#唉，也好，玉儿，你便随这位谢前辈，好好学习吧。"/>
+    <action type="DIALOG" value="谢烟客#哼，给我一个拖累？走吧，我谢烟客从不食言！"/>
+    <action type="DIALOG" value="石清#多谢少侠帮了我们这么大的一个忙，这是我玄素庄上的高深剑法，就赠与少侠吧。"/>
+    <action type="ITEM" value="上清剑法#1"/>
+    <action type="DIALOG" value="主角#谢谢石庄主，石兄弟，你要跟着我一起闯荡江湖么？"/>
+    <action type="DIALOG" value="石破天#不了，我还是回老家陪阿黄吧。其实阿黄没人陪很寂寞，你就不一样了是吧？"/>
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  <story name="侠客行_石_修炼太玄">
+    <action type="MUSIC" value="音乐.金庸群侠传4" />
+    <action type="DIALOG" value="石破天#岛上好无聊啊，我想回家了撸啊撸了"/>
+    <action type="DIALOG" value="主角#石兄，别急着走啊，来看看这石壁上的注解也无妨的。你看这一个个的小蝌蚪，是不是感觉身体里的内力正在游走啊？"/>
+    <action type="DIALOG" value="石破天#啊？这，身体好热，好酥，好麻哟。。。。唔唔，不要在人家身体里乱窜了啦~~"/>
+    <action type="DIALOG" value="主角#我擦，这什么？要崩坏了啊！"/>
+    <action type="DIALOG" value="石破天#唔唔唔唔唔唔唔唔——啊啊啊啊啊啊啊啊——快一点，再快一点——噢噢噢噢噢噢噢噢————"/>
+    <action type="BATTLE" value="侠客行_破天太玄经"/>
+    <result ret="win" type="story" value="侠客行_石太玄神功"/>
+  </story>
+  <story name="侠客行_石太玄神功">
+    <action type="BACKGROUND" value="地图.侠客岛"/>
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派" />
+    <action type="DIALOG" value="石破天#这内力一乱窜，真是豁然开朗啊，脑袋说不出的清凉，这世界是多美好啊，我之前都做了什么啊，妹子倒贴我都不上，我真是太笨了！" />
+    <action type="DIALOG" value="主角#（这到底是石破天还是石中玉。。。）" />
+    <action type="DIALOG" value="石破天#大哥，我先回老家看看，衣锦还乡显摆一下，有事你来找我！" />
+    <action type="DIALOG" value="主角#啊，等等，臭小子，你家在哪啊……" />
+    <action type="LOG" value="石破天领悟了太玄神功"/>
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  <story name="侠客行_石张家口">
+    <action type="BACKGROUND" value="地图.市井"/>
+    <action type="MUSIC" value="音乐.室内_世俗"/>
+    <action type="DIALOG" value="主角#石破天~" />
+    <action type="DIALOG" value="石破天#哟大哥~好久不见了，有没有需要我的地方啊？" />
+    <action type="DIALOG" value="主角#有啊，走吧，我太需要你了！" />
+    <action type="DIALOG" value="石破天#成，走你" />
+    <action type="JOIN" value="石破天"/>
+    <action type="DIALOG" value="白自在#石中玉！终于让我找到你了！抓住他！" />
+    <action type="BATTLE" value="侠客行_石张家口"/>
+    <result ret="win" type="story" value="侠客行_石雪山"/>
+  </story>
+  <story name="侠客行_石雪山">
+    <action type="BACKGROUND" value="地图.市井"/>
+    <action type="MUSIC" value="音乐.室内_世俗"/>
+    <action type="DIALOG" value="石破天#哎呀，不要一上来就动手动脚的，有什么事不能坐下好好说呢？"/>
+    <action type="DIALOG" value="白自在#……………………走，跟我上雪山，咱们坐下好好说。"/>
+    <result ret="0" type="story" value="侠客行_石雪山1"/>
+  </story>
+  <story name="侠客行_石雪山1">
+    <action type="BACKGROUND" value="地图.雪山派"/>
+    <action type="DIALOG" value="主角#事情就是这样啦，我真没撒谎啊"/>
+    <action type="DIALOG" value="白自在#哼，世上怎么可能有如此相像的两个人，少侠还是不要说了，除非我见到两个石中玉，否则我是不会相信的。"/>
+    <action type="DIALOG" value="谢烟客#老夫受这位小兄弟所托，前来灭了雪山派，雪山派的废物们，速速出来领死吧！"/>
+    <action type="DIALOG" value="白自在#（一眼看到了谢烟客身边的石中玉）啊？石中玉？这……"/>
+    <action type="DIALOG" value="石清#玉儿！"/>
+    <action type="DIALOG" value="谢烟客#（看到了主角身边的石破天）两个狗杂种！"/>
+    <action type="DIALOG" value="石破天#谢伯伯是我啊，我是狗杂种啊，你不认识我了吗？你每天晚上熄灯后都在床上做奇怪的运动，每周末都要下山去给山下王寡妇送大米，你床垫子下有你珍藏的十七本……"/>
+    <action type="DIALOG" value="谢烟客#好停下！打住！石爷爷，我终于找到你了，不要再说了。我身边这小子是谁啊竟敢冒充你，看我一掌毙了他！"/>
+    <action type="DIALOG" value="石破天#停手，谢伯伯！"/>
+    <action type="DIALOG" value="谢烟客#啊？你命令我做什么？停手？"/>
+    <action type="DIALOG" value="石破天#（好奸诈的老头，算了，少爷我已经是武功盖世了，不需要你了，干脆一不做二不休，石中玉你竟敢NTR我老婆，我就让你求生不得，求死不能……）"/>
+    <action type="DIALOG" value="石破天#谢伯伯，我正式命令你有生之年都教导你身边这个叫石中玉的好好做人。石中玉，你就老老实实跟着这位谢前辈去改造吧，争取以后出来可以造福社会，不要为害一方了。"/>
+    <action type="DIALOG" value="石中玉#啊？爹娘啊，救命啊！！！"/>
+    <action type="DIALOG" value="石清#玉儿……也好，你就好好跟着这位谢前辈学习学习吧！"/>
+    <action type="DIALOG" value="谢烟客#哼，老夫说到做到，这累赘我就收下了，走吧！"/>
+    <action type="DIALOG" value="石破天#大哥，咱们也走吧。"/>
+    <action type="DIALOG" value="石清#等等，这位少侠，你帮了我们夫妻二人大忙，我玄素庄感激不尽，这本秘籍是我玄素庄剑法精要，请少侠收下吧！"/>
+    <action type="ITEM" value="上清剑法精要#1"/>
+    <action type="DIALOG" value="主角#谢谢石庄主。咱们走吧石兄弟。"/>
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+</root>

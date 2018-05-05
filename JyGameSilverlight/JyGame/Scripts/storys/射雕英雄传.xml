@@ -1,0 +1,394 @@
+<root>
+  <story name="射雕英雄传_塞外郭靖">
+    <action type="BACKGROUND" value="地图.塞外" />
+    <action type="MUSIC" value="音乐.天龙八部1" />
+    <action type="DIALOG" value="郭靖#我傻，我笨，可是我以后会成为一代大侠！" />
+    <action type="DIALOG" value="主角#谁告诉你的？" />
+    <action type="DIALOG" value="郭靖#有本《神雕英雄传》里是这么写的。" />
+    <action type="DIALOG" value="主角#那都是哄小孩的，别信那些。" />
+    <action type="DIALOG" value="郭靖#唉，那难道我一辈子就呆在这里。华筝公主天天嫌我傻，几个师父每天教点三流功夫。我一辈子就完啦！那书里还写我会有个叫黄蓉的老婆，可伶俐哩！（说着口水就流了下来…）" />
+    <action type="DIALOG" value="主角#瞧你这点出息…" />
+    <action type="DIALOG" value="郭靖#要不，你带我出去转转，见见世面吧。最重要的是去找到那个叫黄蓉的妹子！" />
+    <action type="DIALOG" value="主角#…就带你去玩玩吧。" />
+    <action type="JOIN" value="郭靖" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="射雕英雄传_白驼山欧阳克1">
+    <action type="BACKGROUND" value="地图.绝情谷大厅.小" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="主角#听说白驼山养了很多草X马，十大神兽之首啊。来参观下。" />
+    <action type="DIALOG" value="欧阳克#强盗！抢劫！" />
+    <action type="BATTLE" value="白驼山欧阳克_战斗" />
+    <result ret="win" type="story" value="射雕英雄传_白驼山欧阳克2" />
+  </story>
+  <story name="射雕英雄传_白驼山欧阳克2">
+    <action type="BACKGROUND" value="地图.绝情谷大厅.小" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="主角#你这个武功...不行" />
+    <action type="DIALOG" value="欧阳克#..." />
+    <action type="ITEM" value="灵蛇拳秘籍#1" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="射雕英雄传_张家口1">
+    <action type="BACKGROUND" value="地图.市井" />
+    <action type="MUSIC" value="音乐.室内_世俗" />
+    <action type="DIALOG" value="郭靖#没错，传说就是在这里，我可以遇到我的…啊！（沉醉了）" />
+    <action type="DIALOG" value="主角#……南贤那老头子果然说得没错，这里虽然还是金庸世界，但又不是金庸世界了…" />
+    <action type="DIALOG" value="郭靖#你看，那里真的有个叫花子耶。快快，我们迎上去吧！（快步前去）" />
+    <action type="DIALOG" value="主角#瞧你这猴急的…（ 跟着前去了）" />
+    <result ret="0" type="story" value="射雕英雄传_张家口2" />
+  </story>
+  <story name="射雕英雄传_张家口2">
+    <action type="BACKGROUND" value="地图.市井" />
+    <action type="MUSIC" value="音乐.室内_世俗" />
+    <action type="DIALOG" value="黄蓉#..." />
+    <action type="DIALOG" value="郭靖#嘻嘻" />
+    <action type="DIALOG" value="黄蓉#..." />
+    <action type="DIALOG" value="郭靖#嘻嘻" />
+    <action type="DIALOG" value="黄蓉#..." />
+    <action type="DIALOG" value="郭靖#嘻嘻" />
+    <action type="DIALOG" value="黄蓉#你谁啊？不要在我边上傻笑好不好？好烦诶。" />
+    <action type="DIALOG" value="郭靖#我叫郭靖，是你传说中的夫君。" />
+    <action type="DIALOG" value="黄蓉#（看着郭靖，忍不住笑了）" />
+    <action type="DIALOG" value="郭靖#嘻嘻。" />
+    <action type="DIALOG" value="黄蓉#（暗运掌风，狠狠给了郭靖一个嘴巴）流氓！" />
+    <action type="DIALOG" value="郭靖#@_@" />
+    <action type="DIALOG" value="黄蓉#（扬长而去）" />
+    <action type="DIALOG" value="郭靖#这…和书里写得不一样啊……" />
+    <action type="LOG" value="张家口遇见黄蓉。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="射雕英雄传_岳家枪法1">
+    <action type="BACKGROUND" value="地图.古墓外2" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="主角#咦？怎么好像前面有人在偷偷摸摸地挖坟？大胆！居然挖岳元帅的坟！" />
+    <action type="BATTLE" value="岳王墓_战斗" />
+    <result ret="win" type="story" value="射雕英雄传_岳家枪法2" />
+  </story>
+  <story name="射雕英雄传_岳家枪法2">
+    <action type="BACKGROUND" value="地图.古墓外2" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="主角#哼，你们这些卖国的狗贼。这挖出来的是…岳家枪法？" />
+    <action type="DIALOG" value="主角#..." />
+    <action type="DIALOG" value="主角#...好吧，收到自己口袋里再说..." />
+    <action type="ITEM" value="岳家枪法精义#1" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="射雕英雄传_梅超风1">
+    <action type="BACKGROUND" value="地图.古墓外2" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="主角#作恶多段的梅超风，落在我的手里，今天要你好看！" />
+    <action type="BATTLE" value="梅超风_战斗" />
+    <result ret="win" type="story" value="射雕英雄传_梅超风2" />
+  </story>
+  <story name="射雕英雄传_梅超风2">
+    <action type="BACKGROUND" value="地图.古墓外2" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="ITEM" value="九阴白骨爪精义#1" />
+    <action type="NICK" value="白骨摧筋" />
+    <action type="DIALOG" value="主角#居然不是九阴真经，唉，太~失~望~了~" />
+    <action type="LOG" value="击败梅超风。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="射雕英雄传_渔樵耕读1">
+    <action type="BACKGROUND" value="地图.小村口" />
+    <action type="MUSIC" value="音乐.神雕.歌泣" />
+    <action type="DIALOG" value="主角#听说，如果要见到一灯大师，必须先过你们这四关。" />
+    <action type="DIALOG" value="渔#不错。" />
+    <action type="DIALOG" value="主角#我是个粗人。" />
+    <action type="DIALOG" value="樵#那又如何？" />
+    <action type="DIALOG" value="主角#不会作诗，也不会对对子。喜欢打架。" />
+    <action type="DIALOG" value="耕#所以呢？" />
+    <action type="DIALOG" value="主角#所以只好硬闯了。" />
+    <action type="DIALOG" value="读#真是粗人啊…" />
+    <action type="DIALOG" value="主角#来吧，我们过过招。" />
+    <action type="BATTLE" value="渔樵耕读_战斗" />
+    <result ret="win" type="story" value="射雕英雄传_渔樵耕读2" />
+  </story>
+  <story name="射雕英雄传_渔樵耕读2">
+    <action type="BACKGROUND" value="地图.小村口" />
+    <action type="MUSIC" value="音乐.神雕.歌泣" />
+    <action type="DIALOG" value="读#小兄弟身手不错，想拜访一灯大师就请便吧。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="射雕英雄传_白驼山欧阳锋1">
+    <action type="BACKGROUND" value="地图.绝情谷大厅.小" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="主角#这不是一个能随便闯的地方，因为冷不丁就会碰到很猛的人物…" />
+    <action type="DIALOG" value="欧阳锋#你是说我么？" />
+    <action type="DIALOG" value="主角#哇！" />
+    <action type="BATTLE" value="白驼山欧阳锋_战斗" />
+    <result ret="win" type="story" value="射雕英雄传_白驼山欧阳锋2" />
+  </story>
+  <story name="射雕英雄传_白驼山欧阳锋2">
+    <action type="BACKGROUND" value="地图.绝情谷大厅.小" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="欧阳锋#小子武功不错..." />
+    <action type="UPGRADE.拳掌" value="郭靖#5" />
+    <action type="ITEM" value="蛤蟆功秘籍#1" />
+    <action type="LOG" value="击败西毒欧阳锋。" />
+    <action type="NICK" value="蛤蟆神功" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="射雕英雄传_桃花岛黄药师1">
+    <action type="BACKGROUND" value="地图.桃花岛" />
+    <action type="MUSIC" value="音乐.神雕.歌泣" />
+    <action type="DIALOG" value="主角#这不是一个能随便闯的地方，因为冷不丁就会碰到很猛的人物…" />
+    <action type="DIALOG" value="黄药师#你是说我么？" />
+    <action type="DIALOG" value="主角#哇！" />
+    <action type="BATTLE" value="桃花岛黄药师_战斗" />
+    <result ret="win" type="story" value="射雕英雄传_桃花岛黄药师2" />
+    <result ret="lose">
+      <control type="story" value="射雕英雄传_桃花岛黄药师负">
+        <condition type="should_not_finish" value="射雕英雄传_桃花岛黄药师负" />
+      </control>
+      <control type="gameOver" value="gameOver" />
+    </result>
+  </story>
+  <story name="射雕英雄传_桃花岛黄药师负">
+    <action type="BACKGROUND" value="地图.桃花岛" />
+    <action type="MUSIC" value="音乐.神雕.歌泣" />
+    <action type="DIALOG" value="黄药师#小子武功还不行啊...你要争气一点嘛，我可不想要西毒欧阳锋的侄子当我的女婿！" />
+    <action type="UPGRADE.MAXHP" value="郭靖#300" />
+    <action type="UPGRADE.MAXMP" value="郭靖#300" />
+    <action type="UPGRADE.悟性" value="郭靖#15" />
+    <action type="UPGRADE.身法" value="郭靖#25" />
+    <action type="UPGRADE.臂力" value="郭靖#10" />
+    <action type="DIALOG" value="郭靖#多谢未来岳父！" />
+    <action type="DIALOG" value="黄药师#别乱叫！" />
+  </story>
+  <story name="射雕英雄传_桃花岛黄药师再战">
+    <action type="BACKGROUND" value="地图.桃花岛" />
+    <action type="MUSIC" value="音乐.神雕.歌泣" />
+    <action type="DIALOG" value="主角#再来！" />
+    <action type="DIALOG" value="黄药师#这次我可不会留情了！" />
+    <action type="BATTLE" value="桃花岛黄药师_战斗" />
+    <result ret="win" type="story" value="射雕英雄传_桃花岛黄药师2" />
+    <result ret="lose">
+      <control type="story" value="射雕英雄传_桃花岛黄药师负">
+        <condition type="should_not_finish" value="射雕英雄传_桃花岛黄药师负" />
+      </control>
+      <control type="gameOver" value="gameOver" />
+    </result>
+  </story>
+  <story name="射雕英雄传_桃花岛黄药师2">
+    <action type="BACKGROUND" value="地图.桃花岛" />
+    <action type="MUSIC" value="音乐.神雕.歌泣" />
+    <action type="DIALOG" value="黄药师#小子武功不错，这个拿去学学。" />
+    <action type="ITEM" value="弹指神通秘籍#1" />
+    <action type="LOG" value="击败东邪黄药师。" />
+    <action type="NICK" value="碧海潮生" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="射雕英雄传_一灯居1">
+    <action type="BACKGROUND" value="地图.主角之家" />
+    <action type="MUSIC" value="音乐.室内_清新" />
+    <action type="DIALOG" value="一灯大师#小友，我等候你多时了。" />
+    <action type="DIALOG" value="主角#敬请大师赐教！" />
+    <action type="BATTLE" value="一灯居一灯大师_战斗" />
+    <result ret="win" type="story" value="射雕英雄传_一灯居2" />
+    <result ret="lose">
+      <control type="story" value="射雕英雄传_一灯居负">
+        <condition type="should_not_finish" value="射雕英雄传_一灯居负" />
+      </control>
+      <control type="gameOver" value="gameOver" />
+    </result>
+  </story>
+  <story name="射雕英雄传_一灯居负">
+    <action type="BACKGROUND" value="地图.主角之家" />
+    <action type="MUSIC" value="音乐.室内_清新" />
+    <action type="DIALOG" value="一灯大师#小友武功还不够，来，我再教你一点。" />
+    <action type="UPGRADE.MAXHP" value="郭靖#300" />
+    <action type="UPGRADE.MAXMP" value="郭靖#300" />
+    <action type="UPGRADE.臂力" value="郭靖#10" />
+    <action type="UPGRADE.拳掌" value="郭靖#5" />
+    <action type="DIALOG" value="郭靖#多谢大师！" />
+  </story>
+  <story name="射雕英雄传_一灯居再战">
+    <action type="BACKGROUND" value="地图.主角之家" />
+    <action type="MUSIC" value="音乐.室内_清新" />
+    <action type="DIALOG" value="主角#再来！" />
+    <action type="DIALOG" value="一灯大师#这次我会认真了，小友小心！" />
+    <action type="BATTLE" value="一灯居一灯大师_战斗" />
+    <result ret="win" type="story" value="射雕英雄传_一灯居2" />
+    <result ret="lose">
+      <control type="story" value="射雕英雄传_一灯居负">
+        <condition type="should_not_finish" value="射雕英雄传_一灯居负" />
+      </control>
+      <control type="gameOver" value="gameOver" />
+    </result>
+  </story>
+  <story name="射雕英雄传_一灯居2">
+    <action type="BACKGROUND" value="地图.主角之家" />
+    <action type="MUSIC" value="音乐.室内_清新" />
+    <action type="DIALOG" value="一灯大师#小友武功不错，不错。" />
+    <action type="DIALOG" value="主角#然后呢？" />
+    <action type="DIALOG" value="一灯大师#然后？" />
+    <action type="DIALOG" value="主角#一般这时候，不应该要送一本武功秘籍之类的么？" />
+    <action type="DIALOG" value="一灯大师#阿弥陀佛，小友武功已经胜过我了，还要我的武功秘籍何用？" />
+    <action type="DIALOG" value="主角#这...那我辛辛苦苦杀了一气，至少要给点辛苦费啊。" />
+    <action type="DIALOG" value="一灯大师#（笑而不语）" />
+    <action type="DIALOG" value="主角#大~师~" />
+    <action type="DIALOG" value="一灯大师#（低宣一声佛号）小友，世间的事情，岂能有因又马上有果？你我缘分未尽，他日再见吧。" />
+    <action type="DIALOG" value="主角#......" />
+    <action type="LOG" value="击败南帝段王爷。" />
+    <action type="NICK" value="一阳指禅" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="射雕英雄传_洪七公1">
+    <action type="BACKGROUND" value="地图.树林2" />
+    <action type="MUSIC" value="音乐.室内_世俗" />
+    <action type="DIALOG" value="洪七公#菜里没有一滴油啊，手捧着窝窝头…" />
+    <action type="DIALOG" value="主角#造孽啊…" />
+    <action type="DIALOG" value="洪七公#这年头吃油怕吃地沟油，吃粮都爱吃粗粮，我这样很健康的。" />
+    <action type="DIALOG" value="主角#……" />
+    <action type="DIALOG" value="洪七公#来，小子。今天碰到我是你的缘分。你我比划比划。" />
+    <action type="BATTLE" value="长江岸边洪七公_战斗" />
+    <result ret="win" type="story" value="射雕英雄传_洪七公2" />
+    <result ret="lose">
+      <control type="story" value="射雕英雄传_洪七公负">
+        <condition type="should_not_finish" value="射雕英雄传_洪七公负" />
+      </control>
+      <control type="gameOver" value="gameOver" />
+    </result>
+  </story>
+  <story name="射雕英雄传_洪七公负">
+    <action type="BACKGROUND" value="地图.树林2" />
+    <action type="MUSIC" value="音乐.室内_世俗" />
+    <action type="DIALOG" value="洪七公#小子，你这水平还不行啊...罢了，我们总是有缘，你很适合学我丐帮武功，试试这个！" />
+    <action type="UPGRADE.MAXHP" value="郭靖#500" />
+    <action type="UPGRADE.MAXMP" value="郭靖#500" />
+    <action type="GET_POINT" value="郭靖#25" />
+    <action type="UPGRADE.拳掌" value="郭靖#10" />
+    <action type="UPGRADE.剑法" value="郭靖#10" />
+    <action type="UPGRADE.刀法" value="郭靖#10" />
+    <action type="UPGRADE.奇门" value="郭靖#10" />
+    <action type="LEARN.SKILL" value="郭靖#降龙十八掌#8" />
+    <action type="DIALOG" value="郭靖#多谢七公传授武艺！" />
+  </story>
+  <story name="射雕英雄传_洪七公再战">
+    <action type="BACKGROUND" value="地图.树林2" />
+    <action type="MUSIC" value="音乐.室内_世俗" />
+    <action type="DIALOG" value="主角#再来！" />
+    <action type="DIALOG" value="洪七公#这次我会认真打了，小子小心！" />
+    <action type="BATTLE" value="长江岸边洪七公_战斗" />
+    <result ret="win" type="story" value="射雕英雄传_洪七公2" />
+    <result ret="lose">
+      <control type="story" value="射雕英雄传_洪七公负">
+        <condition type="should_not_finish" value="射雕英雄传_洪七公负" />
+      </control>
+      <control type="gameOver" value="gameOver" />
+    </result>
+  </story>
+  <story name="射雕英雄传_洪七公2">
+    <action type="BACKGROUND" value="地图.树林2" />
+    <action type="MUSIC" value="音乐.室内_世俗" />
+    <action type="DIALOG" value="洪七公#小子武功不错，这个再拿去学学。" />
+    <action type="ITEM" value="打狗棒法入门#1" />
+    <action type="LOG" value="击败北丐洪七公。" />
+    <action type="NICK" value="天下无狗" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="射雕英雄传_桃花岛招亲1">
+    <action type="BACKGROUND" value="地图.桃花岛" />
+    <action type="MUSIC" value="音乐.神雕.歌泣" />
+    <action type="DIALOG" value="郭靖#我走南闯北，终于把天下五绝还活着的都虐了一遍。现在蓉儿，我够资格当你的老公了吧…" />
+    <action type="DIALOG" value="黄药师#这小子虽然样子傻，但是能败尽天下高手，蓉儿跟着他应该也不会吃亏…嗯…" />
+    <action type="DIALOG" value="黄蓉#慢着，爹爹。" />
+    <action type="DIALOG" value="黄药师#怎么了？" />
+    <action type="DIALOG" value="黄蓉#他一个人单挑可以，但要是碰上一堆人群殴怎么办？" />
+    <action type="DIALOG" value="黄药师#那简单啊，我召集齐四个哥们儿，大家伙儿一起上啊！" />
+    <action type="BATTLE" value="桃花岛招亲_战斗" />
+    <result ret="win" type="story" value="射雕英雄传_桃花岛招亲2" />
+  </story>
+  <story name="射雕英雄传_桃花岛招亲2">
+    <action type="BACKGROUND" value="地图.桃花岛" />
+    <action type="MUSIC" value="音乐.神雕.歌泣" />
+    <action type="DIALOG" value="黄药师#嗯，不错。" />
+    <action type="DIALOG" value="黄蓉#昔日的傻小子，今天也长大了。" />
+    <action type="DIALOG" value="黄药师#蓉儿，你就随这傻小子多多历练一下吧。" />
+    <action type="DIALOG" value="黄蓉#是，爹爹。" />
+    <action type="JOIN" value="黄蓉" />
+    <action type="UPGRADE.MAXHP" value="郭靖#1000" />
+    <action type="UPGRADE.MAXMP" value="郭靖#1000" />
+    <action type="GET_POINT" value="郭靖#25" />
+    <action type="UPGRADE.拳掌" value="郭靖#5" />
+    <action type="LEARN.SKILL" value="郭靖#降龙十八掌#10" />
+    <action type="LEARN.INTERNALSKILL" value="郭靖#九阴神功#10" />
+    <action type="LEARN.TALENT" value="郭靖#射雕英雄" />
+    <action type="LOG" value="击败天下四绝。" />
+    <result ret="0">
+      <control type="story" value="original_女主.射雕英雄传">
+        <condition type="key_in_team" value="女主" />
+        <condition type="should_finish" value="original_长安.家中"/>
+      </control>
+      <control type="map" value="大地图">
+        <condition type="key_not_in_team" value="女主" />
+      </control>
+    </result>
+  </story>
+  
+  
+  <story name="射雕英雄传_重阳宫王重阳1">
+    <action type="BACKGROUND" value="地图.全真教"/>
+    <action type="MUSIC" value="音乐.神雕.舒缓"/>
+    <action type="DIALOG" value="郭靖#蓉儿，你说今天欧阳锋会不会来抢真经？" />
+    <action type="DIALOG" value="黄蓉#为什么他要来？" />
+    <action type="DIALOG" value="郭靖#因为上次他练了个逆转真经，肯定练岔了气。" />
+    <result ret="0" type="story" value="射雕英雄传_重阳宫王重阳2" />
+  </story>
+  <story name="射雕英雄传_重阳宫王重阳2">
+    <action type="DIALOG" value="欧阳锋#哼！" />
+    <action type="DIALOG" value="黄蓉#哇，真的出现了，靖哥哥你好厉害哦。" />
+    <action type="BATTLE" value="全真教欧阳锋_战斗" />
+    <result ret="win" type="story" value="射雕英雄传_重阳宫王重阳3" />
+  </story>
+  <story name="射雕英雄传_重阳宫王重阳3">
+    <action type="UPGRADE.拳掌" value="郭靖#10" />
+    <action type="UPGRADE.奇门" value="黄蓉#15" />
+    <action type="UPGRADE.MAXHP" value="黄蓉#1000" />
+    <action type="UPGRADE.MAXMP" value="黄蓉#1000" />
+    <action type="DIALOG" value="王重阳#感谢几位小友打退欧阳锋。" />
+    <action type="DIALOG" value="主角#哇，王重阳又复活了！" />
+    <action type="DIALOG" value="王重阳#多复活几次，就习惯了…一如既往，赢了我，就有秘籍哦。" />
+    <action type="BATTLE" value="全真教王重阳1_战斗" />
+    <result ret="win" type="story" value="射雕英雄传_重阳宫胜王重阳" />
+    <result ret="lose" type="story" value="射雕英雄传_重阳宫负王重阳" />
+  </story>
+  <story name="射雕英雄传_重阳宫胜王重阳">
+    <action type="ITEM" value="先天功秘籍#1" />
+    <action type="DIALOG" value="主角#唉，居然不是九阴真经，太失望了。" />
+    <action type="DIALOG" value="王重阳#失望啥，九阴真经也在这里，就看你有没有本事拿了。准备好再来吧。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="射雕英雄传_重阳宫负王重阳">
+    <action type="DIALOG" value="主角#唉，打不过。" />
+    <action type="DIALOG" value="王重阳#没事，我这里还有一本九阴真经..." />
+    <action type="DIALOG" value="主角#嗯？（两眼放光）" />
+    <action type="DIALOG" value="王重阳#呵呵，小友准备好了再来吧。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="射雕英雄传_重阳宫九阴真经1">
+    <action type="BACKGROUND" value="地图.全真教"/>
+    <action type="MUSIC" value="音乐.神雕.舒缓"/>
+    <action type="DIALOG" value="主角#我要挑战九阴真经！" />
+    <action type="DIALOG" value="王重阳#那来吧，嘿呀！各路神仙保佑！" />
+    <action type="BATTLE" value="全真教王重阳2_战斗" />
+    <result ret="win" type="story" value="射雕英雄传_重阳宫九阴真经胜" />
+    <result ret="lose" type="story" value="射雕英雄传_重阳宫九阴真经负" />
+  </story>
+  <story name="射雕英雄传_重阳宫九阴真经胜">
+    <action type="DIALOG" value="王重阳#长江后浪推前浪，前浪死在沙滩上..." />
+    <action type="DIALOG" value="主角#没事，你还可以复活的。" />
+    <action type="DIALOG" value="王重阳#......" />
+    <action type="DIALOG" value="王重阳#九阴真经拿去吧，小友务必以天下苍生为念。" />
+    <action type="ITEM" value="九阴真经#1" />
+    <action type="LOG" value="击败中神通王重阳。" />
+    <action type="NICK" value="剑傲华山" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="射雕英雄传_重阳宫九阴真经负">
+    <action type="DIALOG" value="王重阳#下次再来过吧..." />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+</root>

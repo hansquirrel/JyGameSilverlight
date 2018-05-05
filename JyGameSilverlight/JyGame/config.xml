@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+  debug 调试开关   
+  设置true则打开console调试栏和battle结果调试栏
+  
+  script 脚本读入方式
+  dll,
+  xap,
+  file（只有OOB模式可以使用）
+  
+  scriptroot 脚本根目录
+  -->
+
+<!--WEB版本请启用下面这一行-->
+<config debug="false" script="dll"/>
+
+<!--OOB脚本调试模式请启用下面这一行-->
+<!--<config debug="false" script="dll" scriptroot="D:\jygame\" resourceroot="D:\jygame\"/>-->

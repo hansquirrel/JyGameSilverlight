@@ -1,0 +1,25 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
+	mc:Ignorable="d"
+	x:Class="JyGame.ProjectPanel"
+	d:DesignWidth="640" d:DesignHeight="480" Width="450" Height="700" Loaded="UserControl_Loaded">
+
+	<Grid x:Name="LayoutRoot" Background="Black">
+		<sdk:TreeView x:Name="ProjectTreeView" HorizontalAlignment="Left" VerticalAlignment="Top" Height="485" Width="430" Margin="10,156,0,0" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto"/>
+		<TextBlock HorizontalAlignment="Left" Height="21" Margin="10,124,0,0" TextWrapping="Wrap" Text="搜索" VerticalAlignment="Top" Width="55" Foreground="White"/>
+		<TextBox x:Name="KeywordText" HorizontalAlignment="Left" Height="21" Margin="65,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" TextChanged="KeywordText_TextChanged"/>
+		<Button x:Name="NewObjectButton" Content="新增" HorizontalAlignment="Left" Height="27" Margin="10,659,0,0" VerticalAlignment="Top" Width="69" Click="NewObjectButton_Click"/>
+		<Button x:Name="DeleteObjectButton" Content="删除" HorizontalAlignment="Left" Height="27" Margin="101,659,0,0" VerticalAlignment="Top" Width="69" Click="DeleteObjectButton_Click"/>
+		<Button x:Name="ModifyObjectButton" Content="编辑" HorizontalAlignment="Left" Height="27" Margin="191,659,0,0" VerticalAlignment="Top" Width="69" Click="ModifyObjectButton_Click"/>
+		<Button x:Name="RefreshButton" Content="刷新" HorizontalAlignment="Left" Height="27" Margin="386,119,0,0" VerticalAlignment="Top" Width="54" Click="RefreshButton_Click"/>
+		<Button x:Name="OpenProjectButton" Content="打开" HorizontalAlignment="Left" Height="25" Margin="286,27,0,0" VerticalAlignment="Top" Width="77" Click="OpenProjectButton_Click"/>
+		<Button x:Name="SaveProjectButton" Content="保存" HorizontalAlignment="Left" Height="25" Margin="368,27,0,0" VerticalAlignment="Top" Width="72" Click="SaveProjectButton_Click"/>
+		<TextBox x:Name="CurrentProjectText" HorizontalAlignment="Left" Height="23" Margin="65,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" IsReadOnly="True"/>
+		<TextBlock HorizontalAlignment="Left" Height="21" Margin="10,30,0,0" TextWrapping="Wrap" Text="当前工程" VerticalAlignment="Top" Width="55" Foreground="White"/>
+		<TextBlock HorizontalAlignment="Left" Height="21" TextWrapping="Wrap" Text="工程资源管理器" VerticalAlignment="Top" Width="440" Foreground="White" FontSize="14.667" TextAlignment="Center"/>
+	</Grid>
+</UserControl>

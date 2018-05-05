@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<shops>
+	<shop name="洛阳.商店" pic="场景.商店" music="音乐.城市3">
+		<sale name="小还丹"/>
+		<sale name="大还丹"/>
+		<sale name="白酒"/>
+		<sale name="黄金重甲" limit="1"/>
+    <sale name="粗布道袍"/>
+		<sale name="木鱼" limit="1"/>
+    <sale name="阔剑" limit="1"/>
+    <sale name="柳叶刀" limit="1"/>
+		<sale name="飘雪穿云掌法" limit="1"/>
+		<sale name="华山剑法秘籍" limit="1"/>
+		<sale name="南山刀法谱" limit="1"/>
+		<sale name="蛇鹤八打" limit="1"/>
+		<sale name="内功入门" limit="1"/>
+    <sale name="刀"/>
+	</shop>
+	<shop name="洛阳.商店.神秘" pic="场景.商店" music="音乐.城市3">
+		<sale name="天王保命丹"/>
+		<sale name="黑玉断续膏"/>
+		<sale name="燃木刀法" limit="1"/>
+    <sale name="石梁心法秘籍" limit="1"/>
+    <sale name="乌蚕衣" limit="1" yuanbao="1"/>
+    <sale name="不二枪" limit="1" yuanbao="2"/>
+    <sale name="碧水剑" limit="1" yuanbao="2"/>
+    <sale name="龙头拐杖" limit="1" yuanbao="2"/>
+    <sale name="软鞭" limit="1" yuanbao="2"/>
+    <sale name="万劫指" limit="1" yuanbao="2"/>
+    <sale name="冷月宝刀" limit="1" yuanbao="5"/>
+		<sale name="倚天剑" limit="1" yuanbao="5"/>
+		<sale name="屠龙刀" limit="1" yuanbao="5"/>
+    <sale name="血刀" limit="1" yuanbao="5"/>
+    <sale name="真武剑" limit="1" yuanbao="4"/>
+    <sale name="打狗棒" limit="1" yuanbao="4"/>
+    <sale name="金蛇剑" limit="1" yuanbao="3"/>
+    <sale name="灭仙爪" limit="1" yuanbao="4"/>
+    <sale name="紫薇软剑" limit="1" yuanbao="4"/>
+    <sale name="道家仙丹" limit="1"/>
+    <sale name="王母蟠桃" limit="1"/>
+    <sale name="刀"/>
+    <sale name="洗练书" yuanbao="3"/>
+	</shop>
+	<shop name="长安.商店" pic="场景.商店2" music="音乐.武侠进行">
+		<sale name="生生造化丹"/>
+		<sale name="白酒"/>
+		<sale name="九花玉露丸"/>
+    <sale name="精钢拳套" limit="1"/>
+    <sale name="金刚杵" limit="1"/>
+    <sale name="金丝道袍" limit="1"/>
+    <sale name="木刀"/>
+    <sale name="银手镯" limit="1"/>
+		<sale name="青莲诗集" limit="1"/>
+		<sale name="八卦游身掌法" limit="1"/>
+		<sale name="绕指柔剑剑谱" limit="1"/>
+		<sale name="草原刀法" limit="1"/>
+		<sale name="玉蜂针" limit="1"/>
+		<sale name="全真心法秘籍" limit="1"/>
+    <sale name="刀"/>
+	</shop>
+  <shop name="武道大会.VIP1" pic="地图.比武场" music="音乐.武侠进行" key="武道大会">
+    <sale name="烈焰黑枪秘本" limit="1" yuanbao="16"/>
+    <sale name="洗练书" yuanbao="1"/>
+    <sale name="降龙十八掌残章" yuanbao="4"/>
+    <sale name="独孤九剑残章" yuanbao="4"/>
+    <sale name="辟邪剑法残章" yuanbao="4"/>
+    <sale name="如来神掌残章" yuanbao="4"/>
+    <sale name="九阴神功残章" yuanbao="4"/>
+    <sale name="九阳神功残章" yuanbao="4"/>
+    <sale name="野球拳残章" yuanbao="4"/>
+    <sale name="金蛇剑法残章" yuanbao="4"/>
+    <sale name="打狗棒法残章" yuanbao="4"/>
+    <sale name="葵花宝典残章" yuanbao="4"/>
+    <sale name="易筋经残章" yuanbao="4"/>
+    <sale name="道家仙丹" limit="1"/>
+    <sale name="王母蟠桃" limit="1"/>
+    <sale name="元宝" price="15000"/>
+    <sale name="凌波微步图谱" limit="1" yuanbao="4"/>
+    <sale name="黑暗遗篇之黑天死炎" limit="1" yuanbao="8"/>
+    <sale name="黑暗遗篇之死生茫茫" limit="1" yuanbao="8"/>
+    <sale name="斗转星移之法" limit="1" yuanbao="10"/>
+    <sale name="小无相功精要" limit="1" yuanbao="10"/>
+    <sale name="华山拳法纲要" limit="1" yuanbao="10"/>
+    <sale name="生意经" limit="1" yuanbao="12"/>
+    <sale name="纯阳无极功残章" yuanbao="3"/>
+    <sale name="天外飞龙残章" yuanbao="3"/>
+    <sale name="碧落苍穹残章" yuanbao="3"/>
+    <sale name="铁血大旗功残章" yuanbao="3"/>
+    <sale name="混元功残章" yuanbao="3"/>
+    <sale name="太极剑残章" yuanbao="3"/>
+    <sale name="太极拳残章" yuanbao="3"/>
+    <sale name="北冥神功残章" yuanbao="3"/>
+    <sale name="胡家刀法残章" yuanbao="3"/>
+    <sale name="先天功残章" yuanbao="3"/>
+    <sale name="血海魔功残章" yuanbao="3"/>
+    <sale name="龙象般若功残章" yuanbao="3"/>
+    <sale name="神照功残章" yuanbao="3"/>
+    <sale name="基本内功残章" yuanbao="1"/>
+    <sale name="千变魔女的披风" limit="1" yuanbao="8"/>
+    <sale name="蚩尤的护甲" limit="1" yuanbao="8"/>
+    <sale name="姜子牙的道袍" limit="1" yuanbao="8"/>
+    <sale name="岳飞的重铠" limit="1" yuanbao="8"/>
+    <sale name="独孤求败的草帽" limit="1" yuanbao="8"/>
+    <sale name="达摩祖师的木鱼" limit="1" yuanbao="8"/>
+    <sale name="孙悟空的紧箍咒" limit="1" yuanbao="8"/>
+    <sale name="魔神信物" limit="1" yuanbao="8"/>
+  </shop>
+  <shop name="武道大会.VIP2" pic="地图.比武场" music="音乐.武侠进行" key="武道大会">
+    <sale name="洗练书" yuanbao="1"/>
+    <sale name="纯阳无极功残章" yuanbao="3"/>
+    <sale name="天外飞龙残章" yuanbao="3"/>
+    <sale name="碧落苍穹残章" yuanbao="3"/>
+    <sale name="铁血大旗功残章" yuanbao="3"/>
+    <sale name="混元功残章" yuanbao="3"/>
+    <sale name="太极剑残章" yuanbao="3"/>
+    <sale name="太极拳残章" yuanbao="3"/>
+    <sale name="北冥神功残章" yuanbao="3"/>
+    <sale name="胡家刀法残章" yuanbao="3"/>
+    <sale name="先天功残章" yuanbao="3"/>
+    <sale name="血海魔功残章" yuanbao="3"/>
+    <sale name="龙象般若功残章" yuanbao="3"/>
+    <sale name="神照功残章" yuanbao="3"/>
+    <sale name="道家仙丹" limit="1"/>
+    <sale name="王母蟠桃" limit="1"/>
+    <sale name="元宝" price="15000"/>
+    <sale name="药王神篇" limit="1" yuanbao="5"/>
+    <sale name="神行百变秘籍" limit="1" yuanbao="8"/>
+    <sale name="罗汉伏魔功秘本" limit="1" yuanbao="5"/>
+    <sale name="蛇胆" limit="1" yuanbao="5"/>
+    <sale name="小无相功精要" limit="1" yuanbao="10"/>
+    <sale name="基本内功残章" yuanbao="1"/>
+    <sale name="千变魔女的披风" limit="1" yuanbao="8"/>
+    <sale name="蚩尤的护甲" limit="1" yuanbao="8"/>
+    <sale name="姜子牙的道袍" limit="1" yuanbao="8"/>
+    <sale name="岳飞的重铠" limit="1" yuanbao="8"/>
+  </shop>
+  <shop name="武道大会.VIP3" pic="地图.比武场" music="音乐.武侠进行" key="武道大会">
+    <sale name="北冥神功残章" yuanbao="3"/>
+    <sale name="胡家刀法残章" yuanbao="3"/>
+    <sale name="先天功残章" yuanbao="3"/>
+    <sale name="血海魔功残章" yuanbao="3"/>
+    <sale name="龙象般若功残章" yuanbao="3"/>
+    <sale name="神照功残章" yuanbao="3"/>
+    <sale name="道家仙丹" limit="1"/>
+    <sale name="王母蟠桃" limit="1"/>
+    <sale name="元宝" price="18000"/>
+    <sale name="飞向天际" limit="1" yuanbao="3"/>
+    <sale name="医术汇总" limit="1" yuanbao="5"/>
+    <sale name="黯然销魂掌谱" limit="1" yuanbao="5"/>
+    <sale name="基本内功残章" yuanbao="1"/>
+    <sale name="幽梦衣" limit="1"/>
+    <sale name="忍者服" limit="1"/>
+    <sale name="月梦爪" limit="1"/>
+    <sale name="姜子牙的道袍" limit="1" yuanbao="8"/>
+  </shop>
+  <shop name="武道大会.VIP4" pic="地图.比武场" music="音乐.武侠进行" key="武道大会">
+    <sale name="元宝" price="19000"/>
+    <sale name="道家仙丹" limit="1"/>
+    <sale name="王母蟠桃" limit="1"/>
+    <sale name="天王保命丹"/>
+    <sale name="黑玉断续膏"/>
+    <sale name="基本内功残章" yuanbao="1"/>
+    <sale name="幽梦衣" limit="1"/>
+    <sale name="忍者服" limit="1"/>
+    <sale name="月梦爪" limit="1"/>
+    <sale name="回力跑鞋" limit="1"/>
+  </shop>
+  <shop name="武道大会.VIP5" pic="地图.比武场" music="音乐.武侠进行" key="武道大会">
+    <sale name="道家仙丹" limit="1"/>
+    <sale name="王母蟠桃" limit="1"/>
+    <sale name="元宝" price="20000"/>
+    <sale name="天王保命丹"/>
+    <sale name="黑玉断续膏"/>
+    <sale name="基本内功残章" yuanbao="1"/>
+    <sale name="幽梦衣" limit="1"/>
+    <sale name="忍者服" limit="1"/>
+    <sale name="月梦爪" limit="1"/>
+    <sale name="回力跑鞋" limit="1"/>
+  </shop>
+	<sellshop name="长安.当铺" pic="场景.商店2" music="音乐.武侠进行"/>
+</shops>

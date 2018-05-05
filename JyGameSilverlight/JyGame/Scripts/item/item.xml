@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by test (dfdf) -->
+<!-- type 0消耗品  1武器  2防具  3特殊  4经书  5任务物品-->
+<items>
+  <!--
+  <item name="测试小刀" desc="号令天下，莫敢不从" pic="物品.屠龙刀" type="1" level="10" price="1" talent="破甲#刀系装备">
+    <trigger name="attack" argvs="200,10"/>
+    <trigger name="powerup_skill" argvs="野球拳,10"/>
+    <trigger name="powerup_internalskill" argvs="基本内功,10"/>
+    <trigger name="powerup_aoyi" argvs="日月魔剑,10,24"/>
+    <trigger name="xi" argvs="15"/>
+    <trigger name="powerup_quanzhang" argvs="15"/>
+    <trigger name="powerup_jianfa" argvs="10"/>
+    <trigger name="powerup_daofa" argvs="10"/>
+    <trigger name="powerup_qimen" argvs="10"/>
+    <trigger name="critical" argvs="30"/>
+    <trigger name="attribute" argvs="身法,40"/>
+    <trigger name="attribute" argvs="臂力,35"/>
+    <trigger name="attribute" argvs="搏击格斗,35"/>
+    <trigger name="attribute" argvs="奇门兵器,25"/>
+  </item>
+  -->
+	<!--物品.消耗品-->
+	<item name="止血草" desc="常见的草药，有止血之功效" pic="物品.止血草" type="0" level="1" price="1" drop="true">
+		<trigger name="AddHp" argvs="360"/>
+	</item>
+	<item name="小还丹" desc="活血化瘀的丹药，闯江湖必备" pic="物品.小还丹" type="0" level="1" price="2" drop="true">
+		<trigger name="AddHp" argvs="600"/>
+	</item>
+	<item name="大还丹" desc="活血化瘀的丹药，闯江湖必备" pic="物品.大还丹" type="0" level="2" price="5" cd="2" drop="true">
+		<trigger name="AddHp" argvs="1000"/>
+	</item>
+	<item name="大蟠桃" desc="又大又甜的蟠桃，猴子的最爱" pic="物品.大蟠桃" type="0" level="2" price="5" drop="true">
+		<trigger name="AddHp" argvs="300"/>
+		<trigger name="AddMp" argvs="300"/>
+	</item>
+	<item name="道口烧鸡" desc="五道口产的烧鸡，肥得流油" pic="物品.道口烧鸡" type="0" level="1" price="3" drop="true">
+		<trigger name="AddHp" argvs="320"/>
+	</item>
+	<item name="冬虫夏草" desc="具有巨大补效的罕见灵药" pic="物品.冬虫夏草" type="0" level="3" price="50" cd="2" drop="true">
+		<trigger name="AddHp" argvs="1600"/>
+	</item>
+	<item name="黑玉断续膏" desc="西域少林的特殊灵药，活筋接骨" pic="物品.黑玉断续膏" type="0" level="4" price="150" cd="4" drop="true">
+		<trigger name="AddHp" argvs="3000"/>
+	</item>
+	<item name="红药" desc="用小红花制成的伤药" pic="物品.红药" type="0" level="1" price="8" drop="true">
+		<trigger name="AddHp" argvs="220"/>
+	</item>
+	<item name="鸡腿" desc="新奥尔良烤鸡腿，8块钱一只" pic="物品.鸡腿" type="0" level="1" price="8" drop="true">
+		<trigger name="AddHp" argvs="320"/>
+	</item>
+	<item name="特制鸡腿" desc="七侠镇特产，李大嘴特制，超级无敌肥腻鸡腿" pic="物品.鸡腿" type="0" level="3" price="30" drop="true">
+		<trigger name="AddHp" argvs="550"/>
+	</item>
+	<item name="生生造化丹" desc="药如其名，能得到它是你的造化" pic="物品.生生造化丹" type="0" level="4" price="150" cd="3" drop="true">
+		<trigger name="AddHp" argvs="2000"/>
+		<trigger name="AddMp" argvs="2000"/>
+	</item>
+	<item name="天王保命丹" desc="具有起死回生之效" pic="物品.天王保命丹" type="0" level="5" price="200" cd="3" drop="true">
+		<trigger name="AddHp" argvs="2500"/>
+		<trigger name="AddMp" argvs="2500"/>
+		<trigger name="解毒" argvs="3,1"/>
+	</item>
+	<item name="续命八丸" desc="由八种奇葩原料制成的能续命用的神奇药物" pic="物品.天王保命丹" type="0" level="6" price="500" cd="4">
+		<trigger name="AddHp" argvs="3500"/>
+	</item>
+  <item name="仙灵琼露" desc="此物只应天上有，恢复极大生命" pic="物品.生生造化丹" type="0" level="6" price="1000" cd="4">
+    <trigger name="AddHp" argvs="5000"/>
+  </item>
+  <item name="圣战之药" desc="不应当存在于人世间之物" pic="物品.大还丹" type="0" level="7" price="2000" cd="4">
+    <trigger name="AddHp" argvs="9999"/>
+    <trigger name="AddMp" argvs="9999"/>
+    <trigger name="AddBuff" argvs="圣战.0.3"/>
+  </item>
+	<item name="月饼" desc="八月十五吃掉绝没有奇效！" pic="物品.月饼" type="0" level="1" price="1" drop="true">
+		<trigger name="AddHp" argvs="130"/>
+		<trigger name="AddMp" argvs="130"/>
+	</item>
+	<item name="九转熊蛇丸" desc="用熊和蛇胆炼制的丹药，可以恢复大量内力" pic="物品.九转熊蛇丸" type="0" level="3" price="50" cd="2" drop="true">
+		<trigger name="AddMp" argvs="1500"/>
+	</item>
+	<item name="九花玉露丸" desc="桃花岛名药，恢复生命和内力" pic="物品.九花玉露丸" type="0" level="3" price="50" cd="2" drop="true">
+		<trigger name="AddHp" argvs="600"/>
+		<trigger name="AddMp" argvs="300"/>
+	</item>
+	<item name="牛黄解毒片" desc="初级的解毒药品" pic="物品.小还丹" type="0" level="1" price="3" drop="true">
+		<trigger name="解毒" argvs="2,1"/>
+	</item>
+	<!--物品.装备-->
+	<!--物品.装备.武器-->
+
+	<item name="倚天剑" desc="倚天一出，谁与争锋" pic="物品.倚天剑" type="1" level="6" price="2000" talent="破甲#剑系装备">
+		<require name="jianfa" argvs="70"/>
+		<!-- 正数：大于，负数：小于-->
+		<require name="dingli" argvs="70"/>
+		<trigger name="attack" argvs="200,8"/>
+		<!-- 50攻击评估 10暴击概率-->
+	</item>
+
+	<item name="屠龙刀" desc="号令天下，莫敢不从" pic="物品.屠龙刀" type="1" level="6" price="2000" talent="破甲#刀系装备">
+		<require name="daofa" argvs="70"/>
+		<require name="bili" argvs="70"/>
+		<trigger name="attack" argvs="200,8"/>
+	</item>
+
+	<item name="真武剑" desc="武当派镇山之宝" pic="物品.倚天剑" type="1" level="6" price="1700" talent="太极高手#剑系装备">
+		<require name="jianfa" argvs="70"/>
+		<require name="dingli" argvs="70"/>
+		<trigger name="attack" argvs="170,6"/>
+	</item>
+
+	<item name="打狗棒" desc="丐帮帮主信物，专打恶犬" pic="物品.打狗棒" type="1" level="6" price="1500" talent="臭叫花#奇门装备">
+		<require name="qimen" argvs="70"/>
+		<require name="shenfa" argvs="70"/>
+		<trigger name="attack" argvs="150,8"/>
+	</item>
+	<item name="金刚杵" desc="少林掌棍僧人常用武器" pic="物品.金刚杵" type="1" level="3" price="500" talent="奇门装备" drop="true">
+		<require name="qimen" argvs="40"/>
+		<require name="bili" argvs="50"/>
+		<trigger name="attack" argvs="50,3"/>
+	</item>
+	<item name="天龙宝剑" desc="天龙门震派之宝" pic="物品.君子剑" type="1" level="4" price="500" talent="剑系装备">
+		<require name="jianfa" argvs="65"/>
+		<require name="shenfa" argvs="50"/>
+		<require name="bili" argvs="50"/>
+		<trigger name="attack" argvs="100,3"/>
+	</item>
+  <item name="真.天龙宝剑" desc="天龙门震派之宝" pic="物品.君子剑" type="1" level="6" price="1000" talent="剑系装备#寸长寸强">
+    <require name="jianfa" argvs="90"/>
+    <require name="shenfa" argvs="90"/>
+    <require name="bili" argvs="90"/>
+    <trigger name="attack" argvs="240,8"/>
+  </item>
+
+  <item name="黄金棒" desc="一根用黄金铸造成的棍棒，略显奢华" pic="物品.棍子" type="1" level="3" price="600" talent="奇门装备">
+		<require name="qimen" argvs="40"/>
+		<require name="bili" argvs="55"/>
+		<trigger name="attack" argvs="70,5"/>
+	</item>
+  
+	<item name="金龙鞭" desc="金龙帮信物，全鞭金色有如黄龙" pic="物品.金龙鞭" type="1" level="3" price="600" talent="奇门装备">
+		<require name="qimen" argvs="50"/>
+		<require name="shenfa" argvs="50"/>
+		<trigger name="attack" argvs="70,8"/>
+	</item>
+  
+	<item name="精钢拳套" desc="精钢打造的全套，有一定的杀伤力" pic="物品.精钢拳套" type="1" level="2" price="500" talent="拳系装备" drop="true">
+		<require name="quanzhang" argvs="35"/>
+		<require name="bili" argvs="35"/>
+		<trigger name="attack" argvs="50,2"/>
+	</item>
+
+
+	<item name="君子剑" desc="与淑女剑一对，绝情谷藏物" pic="物品.君子剑" type="1" level="4" price="800" talent="剑系装备">
+		<require name="jianfa" argvs="55"/>
+		<require name="shenfa" argvs="55"/>
+		<trigger name="attack" argvs="80,5"/>
+	</item>
+
+  <item name="重阳遗剑" desc="全真教祖师王重阳曾经的佩剑" pic="物品.剑3" type="1" level="4" price="1800" talent="灵心慧质#剑系装备">
+    <require name="jianfa" argvs="80"/>
+    <require name="shenfa" argvs="65"/>
+    <require name="gengu" argvs="80"/>
+    <require name="wuxing" argvs="60"/>
+    <trigger name="attack" argvs="100,6"/>
+  </item>
+
+  <item name="淑女剑" desc="与君子剑一对，绝情谷藏物" pic="物品.剑2" type="1" level="4" price="800" talent="剑系装备">
+		<require name="jianfa" argvs="55"/>
+		<require name="shenfa" argvs="55"/>
+		<trigger name="attack" argvs="80,5"/>
+	</item>
+
+  <item name="马钰佩剑" desc="全真教掌门马钰的佩剑" pic="物品.剑1" type="1" level="4" price="800" talent="剑系装备">
+    <require name="jianfa" argvs="65"/>
+    <require name="shenfa" argvs="55"/>
+    <trigger name="attack" argvs="80,6"/>
+  </item>
+
+  <item name="阔剑" desc="趟子手用的趁手武器" pic="物品.阔剑" type="1" level="2" price="300" talent="剑系装备" drop="true">
+		<require name="jianfa" argvs="25"/>
+		<require name="shenfa" argvs="25"/>
+		<trigger name="attack" argvs="40,2"/>
+	</item>
+  <item name="赵志敬的剑" desc="全真教道士赵志敬的配剑" pic="物品.阔剑" type="1" level="2" price="500" talent="剑系装备">
+    <require name="jianfa" argvs="25"/>
+    <require name="shenfa" argvs="25"/>
+    <trigger name="attack" argvs="45,3"/>
+  </item>
+  <item name="金蛇剑" desc="一柄蛇形的奇异宝剑" pic="物品.金蛇剑" type="1" level="4" price="1200" talent="金蛇狂舞#剑系装备">
+		<require name="jianfa" argvs="55"/>
+		<require name="shenfa" argvs="55"/>
+		<trigger name="attack" argvs="100,5"/>
+	</item>
+	<item name="柳叶刀" desc="刀如柳叶，轻盈而锋快" pic="物品.柳叶刀" type="1" level="2" price="500" talent="刀系装备">
+		<require name="daofa" argvs="25"/>
+		<require name="shenfa" argvs="25"/>
+		<trigger name="attack" argvs="50,2"/>
+	</item>
+  <item name="玄铁匕首" desc="玄铁所制匕首，锋利无比" pic="物品.匕首" type="1" level="4" price="500" talent="追魂#剑系装备">
+    <require name="shenfa" argvs="70"/>
+    <trigger name="attack" argvs="50,2"/>
+  </item>
+
+	<item name="灭仙爪" desc="神仙都要灭掉，尤其可见多么霸道" pic="物品.灭仙爪" type="1" level="5" price="1500" talent="拳系装备">
+		<require name="quanzhang" argvs="60"/>
+		<require name="shenfa" argvs="60"/>
+		<trigger name="attack" argvs="150,7"/>
+	</item>
+
+	<item name="木刀" desc="小孩子用来过家家的木质刀" pic="物品.木刀" type="1" level="1" price="100" talent="刀系装备" drop="true">
+		<trigger name="attack" argvs="8,1"/>
+	</item>
+	<item name="紫薇软剑" desc="紫薇软剑，三十岁前所用，误伤义士不祥，乃弃之深谷" pic="物品.紫薇软剑" type="1" level="5" 
+        price="1500" talent="剑系装备">
+		<require name="jianfa" argvs="60"/>
+		<require name="shenfa" argvs="60"/>
+		<trigger name="attack" argvs="150,8"/>
+	</item>
+  <item name="玄铁剑" desc="重剑无锋，大巧不工" pic="物品.剑3" type="1" level="6" price="2000" talent="神雕大侠#剑系装备">
+    <require name="jianfa" argvs="90"/>
+    <require name="bili" argvs="90"/>
+    <trigger name="attack" argvs="180,10"/>
+    <trigger name="powerup_skill" argvs="玄铁剑法,10"/>
+  </item>
+	<item name="血刀" desc="血刀老祖的武器，血光隐隐，极是可怖" pic="物品.血刀" type="1" level="6" price="1200" talent="血魔刀法#刀系装备">
+		<require name="daofa" argvs="60"/>
+    <trigger name="animation" argvs="血刀老祖,xuedaolaozu"/>
+		<trigger name="attack" argvs="120,8"/>
+    <trigger name="xi" argvs="8"/>
+  </item>
+	<item name="紫金八卦刀" desc="八卦门门主商剑鸣的成名武器，对八卦刀法有极大的攻击加成" pic="物品.刀2" type="1" level="4" 
+        price="800" talent="刀系装备">
+		<require name="daofa" argvs="60"/>
+		<require name="shenfa" argvs="50"/>
+		<trigger name="attack" argvs="70,8"/>
+    <trigger name="powerup_skill" argvs="八卦刀法,50"/>
+	</item>
+	<item name="被诅咒的木刀" desc="【炼狱难度专属】一把泛着阴冷气息的木刀" pic="物品.木刀" type="1" level="7" 
+        talent="阴谋家#自我主义#破甲#刀系装备">
+		<require name="daofa" argvs="100"/>
+		<trigger name="attack" argvs="200,10"/>
+	</item>
+	<item name="真.倚天剑" desc="【炼狱难度专属】倚天一出，谁与争锋" pic="物品.倚天剑" type="1" level="7" 
+        talent="破甲#追魂#剑系装备">
+		<require name="jianfa" argvs="70"/>
+		<require name="dingli" argvs="70"/>
+		<trigger name="attack" argvs="220,10"/>
+	</item>
+	<item name="真.屠龙刀" desc="【炼狱难度专属】号令天下，莫敢不从" pic="物品.屠龙刀" type="1" level="7" 
+        talent="破甲#追魂#刀系装备">
+		<require name="daofa" argvs="100"/>
+		<require name="bili" argvs="100"/>
+		<trigger name="attack" argvs="220,10"/>
+	</item>
+	<item name="真.打狗棒" desc="【炼狱难度专属】丐帮帮主信物，专打恶犬" pic="物品.打狗棒" type="1" level="7" 
+        talent="破甲#追魂#臭叫花#奇门装备">
+		<require name="qimen" argvs="100"/>
+		<require name="shenfa" argvs="100"/>
+		<trigger name="attack" argvs="220,10"/>
+	</item>
+	<item name="真.灭仙爪" desc="【炼狱难度专属】神仙都要灭掉，尤其可见多么霸道" pic="物品.灭仙爪" type="1" level="7" 
+        talent="破甲#追魂#拳系装备">
+		<require name="quanzhang" argvs="100"/>
+		<require name="shenfa" argvs="100"/>
+		<trigger name="attack" argvs="220,10"/>
+    <trigger name="critical" argvs="30"/>
+	</item>
+	<!--物品.装备.防具-->
+	<item name="金丝道袍" desc="用金蚕丝织成的袍子，轻盈而坚韧" type="2" pic="物品.金丝道袍" level="2" price="200" drop="true">
+		<require name="shenfa" argvs="30"/>
+		<trigger name="defence" argvs="15,0"/>
+    <trigger name="attribute" argvs="根骨,15"/>
+	</item>
+	<item name="乌蚕衣" desc="乌蚕丝织成的宝甲，穿上刀枪不入" type="2" pic="物品.乌蚕衣" level="5" price="400" talent="宝甲">
+		<trigger name="defence" argvs="40,5"/>
+    <trigger name="attribute" argvs="定力,5"/>
+	</item>
+	<item name="粗布道袍" desc="普通道士穿的衣服" type="2" pic="物品.粗布道袍" level="1" price="150" drop="true">
+		<trigger name="defence" argvs="5,1"/>
+    <trigger name="attribute" argvs="悟性,10"/>
+	</item>
+	<item name="黄金重甲" desc="将军穿的宝甲，沉重而坚厚，能有效防止受到致命一击" type="2" pic="物品.黄金重甲" level="4" 
+        price="200" talent="瘸子#宝甲">
+		<require name="bili" argvs="55"/>
+		<trigger name="defence" argvs="40,15"/>
+	</item>
+	<item name="仙丽雅的项链" desc="草原上一个梦幻的回忆，装备后每回合一定几率消除不良状态" type="3" pic="物品.黄金项链" 
+        level="7" price="1000" talent="清心">
+		<trigger name="attack" argvs="0,5"/>
+		<trigger name="defence" argvs="15,0"/>
+	</item>
+	<item name="岳飞的重铠" desc="【炼狱难度专属】岳飞征战沙场穿的重铠" type="2" pic="物品.盔甲" level="7"
+        talent="金钟罩">
+		<require name="bili" argvs="100"/>
+		<trigger name="defence" argvs="100,20"/>
+	</item>
+	<item name="姜子牙的道袍" desc="【炼狱难度专属】传说为姜子牙当年伏魔所穿道袍" type="2" pic="物品.红道袍" level="7"
+        talent="飘然#清心">
+		<require name="shenfa" argvs="100"/>
+		<trigger name="defence" argvs="60,10"/>
+	</item>
+	<item name="蚩尤的护甲" desc="【炼狱难度专属】传说为蚩尤的护甲，变身为猩猩战神" type="2" pic="物品.衣服4" level="7" 
+        talent="哀歌">
+		<require name="bili" argvs="100"/>
+		<trigger name="defence" argvs="80,10"/>
+    <trigger name="animation" argvs="猩猩战神,xingxing"/>
+	</item>
+  <item name="千变魔女的披风" desc="【炼狱难度专属】千变魔女所穿的披风" type="2" pic="物品.女衣1" level="7"
+        talent="百变千幻">
+    <require name="shenfa" argvs="100"/>
+    <trigger name="defence" argvs="45,7"/>
+  </item>
+	<!--物品.装备.特殊-->
+	<item name="黄金项链" desc="黄金打造的项链，透着珠光宝气" type="3" pic="物品.黄金项链" level="2" price="50"
+        talent ="奇门增益" drop="true">
+		<trigger name="attack" argvs="0,5"/>
+		<trigger name="defence" argvs="15,0"/>
+	</item>
+	<item name="回力跑鞋" desc="回力牌跑鞋，经久耐用、便宜实惠" type="3" pic="物品.回力跑鞋" level="2" price="150"
+        talent="轻功高超" drop="true">
+		<trigger name="attack" argvs="15,0"/>
+		<trigger name="defence" argvs="15,0"/>
+	</item>
+	<item name="金头箍" desc="一看就是富二代带的头箍" type="3" pic="物品.金头箍" level="1" price="200"
+        talent="锐眼" drop="true">
+		<trigger name="attack" argvs="8,0"/>
+		<trigger name="defence" argvs="8,0"/>
+	</item>
+	<item name="莽毒蛛蛤" desc="咕咕咕咕！" type="3" pic="物品.莽毒蛛蛤" level="6" price="1000">
+		<trigger name="attack" argvs="0,0"/>
+	</item>
+	<item name="木鱼" desc="少林和尚随身之物" type="3" pic="物品.木鱼" level="2" price="250" drop="true">
+		<trigger name="attack" argvs="3,0"/>
+		<trigger name="defence" argvs="10,0"/>
+	</item>
+	<item name="银手镯" desc="银色手镯，珠光宝气" type="3" pic="物品.银手镯" level="1" price="600" talent="心眼通明" drop="true">
+		<trigger name="attack" argvs="3,0"/>
+		<trigger name="defence" argvs="3,0"/>
+	</item>
+	<item name="草帽" desc="你是屌丝么？是就带吧" type="3" pic="物品.草帽" level="1" price="100" talent="屌丝">
+		<trigger name="attack" argvs="1,0"/>
+		<trigger name="defence" argvs="1,0"/>
+	</item>
+	<item name="木人" desc="商家堡娘俩用于诅咒某人的木头玩偶" type="3" pic="物品.木人" level="1" price="100">
+		<trigger name="attack" argvs="2,2"/>
+    <trigger name="animation" argvs="变身为一个木头人,muren"/>
+	</item>
+	<item name="独孤求败的草帽" desc="【炼狱难度专属】独孤求败隐居时带的草帽" type="3" pic="物品.草帽" level="7" talent="孤独求败#心眼通明">
+		<require name="wuxing" argvs="100"/>
+		<trigger name="attack" argvs="40,15"/>
+    <trigger name="animation" argvs="独孤求败,duguqiubai"/>
+	</item>
+	<item name="达摩祖师的木鱼" desc="【炼狱难度专属】达摩祖师使用的木鱼" type="3" pic="物品.木鱼" level="7" talent="普照">
+		<require name="fuyuan" argvs="100"/>
+		<trigger name="defence" argvs="30,40"/>
+		<trigger name="attack" argvs="30,5"/>
+    <trigger name="animation" argvs="达摩祖师,sengren_chanzhang"/>
+	</item>
+	<item name="孙悟空的紧箍咒" desc="【炼狱难度专属】唐僧给孙悟空带的紧箍咒" type="3" pic="物品.金头箍" level="7" talent="金钟罩#锐眼">
+		<require name="dingli" argvs="100"/>
+		<trigger name="defence" argvs="80,15"/>
+	</item>
+  <item name="魔神信物" desc="【炼狱难度专属】传说中魔神佩戴的信物" type="3" pic="物品.戒指4" level="7" talent="魔神降临">
+    <require name="dingli" argvs="95"/>
+    <trigger name="attack" argvs="45,25"/>
+		<trigger name="defence" argvs="15,0"/>
+	</item>
+  
+	<!--物品.装备.经书 -->
+	<item name="罗汉拳谱" desc="罗汉拳" type="4" pic="物品.拳谱" level="1" price="100">
+		<trigger name="skill" argvs="罗汉拳,10"/>
+	</item>
+	<item name="飘雪穿云掌法" desc="峨眉派轻灵飘逸的掌法" type="4" pic="物品.拳谱" level="1" price="100">
+		<trigger name="skill" argvs="飘雪穿云掌,10"/>
+	</item>
+	<item name="天山掌法谱" desc="逍遥派入门武功" type="4" pic="物品.拳谱" level="1" price="100">
+		<trigger name="skill" argvs="天山掌法,10"/>
+	</item>
+	<item name="松风剑法秘籍" desc="松风剑法秘籍" type="4" pic="物品.剑谱" level="1" price="100">
+		<trigger name="skill" argvs="松风剑法,10"/>
+	</item>
+	<item name="华山剑法秘籍" desc="华山剑法秘籍" type="4" pic="物品.剑谱" level="1" price="100">
+		<trigger name="skill" argvs="华山剑法,10"/>
+	</item>
+	<item name="三分剑术" desc="天山派的三分剑法" type="4" pic="物品.剑谱" level="1" price="100">
+		<trigger name="skill" argvs="三分剑法,10"/>
+	</item>
+  <item name="青蟒剑法秘籍" desc="青蟒剑法秘籍" type="4" pic="物品.剑谱" level="1" price="100">
+    <trigger name="skill" argvs="青蟒剑法,10"/>
+  </item>
+	<item name="雷震剑法秘籍" desc="雷震剑法秘籍" type="4" pic="物品.剑谱" level="1" price="100">
+		<trigger name="skill" argvs="雷震剑法,10"/>
+	</item>
+	<item name="南山刀法谱" desc="江南七怪所传授的水水刀法" type="4" pic="物品.刀谱" level="1" price="100">
+		<trigger name="skill" argvs="南山刀法,10"/>
+	</item>
+  <item name="万劫刀法谱" desc="万劫谷的水货刀法" type="4" pic="物品.刀谱" level="1" price="100">
+    <trigger name="skill" argvs="万劫刀法,10"/>
+  </item>
+	<item name="袖箭秘诀" desc="阴险的袖箭" type="4" pic="物品.奇门谱" level="1" price="100">
+		<trigger name="skill" argvs="袖箭,10"/>
+	</item>
+	<item name="拂尘秘诀" desc="拂尘也可以是武器！" type="4" pic="物品.奇门谱" level="1" price="100">
+		<trigger name="skill" argvs="拂尘,10"/>
+	</item>
+  <item name="疯魔杖法秘诀" desc="丐帮疯魔杖法" type="4" pic="物品.奇门谱" level="1" price="100">
+    <trigger name="skill" argvs="疯魔杖法,10"/>
+  </item>
+	<item name="蛇鹤八打" desc="云中鹤的独门武功，但是威力不咋地..." type="4" pic="物品.奇门谱" level="1" price="100">
+		<trigger name="skill" argvs="蛇鹤八打,10"/>
+	</item>
+	<item name="如来千手法" desc="少林七十二绝技之一" type="4" pic="物品.拳谱" level="2" price="150">
+		<require name="quanzhang" argvs="40"/>
+		<trigger name="skill" argvs="如来千手法,10"/>
+	</item>
+  <item name="寒冰绵掌谱" desc="青翼蝠王韦一笑的寒冰绵掌" type="4" pic="物品.拳谱" level="2" price="150">
+    <require name="quanzhang" argvs="40"/>
+    <trigger name="skill" argvs="寒冰绵掌,10"/>
+  </item>
+	<item name="百花错拳谱" desc="百花错拳" type="4" pic="物品.拳谱" level="2" price="150">
+		<require name="quanzhang" argvs="40"/>
+		<trigger name="skill" argvs="百花错拳,10"/>
+	</item>
+	<item name="八卦游身掌法" desc="八卦门的掌系绝学" type="4" pic="物品.拳谱" level="2" price="150">
+		<require name="quanzhang" argvs="40"/>
+		<trigger name="skill" argvs="八卦游身掌,10"/>
+	</item>
+	<item name="四象掌掌谱" desc="峨眉派掌法，圆中有方，阴阳相成，灭绝师太自负为天下绝学。" type="4" pic="物品.拳谱" level="2" price="150">
+		<require name="quanzhang" argvs="40"/>
+		<trigger name="skill" argvs="四象掌,10"/>
+	</item>
+  <item name="密宗大手印秘籍" desc="雪山大轮寺密宗大手印。" type="4" pic="物品.拳谱" level="2" price="150">
+    <require name="quanzhang" argvs="40"/>
+    <trigger name="skill" argvs="密宗大手印,10"/>
+  </item>
+	<item name="落英神剑掌秘籍" desc="桃花影落飞神剑，碧海潮生按玉箫。" type="4" pic="物品.拳谱" level="2" price="150">
+		<require name="quanzhang" argvs="40"/>
+		<trigger name="skill" argvs="落英神剑掌,10"/>
+	</item>
+	<item name="五毒神掌掌谱" desc="赤练仙子李莫愁的看家本领。" type="4" pic="物品.拳谱" level="2" price="150">
+		<require name="quanzhang" argvs="40"/>
+		<trigger name="skill" argvs="五毒神掌,10"/>
+	</item>
+  <item name="三花聚顶掌掌谱" desc="全真教名震天下的掌法绝学。" type="4" pic="物品.拳谱" level="2" price="150">
+    <require name="quanzhang" argvs="65"/>
+    <require name="gengu" argvs="70"/>
+    <require name="wuxing" argvs="70"/>
+    <require name="bili" argvs="55"/>
+    <trigger name="skill" argvs="三花聚顶掌,10"/>
+  </item>
+  
+  <item name="无量剑法秘籍" desc="无量玉璧上的神奇剑法" type="4" pic="物品.剑谱" level="2" price="150">
+    <require name="jianfa" argvs="40"/>
+		<trigger name="skill" argvs="无量剑法,10"/>
+	</item>
+  <item name="七星七绝剑剑谱" desc="全真教根据北斗七星位置参悟的高阶剑法" type="4" pic="物品.剑谱" level="2" price="150">
+    <require name="jianfa" argvs="66"/>
+    <require name="shenfa" argvs="66"/>
+    <require name="dingli" argvs="66"/>
+    <trigger name="skill" argvs="七星七绝剑,10"/>
+  </item>
+  <item name="嵩山剑法秘籍" desc="嵩山剑法秘籍" type="4" pic="物品.剑谱" level="2" price="150">
+    <trigger name="skill" argvs="嵩山剑法,10"/>
+  </item>
+	<item name="绕指柔剑剑谱" desc="武当派飘忽不定的奇幻剑术" type="4" pic="物品.剑谱" level="2" price="150">
+		<require name="jianfa" argvs="40"/>
+		<trigger name="skill" argvs="绕指柔剑,10"/>
+	</item>
+	<item name="玉箫剑法秘籍" desc="桃花影落飞神剑，碧海潮生按玉箫。" type="4" pic="物品.剑谱" level="2" price="150">
+		<require name="jianfa" argvs="40"/>
+		<trigger name="skill" argvs="玉箫剑法,10"/>
+	</item>
+  <item name="峨眉剑法秘籍" desc="风陵渡口，一世情伤。" type="4" pic="物品.剑谱" level="2" price="150">
+    <require name="jianfa" argvs="40"/>
+    <trigger name="skill" argvs="峨眉剑法,10"/>
+  </item>
+  <item name="全真剑法秘籍" desc="全真派剑法。" type="4" pic="物品.剑谱" level="2" price="150">
+    <require name="jianfa" argvs="40"/>
+    <trigger name="skill" argvs="全真剑法,10"/>
+  </item>
+  <item name="铁剑剑法秘籍" desc="铁剑们剑法。" type="4" pic="物品.剑谱" level="2" price="150">
+    <require name="jianfa" argvs="40"/>
+    <trigger name="skill" argvs="铁剑剑法,10"/>
+  </item>
+	<item name="狂风刀法秘籍" desc="万花丛中过，片叶不沾身" type="4" pic="物品.刀谱" level="2" price="150">
+		<require name="daofa" argvs="40"/>
+		<trigger name="skill" argvs="狂风刀法,10"/>
+	</item>
+	<item name="草原刀法" desc="游牧民族的刀法精髓" type="4" pic="物品.刀谱" level="2" price="150">
+		<require name="daofa" argvs="40"/>
+		<trigger name="skill" argvs="草原刀法,10"/>
+	</item>
+  <item name="玄虚刀法" desc="武当派玄虚刀法" type="4" pic="物品.刀谱" level="2" price="150">
+    <require name="daofa" argvs="40"/>
+    <trigger name="skill" argvs="玄虚刀法,10"/>
+  </item>
+	<item name="八卦刀法秘籍" desc="紫金八卦刀商剑鸣的刀法秘本" type="4" pic="物品.刀谱" level="2" price="150">
+		<require name="daofa" argvs="40"/>
+		<trigger name="skill" argvs="八卦刀法,10"/>
+	</item>
+	<item name="冰魄银针精要" desc="夺命银针" type="4" pic="物品.奇门谱" level="2" price="150">
+		<require name="qimen" argvs="40"/>
+		<trigger name="skill" argvs="冰魄银针,10"/>
+	</item>
+	<item name="玉蜂针" desc="古墓派暗器" type="4" pic="物品.奇门谱" level="2" price="150">
+		<require name="qimen" argvs="40"/>
+		<trigger name="skill" argvs="玉蜂针,10"/>
+	</item>
+  <item name="漫天花雨秘籍" desc="漫天花雨秘籍" type="4" pic="物品.奇门谱" level="2" price="150">
+    <require name="qimen" argvs="40"/>
+    <trigger name="skill" argvs="漫天花雨,10"/>
+  </item>
+  <item name="无上大力杆秘籍" desc="无上大力杆秘籍" type="4" pic="物品.奇门谱" level="2" price="150">
+    <require name="qimen" argvs="40"/>
+    <trigger name="skill" argvs="无上大力杆,10"/>
+  </item>
+	<item name="流星锤法" desc="流星锤" type="4" pic="物品.奇门谱" level="2" price="150">
+		<require name="qimen" argvs="40"/>
+		<trigger name="skill" argvs="流星锤,10"/>
+	</item>
+	<item name="毒龙鞭法秘籍" desc="五毒教鞭法" type="4" pic="物品.奇门谱" level="2" price="150">
+		<trigger name="skill" argvs="毒龙鞭法,10"/>
+	</item>
+	<item name="参合指书" desc="姑苏慕容氏的武功" type="4" pic="物品.拳谱" level="3" price="300">
+		<require name="quanzhang" argvs="60"/>
+		<trigger name="skill" argvs="参合指,10"/>
+	</item>
+	<item name="佛光普照" desc="峨眉派绝学" type="4" pic="物品.拳谱" level="3" price="300">
+		<require name="quanzhang" argvs="60"/>
+		<trigger name="skill" argvs="佛光普照,10"/>
+	</item>
+  <item name="擒龙功" desc="擒龙功" type="4" pic="物品.拳谱" level="3" price="300">
+    <require name="quanzhang" argvs="60"/>
+    <trigger name="skill" argvs="擒龙功,10"/>
+  </item>
+	<item name="灵蛇拳秘籍" desc="白驼山的异域怪异武学" type="4" pic="物品.拳谱" level="3" price="300">
+		<require name="quanzhang" argvs="60"/>
+		<trigger name="skill" argvs="灵蛇拳,10"/>
+	</item>
+	<item name="九阴白骨爪精义" desc="九阴真经里的入门武功" type="4" pic="物品.拳谱" level="3" price="300">
+		<require name="quanzhang" argvs="60"/>
+		<trigger name="skill" argvs="九阴白骨爪,10"/>
+	</item>
+	<item name="铁掌掌谱" desc="来战吧，钢铁之魂！" type="4" pic="物品.拳谱" level="3" price="300">
+		<require name="quanzhang" argvs="60"/>
+		<require name="bili" argvs="60"/>
+		<trigger name="skill" argvs="铁掌,10"/>
+	</item>
+	<item name="大金刚掌法" desc="少林寺七十二绝技，劲力汹涌澎湃" type="4" pic="物品.拳谱" level="3" price="300">
+		<require name="quanzhang" argvs="60"/>
+		<require name="bili" argvs="70"/>
+		<trigger name="skill" argvs="大金刚掌,10"/>
+	</item>
+	<item name="庖丁解牛" desc="源自庄子的神奇武功" type="4" pic="物品.拳谱" level="3" price="300">
+		<require name="quanzhang" argvs="60"/>
+		<trigger name="skill" argvs="庖丁解牛,10"/>
+	</item>
+	<item name="幻阴指指法精要" desc="混元霹雳手成昆的邪恶武功" type="4" pic="物品.拳谱" level="3" price="300">
+		<require name="quanzhang" argvs="75"/>
+		<require name="shenfa" argvs="60"/>
+		<require name="bili" argvs="70"/>
+		<trigger name="skill" argvs="幻阴指,10"/>
+	</item>
+  <item name="弹指神通入门" desc="一窥黄药师的得意绝学" type="4" pic="物品.拳谱" level="3" price="300">
+    <require name="wuxing" argvs="60"/>
+    <trigger name="skill" argvs="弹指神通,4"/>
+  </item>
+  <item name="弹指神通秘籍" desc="黄药师的得意绝学" type="4" pic="物品.拳谱" level="3" price="300">
+		<require name="wuxing" argvs="80"/>
+		<require name="quanzhang" argvs="60"/>
+		<require name="shenfa" argvs="65"/>
+		<trigger name="skill" argvs="弹指神通,10"/>
+	</item>
+	<item name="一阳指书" desc="大理段氏的招牌武功" type="4" pic="物品.拳谱" level="3" price="300">
+		<require name="quanzhang" argvs="60"/>
+		<require name="wuxing" argvs="70"/>
+		<trigger name="skill" argvs="一阳指,10"/>
+	</item>
+  <item name="火焰刀残篇" desc="火焰刀法，虽名为刀，实际是掌法" type="4" pic="物品.拳谱" level="3" price="300">
+    <require name="bili" argvs="65"/>
+    <trigger name="skill" argvs="火焰刀法,8"/>
+  </item>
+	<item name="火焰刀秘籍" desc="火焰刀法，虽名为刀，实际是掌法" type="4" pic="物品.拳谱" level="3" price="300">
+		<require name="quanzhang" argvs="60"/>
+		<require name="bili" argvs="65"/>
+		<trigger name="skill" argvs="火焰刀法,10"/>
+	</item>
+  <item name="绝户虎爪手秘籍" desc="武当俞莲舟自创武学，招式狠毒，招招拿人下阴" type="4" pic="物品.拳谱" level="3" price="300">
+    <require name="quanzhang" argvs="75"/>
+    <require name="dingli" argvs="65"/>
+    <trigger name="skill" argvs="绝户虎爪手,10"/>
+  </item>
+	<item name="太极拳谱" desc="张三丰所领悟的太极真意" type="4" pic="物品.拳谱" level="3" price="300">
+		<require name="quanzhang" argvs="60"/>
+		<require name="bili" argvs="65"/>
+		<require name="dingli" argvs="65"/>
+		<trigger name="skill" argvs="太极拳,9"/>
+	</item>
+  <item name="太极拳秘籍" desc="张三丰所领悟的太极真意" type="4" pic="物品.拳谱" level="4" price="600">
+    <require name="quanzhang" argvs="60"/>
+    <require name="bili" argvs="65"/>
+    <require name="dingli" argvs="65"/>
+    <trigger name="skill" argvs="太极拳,12"/>
+  </item>
+  
+  <item name="玉女素心口诀" desc="一窥双剑合璧，彩翼双飞的上乘武学境界" type="4" pic="物品.剑谱" level="3" price="300">
+    <trigger name="skill" argvs="玉女素心剑,4"/>
+  </item>
+	<item name="玉女素心剑谱" desc="双剑合璧，彩翼双飞" type="4" pic="物品.剑谱" level="3" price="300">
+		<require name="jianfa" argvs="60"/>
+		<trigger name="skill" argvs="玉女素心剑,10"/>
+	</item>
+	<item name="金蛇剑法秘籍" desc="金蛇剑法秘籍" type="4" pic="物品.剑谱" level="3" price="300">
+		<require name="jianfa" argvs="60"/>
+		<require name="dingli" argvs="50"/>
+		<require name="wuxing" argvs="75"/>
+		<trigger name="skill" argvs="金蛇剑法,10"/>
+	</item>
+  <item name="百变千幻云雾十三式秘籍" desc="莫大先生绝学" type="4" pic="物品.剑谱" level="3" price="300">
+    <require name="jianfa" argvs="45"/>
+    <require name="dingli" argvs="45"/>
+    <trigger name="skill" argvs="百变千幻云雾十三式,10"/>
+  </item>
+	<item name="柔云剑法秘籍" desc="柔云剑法秘籍" type="4" pic="物品.剑谱" level="3" price="300">
+		<require name="jianfa" argvs="60"/>
+		<require name="dingli" argvs="50"/>
+		<trigger name="skill" argvs="柔云剑法,10"/>
+	</item>
+	<item name="狂风快剑决" desc="华山剑宗奇速的剑法" type="4" pic="物品.剑谱" level="3" price="300">
+		<require name="jianfa" argvs="60"/>
+		<trigger name="skill" argvs="狂风快剑,10"/>
+	</item>
+  <item name="神门十三剑剑谱" desc="武当派绝技" type="4" pic="物品.剑谱" level="3" price="300">
+    <require name="jianfa" argvs="60"/>
+    <trigger name="skill" argvs="神门十三剑,10"/>
+  </item>
+  <item name="上清剑法" desc="玄素庄高深剑法" type="4" pic="物品.剑谱" level="3" price="300">
+    <require name="jianfa" argvs="60"/>
+    <require name="wuxing" argvs="60"/>
+    <trigger name="skill" argvs="上清剑法,10"/>
+  </item>
+  <item name="上清剑法精要" desc="玄素庄高深剑法" type="4" pic="物品.剑谱" level="3" price="300">
+    <require name="jianfa" argvs="60"/>
+    <require name="wuxing" argvs="60"/>
+    <trigger name="skill" argvs="上清剑法,11"/>
+  </item>
+  
+  <item name="达摩剑法" desc="少林七十二绝技" type="4" pic="物品.剑谱" level="3" price="300">
+    <require name="jianfa" argvs="60"/>
+    <trigger name="skill" argvs="达摩剑法,10"/>
+  </item>
+  <item name="两仪剑法" desc="昆仑派绝学" type="4" pic="物品.剑谱" level="3" price="300">
+    <require name="jianfa" argvs="60"/>
+    <trigger name="skill" argvs="两仪剑法,10"/>
+  </item>
+	<item name="太极剑法谱" desc="张三丰领悟的太极真意" type="4" pic="物品.剑谱" level="3" price="300">
+		<require name="jianfa" argvs="60"/>
+		<require name="dingli" argvs="60"/>
+		<require name="wuxing" argvs="60"/>
+		<trigger name="skill" argvs="太极剑,9"/>
+	</item>
+  <item name="太极剑秘籍" desc="张三丰领悟的太极真意" type="4" pic="物品.剑谱" level="4" price="600">
+    <require name="jianfa" argvs="60"/>
+    <require name="dingli" argvs="60"/>
+    <require name="wuxing" argvs="60"/>
+    <trigger name="skill" argvs="太极剑,12"/>
+  </item>
+
+  <item name="反两仪刀法" desc="华山派失传已久的绝学" type="4" pic="物品.刀谱" level="3" price="300">
+    <require name="daofa" argvs="60"/>
+    <trigger name="skill" argvs="反两仪刀法,10"/>
+  </item>
+	<item name="燃木刀法" desc="少林寺七十二绝技之一" type="4" pic="物品.刀谱" level="3" price="300">
+		<require name="daofa" argvs="60"/>
+		<require name="bili" argvs="65"/>
+		<trigger name="skill" argvs="燃木刀法,10"/>
+	</item>
+	<item name="血刀经" desc="血刀经" type="4" pic="物品.刀谱" level="3" price="300">
+		<require name="daofa" argvs="60"/>
+		<require name="shenfa" argvs="60"/>
+		<trigger name="skill" argvs="血刀大法,9"/>
+	</item>
+	<item name="血刀经真本" desc="血刀老祖真阴险，这本才是能学到绝招的血刀经" type="4" pic="物品.刀谱" level="3" price="300">
+		<require name="daofa" argvs="60"/>
+		<require name="shenfa" argvs="60"/>
+		<trigger name="skill" argvs="血刀大法,11"/>
+	</item>
+	<item name="阴阳倒乱刃" desc="颠倒错乱，自由自在" type="4" pic="物品.奇门谱" level="3" price="300">
+		<require name="qimen" argvs="60"/>
+		<trigger name="skill" argvs="阴阳倒乱刃,10"/>
+	</item>
+	<item name="岳家枪法精义" desc="岳飞戎马一生的总结" type="4" pic="物品.奇门谱" level="3" price="300">
+		<require name="qimen" argvs="60"/>
+		<require name="bili" argvs="50"/>
+		<trigger name="skill" argvs="岳家枪法,10"/>
+	</item>
+  <item name="倚天屠龙笔法秘籍" desc="张翠山自张三丰书法中所领悟的神奇武学" type="4" pic="物品.拳谱" level="4" price="500">
+    <require name="wuxing" argvs="60"/>
+    <require name="qimen" argvs="70"/>
+    <trigger name="skill" argvs="倚天屠龙笔法,12"/>
+  </item>
+  <item name="伏魔杖法" desc="少林七十二绝技" type="4" pic="物品.奇门谱" level="3" price="300">
+    <require name="qimen" argvs="60"/>
+    <trigger name="skill" argvs="伏魔杖法,10"/>
+  </item>
+  <item name="海叟钓法" desc="钓鱼竿也能做武器" type="4" pic="物品.奇门谱" level="3" price="300">
+    <require name="qimen" argvs="60"/>
+    <trigger name="skill" argvs="海叟钓法,10"/>
+  </item>
+	<item name="日月鞭法秘籍" desc="日月神教的鞭法" type="4" pic="物品.奇门谱" level="3" price="300">
+		<require name="qimen" argvs="60"/>
+		<trigger name="skill" argvs="日月鞭法,10"/>
+	</item>
+	<item name="黑血神针秘籍" desc="一指震江南瓦耳拉齐的绝技" type="4" pic="物品.奇门谱" level="3" price="300">
+		<require name="qimen" argvs="60"/>
+		<trigger name="skill" argvs="黑血神针,10"/>
+	</item>
+	<item name="黯然销魂掌谱" desc="神雕大侠的私家武学" type="4" pic="物品.拳谱" level="4">
+		<require name="quanzhang" argvs="80"/>
+		<require name="bili" argvs="60"/>
+		<require name="wuxing" argvs="80"/>
+		<trigger name="skill" argvs="黯然销魂掌,9"/>
+	</item>
+	<item name="六脉神剑谱" desc="大理段氏的绝顶武学" type="4" pic="物品.拳谱" level="4">
+		<require name="quanzhang" argvs="80"/>
+		<require name="wuxing" argvs="80"/>
+		<require name="fuyuan" argvs="90"/>
+		<trigger name="skill" argvs="六脉神剑,9"/>
+	</item>
+  <item name="六脉神剑心法" desc="段誉所领悟的大理段氏的绝顶武学" type="4" pic="物品.拳谱" level="4">
+    <require name="quanzhang" argvs="80"/>
+    <require name="wuxing" argvs="80"/>
+    <require name="fuyuan" argvs="90"/>
+    <trigger name="skill" argvs="六脉神剑,10"/>
+  </item>
+  <item name="天山折梅手法" desc="天山折梅手，天下武功尽在其中" type="4" pic="物品.拳谱" level="4">
+    <require name="quanzhang" argvs="80"/>
+    <require name="fuyuan" argvs="80"/>
+    <trigger name="skill" argvs="天山折梅手,10"/>
+  </item>
+	<item name="降龙十八掌谱" desc="天下至刚至烈的武功" type="4" pic="物品.拳谱" level="4">
+		<require name="quanzhang" argvs="80"/>
+		<require name="bili" argvs="90"/>
+		<trigger name="skill" argvs="降龙十八掌,7"/>
+	</item>
+	<item name="降龙十八掌真意" desc="天下至刚至烈的武功" type="4" pic="物品.拳谱" level="4">
+		<require name="quanzhang" argvs="100"/>
+		<require name="bili" argvs="100"/>
+		<trigger name="skill" argvs="降龙十八掌,11"/>
+	</item>
+  <item name="如来神掌秘籍" desc="少林如来神掌秘本" type="4" pic="物品.拳谱" level="4">
+    <require name="quanzhang" argvs="100"/>
+    <require name="fuyuan" argvs="100"/>
+    <require name="wuxing" argvs="100"/>
+    <trigger name="skill" argvs="如来神掌,10"/>
+  </item>
+	<item name="独孤九剑剑谱" desc="独孤求败纵横天下的无敌剑法" type="4" pic="物品.剑谱" level="4">
+		<require name="jianfa" argvs="85"/>
+		<require name="wuxing" argvs="90"/>
+		<require name="shenfa" argvs="80"/>
+		<require name="dingli" argvs="65"/>
+		<trigger name="skill" argvs="独孤九剑,7"/>
+	</item>
+  <item name="独孤九剑秘籍" desc="独孤求败纵横天下的无敌剑法" type="4" pic="物品.剑谱" level="4">
+    <require name="jianfa" argvs="100"/>
+    <require name="wuxing" argvs="100"/>
+    <require name="shenfa" argvs="80"/>
+    <require name="dingli" argvs="65"/>
+    <trigger name="skill" argvs="独孤九剑,10"/>
+  </item>
+	<item name="独孤九剑真意" desc="独孤求败纵横天下的无敌剑法" type="4" pic="物品.剑谱" level="4">
+		<require name="jianfa" argvs="100"/>
+		<require name="wuxing" argvs="100"/>
+		<require name="shenfa" argvs="80"/>
+		<require name="dingli" argvs="65"/>
+		<trigger name="skill" argvs="独孤九剑,11"/>
+	</item>
+  <item name="辟邪剑谱" desc="横行天下的无敌剑法，欲练神功，必先自宫！" type="4" pic="物品.剑谱" level="4">
+    <require name="shenfa" argvs="80"/>
+    <require name="dingli" argvs="80"/>
+    <require name="talent" argvs="阉人"/>
+    <trigger name="skill" argvs="辟邪剑法,10"/>
+  </item>
+	<item name="两页胡家刀法" desc="胡家刀法的前两页，记录了胡家刀法的总诀" type="4" pic="物品.刀谱" level="4">
+		<require name="daofa" argvs="45"/>
+		<require name="wuxing" argvs="60"/>
+		<trigger name="skill" argvs="胡家刀法,5"/>
+	</item>
+	<item name="胡家刀法手抄本" desc="胡家刀法手抄本，记录了胡一刀家传刀法的精髓" type="4" pic="物品.刀谱" level="4">
+		<require name="daofa" argvs="60"/>
+		<require name="wuxing" argvs="60"/>
+		<require name="shenfa" argvs="50"/>
+		<trigger name="skill" argvs="胡家刀法,9"/>
+	</item>
+	<item name="胡家刀法秘籍" desc="胡家刀法手秘籍，记录了胡一刀家传刀法的精髓" type="4" pic="物品.刀谱" level="4">
+		<require name="daofa" argvs="60"/>
+		<require name="wuxing" argvs="60"/>
+		<require name="shenfa" argvs="50"/>
+		<trigger name="skill" argvs="胡家刀法,10"/>
+	</item>
+	<item name="苗家剑法秘籍" desc="苗家剑法秘籍，记录了苗人凤家传剑法的精髓" type="4" pic="物品.剑谱" level="4">
+		<require name="jianfa" argvs="60"/>
+		<require name="wuxing" argvs="45"/>
+		<require name="dingli" argvs="50"/>
+		<trigger name="skill" argvs="苗家剑法,10"/>
+	</item>
+  <item name="连城剑法" desc="铁骨墨萼梅念笙大侠所创剑法，又称唐诗剑法" type="4" pic="物品.剑谱" level="5">
+    <require name="jianfa" argvs="70"/>
+    <require name="wuxing" argvs="80"/>
+    <require name="gengu" argvs="70"/>
+    <require name="dingli" argvs="75"/>
+    <trigger name="skill" argvs="连城剑法,9"/>
+  </item>
+  <item name="连城剑法精要" desc="铁骨墨萼梅念笙大侠所创剑法，又称唐诗剑法" type="4" pic="物品.剑谱" level="5">
+    <require name="jianfa" argvs="70"/>
+    <require name="wuxing" argvs="80"/>
+    <require name="gengu" argvs="70"/>
+    <require name="dingli" argvs="75"/>
+    <trigger name="skill" argvs="连城剑法,10"/>
+  </item>
+	<item name="鸳鸯刀" desc="仁者无敌！" type="4" pic="物品.刀谱" level="4">
+		<require name="daofa" argvs="80"/>
+		<require name="fuyuan" argvs="80"/>
+		<trigger name="skill" argvs="鸳鸯刀法,10"/>
+	</item>
+	<item name="打狗棒法入门" desc="丐帮不外传的神奇武功" type="4" pic="物品.奇门谱" level="4">
+		<require name="shenfa" argvs="80"/>
+		<require name="qimen" argvs="80"/>
+		<require name="wuxing" argvs="70"/>
+		<trigger name="skill" argvs="打狗棒法,9"/>
+	</item>
+  <item name="打狗棒法" desc="丐帮不外传的神奇武功" type="4" pic="物品.奇门谱" level="5">
+    <require name="shenfa" argvs="80"/>
+    <require name="qimen" argvs="85"/>
+    <require name="wuxing" argvs="70"/>
+    <trigger name="skill" argvs="打狗棒法,10"/>
+  </item>
+	<item name="烈焰黑枪之法" desc="神秘的黑暗武学，并非人间之物" type="4" pic="物品.奇门谱" level="4">
+		<require name="qimen" argvs="99"/>
+		<require name="wuxing" argvs="99"/>
+		<trigger name="skill" argvs="烈焰黑枪,3"/>
+	</item>
+  <item name="烈焰黑枪秘本" desc="神秘的黑暗武学，并非人间之物" type="4" pic="物品.奇门谱" level="6">
+    <require name="qimen" argvs="140"/>
+    <require name="wuxing" argvs="120"/>
+    <trigger name="skill" argvs="烈焰黑枪,12"/>
+  </item>
+
+  <!-- 内功-->
+	<item name="内功入门" desc="记载最基本的内功入门常识" type="4" pic="物品.宝典" level="5" price="100">
+		<require name="gengu" argvs="20"/>
+		<trigger name="internalskill" argvs="基本内功,10"/>
+	</item>
+  <item name="血刀心法秘籍" desc="记载血刀门的入门心法" type="4" pic="物品.宝典" level="5">
+    <require name="gengu" argvs="30"/>
+    <trigger name="internalskill" argvs="血刀心法,10"/>
+  </item>
+  <item name="全真心法秘籍" desc="记载了全真派入门的内功心法" type="4" pic="物品.宝典" level="5" price="200">
+		<require name="gengu" argvs="30"/>
+		<require name="fuyuan" argvs="30"/>
+		<trigger name="internalskill" argvs="全真心法,10"/>
+	</item>
+	<item name="紫霞神功秘籍" desc="紫霞神功秘籍" type="4" pic="物品.宝典" level="5">
+		<require name="gengu" argvs="55"/>
+		<require name="dingli" argvs="60"/>
+		<trigger name="internalskill" argvs="紫霞神功,10"/>
+	</item>
+	<item name="蛤蟆功秘籍" desc="趴在地上，呱，呱" type="4" pic="物品.宝典" level="5">
+		<require name="gengu" argvs="50"/>
+    <require name="fuyuan" argvs="45"/>
+		<trigger name="internalskill" argvs="蛤蟆功,10"/>
+	</item>
+	<item name="武当心法抄本" desc="武当派的心法要诀" type="4" pic="物品.宝典" level="5">
+    <require name="gengu" argvs="30"/>
+		<trigger name="internalskill" argvs="武当心法,10"/>
+	</item>
+	<item name="先天功秘籍" desc="周而复始，生生不息" type="4" pic="物品.宝典" level="5">
+		<require name="wuxing" argvs="75"/>
+		<require name="gengu" argvs="75"/>
+		<trigger name="internalskill" argvs="先天功,10"/>
+	</item>
+	<item name="北冥神功精义" desc="逍遥派的神奇内功" type="4" pic="物品.宝典" level="5">
+		<require name="gengu" argvs="40"/>
+		<require name="wuxing" argvs="75"/>
+		<require name="fuyuan" argvs="90"/>
+		<trigger name="internalskill" argvs="北冥神功,11"/>
+	</item>
+  <item name="血海魔功秘籍" desc="血刀门神秘的邪恶内功" type="4" pic="物品.宝典" level="5">
+    <require name="gengu" argvs="70"/>
+    <require name="wuxing" argvs="75"/>
+    <require name="fuyuan" argvs="55"/>
+    <require name="daofa" argvs="75"/>
+    <trigger name="internalskill" argvs="血海魔功,10"/>
+  </item>
+  <item name="龙象般若功精义" desc="大轮寺镇寺之宝，龙象般若功" type="4" pic="物品.宝典" level="5">
+    <require name="gengu" argvs="80"/>
+    <require name="dingli" argvs="80"/>
+    <trigger name="internalskill" argvs="龙象般若功,10"/>
+  </item>
+	<item name="九阴真经抄本" desc="至高无上的内功心法" type="4" pic="物品.宝典" level="5">
+		<require name="gengu" argvs="50"/>
+		<require name="fuyuan" argvs="60"/>
+		<trigger name="internalskill" argvs="九阴神功,6"/>
+	</item>
+	<item name="九阴真经" desc="至高无上的内功心法" type="4" pic="物品.宝典" level="5">
+		<require name="gengu" argvs="70"/>
+		<require name="fuyuan" argvs="80"/>
+		<trigger name="internalskill" argvs="九阴神功,8"/>
+	</item>
+	<item name="真九阴真经" desc="至高无上的内功心法" type="4" pic="物品.宝典" level="5">
+		<require name="gengu" argvs="70"/>
+		<require name="fuyuan" argvs="80"/>
+		<trigger name="internalskill" argvs="九阴神功,11"/>
+	</item>
+	<item name="葵花宝典" desc="自宫才够猛哦" type="4" pic="物品.宝典" level="5">
+		<require name="gengu" argvs="90"/>
+		<require name="wuxing" argvs="90"/>
+    <require name="fuyuan" argvs="90"/>
+    <require name="dingli" argvs="90"/>
+    <require name="talent" argvs="阉人"/>
+		<trigger name="internalskill" argvs="葵花宝典,9"/>
+	</item>
+	<item name="真葵花宝典" desc="自宫才够猛哦" type="4" pic="物品.宝典" level="5">
+		<require name="gengu" argvs="90"/>
+		<require name="wuxing" argvs="90"/>
+		<require name="fuyuan" argvs="90"/>
+    <require name="dingli" argvs="90"/>
+    <require name="talent" argvs="阉人"/>
+		<trigger name="internalskill" argvs="葵花宝典,12"/>
+	</item>
+	<item name="易筋经" desc="少林寺内功绝学" type="4" pic="物品.宝典" level="5">
+		<require name="gengu" argvs="70"/>
+		<require name="wuxing" argvs="60"/>
+		<require name="fuyuan" argvs="80"/>
+		<trigger name="internalskill" argvs="易筋经,9"/>
+	</item>
+  <item name="易筋经真本" desc="少林寺内功绝学" type="4" pic="物品.宝典" level="5">
+    <require name="gengu" argvs="90"/>
+    <require name="wuxing" argvs="75"/>
+    <require name="fuyuan" argvs="80"/>
+    <trigger name="internalskill" argvs="易筋经,10"/>
+  </item>
+  
+  <item name="神照经" desc="有神照着" type="4" pic="物品.宝典" level="4">
+    <require name="gengu" argvs="70"/>
+    <require name="wuxing" argvs="65"/>
+    <require name="fuyuan" argvs="70"/>
+    <trigger name="internalskill" argvs="神照功,9"/>
+  </item>
+  <!--任务物品-->
+	<item name="七星海棠" desc="一朵奇怪的海棠花。" type="5" pic="物品.七星海棠" level="6"/>
+  <item name="闯王军刀" desc="闯王当年使用的军刀，据说隐藏一个极大的秘密。" type="5" pic="物品.血刀" level="2"/>
+  <item name="少林寺失窃的经书" desc="一本少林寺失窃的经书" type="5" pic="物品.宝典" level="5"/>
+  <item name="杨不悔的发簪" desc="殷梨亭匆匆忙忙掉落的一个发簪。" type="5" pic="物品.发簪" level="3"/>
+	<!--天赋书-->
+	<item name="药王神篇" desc="记载毒手药王的毕生绝学。" type="7" pic="物品.宝典" level="6">
+		<require name="wuxing" argvs="60"/>
+		<require name="gengu" argvs="60"/>
+		<require name="dingli" argvs="95"/>
+		<trigger name="talent" argvs="毒圣"/>
+	</item>
+	<item name="神行百变秘籍" desc="记载铁剑门木桑道长的绝学秘本。" type="7" pic="物品.宝典" level="6">
+		<require name="shenfa" argvs="100"/>
+		<require name="wuxing" argvs="80"/>
+		<trigger name="talent" argvs="神行百变"/>
+	</item>
+	<item name="厚黑学" desc="一本记载着满是阴谋的黑暗秘本。" type="7" pic="物品.宝典" level="6">
+		<require name="wuxing" argvs="100"/>
+		<trigger name="talent" argvs="阴谋家"/>
+	</item>
+  <item name="春宫图" desc="色狼的最爱。" type="7" pic="物品.宝典" level="6">
+    <trigger name="talent" argvs="好色"/>
+  </item>
+  <!-- 时装 -->
+  <item name="血刀门门装" desc="血刀门弟子的装束" type="2" pic="物品.破军披风" level="2">
+    <require name="talent" argvs="嗜血狂魔"/>
+    <trigger name="animation" argvs="血刀门弟子,menpai_dizi_xuedao"/>
+    <trigger name="defence" argvs="5,0"/>
+  </item>
+  <item name="全真教道服" desc="全真教弟子的装束" type="2" pic="物品.粗布道袍" level="2">
+    <require name="talent" argvs="清风"/>
+    <trigger name="animation" argvs="全真教弟子,daoshi_4"/>
+    <trigger name="defence" argvs="5,0"/>
+  </item>
+  <item name="大轮寺装束" desc="大轮弟子的装束" type="2" pic="物品.袈裟" level="2">
+    <require name="talent" argvs="金刚"/>
+    <trigger name="animation" argvs="大轮寺弟子,xizang_quan"/>
+    <trigger name="defence" argvs="5,0"/>
+  </item>
+  <item name="古墓派装束" desc="古墓弟子的装束" type="2" pic="物品.袈裟" level="2">
+    <require name="talent" argvs="幽居"/>
+    <trigger name="animation" argvs="古墓派弟子,daoshi_jian_blue"/>
+    <trigger name="defence" argvs="5,0"/>
+  </item>
+  <item name="灵鹫宫装束" desc="灵鹫宫弟子的装束" type="2" pic="物品.袈裟" level="2">
+    <require name="talent" argvs="御风"/>
+    <trigger name="animation" argvs="灵鹫宫弟子,jianke"/>
+    <trigger name="defence" argvs="5,0"/>
+  </item>
+  <item name="一品鹿鼎公印记" desc="证明一品鹿鼎公身份的印记" type="3" pic="物品.龙游帮VIP令牌" level="6" talent="普照">
+    <require name="talent" argvs="鹿鼎.一品鹿鼎公"/>
+    <trigger name="animation" argvs="一品鹿鼎公,weixiaobao"/>
+    <trigger name="defence" argvs="200,10"/>
+  </item>
+</items>

@@ -1,0 +1,64 @@
+<root>
+  <story name="test_TEST">
+    <action type="DIALOG" value="主角#啊呀，这昆仑仙境中竟然有这么多猴子！" />
+    <action type="DIALOG" value="主角#搞什么飞机啊！" />
+  </story>
+  <story name="test_测试战斗">
+    <action type="BACKGROUND" value="地图.山中" />
+    <action type="MUSIC" value="战斗音乐.2" />
+    <action type="DIALOG" value="主角#K木头人！" />
+  </story>
+  <story name="test_选择">
+    <action type="DIALOG" value="主角#神啊，给我一个队友吧！" />
+    <action type="SELECT" value="主角#是否要求张无忌加入？#是#否" />
+    <result ret="yes">
+      <control type="story" value="test_是">
+        <condition type="should_finish" value="original_主角之家.开场" />
+      </control>
+      <control type="story" value="test_拒绝" />
+    </result>
+    <result ret="0" type="story" value="test_是" />
+    <result ret="1" type="story" value="test_否" />
+  </story>
+  <story name="test_多重选择测试">
+    <action type="DIALOG" value="主角#测试一下多重选择框" />
+    <action type="SELECT" value="主角#选择选项#返回洛阳#再邀请一遍#邀请#拒绝" />
+    <result ret="0" type="map" value="洛阳" />
+    <result ret="1" type="story" value="test_选择" />
+    <result ret="2" type="story" value="test_是" />
+    <result ret="3" type="story" value="test_否" />
+  </story>
+  <story name="test_是">
+    <action type="DIALOG" value="张无忌#勉强跟你跑跑吧。" />
+    <action type="JOIN" value="张无忌" />
+    <result ret="0" type="story" value="test_多重选择测试" />
+  </story>
+  <story name="test_否">
+    <action type="DIALOG" value="主角#算了，这队友也太弱了，不要了。" />
+    <result ret="0" type="story" value="test_多重选择测试" />
+  </story>
+  <story name="test_拒绝">
+    <action type="DIALOG" value="张无忌#你要先去南贤居，我才能加入你。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="test_ARENA">
+    <action type="DIALOG" value="燕小六#为了宝藏与秘籍，来战吧！" />
+    <result ret="win" type="story" value="original_同福客栈.竞技场结束" />
+    <result ret="lose" type="story" value="original_同福客栈.竞技场结束" />
+  </story>
+  <story name="test_TOWER">
+    <action type="DIALOG" value="主角#兄弟们，给我上啊！" />
+    <result ret="lose" type="story" value="original_天关.失败" />
+  </story>
+  <story name="test_HUASHAN">
+    <action type="DIALOG" value="南贤#带着你的小伙伴们fight吧！" />
+    <action type="DIALOG" value="北丑#哈哈，真是激动人心啊！" />
+    <result ret="win">
+      <control type="story" value="original_华山论剑最终炼狱">
+        <condition type="game_mode" value="crazy" />
+      </control>
+      <control type="story" value="original_华山论剑最终" />
+    </result>
+    <result ret="lose" type="gameOver" value="gameOver" />
+  </story>
+</root>

@@ -1,0 +1,39 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+	mc:Ignorable="d"
+	x:Class="JyGame.EnvsetPanel" Height="362" Width="300" Loaded="UserControl_Loaded">
+    <Canvas>
+		<Canvas.Background>
+			<ImageBrush Stretch="Fill" ImageSource="/Resource/ui/UI-kuang.png"/>
+		</Canvas.Background>
+		<TextBlock Height="33" Canvas.Left="10" TextWrapping="Wrap" Text="环境设定" Width="85" Foreground="#FFFFF300" FontSize="18.667" Canvas.Top="7"/>
+		<TextBlock Height="33" Canvas.Left="108" TextWrapping="Wrap" Text="音效" Canvas.Top="44" Width="59" Foreground="Red" FontSize="13.333"/>
+		<TextBlock Height="33" Canvas.Left="108" TextWrapping="Wrap" Text="音乐" Canvas.Top="84" Width="59" Foreground="Red" FontSize="13.333"/>
+		<CheckBox x:Name="audioCheckBox" Content="" Height="33" Canvas.Left="167" Canvas.Top="44" Width="45" Click="audioCheckBox_Click"/>
+		<CheckBox x:Name="musicCheckBox" Content="" Height="33" Canvas.Left="167" Canvas.Top="84" Width="45" Click="musicCheckBox_Click"/>
+		<Button x:Name="Cancel" Content="关闭" Height="26" Canvas.Left="234" Width="65" Click="Cancel_Click" Foreground="Black" BorderThickness="5" Opacity="0.58" BorderBrush="#FFA29E9B">
+			<Button.Background>
+				<ImageBrush Stretch="Fill"/>
+			</Button.Background>
+		</Button>
+		<TextBlock Height="33" Canvas.Left="52" TextWrapping="Wrap" Text="战斗速度" Canvas.Top="121" Width="87" Foreground="Red" FontSize="13.333" TextAlignment="Right"/>
+		<Popup/>
+		<ComboBox x:Name="SkillAnimationSpeedCombo" Height="21" Canvas.Left="167" Canvas.Top="117" Width="93" SelectionChanged="SkillAnimationSpeedCombo_SelectionChanged"/>
+		<TextBlock Height="33" Canvas.Left="52" TextWrapping="Wrap" Text="高品质音效(网速慢请不要选)" Canvas.Top="154" Width="87" Foreground="Red" FontSize="13.333"/>
+		<CheckBox x:Name="hightQualityAudio" Content="" Height="33" Canvas.Left="167" Canvas.Top="154" Width="45" Click="hightQualityAudio_Click"/>
+		<TextBlock Height="21" Canvas.Left="82" TextWrapping="Wrap" Text="自动存档" Canvas.Top="206" Width="57" Foreground="Red" FontSize="13.333"/>
+		<CheckBox x:Name="autoSaveCheckBox" Content="" Height="33" Canvas.Left="167" Canvas.Top="204" Width="45" Click="autoSaveCheckBox_Click"/>
+		<TextBlock Height="21" Canvas.Left="82" TextWrapping="Wrap" Text="全屏模式" Canvas.Top="235" Width="57" Foreground="Red" FontSize="13.333"/>
+		<CheckBox x:Name="fullScreenCheckBox" Content="" Height="33" Canvas.Left="167" Canvas.Top="234" Width="45" Click="fullScreenCheckBox_Click"/>
+		<TextBlock Height="21" Canvas.Left="82" TextWrapping="Wrap" Text="自动战斗" Canvas.Top="268" Width="57" Foreground="Red" FontSize="13.333"/>
+		<CheckBox x:Name="autoBattleCheckBox" Content="" Height="33" Canvas.Left="167" Canvas.Top="265" Width="45" Click="autoBattleCheckBox_Click"/>
+		<TextBlock Height="21" Canvas.Left="82" TextWrapping="Wrap" Text="显示弹幕" Canvas.Top="294" Width="57" Foreground="Red" FontSize="13.333"/>
+		<CheckBox x:Name="danmuCheckBox" Content="" Height="33" Canvas.Left="167" Canvas.Top="292" Width="45" Click="danmuCheckBox_Click"/>
+		<TextBlock Height="21" Canvas.Left="49" TextWrapping="Wrap" Text="战斗集气动画" Canvas.Top="320" Width="90" Foreground="Red" FontSize="13.333"/>
+		<CheckBox x:Name="jiqiCheckBox" Content="" Height="33" Canvas.Left="167" Canvas.Top="319" Width="45" Click="jiqiCheckBox_Click"/>
+	</Canvas>
+</UserControl>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <roles>
+    <role key="血刀弟子" animation="menpai_dizi_xuedao" name="血刀弟子" head="头像.血刀弟子" hp="500" maxhp="500" mp="1500" maxmp="1500"
+  wuxing="60" shenfa="60" bili="70" gengu="70" fuyuan="50" dingli="50" quanzhang="10" jianfa="0" daofa="30" qimen="0" level="8"
+      arenaJoinProb="0" female="0" talent="嗜血狂魔">
+      <skills>
+        <skill name="血刀大法" level="4" maxlevel="10"/>
+      </skills>
+      <internal_skills>
+        <internal_skill name="基本内功" level="10" equipped="1" maxlevel="10"/>
+      </internal_skills>
+    </role>
+    <role key="宝象" animation="menpai_dizi_xuedao" name="宝象" head="头像.宝象" hp="700" maxhp="700" mp="1500" maxmp="1500"
+  wuxing="60" shenfa="60" bili="70" gengu="70" fuyuan="50" dingli="50" quanzhang="40" jianfa="0" daofa="50" qimen="0" level="11"
+      arenaJoinProb="0" female="0" talent="嗜血狂魔">
+      <skills>
+        <skill name="血刀大法" level="6" maxlevel="10"/>
+      </skills>
+      <internal_skills>
+        <internal_skill name="血刀心法" level="8" equipped="1" maxlevel="10"/>
+      </internal_skills>
+    </role>
+    <role key="胜谛" animation="menpai_dizi_xuedao" name="胜谛" head="头像.胜谛" hp="1300" maxhp="1300" mp="1500" maxmp="1500"
+  wuxing="60" shenfa="60" bili="70" gengu="70" fuyuan="50" dingli="50" quanzhang="40" jianfa="0" daofa="70" qimen="0" level="12"
+      arenaJoinProb="0" female="0" talent="嗜血狂魔">
+      <skills>
+        <skill name="血刀大法" level="8" maxlevel="10"/>
+      </skills>
+      <internal_skills>
+        <internal_skill name="血刀心法" level="10" equipped="1" maxlevel="10"/>
+      </internal_skills>
+    </role>
+    <role key="善勇" animation="menpai_dizi_xuedao" name="善勇" head="头像.善勇" hp="1400" maxhp="1400" mp="1500" maxmp="1500"
+  wuxing="60" shenfa="60" bili="70" gengu="70" fuyuan="50" dingli="50" quanzhang="40" jianfa="0" daofa="77" qimen="0" level="13"
+      arenaJoinProb="0" female="0" talent="嗜血狂魔">
+      <skills>
+        <skill name="血刀大法" level="10" maxlevel="10"/>
+      </skills>
+      <internal_skills>
+        <internal_skill name="血海魔功" level="7" equipped="1" maxlevel="10"/>
+        <internal_skill name="血刀心法" level="10" equipped="0" maxlevel="10"/>
+      </internal_skills>
+    </role>
+    
+
+    <role key="血刀老祖2" animation="xuedaolaozu" name="血刀老祖" head="头像.血刀老祖" hp="3000" maxhp="3000" mp="4500" maxmp="4500"
+  wuxing="70" shenfa="80" bili="80" gengu="80" fuyuan="50" dingli="80" quanzhang="50" jianfa="0" daofa="100" qimen="30" level="20"
+      arenaJoinProb="0" female="0" talent="嗜血狂魔" arena="no">
+      <skills>
+        <skill name="血刀大法" level="10" maxlevel="10"/>
+      </skills>
+      <internal_skills>
+        <internal_skill name="血海魔功" level="10" equipped="1" maxlevel="10"/>
+      </internal_skills>
+      <items>
+        <item type="1" name="血刀"/>
+      </items>
+    </role>
+    <role key="血刀老祖3" animation="xuedaolaozu" name="血刀老祖" head="头像.血刀老祖" hp="5000" maxhp="5000" mp="5500" maxmp="5500"
+  wuxing="100" shenfa="100" bili="100" gengu="100" fuyuan="100" dingli="100" quanzhang="50" jianfa="0" daofa="150" qimen="30" level="20"
+      arenaJoinProb="0" female="0" talent="嗜血狂魔" arena="no">
+      <skills>
+        <skill name="血刀大法" level="15" maxlevel="15"/>
+      </skills>
+      <internal_skills>
+        <internal_skill name="血海魔功" level="13" equipped="1" maxlevel="13"/>
+      </internal_skills>
+      <items>
+        <item type="1" name="血刀"/>
+      </items>
+    </role>
+    
+    <!--非战斗-->
+    <role key="凤姐" animation="menpai_dizi_xuedao" name="凤姐" head="头像.毛东珠" hp="1000" maxhp="1000" mp="1500" maxmp="1500"
+  wuxing="60" shenfa="60" bili="70" gengu="70" fuyuan="50" dingli="50" quanzhang="40" jianfa="0" daofa="70" qimen="0" level="13"
+      arenaJoinProb="0" female="0" talent="嗜血狂魔" arena="no">
+      <skills>
+        <skill name="血刀大法" level="10" maxlevel="10"/>
+      </skills>
+      <internal_skills>
+        <internal_skill name="基本内功" level="10" equipped="1" maxlevel="10"/>
+      </internal_skills>
+    </role>
+    
+  </roles>
+</root>

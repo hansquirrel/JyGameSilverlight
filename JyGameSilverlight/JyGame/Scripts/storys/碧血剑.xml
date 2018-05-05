@@ -1,0 +1,294 @@
+﻿<root>
+  <story name="碧血剑_何红药1">
+    <action type="DIALOG" value="何红药#念桥边红药，年年只为谁生。唉，夏雪宜呀夏雪宜，今日你已经化作黄土，我又还活在这里做什么呢。" />
+    <action type="DIALOG" value="主角#前辈节哀" />
+    <action type="DIALOG" value="何红药#你如何能理解这样的感情..." />
+    <action type="DIALOG" value="主角#..." />
+    <action type="DIALOG" value="何红药#你走吧" />
+    <action type="DIALOG" value="主角#......" />
+    <action type="DIALOG" value="何红药#还不走？" />
+    <action type="SELECT" value="主角#要留在这里吗？#留在这里#还是走吧" />
+    <result ret="1" type="map" value="华山后山" />
+    <result ret="0" type="story" value="碧血剑_何红药2" />
+  </story>
+  <story name="碧血剑_何红药2">
+    <action type="DIALOG" value="何红药#还不走，就不要怪我不客气了！" />
+    <action type="SELECT" value="主角#要留在这里吗？#留在这里#还是走吧" />
+    <result ret="1" type="map" value="华山后山" />
+    <result ret="0" type="story" value="碧血剑_何红药3" />
+  </story>
+  <story name="碧血剑_何红药3">
+    <action type="DIALOG" value="何红药#找死！" />
+    <action type="BATTLE" value="何红药_战斗" />
+    <result ret="win" type="story" value="碧血剑_何红药胜" />
+  </story>
+  <story name="碧血剑_何红药胜">
+    <action type="DIALOG" value="何红药#夏雪宜！我来阴曹地府陪你来了！" />
+    <action type="DIALOG" value="主角#何必这么刚烈呢..." />
+    <action type="ITEM" value="五毒教信物#1" />
+    <action type="DIALOG" value="主角#这是...？五毒教的信物？" />
+    <action type="LOG" value="击败何红药，得到五毒教信物。" />
+    <result ret="0" type="map" value="华山后山" />
+  </story>
+  <!--<story name="碧血剑_勃泥岛.温青青">
+    <action type="DIALOG" value="温青青#啊呀，这小岛上呆久了，闷也闷死了。" />
+  </story>
+  <story name="碧血剑_勃泥岛.温青青加入">
+    <action type="DIALOG" value="温青青#（咦？这是五毒教的信物）你和五毒教什么关系？" />
+    <action type="DIALOG" value="主角#没什么关系，这个信物是我从华山后山捡来的。" />
+    <action type="DIALOG" value="温青青#啊呀，这小岛上呆久了，闷也闷死了。" />
+    <action type="DIALOG" value="主角#姑娘既然无聊，不如和我们一起回中原溜达溜达？" />
+    <action type="DIALOG" value="温青青#（袁承志这死鬼最近都不理我...）好啊，我们走吧！" />
+    <action type="JOIN" value="温青青" />
+    <action type="ITEM" value="雷震剑法秘籍#1" />
+  </story>
+  <story name="碧血剑_勃泥岛.袁承志1">
+    <action type="DIALOG" value="袁承志#啊呀，不小心把金蛇剑搞丢了..." />
+  </story>
+  <story name="碧血剑_勃泥岛.袁承志2">
+    <action type="DIALOG" value="袁承志#青青，在外面玩得还开心不？" />
+    <action type="DIALOG" value="温青青#还可以啦..." />
+    <action type="DIALOG" value="袁承志#乖，回家了。" />
+    <action type="DIALOG" value="温青青#不回，不理你..." />
+    <action type="DIALOG" value="袁承志#..." />
+  </story>
+  <story name="碧血剑_勃泥岛.袁承志加入">
+    <action type="DIALOG" value="袁承志#兄台身上带的，可是金蛇剑？" />
+    <action type="DIALOG" value="主角#不错，这宝剑还可以。" />
+    <action type="DIALOG" value="温青青#袁承志，你搞丢的宝剑，人家又找回来了哦。" />
+    <action type="DIALOG" value="温青青#看这小哥本事还可以吧。" />
+    <action type="DIALOG" value="袁承志#..." />
+    <action type="DIALOG" value="温青青#你还不对我好点，我可就不理你了。" />
+    <action type="DIALOG" value="袁承志#那你回家嘛，我肯定对你好。" />
+    <action type="DIALOG" value="温青青#就不回，岛上呆久了也不好玩了。" />
+    <action type="DIALOG" value="袁承志#...唉，造孽。那我跟你们一起再回中原转转吧。" />
+    <action type="JOIN" value="袁承志" />
+    <action type="NICK" value="承国之志" />
+  </story>-->
+  <story name="碧血剑_五毒教圣地1">
+    <action type="DIALOG" value="五毒教弟子#此处通往五毒教圣地，严禁擅闯！" />
+  </story>
+  <story name="碧血剑_五毒教圣地2">
+    <action type="DIALOG" value="五毒教弟子#此处通往五毒教圣地，严禁擅闯！" />
+    <action type="DIALOG" value="主角#（掏出五毒教信物）你看看，这是什么？" />
+    <action type="DIALOG" value="五毒教弟子#啊，这是我五毒教教主授予的信物。" />
+    <action type="DIALOG" value="五毒教弟子#既然是我五毒教的贵宾，请通行。" />
+    <result ret="0" type="map" value="五毒教森林1" />
+  </story>
+  <story name="碧血剑_五毒教金蛇窟">
+    <action type="DIALOG" value="主角#这把...一定就是传说中的金蛇剑了...（伸手去拿）" />
+    <action type="DIALOG" value="主角#不好！有暗算！" />
+    <action type="BATTLE" value="金蛇窟_战斗" />
+    <result ret="win" type="story" value="碧血剑_五毒教金蛇剑" />
+  </story>
+  <story name="碧血剑_五毒教金蛇剑">
+    <action type="DIALOG" value="主角#呼呼，总算是有惊无险。" />
+    <action type="ITEM" value="金蛇剑#1" />
+    <action type="NICK" value="金蛇传人" />
+  </story>
+  <!--<story name="碧血剑_夏雪宜">
+    <action type="DIALOG" value="袁承志#（这个人和青青长得好像，难道是……）" />
+    <action type="DIALOG" value="金蛇郎君#小子不错，居然泡到我女儿了。" />
+    <action type="DIALOG" value="温青青#啊？难道是……爹？" />
+    <action type="DIALOG" value="袁承志#前辈难道是金蛇郎君夏雪宜？拜见前辈。" />
+    <action type="DIALOG" value="金蛇郎君#嘿嘿，还前辈呢。" />
+    <action type="DIALOG" value="袁承志#（脸红）额，拜见岳父！" />
+    <action type="DIALOG" value="温青青#嘻嘻，这才像样。" />
+    <action type="DIALOG" value="金蛇郎君#看来你在华山山洞里已经继承了我当年的武学，你我是有缘人。" />
+    <action type="DIALOG" value="袁承志#承蒙前辈传授绝学！" />
+    <action type="DIALOG" value="金蛇郎君#好吧，先试试你的功夫练得怎么样了。" />
+    <action type="BATTLE" value="夏雪宜_战斗" />
+    <result ret="win">
+      <control type="story" value="碧血剑_夏雪宜胜利简单模式">
+        <condition type="game_mode" value="normal" />
+      </control>
+      <control type="story" value="碧血剑_夏雪宜胜利" />
+    </result>
+    <result ret="lose">
+      <control type="story" value="碧血剑_夏雪宜失败简单模式">
+        <condition type="game_mode" value="normal" />
+      </control>
+      <control type="story" value="碧血剑_夏雪宜失败" />
+    </result>
+  </story>
+  <story name="碧血剑_夏雪宜胜利简单模式">
+    <action type="DIALOG" value="金蛇郎君#不错！不错！" />
+    <action type="DIALOG" value="袁承志#岳父，承让！" />
+    <action type="DIALOG" value="金蛇郎君#我金蛇秘籍传人是当如此，飘逸洒脱，出其不意。" />
+    <action type="UPGRADE.MAXHP" value="袁承志#1000" />
+    <action type="UPGRADE.MAXMP" value="袁承志#1000" />
+    <action type="GET_POINT" value="袁承志#10" />
+    <action type="UPGRADE.剑法" value="袁承志#20" />
+    <action type="LEARN.TALENT" value="袁承志#金蛇郎君" />
+    <action type="LEARN.SKILL" value="袁承志#金蛇剑法#12" />
+    <action type="DIALOG" value="金蛇郎君#我的戏份完了，我闪~" />
+    <action type="DIALOG" value="温青青#啊，爹爹你偏心，不教我一手！" />
+    <action type="DIALOG" value="金蛇郎君#木有办法啊……你还是好好相夫教子吧。" />
+    <action type="DIALOG" value="温青青#哼！" />
+    <action type="DIALOG" value="袁承志#岳父，我觉得好像你教得还不够多！金蛇剑法秘籍都没有给我。" />
+    <action type="DIALOG" value="金蛇郎君#简单模式下，靠这个打遍天下，够啦。想要秘籍，挑战更高难度吧。" />
+    <action type="LOG" value="袁承志单挑击败金蛇郎君夏雪宜。" />
+    <action type="NICK" value="金蛇郎君" />
+  </story>
+  <story name="碧血剑_夏雪宜胜利">
+    <action type="DIALOG" value="金蛇郎君#不错！不错！" />
+    <action type="DIALOG" value="袁承志#岳父，承让！" />
+    <action type="DIALOG" value="金蛇郎君#我金蛇秘籍传人是当如此，飘逸洒脱，出其不意。" />
+    <action type="UPGRADE.MAXHP" value="袁承志#1500" />
+    <action type="UPGRADE.MAXMP" value="袁承志#1500" />
+    <action type="GET_POINT" value="袁承志#30" />
+    <action type="UPGRADE.剑法" value="袁承志#25" />
+    <action type="LEARN.TALENT" value="袁承志#金蛇郎君" />
+    <action type="LEARN.SKILL" value="袁承志#金蛇剑法#12" />
+    <action type="ITEM" value="金蛇剑法秘籍#1" />
+    <action type="DIALOG" value="金蛇郎君#我的戏份完了，我闪~" />
+    <action type="DIALOG" value="温青青#啊，爹爹你偏心，不教我一手！" />
+    <action type="DIALOG" value="金蛇郎君#木有办法啊……你还是好好相夫教子吧。" />
+    <action type="DIALOG" value="温青青#哼！" />
+    <action type="LOG" value="袁承志单挑击败金蛇郎君夏雪宜。" />
+    <action type="NICK" value="金蛇郎君" />
+  </story>
+  <story name="碧血剑_夏雪宜失败简单模式">
+    <action type="DIALOG" value="金蛇郎君#你这水平不够啊，来教你几手" />
+    <action type="DIALOG" value="袁承志#多谢岳父！" />
+    <action type="UPGRADE.MAXHP" value="袁承志#500" />
+    <action type="UPGRADE.MAXMP" value="袁承志#500" />
+    <action type="GET_POINT" value="袁承志#5" />
+    <action type="UPGRADE.剑法" value="袁承志#5" />
+    <action type="LEARN.SKILL" value="袁承志#金蛇剑法#10" />
+    <action type="DIALOG" value="金蛇郎君#我的戏份完了，我闪~" />
+    <action type="DIALOG" value="温青青#啊，爹爹你偏心，不教我一手！" />
+    <action type="DIALOG" value="金蛇郎君#好吧！也教你一手！" />
+    <action type="UPGRADE.MAXHP" value="温青青#500" />
+    <action type="UPGRADE.MAXMP" value="温青青#500" />
+    <action type="GET_POINT" value="温青青#5" />
+    <action type="UPGRADE.剑法" value="温青青#5" />
+    <action type="LEARN.SKILL" value="温青青#金蛇剑法#10" />
+    <action type="DIALOG" value="袁承志#岳父，我觉得好像你教得还不够多！金蛇剑法秘籍都没有给我。" />
+    <action type="DIALOG" value="金蛇郎君#简单模式下，靠这个打遍天下，够啦。想要秘籍，挑战更高难度吧。" />
+    <action type="LOG" value="袁承志单挑负于金蛇郎君夏雪宜。" />
+  </story>
+  <story name="碧血剑_夏雪宜失败">
+    <action type="DIALOG" value="金蛇郎君#你这水平不够啊，来教你几手" />
+    <action type="DIALOG" value="袁承志#多谢岳父！" />
+    <action type="UPGRADE.MAXHP" value="袁承志#1200" />
+    <action type="UPGRADE.MAXMP" value="袁承志#1200" />
+    <action type="GET_POINT" value="袁承志#20" />
+    <action type="UPGRADE.剑法" value="袁承志#20" />
+    <action type="LEARN.SKILL" value="袁承志#金蛇剑法#10" />
+    <action type="DIALOG" value="金蛇郎君#我的戏份完了，我闪~" />
+    <action type="DIALOG" value="温青青#啊，爹爹你偏心，不教我一手！" />
+    <action type="DIALOG" value="金蛇郎君#好吧！也教你一手！" />
+    <action type="UPGRADE.MAXHP" value="温青青#1200" />
+    <action type="UPGRADE.MAXMP" value="温青青#1200" />
+    <action type="GET_POINT" value="温青青#40" />
+    <action type="UPGRADE.剑法" value="温青青#25" />
+    <action type="LEARN.SKILL" value="温青青#金蛇剑法#10" />
+    <action type="LOG" value="袁承志单挑负于金蛇郎君夏雪宜。" />
+  </story>-->
+  <story name="碧血剑_穆人清">
+    <action type="DIALOG" value="木桑道长#哈哈，穆老头，我这千变万劫棋国手是否果然名不虚传，这把棋你输定了。" />
+    <action type="DIALOG" value="穆人清#哈哈，木桑老头，下棋这道确实我只能认输了！但你这“千变万劫”，怕还是轻功造诣赚回来的吧。" />
+    <action type="DIALOG" value="木桑道长#胡扯，武功神马的俺早就看透了，棋艺上的造诣才是真正吃饭的家伙！" />
+    <action type="DIALOG" value="袁承志#师父！道长！你们又在下棋啊！" />
+    <action type="DIALOG" value="木桑道长#承志！来得刚好，赶紧的，你师父被我连赢好几把了，你来陪我下棋。" />
+    <action type="DIALOG" value="穆人清#承志好久不见了，不知渤泥岛的新婚生活过的如何呀？" />
+    <action type="DIALOG" value="温青青#哼，俩糟老头真不正经。" />
+    <action type="DIALOG" value="穆人清#哈哈哈哈！来，承志，我和木桑道长这辈子一直各种比，我们刚还在讨论到底谁教的徒弟厉害。" />
+    <action type="DIALOG" value="木桑道长#正是正是，不过数来数去也就承志最有出息了，但我俩都教过你武功，不算数，得重新比过。" />
+    <action type="DIALOG" value="温青青#啊哈，这不简单么，你俩都和承志比武，看谁能打过不就行了。" />
+    <action type="DIALOG" value="木桑道长#好主意！上！" />
+    <action type="BATTLE" value="穆人清_战斗" />
+    <result ret="win">
+      <control type="story" value="碧血剑_穆人清胜利简单模式">
+        <condition type="game_mode" value="normal" />
+      </control>
+      <control type="story" value="碧血剑_穆人清胜利" />
+    </result>
+    <result ret="lose">
+      <control type="story" value="碧血剑_穆人清失败简单模式">
+        <condition type="game_mode" value="normal" />
+      </control>
+      <control type="story" value="碧血剑_穆人清失败" />
+    </result>
+  </story>
+  <story name="碧血剑_穆人清胜利">
+    <action type="DIALOG" value="木桑道长#真是代有新人出，后浪推前浪啊！" />
+    <action type="DIALOG" value="穆人清#哈哈，我等糟老头都只能回去养老啦。我看这辈子咱俩都是打平手。" />
+    <action type="DIALOG" value="木桑道长#教出这么个徒弟，洒家这辈子也值了！" />
+    <action type="DIALOG" value="袁承志#师父们太抬举了！" />
+    <action type="DIALOG" value="穆人清#来来，我再教你一手！看好了。" />
+    <action type="UPGRADE.MAXHP" value="袁承志#500" />
+    <action type="UPGRADE.MAXMP" value="袁承志#500" />
+    <action type="GET_POINT" value="袁承志#25" />
+    <action type="UPGRADE.拳掌" value="袁承志#30" />
+    <action type="UPGRADE.剑法" value="袁承志#5" />
+    <action type="LEARN.TALENT" value="袁承志#混元一气" />
+    <action type="DIALOG" value="木桑道长#喂喂，穆老头，光许你教不许我教啊？我也教一招，看好了！" />
+    <action type="ITEM" value="神行百变秘籍#1" />
+    <action type="LEARN.SKILL" value="袁承志#漫天花雨#10" />
+    <action type="UPGRADE.奇门" value="袁承志#30" />
+    <action type="DIALOG" value="木桑道长#不错不错！走吧，穆老头。咱俩已经没什么顾念了，四海为家，云游为乐。" />
+    <action type="DIALOG" value="穆人清#正是！承志你们保重，我们去也。" />
+    <action type="LOG" value="袁承志得到穆人清和木桑道长真传。" />
+    <action type="NICK" value="神剑仙猿" />
+  </story>
+  <story name="碧血剑_穆人清胜利简单模式">
+    <action type="DIALOG" value="木桑道长#真是代有新人出，后浪推前浪啊！" />
+    <action type="DIALOG" value="穆人清#哈哈，我等糟老头都只能回去养老啦。我看这辈子咱俩都是打平手。" />
+    <action type="DIALOG" value="木桑道长#教出这么个徒弟，洒家这辈子也值了！" />
+    <action type="DIALOG" value="袁承志#师父们太抬举了！" />
+    <action type="DIALOG" value="穆人清#来来，我再教你一手！看好了。" />
+    <action type="UPGRADE.MAXHP" value="袁承志#300" />
+    <action type="UPGRADE.MAXMP" value="袁承志#300" />
+    <action type="GET_POINT" value="袁承志#15" />
+    <action type="UPGRADE.拳掌" value="袁承志#15" />
+    <action type="UPGRADE.剑法" value="袁承志#5" />
+    <action type="LEARN.TALENT" value="袁承志#混元一气" />
+    <action type="DIALOG" value="木桑道长#喂喂，穆老头，光许你教不许我教啊？我也教一招，看好了！" />
+    <action type="LEARN.SKILL" value="袁承志#漫天花雨#10" />
+    <action type="UPGRADE.奇门" value="袁承志#15" />
+    <action type="DIALOG" value="温青青#俩老头真吝啬，也就教这么点东西啊？" />
+    <action type="DIALOG" value="穆人清#简单模式下，这个已经能够行走江湖了，知足吧！" />
+    <action type="DIALOG" value="木桑道长#不错不错！走吧，穆老头。咱俩已经没什么顾念了，四海为家，云游为乐。" />
+    <action type="DIALOG" value="穆人清#正是！承志你们保重，我们去也。" />
+    <action type="LOG" value="袁承志得到穆人清和木桑道长真传。" />
+    <action type="NICK" value="神剑仙猿" />
+  </story>
+  <story name="碧血剑_穆人清失败">
+    <action type="DIALOG" value="木桑道长#痛快痛快！" />
+    <action type="DIALOG" value="穆人清#承志进步也很大！" />
+    <action type="DIALOG" value="木桑道长#教出这么个徒弟，洒家这辈子也值了！" />
+    <action type="DIALOG" value="袁承志#师父们太抬举了！" />
+    <action type="DIALOG" value="木桑道长#来来，我再教你一手！看好了。" />
+    <action type="UPGRADE.MAXHP" value="袁承志#500" />
+    <action type="UPGRADE.MAXMP" value="袁承志#500" />
+    <action type="GET_POINT" value="袁承志#20" />
+    <action type="UPGRADE.奇门" value="袁承志#50" />
+    <action type="UPGRADE.剑法" value="袁承志#5" />
+    <action type="LEARN.SKILL" value="袁承志#漫天花雨#10" />
+    <action type="DIALOG" value="木桑道长#不错不错！走吧，穆老头。咱俩已经没什么顾念了，四海为家，云游为乐。" />
+    <action type="DIALOG" value="穆人清#正是！承志你们保重，我们去也。" />
+    <action type="LOG" value="木桑道人穆人清考校袁承志。" />
+    <action type="NICK" value="铁剑传人" />
+  </story>
+  <story name="碧血剑_穆人清失败简单模式">
+    <action type="DIALOG" value="木桑道长#痛快痛快！" />
+    <action type="DIALOG" value="穆人清#承志进步也很大！" />
+    <action type="DIALOG" value="木桑道长#教出这么个徒弟，洒家这辈子也值了！" />
+    <action type="DIALOG" value="袁承志#师父们太抬举了！" />
+    <action type="DIALOG" value="木桑道长#来来，我再教你一手！看好了。" />
+    <action type="UPGRADE.MAXHP" value="袁承志#200" />
+    <action type="UPGRADE.MAXMP" value="袁承志#200" />
+    <action type="GET_POINT" value="袁承志#5" />
+    <action type="UPGRADE.奇门" value="袁承志#5" />
+    <action type="UPGRADE.剑法" value="袁承志#5" />
+    <action type="LEARN.SKILL" value="袁承志#漫天花雨#10" />
+    <action type="DIALOG" value="温青青#俩老头真吝啬，也就教这么点东西啊？" />
+    <action type="DIALOG" value="穆人清#简单模式下，这个已经能够行走江湖了，知足吧！" />
+    <action type="DIALOG" value="木桑道长#不错不错！走吧，穆老头。咱俩已经没什么顾念了，四海为家，云游为乐。" />
+    <action type="DIALOG" value="穆人清#正是！承志你们保重，我们去也。" />
+    <action type="LOG" value="木桑道人穆人清考校袁承志。" />
+    <action type="NICK" value="铁剑传人" />
+  </story>
+</root>

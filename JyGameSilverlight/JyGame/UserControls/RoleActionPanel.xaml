@@ -1,0 +1,69 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	x:Class="JyGame.RoleActionPanel"
+	d:DesignWidth="640" Width="100" Height="78.333" Opacity="0.745">
+	<UserControl.Resources>
+		<Storyboard x:Name="attackAnim">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="Attack">
+				<EasingDoubleKeyFrame KeyTime="0" Value="49.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="Items">
+				<EasingDoubleKeyFrame KeyTime="0" Value="49.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="RoleStatus">
+				<EasingDoubleKeyFrame KeyTime="0" Value="-48"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="Rest">
+				<EasingDoubleKeyFrame KeyTime="0" Value="-55.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="RoleStatus">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Rest">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Items">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Attack">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</UserControl.Resources>
+
+	<Canvas Margin="0,0,-76,-7">
+		<Ellipse Height="99" Canvas.Left="-28" Stroke="Orange" Canvas.Top="-28" Width="99"/>
+		<Image x:Name="Attack" Source="/Resource/ui/button_jineng.png" RenderTransformOrigin="0.275,0.853" Height="90" Width="60" Canvas.Top="-91" Canvas.Left="-4">
+			<Image.RenderTransform>
+				<CompositeTransform/>
+			</Image.RenderTransform>
+		</Image>
+		<Image x:Name="Items" Source="/Resource/ui/button_wupin.png" RenderTransformOrigin="0.275,0.853" Height="90" Width="60" Canvas.Left="-75" Canvas.Top="-23">
+			<Image.RenderTransform>
+				<CompositeTransform/>
+			</Image.RenderTransform>
+		</Image>
+		<Image x:Name="Rest" Source="/Resource/ui/button_xiuxi.png" RenderTransformOrigin="0.275,0.853" Height="90" Width="60" Canvas.Left="72" Canvas.Top="-23">
+			<Image.RenderTransform>
+				<CompositeTransform/>
+			</Image.RenderTransform>
+		</Image>
+		<Image x:Name="RoleStatus" Source="/Resource/ui/button_zhuangtai.png" RenderTransformOrigin="0.275,0.853" Height="90" Width="60" Canvas.Top="46" Canvas.Left="-5">
+			<Image.RenderTransform>
+				<CompositeTransform/>
+			</Image.RenderTransform>
+		</Image>
+	</Canvas>
+</UserControl>

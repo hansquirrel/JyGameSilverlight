@@ -1,0 +1,887 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3A79E5F5-0BAF-407A-8F34-CAA011BEF966}</ProjectGuid>
+    <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JyGame</RootNamespace>
+    <AssemblyName>JyGame</AssemblyName>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>zh-Hans</SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>JyGame.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>JyGame.App</SilverlightAppEntry>
+    <TestPageFileName>JyGameTestPage.html</TestPageFileName>
+    <CreateTestPage>true</CreateTestPage>
+    <ValidateXaml>true</ValidateXaml>
+    <EnableOutOfBrowser>false</EnableOutOfBrowser>
+    <OutOfBrowserSettingsFile>Properties\OutOfBrowserSettings.xml</OutOfBrowserSettingsFile>
+    <UsePlatformExtensions>false</UsePlatformExtensions>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <LinkedServerProject>
+    </LinkedServerProject>
+  </PropertyGroup>
+  <!-- This property group is only here to support building this project using the 
+       MSBuild 3.5 toolset. In order to work correctly with this older toolset, it needs 
+       to set the TargetFrameworkVersion to v3.5 -->
+  <PropertyGroup Condition="'$(MSBuildToolsVersion)' == '3.5'">
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core">
+      <HintPath>$(TargetFrameworkDirectory)System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Controls, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Data, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Data.Input, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Input, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Toolkit">
+      <HintPath>dlls\System.Windows.Controls.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Windows.Browser" />
+    <Reference Include="System.Xml.Linq, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Serialization, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="effects\EffectBase.cs" />
+    <Compile Include="effects\Shader\BandedSwirl.cs" />
+    <Compile Include="effects\Shader\Bands.cs" />
+    <Compile Include="effects\Shader\Blinds.cs" />
+    <Compile Include="effects\Shader\CircleReveal.cs" />
+    <Compile Include="effects\Shader\ColorTone.cs" />
+    <Compile Include="effects\Shader\ContrastAdjust.cs" />
+    <Compile Include="effects\Shader\DirectionalBlur.cs" />
+    <Compile Include="effects\Shader\GlassTiles.cs" />
+    <Compile Include="effects\Shader\GrowablePoissonDisk.cs" />
+    <Compile Include="effects\Shader\LightStreak.cs" />
+    <Compile Include="effects\Shader\MonoChrome.cs" />
+    <Compile Include="effects\Shader\MultiInput_ColorChannels.cs" />
+    <Compile Include="effects\Shader\OldMovie.cs" />
+    <Compile Include="effects\Shader\Pixelate.cs" />
+    <Compile Include="effects\Shader\RadialBlur.cs" />
+    <Compile Include="effects\Shader\Ripple.cs" />
+    <Compile Include="effects\Shader\Saturate.cs" />
+    <Compile Include="effects\Shader\Sharpen.cs" />
+    <Compile Include="effects\Shader\ShiftHue.cs" />
+    <Compile Include="effects\Shader\SketchPencilStroke.cs" />
+    <Compile Include="effects\Shader\TextStroke.cs" />
+    <Compile Include="effects\Shader\WaveRipple.cs" />
+    <Compile Include="effects\Shader\ZoomBlur.cs" />
+    <Compile Include="Game.xaml.cs">
+      <DependentUpon>Game.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GameData\Animations.cs" />
+    <Compile Include="GameData\Audio.cs" />
+    <Compile Include="GameData\Battle.cs" />
+    <Compile Include="GameData\Buff.cs" />
+    <Compile Include="GameData\CommonSettings.cs" />
+    <Compile Include="GameData\Configer.cs" />
+    <Compile Include="GameData\Dialog.cs" />
+    <Compile Include="GameData\DodgeDragManager.cs" />
+    <Compile Include="GameData\DodgeGameManager.cs" />
+    <Compile Include="GameData\GameProject.cs" />
+    <Compile Include="GameData\GameServerManager.cs" />
+    <Compile Include="GameData\Item.cs" />
+    <Compile Include="GameData\ItemTriggerDb.cs" />
+    <Compile Include="GameData\MapEvents.cs" />
+    <Compile Include="GameData\OLBattleData.cs" />
+    <Compile Include="GameData\ResourceManager.cs" />
+    <Compile Include="GameData\Role.cs" />
+    <Compile Include="GameData\RuntimeData.cs" />
+    <Compile Include="GameData\SaveLoadManager.cs" />
+    <Compile Include="GameData\Shop.cs" />
+    <Compile Include="GameData\Skill.cs" />
+    <Compile Include="GameData\SkillCoverType.cs" />
+    <Compile Include="GameData\Story.cs" />
+    <Compile Include="GameData\Talent.cs" />
+    <Compile Include="GameData\TimeTrigger.cs" />
+    <Compile Include="GameData\TriggerManager.cs" />
+    <Compile Include="GameData\Xiangzi.cs" />
+    <Compile Include="GameEngine.cs" />
+    <Compile Include="Interface\IScence.cs" />
+    <Compile Include="JyGameStudio.xaml.cs">
+      <DependentUpon>JyGameStudio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\AI.cs" />
+    <Compile Include="Logic\BonusItem.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StudioControls\ImageSelectItem.xaml.cs">
+      <DependentUpon>ImageSelectItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StudioControls\ImageSelectWindow.xaml.cs">
+      <DependentUpon>ImageSelectWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StudioControls\MusicSelectWindow.xaml.cs">
+      <DependentUpon>MusicSelectWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StudioControls\ProjectPanel.xaml.cs">
+      <DependentUpon>ProjectPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StudioControls\StoryEditWindow.xaml.cs">
+      <DependentUpon>StoryEditWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StudioControls\StoryResultEditWindow.xaml.cs">
+      <DependentUpon>StoryResultEditWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StudioControls\StudioPanel.xaml.cs">
+      <DependentUpon>StudioPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tools.cs" />
+    <Compile Include="UIHost.xaml.cs">
+      <DependentUpon>UIHost.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ArenaSelectRole.xaml.cs">
+      <DependentUpon>ArenaSelectRole.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ArenaSelectScene.xaml.cs">
+      <DependentUpon>ArenaSelectScene.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ArtWord1.xaml.cs">
+      <DependentUpon>ArtWord1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AttackInfo.cs" />
+    <Compile Include="UserControls\AttackInfoNew.xaml.cs">
+      <DependentUpon>AttackInfoNew.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AudioPanel.xaml.cs">
+      <DependentUpon>AudioPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\BattleBlock.xaml.cs">
+      <DependentUpon>BattleBlock.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\BattleField.xaml.cs">
+      <DependentUpon>BattleField.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\BattleFieldContainer.xaml.cs">
+      <DependentUpon>BattleFieldContainer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\BattleFieldHeadPanel.xaml.cs">
+      <DependentUpon>BattleFieldHeadPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\BattleFieldLog.xaml.cs">
+      <DependentUpon>BattleFieldLog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Bonus.xaml.cs">
+      <DependentUpon>Bonus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\BuyItemWindow.xaml.cs">
+      <DependentUpon>BuyItemWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Console.xaml.cs">
+      <DependentUpon>Console.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CoverImage.xaml.cs">
+      <DependentUpon>CoverImage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DialogBox.xaml.cs">
+      <DependentUpon>DialogBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DialogIndicator.xaml.cs">
+      <DependentUpon>DialogIndicator.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DianxueGame.xaml.cs">
+      <DependentUpon>DianxueGame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DodgeEnemy.xaml.cs">
+      <DependentUpon>DodgeEnemy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DodgeGame.xaml.cs">
+      <DependentUpon>DodgeGame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DodgeMan.xaml.cs">
+      <DependentUpon>DodgeMan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\EnvsetPanel.xaml.cs">
+      <DependentUpon>EnvsetPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GameOver.xaml.cs">
+      <DependentUpon>GameOver.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\HeadSelectPanel.xaml.cs">
+      <DependentUpon>HeadSelectPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ItemSelectPanel.xaml.cs">
+      <DependentUpon>ItemSelectPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ItemUnit.xaml.cs">
+      <DependentUpon>ItemUnit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\LoadingPanel.xaml.cs">
+      <DependentUpon>LoadingPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Log.xaml.cs">
+      <DependentUpon>Log.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MainMenu.xaml.cs">
+      <DependentUpon>MainMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MapEvent.xaml.cs">
+      <DependentUpon>MapEvent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MapPointer.xaml.cs">
+      <DependentUpon>MapPointer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MapUI.xaml.cs">
+      <DependentUpon>MapUI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MultiSelectBox.xaml.cs">
+      <DependentUpon>MultiSelectBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MultiSelectBoxItem.xaml.cs">
+      <DependentUpon>MultiSelectBoxItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\NameTextBox.xaml.cs">
+      <DependentUpon>NameTextBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\OLBattleStatusPanel.xaml.cs">
+      <DependentUpon>OLBattleStatusPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\OnlineGame.xaml.cs">
+      <DependentUpon>OnlineGame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\OnlineGameInviteItem.xaml.cs">
+      <DependentUpon>OnlineGameInviteItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\RoleActionPanel.xaml.cs">
+      <DependentUpon>RoleActionPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\RoleDetailPanel.xaml.cs">
+      <DependentUpon>RoleDetailPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\RoleDetailPanelReverse.xaml.cs">
+      <DependentUpon>RoleDetailPanelReverse.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\RoleListPanel.xaml.cs">
+      <DependentUpon>RoleListPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\RolePanel.xaml.cs">
+      <DependentUpon>RolePanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\RollRole.xaml.cs">
+      <DependentUpon>RollRole.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SaveLoadPanel.xaml.cs">
+      <DependentUpon>SaveLoadPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Scence.xaml.cs">
+      <DependentUpon>Scence.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SceneHead.xaml.cs">
+      <DependentUpon>SceneHead.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SelectBox.xaml.cs">
+      <DependentUpon>SelectBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SelfManagedAnimation.cs" />
+    <Compile Include="UserControls\ShopPanel.xaml.cs">
+      <DependentUpon>ShopPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SkillHotKeysItem.xaml.cs">
+      <DependentUpon>SkillHotKeysItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SkillHotKeysPanel.xaml.cs">
+      <DependentUpon>SkillHotKeysPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SkillSelectPanel.xaml.cs">
+      <DependentUpon>SkillSelectPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SkillToolTip.xaml.cs">
+      <DependentUpon>SkillToolTip.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SmallDialogBox.xaml.cs">
+      <DependentUpon>SmallDialogBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Spirit.xaml.cs">
+      <DependentUpon>Spirit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SpiritAttackInfo.xaml.cs">
+      <DependentUpon>SpiritAttackInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\StorePanel.xaml.cs">
+      <DependentUpon>StorePanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SuggestTip.xaml.cs">
+      <DependentUpon>SuggestTip.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SystemOptions.xaml.cs">
+      <DependentUpon>SystemOptions.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TowerSelectRole.xaml.cs">
+      <DependentUpon>TowerSelectRole.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TowerSelectScene.xaml.cs">
+      <DependentUpon>TowerSelectScene.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\WudaoDahuiPanel.xaml.cs">
+      <DependentUpon>WudaoDahuiPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\WudaoOpponentItem.xaml.cs">
+      <DependentUpon>WudaoOpponentItem.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="Game.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="JyGameStudio.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StudioControls\ImageSelectItem.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StudioControls\ImageSelectWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StudioControls\MusicSelectWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StudioControls\ProjectPanel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StudioControls\StoryEditWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StudioControls\StoryResultEditWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StudioControls\StudioPanel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UIHost.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\ArenaSelectRole.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\ArenaSelectScene.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\ArtWord1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\AttackInfoNew.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\AudioPanel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\BattleBlock.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\BattleField.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\BattleFieldContainer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\BattleFieldHeadPanel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\BattleFieldLog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\Bonus.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\BuyItemWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\Console.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\CoverImage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\DialogBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\DialogIndicator.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\DianxueGame.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\DodgeEnemy.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\DodgeGame.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\DodgeMan.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\EnvsetPanel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\GameOver.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\HeadSelectPanel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\ItemSelectPanel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\ItemUnit.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\LoadingPanel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\Log.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\MainMenu.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\MapEvent.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\MapPointer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\MapUI.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\MultiSelectBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\MultiSelectBoxItem.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\NameTextBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\OLBattleStatusPanel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\OnlineGame.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\OnlineGameInviteItem.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\RoleActionPanel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\RoleDetailPanel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\RoleDetailPanelReverse.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\RoleListPanel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\RolePanel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\RollRole.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\SaveLoadPanel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\Scence.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\SceneHead.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\SelectBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\ShopPanel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\SkillHotKeysItem.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\SkillHotKeysPanel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\SkillSelectPanel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\SkillToolTip.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\SmallDialogBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\Spirit.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\SpiritAttackInfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\StorePanel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\SuggestTip.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\SystemOptions.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\TowerSelectRole.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\TowerSelectScene.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\WudaoDahuiPanel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\WudaoOpponentItem.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Fonts\msyh.ttf" />
+    <Resource Include="Fonts\msyhbd.ttf" />
+    <Resource Include="effects\Source\BandedSwirl.ps" />
+    <Resource Include="effects\Source\Bands.ps" />
+    <Resource Include="effects\Source\Blinds.ps" />
+    <Resource Include="effects\Source\CircleReveal.ps" />
+    <Resource Include="effects\Source\ColorTone.ps" />
+    <Resource Include="effects\Source\ContrastAdjust.ps" />
+    <Resource Include="effects\Source\DirectionalBlur.ps" />
+    <Resource Include="effects\Source\GlassTiles.ps" />
+    <Resource Include="effects\Source\GrowablePoissonDisk.ps" />
+    <Resource Include="effects\Source\LightStreak.ps" />
+    <Resource Include="effects\Source\MonoChrome.ps" />
+    <Resource Include="effects\Source\MultiInput_ColorChannels.ps" />
+    <Resource Include="effects\Source\OldMovie.ps" />
+    <Resource Include="effects\Source\Pixelate.ps" />
+    <Resource Include="effects\Source\RadialBlur.ps" />
+    <Resource Include="effects\Source\Ripple.ps" />
+    <Resource Include="effects\Source\Saturate.ps" />
+    <Resource Include="effects\Source\Sharpen.ps" />
+    <Resource Include="effects\Source\ShiftHue.ps" />
+    <Resource Include="effects\Source\SketchPencilStroke.ps" />
+    <Resource Include="effects\Source\TextStroke.ps" />
+    <Resource Include="effects\Source\WaveRipple.ps" />
+    <Resource Include="effects\Source\ZoomBlur.ps" />
+    <None Include="Properties\AppManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="config.xml" />
+    <Content Include="Properties\InBrowserSettings.xml" />
+    <Content Include="Properties\OutOfBrowserSettings.xml" />
+    <Resource Include="Scripts\animations\animations.xml" />
+    <Resource Include="Scripts\animations\skillanimations.xml" />
+    <Resource Include="Scripts\battles\battle.xml" />
+    <Resource Include="Scripts\battles\battleCY.xml" />
+    <Resource Include="Scripts\battles\battlePY.xml" />
+    <Resource Include="Scripts\battles\battleShyou.xml" />
+    <Resource Include="Scripts\battles\battleTower.xml" />
+    <Resource Include="Scripts\item\item.xml" />
+    <Resource Include="Scripts\item\itemCG.xml" />
+    <Resource Include="Scripts\item\itemCY.xml" />
+    <Resource Include="Scripts\item\itemPY.xml" />
+    <Resource Include="Scripts\item\itemShyou.xml" />
+    <Resource Include="Scripts\item\itemTriggerDb.xml" />
+    <Resource Include="Scripts\maps\map.xml" />
+    <Resource Include="Scripts\maps\mapMenpai.xml" />
+    <Resource Include="Scripts\maps\mapPY.xml" />
+    <Resource Include="Scripts\maps\mapShyou.xml" />
+    <Resource Include="Scripts\project.xml" />
+    <Resource Include="Scripts\resource\audios.xml" />
+    <Resource Include="Scripts\resource\buffs.xml" />
+    <Resource Include="Scripts\resource\heads.xml" />
+    <Resource Include="Scripts\resource\items.xml" />
+    <Resource Include="Scripts\resource\maps.xml" />
+    <Resource Include="Scripts\resource\nicks.xml" />
+    <Resource Include="Scripts\resource\roleinfo.xml" />
+    <Resource Include="Scripts\resource\talents.xml" />
+    <Resource Include="Scripts\resource\tips.xml" />
+    <Resource Include="Scripts\resource\ui.xml" />
+    <Resource Include="Scripts\role\role.xml" />
+    <Resource Include="Scripts\role\roleCY.xml" />
+    <Resource Include="Scripts\role\rolePY.xml" />
+    <Resource Include="Scripts\role\roleQuanzhenjiao.xml" />
+    <Resource Include="Scripts\role\roleShyou.xml" />
+    <Resource Include="Scripts\role\roleXiakexing.xml" />
+    <Resource Include="Scripts\role\roleXuedaomen.xml" />
+    <Resource Include="Scripts\shop\shop.xml" />
+    <Resource Include="Scripts\skill\skill.xml" />
+    <Resource Include="Scripts\skill\skillCY.xml" />
+    <Resource Include="Scripts\skill\skillPY.xml" />
+    <Resource Include="Scripts\skill\skillShyou.xml" />
+    <Resource Include="Scripts\storys\aboutus.xml" />
+    <Resource Include="Scripts\storys\bixuejianShyou.xml" />
+    <Resource Include="Scripts\storys\mainStory.xml" />
+    <Resource Include="Scripts\storys\original.xml" />
+    <Resource Include="Scripts\storys\pilitang.xml" />
+    <Resource Include="Scripts\storys\sdxl.xml" />
+    <Resource Include="Scripts\storys\test.xml" />
+    <Resource Include="Scripts\storys\tlbb.dy.xml" />
+    <Resource Include="Scripts\storys\tlbb.xz.xml" />
+    <Resource Include="Scripts\storys\yttlj.xml" />
+    <Resource Include="Scripts\storys\书剑恩仇录.xml" />
+    <Resource Include="Scripts\storys\侠客行.xml" />
+    <Resource Include="Scripts\storys\倚天屠龙记.xml" />
+    <Resource Include="Scripts\storys\射雕英雄传.xml" />
+    <Resource Include="Scripts\storys\白马啸西风.xml" />
+    <Resource Include="Scripts\storys\碧血剑.xml" />
+    <Resource Include="Scripts\storys\笑傲江湖.xml" />
+    <Resource Include="Scripts\storys\连城诀.xml" />
+    <Resource Include="Scripts\storys\门派全真教.xml" />
+    <Resource Include="Scripts\storys\门派古墓.xml" />
+    <Resource Include="Scripts\storys\门派大轮寺.xml" />
+    <Resource Include="Scripts\storys\门派少林寺.xml" />
+    <Resource Include="Scripts\storys\门派昆仑.xml" />
+    <Resource Include="Scripts\storys\门派武当派.xml" />
+    <Resource Include="Scripts\storys\门派灵鹫宫.xml" />
+    <Resource Include="Scripts\storys\门派血刀门.xml" />
+    <Resource Include="Scripts\storys\雪山飞狐.xml" />
+    <Resource Include="Scripts\storys\飞狐外传.xml" />
+    <Resource Include="Scripts\storys\鸳鸯刀.xml" />
+    <Resource Include="Scripts\storys\鹿鼎记.xml" />
+    <Resource Include="Scripts\talent\talent.xml" />
+    <Resource Include="Scripts\timetrigger\timetrigger.xml" />
+    <Resource Include="Scripts\tower\tower.xml" />
+    <Content Include="Resource\ui\attack1.png" />
+    <Content Include="Resource\ui\attack2.png" />
+    <Content Include="Resource\ui\attack3.png" />
+    <Content Include="Resource\ui\audioIcon.png" />
+    <Content Include="Resource\ui\back.png" />
+    <Content Include="Resource\ui\back1.png" />
+    <Content Include="Resource\ui\battleinfo.png" />
+    <Content Include="Resource\ui\battleinfo_fan.png" />
+    <Content Include="Resource\ui\button_gonglue.png" />
+    <Content Include="Resource\ui\button_jineng.png" />
+    <Content Include="Resource\ui\button_rizhi.png" />
+    <Content Include="Resource\ui\button_wupin.png" />
+    <Content Include="Resource\ui\button_xitong.png" />
+    <Content Include="Resource\ui\button_xiuxi.png" />
+    <Content Include="Resource\ui\button_zhuangtai.png" />
+    <Content Include="Resource\ui\cao-1.png" />
+    <Content Include="Resource\ui\cao-2.png" />
+    <Content Include="Resource\ui\cao-3.png" />
+    <Content Include="Resource\ui\cao-fill.png" />
+    <Content Include="Resource\ui\dialog-0.png" />
+    <Content Include="Resource\ui\dialog-1.png" />
+    <Content Include="Resource\ui\dialog-2.png" />
+    <Content Include="Resource\ui\dialog-3.png" />
+    <Content Include="Resource\ui\dialog-4.png" />
+    <Content Include="Resource\ui\dialog.png" />
+    <Content Include="Resource\ui\donate.jpg" />
+    <Content Include="Resource\ui\donate.png" />
+    <Content Include="Resource\ui\event_1.png" />
+    <Content Include="Resource\ui\event_2.png" />
+    <Content Include="Resource\ui\event_3.png" />
+    <Content Include="Resource\ui\event_active.png" />
+    <Content Include="Resource\ui\event_exist.png" />
+    <Content Include="Resource\ui\event_null.png" />
+    <Content Include="Resource\ui\eye.png" />
+    <Content Include="Resource\ui\fin.jpg" />
+    <Content Include="Resource\ui\front.png" />
+    <Content Include="Resource\ui\fullscreen.png" />
+    <Content Include="Resource\ui\gameover.jpg" />
+    <Content Include="Resource\ui\help.jpg" />
+    <Content Include="Resource\ui\help0.jpg" />
+    <Content Include="Resource\ui\help1.jpg" />
+    <Content Include="Resource\ui\help2.jpg" />
+    <Content Include="Resource\ui\help3.jpg" />
+    <Content Include="Resource\ui\icon-dao.png" />
+    <Content Include="Resource\ui\icon-jian.png" />
+    <Content Include="Resource\ui\icon-neigong.png" />
+    <Content Include="Resource\ui\icon-qimen.png" />
+    <Content Include="Resource\ui\icon-quan.png" />
+    <Content Include="Resource\ui\icon-teshu.png" />
+    <Content Include="Resource\ui\info.png" />
+    <Content Include="Resource\ui\item1.png" />
+    <Content Include="Resource\ui\item2.png" />
+    <Content Include="Resource\ui\item3.png" />
+    <Content Include="Resource\ui\kuang1.png" />
+    <Content Include="Resource\ui\kuang2.png" />
+    <Content Include="Resource\ui\kuang3.png" />
+    <Content Include="Resource\ui\kuang4.png" />
+    <Content Include="Resource\ui\lancao.png" />
+    <Content Include="Resource\ui\lancao_fan.png" />
+    <Content Include="Resource\ui\left.png" />
+    <Content Include="Resource\ui\lianwuchang.jpg" />
+    <Content Include="Resource\ui\logo-black.jpg" />
+    <Content Include="Resource\ui\logo.jpg" />
+    <Content Include="Resource\ui\logo.png" />
+    <Content Include="Resource\ui\mainmenu - beta 0.1.jpg" />
+    <Content Include="Resource\ui\mainmenu - beta 0.2.jpg" />
+    <Content Include="Resource\ui\mainmenu - beta 0.3.jpg" />
+    <Content Include="Resource\ui\mainmenu - beta 0.4.jpg" />
+    <Content Include="Resource\ui\mainmenu-beta0.5.jpg" />
+    <Content Include="Resource\ui\mainmenu.jpg" />
+    <Content Include="Resource\ui\nick.png" />
+    <Content Include="Resource\ui\op.jpg" />
+    <Content Include="Resource\ui\rest1.png" />
+    <Content Include="Resource\ui\rest2.png" />
+    <Content Include="Resource\ui\rest3.png" />
+    <Content Include="Resource\ui\right.png" />
+    <Content Include="Resource\ui\sceneHeadFrame.png" />
+    <Content Include="Resource\ui\SceneHeadFrameActive.png" />
+    <Content Include="Resource\ui\shuimo.png" />
+    <Content Include="Resource\ui\skillbox.png" />
+    <Content Include="Resource\ui\status1.png" />
+    <Content Include="Resource\ui\status2.png" />
+    <Content Include="Resource\ui\status3.png" />
+    <Content Include="Resource\ui\tanhao.png" />
+    <Content Include="Resource\ui\UI-focus-kuang.png" />
+    <Content Include="Resource\ui\UI-kuang.png" />
+    <Content Include="Resource\ui\UI-kuang2.png" />
+    <Content Include="Resource\ui\UI-kuang3.png" />
+    <Content Include="Resource\ui\UI-kuang4.png" />
+    <Content Include="Resource\ui\UI-kuang5.png" />
+    <Content Include="Resource\ui\UI-kuang6.png" />
+    <Content Include="Resource\ui\UI-kuang7.png" />
+    <Content Include="Resource\ui\UI-kuang8.png" />
+    <Content Include="Resource\ui\xuecao.png" />
+    <Content Include="Resource\ui\xuecao_fan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JyGame.BattleNet\JyGame.BattleNet.csproj">
+      <Project>{85bd3df3-c86e-41d5-953e-47ef6beba59b}</Project>
+      <Name>JyGame.BattleNet</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dlls\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{A1591282-1198-4647-A2B1-27E5FF5F6F3B}">
+        <SilverlightProjectProperties />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

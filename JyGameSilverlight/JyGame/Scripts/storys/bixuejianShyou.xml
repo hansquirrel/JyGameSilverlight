@@ -1,0 +1,969 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <story name="bixuejianShyou_东厂追杀">
+    <!-->action type="BACKGROUND" value="地图.郊外" /-->
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="崔秋山#承志，这套伏虎掌法，是一位前辈高人传给我的。" />
+    <action type="DIALOG" value="崔秋山#我不能尽数领会其中的精奥，功夫也着实还差得远，但在江湖上对付寻常敌人，也已足够。"/>
+    <action type="DIALOG" value="崔秋山#他老人家传授这套掌法之时，曾叫我立誓，学会之后，决不能用来欺压良善，伤害无辜。”" />
+    <action type="DIALOG" value="儿时袁承志#弟子袁承志,学会了伏虎掌法之后，决不敢欺压良善，伤害无辜" />
+    <action type="DIALOG" value="崔秋山#好,你且瞧仔细了,喝阿!" />
+    <action type="LEARN.SKILL" value="儿时袁承志#伏虎掌#8" />
+    <action type="DIALOG" value="崔秋山#(忽闻喊声大作，又隐隐有金鼓之声，原来是追杀的官兵已到山腰处。)" />
+    <action type="DIALOG" value="崔秋山#不好,东厂番子!" />
+    <action type="DIALOG" value="孙仲寿#袁督师只有这点骨血，请崔大哥护送他脱险。" />
+    <action type="DIALOG" value="崔秋山#我必尽力。" />
+    <action type="DIALOG" value="主角#我们也来帮忙！" />
+    <action type="BATTLE" value="广州.战斗" />
+    <result ret="win" type="story" value="bixuejianShyou_脱险" />
+  </story>
+  <story name="bixuejianShyou_东厂已追杀">
+    <!-->action type="BACKGROUND" value="地图.郊外" /-->
+    <action type="DIALOG" value="崔秋山#我们快走吧"/>
+    <action type="DIALOG" value="主角#好。"/>
+  </story>
+  <story name="bixuejianShyou_脱险">
+    <action type="BACKGROUND" value="地图.郊外" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="崔秋山#终于得以脱身，崔某在此谢过诸位英雄好汉。" />
+    <action type="DIALOG" value="儿时袁承志#啊，崔叔叔，你受伤了！" />
+    <action type="DIALOG" value="主角#不必如此客气，两位接下来有何打算？（来吧来吧，做小伙伴吧）" />
+    <action type="DIALOG" value="崔秋山#我打算带小承志去李将军处。" />
+    <action type="DIALOG" value="主角#可是闯王李自成李将军？在下慕名已久，不如结伴而行，一路也好有个照应？" />
+    <action type="DIALOG" value="崔秋山#如此甚好。" />
+    <action type="JOIN" value="儿时袁承志" />
+    <action type="JOIN" value="崔秋山" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="bixuejianShyou_华山学武1">
+    <action type="BACKGROUND" value="地图.华山后山" />
+    <action type="MUSIC" value="音乐.经典" />
+    <action type="DIALOG" value="儿时袁承志#啊,这里山路崎岖，好险峻的一座山啊！" />
+    <action type="DIALOG" value="崔秋山#承志,我这些日子左思右想,觉得现在带你去见闯王还是太过匆忙了。" />
+    <action type="DIALOG" value="崔秋山#这里是我一位记名师父的住处,我带你来这,是想恳求他收你为徒的。" />
+    <action type="DIALOG" value="儿时袁承志#啊?那崔叔叔你呢?" />
+    <action type="DIALOG" value="崔秋山#我如今身上伤已好的差不多了,该去闯王麾下报道了。" />
+    <action type="DIALOG" value="儿时袁承志#不，我要跟着崔叔叔一起去！" />
+    <action type="DIALOG" value="崔秋山#承志,你学好武功,才能在江湖上立足啊,我们就快到了。" />
+    <action type="DIALOG" value="哑仆#阿巴阿巴阿巴阿巴阿巴" />
+    <action type="DIALOG" value="崔秋山#啊,哑兄,你来了,承志,快叫声哑伯伯。" />
+    <action type="DIALOG" value="儿时袁承志#哑伯伯!" />
+    <action type="DIALOG" value="哑仆#（喜笑颜开,又做了几个手势,看他的意思是跟着他走）" />
+    <result ret="0" type="story" value="bixuejianShyou_华山学武2" />
+  </story>
+  <story name="bixuejianShyou_华山学武2">
+    <action type="BACKGROUND" value="地图.华山仙境" />
+    <action type="MUSIC" value="音乐.室内_清新" />
+    <action type="DIALOG" value="哑仆#阿巴阿巴阿巴阿巴阿巴" />
+    <action type="DIALOG" value="穆人清#哦?是谁来了?" />
+    <action type="DIALOG" value="儿时袁承志#师父,弟子袁承志给您行礼啦!" />
+    <action type="DIALOG" value="穆人清#（笑道）你这娃儿,谁让你叫我师父的?你怎知我肯收你为徒?" />
+    <action type="DIALOG" value="崔秋山#师父,这是袁崇焕袁都督的独子,我曾指点了他两天伏虎掌法,他天资聪颖学得很快,是颗练武的好苗子,还望师父收他为徒。" />
+    <action type="DIALOG" value="穆人清#哦?是么?那我且先看看他学的怎么样" />
+    <action type="BATTLE" value="华山仙境.战斗" />
+    <result ret="win" type="story" value="bixuejianShyou_华山收徒1" />
+    <result ret="lose" type="story" value="bixuejianShyou_华山收徒2" />
+  </story>
+  <story name="bixuejianShyou_华山收徒1">
+    <action type="BACKGROUND" value="地图.华山仙境" />
+    <action type="MUSIC" value="音乐.室内_清新" />
+    <action type="DIALOG" value="穆人清#不错不错，已经有八分火候了，果然是块好料子，既如此，我便收你为徒！" />
+    <action type="DIALOG" value="崔秋山#多谢师父！" />
+    <action type="DIALOG" value="儿时袁承志#多谢师父，弟子给您磕头啦！" />
+    <action type="DIALOG" value="儿时袁承志#(跪倒在地，恭恭敬敬的向他磕了四个头)" />
+    <action type="DIALOG" value="崔秋山#真是太好了，承志，你便好好跟着师父，我先去闯王麾下报道了。" />
+    <action type="DIALOG" value="儿时袁承志#崔叔叔（眼睛红红的），谢谢你！" />
+    <action type="DIALOG" value="崔秋山#别做那女儿姿态，我走了！" />
+    <action type="DIALOG" value="儿时袁承志#大哥，我要跟师父习武去了，待我学成下山，再去找你！" />
+    <action type="DIALOG" value="主角#好的（尼玛心在流血啊，说好的变身呢）" />
+    <action type="LEAVE" value="儿时袁承志" />
+    <action type="DIALOG" value="穆人清#小兄弟此来一路辛苦,一点心意,收下吧" />
+    <action type="ITEM" value="王母蟠桃#3" />
+    <action type="DIALOG" value="主角#多谢穆前辈!" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="bixuejianShyou_华山收徒2">
+    <action type="BACKGROUND" value="地图.华山仙境" />
+    <action type="MUSIC" value="音乐.室内_清新" />
+    <action type="DIALOG" value="穆人清#嗯,几天功夫能练成这样也还算不错了,看在你故世的爹的份上,老夫便收你为徒。" />
+    <action type="DIALOG" value="崔秋山#多谢师父！" />
+    <action type="DIALOG" value="儿时袁承志#多谢师父，弟子给您磕头啦！" />
+    <action type="DIALOG" value="儿时袁承志#(跪倒在地，恭恭敬敬的向他磕了四个头)" />
+    <action type="DIALOG" value="崔秋山#承志，你跟着师父好好学武，将来学成出山，咱们一起共御外侮！" />
+    <action type="DIALOG" value="儿时袁承志#崔叔叔（眼睛红红的），承志必不负众望！" />
+    <action type="DIALOG" value="崔秋山#别做那女儿姿态，我这也便去闯王军中报道了,就此别过,后会有期！" />
+    <action type="DIALOG" value="主角#后会有期!" />
+    <action type="LEAVE" value="儿时袁承志" />
+    <action type="LEAVE" value="崔秋山" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="bixuejianShyou_风陵渡口">
+    <action type="BACKGROUND" value="地图.风陵渡口" />
+    <action type="MUSIC" value="音乐.室内_清新" />
+    <action type="DIALOG" value="温青#(将包裹中的金子分出一半,递给袁承志)喏,给你。" />
+    <action type="DIALOG" value="袁承志#我不要，你都拿去，我帮你不是为了金子。" />
+    <action type="DIALOG" value="温青#是我送给你的，又不是你自己拿的，何必装伪君子？" />
+    <action type="DIALOG" value="袁承志#（不说话，只是一个劲的摇头）" />
+    <action type="SELECT" value="主角#要接过黄金吗？#接过#不接" />
+    <result ret="0" type="story" value="bixuejianShyou_接黄金"/>
+    <result ret="1" type="story" value="bixuejianShyou_不接黄金" />
+  </story>
+  <story name="bixuejianShyou_接黄金">
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="主角#何必那么纠结,姑娘,我这兄弟脑子有时候不灵光,这样,我帮他代为保管吧。" />
+    <action type="DIALOG" value="袁承志#大哥，你怎么在这....还有，姑娘?"/>
+    <action type="DIALOG" value="温青#谁是姑娘?!你才是姑娘,你全家都是姑娘!不管你要不要，我总是给了你!" />
+    <action type="DIALOG" value="温青#(一把将黄金塞到主角手里,突然跃起，纵上岸去。)" />
+    <action type="DIALOG" value="袁承志#(刚想跟上,被主角拦住)" />
+    <action type="DIALOG" value="主角#哎,袁兄弟,人家姑娘家这么大方,你就收着便是了。" />
+    <action type="DIALOG" value="袁承志#不行，这是他从别人处得来，我不能要，我必须还给她。快给我！(袁承志一爪伸来)" />
+    <action type="BATTLE" value="风陵渡口.袁承志" />
+    <result ret="win" type="story" value="bixuejianShyou_接黄金2" />
+    <result ret="lose" type="story" value="bixuejianShyou_接黄金3" />
+  </story>
+  <story name="bixuejianShyou_接黄金2">
+    <action type="MUSIC" value="音乐.苦闷" />
+    <action type="DIALOG" value="主角#哎,我话还没说完呢,那么急着动手。" />
+    <action type="DIALOG" value="袁承志#有话快说,我要去追人!"/>
+    <action type="DIALOG" value="主角#你这么无头苍蝇一般的去追也不是办法,我们一起去追吧,看她的样子,似乎是往衢州的方向去了" />
+    <action type="DIALOG" value="袁承志#好吧,一起去。" />
+    <action type="JOIN" value="袁承志" />
+    <action type="ITEM" value="金蛇剑法秘籍残篇#1" />
+    <action type="ITEM" value="黄金包裹一#1" />
+    <action type="ITEM" value="生生造化丹#3" />
+    <action type="SELECT" value="主角#是否要打开包裹？#打开#不打开" />
+    <result ret="0" type="story" value="bixuejianShyou_得黄金"/>
+    <result ret="1" type="map" value="大地图"/>
+  </story>
+  <story name="bixuejianShyou_得黄金">
+    <action type="MUSIC" value="音乐.室内_安静" />
+    <action type="DIALOG" value="主角#哇,那么多的金子!" />
+    <action type="ITEM" value="元宝#5" />
+    <action type="GET_MONEY" value="20000" />
+    <action type="ITEM" value="温青青的发簪#1" />
+    <action type="UPGRADE.定力" value="主角#-10" />
+  </story>
+  <story name="bixuejianShyou_接黄金3">
+    <action type="MUSIC" value="音乐.苦闷" />
+    <action type="DIALOG" value="袁承志#(劈手夺过包裹,纵身一跃飞上了岸,几个起落便不见了踪影)" />
+    <action type="DIALOG" value="主角#哎,跑的真快,算了,赶快去石梁派看看吧。"/>
+    <action type="DIALOG" value="船老大#等等，他们两人的船钱还没付呢！" />
+    <action type="DIALOG" value="主角#不是吧，那你该找他们俩啊。。" />
+    <action type="DIALOG" value="船老大#一看就知道你们是一伙的，快付钱！" />
+    <action type="DIALOG" value="主角#好吧好吧，一共多少钱？" />
+    <action type="DIALOG" value="船老大#一共10000两。" />
+    <action type="SELECT" value="主角#付还是不付#付#不付" />
+    <result ret="0" type="story" value="bixuejianShyou_付船资"/>
+    <result ret="1" type="story" value="bixuejianShyou_不付船资"/>
+  </story>
+  <story name="bixuejianShyou_付船资">
+    <action type="MUSIC" value="音乐.苦闷" />
+    <action type="DIALOG" value="主角#他们是在船上干了些啥啊,船资居然都要10000两，哎，算了，给你给你。" />
+    <action type="COST_MONEY" value="10000" />
+    <action type="DIALOG" value="船老大#多谢惠顾啊，来，给你张我们龙游帮的VIP证明，以后光顾，8折优惠！" />
+    <action type="ITEM" value="龙游帮VIP令牌" />
+  </story>
+  <story name="bixuejianShyou_不付船资">
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="主角#10000两?这么贵?这个,船家,我跟那两人真的不熟啊，你还是找他们付吧，我尿急我先走了" />
+    <action type="DIALOG" value="船老大#想赖我们龙游帮的帐？没那么容易！" />
+    <action type="BATTLE" value="风陵渡口.龙游帮1" />
+    <result ret="win" type="story" value="bixuejianShyou_不付船资胜利1" />
+  </story>
+  <story name="bixuejianShyou_不付船资胜利1">
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="船老大#点子扎手,大伙一起上!" />
+    <action type="BATTLE" value="风陵渡口.龙游帮2" />
+    <result ret="win" type="story" value="bixuejianShyou_不付船资胜利2" />
+  </story>
+  <story name="bixuejianShyou_不付船资胜利2">
+    <action type="MUSIC" value="音乐.逍遥" />
+    <action type="DIALOG" value="主角#老虎不发猫,你当我是病威啊!" />
+    <action type="DIALOG" value="船老大#.................." />
+    <action type="DIALOG" value="主角#咦,这是什么?" />
+    <action type="ITEM"   value="龙游帮VIP令牌#1" />
+    <action type="DIALOG" value="主角#VIP证明?不错不错,下次记得给我免单啊！" />
+    <action type="DIALOG" value="船老大#(虎躯一震,落下泪来)(...还下次?)" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="bixuejianShyou_龙游帮VIP传送">
+    <action type="MUSIC" value="音乐.逍遥" />
+    <action type="DIALOG" value="主角#哥今天来享受VIP待遇了,说吧,你们这VIP服务都有些啥?" />
+    <action type="DIALOG" value="船老大#........这位客官,如今严打,偷渡啥的都被禁了啊。" />
+    <action type="DIALOG" value="主角#嗯,严打是吧,那暴打你怕不怕?" />
+    <action type="DIALOG" value="船老大#.....这个...那啥,今天天气很不错啊客官,其他地方的偷渡都禁了,不过皇宫的还没有,您要去么?" />
+    <action type="SELECT" value="主角# 要去吗？ #去#不去" />
+    <result ret="0" type="story" value="bixuejianShyou_龙游帮VIP传送1" />
+    <result ret="1" type="story" value="bixuejianShyou_龙游帮VIP传送2" />
+  </story>
+  <story name="bixuejianShyou_龙游帮VIP传送1">
+    <action type="MUSIC" value="音乐.逍遥" />
+    <action type="DIALOG" value="主角#咦,这个可以有,上次去只偷看到了个假太后洗澡，这次找个公主之类的看看，哦呵呵呵。" />
+    <action type="DIALOG" value="船老大#........" />
+    <result ret="0" type="map" value="天安门" />
+  </story>
+  <story name="bixuejianShyou_龙游帮VIP传送2">
+    <action type="MUSIC" value="音乐.逍遥" />
+    <action type="DIALOG" value="主角#....你TM这是在逗我?!" />
+    <action type="DIALOG" value="船老大#........" />
+    <result ret="0" type="map" value="风陵渡口" />
+  </story>
+  <story name="bixuejianShyou_不接黄金">
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="主角#袁兄弟,你们这是...?" />
+    <action type="DIALOG" value="袁承志#啊,大哥,你怎么在这里?"/>
+    <action type="DIALOG" value="温青#（瞥了一眼）不管你要不要，我总是给了你！" />
+    <action type="DIALOG" value="温青#(一把将黄金塞到主角手里,突然跃起，纵上岸去。)" />
+    <action type="DIALOG" value="主角#哎，怎么说走就走，来，我们追！" />
+    <action type="DIALOG" value="袁承志#必须的!不过，该往哪里去找这位温相公呢？" />
+    <action type="DIALOG" value="主角#哈哈，她可不是相公，声音尖细，喉间无结，她可分明是个妹纸啊！" />
+    <action type="DIALOG" value="袁承志#（呆了一呆）妹纸是个什么东西？" />
+    <action type="DIALOG" value="主角#.....说来话长,我们还是快去追吧!" />
+    <action type="DIALOG" value="袁承志#哦好!" />
+    <action type="JOIN" value="袁承志" />
+    <action type="ITEM" value="金蛇剑法秘籍残篇#1" />
+    <action type="ITEM" value="金蛇剑#1" />
+    <action type="ITEM" value="乌蚕衣#1" />
+    <action type="ITEM" value="生生造化丹#3" />
+  </story>
+  <story name="bixuejianShyou_打开包裹石梁派">
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="温方达#不是说有2000两黄金吗？这怎么才1000两？剩下一半去哪了？" />
+    <action type="DIALOG" value="温青青#路上别人追得紧，有一半被别人抢去了。"/>
+    <action type="DIALOG" value="温方达#敢劫我们石梁派的货，胆气不小啊，是何人所为？" />
+    <action type="DIALOG" value="温青青#不知道来路，有好多人。" />
+    <action type="DIALOG" value="袁承志#温....相公?你你你你你你原来是个姑娘！？" />
+    <action type="DIALOG" value="温青青#啊,你怎么来这里了？" />
+    <action type="DIALOG" value="温方达#这位小兄弟是？" />
+    <action type="DIALOG" value="袁承志#在下袁承志,温...姑娘半路遗失的包裹,在下将其送回来。" />
+    <action type="DIALOG" value="温方达#哦?小兄弟端的是一表人才，气度不凡呐，那包裹现在何处？" />
+    <action type="DIALOG" value="主角#唔，这个,包裹..额..路上来的时候好像不小心丢了。" />
+    <action type="DIALOG" value="温方山#（一伸手，从主角眼前晃过）这是什么？这不是青儿你的发簪？为何会在这小子身上？" />
+    <action type="DIALOG" value="主角#（糟糕，忘了扔掉了）" />
+    <action type="DIALOG" value="温青青#（脸色一变）外公，这是我放在包裹中的，你这小贼，把包裹私吞了？！" />
+    <action type="DIALOG" value="袁承志#大哥，没想到你是这种人，枉我叫你一声大哥！" />
+    <action type="DIALOG" value="主角#我..." />
+    <action type="DIALOG" value="温方达#快把东西交出来！" />
+    <action type="LEAVE" value="袁承志" />
+    <action type="BATTLE" value="石梁派_战斗1" />
+    <result ret="win" type="story" value="bixuejianShyou_包裹线end" />
+  </story>
+  <story name="bixuejianShyou_包裹线end">
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="温青青#外公！你！你居然下那么重的手!" />
+    <action type="DIALOG" value="安小慧#袁大哥,你们这是怎么了？"/>
+    <action type="DIALOG" value="袁承志#你是小慧？你怎么会在这里？"/>
+    <action type="DIALOG" value="安小慧#闯王的军饷被劫了,我和黄师叔一路追查到此地,发现是石梁派劫去了。" />
+    <action type="DIALOG" value="袁承志#黄师叔？可是黄真黄师兄么？" />
+    <action type="DIALOG" value="安小慧#正是。我们和黄师叔追查了好久,才查到这里。2000两金子不是一笔小数目,那是闯王大军未来几个月的口粮啊，眼下是一刻都拖不得" />
+    <action type="DIALOG" value="袁承志#原来那2000两黄金是闯王的军饷！" />
+    <action type="DIALOG" value="主角#你们提醒了我,还有1000两啊,一并交出来吧！" />
+    <action type="BATTLE" value="石梁派_战斗2" />
+    <result ret="win" type="story" value="bixuejianShyou_包裹线end2" />
+  </story>
+  <story name="bixuejianShyou_包裹线end2">
+    <action type="MUSIC" value="音乐.神雕.歌泣" />
+    <action type="DIALOG" value="主角#多谢各位打赏，我就不打扰各位叙旧了~走你" />
+    <action type="DIALOG" value="黄真#！！！小慧！（地上的这位男子，看形象，莫不是师傅说过的新收的关门弟子？！）"/>
+    <action type="DIALOG" value="袁承志#可..可是铜笔铁算盘...黄真大师兄?小心!贼子武功厉害!" />
+    <action type="DIALOG" value="黄真#是他么?看招！" />
+    <action type="DIALOG" value="主角#黄老头，你不是我对手，而且，你要跟我动手，他们可就必死无疑了！" />
+    <action type="DIALOG" value="黄真#黄口小儿！敢伤华山派的人，必须死！" />
+    <action type="DIALOG" value="袁承志#师兄，我们共同对敌！" />
+    <action type="BATTLE" value="石梁派_战斗3" />
+    <result ret="win" type="story" value="bixuejianShyou_包裹线end3" />
+  </story>
+  <story name="bixuejianShyou_包裹线end3">
+    <action type="MUSIC" value="音乐.神雕.歌泣" />
+    <action type="DIALOG" value="黄真#（贼子猖狂，武功高强，还是先带上他们战略性撤退）今日之仇，来日再报！师弟，走！" />
+    <action type="DIALOG" value="主角#哼，不堪一击"/>
+    <action type="ITEM" value="元宝#5" />
+    <action type="ITEM" value="医术汇总#1" />
+    <action type="GET_MONEY" value="20000" />
+    <action type="NICK" value="丧心病狂" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="bixuejianShyou_包裹线end4">
+    <action type="MUSIC" value="音乐.武林至尊" />
+    <action type="DIALOG" value="黄真#好贼子，当日奈何不了你，今日你竟敢闯我华山派重地，饶你不得！哇啊啊啊啊啊（黄真能力大幅提升）" />
+    <action type="DIALOG" value="主角#哟，手下败将，上次饶你一命，今天还敢如此大言不惭？！"/>
+    <action type="DIALOG" value="穆人清#当日你送承志来我华山派时，老夫还觉得小兄弟天赋绝顶，宅心仁厚，当能为如今的武林做一番贡献，没想到居然看走了眼。" />
+    <action type="DIALOG" value="穆人清#今日当为武林除此一害！" />
+    <action type="DIALOG" value="主角#哼，那便划下道儿来。"/>
+    <action type="BATTLE" value="华山仙境_灭华山" />
+    <result ret="win" type="story" value="bixuejianShyou_包裹线end5" />
+  </story>
+  <story name="bixuejianShyou_包裹线end5">
+    <action type="MUSIC" value="音乐.武林至尊" />
+    <action type="DIALOG" value="主角#哈，今日过后，武林再无华山派！" />
+    <action type="ITEM" value="精明天赋书#1" />
+    <action type="ITEM" value="真.金蛇剑#1" />
+    <action type="DIALOG" value="木桑道长#呵，好大的口气，有我铁剑门在此，谁敢妄言灭华山？！"/>
+    <action type="DIALOG" value="主角#咦，还有帮手，那便一起灭了吧。" />
+    <action type="DIALOG" value="玉真子#谁想灭我铁剑门？！" />
+    <action type="DIALOG" value="木桑道长#师弟？你。。你。。。"/>
+    <action type="DIALOG" value="玉真子#哼，我可不是为了帮你，只不过，如今我是铁剑掌门，有人欺上门来，岂能不管！" />
+    <action type="DIALOG" value="木桑道长#（面色灰败）你。。你终于还是找到了那东西，罢了，就让我们师兄弟共同抗一次敌！"/>
+    <action type="BATTLE" value="华山仙境_灭铁剑1" />
+    <result ret="win" type="story" value="bixuejianShyou_包裹线end6" />
+  </story>
+  <story name="bixuejianShyou_包裹线end6">
+    <action type="MUSIC" value="音乐.武林至尊" />
+    <action type="DIALOG" value="主角#哈哈哈哈哈哈哈哈哈，不堪一击，不堪一击啊！" />
+    <action type="DIALOG" value="木桑道长#没想到，铁剑门，自我而绝。"/>
+    <action type="DIALOG" value="玉真子#好汉饶命,好汉饶命啊！我这有好东西，只要你饶我一命，全给你！" />
+    <action type="DIALOG" value="木桑道长#铁剑门只有站着死的好汉，没有跪着生的懦夫！你。。！你这叛徒！"/>
+    <action type="DIALOG" value="主角#哦？我杀了你，也能拿到，凭什么要我放了你？"/>
+    <action type="DIALOG" value="玉真子#不不不，好东西都被我放在一个隐秘的地方，只要你答应放了我，我就告诉你在哪里！" />
+    <action type="DIALOG" value="木桑道长#住口！你这叛徒！你想要欺师灭祖吗？"/>
+    <action type="DIALOG" value="玉真子#命都要没了！还要师和祖干什么？你我争斗了那么多年，我才刚拿到掌门铁剑令，总算是成为了掌门，可那又有什么意义？铁剑门都要覆灭了！" />
+    <action type="DIALOG" value="主角#我突然改主意了，放心，铁剑门不会消失，因为，我要来当这个掌门！把铁剑令交出来吧！" />
+    <action type="DIALOG" value="玉真子#这。。好汉。。你拿了这东西也没用啊。。" />
+    <action type="DIALOG" value="主角#交，或者死。" />
+    <action type="DIALOG" value="玉真子#好好好，我交我交" />
+    <action type="ITEM" value="铁剑令#1" />
+    <action type="NICK" value="铁剑掌门" />
+    <action type="DIALOG" value="主角#自废武功，然后便滚吧。" />
+    <action type="DIALOG" value="玉真子#这不可能！那你还不如杀了我！我。。我可以拿旷世绝学跟你换！只求你别杀我也别废我。" />
+    <action type="DIALOG" value="主角#是什么绝学，说来听听。" />
+    <action type="DIALOG" value="玉真子#是我在西域找到的，我铁剑门失传已久的绝世内功，铁.血.大.旗.功！" />
+    <action type="DIALOG" value="主角#没听说过，金庸14部书里面压根没出现过这玩意儿，你忽悠我呢吧？" />
+    <action type="DIALOG" value="玉真子#没有啊，真的没有啊！是真的绝学啊，和传说中的九阴九阳并列的奇功啊" />
+    <action type="DIALOG" value="主角#交出来，然后赶快给我滚！" />
+    <action type="DIALOG" value="玉真子#在这里，在这里，都给你，都给你，只求你放我一条生路。" />
+    <action type="ITEM" value="铁血大旗功秘籍#1" />
+    <action type="ITEM" value="铁血大旗功残章#1" />
+    <action type="DIALOG" value="主角#不错不错，快滚吧！" />
+    <action type="DIALOG" value="玉真子#我这就滚，这就滚！（突然纵身跃起）去死吧！！！" />
+    <action type="BATTLE" value="华山仙境_灭铁剑2" />
+    <result ret="win" type="story" value="bixuejianShyou_包裹线end7" />
+  </story>
+  <story name="bixuejianShyou_包裹线end7">
+    <action type="MUSIC" value="音乐.武林至尊" />
+    <action type="DIALOG" value="主角#咳咳咳，偷袭我，为什么？" />
+    <action type="DIALOG" value="玉真子#（面如金纸，却又突然红润了起来）咳咳咳，呵。。呵呵呵，我虽然讨厌我这个师兄，但是他有一句话没说错。"/>
+    <action type="DIALOG" value="主角#什么话？" />
+    <action type="DIALOG" value="玉真子#铁剑门，只有站着死的英雄！没有跪着生的懦夫！"/>
+    <action type="DIALOG" value="木桑道长#师弟？你。。你。。。"/>
+    <action type="DIALOG" value="玉真子#哎，还是没能打过他，师兄，没想到我奋斗一生，最终却居然是和师兄你一起共赴黄泉，想当年，我们一起入的门，如今，铁剑门也算在我们俩手上绝了，真是因果报应啊。" />
+    <action type="DIALOG" value="木桑道长#哈。哈。哈（大笑三声后怒目圆睁着死去）"/>
+    <action type="DIALOG" value="玉真子#咳,师兄,你这就先走一步了可不厚道啊,师弟还有杀手锏没用呐！贼子，看招，呔！"/>
+    <action type="DIALOG" value="主角#艹！是小金蛇！尼玛得逼毒！" />
+    <action type="UPGRADE.MAXHP" value="主角#-200"/>
+    <action type="UPGRADE.MAXMP" value="主角#-200"/>
+    <action type="UPGRADE.根骨" value="主角#-5"/>
+    <action type="UPGRADE.臂力" value="主角#-5"/>
+    <action type="DIALOG" value="主角#好霸道的毒！该死的道士，我要把你挫骨扬灰！" />
+    <action type="DIALOG" value="玉真子#哈。哈。哈！（大笑三声后怒目圆睁着死去）"/>
+    <action type="DIALOG" value="主角#。。。死的到快！罢了，也算是一条好汉，算我倒霉！" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="bixuejianShyou_接金胜不开包裹石梁派1">
+    <action type="MUSIC" value="音乐.逍遥" />
+    <action type="BACKGROUND" value="地图.大殿室内6" />
+    <action type="DIALOG" value="温方达#不是说有2000两黄金吗？这怎么才1000两？剩下一半去哪了？" />
+    <action type="DIALOG" value="温青青#路上别人追得紧，有一半被别人抢去了。"/>
+    <action type="DIALOG" value="温方达#敢劫我们石梁派的货，胆气不小啊，是何人所为？" />
+    <action type="DIALOG" value="温青青#不知道来路，有好多人。" />
+    <action type="DIALOG" value="袁承志#温....相公?你你你你你你原来是个姑娘!?"/>
+    <action type="DIALOG" value="温青青#啊,你怎么来这里了?" />
+    <action type="DIALOG" value="温方达#这位小兄弟是?"/>
+    <action type="DIALOG" value="袁承志#在下袁承志,温...姑娘半路遗失的包裹,在下将其送回来。"/>
+    <action type="DIALOG" value="袁承志#大哥，把包裹拿出来给他们吧，大哥？"/>
+    <action type="DIALOG" value="主角#包裹在此，恕在下冒昧，不过如果在下没弄错的话，这笔金子，恐怕来路不是很正吧？"/>
+    <action type="DIALOG" value="温方达#（脸色一变）小兄弟何出此言？"/>
+    <action type="DIALOG" value="温方达#（这时外面匆匆走进个人，对着温方达耳语了几句。）"/>
+    <action type="DIALOG" value="温方达#谁人那么大胆，敢上石梁派来撒野！走，出去看看。"/>
+    <action type="DIALOG" value="主角#我们也去看看。"/>
+    <result ret="0" type="story" value="bixuejianShyou_接金胜不开包裹石梁派2" />
+  </story>
+  <story name="bixuejianShyou_接金胜不开包裹石梁派2">
+    <action type="MUSIC" value="音乐.逍遥" />
+    <action type="BACKGROUND" value="地图.青城派" />
+    <action type="DIALOG" value="温方达#凭你这点道行，也配上门讨东西？" />
+    <action type="DIALOG" value="安小慧#我打你们不赢，自有功夫比我高的人来讨金子！"/>
+    <action type="DIALOG" value="温青青#呵，好大的口气！" />
+    <action type="DIALOG" value="安小慧#（看到袁承志，似是呆了一呆）你...你可认识安大娘?" />
+    <action type="DIALOG" value="袁承志#（全身一震，手心发热）我是袁承志，你是小慧？"/>
+    <action type="DIALOG" value="安小慧#是啊是啊，你是承志大哥！我识得你眉毛边上的那道疤。" />
+    <action type="DIALOG" value="温方达#我道袁兄是谁，原来是李自成派来的卧底！"/>
+    <action type="DIALOG" value="袁承志#我确和闯王有过一面之缘，可说不上卧底。这位姑娘是我世交，不知两位因何交手，兄弟斗胆，替两位说和如何？"/>
+    <action type="DIALOG" value="温青青#你们说你们的青梅竹马吧，至于金子，那是我费尽心机盗来的，想要拿回去，没那么容易，能打的过我五位爷爷再说吧！"/>
+    <action type="DIALOG" value="安小慧#这是闯王的军饷！你们这都敢劫，不怕后患无穷吗？"/>
+    <action type="DIALOG" value="温方达#哼，既如此，那你们就更不能走了！"/>
+    <action type="BATTLE" value="石梁派_战斗3"/>
+    <result ret="win" type="story" value="bixuejianShyou_接金胜不开包裹石梁派3" />
+  </story>
+  <story name="bixuejianShyou_接金胜不开包裹石梁派3">
+    <action type="MUSIC" value="音乐.室内_世俗" />
+    <action type="BACKGROUND" value="地图.青城派" />
+    <action type="DIALOG" value="主角#这闯王的军饷，还是物归原主吧！" />
+    <action type="DIALOG" value="袁承志#正该如此，小慧，拿上金子，我们走！"/>
+    <action type="DIALOG" value="温方达#慢着！你们仗着人多势众，来我们石梁派撒野，但是我们石梁派也不是泥捏的！不就是拼人多么？二弟，放箭！" />
+    <action type="DIALOG" value="温方义#一支穿云箭，千军万马来相见！" />
+    <action type="DIALOG" value="主角#我擦类，这是在拍功夫吗？"/>
+    <action type="BATTLE" value="石梁派_战斗5"/>
+    <result ret="win" type="story" value="bixuejianShyou_接金胜不开包裹石梁派4" />
+  </story>
+  <story name="bixuejianShyou_接金胜不开包裹石梁派4">
+    <action type="MUSIC" value="音乐.室内_世俗" />
+    <action type="BACKGROUND" value="地图.青城派" />
+    <action type="ITEM" value="黄金包裹二#1" />
+    <action type="ITEM" value="万劫指#1" />
+    <action type="ITEM" value="碧水剑#1" />
+    <action type="ITEM" value="龙头拐杖#1" />
+    <action type="ITEM" value="不二枪#1" />
+    <action type="ITEM" value="软鞭#1" />
+    <action type="DIALOG" value="主角#这下你们没话说了吧？"/>
+    <action type="DIALOG" value="温方达#................" />
+    <action type="DIALOG" value="温方义#................" />
+    <action type="DIALOG" value="温方山#................" />
+    <action type="DIALOG" value="温方悟#................" />
+    <action type="DIALOG" value="温方施#................" />
+    <action type="DIALOG" value="主角#今天是个好日子啊，走你"/>
+    <action type="NICK" value="石梁五祖" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="bixuejianShyou_闯王剧情1">
+    <action type="MUSIC" value="音乐.天龙八部1" />
+    <action type="DIALOG" value="袁承志#师傅,这是被石梁派截去的闯王军饷,如今我们把它带来了。" />
+    <action type="DIALOG" value="穆人清#不错不错，你的事情，我已经从你大师哥口中听说了，你做这些事情的时候他本来也正带着徒弟准备去呢，谁知你和小慧居然就这么完成了！"/>
+    <action type="DIALOG" value="袁承志#多谢师傅夸奖，不过，这也多亏了我大哥，没有他的帮忙，恐怕我们脱身还须费一番力气。" />
+    <action type="DIALOG" value="主角#应该的应该的，穆前辈风采，我们是向往已久啊。" />
+    <action type="DIALOG" value="穆人清#据我这徒儿所说，小兄弟似乎身手不凡呐?"/>
+    <action type="DIALOG" value="主角#岂敢岂敢，不过粗通拳脚而已。"/>
+    <action type="DIALOG" value="穆人清#老夫这里有一套拳法，如蒙不弃，便传授给小兄弟，算是感谢小兄弟救了老夫的这个傻徒儿。"/>
+    <action type="DIALOG" value="主角#那真真是极好的！"/>
+    <action type="ITEM" value="破玉拳秘籍#1" />
+    <action type="DIALOG" value="主角#多谢穆前辈！"/>
+    <action type="DIALOG" value="穆人清#闯王军中事务多，我便不留你们了，承志，跟着你大哥，多走走多看看，救民于水火是我们华山派义不容辞的责任和义务。"/>
+    <action type="DIALOG" value="袁承志#是，师傅，我知道了。"/>
+    <action type="DIALOG" value="穆人清#当你觉得有所领悟的时候，可以回来找为师。"/>
+    <action type="DIALOG" value="袁承志#是，师傅。"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="bixuejianShyou_闯王剧情2">
+    <action type="MUSIC" value="音乐.天龙八部1" />
+    <action type="DIALOG" value="袁承志#师傅，我来了。" />
+    <action type="DIALOG" value="穆人清#哦？你悟了？"/>
+    <action type="DIALOG" value="袁承志#是的，师傅。" />
+    <action type="DIALOG" value="穆人清#那便来吧。" />
+    <action type="BATTLE" value="华山仙境.战斗2"/>
+    <result ret="win" type="story" value="bixuejianShyou_闯王剧情3" />
+    <result ret="lose" type="story" value="bixuejianShyou_闯王剧情4" />
+  </story>
+  <story name="bixuejianShyou_闯王剧情3">
+    <action type="MUSIC" value="音乐.宿命" />
+    <action type="DIALOG" value="穆人清#现在你可明白了？" />
+    <action type="DIALOG" value="袁承志#大音希声，大象无形，大巧若拙，大智若愚，原来如此原来如此！"/>
+    <action type="GET_POINT" value="袁承志#40" />
+    <action type="UPGRADE.剑法" value="袁承志#50" />
+    <action type="UPGRADE.MAXHP" value="袁承志#1500" />
+    <action type="UPGRADE.MAXMP" value="袁承志#1500" />
+    <action type="LEARN.INTERNALSKILL" value="袁承志#混元功#12" />
+    <action type="LEARN.SKILL" value="袁承志#天外飞龙#12" />
+    <action type="ITEM" value="天外飞龙秘籍#1" />
+    <action type="NICK" value="天外飞龙" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="bixuejianShyou_闯王剧情4">
+    <action type="MUSIC" value="音乐.宿命" />
+    <action type="DIALOG" value="穆人清#看来你悟的还不够透彻，下次再来吧！" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="bixuejianShyou_接金败石梁派1">
+    <action type="MUSIC" value="音乐.室内_清新" />
+    <action type="DIALOG" value="主角#这里便是石梁派了吧，怎么里面有打斗声？" />
+    <result ret="0" type="story" value="bixuejianShyou_接金败石梁派2" />
+  </story>
+  <story name="bixuejianShyou_接金败石梁派2">
+    <action type="MUSIC" value="音乐.室内_清新" />
+    <action type="BACKGROUND" value="地图.青城派" />
+    <action type="DIALOG" value="黄真#好家伙，可算脱出了这劳什子五行阵，你们奈何不得我们，不如化干戈为玉帛，将金子交给我们，我们便不追究此事，如何？"/>
+    <action type="DIALOG" value="温方达#要全部交还，也不是不可以，但须得依我们两件事。" />
+    <action type="DIALOG" value="黄真#有价钱开出盘来，就好商量。你不妨漫天讨价，我可以着地还钱。请你开出价钱来，咱们慢慢来讨价还价。" />
+    <action type="DIALOG" value="温方义#这没有价钱好讲。第一，你须得拿礼物来换金子，礼物多少不论。这是我们的规矩，到了手的财物，决不能轻易退还。"/>
+    <action type="DIALOG" value="黄真#温爷吩咐，兄弟无有不遵。明儿一早，兄弟自去衢州城里，采办一份重礼送上，再预备筵席，邀请本地有面子的朋友作陪，向各位道谢。"/>
+    <action type="DIALOG" value="温方义#（哼了一声）这也罢了。第二件事，这姓袁的小子可得给我们留下。"/>
+    <action type="DIALOG" value="黄真#（笑道）我这师弟饭量很大。你们要留他，本是一件好事，只是一年半载吃下来，就怕各位亏蚀不起。"/>
+    <action type="DIALOG" value="温方达#呵，莫不是这位兄弟刚才指点你走出了我们的五行大阵乙木阵，觉得明白了阵法的关诀，让你小觑了我们？既如此，那便让这位小兄弟进来试试吧！"/>
+    <action type="DIALOG" value="袁承志#好啊，那便来吧，听说诸位除了五行阵之外还有个辅佐的八卦阵，也一并摆上来让小子见识见识吧。"/>
+    <action type="DIALOG" value="温方义#（气极反笑）好小子，这是你自己找死，怨不得我们！"/>
+    <action type="DIALOG" value="主角#别忘了还有我。"/>
+    <action type="BATTLE" value="石梁派_战斗5"/>
+    <result ret="win" type="story" value="bixuejianShyou_接金败石梁派3" />
+  </story>
+  <story name="bixuejianShyou_接金败石梁派3">
+    <action type="MUSIC" value="音乐.室内_清新" />
+    <action type="BACKGROUND" value="地图.青城派" />
+    <action type="DIALOG" value="袁承志#多谢各位，金子我们拿走了，小慧,黄师兄，我们走吧。"/>
+    <action type="DIALOG" value="主角#袁兄弟，为兄来晚一步，不过好在赶上啦。" />
+    <action type="DIALOG" value="袁承志#大哥，前几日一时情急向大哥出手，实在是抱歉" />
+    <action type="DIALOG" value="主角#些许小事,别放在心上。袁兄弟接下来有何打算？"/>
+    <action type="DIALOG" value="袁承志#我打算去襄阳找师傅。"/>
+    <action type="DIALOG" value="主角#那正好,我也准备去襄阳一趟,不如一起去,一路上也能有个照应？"/>
+    <action type="DIALOG" value="袁承志#这...好吧。"/>
+    <action type="JOIN" value="袁承志"/>
+    <action type="ITEM" value="金蛇剑法秘籍#1" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="bixuejianShyou_不接黄金石梁派1">
+    <action type="MUSIC" value="音乐.室内_清新" />
+    <action type="DIALOG" value="袁承志#请问这里可是石梁派？"/>
+    <action type="DIALOG" value="温正#阁下是？到敝处来有何贵干？" />
+    <action type="DIALOG" value="袁承志#我姓袁，来找一位姓温的少年朋友，不知是住在这里的么？" />
+    <action type="DIALOG" value="温正#我也姓温，不知阁下要找的是哪位？"/>
+    <action type="DIALOG" value="袁承志#我们找温青温相公，不知他是否在呢？"/>
+    <action type="DIALOG" value="温正#（眼神怪异的看了一眼）温青是舍弟，请到舍下奉茶，我这便知会他。"/>
+    <result ret="0" type="story" value="bixuejianShyou_不接黄金石梁派2" />
+  </story>
+  <story name="bixuejianShyou_不接黄金石梁派2">
+    <action type="MUSIC" value="音乐.室内_清新" />
+    <action type="BACKGROUND" value="地图.大殿室内6" />
+    <action type="DIALOG" value="袁承志#请温青相公出来一见，兄弟要交还他一件东西。"/>
+    <action type="DIALOG" value="温正#舍弟现下出外去了，不久便归，请老兄稍待。" />
+    <action type="DIALOG" value="袁承志#原来出门去了，这是令弟之物，就烦仁兄转交。兄弟要告辞了。"/>
+    <result ret="0" type="story" value="bixuejianShyou_不接黄金石梁派3" />
+  </story>
+  <story name="bixuejianShyou_不接黄金石梁派3">
+    <action type="MUSIC" value="音乐.室内_清新" />
+    <action type="BACKGROUND" value="地图.大殿室内6" />
+    <action type="DIALOG" value="温青#袁兄大驾光临，幸何如之。"/>
+    <action type="DIALOG" value="袁承志#温兄忘记了这包东西，特来送还。" />
+    <action type="DIALOG" value="温青#你瞧我不起，是不是？"/>
+    <action type="DIALOG" value="袁承志#兄弟绝无此意，只是不敢拜领厚赐。就此告辞。"/>
+    <action type="DIALOG" value="温青#（一把拉住袁承志衣袖）不准你走！"/>
+	<action type="DIALOG" value="袁承志#温兄，你这是？"/>
+    <action type="DIALOG" value="主角#(...呆头小子,还兄,我兄你一脸啊) 为兄看不下去了!- - 都说了人家是妹纸...哦,就是姑娘的意思!人家明显对你有意思嘛,宁杀错莫放过啊,这都还不上,还是男人么!"/>
+	<result ret="0" type="story" value="bixuejianShyou_不接黄金石梁派31" />
+  </story>
+  <story name="bixuejianShyou_不接黄金石梁派31">
+    <action type="DIALOG" value="温青青#(脸上红了红,笑而不语)"/>
+    <action type="DIALOG" value="袁承志#啊?那...那便留下吧。"/>
+    <action type="DIALOG" value="温青青#(袁承志和温青青共同度过了一个美好的夜晚，以下省略一万字。)"/>
+    <result ret="0" type="story" value="bixuejianShyou_不接黄金石梁派4" />
+  </story>
+  <story name="bixuejianShyou_不接黄金石梁派4">
+    <action type="MUSIC" value="音乐.室内_清新" />
+    <action type="BACKGROUND" value="地图.青城派" />
+    <action type="DIALOG" value="主角#啊，一觉醒来神清气爽，袁小子也该起床了吧，咦，前厅怎么有打斗声？"/>
+    <action type="DIALOG" value="温正#凭你这点道行，也配上门讨东西？" />
+    <action type="DIALOG" value="安小慧#我打你们不赢，自有功夫比我高的人来讨金子！"/>
+    <action type="DIALOG" value="安小慧#（看到袁承志，似是呆了一呆）你...你可认识安大娘?"/>
+    <action type="DIALOG" value="袁承志#（全身一震，手心发热）我是袁承志，你是小慧？"/>
+    <action type="DIALOG" value="安小慧#是啊是啊，你是承志大哥！我识得你眉毛边上的那道疤。"/>
+    <action type="DIALOG" value="温正#我道袁兄是谁，原来是李自成派来的卧底！"/>
+    <action type="DIALOG" value="袁承志#我确和闯王有过一面之缘，可说不上卧底。这位姑娘是我世交，不知两位因何交手，兄弟斗胆，替两位说和如何？"/>
+    <action type="DIALOG" value="温青青#你们说你们的青梅竹马吧，至于金子，那是我费尽心机盗来的，要拿回去，你们也便费尽心机盗走吧!"/>
+    <action type="DIALOG" value="主角#人家是吃醋啦,看你对这安姑娘那么好,这还用问?"/>
+    <action type="DIALOG" value="温青青#(恼羞成怒)三日内来盗去,不然我可就花光了!"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="bixuejianShyou_不接黄金石梁派5">
+    <action type="MUSIC" value="音乐.室内_清新" />
+    <action type="BACKGROUND" value="地图.大殿室内6" />
+    <action type="DIALOG" value="温青青#金子就在这,准备好来拿了吗?"/>
+    <action type="SELECT" value="主角# 要上吗？ #上 #不上" />
+    <result ret="0" type="story" value="bixuejianShyou_石梁抢金子" />
+    <result ret="1" type="map" value="大地图" />
+  </story>
+  <story name="bixuejianShyou_石梁抢金子">
+    <action type="BATTLE" value="石梁派_战斗5" />
+    <result ret="win" type="story" value="bixuejianShyou_不接黄金石梁派6" />
+    <result ret="lose" type="story" value="bixuejianShyou_不接黄金石梁派6" />
+  </story>
+  <story name="bixuejianShyou_不接黄金石梁派6">
+    <action type="MUSIC" value="音乐.室内_清新" />
+    <action type="BACKGROUND" value="地图.大殿室内6" />
+    <action type="DIALOG" value="主角#这就是传说中的石梁派五行阵么？果然厉害。"/>
+    <action type="DIALOG" value="袁承志#阵势浑然一体，毫无破绽啊。" />
+    <action type="DIALOG" value="黄真#莫急莫急，师兄来帮你。" />
+    <action type="DIALOG" value="温方达#有帮手？哼，二弟，放箭！" />
+    <action type="DIALOG" value="温方义#一支穿云箭，千军万马来相见！" />
+    <action type="DIALOG" value="主角#擦，这是功夫片场么？" />
+    <action type="DIALOG" value="温方达#哼，让你们见识下五行八卦阵！" />
+    <action type="BATTLE" value="石梁派_战斗6" />
+    <result ret="win" type="story" value="bixuejianShyou_不接黄金石梁派7" />
+  </story>
+  <story name="bixuejianShyou_不接黄金石梁派7">
+    <action type="MUSIC" value="音乐.室内_清新" />
+    <action type="BACKGROUND" value="地图.大殿室内6" />
+    <action type="DIALOG" value="主角#切，这后来加的八卦阵反而破坏了五行阵的运转，可谓败笔中的败笔。"/>
+    <action type="ITEM" value="黄金包裹二#1" />
+    <action type="ITEM" value="万劫指#1" />
+    <action type="ITEM" value="碧水剑#1" />
+    <action type="ITEM" value="龙头拐杖#1" />
+    <action type="ITEM" value="不二枪#1" />
+    <action type="ITEM" value="软鞭#1" />
+    <action type="DIALOG" value="主角#这下你们没话说了吧？"/>
+    <action type="DIALOG" value="袁承志#青青，对不住啦，这闯王的军饷，我便拿走了。" />
+    <action type="DIALOG" value="主角#温姑娘，要么你跟我们一起走吧？你看，你跟袁兄弟那么有缘，何必为了一点小事伤了感情捏？" />
+    <action type="DIALOG" value="袁承志#额..青青,你便跟我一起走吧。" />
+    <action type="DIALOG" value="温青青#（默默地点了点头）" />
+    <action type="JOIN" value="温青青" />
+    <action type="ITEM" value="金蛇藏宝图#1" />
+    <action type="DIALOG" value="主角#藏宝图？哇哈哈，我最喜欢藏宝图了，温姑娘，这宝藏在哪？" />
+    <action type="DIALOG" value="温青青#。。。我要知道我难道会不去拿吗?你是2啊还是2啊还是2啊？！" />
+    <action type="DIALOG" value="主角#。。。。。。。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="bixuejianShyou_襄阳大战">
+    <action type="MUSIC" value="音乐.武侠雄壮" />
+    <action type="DIALOG" value="木桑道长#小朋友,多年不见,功夫可有落下?"/>
+    <action type="DIALOG" value="袁承志#道长!你老人家好。可不敢一日懈怠。"/>
+    <action type="DIALOG" value="木桑道长#那就好，这里有些勾结了鞑子的汉奸，就交给你了" />
+    <action type="BATTLE" value="襄阳.战斗01" />
+    <result ret="win" type="story" value="bixuejianShyou_神拳无敌1" />
+  </story>
+  <story name="bixuejianShyou_神拳无敌1">
+    <action type="MUSIC" value="音乐.武侠雄壮" />
+    <action type="DIALOG" value="木桑道长#不错不错，大有长进大有长进。听说你跟你二师兄起了冲突？"/>
+    <action type="DIALOG" value="袁承志#是啊，我正为这个事情苦恼呢。"/>
+    <action type="DIALOG" value="木桑道长#怕甚么？动手打好啦，输不了！你师父怪起来，就说是我叫打的。" />
+    <action type="DIALOG" value="主角#就是，揍他丫的！我看归二娘不爽很久了！" />
+    <action type="DIALOG" value="袁承志#......大哥,注意形象,这些话心里想想就好了么。" />
+    <action type="DIALOG" value="木桑道长#不错不错,我喜欢!来,小承志,老道我再教你点东西。你可看好了！" />
+    <action type="DIALOG" value="木桑道长#(木桑轻飘飘飘向外面，若惊鸿若闪电，一会轻似鸿毛，一会飘若落叶。)" />
+    <action type="DIALOG" value="袁承志#这...这身法！！！" />
+    <action type="DIALOG" value="主角#（这...这身法！！！赶紧偷学才是王道啊！）" />
+    <action type="LEARN.TALENT" value="袁承志#神行百变"/>
+    <action type="UPGRADE.身法" value="袁承志#20"/>
+    <action type="LEARN.TALENT" value="主角#神行百变"/>
+    <action type="UPGRADE.身法" value="主角#10"/>
+    <action type="NICK" value="百变不传"/>
+    <action type="DIALOG" value="木桑道长#悟性不错，你学了老道这套压箱底的功夫，晚上对上你师兄肯定不是问题，只管放心的打！" />
+    <action type="DIALOG" value="袁承志#......(看来不打也不行了）" />
+    <result ret="0" type="story" value="bixuejianShyou_神拳无敌2" />
+  </story>
+  <story name="bixuejianShyou_神拳无敌2">
+    <action type="MUSIC" value="音乐.武侠雄壮" />
+    <action type="BACKGROUND" value="地图.郊外2" />
+    <action type="DIALOG" value="归辛树#好小子,终于来了,我夫妇事情多,没空久待,这便出招吧!"/>
+    <action type="BATTLE" value="襄阳.战斗02" />
+    <result ret="win" type="story" value="bixuejianShyou_神拳无敌3" />
+  </story>
+  <story name="bixuejianShyou_神拳无敌3">
+    <action type="MUSIC" value="音乐.武侠雄壮" />
+    <action type="BACKGROUND" value="地图.郊外2" />
+    <action type="DIALOG" value="归辛树#(瞧他一身的混元劲,招式可以偷学,内功却需亲传,应该是师傅新收的小师弟无疑了)且住。"/>
+    <action type="DIALOG" value="袁承志#好。"/>
+    <action type="DIALOG" value="归辛树#（对着空中作揖）师傅，您老人家也来了。"/>
+    <action type="DIALOG" value="穆人清#被你发现了，唉哟不错哦~"/>
+    <action type="DIALOG" value="主角#（别黑周董好吗。。。）- -！"/>
+    <action type="DIALOG" value="穆人清#小承志，刚才看你们对练时这位不一般丑的小兄弟帮了你很大忙啊，现在你跟你师哥一对一练练看。"/>
+    <action type="DIALOG" value="主角#长得丑是我的错吗？不是我的错吗？"/>
+    <action type="DIALOG" value="袁承志#是，师傅。"/>
+    <action type="BATTLE" value="襄阳.战斗03" />
+    <result ret="win" type="story" value="bixuejianShyou_神拳无敌4" />
+    <result ret="lose" type="story" value="bixuejianShyou_神拳无敌5" />
+  </story>
+  <story name="bixuejianShyou_神拳无敌4">
+    <action type="MUSIC" value="音乐.武侠雄壮" />
+    <action type="BACKGROUND" value="地图.郊外2" />
+    <action type="DIALOG" value="袁承志#（师兄攻时迅如雷霆，守时凝若山岳，名家身手，果真不凡。）"/>
+    <action type="DIALOG" value="袁承志#原来如此原来如此，我华山派拳法就该如此！"/>
+    <action type="GET_POINT" value="袁承志#30" />
+    <action type="UPGRADE.拳掌" value="袁承志#40" />
+    <action type="UPGRADE.MAXHP" value="袁承志#1500" />
+    <action type="UPGRADE.MAXMP" value="袁承志#1500" />
+    <action type="LEARN.SKILL" value="袁承志#混元掌#12" />
+    <action type="LEARN.SKILL" value="袁承志#破玉拳#12" />
+    <action type="LEARN.TALENT" value="袁承志#混元一气" />
+    <action type="LEARN.TALENT" value="袁承志#铁拳无双" />
+    <action type="ITEM" value="混元功秘籍#1" />
+    <action type="ITEM" value="破玉拳真解#1" />
+    <action type="ITEM" value="华山拳法纲要#1" />
+    <action type="NICK" value="千招无敌" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="bixuejianShyou_神拳无敌5">
+    <action type="MUSIC" value="音乐.武侠雄壮" />
+    <action type="BACKGROUND" value="地图.郊外2" />
+    <action type="DIALOG" value="袁承志#（师兄攻时迅如雷霆，守时凝若山岳，名家身手，果真不凡。）"/>
+    <action type="DIALOG" value="袁承志#原来如此原来如此，我华山派拳法就该如此！"/>
+    <action type="GET_POINT" value="袁承志#15" />
+    <action type="UPGRADE.拳掌" value="袁承志#20" />
+    <action type="UPGRADE.MAXHP" value="袁承志#1000" />
+    <action type="UPGRADE.MAXMP" value="袁承志#1000" />
+    <action type="LEARN.SKILL" value="袁承志#混元掌#12" />
+    <action type="LEARN.SKILL" value="袁承志#破玉拳#12" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="bixuejianShyou_金蛇郎君">
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="BACKGROUND" value="地图.华山仙境" />
+    <action type="DIALOG" value="温青青#爹?编剧安排您老人家出场了?"/>
+    <action type="DIALOG" value="金蛇郎君#是啊,青青,你不知道为父为了出个场有多不容易啊,所以就冲着这点,我也不会让你的郎君轻松过关的!"/>
+    <action type="DIALOG" value="温青青#爹～～～～～嗯～～～～～你老人家最好了啦～～～～"/>
+    <action type="DIALOG" value="金蛇郎君#....发嗲也没用,小子,接招!"/>
+    <action type="DIALOG" value="金蛇郎君#（金蛇郎君属性下降）"/>
+    <action type="BATTLE" value="华山仙境.战斗3" />
+    <result ret="win" type="story" value="bixuejianShyou_金蛇胜1" />
+  </story>
+  <story name="bixuejianShyou_金蛇胜1">
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="BACKGROUND" value="地图.华山仙境" />
+    <action type="DIALOG" value="金蛇郎君#身手不错啊，看来我也只能出场那么一小会了，不过你的金蛇剑法还是学的不够到家啊，来，我再指点你一下，乖女儿，你也看好啦！"/>
+    <action type="BATTLE" value="华山仙境.战斗4" />
+    <result ret="win" type="story" value="bixuejianShyou_金蛇胜2" />
+    <result ret="lose" type="story" value="bixuejianShyou_金蛇败" />
+  </story>
+  <story name="bixuejianShyou_金蛇胜2">
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="BACKGROUND" value="地图.华山仙境" />
+    <action type="GET_POINT" value="袁承志#40" />
+    <action type="UPGRADE.剑法" value="袁承志#40" />
+    <action type="UPGRADE.奇门" value="袁承志#40" />
+    <action type="UPGRADE.MAXHP" value="袁承志#1500" />
+    <action type="UPGRADE.MAXMP" value="袁承志#1500" />
+    <action type="LEARN.SKILL" value="袁承志#金蛇剑法#12" />
+    <action type="LEARN.SKILL" value="袁承志#金蛇锥#10" />
+    <action type="LEARN.TALENT" value="袁承志#金蛇郎君" />
+    <action type="LEARN.TALENT" value="袁承志#金蛇狂舞" />
+    <action type="GET_POINT" value="温青青#20" />
+    <action type="UPGRADE.剑法" value="温青青#20" />
+    <action type="UPGRADE.拳掌" value="温青青#20" />
+    <action type="UPGRADE.MAXHP" value="温青青#500" />
+    <action type="UPGRADE.MAXMP" value="温青青#500" />
+    <action type="LEARN.SKILL" value="温青青#金蛇剑法#10" />
+    <action type="LEARN.SKILL" value="温青青#金蛇游身掌#10" />
+    <action type="LEARN.TALENT" value="温青青#金蛇郎君" />
+    <action type="ITEM" value="金蛇剑法真解#1" />
+    <action type="ITEM" value="金蛇游身掌掌谱#1" />
+    <action type="ITEM" value="真.金蛇剑#1" />
+    <action type="DIALOG" value="金蛇郎君#好啦，我该走了，你们去吧，对了，你们拿了那么大的好处，藏宝图就当纪念吧，别去拿了。"/>
+    <action type="NICK" value="金蛇之志"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="bixuejianShyou_金蛇败">
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="BACKGROUND" value="地图.华山仙境" />
+    <action type="DIALOG" value="金蛇郎君#啧啧啧，小子悟性一般，还得多加打磨啊。"/>
+    <action type="DIALOG" value="温青青#爹～～～～～嗯～～～～～你老人家最好了啦，你也不忍心我们跑江湖的时候被欺负啊，要么，您老人家就跟我们一起去游山玩水可好啊？"/>
+    <action type="DIALOG" value="金蛇郎君#...胡...胡闹!那...那怎么行呢...."/>
+    <action type="DIALOG" value="主角#(贱人就是矫情...)金蛇前辈,我们这还有一张您留下的藏宝图呢，要是没有您的指点，我们恐怕得不到这个金蛇重宝啊。"/>
+    <action type="DIALOG" value="温青青#对啊对啊，爹，那是你留给女儿的嫁妆，你总得亲手交到我手上才算数吧？"/>
+    <action type="DIALOG" value="金蛇郎君#这...好吧,那便带你们先去把东西拿出来。"/>
+    <action type="GET_POINT" value="袁承志#20" />
+    <action type="UPGRADE.剑法" value="袁承志#20" />
+    <action type="UPGRADE.奇门" value="袁承志#20" />
+    <action type="UPGRADE.MAXHP" value="袁承志#800" />
+    <action type="UPGRADE.MAXMP" value="袁承志#800" />
+    <action type="LEARN.SKILL" value="袁承志#金蛇剑法#10" />
+    <action type="LEARN.SKILL" value="袁承志#金蛇锥#10" />
+    <action type="GET_POINT" value="温青青#40" />
+    <action type="UPGRADE.剑法" value="温青青#20" />
+    <action type="UPGRADE.拳掌" value="温青青#20" />
+    <action type="UPGRADE.MAXHP" value="温青青#1500" />
+    <action type="UPGRADE.MAXMP" value="温青青#1500" />
+    <action type="LEARN.SKILL" value="温青青#金蛇剑法#12" />
+    <action type="LEARN.SKILL" value="温青青#金蛇游身掌#10" />
+    <action type="LEARN.TALENT" value="温青青#金蛇郎君" />
+    <action type="JOIN" value="金蛇郎君" />
+    <action type="ITEM" value="真.金蛇剑#1" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="bixuejianShyou_取宝藏">
+    <action type="MUSIC" value="音乐.倚天.醉拳" />
+    <action type="BACKGROUND" value="地图.襄阳" />
+    <action type="DIALOG" value="金蛇郎君#就是这里了，徐达将军府邸。"/>
+    <action type="DIALOG" value="袁承志#看这藏宝图的指示，应该是在柴房这里。"/>
+    <action type="DIALOG" value="温青青#就是这里了！"/>
+    <action type="DIALOG" value="主角#这种藏宝之地，总感觉应该有些东西会突然窜出来。。"/>
+    <action type="DIALOG" value="神秘刺客#你猜得不错，把宝藏留下吧！"/>
+    <action type="DIALOG" value="主角#....这是乌鸦嘴的节奏么?"/>
+    <action type="BATTLE" value="襄阳_战斗" />
+    <result ret="win" type="story" value="bixuejianShyou_得宝藏" />
+   
+  </story>
+  <story name="bixuejianShyou_得宝藏">
+    <action type="MUSIC" value="音乐.倚天.醉拳" />
+    <action type="BACKGROUND" value="地图.襄阳" />
+    <action type="DIALOG" value="金蛇郎君#如今宝藏也找到了,乖女婿乖女儿,为父去也！"/>
+    <action type="LEAVE" value="金蛇郎君"/>
+    <action type="DIALOG" value="主角#好嘛，溜得真快。。"/>
+    <action type="ITEM" value="元宝#5"/>
+    <action type="ITEM" value="王母蟠桃#3"/>
+    <action type="ITEM" value="道家仙丹#1"/>
+    <action type="GET_MONEY" value="30000"/>
+    <action type="ITEM" value="金蛇手抄本#1"/>
+    <action type="ITEM" value="圣战之药#3"/>
+    <result ret="0" type="map" value="大地图" />
+
+  </story>
+  <story name="bixuejianShyou_京城行1">
+    <action type="MUSIC" value="音乐.经典" />
+    <action type="BACKGROUND" value="地图.琴舍" />
+    <action type="DIALOG" value="袁承志#阿九？原来你是公主？"/>
+    <action type="DIALOG" value="阿九#啊，袁..袁大哥,你怎么会在这里?你..你是专程来看我的么?"/>
+    <action type="DIALOG" value="太监#公主,公主!公主请开门!"/>
+    <action type="DIALOG" value="阿九#何事如此喧哗?"/>
+    <action type="DIALOG" value="太监#启禀公主，是曹公公发现有刺客潜入了皇宫，奴才奉了曹公公的命令前来查看公主是否安全。"/>
+    <action type="DIALOG" value="阿九#本宫好得很，你替我转告曹公公，多谢它的记挂。"/>
+    <action type="DIALOG" value="太监#请公主殿下见谅，奴才还是得查看一下才能回报。"/>
+    <action type="DIALOG" value="阿九#好大的胆子！"/>
+    <action type="DIALOG" value="太监#奴才不敢，只是曹公公有命，如若奴才不照做，恐怕回去就得被砍头，还望公主殿下体恤下属。"/>
+    <action type="DIALOG" value="阿九#袁大哥，那委屈你先在我床上躺下。"/>
+    <action type="DIALOG" value="袁承志#不必如此，我自行离去便是，量他们也发现不了我。"/>
+    <action type="DIALOG" value="阿九#不，皇宫大内高手众多，你身手再高也会有风险，你还是先委屈一下吧。"/>
+    <action type="DIALOG" value="袁承志#好吧。"/>
+    <action type="DIALOG" value="袁承志#（躺上了大床。阿九紧随其后，上床之后用被褥将袁承志遮盖了起来。）"/>
+    <action type="DIALOG" value="阿九#好啦，你们来瞧吧！"/>
+    <action type="DIALOG" value="太监#（四处巡视未见异常，申请告退。）"/>
+    <action type="DIALOG" value="阿九#快滚，别打扰本宫休息！"/>
+    <action type="DIALOG" value="袁承志#（闻着阿九的体香，感受着阿九身上的软玉温香，不觉有些心猿意马。）"/>
+    <action type="DIALOG" value="阿九#袁大哥...你，你怎么了？"/>
+    <action type="DIALOG" value="袁承志#阿九，我，我也不知道。"/>
+    <action type="DIALOG" value="阿九#嗯。。。（阿九缓缓靠向袁承志）"/>
+    <action type="DIALOG" value="主角#好了以下省略一万字，都转过头去！"/>
+    <result ret="0" type="story" value="bixuejianShyou_京城行2" />
+  </story>
+  <story name="bixuejianShyou_京城行2">
+    <action type="MUSIC" value="音乐.经典" />
+    <action type="BACKGROUND" value="地图.琴舍" />
+    <action type="DIALOG" value="阿九#（眼神迷离，双颊绯红）袁大哥，从现在起，你是我的人了。"/>
+    <action type="DIALOG" value="袁承志#啊？"/>
+    <action type="DIALOG" value="阿九#啊不是，是我是你的人了。。"/>
+    <action type="DIALOG" value="主角#你们都是我的人了！"/>
+    <action type="JOIN" value="阿九"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="bixuejianShyou_京城行3">
+    <action type="MUSIC" value="音乐.经典" />
+    <action type="BACKGROUND" value="地图.大帐" />
+    <action type="DIALOG" value="孙仲寿#攻破京城了!冲进内城砍死狗皇帝!"/>
+    <result ret="0" type="story" value="bixuejianShyou_京城行4" />
+  </story>
+  <story name="bixuejianShyou_京城行4">
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="BACKGROUND" value="地图.大殿室内6" />
+    <action type="DIALOG" value="阿九#父皇，时势紧迫，赶快出宫吧。"/>
+    <action type="DIALOG" value="阿九#王公公，你好好服侍陛下。"/>
+    <action type="DIALOG" value="太监#是，公主殿下一起走吧。"/>
+    <action type="DIALOG" value="阿九#不,我要跟袁大哥一起走。"/>
+    <action type="DIALOG" value="崇祯皇帝#（脸色一变）你要跟袁崇焕的儿子一起？"/>
+    <action type="DIALOG" value="阿九#是，儿臣今日和父皇告别了。"/>
+    <action type="DIALOG" value="崇祯皇帝#先把剑给我。"/>
+    <action type="DIALOG" value="阿九#好，父皇你保重(递过金蛇剑。)"/>
+    <action type="DIALOG" value="崇祯皇帝#(长叹)儿啊，你为何生在我家？！。。"/>
+    <action type="DIALOG" value="崇祯皇帝#(忽然手起刀落，朝阿九头上劈去，阿九躲避不及，侧身翻倒。）"/>
+    <action type="BATTLE" value="崇祯_战斗"/>
+    <result ret="win" type="story" value="bixuejianShyou_京城行5" />
+  </story>
+  <story name="bixuejianShyou_京城行5">
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="主角#（一番打斗，袁承志制住崇祯，一转头，发现阿九左臂已被砍断）"/>
+    <action type="DIALOG" value="袁承志#（大怒）你这狠心毒辣的昏君，竟是甚么人都杀，既害我父亲，又杀你自己女儿。我今日取你性命"/>
+    <action type="DIALOG" value="崇祯皇帝#（叹了一口气）你动手吧！"/>
+    <action type="DIALOG" value="阿九#（奋力跃起）不，你别杀我父皇，求你，袁大哥。。。"/>
+    <action type="DIALOG" value="袁承志#（我何苦让她伤心？）（叹气）好吧，看在你的份上，我便不杀他，只是即便我不杀他，他也活不了多久了，外面闯王大军即刻便至。"/>
+    <action type="DIALOG" value="阿九#他毕竟是我父亲，我不能眼看着他死在我眼前，我们走吧，离开这里！"/>
+    <action type="DIALOG" value="袁承志#好，我们离开京城"/>
+    <action type="UPGRADE.臂力" value="阿九#-30" />
+    <action type="UPGRADE.定力" value="阿九#30" />
+    <action type="LOG" value="阿九断臂" />
+    <action type="NICK" value="剑光殿前"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+
+  <story name="bixuejianShyou_华山派">
+    <action type="MUSIC" value="音乐.经典" />
+    <action type="DIALOG" value="木桑道长#这位小姑娘的伤不妨事，老道尽可医得，只不过有些手法，非本门弟子不得加于其身。。。"/>
+    <action type="DIALOG" value="木桑道长#小姑娘，你可愿拜老道为师啊？"/>
+    <action type="DIALOG" value="阿九#弟子感激不尽，只是.....不知道拜师了还能结婚么？"/>
+    <action type="DIALOG" value="木桑道长#法号要取，婚娶么，哎，便宜袁承志这小子了。"/>
+    <action type="DIALOG" value="阿九#（羞红了脸）师傅在上，请受弟子一拜。"/>
+    <action type="DIALOG" value="木桑道长#你还受着伤呢，就别拜啦。"/>
+    <action type="DIALOG" value="木桑道长#从今天起你的法号便是九难，老道所在门派叫做铁剑门，从今日起，你便是我铁剑门第三十三代的弟子了。"/>
+    <action type="DIALOG" value="阿九#是，师傅。"/>
+    <action type="DIALOG" value="木桑道长#你先在这养伤，承志，你们过段时间再来吧。"/>
+    <action type="LEAVE" value="阿九"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="bixuejianShyou_铁剑门0">
+    <action type="MUSIC" value="音乐.经典" />
+    <action type="DIALOG" value="袁承志#道长！"/>
+    <action type="DIALOG" value="木桑道长#承志来啦,是来看你的小娘子了吧,哈哈哈,乖徒儿,出来吧。"/>
+    <action type="DIALOG" value="九难#承志大哥！"/>
+    <action type="DIALOG" value="主角#....这形象一下子变化太大接受不了啊..."/>
+    <action type="DIALOG" value="袁承志#...我接受的了就好了。"/>
+    <action type="DIALOG" value="九难#承志大哥最好了！"/>
+    <action type="DIALOG" value="主角#....好吧,人艰不拆懂不懂,太不会聊天了你们。"/>
+    <action type="JOIN" value="九难"/>
+    <action type="DIALOG" value="木桑道长#哎，年轻真好啊，嗯？什么人！"/>
+    <result ret="0" type="story" value="bixuejianShyou_铁剑门1" />
+  </story>
+  <story name="bixuejianShyou_铁剑门1">
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="玉真子#师哥，您好呀！"/>
+    <action type="DIALOG" value="木桑道长#你到这里来干什么！"/>
+    <action type="DIALOG" value="玉真子#师哥，你瞧这是什么？"/>
+    <action type="DIALOG" value="玉真子#（说着从怀里掏出一柄小小铁剑，高举过头。）"/>
+    <action type="DIALOG" value="木桑道长#（浑身颤抖)好好，不枉你在西藏那么多年，这东西，终究被你寻到了。"/>
+    <action type="DIALOG" value="玉真子#哈哈哈，木桑！见了师门铁剑还不下跪！"/>
+    <action type="DIALOG" value="木桑道长#（放下棋盘棋子，恭恭敬敬的向玉真子拜倒磕头。）"/>
+    <action type="DIALOG" value="玉真子#哼，你数次折辱于我，如今风水轮流转，终于到我了！死来！"/>
+    <action type="DIALOG" value="主角#住手！"/>
+    <action type="BATTLE" value="铁剑门_战斗1"/>
+    <result ret="win" type="story" value="bixuejianShyou_铁剑门2" />
+  </story>
+  <story name="bixuejianShyou_铁剑门2">
+    <action type="MUSIC" value="音乐.经典" />
+    <action type="DIALOG" value="玉真子#(吐出一口血)你们...人多欺负人少,算什么名门正派!"/>
+    <action type="DIALOG" value="袁承志#单挑难道会怕你?"/>
+    <action type="DIALOG" value="玉真子#哇啊啊啊啊啊啊啊啊啊啊!（玉真子拿出坨便便吃了下去，狂性大发）"/>
+    <action type="DIALOG" value="主角#。。。。小心,这是巫术！"/>
+    <action type="DIALOG" value="玉真子#（能力大幅提升）"/>
+    <action type="BATTLE" value="铁剑门_战斗2"/>
+    <result ret="win" type="story" value="bixuejianShyou_铁剑门3" />
+  </story>
+  <story name="bixuejianShyou_铁剑门3">
+    <action type="MUSIC" value="音乐.经典" />
+    <action type="DIALOG" value="玉真子#啊,这是什么东西!"/>
+    <action type="DIALOG" value="玉真子#（只见一条小金蛇从旁窜出,咬在了玉真子后颈天柱穴上。小金蛇奇毒无比，只片刻，玉真子便全身发黑倒毙。)"/>
+    <action type="DIALOG" value="木桑道长#哎，我这师弟，自小聪慧，勤于学武，没想到当师傅仙去后失了约束，从此走上歧途。"/>
+    <action type="DIALOG" value="木桑道长#我们师父，上一代的掌门人，于西藏游历时不幸遇难，我们门派的珍宝铁剑令便也遗失了，他去西藏筹划多年，终于被他寻得此令，于是立马来找我的麻烦。"/>
+    <action type="DIALOG" value="九难#师傅，如今他已伏诛，都过去了。"/>
+    <action type="DIALOG" value="木桑道长#哎，这铁剑令，本身用玄铁铸成，乃是一件异宝，虽说是掌门身份象征，但是如今门派就咱们师徒俩二人 ，我留着他也确实没什么大用，便传给你吧，望你好好珍惜！"/>
+    <action type="DIALOG" value="九难#师傅，这...这怎么使得?"/>
+    <action type="DIALOG" value="木桑道长#从此铁剑门便只有你我师徒二人了，有什么使得使不得的?为师准备云游四方,你又肯定不会跟着我这邋遢道士走，那这东西还不如放在你这里,哎，算了，为师走了，准备找个地方，安度晚年，你和承志，要好好的！"/>
+    <action type="ITEM" value="铁剑令#1"/>
+    <action type="ITEM" value="碧落苍穹秘籍#1"/>
+    <action type="NICK" value="苍穹碧落"/>
+    <action type="DIALOG" value="袁承志#道长，我一定会对阿九好的。"/>
+    <action type="DIALOG" value="木桑道长#嗯，我走啦！"/>
+  </story>
+  <story name="bixuejianShyou_华山仙境变身01">
+    <action type="MUSIC" value="音乐.经典" />
+    <action type="DIALOG" value="袁承志#当年我就是在这里边上的洞中，发现了金蛇郎君的骸骨，并且得到了他的秘籍，但是总有些地方觉得有些滞碍。"/>
+    <action type="DIALOG" value="九难#不如我们在此推演下金蛇郎君的武功，或有所得？"/>
+    <action type="SELECT" value="主角#要推演吗？  #推演  #算了。"/>
+    <result ret="0" type="story" value="bixuejianShyou_华山仙境变身02" />
+  </story>
+  <story name="bixuejianShyou_华山仙境变身02">
+    <action type="MUSIC" value="音乐.经典" />
+    <action type="DIALOG" value="袁承志#好，便让我们来揣摩下金蛇前辈的绝学！"/>
+    <action type="BATTLE" value="袁九变身_战斗"/>
+    <result ret="win" type="story" value="bixuejianShyou_华山仙境变身03" />
+  </story>
+  <story name="bixuejianShyou_华山仙境变身03">
+    <action type="MUSIC" value="音乐.经典" />
+    <action type="DIALOG" value="袁承志#原来如此，金蛇武学的奥秘就在于金蛇二字之上！矫若灵蛇,翩似飞仙，静如处子，动如脱兔！"/>
+    <action type="UPGRADE.MAXHP" value="袁承志#1200" />
+    <action type="UPGRADE.MAXMP" value="袁承志#1200" />
+    <action type="GET_POINT" value="袁承志#40" />
+    <action type="UPGRADE.剑法" value="袁承志#40" />
+    <action type="UPGRADE.拳掌" value="袁承志#20" />
+    <action type="LEARN.SKILL" value="袁承志#金蛇剑法#12" />
+    <action type="LEARN.SKILL" value="袁承志#金蛇游身掌#10" />
+    <action type="LEARN.TALENT" value="袁承志#金蛇郎君" />
+    <action type="UPGRADE.MAXHP" value="九难#1200" />
+    <action type="UPGRADE.MAXMP" value="九难#1200" />
+    <action type="GET_POINT" value="九难#40" />
+    <action type="UPGRADE.剑法" value="九难#20" />
+    <action type="UPGRADE.奇门" value="九难#20" />
+    <action type="LEARN.SKILL" value="九难#金蛇剑法#12" />
+    <action type="LEARN.SKILL" value="九难#金蛇锥#10" />
+    <action type="LEARN.TALENT" value="九难#金蛇郎君" />
+  </story>
+</root>

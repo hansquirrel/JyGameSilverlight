@@ -1,0 +1,87 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:JyGame" xmlns:JyGame_UserControls="clr-namespace:JyGame.UserControls" xmlns:Shader="clr-namespace:Effects.Shader" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions" xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" x:Class="JyGame.UIHost"
+    mc:Ignorable="d"
+    d:DesignHeight="600" d:DesignWidth="800" MouseRightButtonDown="UserControl_MouseRightButtonDown" KeyDown="UserControl_KeyDown" Loaded="UserControl_Loaded">
+	<UserControl.Resources>
+		<Storyboard x:Name="OpenLogo">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="infoCanvas">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Effect).(BlurEffect.Radius)" Storyboard.TargetName="infoCanvas">
+				<EasingDoubleKeyFrame KeyTime="0" Value="100"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</UserControl.Resources>
+
+	<Canvas HorizontalAlignment="Left" Height="600" VerticalAlignment="Top" Width="800" Background="Black">
+
+		<Canvas x:Name="infoCanvas" Height="600" Width="800" Canvas.ZIndex="10000" Background="Black" Opacity="0">
+			<Canvas.Effect>
+				<BlurEffect Radius="100"/>
+			</Canvas.Effect>
+			<Image x:Name="image" Height="120" Canvas.Left="316" Canvas.Top="167" Width="163" Source="/Resource/ui/logo-black.jpg" Stretch="UniformToFill"/>
+			<TextBlock x:Name="textBlock" Height="42" TextWrapping="Wrap" Text="汉家松鼠出品，2014" Canvas.Top="304" Width="800" Foreground="White" FontSize="26.667" FontWeight="Bold" TextAlignment="Center"/>
+			<TextBlock Height="42" TextWrapping="Wrap" Text="www.jy-x.com" Canvas.Top="462" Width="304" Foreground="#FFFF9700" FontSize="26.667" FontWeight="Bold" TextAlignment="Center" Canvas.Left="432"/>
+		</Canvas>
+
+		<Canvas x:Name="LayoutRoot" Width="800" Height="600" Visibility="Collapsed">
+        
+			<local:RoleDetailPanel x:Name="roleDetailPanel" Canvas.Left="20" Canvas.Top="20" Height="80" Width="250" Canvas.ZIndex="100" Visibility="Collapsed" d:IsHidden="True"/>
+			<local:RoleDetailPanelReverse x:Name="roleDetailPanel_float" Canvas.Left="530" Canvas.Top="20" Height="80" Width="250" Canvas.ZIndex="100" Visibility="Collapsed" d:IsHidden="True"/>
+			<local:ItemSelectPanel x:Name="itemSelectPanel" Canvas.Left="353" Height="Auto" Width="Auto" Canvas.ZIndex="101" Canvas.Top="32" Visibility="Collapsed"/>
+			<local:RoleActionPanel x:Name="roleActionPanel" Canvas.Top="176" Canvas.Left="217" d:LayoutOverrides="Width" Canvas.ZIndex="100" d:IsHidden="True" Visibility="Collapsed"/>
+			<JyGame_UserControls:DialogIndicator x:Name="dialogIndicator" Canvas.ZIndex="110" Visibility="Collapsed"/>
+			<Button x:Name="dialogCover" Canvas.Left="0" Canvas.Top="0" Width="800" Height="600" Canvas.ZIndex="111" Visibility="Collapsed" d:IsHidden="True"/>
+			<JyGame_UserControls:DialogBox x:Name="dialogPanel" Width="{Binding ActualWidth, ElementName=LayoutRoot}" Height="{Binding ActualHeight, ElementName=LayoutRoot}" Canvas.ZIndex="110" d:IsHidden="True" Visibility="Collapsed"/>
+			<JyGame_UserControls:RolePanel x:Name="rolePanel" Canvas.ZIndex="100" Height="543" Width="388" Visibility="Collapsed"/>
+			<JyGame_UserControls:SkillSelectPanel x:Name="skillPanel" Canvas.Left="321" Canvas.Top="157" Canvas.ZIndex="101" Visibility="Collapsed" FontFamily="SimHei"/>
+			<JyGame_UserControls:BattleFieldContainer x:Name="battleFieldContainer" Canvas.ZIndex="10" d:IsHidden="True" Visibility="Collapsed"/>
+			<JyGame_UserControls:DodgeGame x:Name="dodgeGame" Canvas.ZIndex="2" Visibility="Collapsed"/>
+			<JyGame_UserControls:DianxueGame x:Name="dianxueGame" Canvas.ZIndex="2" Visibility="Collapsed"/>
+			<JyGame_UserControls:MapUI x:Name="mapUI" Canvas.ZIndex="1" Visibility="Collapsed"/>
+			<JyGame_UserControls:SelectBox x:Name="selectPanel" Width="{Binding ActualWidth, ElementName=LayoutRoot}" Height="{Binding ActualHeight, ElementName=LayoutRoot}" Canvas.ZIndex="120" Visibility="Collapsed"/>
+			<JyGame_UserControls:Scence x:Name="scence" Canvas.ZIndex="1" Visibility="Collapsed" d:IsHidden="True"/>
+			<JyGame_UserControls:Bonus x:Name="bonus" Visibility="Collapsed" Canvas.ZIndex="110"/>
+			<JyGame_UserControls:ArenaSelectScene x:Name="arenaSelectScene" Visibility="Collapsed" Canvas.ZIndex="10"/>
+			<JyGame_UserControls:ArenaSelectRole x:Name="arenaSelectRole" Visibility="Collapsed" Canvas.ZIndex="10"/>
+			<JyGame_UserControls:TowerSelectScene x:Name="towerSelectScene" Visibility="Collapsed" Canvas.ZIndex="10"/>
+			<JyGame_UserControls:TowerSelectRole x:Name="towerSelectRole" Visibility="Collapsed" Canvas.ZIndex="10"/>
+			<JyGame_UserControls:Log x:Name="logPanel" Canvas.ZIndex="80" Canvas.Left="105" Canvas.Top="54" Visibility="Collapsed"/>
+			<local:SystemOptions x:Name="systemOptionsPanel" Height="376" Canvas.Left="297" Canvas.Top="85" Width="229" Visibility="Collapsed" Canvas.ZIndex="200"/>
+			<local:EnvsetPanel x:Name="envsetPanel" Height="362" Canvas.Left="250" Canvas.Top="69" Width="300" Canvas.ZIndex="201" Visibility="Collapsed"/>
+			<local:SaveLoadPanel x:Name="saveLoadPanel" Height="400" Canvas.Left="201" Canvas.Top="100" Width="400" Canvas.ZIndex="201" Visibility="Collapsed"/>
+			<local:MainMenu x:Name="mainMenu" Height="600" Width="800" Canvas.ZIndex="1"/>
+			<local:RollRole x:Name="rollRolePanel" Height="600" Width="800" Visibility="Collapsed" Canvas.ZIndex="1"/>
+			<local:MultiSelectBox x:Name="multiSelectBox" Height="600" Width="800" Visibility="Collapsed" Canvas.ZIndex="120"/>
+			<local:GameOver x:Name="gameOverPanel" Height="600" Width="800" Canvas.ZIndex="1" Visibility="Collapsed"/>
+			<local:ShopPanel x:Name="shopPanel" Height="600" Width="800" Visibility="Collapsed" Canvas.ZIndex="10"/>
+			<local:NameTextBox x:Name="textBox" Height="95" Width="400" Canvas.ZIndex="100000" Canvas.Top="145" Canvas.Left="201" Visibility="Collapsed"/>
+			<local:RoleListPanel x:Name="roleListPanel" Height="580" Canvas.Left="0" Canvas.Top="0" Width="515" Visibility="Collapsed" Canvas.ZIndex="100"/>
+			<HyperlinkButton x:Name="fin" NavigateUri="http://weibo.com/u/3195541644" TargetName="_blank" Visibility="Collapsed">
+				<Image x:Name="finCover" Canvas.Left="0" Canvas.Top="0" Width="800" Height="600" Canvas.ZIndex="10001" Visibility="Visible" Opacity="1" MouseLeftButtonUp="hideInfoCover" Source="/Resource/ui/fin.jpg"/>
+			</HyperlinkButton>
+			<local:LoadingPanel x:Name="loadingPanel" Height="600" Width="800" Canvas.ZIndex="10001" Visibility="Collapsed"/>
+			<local:OnlineGame x:Name="onlineGamePanel" Height="600" Width="800" Visibility="Collapsed" Canvas.ZIndex="2"/>
+			<local:OLBattleStatusPanel x:Name="onlineGameLoadingPanel" Height="600" Width="800" Visibility="Collapsed" Canvas.ZIndex="1000"/>
+			<local:AudioPanel x:Name="audioPanel" Height="600" Width="800" Canvas.ZIndex="2000" Visibility="Collapsed"/>
+			<TextBlock x:Name="VersionInfoText" Height="26" Canvas.Left="673" TextWrapping="Wrap" Text="金X 0.5" Canvas.Top="1" Width="86" Foreground="#E5FF0000" FontSize="13.333" Canvas.ZIndex="999999" IsHitTestVisible="False" FontWeight="Bold">
+				<TextBlock.Effect>
+					<DropShadowEffect ShadowDepth="2"/>
+				</TextBlock.Effect>
+			</TextBlock>
+			<Image x:Name="FullScreenButton" Height="26" Canvas.Left="764" Canvas.Top="1" Width="26" Canvas.ZIndex="10001" Source="/Resource/ui/fullscreen.png" ToolTipService.ToolTip="全屏模式" MouseLeftButtonUp="FullScreenButton_MouseLeftButtonUp"/>
+			<Image x:Name="DanmuButton" Height="26" Canvas.Left="754" Canvas.Top="32" Width="46" Canvas.ZIndex="10001" Source="/Resource/ui/dialog-4.png" ToolTipService.ToolTip="发表弹幕" MouseLeftButtonUp="DanmuButton_MouseLeftButtonUp"/>
+			<JyGame_UserControls:WudaoDahuiPanel x:Name="wudaodahuiPanel" Canvas.ZIndex="2" Visibility="Collapsed"/>
+			<CheckBox x:Name="danmuCheckBox" Content="弹幕" Canvas.Left="754" Canvas.Top="66" Canvas.ZIndex="10001" FontWeight="Bold" Background="#FF588BB6" Foreground="Red" Click="danmuCheckBox_Click" Loaded="danmuCheckBox_Loaded" IsTabStop="False"/>
+		</Canvas>
+		<Canvas x:Name="DanmuCanvas" IsHitTestVisible="False" Width="800" Height="600"/>
+	</Canvas>
+</UserControl>

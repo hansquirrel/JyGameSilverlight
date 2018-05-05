@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JyGame", "JyGame\JyGame.csproj", "{3A79E5F5-0BAF-407A-8F34-CAA011BEF966}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JyGame.Web", "JyGame.Web\JyGame.Web.csproj", "{B359094D-537C-436A-B34C-74A97D904B4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JyGame.BattleNet", "JyGame.BattleNet\JyGame.BattleNet.csproj", "{85BD3DF3-C86E-41D5-953E-47EF6BEBA59B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A79E5F5-0BAF-407A-8F34-CAA011BEF966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A79E5F5-0BAF-407A-8F34-CAA011BEF966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A79E5F5-0BAF-407A-8F34-CAA011BEF966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A79E5F5-0BAF-407A-8F34-CAA011BEF966}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B359094D-537C-436A-B34C-74A97D904B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B359094D-537C-436A-B34C-74A97D904B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B359094D-537C-436A-B34C-74A97D904B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B359094D-537C-436A-B34C-74A97D904B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85BD3DF3-C86E-41D5-953E-47EF6BEBA59B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85BD3DF3-C86E-41D5-953E-47EF6BEBA59B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85BD3DF3-C86E-41D5-953E-47EF6BEBA59B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85BD3DF3-C86E-41D5-953E-47EF6BEBA59B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

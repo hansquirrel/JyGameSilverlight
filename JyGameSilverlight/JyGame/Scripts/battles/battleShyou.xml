@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <maptemplates>
+    <maptemplate key="广州.战斗" background="地图.树林" music="战斗音乐.4" width="800" height="600" xblocks="14" yblocks="10" cover="0,0,0,9,1,0,1,9,2,9,3,9,5,1,5,2,6,0,6,1,6,2,7,0,7,1,7,2,8,0,8,1,8,2,9,0,9,1,9,2,9,3,10,0,10,1,10,2,10,3,11,0,11,1,11,2,11,3,11,4,12,0,12,1,12,2,12,3,12,4,12,5,12,6,13,0,13,1,13,2,13,3,13,4,13,5,13,6,13,7" />
+    <maptemplate key="华山仙境.战斗" background="地图.阴冷山洞1" music="音乐.天龙八部.紧张感3" width="1004" height="720" xblocks="18" yblocks="12" cover="0,6,1,6,2,6,3,6,4,6,5,6,6,6,7,6,8,6,9,6,10,6,11,6,12,6,13,5,13,6,14,5,15,5,16,5,17,5" />
+    
+  </maptemplates>
+
+  <battles>
+    <battle key="广州.战斗" template="广州.战斗" must="主角">
+      <roles>
+        <role index="0" team="1" x="4" y="6" face="0" />
+        <role key="儿时袁承志" team="1" x="3" y="6" face="0" />
+        <role key="崔秋山" team="1" x="2" y="5" face="0" />
+        <role key="东厂杀手" team="2" x="12" y="6" face="1" />
+        <role key="东厂杀手" team="2" x="13" y="8" face="1" />
+        <role key="东厂杀手" team="2" x="13" y="7" face="1" />
+        <role key="东厂杀手" team="2" x="8" y="5" face="1" />
+        <role key="东厂杀手" team="2" x="12" y="8" face="1" />
+      </roles>
+    </battle>
+    <battle key="华山仙境.战斗" template="华山仙境.战斗" must="儿时袁承志">
+      <roles>
+        <role index="0" team="1" x="3" y="8" face="0" />
+        <role index="1" team="1" x="4" y="9" face="0" />
+        <role key="穆人清" team="2" x="12" y="9" face="1" />
+      </roles>
+    </battle>
+    <battle key="华山仙境.战斗2" template="华山仙境.战斗" must="袁承志">
+      <roles>
+        <role index="0" team="1" x="3" y="8" face="0" />
+        <role key="炼狱穆人清" team="2" x="12" y="9" face="1" />
+      </roles>
+    </battle>
+    <battle key="华山仙境.战斗3" template="华山仙境.战斗" must="袁承志">
+      <roles>
+        <role index="0" team="1" x="3" y="8" face="0" />
+        <role key="金蛇郎君" team="2" x="12" y="9" face="1" />
+      </roles>
+    </battle>
+    <battle key="华山仙境.战斗4" template="华山仙境.战斗" must="袁承志#温青青">
+      <roles>
+        <role index="0" team="1" x="3" y="8" face="0" />
+        <role index="1" team="1" x="4" y="8" face="0" />
+        <role key="炼狱金蛇郎君" team="2" x="11" y="9" face="1" />
+        <role key="炼狱金蛇郎君" team="2" x="10" y="9" face="1" />
+        
+      </roles>
+    </battle>
+    <battle key="风陵渡口.袁承志" template="风陵渡口_剧情" must="主角">
+      <roles>
+        <role index="0" team="1" x="12" y="5" face="1" />
+        <role key="袁承志" team="2" x="5" y="3" face="0" />
+      </roles>
+    </battle>
+    <battle key="风陵渡口.龙游帮1" template="风陵渡口_剧情" must="主角">
+      <roles>
+        <role index="0" team="1" x="12" y="5" face="1" />
+        <role key="船老大" team="2" x="5" y="3" face="0" />
+      </roles>
+        <random level="1" name="江湖流氓">
+          <role x="4" y="3" face="0" />
+          <role x="5" y="2" face="0" />
+          <role x="4" y="2" face="0" />
+          <role x="5" y="4" face="0" />
+        </random>
+      
+    </battle>
+    <battle key="风陵渡口.龙游帮2" template="风陵渡口_剧情" must="主角">
+      <roles>
+        <role index="0" team="1" x="12" y="5" face="1" />
+        <role key="船老大" team="2" x="5" y="3" face="0" />
+      </roles>
+        <random level="1" name="江湖流氓">
+          <role x="4" y="3" face="0" />
+          <role x="5" y="2" face="0" />
+          <role x="4" y="2" face="0" />
+          <role x="5" y="4" face="0" />
+          <role x="12" y="4" face="0" />
+          <role x="13" y="4" face="0" />
+          <role x="11" y="4" face="0" />
+          <role x="10" y="4" face="0" />
+        </random>
+      
+    </battle>
+    <battle key="石梁派_战斗1" template="青城派.战斗" must="主角">
+      <roles>
+        <role index="0" team="1" x="16" y="9" face="1" />
+        <role index="1" team="1" x="16" y="8" face="1" />
+        <role index="2" team="1" x="15" y="9" face="1" />
+        <role index="3" team="1" x="15" y="8" face="1" />
+        <role index="4" team="1" x="14" y="9" face="1" />
+        <role index="5" team="1" x="14" y="8" face="1" />
+        <role key="温方达" team="2" x="4" y="12" face="0" />
+        <role key="温方义" team="2" x="4" y="13" face="0" />
+        <role key="温方施" team="2" x="5" y="12" face="0" />
+        <role key="温方悟" team="2" x="5" y="13" face="0" />
+        <role key="温方山" team="2" x="5" y="14" face="0" />
+        <role key="袁承志" team="2" x="6" y="14" face="0" />
+        <role key="石梁派弟子" team="2" x="3" y="12" face="0"/>
+        <role key="石梁派弟子" team="2" x="4" y="14" face="0"/>
+        <role key="石梁派弟子" team="2" x="5" y="11" face="0"/>
+        <role key="石梁派弟子" team="2" x="3" y="13" face="0"/>
+       </roles>
+    </battle>
+    <battle key="石梁派_战斗5" template="青城派.战斗" must="主角">
+      <roles>
+        <role index="0" team="1" x="16" y="9" face="1" />
+        <role index="1" team="1" x="16" y="8" face="1" />
+        <role index="2" team="1" x="15" y="9" face="1" />
+        <role index="3" team="1" x="15" y="8" face="1" />
+        <role key="温方达" team="2" x="4" y="12" face="0" />
+        <role key="温方义" team="2" x="4" y="13" face="0" />
+        <role key="温方施" team="2" x="5" y="12" face="0" />
+        <role key="温方悟" team="2" x="5" y="13" face="0" />
+        <role key="温方山" team="2" x="5" y="14" face="0" />
+        <role key="石梁派弟子" team="2" x="15" y="10" face="0"/>
+        <role key="石梁派弟子" team="2" x="14" y="10" face="0"/>
+        <role key="石梁派弟子" team="2" x="15" y="11" face="0"/>   
+        <role key="石梁派弟子" team="2" x="13" y="13" face="0"/>
+        <role key="石梁派弟子" team="2" x="13" y="11" face="0"/>
+        <role key="石梁派弟子" team="2" x="16" y="10" face="0"/>
+        <role key="石梁派弟子" team="2" x="13" y="12" face="0"/>
+        <role key="石梁派弟子" team="2" x="13" y="10" face="0"/>
+        <role key="石梁派弟子" team="2" x="16" y="10" face="0"/>
+        <role key="石梁派弟子" team="2" x="14" y="13" face="0"/>
+        <role key="石梁派弟子" team="2" x="3" y="12" face="0"/>
+        <role key="石梁派弟子" team="2" x="4" y="14" face="0"/>
+        <role key="石梁派弟子" team="2" x="5" y="11" face="0"/>
+        <role key="石梁派弟子" team="2" x="3" y="13" face="0"/>
+        <role key="石梁派弟子" team="2" x="3" y="11" face="0"/>
+        <role key="石梁派弟子" team="2" x="6" y="10" face="0"/>
+       </roles>
+    </battle>
+    <battle key="石梁派_战斗2" template="青城派.战斗" must="主角">
+      <roles>
+        <role index="0" team="1" x="16" y="9" face="1" />
+        <role index="1" team="1" x="16" y="8" face="1" />
+        <role index="2" team="1" x="15" y="9" face="1" />
+        <role index="3" team="1" x="15" y="8" face="1" />
+        <role key="温方达" team="2" x="4" y="12" face="0" />
+        <role key="温方义" team="2" x="4" y="13" face="0" />
+        <role key="温方施" team="2" x="5" y="12" face="0" />
+        <role key="温方悟" team="2" x="5" y="13" face="0" />
+        <role key="温方山" team="2" x="5" y="14" face="0" />
+        <role key="袁承志" team="2" x="6" y="14" face="0" />
+        <role key="安小慧" team="2" x="3" y="12" face="0"/>
+        <role key="石梁派弟子" team="2" x="4" y="14" face="0"/>
+        <role key="石梁派弟子" team="2" x="5" y="11" face="0"/>
+        <role key="石梁派弟子" team="2" x="3" y="13" face="0"/>
+        <role key="石梁派弟子" team="2" x="3" y="11" face="0"/>
+       
+      </roles>
+    </battle>
+    <battle key="石梁派_战斗3" template="青城派.战斗" must="主角">
+      <roles>
+        <role index="0" team="1" x="16" y="9" face="1" />
+        <role index="1" team="1" x="16" y="8" face="1" />
+        <role index="2" team="1" x="15" y="9" face="1" />
+        <role index="3" team="1" x="15" y="8" face="1" />
+        <role key="黄真" team="2" x="4" y="12" face="0" />
+        <role key="袁承志" team="2" x="6" y="14" face="0" />
+        <role key="安小慧" team="2" x="3" y="12" face="0"/>
+        <random level="2" name="华山高手">
+          <role x="4" y="14" face="0"/>
+          <role x="5" y="11" face="0"/>
+          <role x="3" y="13" face="0"/>
+          <role x="3" y="11" face="0"/>
+        </random>
+      </roles>
+    </battle>
+    <battle key="石梁派_战斗4" template="青城派.战斗" must="主角">
+      <roles>
+        <role index="0" team="1" x="16" y="9" face="1" />
+        <role index="1" team="1" x="16" y="8" face="1" />
+        <role index="2" team="1" x="15" y="9" face="1" />
+        <role key="安小慧" team="1" x="15" y="8" face="1" />
+        <role key="温方达" team="2" x="4" y="12" face="0" />
+        <role key="温方义" team="2" x="4" y="13" face="0" />
+        <role key="温方施" team="2" x="5" y="12" face="0" />
+        <role key="温方悟" team="2" x="5" y="13" face="0" />
+        <role key="温方山" team="2" x="5" y="14" face="0" />
+        <role key="石梁派弟子" team="2" x="15" y="10" face="0"/>
+        <role key="石梁派弟子" team="2" x="14" y="10" face="0"/>
+        <role key="石梁派弟子" team="2" x="15" y="11" face="0"/>
+        <role key="石梁派弟子" team="2" x="13" y="13" face="0"/>
+        <role key="石梁派弟子" team="2" x="13" y="11" face="0"/>
+        <role key="石梁派弟子" team="2" x="16" y="10" face="0"/>
+     
+      </roles>
+    </battle>
+    <battle key="石梁派_战斗6" template="青城派.战斗" must="主角#袁承志">
+      <roles>
+        <role index="0" team="1" x="16" y="9" face="1" />
+        <role index="1" team="1" x="16" y="8" face="1" />
+        <role index="2" team="1" x="15" y="9" face="1" />
+        <role index="3" team="1" x="15" y="8" face="1" />
+        <role index="4" team="1" x="14" y="9" face="1" />
+        <role key="温方达" team="2" x="4" y="12" face="0" />
+        <role key="温方义" team="2" x="4" y="13" face="0" />
+        <role key="温方施" team="2" x="5" y="12" face="0" />
+        <role key="温方悟" team="2" x="5" y="13" face="0" />
+        <role key="温方山" team="2" x="5" y="14" face="0" />
+
+      </roles>
+    </battle>
+    <battle key="石梁派_战斗7" template="青城派.战斗" must="主角#袁承志">
+      <roles>
+        <role index="0" team="1" x="16" y="9" face="1" />
+        <role index="1" team="1" x="16" y="8" face="1" />
+        <role index="2" team="1" x="15" y="9" face="1" />
+        <role index="3" team="1" x="15" y="8" face="1" />
+        <role index="4" team="1" x="15" y="8" face="1" />
+        <role key="黄真" team="1" x="14" y="12" face="1" />
+        <role key="温方达" team="2" x="4" y="12" face="0" />
+        <role key="温方义" team="2" x="4" y="13" face="0" />
+        <role key="温方施" team="2" x="5" y="12" face="0" />
+        <role key="温方悟" team="2" x="5" y="13" face="0" />
+        <role key="温方山" team="2" x="5" y="14" face="0" />
+        <role key="石梁派弟子" team="2" x="15" y="10" face="0"/>
+        <role key="石梁派弟子" team="2" x="14" y="10" face="0"/>
+        <role key="石梁派弟子" team="2" x="15" y="11" face="0"/>
+        <role key="石梁派弟子" team="2" x="13" y="13" face="0"/>
+        <role key="石梁派弟子" team="2" x="13" y="11" face="0"/>
+        <role key="石梁派弟子" team="2" x="16" y="10" face="0"/>
+        <role key="石梁派弟子" team="2" x="13" y="12" face="0"/>
+        <role key="石梁派弟子" team="2" x="13" y="10" face="0"/>
+        <role key="石梁派弟子" team="2" x="16" y="10" face="0"/>
+        <role key="石梁派弟子" team="2" x="14" y="13" face="0"/>
+        <role key="石梁派弟子" team="2" x="3" y="12" face="0"/>
+        <role key="石梁派弟子" team="2" x="4" y="14" face="0"/>
+        <role key="石梁派弟子" team="2" x="5" y="11" face="0"/>
+        <role key="石梁派弟子" team="2" x="3" y="13" face="0"/>
+        <role key="石梁派弟子" team="2" x="3" y="11" face="0"/>
+        <role key="石梁派弟子" team="2" x="6" y="10" face="0"/>
+      </roles>
+    </battle>
+    <battle key="华山仙境_灭华山" template="华山仙境.战斗" must="主角">
+      <roles>
+        <role index="0" team="1" x="3" y="8" face="0" />
+        <role index="1" team="1" x="4" y="9" face="0" />
+        <role index="2" team="1" x="3" y="9" face="0" />
+        <role index="3" team="1" x="4" y="8" face="0" />
+        <role key="炼狱穆人清" team="2" x="12" y="9" face="1" />
+        <role key="炼狱黄真" team="2" x="11" y="8" face="1" />
+        <role key="归辛树" team="2" x="10" y="7" face="1" />
+        <role key="袁承志" team="2" x="9" y="8" face="1" />
+        <random level="2" name="华山高手">
+          <role x="13" y="9" face="0" />
+          <role x="13" y="10" face="0" />
+          <role x="6" y="8" face="0" />
+          <role x="6" y="7" face="0" />
+        </random>
+      </roles>
+    </battle>
+    <battle key="华山仙境_灭铁剑1" template="华山仙境.战斗" must="主角">
+      <roles>
+        <role index="0" team="1" x="3" y="8" face="0" />
+        <role index="1" team="1" x="3" y="9" face="0" />
+        <role index="2" team="1" x="4" y="8" face="0" />
+        <role index="3" team="1" x="4" y="9" face="0" />
+		<role index="4" team="1" x="5" y="8" face="0" />
+		<role index="5" team="1" x="5" y="9" face="0" />
+        <role key="木桑道长" team="2" x="12" y="9" face="1" />
+        <role key="玉真子" team="2" x="11" y="8" face="1" />
+       
+        <random level="2" name="华山高手">
+          <role x="13" y="9" face="0" />
+          <role x="13" y="10" face="0" />
+          <role x="6" y="8" face="0" />
+          <role x="6" y="7" face="0" />
+        </random>
+      </roles>
+    </battle>
+    <battle key="华山仙境_灭铁剑2" template="华山仙境.战斗" must="主角">
+      <roles>
+        <role index="0" team="1" x="3" y="8" face="0" />
+        <role index="1" team="1" x="4" y="9" face="0" />
+        <role index="2" team="1" x="3" y="9" face="0" />
+        <role index="3" team="1" x="4" y="8" face="0" />
+		<role index="4" team="1" x="5" y="8" face="0" />
+		<role index="5" team="1" x="5" y="9" face="0" />
+        <role key="炼狱玉真子" team="2" x="11" y="8" face="1" />
+
+        <random level="2" name="华山高手">
+          <role x="13" y="9" face="0" />
+          <role x="13" y="10" face="0" />
+          <role x="6" y="8" face="0" />
+          <role x="6" y="7" face="0" />
+        </random>
+      </roles>
+    </battle>
+    <battle key="襄阳.战斗01" template="襄阳_战斗" must="袁承志">
+      <roles>
+        <role index="0" team="1" x="24" y="7" face="1" />
+        <role index="1" team="1" x="12" y="8" face="1" />
+        <role index="2" team="1" x="24" y="9" face="1" />
+        <role index="3" team="1" x="12" y="10" face="1" />
+        <role index="4" team="1" x="24" y="11" face="1" />
+        <!--<role index="5" team="1" x="26" y="7" face="0"/>
+        <role index="6" team="1" x="14" y="8" face="0"/>
+        <role index="7" team="1" x="26" y="9" face="0"/>
+        <role index="8" team="1" x="14" y="10" face="0"/>
+        <role index="9" team="1" x="26" y="11" face="0"/>-->
+        <role key="神秘剑客" team="2" x="33" y="8" face="1" />
+        <role key="东厂杀手" team="2" x="33" y="7" face="1" />
+        <role key="东厂杀手" team="2" x="33" y="10" face="1" />
+        <role key="东厂杀手" team="2" x="32" y="8" face="1" />
+        <role key="东厂杀手" team="2" x="32" y="7" face="1" />
+        <role key="东厂杀手" team="2" x="32" y="10" face="1" />
+        <role key="东厂杀手" team="2" x="30" y="6" face="1" />
+        <role key="神秘剑客" team="2" x="30" y="8" face="1" />
+        <role key="东厂杀手" team="2" x="28" y="8" face="1" />
+        <role key="东厂杀手" team="2" x="28" y="10" face="1" />
+        <!--<role key="神秘剑客" team="2" x="21" y="10" face="0"/>
+
+        <role key="神秘刺客" team="2" x="17" y="8" face="1"/>
+        <role key="神秘刺客" team="2" x="17" y="9" face="1"/>
+        <role key="神秘刺客" team="2" x="17" y="7" face="1"/>
+        <role key="神秘刺客" team="2" x="17" y="10" face="1"/>
+
+        <role key="神秘刺客" team="2" x="19" y="8" face="1"/>
+        <role key="神秘刺客" team="2" x="19" y="9" face="1"/>
+        <role key="神秘刺客" team="2" x="19" y="7" face="1"/>
+        <role key="神秘刺客" team="2" x="19" y="10" face="1"/>
+
+        <role key="神秘剑客" team="2" x="3" y="9" face="0"/>-->
+      </roles>
+    </battle>
+    <battle key="襄阳.战斗02" template="襄阳_战斗" must="主角#袁承志">
+      <roles>
+        <role index="0" team="1" x="24" y="7" face="1" />
+        <role index="1" team="1" x="12" y="8" face="1" />
+       
+        <role key="归辛树" team="2" x="33" y="8" face="1" />
+        <role key="归二娘" team="2" x="33" y="7" face="1" />
+        
+      </roles>
+    </battle>
+    <battle key="襄阳.战斗03" template="襄阳_战斗" must="袁承志">
+      <roles>
+        <role index="0" team="1" x="24" y="7" face="1" />
+        <role key="炼狱归辛树" team="2" x="33" y="8" face="1" />
+       
+      </roles>
+    </battle>
+
+    <battle key="崇祯_战斗" template="大理皇宫_战斗" must="袁承志#阿九">
+      <roles>
+          <role index="0" team="1" x="5" y="2" face="1" />
+          <role index="1" team="1" x="5" y="4" face="1" />
+          <role index="2" team="1" x="6" y="4" face="1" />
+          <role index="3" team="1" x="8" y="2" face="0" />
+          <role index="4" team="1" x="8" y="4" face="0" />
+          <role key="崇祯皇帝" team="2" x="3" y="3" face="0" />
+          <role key="东厂杀手" team="2" x="12" y="4" face="1" />
+          <role key="东厂杀手" team="2" x="11" y="5" face="1" />
+          <role key="东厂杀手" team="2" x="10" y="6" face="1" />
+          <role key="东厂杀手" team="2" x="9" y="7" face="1" />
+      </roles>
+      <random level="3" name="大内绝顶高手">
+          <role x="1" y="4" />
+          <role x="1" y="6" />
+          <role x="3" y="7" />
+          <role x="5" y="7" />
+          <role x="3" y="5" />
+          <role x="6" y="6" />
+          <role x="6" y="8" />
+          <role x="10" y="3" />
+      </random>
+   </battle>
+    <battle key="铁剑门_战斗1" template="华山仙境.战斗" must="主角">
+      <roles>
+        <role index="0" team="1" x="3" y="8" face="0" />
+        <role index="1" team="1" x="4" y="9" face="0" />
+        <role index="2" team="1" x="3" y="9" face="0" />
+        <role index="3" team="1" x="4" y="8" face="0" />
+        <role key="玉真子" team="2" x="11" y="8" face="1" />
+      </roles>
+    </battle>
+    <battle key="铁剑门_战斗2" template="华山仙境.战斗" >
+      <roles>
+        <role index="0" team="1" x="3" y="8" face="0" />
+        <role key="炼狱玉真子" team="2" x="11" y="8" face="1" />
+      </roles>
+    </battle>
+    <battle key="袁九变身_战斗" template="华山仙境.战斗" must="袁承志#九难">
+      <roles>
+        <role index="0" team="1" x="3" y="8" face="0" />
+        <role index="1" team="1" x="4" y="8" face="0" />
+        <role key="炼狱金蛇郎君" team="2" x="11" y="9" face="1" />
+        <role key="炼狱金蛇郎君" team="2" x="10" y="9" face="1" />
+        <role key="炼狱金蛇郎君" team="2" x="11" y="8" face="1" />
+        <role key="炼狱金蛇郎君" team="2" x="10" y="8" face="1" />
+      </roles>
+    </battle>
+  </battles>
+</root>
+

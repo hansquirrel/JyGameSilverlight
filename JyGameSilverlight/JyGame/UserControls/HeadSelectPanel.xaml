@@ -1,0 +1,19 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	x:Class="JyGame.HeadSelectPanel"
+	d:DesignWidth="640" d:DesignHeight="480" Width="400" Height="300">
+
+	<Grid x:Name="LayoutRoot">
+		<Grid.Background>
+			<ImageBrush Stretch="Fill" ImageSource="/Resource/ui/UI-kuang8.png"/>
+		</Grid.Background>
+		<TextBlock x:Name="TitleText" HorizontalAlignment="Center" Height="29" Margin="10,8,10,0" TextWrapping="Wrap" Text="选择你的头像" VerticalAlignment="Top" Width="380" FontSize="18.667" TextAlignment="Center" Foreground="Red"/>
+		<ScrollViewer HorizontalAlignment="Left" Height="253" Margin="19,37,0,0" VerticalAlignment="Top" Width="361" VerticalScrollBarVisibility="Auto" BorderThickness="2">
+			<StackPanel x:Name="HeadPanel"/>
+		</ScrollViewer>
+	</Grid>
+</UserControl>

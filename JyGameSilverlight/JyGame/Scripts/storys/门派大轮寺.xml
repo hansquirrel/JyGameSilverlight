@@ -1,0 +1,338 @@
+<root>
+  <story name="门派大轮寺_拜师">
+    <action type="BACKGROUND" value="地图.大轮寺正殿" />
+    <action type="MUSIC" value="音乐.天龙八部.佛音4" />
+    <action type="DIALOG" value="主角#该死的南贤，居然一下子把我送到大雪山来了。" />
+    <action type="DIALOG" value="金轮法王#哪里来的小子，居然敢擅闯大轮寺。" />
+    <action type="DIALOG" value="主角#法王饶命！我是来拜师的！" />
+    <action type="DIALOG" value="金轮法王#拜师？" />
+    <action type="DIALOG" value="主角#是这样子的，南贤说你可以教我一点武功..." />
+    <action type="DIALOG" value="金轮法王#哦~原来是南贤先生的朋友啊！哎呀呀，做我大轮寺弟子，当然没问题。" />
+    <action type="DIALOG" value="主角#那要不要出家啊？我不要当和尚啊！" />
+    <action type="DIALOG" value="金轮法王#没问题的啦！我们大轮寺不像中原那么古板，做俗家弟子一样可以学高深功夫。" />
+    <action type="DIALOG" value="主角#yes，就是要这样..." />
+    <action type="DIALOG" value="金轮法王#好，我就收下你了。你现在就是我雪山大轮寺密宗俗家弟子了！" />
+    <action type="DIALOG" value="主角#谢谢师父！（快教我龙象般若功吧，快教我龙象般若功吧...）" />
+    <action type="DIALOG" value="金轮法王#我们大轮寺有不少功夫，你先自己练习一下。" />
+    <action type="DIALOG" value="主角#那师父，龙象般若功呢？" />
+    <action type="DIALOG" value="金轮法王#开玩笑，那可是我的看家本领，怎么能随便教给你呢。" />
+    <action type="DIALOG" value="主角#呜呜...（先自己练习吧）" />
+    <action type="MENPAI" value="大轮寺" />
+    <action type="NICK" value="大轮弟子" />
+    <action type="ITEM" value="大轮寺装束"/>
+    <action type="LEARN.TALENT" value="主角#金刚" />
+    <result ret="0" type="story" value="门派大轮寺_练功" />
+  </story>
+  <story name="门派大轮寺_新的一天">
+    <action type="BACKGROUND" value="地图.大轮寺正殿" />
+    <action type="MUSIC" value="音乐.天龙八部.佛音4" />
+    <action type="DIALOG" value="主角#又是新的一天了！" />
+    <result ret="0">
+      <control type="story" value="门派大轮寺_大轮寺出师">
+        <condition type="exceed_day" value="60" />
+      </control>
+      <control type="story" value="门派大轮寺_大理高手1" >
+        <condition type="exceed_day" value="40"/>
+        <condition type="should_not_finish" value="门派大轮寺_大理高手1"/>
+      </control>
+    </result>
+  </story>
+  <story name="门派大轮寺_练功">
+    <action type="BACKGROUND" value="地图.大轮寺正殿" />
+    <action type="MUSIC" value="音乐.天龙八部.佛音4" />
+    <action type="DIALOG" value="主角#今天要练习什么呢？" />
+    <result ret="0" type="map" value="门派大轮寺" />
+  </story>
+  <story name="门派大轮寺_出不去">
+    <action type="DIALOG" value="主角#功夫没练到家，还是不要下山先！" />
+  </story>
+  <story name="门派大轮寺_雪山小路">
+    <action type="DIALOG" value="主角#练习了一下雪中跑步！" />
+    <action type="DIALOG" value="主角#累死了，累死了..." />
+    <action type="UPGRADE.根骨" value="主角#1" />
+    <action type="UPGRADE.MAXHP" value="主角#15" />
+    <action type="UPGRADE.MAXMP" value="主角#15" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0">
+      <control type="story" value="门派大轮寺_大轮寺出师">
+        <condition type="exceed_day" value="60" />
+      </control>
+      <control type="story" value="门派大轮寺_大理高手1" >
+        <condition type="exceed_day" value="40"/>
+        <condition type="should_not_finish" value="门派大轮寺_大理高手1"/>
+      </control>
+    </result>
+  </story>
+  <story name="门派大轮寺_密宗大手印">
+    <action type="BACKGROUND" value="地图.大轮寺武场" />
+    <action type="MUSIC" value="音乐.天龙八部.佛音4" />
+    <action type="DIALOG" value="主角#练习一下大手印功夫..." />
+    <action type="DIALOG" value="主角#拍你一个大手印！" />
+    <action type="UPGRADE.根骨" value="主角#1" />
+    <action type="UPGRADE.臂力" value="主角#1" />
+    <action type="UPGRADE.SKILL" value="主角#密宗大手印#1" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0">
+      <control type="story" value="门派大轮寺_大轮寺出师">
+        <condition type="exceed_day" value="60" />
+      </control>
+      <control type="story" value="门派大轮寺_大理高手1" >
+        <condition type="exceed_day" value="40"/>
+        <condition type="should_not_finish" value="门派大轮寺_大理高手1"/>
+      </control>
+    </result>
+  </story>
+  <story name="门派大轮寺_无上大力杆">
+    <action type="BACKGROUND" value="地图.大轮寺武场" />
+    <action type="MUSIC" value="音乐.天龙八部.佛音4" />
+    <action type="DIALOG" value="主角#嘿呀！抡起杆子砸死你！" />
+    <action type="DIALOG" value="主角#真重，真重..." />
+    <action type="UPGRADE.臂力" value="主角#1" />
+    <action type="UPGRADE.根骨" value="主角#1" />
+    <action type="UPGRADE.SKILL" value="主角#无上大力杆#1" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0">
+      <control type="story" value="门派大轮寺_大轮寺出师">
+        <condition type="exceed_day" value="60" />
+      </control>
+      <control type="story" value="门派大轮寺_大理高手1" >
+        <condition type="exceed_day" value="40"/>
+        <condition type="should_not_finish" value="门派大轮寺_大理高手1"/>
+      </control>
+    </result>
+  </story>
+  <story name="门派大轮寺_漫天花雨">
+    <action type="BACKGROUND" value="地图.大轮寺武场" />
+    <action type="MUSIC" value="音乐.天龙八部.佛音4" />
+    <action type="DIALOG" value="主角#原来我大轮寺还会暗器，是不是跟四川人学的..." />
+    <action type="DIALOG" value="主角#看我的，漫天花雨！" />
+    <action type="UPGRADE.身法" value="主角#2" />
+    <action type="UPGRADE.SKILL" value="主角#漫天花雨#1" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0">
+      <control type="story" value="门派大轮寺_大轮寺出师">
+        <condition type="exceed_day" value="60" />
+      </control>
+      <control type="story" value="门派大轮寺_大理高手1" >
+        <condition type="exceed_day" value="40"/>
+        <condition type="should_not_finish" value="门派大轮寺_大理高手1"/>
+      </control>
+    </result>
+  </story>
+  <story name="门派大轮寺_参禅">
+    <action type="DIALOG" value="主角#作为大轮寺弟子，雪中参禅也是很重要的。" />
+    <action type="DIALOG" value="主角#欢喜禅，欢喜禅...（快冻死了）" />
+    <action type="UPGRADE.福缘" value="主角#1" />
+    <action type="UPGRADE.定力" value="主角#1" />
+    <action type="UPGRADE.根骨" value="主角#1" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0">
+      <control type="story" value="门派大轮寺_大轮寺出师">
+        <condition type="exceed_day" value="60" />
+      </control>
+      <control type="story" value="门派大轮寺_大理高手1" >
+        <condition type="exceed_day" value="40"/>
+        <condition type="should_not_finish" value="门派大轮寺_大理高手1"/>
+      </control>
+    </result>
+  </story>
+  <story name="门派大轮寺_桑结1">
+    <action type="DIALOG" value="主角#桑结大护法，你好。" />
+    <action type="DIALOG" value="桑结#不长眼的小子滚开，别打扰老子清修。" />
+    <action type="DIALOG" value="主角#（真想挫挫这个恶和尚的锐气）" />
+    <result ret="0" type="story" value="门派大轮寺_桑结2" />
+  </story>
+  <story name="门派大轮寺_桑结2">
+    <action type="SELECT" value="主角#要挑战桑结吗？#挑战！#下次吧。" />
+    <result ret="0" type="story" value="门派大轮寺_桑结3" />
+  </story>
+  <story name="门派大轮寺_桑结3">
+    <action type="DIALOG" value="主角#桑结大护法，我对你尊重，并不代表我看得起你。" />
+    <action type="DIALOG" value="桑结#什么意思？" />
+    <action type="DIALOG" value="主角#你的武功，给我提鞋都不配。你还好意思叫我走？" />
+    <action type="DIALOG" value="桑结#找死！" />
+    <action type="BATTLE" value="桑结_战斗" />
+    <result ret="win" type="story" value="门派大轮寺_桑结胜" />
+  </story>
+  <story name="门派大轮寺_桑结胜">
+    <action type="DIALOG" value="主角#看到没？就你这水平，还是多练练吧！" />
+    <action type="DIALOG" value="桑结#..." />
+    <action type="DIALOG" value="主角#过来。" />
+    <action type="DIALOG" value="桑结#？" />
+    <action type="DIALOG" value="主角#给小爷我提鞋。" />
+    <action type="DIALOG" value="桑结#这...师弟，让师父看到了，不太好吧..." />
+    <action type="DIALOG" value="主角#呸！你看你刚才那态度，我就想整整你。" />
+    <action type="DIALOG" value="桑结#师弟，师兄我错了...师父上次把漫天花雨的秘籍赏给了我。师弟大人大量，原谅我这回吧。" />
+    <action type="ITEM" value="漫天花雨秘籍#1" />
+    <action type="ITEM" value="漫天花雨残章#1" />
+    <action type="DIALOG" value="主角#算了，我就勉为其难收下了！你下不为例啊！" />
+    <action type="DIALOG" value="桑结#是...是..." />
+  </story>
+  <story name="门派大轮寺_桑结负">
+    <action type="DIALOG" value="桑结#好，好师弟，我都听你的，我都听你的..." />
+  </story>
+  <story name="门派大轮寺_达尔巴1">
+    <action type="DIALOG" value="达尔巴#师弟，要和我一起参详一下大轮寺武功吗？" />
+    <result ret="0" type="story" value="门派大轮寺_达尔巴2" />
+  </story>
+  <story name="门派大轮寺_达尔巴2">
+    <action type="SELECT" value="主角#要挑战达尔巴吗？#挑战！#下次吧。" />
+    <result ret="0" type="story" value="门派大轮寺_达尔巴2_战斗" />
+  </story>
+  <story name="门派大轮寺_达尔巴2_战斗">
+    <action type="BATTLE" value="达尔巴_战斗" />
+    <result ret="win" type="story" value="门派大轮寺_达尔巴胜" />
+    <result ret="lose" type="map" value="大轮寺雪谷深处" />
+  </story>
+  <story name="门派大轮寺_达尔巴胜">
+    <action type="DIALOG" value="主角#师兄武艺精湛，小弟佩服！" />
+    <action type="DIALOG" value="达尔巴#但是还是你赢了。" />
+    <action type="DIALOG" value="主角#侥幸啦。" />
+    <action type="DIALOG" value="达尔巴#好，武功好还谦虚，这本秘籍是我自己钻研出来的，你拿去吧。" />
+    <action type="DIALOG" value="主角#谢谢师兄。" />
+    <action type="ITEM" value="无上大力杆秘籍#1" />
+    <action type="ITEM" value="无上大力杆残章#1" />
+  </story>
+  <story name="门派大轮寺_达尔巴负">
+    <action type="DIALOG" value="达尔巴#师弟德才兼备，佩服，佩服。" />
+  </story>
+  <story name="门派大轮寺_灵智上人1">
+    <action type="DIALOG" value="灵智上人#你就是新来的？嘿嘿，陪我玩玩" />
+    <result ret="0" type="story" value="门派大轮寺_灵智上人2" />
+  </story>
+  <story name="门派大轮寺_灵智上人2">
+    <action type="SELECT" value="主角#要挑战灵智上人吗？#挑战！#下次吧。" />
+    <result ret="0" type="story" value="门派大轮寺_灵智上人2_战斗" />
+  </story>
+  <story name="门派大轮寺_灵智上人2_战斗">
+    <action type="BATTLE" value="灵智上人_战斗" />
+    <result ret="win" type="story" value="门派大轮寺_灵智上人胜" />
+    <result ret="lose" type="map" value="大轮寺雪谷深处" />
+  </story>
+  <story name="门派大轮寺_灵智上人胜">
+    <action type="DIALOG" value="主角#师兄武艺精湛，小弟佩服！" />
+    <action type="DIALOG" value="灵智上人#你厉害，我不是对手。" />
+    <action type="ITEM" value="密宗大手印秘籍#1" />
+    <action type="ITEM" value="密宗大手印残章#1" />
+  </story>
+  <story name="门派大轮寺_灵智上人负">
+    <action type="DIALOG" value="灵智上人#你厉害，我不是对手。" />
+  </story>
+  <story name="门派大轮寺_大理高手1">
+    <action type="BACKGROUND" value="地图.大轮寺正殿" />
+    <action type="MUSIC" value="音乐.天龙八部.佛音4" />
+    <action type="DIALOG" value="金轮法王#徒儿，今日为师有一重要事情交代给你。" />
+    <action type="DIALOG" value="主角#师父请讲。" />
+    <action type="DIALOG" value="金轮法王#大轮寺过两周有大理段氏高手前来拜山。嘿嘿，其实就是来挑战的。" />
+    <action type="DIALOG" value="金轮法王#我们不可以让他们欺我们无人！你去应战吧。" />
+    <action type="DIALOG" value="主角#师父，弟子担心学艺不精..." />
+    <action type="DIALOG" value="金轮法王#没事，就打打。输了也没什么。这些灵丹妙药，你先拿去。" />
+    <action type="ITEM" value="九花玉露丸#10" />
+    <result ret="0" type="story" value="门派大轮寺_大理高手2" />
+  </story>
+  <story name="门派大轮寺_大理高手2">
+    <action type="BACKGROUND" value="地图.大轮寺正殿" />
+    <action type="MUSIC" value="音乐.天龙八部.佛音4" />
+    <action type="DIALOG" value="大理高手#法王，不知道大轮寺哪位出来较量一下？" />
+    <action type="DIALOG" value="金轮法王#你去吧。" />
+    <action type="DIALOG" value="主角#是。" />
+    <action type="BATTLE" value="大轮寺大理高手_战斗" />
+    <result ret="win" type="story" value="门派大轮寺_大理高手胜" />
+    <result ret="lose" type="story" value="门派大轮寺_大理高手负" />
+  </story>
+  <story name="门派大轮寺_大理高手胜">
+    <action type="BACKGROUND" value="地图.大轮寺正殿" />
+    <action type="MUSIC" value="音乐.天龙八部.佛音4" />
+    <action type="DIALOG" value="主角#大理段氏果然厉害！" />
+    <action type="DIALOG" value="大理高手#罢了，我一败涂地。" />
+    <action type="DIALOG" value="金轮法王#哈哈，干得漂亮。这个奖给你！" />
+    <action type="ITEM" value="火焰刀残篇#1" />
+    <action type="DIALOG" value="主角#谢谢师父。" />
+    <result ret="0" type="story" value="门派大轮寺_新的一天" />
+  </story>
+  <story name="门派大轮寺_大理高手负">
+    <action type="BACKGROUND" value="地图.大轮寺正殿" />
+    <action type="MUSIC" value="音乐.天龙八部.佛音4" />
+    <action type="DIALOG" value="金轮法王#大理段氏果然厉害，不过我这小徒才学了一个多月，输了也正常。" />
+    <action type="DIALOG" value="金轮法王#算了，今日大理段氏胜一局，改日我一定亲自上天龙寺领教高招。" />
+    <result ret="0" type="story" value="门派大轮寺_新的一天" />
+  </story>
+  <story name="门派大轮寺_大轮寺出师">
+    <action type="BACKGROUND" value="地图.大轮寺正殿" />
+    <action type="MUSIC" value="音乐.天龙八部.佛音4" />
+    <action type="DIALOG" value="金轮法王#好了，你在雪山的修行就告一段落了。下山去吧。" />
+    <action type="DIALOG" value="主角#师父啊，龙象般若功..." />
+    <action type="DIALOG" value="金轮法王#有机缘自然会教你。" />
+    <action type="DIALOG" value="主角#（说了跟没说一样...）" />
+    <action type="DIALOG" value="金轮法王#哦，等等。" />
+    <action type="DIALOG" value="主角#？" />
+    <action type="DIALOG" value="金轮法王#你一个人闯荡江湖，还是太凶险了。我让达尔巴陪你一起去吧。" />
+    <action type="DIALOG" value="主角#好啊好啊，多谢师父！" />
+    <action type="JOIN" value="达尔巴" />
+    <action type="DIALOG" value="达尔巴#师弟，以后多多指教。" />
+    <action type="DIALOG" value="主角#有劳师兄了！" />
+    <action type="DIALOG" value="金轮法王#你们加油！达尔巴，找到霍都这个叛徒一定要活捉回来。" />
+    <action type="DIALOG" value="达尔巴#是！师父。" />
+    <action type="LOG" value="出师大轮寺。" />
+  </story>
+  <story name="门派大轮寺_回大轮寺">
+    <action type="DIALOG" value="主角#师父好。" />
+    <action type="DIALOG" value="金轮法王#嗯，你在江湖上闯荡，要不堕我大轮寺威名。" />
+  </story>
+  <story name="门派大轮寺_回大轮寺.郭襄">
+    <action type="DIALOG" value="主角#师父好。" />
+    <action type="DIALOG" value="金轮法王#嗯，你在江湖上闯荡，要不堕我大轮寺威名。" />
+    <action type="DIALOG" value="金轮法王#咦？这个小娃子，似乎与我大轮寺极有缘分。" />
+    <action type="DIALOG" value="郭襄#大和尚你别瞎说了，我怎么会和你们大轮寺有什么缘分。" />
+    <action type="DIALOG" value="金轮法王#唉，我几个徒弟都不争气。我一见到你，就知道你必然能传承我的衣钵。" />
+    <action type="DIALOG" value="郭襄#这，怎么可能呢。" />
+    <action type="DIALOG" value="金轮法王#好孩子，我大轮龙象般若功举世无双，如果修炼得法，天下无敌。我将基本口诀传授给你。" />
+    <action type="DIALOG" value="郭襄#（好吧，不学白不学）" />
+    <action type="UPGRADE.INTERNALSKILL" value="郭襄#龙象般若功#5" />
+    <action type="DIALOG" value="主角#那师父，我..." />
+    <action type="DIALOG" value="金轮法王#哈哈，你带她来也有功劳，我也传你一点功法。" />
+    <action type="UPGRADE.INTERNALSKILL" value="主角#龙象般若功#5" />
+    <action type="DIALOG" value="主角#谢师父！" />
+  </story>
+  <story name="门派大轮寺_霍都">
+    <action type="DIALOG" value="杨过#......" />
+    <action type="DIALOG" value="主角#杨兄弟，怎么了？" />
+    <action type="DIALOG" value="杨过#你仔细看看这个小乞丐，虽然他藏得很深，可是他绝对是个高手。" />
+    <action type="DIALOG" value="主角#哈哈，待我试试。小乞丐，看招！" />
+    <action type="DIALOG" value="何师我#！！" />
+    <action type="DIALOG" value="主角#这是我大轮寺的武功？！你是谁！" />
+    <action type="DIALOG" value="达尔巴#师弟，这是大叛徒霍都，别让他跑了！" />
+    <action type="DIALOG" value="何师我#呸，别以为我干不过你们。有种单挑啊。" />
+    <action type="DIALOG" value="达尔巴#好，霍都，今日我跟你算个总账吧！" />
+    <action type="BATTLE" value="霍都_战斗" />
+    <result ret="win" type="story" value="门派大轮寺_霍都胜" />
+  </story>
+  <story name="门派大轮寺_霍都胜">
+    <action type="DIALOG" value="霍都#......" />
+    <action type="DIALOG" value="达尔巴#哼，带你去见师父！" />
+    <action type="DIALOG" value="主角#好！" />
+    <action type="DIALOG" value="主角#等等，这是？" />
+    <action type="ITEM" value="打狗棒#1" />
+    <action type="DIALOG" value="主角#哈哈，居然是丐帮打狗棒，原来在你身上。真是得来全不费功夫。" />
+  </story>
+  <story name="门派大轮寺_回大轮寺.霍都">
+    <action type="DIALOG" value="主角#师父好。" />
+    <action type="DIALOG" value="金轮法王#嗯，你在江湖上闯荡，要不堕我大轮寺威名。" />
+    <action type="DIALOG" value="金轮法王#咦？霍都！" />
+    <action type="DIALOG" value="达尔巴#师父，我们不辱使命，将霍都带回来了。" />
+    <action type="DIALOG" value="金轮法王#好，好！你们干得好！来，我传你们几手龙象般若功的功夫。" />
+    <action type="UPGRADE.INTERNALSKILL" value="主角#龙象般若功#5" />
+    <action type="UPGRADE.INTERNALSKILL" value="达尔巴#龙象般若功#5" />
+    <action type="DIALOG" value="主角#谢师父！" />
+  </story>
+  <story name="门派大轮寺_回大轮寺.龙象秘籍">
+    <action type="DIALOG" value="主角#师父好。" />
+    <action type="DIALOG" value="金轮法王#嗯，你在江湖上闯荡，要不堕我大轮寺威名。" />
+    <action type="DIALOG" value="金轮法王#你带郭襄来大轮，又擒拿霍都，立下了大功。" />
+    <action type="DIALOG" value="主角#承蒙师父教导。" />
+    <action type="DIALOG" value="金轮法王#好，我今日非常高兴。你立下这么多功劳，这本龙象般若功的秘籍，你拿去吧。" />
+    <action type="ITEM" value="龙象般若功精义#1" />
+    <action type="ITEM" value="龙象般若功残章#1" />
+    <action type="DIALOG" value="主角#谢师父！" />
+  </story>
+</root>

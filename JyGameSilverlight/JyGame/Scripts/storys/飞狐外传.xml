@@ -1,0 +1,216 @@
+﻿<root>
+  <!--
+  <story name="飞狐外传_苗人凤处的坟墓">
+    <action type="BACKGROUND" value="地图.塞外" />
+    <action type="MUSIC" value="音乐.太行八径" />
+    <action type="DIALOG" value="胡斐#当年我父母就是葬在这里的了。" />
+    <action type="DIALOG" value="胡斐#咦？这是什么东西[踩到一把刀，捡起来一看]上面写着冷月宝刀！" />
+    <action type="DIALOG" value="胡斐#为何父亲的坟墓会有这一柄宝刀？" />
+    <action type="DIALOG" value="胡斐#（不拿白不拿，这把刀如此锋利先拿走再说）" />
+    <action type="ITEM" value="冷月宝刀#1" />
+    <result ret="0" type="story" value="飞狐外传_苗人凤处的坟墓_田归农"/>
+  </story>
+  <story name="飞狐外传_苗人凤处的坟墓_田归农">
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="田归农#（鬼魂）胡斐！我做鬼也不放过你！！" />
+    <action type="DIALOG" value="胡斐#田归农？！" />
+    <action type="BATTLE" value="苗人凤居_胡氏坟墓之战" />
+    <result ret="win" type="story" value="飞狐外传_苗人凤处的坟墓2" />
+  </story>
+  <story name="飞狐外传_苗人凤处的坟墓2">
+    <action type="BACKGROUND" value="地图.塞外" />
+    <action type="MUSIC" value="音乐.太行八径" />
+    <action type="DIALOG" value="胡一刀#（鬼魂）田归农！你看看我是谁？" />
+    <action type="DIALOG" value="田归农#（鬼魂）你是....胡一刀！你是胡一刀！！" />
+    <action type="DIALOG" value="胡一刀#（鬼魂）田归农，当天你加害于我，现在还想杀害我儿子！你得给我走一趟了！！" />
+    <action type="DIALOG" value="田归农#（鬼魂）不！！！！！" />
+    <result ret="0" type="story" value="飞狐外传_苗人凤处的坟墓3"/>
+  </story>
+  <story name="飞狐外传_苗人凤处的坟墓3">
+    <action type="DIALOG" value="胡斐#父亲！父亲！！！" />
+    <action type="DIALOG" value="胡斐#父亲的鬼魂已经离去....真希望还能再看到他。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="飞狐外传_苗人凤托找女儿">
+    <action type="BACKGROUND" value="地图.小村口" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感5" />
+    <action type="DIALOG" value="苗人凤#胡斐，那柄刀难道是……" />
+    <action type="DIALOG" value="胡斐#苗大侠认识这柄刀？我是从坟墓那里捡到的。" />
+    <action type="DIALOG" value="苗人凤#这柄刀叫冷月宝刀，是我当年埋葬在胡一刀坟墓下面的，想不到被你拿到了。" />
+    <action type="DIALOG" value="胡斐#原來是你埋下去的，怪不得墳墓里有一柄刀。（这下赚大了）" />
+    <action type="DIALOG" value="苗人凤#对了，你还记得若兰吗？当年商家堡一别后，她可想死你了。" />
+    <action type="DIALOG" value="胡斐#若兰？当年的那个小女孩？" />
+    <action type="DIALOG" value="苗人凤#前阵子她说要游历江湖去寻找你，一去就去了数月，如果看见她的话，可以麻烦你带她回来吗？(回来一定打死她)" />
+    <action type="DIALOG" value="胡斐#苗大侠委托我的事，我一定尽力办到，请放心（又多了一件麻烦事）" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+
+  <story name="飞狐外传_大雪山">
+    <action type="BACKGROUND" value="地图.洞穴1" />
+    <action type="MUSIC" value="音乐.如梦往事" />
+    <action type="DIALOG" value="苗若兰#救命啊~！" />
+    <action type="DIALOG" value="宝树#没有人来救你的！快把藏宝图交出来 我可以让你死的爽快些。" />
+    <action type="DIALOG" value="苗若兰#我死也不会给你的！！[跑进了雪怪山洞]" />
+    <action type="DIALOG" value="宝树#追！" />
+    <action type="DIALOG" value="主角#胡大哥，我们也追进去看看吧！[又一个漂亮的妹子啊]" />
+    <action type="DIALOG" value="胡斐#走！" />
+    <action type="DIALOG" value="苗若兰#救命啊~！[已经无路可退了]" />
+    <action type="DIALOG" value="宝树#这下你逃不掉了，就算你叫破喉咙也不会有人来救你了。" />
+    <action type="DIALOG" value="苗若兰#破喉咙！破喉咙！" />
+    <action type="DIALOG" value="主角#我来也！！" />
+    <action type="DIALOG" value="宝树#(⊙０⊙)还真的有个叫破喉咙的来救你...（怎么又是你们两个。到底想追我到什么时候。）" />
+    <action type="DIALOG" value="主角#我是为了拯救美女而存在的英雄！！" />
+    <action type="DIALOG" value="苗若兰#.....(胡大哥....）." />
+    <action type="DIALOG" value="主角#喂喂，是我来救你的，不是我身边的这位粗汉啊！别老看着他~。看我看我。" />
+    <action type="DIALOG" value="苗若兰#长得丑的一个怪家伙..." />
+    <action type="DIALOG" value="主角#......丑没有罪啊！！（松鼠大大就不能让我换个头像）" />
+    <action type="DIALOG" value="宝树#你们废话完没！别无视我存在啊。" />
+    <action type="DIALOG" value="主角#你滚开！没看见我在和美女聊天吗？" />
+    <action type="DIALOG" value="宝树#你xx的，别以为我是好欺负的" />
+    <action type="DIALOG" value="主角#干嘛？想打架？我可不怕你。" />
+    <action type="DIALOG" value="宝树#让你见识一下七星海棠的十成功力！！" />
+    <action type="DIALOG" value="主角#（会使用七星海棠，难道是...)阉基！！！" />
+    <action type="DIALOG" value="宝树#这都被你看出来了！你知道的太多了，去死吧！" />
+    <action type="BATTLE" value="飞狐外传_对战八大高手" />
+    <result ret="win" type="story" value="飞狐外传_胡斐中毒" />
+  </story>
+
+  <story name="飞狐外传_胡斐中毒">
+    <action type="BACKGROUND" value="地图.洞穴1" />
+    <action type="MUSIC" value="音乐.如梦往事" />
+    <action type="DIALOG" value="宝树#你是不是作弊啊你！八个人都赢不了你~~让我看看称号！！（吐血）" />
+    <action type="DIALOG" value="胡斐#姑娘没事吧。（好美的姑娘）" />
+    <action type="DIALOG" value="苗若兰#胡大哥我没事。" />
+    <action type="DIALOG" value="胡斐#你怎么知道我名字？你是谁？" />
+    <action type="DIALOG" value="苗若兰#我是若兰啊~。" />
+    <action type="DIALOG" value="胡斐#你！你是若兰？？（看来没白走一堂，赚了个美女）" />
+    <action type="DIALOG" value="宝树#（看我临死之前的七星海棠！）喝！！！" />
+    <action type="DIALOG" value="苗若兰#胡大哥小心！！！" />
+    <action type="DIALOG" value="胡斐#若兰！！！！" />
+    <action type="DIALOG" value="主角#（主角使出十成功力）去死吧阉基！！都快要死了，还要害人。" />
+    <action type="DIALOG" value="宝树#啊~！" />
+    <action type="DIALOG" value="苗若兰#胡大哥，其实我在商家堡的时候...就已经喜欢上你了，这些年来，我一直惦念着你，希望有天可以和你相见，现在终于能见到你了....." />
+    <action type="DIALOG" value="胡斐#若兰.....你肯定会没事的，我有神医在这里，肯定能解开毒的。." />
+    <action type="DIALOG" value="苗若兰#没用的胡大哥.....七星海棠天下无解...." />
+    <action type="DIALOG" value="胡斐#可恶...（我答应了苗大侠要带若兰回去的。。如何是好）" />
+    <action type="SELECT" value="主角#是否帮若兰吸毒。#吸毒！#人只有一条命啊！" />
+    <result ret="0" type="story" value="雪山飞狐_灵素牺牲救胡斐" />
+    <result ret="1" type="story" value="雪山飞狐_苗若兰的遗言" />
+  </story>
+  <story name="雪山飞狐_灵素牺牲救胡斐">
+    <action type="BACKGROUND" value="地图.洞穴1" />
+    <action type="MUSIC" value="音乐.如梦往事" />
+    <action type="DIALOG" value="胡斐#若兰，我答应了苗大侠一定要平安带你回去，我岂能让你死。（吸毒中）" />
+    <action type="DIALOG" value="苗若兰#胡大哥，你死了我活着又有什么意义，为什么你这么傻。" />
+    <action type="DIALOG" value="苗若兰#(打算再度帮胡斐吸毒）" />
+    <action type="DIALOG" value="程灵素#让我来吧.......（帮胡斐吸毒）" />
+    <action type="DIALOG" value="苗若兰#啊~！你..." />
+    <action type="DIALOG" value="胡斐#灵素？？？灵素为什么你要帮我吸毒？" />
+    <action type="DIALOG" value="程灵素#其..其实....在第一次遇到你的时候....我就已经喜欢上你了....不过一直不敢和你说...现在终于能说了...我喜欢你，胡斐。" />
+    <action type="DIALOG" value="胡斐#灵素....(沉默不语）" />
+    <action type="DIALOG" value="程灵素#刚才我看见了...你能为了这女孩牺牲自己。这女孩也为了你牺牲自己。你们是真心相爱...天生一对，就让我牺牲自己成全你们吧。" />
+    <action type="DIALOG" value="胡斐#不！（打算再度帮灵素吸毒）" />
+    <action type="DIALOG" value="程灵素#胡大哥，别再帮我吸毒了（使用了晕烟）" />
+    <action type="LEAVE" value="程灵素" />
+    <action type="DIALOG" value="胡斐#啊~！头好疼....灵素！灵素呢？（几个时辰后）" />
+    <action type="DIALOG" value="苗若兰#啊！胡大哥，其实闯王宝藏就在这个山洞里。" />
+    <action type="DIALOG" value="胡斐#啊？" />
+    <action type="DIALOG" value="苗若兰#宝藏地图就是我的金釵，她指示在这个山洞里。我来到这里的时候，才发现被宝树一群人跟踪，结果就发生了刚才的事情。" />
+    <action type="DIALOG" value="胡斐#唉...有宝藏又如何...灵素恐怕已经死了..现在连遗体都找不到。" />
+    <action type="DIALOG" value="胡斐#这里是" />
+    <action type="DIALOG" value="苗若兰#难道这里就是宝藏的地方了？" />
+    <action type="DIALOG" value="主角#（有宝藏？这下发财了，哇哈哈哈）咦？那边怎么有具尸体。" />
+    <action type="DIALOG" value="胡斐#灵素！！！是灵素！！，想必是灵素弄晕了我们之后，深怕我们找到她，再帮她吸毒，于是独自离开。最后来到了这个地方。" />
+    <action type="DIALOG" value="胡斐#到死之前她都为我着想....." />
+    <action type="DIALOG" value="苗若兰#（胡大哥心里...喜欢的原来不是我吗？）" />
+    <action type="DIALOG" value="主角#胡大哥块看，墙壁上有个凹位。" />
+    <action type="DIALOG" value="胡斐#这墙壁上的凹位...样子怎么这么像我的冷月宝刀。" />
+    <action type="DIALOG" value="主角#快把冷月宝刀放上去看看！" />
+    <action type="DIALOG" value="胡斐#（放上冷月宝刀）" />
+    <action type="DIALOG" value="石壁#（隆隆隆，传出打开了墙壁的声音）" />
+    <action type="DIALOG" value="主角#我们进去看看吧。" />
+    <action type="DIALOG" value="主角#！！！" />
+    <action type="GET_MONEY" value="50000" />
+    <action type="JOIN" value="苗若兰" />
+    <action type="DIALOG" value="胡斐#唉..灵素。" />
+    <action type="DIALOG" value="主角#节哀顺变吧.....（为什么就没有女人肯为我吸毒之类的。）" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  
+  <story name="雪山飞狐_苗若兰的遗言">
+    <action type="BACKGROUND" value="地图.洞穴1" />
+    <action type="MUSIC" value="音乐.如梦往事" />
+    <action type="DIALOG" value="苗若兰#胡大哥~他们之前个个都想找到宝藏图，但是他们万万没有想到我头上的金釵就是宝藏图.....本来我出来找你的原因，就是为了把它给你的，现在，还来得及给你...." />
+    <action type="DIALOG" value="胡斐#若兰...." />
+    <action type="DIALOG" value="苗若兰#胡大哥，我死后记得要珍惜你身边的人....特别是身边的这位女孩。" />
+    <action type="DIALOG" value="苗若兰#胡大哥.....我可以拜托你一件事吗?" />
+    <action type="DIALOG" value="胡斐#只要我做得到，什么都可以。" />
+    <action type="DIALOG" value="苗若兰#求你别找我父亲报仇了.....别让他死了....替我好好照顾他...." />
+    <action type="DIALOG" value="胡斐#....我答应你" />
+    <action type="DIALOG" value="苗若兰#能靠在你身边睡会吗...?" />
+    <action type="DIALOG" value="胡斐#没问题........(含泪抱紧了若兰）" />
+    <action type="DIALOG" value="主角#苗若兰也埋了，现在应该没事做了吧。不如找宝藏去~！" />
+    <action type="DIALOG" value="胡斐#...." />
+    <action type="DIALOG" value="主角#根据宝藏图显示就是这里了。" />
+    <action type="DIALOG" value="胡斐#这墙壁上有个凹位...样子怎么这么像我的冷月宝刀。" />
+    <action type="DIALOG" value="主角#快把冷月宝刀放上去看看！" />
+    <action type="DIALOG" value="石壁#（隆隆隆，传出打开了墙壁的声音）" />
+    <action type="DIALOG" value="主角#我们进去看看吧。" />
+    <action type="DIALOG" value="主角#！！！" />
+    <action type="GET_MONEY" value="50000" />
+    <action type="DIALOG" value="胡斐#真不知道如何向苗大俠交代。。。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+
+  <story name="雪山飞狐_苗人凤的伤痛">
+    <action type="BACKGROUND" value="地图.小村口" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感5" />
+    <action type="DIALOG" value="胡斐#苗大侠，我回来了。" />
+    <action type="DIALOG" value="苗人凤#是胡斐啊。对了，若兰有找到吗？" />
+    <action type="DIALOG" value="胡斐#苗大侠...若兰她...." />
+    <action type="DIALOG" value="苗人凤#若兰怎么了？？？快说，若兰到底怎么了？" />
+    <action type="DIALOG" value="胡斐#苗大侠你冷静点..听我说....(把事情经过一一道出）" />
+    <action type="DIALOG" value="苗人凤#若兰！！！！" />
+    <action type="DIALOG" value="胡斐#苗大侠是我对不起你...." />
+    <action type="DIALOG" value="苗人凤#（一段时间后）唉，当年我错手杀了你父亲，我一直耿耿于怀，所以才没传授若兰武功，以免重蹈覆辙。想不到现在，若兰却因你而死...." />
+    <action type="DIALOG" value="苗人凤#（突然发狂）胡斐！把我们的恩怨做个了段吧！！" />
+    <action type="BATTLE" value="苗人凤居_苗人凤的伤痛" />
+    <result ret="win" type="story" value="飞狐外传_苗人凤的伤痛1" />
+  </story>
+  <story name="飞狐外传_苗人凤的伤痛1">
+    <action type="DIALOG" value="胡斐#（我已经使出了树刀，这一下劈下去就会违背若兰的遗愿，可是如果我不劈的话，非死无疑，若兰为我而死，我也可以为他而死！）" />
+    <action type="DIALOG" value="主角#胡斐正想把刀收起来让苗人凤杀了他，谁知道苗人凤居然自己桶在了胡斐的刀上" />
+    <action type="DIALOG" value="胡斐#！！！！" />
+    <action type="DIALOG" value="苗人凤#哈哈哈...终于可以见我的妻子和女儿了........能死在胡家刀法手上，我也算死而无憾了......（死去）" />
+    <action type="DIALOG" value="胡斐#苗大侠...若兰...对不起，我违背了你的遗愿....我只好以死谢罪了。" />
+    <action type="DIALOG" value="主角#（他死了，谁帮我打华山！！）慢！！你死了，那苗大侠的死就白费了。他愿意自杀来让你活下去，你就别白费他的心意了！！" />
+    <action type="DIALOG" value="胡斐#可是...." />
+    <action type="DIALOG" value="主角#别可是了，跟我走吧。" />
+    <action type="DIALOG" value="胡斐#........." />
+  </story>
+  <story name="飞狐外传_苗人凤">
+    <action type="DIALOG" value="胡斐#苗大侠，我回来了。" />
+    <action type="DIALOG" value="苗人凤#是胡斐啊...对了，若兰有找到吗？" />
+    <action type="DIALOG" value="胡斐#若兰，快出来吧，别躲了。" />
+    <action type="DIALOG" value="苗若兰#切...一点都不好玩，本来想吓吓爹爹的。" />
+    <action type="DIALOG" value="苗人凤#你平安回来就好了。下次不许再乱跑。" />
+    <action type="DIALOG" value="苗人凤#胡斐，你找回若兰，苗某感激不尽。" />
+    <action type="DIALOG" value="胡斐#小事一桩，别这么客套了" />
+    <action type="DIALOG" value="苗人凤#有空来坐坐吧。找我们聊聊天。" />
+    <action type="DIALOG" value="苗若兰#爹，我要和胡大哥一起去闯江湖。" />
+    <action type="DIALOG" value="苗人凤#你一个女儿家，行动上诸多不便，就留下来陪爹吧，况且你的胡大哥也不知道愿不愿意让你跟着他。" />
+    <action type="DIALOG" value="苗若兰#（眼睛看着胡斐，像是祈求胡斐带她走的意思）" />
+    <action type="DIALOG" value="苗人凤#（看来我准备做岳父了)好吧，若兰，爹本来是不想你学武的，但江湖险恶，需要学会一些武功才行。也只好把我的苗家剑法传授给你了。" />
+    <action type="DIALOG" value="苗若兰#爹爹终于肯让我学武了，太好了。" />
+    <action type="DIALOG" value="苗人凤#若兰，看好了！" />
+    <action type="UPGRADE.MAXHP" value="苗若兰#1200" />
+    <action type="UPGRADE.MAXMP" value="苗若兰#1200" />
+    <action type="GET_POINT" value="苗若兰#30" />
+    <action type="UPGRADE.剑法" value="苗若兰#25" />
+    <action type="UPGRADE.刀法" value="苗若兰#25" />
+    <action type="LEARN.SKILL" value="苗若兰#苗家剑法#10" />
+    <action type="LEARN.SKILL" value="苗若兰#胡家刀法#9" />
+    <action type="LOG" value="苗若兰成为苗家剑法传人" />
+  </story>
+  -->
+</root>

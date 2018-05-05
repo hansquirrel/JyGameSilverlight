@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <!--关小黑屋..-->
+  <!--<time day="100" story="mainStory_online"/>-->
+  
+  <!-- 主线剧情 -->
+  <time day="0" story="mainStory_黑暗的阴影">
+    <condition type="level_greater_than" value="主角#10"/>
+    <condition type="friendCount" value="4"/>
+  </time>
+  <time day="0" story="mainStory_神秘剑客">
+    <condition type="level_greater_than" value="主角#15"/>
+    <condition type="friendCount" value="8"/>
+    <condition type="should_finish" value="mainStory_黑暗的阴影1"/>
+  </time>
+  <time day="0" story="mainStory_组织1">
+    <condition type="level_greater_than" value="主角#22"/>
+    <condition type="friendCount" value="8"/>
+    <condition type="should_finish" value="mainStory_神秘剑客1"/>
+  </time>
+  <time day="0" story="mainStory_紧急">
+    <condition type="level_greater_than" value="主角#25"/>
+    <condition type="friendCount" value="8"/>
+    <condition type="should_finish" value="mainStory_组织1"/>
+  </time>
+
+  <!-- 门派时间轴 -->
+  <time day="50" story="血刀门_出师">
+    <condition type="in_menpai" value="血刀门"/>
+  </time>
+  <time day="85" story="血刀门_门内比武">
+    <condition type="in_menpai" value="血刀门"/>
+  </time>
+  <time day="50" story="门派灵鹫宫_出师">
+    <condition type="in_menpai" value="灵鹫宫"/>
+  </time>
+  <time day="240" story="灵鹫宫_攻打">
+    <condition type="in_menpai" value="灵鹫宫"/>
+    <condition type="should_not_finish" value="灵鹫宫_委屈求全"/>
+  </time>
+  <time day="360" story="灵鹫宫_攻打_完成珍珑棋局">
+    <condition type="in_menpai" value="灵鹫宫"/>
+    <condition type="should_finish" value="灵鹫宫_委屈求全"/>
+    <!--<condition type="should_finish" value="tlbb.xz_擂鼓山3"/>-->
+  </time>
+  <time day="40" story="少林寺_福建南少林">
+    <condition type="in_menpai" value="少林寺"/>
+  </time>
+  <time day="75" story="少林派_南少林出师">
+    <condition type="in_menpai" value="少林寺"/>
+    <condition type="should_finish" value="少林寺_福建南少林破败"/>
+  </time>
+  <time day="390" story="南少林_如来神掌">
+    <condition type="in_menpai" value="少林寺"/>
+    <condition type="should_finish" value="少林派_南少林出师"/>
+  </time>
+  <time day="75" story="少林派_少林出师">
+    <condition type="in_menpai" value="少林寺"/>
+    <condition type="should_not_finish" value="少林寺_福建南少林破败"/>
+  </time>
+  <time day="150" story="少林派_门派大比">
+    <condition type="in_menpai" value="少林寺"/>
+    <condition type="should_not_finish" value="少林寺_福建南少林破败"/>
+  </time>
+  <time day="400" story="少林_金刚门">
+    <condition type="in_menpai" value="少林寺"/>
+    <condition type="should_not_finish" value="少林寺_南北之争"/>
+  </time>
+  <time day="50" story="全真教_门派大比">
+    <condition type="in_menpai" value="全真教"/>
+  </time>
+  <time day="90" story="全真教_大校">
+    <condition type="in_menpai" value="全真教"/>
+  </time>
+  <time day="65" story="武当派_出师">
+    <condition type="in_menpai" value="武当派"/>
+  </time>
+</root>

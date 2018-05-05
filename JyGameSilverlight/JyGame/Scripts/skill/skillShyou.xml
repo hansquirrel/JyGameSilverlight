@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <skills>
+    <!-- covertype:覆盖类型 cover:覆盖范围  suit:阴阳适性  power:威力  hard:难度系数  animation:特效动画id-->
+    <!-- type 0拳掌 1剑法 2刀法 3奇门 4内功 -->
+    <!-- covertype 技能覆盖类型 0点 1十字 2星形 3一字 4面-->
+    <!-- coversize 技能覆盖范围 -->
+    <!-- castsize 技能施展范围 0:本地（默认十字、米字均是这里） >0:范围 1:一格（默认直线攻击)-->
+    <!-- 在未指定的情况下，各系武功的覆盖范围与武功类型一致，拳掌：点攻击 | 剑法:十字 | 刀法：星形 | 奇门：一字-->
+    <!-- 在未指定情况下，武功每两级涨一点攻击范围 -->
+    <!-- 在未指定情况下，武功威力以basepower+step*(武功等级-1)来计算-->
+    <!-- 在未指定情况下，武功各级的动画、CD均不变-->
+    <!-- buff格式 name1.level1#name2.level2#.... -->
+    <!-- 特殊武功 -->
+    <skill name="伏虎掌" tiaohe="0" type="0" suit="0.3" hard="4" info="华山派粗浅的拳掌功夫" audio="音效.拳2" basepower="3" step="0.5" animation="taiji_blue" cd="1">
+      <trigger name="attribute" argvs="搏击格斗,7" lv="10"/>
+      <trigger name="powerup_skill" argvs="混元掌,12" lv="15"/>
+      <trigger name="powerup_internalskill" argvs="混元功,12" lv="17"/>
+    </skill>
+    <skill name="破玉拳" tiaohe="0" type="0" suit="0.8" hard="9" info="华山成名技,大拙若巧,化繁为简,有破玉之威力" audio="音效.拳1" basepower="6" step="0.5" animation="zhang" cd="1">
+      <unique name="破玉拳.封" info="破玉拳杀招,封" covertype="1" castsize="5" coversize="2" poweradd="2.5" requirelv="8" animation="zhang" cd="2" costball="3" audio="音效.拳1" buff="诸般封印.0.2.100#攻击弱化.5.3.100"/>
+      <unique name="破玉拳.崩" info="破玉拳杀招,崩" covertype="6" castsize="5" coversize="4" poweradd="2.5" requirelv="10" animation="zhang" cd="3" costball="3" audio="音效.拳1" buff="定身.0.2.100#致盲.3.3.100"/>
+      <trigger name="attribute" argvs="搏击格斗,12" lv="10"/>
+      <trigger name="powerup_skill" argvs="混元掌,25" lv="15"/>
+      <trigger name="powerup_internalskill" argvs="混元功,25" lv="17"/>
+    </skill>
+    <skill name="金蛇游身掌" tiaohe="0" type="0" suit="-0.8" hard="8" info="金蛇秘籍中所记载的掌法,尽是奇巧招数" audio="音效.拳3" basepower="5" step="0.5" animation="zhang" cd="1">
+      <unique name="金蛇游身掌.跗骨之蛆" info="金蛇游身掌绝招,诡诈狠毒" covertype="3" castsize="1" coversize="5" poweradd="1.5" requirelv="10" animation="zhang" cd="3" costball="4" audio="音效.拳1" buff="中毒.8.3.100"/>
+      <trigger name="attribute" argvs="搏击格斗,12" lv="10"/>
+      <trigger name="powerup_skill" argvs="金蛇剑法,7" lv="15"/>
+      <trigger name="powerup_skill" argvs="金蛇剑法,10" lv="20"/>
+    </skill>
+    <skill name="金蛇锥" tiaohe="0" type="3" suit="-0.9" hard="8" info="金蛇秘籍中所记载的暗器手法,极尽奇巧之能事" audio="音效.利器5" basepower="5.5" step="0.5" animation="kulou_green" cd="1">
+      <unique name="金蛇锥.金蛇螺旋锥" info="金蛇郎君成名暗器.防不胜防,稳狠准体现的淋漓尽致" covertype="3" castsize="5" coversize="4" poweradd="3" requirelv="10" animation="kulou_green" cd="3" costball="4" audio="音效.利器5" buff="中毒.8.3.100"/>
+      <trigger name="attribute" argvs="奇门兵器,12" lv="10"/>
+      <trigger name="powerup_skill" argvs="金蛇剑法,7" lv="15"/>
+      <trigger name="powerup_skill" argvs="金蛇剑法,10" lv="20"/>
+    </skill>
+    <skill name="碧落苍穹" tiaohe="1" type="1" suit="0" hard="10" info="铁剑门失传剑法,碧落苍穹九重天" coversize="4" audio="音效.威猛利器2" basepower="6" step="0.5" animation="huozhu_hong" cd="1">
+      <unique name="碧落苍穹.落九天" info="气劲直冲九重天" covertype="2" castsize="0" coversize="5" poweradd="2" requirelv="10" animation="huozhu_hong" cd="4" costball="2" audio="音效.威猛利器2" buff="缓速.3.3.100#致盲.2.3.100"/>
+      <unique name="碧落苍穹.落黄泉" info="气劲下透落黄泉" covertype="2" castsize="0" coversize="5" poweradd="2" requirelv="10" animation="huozhu_jin" cd="4" costball="4" audio="音效.威猛利器2" buff="晕眩.0.2.100#恢复.3.3.100"/>
+      <trigger name="attribute" argvs="使剑技巧,12" lv="10"/>
+      <trigger name="powerup_jianfa" argvs="5" lv="15"/>
+      <trigger name="powerup_skill" argvs="碧落苍穹,15" lv="20"/>
+    </skill>
+    <skill name="天外飞龙" tiaohe="1" type="1" suit="0" hard="10" info="华山剑法顶级绝学" coversize="4" audio="音效.威猛利器3" basepower="6" step="0.6" animation="long3" cd="1">
+      <unique name="天外飞龙.一剑西来" info="恍惚中天边似有一剑西来" covertype="3" castsize="1" coversize="6" poweradd="2" requirelv="10" animation="jian_zhan" cd="3" costball="2" audio="音效.威猛利器2" buff="伤害加深.5.3.100#轻身.3.3.100"/>
+      <unique name="天外飞龙.天外飞仙" info="月圆之夜,紫禁之巅,一剑西来,天外飞仙!" covertype="2" castsize="0" coversize="5" poweradd="4" requirelv="10" animation="jianqi" cd="4" costball="4" audio="音效.威猛利器2" buff="定身.0.2.100"/>
+      <trigger name="attribute" argvs="使剑技巧,14" lv="10"/>
+      <trigger name="attribute" argvs="使剑技巧,15" lv="15"/>
+      <trigger name="powerup_skill" argvs="天外飞龙,15" lv="20"/>
+    </skill>
+  </skills>
+
+  <internal_skills>
+    <internal_skill name="石梁心法" info="石梁派心法" yin="40" yang="40" attack="0.5" critical="0.30" defence="0.3" hard="4">
+      <trigger name="attribute" argvs="根骨,10" lv="10"/>
+      <trigger name="attribute" argvs="根骨,10" lv="14"/>
+      <trigger name="sp" argvs="0.15" lv="20"/>
+    </internal_skill>
+    <internal_skill name="铁血大旗功" info="铁剑门绝传内功,大成后周身运转无碍,有夺天之造化" yin="80" yang="80" attack="0.8" critical="0.1" defence="0.7" hard="10" >
+      <unique name="铁血大旗功.铁血" info="铁血" covertype="1" castsize="3" coversize="4" poweradd="1" requirelv="10" animation="fo" cd="4" costball="2" audio="音效.内功攻击1" buff="防御强化.2.2.100#攻击强化.2.2.100"/>
+      <unique name="铁血大旗功.大旗" info="铁血大旗功精髓所在,大旗所指,所向披靡" covertype="4" castsize="4" coversize="4" poweradd="1.5" requirelv="10" animation="huozhu_jin" cd="6" costball="4" audio="音效.内功攻击3" buff="神速攻击.7.3.100"/>
+      <trigger name="eq_talent" argvs="攀云乘龙" lv="10"/>
+      <trigger name="attribute" argvs="根骨,12" lv="10"/>
+      <trigger name="attribute" argvs="身法,15" lv="13"/>
+      <trigger name="powerup_aoyi" argvs="铁剑门绝学.银河落九天,15,10" lv="16"/>
+      <trigger name="eq_talent" argvs="神行百变" lv="17"/>
+      <trigger name="talent" argvs="铁剑掌门" lv="20"/>
+    </internal_skill>
+  </internal_skills>
+  <!--aoyi-->
+  <aoyis>
+    <aoyi name="铁剑门绝学.银河落九天" start="碧落苍穹" level="10" probability="0.3" addPower="1" buff="诸般封印.0.2.100#魔神降临.3.3.40" animation="dalei">
+      <condition type="internalskill" value="铁血大旗功" level="10"/>
+      <condition type="talent" value="铁剑掌门" />
+    </aoyi>
+  </aoyis>
+</root>
+

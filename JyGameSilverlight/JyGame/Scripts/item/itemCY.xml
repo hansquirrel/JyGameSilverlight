@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<items>
+  <item name="火工头陀的秘本" desc="" type="3" pic="物品.宝典" level="7">
+    <trigger name="attack" argvs="40,15"/>
+    <trigger name="animation" argvs="化身为火工头陀,menpai_dizi_chishen"/>
+    <trigger name="powerup_internalskill" argvs="九阳神功,25"/>
+  </item>
+  <item name="冷月宝刀" desc="寒光凌厉" pic="物品.屠龙刀" type="1" level="6" price="2000" talent="破甲#刀系装备">
+    <require name="daofa" argvs="70"/>
+    <require name="bili" argvs="70"/>
+    <trigger name="attack" argvs="200,10"/>
+  </item>
+  <item name="凝碧剑" desc="似乎是喂有奇毒的宝剑" pic="物品.剑毒" type="1" level="6" price="1500" talent="毒系精通#剑系装备">
+    <require name="jianfa" argvs="70"/>
+    <require name="shenfa" argvs="70"/>
+    <trigger name="attack" argvs="140,10"/>
+  </item>
+  <item name="三清袍" desc="刻着太极图案的道袍" pic="物品.粗布道袍" type="2" level="5" price="1000" talent="心眼通明">
+    <require name="bili" argvs="70"/>
+    <trigger name="defence" argvs="60,5"/>
+  </item>
+  <item name="小无相功精要" desc="一念斩断是非心，双眼看破红尘情.三生往来炼凡尘，唯我无相大自在." type="4" pic="物品.葵花宝典" level="6">
+    <require name="gengu" argvs="10"/>
+    <require name="fuyuan" argvs="80"/>
+    <require name="qimen" argvs="40"/>
+    <trigger name="internalskill" argvs="小无相功,10"/>
+  </item>
+  <item name="真北冥气穴图" desc="讲解引导北冥神功的方法" type="7" pic="物品.宝典" level="6">
+    <require name="gengu" argvs="50"/>
+    <require name="wuxing" argvs="80"/>
+    <require name="fuyuan" argvs="80"/>
+    <trigger name="talent" argvs="北冥真气"/>
+  </item>
+  <!--掌法-->
+  <item name="天山六阳掌真解" desc="阳春白雪，阳关春雪，阳关三叠此为手三阳。。。。" type="4" pic="物品.拳谱" level="4">
+    <require name="quanzhang" argvs="80"/>
+    <require name="bili" argvs="90"/>
+    <trigger name="skill" argvs="天山六阳掌,12"/>
+  </item>
+  <item name="般若掌秘籍" desc="波若波罗密，无上佛法" type="4" pic="物品.拳谱" level="4">
+    <require name="quanzhang" argvs="60"/>
+    <require name="bili" argvs="70"/>
+    <trigger name="skill" argvs="般若掌,10"/>
+  </item>
+  <item name="拈花指秘籍" desc="摘叶飞花，以气伤人" type="4" pic="物品.拳谱" level="4">
+    <require name="quanzhang" argvs="60"/>
+    <require name="gengu" argvs="70"/>
+    <trigger name="skill" argvs="拈花指,10"/>
+  </item>
+  <item name="如来神掌掌谱" desc="火云邪神，你懂得" type="4" pic="物品.拳谱" level="2" price="150">
+    <require name="quanzhang" argvs="65"/>
+    <require name="gengu" argvs="70"/>
+    <require name="wuxing" argvs="70"/>
+    <require name="bili" argvs="55"/>
+    <trigger name="skill" argvs="如来神掌,10"/>
+  </item>
+  <item name="大力金刚指秘籍" desc="火工头陀受了几年打，练成的绝技" pic="物品.拳谱" type="4" level="6">
+    <require name="quanzhang" argvs="70"/>
+    <require name="bili" argvs="90"/>
+    <require name="dingli" argvs="75"/>
+    <trigger name="skill" argvs="大力金刚指,10"/>
+  </item>
+<!--刀法-->
+  <item name="柴山十八路秘籍" desc="砍柴时发明的刀法" type="4" pic="物品.刀谱" level="2" price="100">
+    <trigger name="skill" argvs="柴山十八路,10"/>
+  </item>
+  <item name="雁行刀秘录" desc="雁去雁归雁不散, 潮起潮落潮无眠。" type="4" pic="物品.刀谱" level="2" price="100">
+    <require name="daofa" argvs="25"/>
+    <trigger name="skill" argvs="雁行刀,12"/>
+  </item>
+  <!--奇门-->
+  <item name="七弦无形琴谱" desc="黄钟公自创的绝技，在琴音中灌注上乘内力扰敌心神" type="4" pic="物品.奇门谱" level="1" price="400">
+    <require name="qimen" argvs="60"/>
+    <trigger name="skill" argvs="七弦无形剑,10"/>
+  </item>
+  <item name="伏魔棍秘籍" desc="大罗金刚以力降魔" type="4" pic="物品.奇门谱" level="4" price="600">
+    <require name="qimen" argvs="60"/>
+    <require name="bili" argvs="55"/>
+    <trigger name="skill" argvs="伏魔棍,10"/>
+  </item>
+  
+</items>

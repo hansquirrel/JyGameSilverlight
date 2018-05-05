@@ -1,0 +1,14 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	x:Class="JyGame.Console" Height="45.5" Width="595">
+
+	<Grid x:Name="LayoutRoot" Opacity="0.545" Background="#FF212121" d:LayoutOverrides="VerticalMargin">
+		<TextBox x:Name="commandText" Margin="107,2,159,14" TextWrapping="Wrap" FontSize="16" Text="story original_昆仑山.开场白"/>
+		<Button Content="执行" HorizontalAlignment="Right" Margin="0,2,27,14" Width="85" Click="Button_Click"/>
+		<TextBlock HorizontalAlignment="Left" Margin="8,8,0,8" TextWrapping="Wrap" Text="测试控制台" Width="69" FontSize="13.333" Foreground="Red"/>
+	</Grid>
+</UserControl>

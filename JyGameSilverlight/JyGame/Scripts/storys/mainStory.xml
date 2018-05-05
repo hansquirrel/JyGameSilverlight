@@ -1,0 +1,342 @@
+<root>
+  <story name="mainStory_黑暗的阴影">
+    <action type="DIALOG" value="主角#咦？这是南贤老头子的书信？" />
+    <action type="DIALOG" value="南贤#“回来看我！”" />
+    <action type="DIALOG" value="主角#...真是简短，回去看看吧。" />
+    <action type="DIALOG" value="汉家松鼠#松鼠提示，回去见南贤就回开启下一章节剧情，当前一些未触发任务可能会【永久关闭】！请慎重！" />
+  </story>
+  <story name="mainStory_黑暗的阴影1">
+    <action type="BACKGROUND" value="地图.主角之家" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="主角#喂，老头，我回来看看你。" />
+    <action type="DIALOG" value="主角#！" />
+    <result ret="0" type="story" value="mainStory_黑暗的阴影2" />
+  </story>
+  <story name="mainStory_黑暗的阴影2">
+    <action type="BACKGROUND" value="地图.主角之家" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="主角#你是谁？" />
+    <action type="DIALOG" value="神秘刺客#嘿嘿..." />
+    <action type="BATTLE" value="黑暗的阴影_战斗" />
+    <result ret="win" type="story" value="mainStory_黑暗的阴影胜" />
+    <result ret="lose" type="story" value="mainStory_黑暗的阴影负" />
+  </story>
+  <story name="mainStory_黑暗的阴影胜">
+    <action type="BACKGROUND" value="地图.主角之家" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="ITEM" value="烈焰黑枪之法#1" />
+    <action type="DIALOG" value="主角#哼，神神秘秘的，不过如此。" />
+    <action type="DIALOG" value="神秘刺客#（身影淹没在黑暗中）嘿嘿..." />
+    <result ret="0" type="story" value="mainStory_黑暗的阴影3" />
+  </story>
+  <story name="mainStory_黑暗的阴影负">
+    <action type="BACKGROUND" value="地图.主角之家" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="主角#这家伙，好厉害！" />
+    <action type="DIALOG" value="神秘刺客#（身影淹没在黑暗中）嘿嘿..." />
+    <result ret="0" type="story" value="mainStory_黑暗的阴影3" />
+  </story>
+  <story name="mainStory_黑暗的阴影3">
+    <action type="BACKGROUND" value="地图.主角之家" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="主角#搞什么飞机啊，不会说人话么，就知道毛骨悚然地笑啊笑..." />
+    <action type="DIALOG" value="南贤#...恐怕，这不过是一个来搜集情报的小兵罢了。" />
+    <action type="DIALOG" value="主角#小兵？什么小兵？这么厉害的小兵？" />
+    <action type="DIALOG" value="南贤#还记得我跟你说过的邪恶的阴影的事情吧？" />
+    <action type="DIALOG" value="主角#有这么一回事？" />
+    <action type="DIALOG" value="南贤#...不信的话，你从头开始游戏，一开始的对话里我就提到了..." />
+    <action type="DIALOG" value="主角#好吧...（那时候我武功都被你废了，还会关心这些...）" />
+    <action type="DIALOG" value="南贤#咳咳，总之，敌人已经露面了。你也看到了，这个刺客会的烈焰黑枪不过是入门级别而已。" />
+    <action type="DIALOG" value="主角#哈哈，想到有这么厉害的人可以扁，我的热血都沸腾了！" />
+    <action type="DIALOG" value="南贤#...好吧，你加油..." />
+    <action type="LOG" value="南贤居出现了神秘的刺客，黑暗中的阴影逐渐逼近了。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="mainStory_神秘剑客">
+    <action type="DIALOG" value="主角#咦？飞鸽传书？又是南贤老头子的？" />
+    <action type="DIALOG" value="南贤#“快回来吧！”" />
+    <action type="DIALOG" value="主角#...就不能写长一点么...回去看看吧。" />
+  </story>
+  <story name="mainStory_神秘剑客1">
+    <action type="BACKGROUND" value="地图.主角之家" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="主角#老头子，我收到你的飞鸽传书，所以就赶回来了。什么事情啊？" />
+    <action type="DIALOG" value="南贤#我最近接到密报，说在四川青城山一带有神秘剑客活动，你去看一下吧！" />
+    <action type="DIALOG" value="主角#...你找我回来就只有这么一句话？" />
+    <action type="DIALOG" value="南贤#是啊。" />
+    <action type="DIALOG" value="主角#你把绑在鸽子身上的信写长一点会死啊..." />
+    <action type="DIALOG" value="南贤#因为好久没见你了嘛。" />
+    <action type="DIALOG" value="主角#......" />
+    <action type="DIALOG" value="主角#话说，四川，好~远~啊~" />
+    <action type="DIALOG" value="南贤#…不就是回到大地图上，然后点一下鼠标就到了么…" />
+    <action type="DIALOG" value="主角#…你可不可以不要这么直白。" />
+    <action type="DIALOG" value="南贤#唉，算了，我送你过去。妈咪妈咪哄！" />
+    <result ret="0" type="story" value="mainStory_神秘剑客3" />
+  </story>
+  <story name="mainStory_神秘剑客3">
+    <action type="BACKGROUND" value="地图.山中" />
+    <action type="MUSIC" value="战斗音乐.山谷行进" />
+    <action type="DIALOG" value="主角#真是快啊…" />
+    <action type="DIALOG" value="南贤#别感叹了，你看前面！" />
+    <result ret="0" type="story" value="mainStory_神秘剑客4" />
+  </story>
+  <story name="mainStory_神秘剑客4">
+    <action type="BACKGROUND" value="地图.山中" />
+    <action type="MUSIC" value="战斗音乐.山谷行进" />
+    <action type="DIALOG" value="神秘剑客#你们是什么人？！" />
+    <action type="DIALOG" value="主角#喂，这是我们的问题才对吧…" />
+    <action type="DIALOG" value="神秘剑客#魔君有令，凡阻挡我圣教者，杀无赦！" />
+    <action type="DIALOG" value="主角#喂，你们又是哪个邪教的啊？话说，为什么是大魔王这么老套的剧情啊？" />
+    <action type="DIALOG" value="南贤#据说，是这个游戏的编剧实在想不出什么新剧情了，只好整个大魔王的。" />
+    <action type="DIALOG" value="主角#……" />
+    <action type="DIALOG" value="神秘剑客#你们在叽里呱啦什么？杀！" />
+    <action type="DIALOG" value="主角#喂！到底是哪个邪教啊？ " />
+    <action type="BATTLE" value="神秘剑客_战斗" />
+    <result ret="win" type="story" value="mainStory_神秘剑客5" />
+  </story>
+  <story name="mainStory_神秘剑客5">
+    <action type="BACKGROUND" value="地图.山中" />
+    <action type="MUSIC" value="战斗音乐.山谷行进" />
+    <action type="DIALOG" value="神秘剑客#很厉害，不错。少年，再会了。" />
+    <action type="DIALOG" value="主角#喂！到底是哪个邪教啊？" />
+    <action type="DIALOG" value="神秘剑客#（嘴角浮现一丝诡异的微笑）待到我圣教血洗九州之日，一切自将大白。少年，保重吧，哈哈哈哈。" />
+    <action type="DIALOG" value="主角#…神经病。" />
+    <action type="DIALOG" value="南贤#…算了，我们走吧。" />
+    <action type="LOG" value="青城山上，与神秘的剑客展开了厮杀。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="mainStory_组织1">
+    <action type="BACKGROUND" value="地图.主角之家" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="南贤#嗯...我想，应该不会错了..." />
+    <action type="DIALOG" value="主角#什么不会错了？为什么一回来就听到你碎碎念？" />
+    <action type="DIALOG" value="南贤#上次在青城山，还有上上次在这屋子里袭击我们的，应该是一伙人，这不会错了。" />
+    <action type="DIALOG" value="主角#…废话。" />
+    <action type="DIALOG" value="南贤#然后，他们应该都属于一个邪教组织..." />
+    <action type="DIALOG" value="主角#虽然你是老头子，但是再说废话我也挺想给你两记野球拳了..." />
+    <action type="DIALOG" value="南贤#然后，这个邪教组织的名字..." />
+    <action type="DIALOG" value="主角#嗯？是什么？" />
+    <action type="DIALOG" value="南贤#不知道。" />
+    <action type="DIALOG" value="主角#......你是在考验我的耐心么..." />
+    <action type="DIALOG" value="南贤#至少这说明一点。" />
+    <action type="DIALOG" value="主角#什么？" />
+    <action type="DIALOG" value="南贤#我查了这么久都没有他们的记录，说明他们真的很神秘。" />
+    <action type="DIALOG" value="主角#...再见。" />
+    <action type="DIALOG" value="南贤#真的，很神秘...也，很可怕的样子..." />
+  </story>
+  <story name="mainStory_紧急">
+    <action type="DIALOG" value="主角#咦？飞鸽传书？肯定又是南贤那个糟老头子。" />
+    <action type="DIALOG" value="南贤#“...总之回来跟你说。”" />
+    <action type="DIALOG" value="主角#......只能回去看看了。" />
+  </story>
+  <story name="mainStory_紧急1">
+    <action type="BACKGROUND" value="地图.主角之家" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="南贤#你回来的正是时候！" />
+    <action type="DIALOG" value="主角#又怎么了？" />
+    <action type="DIALOG" value="南贤#我收到快报，蒙古大军正进攻襄阳，城破在即！" />
+    <action type="DIALOG" value="主角#这么厉害？" />
+    <action type="DIALOG" value="南贤#襄阳一破，长江流域再无险可依，蒙古铁骑饮马长江，直逼临安，不过数日之时！" />
+    <action type="DIALOG" value="主角#为什么襄阳守军如此不堪一击？" />
+    <action type="DIALOG" value="南贤#他们已经尽力了，但是，据回报，许多神秘人掺杂在蒙古大军中，相貌与我们所见过的无异！" />
+    <action type="DIALOG" value="主角#你说的是上次袭击我们的那伙人？" />
+    <action type="DIALOG" value="南贤#不错。" />
+    <action type="DIALOG" value="主角#数目多少？" />
+    <action type="DIALOG" value="南贤#至少数百，上千也有可能。" />
+    <action type="DIALOG" value="主角#不会吧？这么大个邪教组织，你居然还查不到名字啊。" />
+    <action type="DIALOG" value="南贤#咳咳...编剧不告诉我名字...总之，真的很危险了。" />
+    <action type="DIALOG" value="主角#那怎么办？" />
+    <action type="DIALOG" value="南贤#我们一起去看看吧。" />
+    <result ret="0" type="story" value="mainStory_紧急2" />
+  </story>
+  <story name="mainStory_紧急2">
+    <action type="BACKGROUND" value="地图.襄阳" />
+    <action type="MUSIC" value="音乐.天龙八部11" />
+    <action type="DIALOG" value="吕文德#哎呀，各位英雄豪杰，襄阳城完了，我们一起撤吧..." />
+    <action type="DIALOG" value="主角#襄阳以东，再无城可依，不可退！" />
+    <action type="DIALOG" value="南贤#有敌人过来了！" />
+    <result ret="0" type="story" value="mainStory_紧急3" />
+  </story>
+  <story name="mainStory_紧急3">
+    <action type="BACKGROUND" value="地图.襄阳" />
+    <action type="MUSIC" value="音乐.天龙八部11" />
+    <action type="DIALOG" value="神秘剑客#哈哈，少年，我们又见面了。" />
+    <action type="DIALOG" value="主角#额...冒昧问一句，你是哪个？" />
+    <action type="DIALOG" value="神秘剑客#..." />
+    <action type="DIALOG" value="南贤#..." />
+    <action type="DIALOG" value="吕文德#..." />
+    <action type="DIALOG" value="神秘剑客#咳咳...哈哈哈哈，总之，蒙古大军南下，汉人就要灭亡了！" />
+    <action type="DIALOG" value="主角#你跟中原人这么仇大苦深么？" />
+    <action type="DIALOG" value="神秘剑客#哼，魔君有令，汉人格杀勿论！" />
+    <action type="DIALOG" value="主角#你们魔君到底是何方神圣啊？" />
+    <action type="DIALOG" value="神秘剑客#编剧说了，都告诉你了，还玩毛啊。" />
+    <action type="DIALOG" value="主角#...玩毛这两个字用得太妙了。" />
+    <action type="DIALOG" value="神秘剑客#......" />
+    <action type="DIALOG" value="南贤#你们企图灭亡华夏，又有什么好处？" />
+    <action type="DIALOG" value="神秘剑客#恨意！只因为对你们这些龌龊之人无尽的恨意！" />
+    <action type="BATTLE" value="襄阳_战斗" />
+    <result ret="win" type="story" value="mainStory_紧急4" />
+  </story>
+  <story name="mainStory_紧急4">
+    <action type="BACKGROUND" value="地图.襄阳" />
+    <action type="MUSIC" value="音乐.天龙八部11" />
+    <action type="DIALOG" value="神秘剑客#哼，厉害，暂时撤退！" />
+    <action type="DIALOG" value="主角#呼呼...累趴下了。" />
+    <action type="DIALOG" value="南贤#现在各地都告急，恐怕我们是没有什么时间休息了。" />
+    <action type="DIALOG" value="主角#怎么办？" />
+    <action type="DIALOG" value="南贤#我们先集结武林豪杰，解了各地的围困再图后计！" />
+    <action type="LOG" value="蒙古大军南下，各地告急！" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="mainStory_紧急.洛阳">
+    <action type="BACKGROUND" value="地图.洛阳" />
+    <action type="MUSIC" value="战斗音乐.暮云出击" />
+    <action type="DIALOG" value="酒楼老板#救命啊！" />
+    <action type="DIALOG" value="神秘刺客#杀！" />
+    <action type="DIALOG" value="主角#可恶！" />
+    <action type="BATTLE" value="襄阳_战斗" />
+    <result ret="win" type="story" value="mainStory_紧急.洛阳胜" />
+  </story>
+  <story name="mainStory_紧急.洛阳胜">
+    <action type="DIALOG" value="主角#呼，总算是杀退了。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="mainStory_紧急.衡阳">
+    <action type="BACKGROUND" value="地图.衡阳" />
+    <action type="MUSIC" value="战斗音乐.暮云出击" />
+    <action type="DIALOG" value="民女2#救命啊！" />
+    <action type="DIALOG" value="神秘刺客#杀！" />
+    <action type="DIALOG" value="主角#可恶！" />
+    <action type="BATTLE" value="襄阳_战斗" />
+    <result ret="win" type="story" value="mainStory_紧急.衡阳胜" />
+  </story>
+  <story name="mainStory_紧急.衡阳胜">
+    <action type="DIALOG" value="主角#呼，总算是杀退了。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="mainStory_紧急.杭州">
+    <action type="BACKGROUND" value="地图.杭州" />
+    <action type="MUSIC" value="战斗音乐.暮云出击" />
+    <action type="DIALOG" value="神秘刺客#嘿嘿..." />
+    <action type="DIALOG" value="主角#居然这里也有他们的爪牙！" />
+    <action type="BATTLE" value="襄阳_战斗" />
+    <result ret="win" type="story" value="mainStory_紧急.杭州胜" />
+  </story>
+  <story name="mainStory_紧急.杭州胜">
+    <action type="BACKGROUND" value="地图.杭州" />
+    <action type="MUSIC" value="战斗音乐.暮云出击" />
+    <action type="DIALOG" value="主角#总算都杀退了，现在该怎么办？" />
+    <action type="DIALOG" value="南贤#探子回报，襄阳城又陷入了苦战！" />
+    <action type="DIALOG" value="主角#那我们赶紧赶过去！" />
+    <action type="DIALOG" value="南贤#先别慌，过去一定是一场恶战。把武功练好，装备补齐，再准备上阵杀敌吧！" />
+    <action type="DIALOG" value="主角#好！" />
+    <action type="LOG" value="解蒙古大军之围。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="mainStory_襄阳1">
+    <action type="BACKGROUND" value="地图.襄阳" />
+    <action type="MUSIC" value="音乐.天龙八部11" />
+    <action type="DIALOG" value="主角#吕文德，襄阳城如今局势如何？" />
+    <action type="DIALOG" value="吕文德#禀报大老爷...如今襄阳城兵马疲顿，再拖下去，恐怕只有死路一条了啊。" />
+    <action type="DIALOG" value="主角#那只能杀出去，方有一条生路！全军将士听令，随我出击！天下大势，在此一战！" />
+    <action type="DIALOG" value="吕文德#大老爷...祝您马到功成..." />
+    <action type="DIALOG" value="主角#吕文德，随我出战！" />
+    <action type="DIALOG" value="吕文德#啊...（昏死过去）" />
+    <result ret="0" type="story" value="mainStory_襄阳5" />
+  </story>
+  <story name="mainStory_襄阳2">
+    <action type="BACKGROUND" value="地图.沙漠2" />
+    <action type="MUSIC" value="音乐.天龙八部11" />
+    <action type="DIALOG" value="主角#杀啊！" />
+  </story>
+  <story name="mainStory_襄阳3">
+    <action type="BACKGROUND" value="地图.沙漠2" />
+    <action type="MUSIC" value="音乐.天龙八部11" />
+    <action type="DIALOG" value="主角#杀啊！" />
+  </story>
+  <story name="mainStory_襄阳4">
+    <action type="BACKGROUND" value="地图.沙漠2" />
+    <action type="MUSIC" value="音乐.天龙八部11" />
+    <action type="DIALOG" value="主角#杀啊！" />
+  </story>
+  <story name="mainStory_襄阳5">
+    <action type="BACKGROUND" value="地图.沙漠2" />
+    <action type="MUSIC" value="音乐.天龙八部11" />
+    <action type="DIALOG" value="主角#呼呼，杀不完的敌人，怎么办？！" />
+    <action type="DIALOG" value="南贤#擒贼先擒王！你看那边，那个人很可疑！" />
+    <action type="DIALOG" value="主角#那上啊！" />
+    <result ret="0" type="story" value="mainStory_最终决战1" />
+  </story>
+  <story name="mainStory_最终决战1">
+    <action type="BACKGROUND" value="地图.沙漠3" />
+    <action type="MUSIC" value="音乐.天龙八部11" />
+    <action type="DIALOG" value="神秘使者#......" />
+    <action type="DIALOG" value="主角#毫无疑问，你的实力，是我见过的所有人里面最强的。" />
+    <action type="DIALOG" value="神秘使者#所以呢？" />
+    <action type="DIALOG" value="主角#所以，你一定就是那个啥魔君吧？" />
+    <action type="DIALOG" value="神秘使者#哈哈哈哈，哈哈哈哈！" />
+    <action type="DIALOG" value="主角#喂，笑得很毛骨悚然啊..." />
+    <action type="DIALOG" value="神秘使者#鼠辈，也配问我圣教魔君的名字！" />
+    <action type="DIALOG" value="主角#你不是那个BOSS？" />
+    <action type="DIALOG" value="神秘使者#我只是，他卑微的仆人..." />
+    <action type="DIALOG" value="主角#不管你是谁，抓住你，此战我军必胜！" />
+    <action type="DIALOG" value="神秘使者#哈哈，就凭你，也能抓住我？我是魔君在地上的代行者，你这只爬虫！" />
+    <action type="DIALOG" value="主角#别老是魔君，魔君的称呼了，这是武侠游戏，不是仙侠游戏！" />
+    <action type="DIALOG" value="神秘使者#鼠辈，受死吧！" />
+    <action type="BATTLE" value="最终战场_战斗" />
+    <result ret="win">
+      <control type="story" value="original_女主.襄阳大战后">
+         <condition type="haogan_more_than" value="70" />
+       </control>
+      <control type="story" value="mainStory_最终决战2">
+        <condition type="haogan_less_than" value="70" />
+      </control>
+    </result>
+  </story>
+  <story name="mainStory_最终决战2">
+    <action type="BACKGROUND" value="地图.沙漠3" />
+    <action type="MUSIC" value="音乐.天龙八部11" />
+    <action type="DIALOG" value="神秘使者#好...少年...果然一开始，你就是最大的危险啊...当初，真是后悔啊..." />
+    <action type="DIALOG" value="主角#什么一开始？什么后悔啊？" />
+    <action type="DIALOG" value="神秘使者#欲知其中因果，请听下回分解..." />
+    <action type="DIALOG" value="主角#......这编剧除了放烟雾弹，还会写点别的么..." />
+    <action type="DIALOG" value="神秘使者#十年之后，我们会卷土重来的！" />
+    <result ret="0" type="story" value="mainStory_最终决战3" />
+  </story>
+  <story name="mainStory_最终决战3">
+    <action type="BACKGROUND" value="地图.沙漠3" />
+    <action type="MUSIC" value="音乐.天龙八部11" />
+    <action type="DIALOG" value="主角#这就，结束了么..." />
+    <action type="DIALOG" value="南贤#一定累坏了吧..." />
+    <action type="DIALOG" value="主角#不，总觉得还不太过瘾..." />
+    <action type="DIALOG" value="南贤#......" />
+    <action type="DIALOG" value="主角#难道就在这里，故事就结束了么？" />
+    <action type="DIALOG" value="南贤#......" />
+    <action type="DIALOG" value="主角#总觉得，还有很多很多的遗憾，很多很多的地方想去，秘籍想得到，美女想泡..." />
+    <action type="DIALOG" value="南贤#......好吧" />
+    <action type="DIALOG" value="主角#？" />
+    <action type="DIALOG" value="南贤#为了完成你的夙愿，请重新再打一遍游戏吧。" />
+    <action type="DIALOG" value="主角#......" />
+    <action type="DIALOG" value="南贤#哦对了。" />
+    <action type="DIALOG" value="主角#？" />
+    <action type="DIALOG" value="南贤#在你回到现实世界之前，一如既往，还有最后一关。" />
+    <action type="DIALOG" value="主角#又是华山论剑？" />
+    <action type="DIALOG" value="南贤#不错，作为金庸群侠传的游戏，怎么能没有华山论剑呢！" />
+    <action type="DIALOG" value="主角#......" />
+    <action type="DIALOG" value="南贤#走吧，我们一起去华山！" />
+    <action type="LOG" value="蒙古大军败退。" />
+  </story>
+
+  <story name="mainStory_online">
+    <action type="BACKGROUND" value="地图.主角之家" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="主角#怎么就把我叫回来了……" />
+    <action type="DIALOG" value="南贤#现在是联机内测版。。不是让你来体验剧情的" />
+    <action type="DIALOG" value="主角#那？" />
+    <action type="DIALOG" value="南贤#赶紧去联机大厅体验一下PK吧！看看你练的咋样！" />
+    <action type="DIALOG" value="主角#我还想玩啊……" />
+    <action type="DIALOG" value="南贤#想体验更多剧情，请等待0.4正式版。" />
+    <result ret="0" type="map" value="南贤居死胡同"/>
+  </story>
+
+</root>

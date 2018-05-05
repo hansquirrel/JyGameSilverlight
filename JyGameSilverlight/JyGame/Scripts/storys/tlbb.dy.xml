@@ -1,0 +1,1862 @@
+<root>
+  <story name="tlbb.dy_童姥使者1">
+    <action type="BACKGROUND" value="地图.树林" />
+    <action type="MUSIC" value="音乐.天龙八部10" />
+    <action type="DIALOG" value="童姥使者#那边那个很丑的小哥，我们正在围殴这个丫头，没事请走开。" />
+    <action type="DIALOG" value="主角#你是在说我么？" />
+    <action type="DIALOG" value="童姥使者#除了你还有人这么丑么？" />
+    <action type="DIALOG" value="主角#……本来我不愿意管这事的，但你们说我丑，我就非要管了！" />
+    <action type="DIALOG" value="木婉清.蒙面#我才不要你救！" />
+    <action type="BATTLE" value="木婉清树林_战斗" />
+    <result ret="win" type="story" value="tlbb.dy_童姥使者2" />
+  </story>
+  <story name="tlbb.dy_童姥使者2">
+    <action type="BACKGROUND" value="地图.树林" />
+    <action type="MUSIC" value="音乐.天龙八部10" />
+    <action type="DIALOG" value="主角#我没揭开你的黑纱，所以你不用嫁我。" />
+    <action type="DIALOG" value="木婉清.蒙面#…你怎么连这都知道。" />
+    <action type="DIALOG" value="主角#一般蒙黑纱不都是这样的么，贼清高。" />
+    <action type="DIALOG" value="木婉清.蒙面#…" />
+    <action type="DIALOG" value="主角#姑娘，荒郊野外的，一个人太危险了。你我同行吧。" />
+    <action type="DIALOG" value="木婉清.蒙面#…你把自己看太高了。（木婉清离去）" />
+    <result ret="0" type="story" value="tlbb.dy_童姥使者3" />
+  </story>
+  <story name="tlbb.dy_童姥使者3">
+    <action type="BACKGROUND" value="地图.树林" />
+    <action type="MUSIC" value="音乐.天龙八部10" />
+    <action type="DIALOG" value="主角#真是匹烈马啊…" />
+    <action type="ITEM" value="袖箭秘诀#1" />
+    <action type="ITEM" value="天山掌法谱#1" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="tlbb.dy_无量山洞1">
+    <action type="BACKGROUND" value="地图.无量山洞" />
+    <action type="MUSIC" value="音乐.天龙八部.无量山洞" />
+    <action type="DIALOG" value="主角#啊，神仙姐姐像！赶紧磕头，磕头有秘籍…" />
+    <result ret="0" type="story" value="tlbb.dy_无量山洞2" />
+  </story>
+  <story name="tlbb.dy_无量山洞2">
+    <action type="BACKGROUND" value="地图.无量山洞" />
+    <action type="MUSIC" value="音乐.天龙八部.无量山洞" />
+    <action type="DIALOG" value="主角#（磕了一阵子，太麻烦，直接用暴力手段撕开蒲团）咦？秘籍呢？" />
+    <action type="DIALOG" value="段誉#秘籍早就被我拿走了，啦啦啦。神仙姐姐爱的是我，耶。" />
+    <action type="DIALOG" value="主角#……" />
+    <action type="DIALOG" value="主角#（可怜巴巴状）兄弟，这玉像上的人是我奶奶，我是来拿回我们家失散已久的逍遥派秘籍的…" />
+    <action type="DIALOG" value="段誉#真的？" />
+    <action type="DIALOG" value="主角#真的。" />
+    <action type="DIALOG" value="段誉#那给你吧。" />
+    <action type="DIALOG" value="主角#哇！（赚翻了）" />
+    <action type="DIALOG" value="段誉#追上我就给你！（段誉一个凌波微步，不见了踪影）" />
+    <result ret="0" type="story" value="tlbb.dy_无量山洞3" />
+  </story>
+  <story name="tlbb.dy_无量山洞3">
+    <action type="BACKGROUND" value="地图.无量山洞" />
+    <action type="MUSIC" value="音乐.天龙八部.无量山洞" />
+    <action type="DIALOG" value="主角#喂！欺负人啊！" />
+    <action type="DIALOG" value="主角#算了，追不上了。走吧。" />
+    <action type="LOG" value="拜访神仙姐姐。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="tlbb.dy_木婉清身世1">
+    <action type="BACKGROUND" value="地图.大殿室内6" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="木婉清#我不相信，我不相信！段郎，你告诉我这不是真的。" />
+    <action type="DIALOG" value="段誉#婉妹…" />
+    <action type="DIALOG" value="木婉清#你这个无耻的男人，你这个禽兽，我死都不会认你这种人做我的父亲！" />
+    <action type="DIALOG" value="段正淳#…" />
+    <action type="DIALOG" value="木婉清#（秦红棉的叹息声隐隐传来）段郎，我要走了。你多保重。" />
+    <result ret="0" type="story" value="tlbb.dy_木婉清身世2" />
+  </story>
+  <story name="tlbb.dy_木婉清身世2">
+    <action type="BACKGROUND" value="地图.大殿室内6" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="主角#喂，你那牛比的轻功是怎么用的啊。老婆都要跑了还在这里发呆。" />
+    <action type="DIALOG" value="段誉#你说的对！婉妹！（段誉一阵风似地飘走了）" />
+    <result ret="0" type="story" value="tlbb.dy_木婉清身世3" />
+  </story>
+  <story name="tlbb.dy_木婉清身世3">
+    <action type="BACKGROUND" value="地图.大殿室内6" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="段正淳#誉儿！你们还不快追！" />
+    <action type="DIALOG" value="主角#人家夫妻俩要去卿卿我我，你们插个什么手啊？" />
+    <action type="LOG" value="木婉清身世大白" />
+    <action type="BATTLE" value="镇南王府.身世_战斗" />
+    <result ret="win" type="story" value="tlbb.dy_木婉清身世.胜段正淳" />
+    <result ret="lose" type="story" value="tlbb.dy_木婉清身世.负段正淳" />
+  </story>
+  <story name="tlbb.dy_木婉清身世.胜段正淳">
+    <action type="BACKGROUND" value="地图.大殿室内6" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="主角#你们人多势众，我跑~" />
+    <result ret="0" type="map" value="大理" />
+  </story>
+  <story name="tlbb.dy_木婉清身世.负段正淳">
+    <action type="BACKGROUND" value="地图.大殿室内6" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="主角#你们人多势众，我跑~" />
+    <result ret="0" type="map" value="大理" />
+  </story>
+  <story name="tlbb.dy_万劫谷地牢1">
+    <action type="BACKGROUND" value="地图.地牢" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="段誉#（跟木婉清被关在小屋里，身中段延庆所下的阴阳和合散，正在屋子里施展凌波微步，疯狂地跑来跑去）" />
+    <action type="DIALOG" value="木婉清#段郎，段郎，我身上好热，你抱我…" />
+    <action type="DIALOG" value="段誉#（一时间意识空白，没有闪过，木婉清扑入怀中）" />
+    <action type="DIALOG" value="段誉#（忽然觉得丹田中一股热气急速上升，霎时间血脉贲张，情欲如潮，不可遏止，但觉搂在怀里的姑娘娇喘细细，幽香阵阵，心情大乱，便往她唇上吻去。）" />
+    <action type="DIALOG" value="木婉清#（唇被封住，发出一声娇喘）呜…" />
+    <action type="DIALOG" value="段誉#（一斜眼间，见到木婉清海棠春睡般的脸庞、芙蓉初放般的身子，一颗心怦怦猛跳，几乎连自己心跳的声音也听见了。）" />
+    <action type="DIALOG" value="木婉清#你刚才在屋里蹦跳了半天，什么乾卦、坤卦的。你就是乾卦，我就是坤卦，两人结成夫妻，日后生儿育女，再生下震卦、巽卦来……" />
+    <action type="DIALOG" value="段誉#婉妹…（烛光照耀之下，只见木婉清媚眼流波，娇美不可名状。）" />
+    <action type="DIALOG" value="段誉#我实在是忍不住了…" />
+    <action type="SELECT" value="段誉#我该怎么办？#上吧，少年！#忍住！" />
+    <result ret="0" type="story" value="tlbb.dy_万劫谷地牢.上" />
+    <result ret="1" type="story" value="tlbb.dy_万劫谷地牢.不上" />
+  </story>
+  <story name="tlbb.dy_万劫谷地牢.上">
+    <action type="BACKGROUND" value="地图.地牢" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="段誉#婉妹，咱们决心与药性相抗，但人力有时而尽。段家的列祖列宗，我段誉今日让你们蒙羞了！（狠狠撕开木婉清的衣襟，压在身下）" />
+    <action type="DIALOG" value="木婉清#段郎…啊…" />
+    <action type="DIALOG" value="木婉清#以下剧情不适合18岁以下玩家，就此略过哦~" />
+    <action type="NICK" value="地牢春情"/>
+    <action type="LOG" value="段誉、木婉清行夫妻之实。" />
+    <result ret="0">
+      <control type="story" value="tlbb.dy_万劫谷地牢.上2">
+        <condition type="key_not_in_team" value="女主" />
+      </control>
+      <control type="story" value="original_女主.天龙八部.万劫谷上">
+        <condition type="key_in_team" value="女主" />
+        <condition type="should_finish" value="original_长安.家中"/>
+      </control>
+    </result>
+  </story>
+  <story name="tlbb.dy_万劫谷地牢.上2">
+    <action type="BACKGROUND" value="地图.地牢" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="段誉#（一个小时后...）" />
+    <action type="DIALOG" value="华赫艮#嘿嘿，都说了老子挖地道的功夫是天下一绝吧。" />
+    <action type="DIALOG" value="巴天石#别在这里吹了，快把小王爷弄走…" />
+    <action type="DIALOG" value="范晔#Oh My God，他们俩在这小屋里干了些什么…" />
+    <action type="DIALOG" value="华赫艮#（倒吸一口凉气）妈妈呀…小王爷原来这么生猛啊…" />
+    <action type="DIALOG" value="巴天石#这下事情大条了…" />
+    <action type="DIALOG" value="范晔#没办法，先弄回去再说吧。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="tlbb.dy_万劫谷地牢.不上">
+    <action type="BACKGROUND" value="地图.地牢" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="段誉#（忽然脑中飘过一丝清明，趁势猛地一把推开木婉清，再次在小屋中施展起凌波微步）" />
+    <action type="DIALOG" value="木婉清#段郎…" />
+    <action type="DIALOG" value="段誉#（一个小时后...）" />
+    <result ret="0" type="story" value="tlbb.dy_万劫谷地牢.不上2" />
+  </story>
+  <story name="tlbb.dy_万劫谷地牢.不上2">
+    <action type="BACKGROUND" value="地图.地牢" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="华赫艮#嘿嘿，都说了老子挖地道的功夫是天下一绝吧。" />
+    <action type="DIALOG" value="巴天石#别在这里吹了，快把小王爷弄走…" />
+    <action type="DIALOG" value="范晔#木姑娘呢？" />
+    <action type="DIALOG" value="巴天石#你傻啊，带回去让他们继续乱来啊，留下。" />
+    <action type="DIALOG" value="范晔#嗯..你说得对，小王爷背上了，咱们闪吧。" />
+    <result ret="0">
+      <control type="map" value="大地图">
+        <condition type="key_not_in_team" value="女主" />
+      </control>
+      <control type="story" value="original_女主.天龙八部.万劫谷不上">
+        <condition type="key_in_team" value="女主" />
+        <condition type="should_finish" value="original_长安.家中"/>
+      </control>
+    </result>
+  </story>
+  <story name="tlbb.dy_镇南王府.救木婉清1">
+    <action type="BACKGROUND" value="地图.大殿室内6" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="主角#木姑娘，你还好么？" />
+    <action type="DIALOG" value="木婉清#我没事，只是他们段家惧怕人言，把我生生关在这里，见不到段郎，让我受尽折磨。" />
+    <action type="DIALOG" value="主角#你是段正淳的女儿，也就是大理的郡主，他们自然不会把你怎么样。段誉呢？" />
+    <action type="DIALOG" value="木婉清#不知道，他们不让我见他，把我软禁在这里。我要疯啦疯啦疯啦疯啦疯啦！" />
+    <action type="DIALOG" value="主角#（汗）冷静，冷静…我带你逃出去找段誉吧？" />
+    <action type="DIALOG" value="木婉清#好！" />
+    <action type="JOIN" value="木婉清" />
+    <action type="UPGRADE.MAXHP" value="木婉清#400" />
+    <action type="UPGRADE.MAXMP" value="木婉清#400" />
+    <action type="GET_POINT" value="木婉清#25" />
+    <action type="UPGRADE.拳掌" value="木婉清#40" />
+    <action type="LEARN.SKILL" value="木婉清#袖箭#10" />
+    <action type="LEARN.SKILL" value="木婉清#一阳指#9" />
+    <action type="NICK" value="婉而清扬" />
+    <result ret="0" type="story" value="tlbb.dy_镇南王府.救木婉清2" />
+  </story>
+  <story name="tlbb.dy_镇南王府.救木婉清2">
+    <action type="BACKGROUND" value="地图.大殿室内6" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="褚万里#慢！镇南王府，岂容你说来就来，说走就走！" />
+    <action type="BATTLE" value="镇南王府.救木婉清_战斗" />
+    <result ret="win" type="story" value="tlbb.dy_镇南王府.救木婉清.胜利" />
+  </story>
+  <story name="tlbb.dy_镇南王府.救木婉清.胜利">
+    <action type="BACKGROUND" value="地图.大殿室内6" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="主角#老大们都不在，你们这些小弟完全不够看啊。" />
+    <action type="DIALOG" value="褚万里#…" />
+    <action type="DIALOG" value="主角#木姑娘，我们走。" />
+    <action type="DIALOG" value="木婉清#嗯！" />
+    <result ret="0" type="map" value="大理" />
+  </story>
+  <story name="tlbb.dy_天龙寺.救段誉1">
+    <action type="BACKGROUND" value="地图.佛堂" />
+    <action type="MUSIC" value="音乐.天龙八部.佛音4" />
+    <action type="DIALOG" value="木婉清#段郎！" />
+    <action type="DIALOG" value="段誉#婉妹！你怎么会在这里？" />
+    <action type="DIALOG" value="木婉清#段郎，是这位小兄弟带我逃出镇南王府来的。" />
+    <action type="DIALOG" value="段誉#原来你一直被关在府中…我问伯父，他只说已经把你放了。" />
+    <action type="DIALOG" value="木婉清#段郎，你为什么会在这里？" />
+    <action type="DIALOG" value="段誉#（长叹一口气）万劫谷中，你我犯下滔天大错。伯父带我来天龙寺，是想得到我段家宗室的意见。" />
+    <action type="DIALOG" value="木婉清#段郎，我们不要再管什么兄妹常伦，大错既已铸成，何不从此远走高飞？" />
+    <action type="DIALOG" value="段誉#这…婉妹，我是读书人，也是未来大理国的王储，我不能对不起段家的列祖列宗。" />
+    <action type="DIALOG" value="木婉清#可是你已经对不起了。" />
+    <action type="DIALOG" value="段誉#…" />
+    <action type="DIALOG" value="木婉清#你说什么，都没有用了。" />
+    <action type="DIALOG" value="段誉#…我知道。" />
+    <action type="DIALOG" value="木婉清#还是说，你揭开了我的面纱，又碰了我的身体，说不定我还要为你生下一个孩子，你却完全不想着要对我负责。" />
+    <action type="DIALOG" value="木婉清#你要去对得起段家的列祖列宗，你就去吧！反正我只是一个来路不明的野种…（木婉清说着说着，激动得哭了起来）" />
+    <action type="DIALOG" value="段誉#…婉妹，我不是这个意思。" />
+    <action type="DIALOG" value="木婉清#你就是这个意思！你这个冷面、无情、卑鄙、可耻的小人！你和你那姓段的父亲有什么区别！" />
+    <action type="DIALOG" value="段誉#…婉妹，那也是你的父亲…" />
+    <action type="DIALOG" value="木婉清#我不承认！" />
+    <action type="DIALOG" value="段誉#…" />
+    <action type="DIALOG" value="木婉清#你跟我走！" />
+    <action type="DIALOG" value="段誉#…" />
+    <action type="DIALOG" value="主角#段誉，你要是不跟我们走，我一离开天龙寺，就把你和自己亲妹妹做过的事情通报天下。看到时候你那段家的声誉又在哪里。" />
+    <action type="DIALOG" value="段誉#…唉，罢了。我留下也是于事无补，不如和婉妹一起出走一段时间。也许再回来时，父亲和伯父就该有不同的心思了。" />
+    <action type="DIALOG" value="主角#这才像话！趁天龙寺的和尚还没发现，我们赶紧走吧！" />
+    <action type="DIALOG" value="段誉#嗯。适才枯荣禅师他们在研习六脉神剑谱，面色凝重，仿佛要来一个大对头。我也学了一点皮毛。此刻寺中高手和伯父都在研习剑谱，我们正好逃走。" />
+    <action type="DIALOG" value="主角#那还等什么，走吧！" />
+    <action type="JOIN" value="段誉" />
+    <action type="ITEM" value="北冥神功精义#1" />
+    <result ret="0">
+      <control type="map" value="大地图">
+        <condition type="key_not_in_team" value="女主" />
+      </control>
+      <control type="story" value="original_女主.天龙八部.天龙寺段誉木婉清">
+        <condition type="key_in_team" value="女主" />
+        <condition type="should_finish" value="original_长安.家中"/>
+      </control>
+    </result>
+  </story>
+  <story name="tlbb.dy_天龙寺.六脉神剑">
+    <action type="BACKGROUND" value="地图.佛堂" />
+    <action type="MUSIC" value="音乐.天龙八部.佛音4" />
+    <action type="DIALOG" value="鸠摩智#抢劫抢劫，只要六脉神剑谱。别的金银珠宝、童子尼姑之类的，你们尽管留下吧。" />
+    <action type="DIALOG" value="枯荣大师#士可杀，不可辱。兄弟们，上啊！" />
+    <action type="DIALOG" value="主角#慢！" />
+    <action type="DIALOG" value="枯荣大师#？" />
+    <action type="DIALOG" value="主角#你们六个人欺负一个，也太无耻了吧。" />
+    <action type="DIALOG" value="枯荣大师#没办法，他比较猛。为了游戏平衡，只好我们哥俩六个一起上了。" />
+    <action type="DIALOG" value="主角#你们这样也好意思称为六脉神剑？" />
+    <action type="DIALOG" value="枯荣大师#..." />
+    <action type="DIALOG" value="主角#来，哥给你们秀秀什么是真正的六脉神剑。段誉！" />
+    <action type="DIALOG" value="段誉#在！" />
+    <action type="DIALOG" value="主角#给我上啊！（你那个失灵时不灵的神剑，这次要给哥挣点脸啊）" />
+    <action type="BATTLE" value="天龙寺.六脉神剑_战斗" />
+    <result ret="win">
+      <control type="story" value="tlbb.dy_天龙寺.六脉神剑胜简单模式">
+        <condition type="game_mode" value="normal" />
+      </control>
+      <control type="story" value="tlbb.dy_天龙寺.六脉神剑胜" />
+    </result>
+  </story>
+  <story name="tlbb.dy_天龙寺.六脉神剑胜简单模式">
+    <action type="BACKGROUND" value="地图.佛堂" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="鸠摩智#好猛，我闪~" />
+    <action type="DIALOG" value="主角#哇塞，太牛了。段誉，你的六脉神剑给力啊。" />
+    <action type="DIALOG" value="枯荣大师#阿弥陀佛，我段氏有后了…我这有一本自己研习的六脉神剑精义，誉儿你拿去吧。" />
+    <action type="ITEM" value="六脉神剑谱#1" />
+    <action type="DIALOG" value="枯荣大师#阿弥陀佛，那一些儿女情长的旧事，正明，让它烟消云散去吧。" />
+    <action type="DIALOG" value="段正明#大师如此吩咐，自当尽心尽力。" />
+    <action type="DIALOG" value="段誉#谢谢大师！" />
+    <action type="DIALOG" value="木婉清#挽回了段郎的颜面，你这个和尚不错！" />
+    <action type="DIALOG" value="枯荣大师#阿弥陀佛...贫僧今日见证誉儿和木姑娘良缘，无以相赠，唯有传授些许微薄武艺，以表祝贺。" />
+    <action type="UPGRADE.MAXHP" value="木婉清#500" />
+    <action type="UPGRADE.MAXMP" value="木婉清#500" />
+    <action type="GET_POINT" value="木婉清#10" />
+    <action type="UPGRADE.拳掌" value="木婉清#10" />
+    <action type="UPGRADE.剑法" value="木婉清#10" />
+    <action type="UPGRADE.刀法" value="木婉清#10" />
+    <action type="UPGRADE.奇门" value="木婉清#10" />
+    <action type="LEARN.SKILL" value="木婉清#六脉神剑#8" />
+    <action type="UPGRADE.MAXHP" value="段誉#500" />
+    <action type="UPGRADE.MAXMP" value="段誉#500" />
+    <action type="GET_POINT" value="段誉#10" />
+    <action type="UPGRADE.拳掌" value="段誉#10" />
+    <action type="UPGRADE.剑法" value="段誉#10" />
+    <action type="UPGRADE.刀法" value="段誉#10" />
+    <action type="UPGRADE.奇门" value="段誉#10" />
+    <action type="LEARN.SKILL" value="段誉#六脉神剑#8" />
+    <action type="DIALOG" value="木婉清#谢谢你！段郎...(眼中含泪）他们终于肯让我们在一起了。" />
+    <action type="DIALOG" value="段誉#（含笑）婉妹，这一路历险，我们不是都在一起么。" />
+    <action type="DIALOG" value="木婉清#嗯！从此，我们也再不会分开了..." />
+    <action type="DIALOG" value="段正明#咳咳...好了，誉儿，有时间回去看看我们这些老骨头吧。" />
+    <action type="DIALOG" value="段誉#是，多谢伯父成全！" />
+    <action type="NICK" value="六脉传人" />
+    <action type="DIALOG" value="木婉清#不过，段郎。我总觉得我们似乎还没有得到六脉神剑的真传。" />
+    <action type="DIALOG" value="段誉#（含笑）婉妹，游戏只是简单模式嘛。有这样已经够了。可能要挑战更高难度才有真传吧。" />
+    <action type="LOG" value="天龙寺胜鸠摩智，段誉和木婉清被成全。" />
+    <result ret="0">
+      <control type="map" value="大地图">
+        <condition type="key_not_in_team" value="女主" />
+      </control>
+      <control type="story" value="original_女主.天龙八部.天龙寺六脉神剑">
+        <condition type="key_in_team" value="女主" />
+        <condition type="should_finish" value="original_长安.家中"/>
+      </control>
+    </result>
+  </story>
+  <story name="tlbb.dy_天龙寺.六脉神剑胜">
+    <action type="BACKGROUND" value="地图.佛堂" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="鸠摩智#好猛，我闪~" />
+    <action type="DIALOG" value="主角#哇塞，太牛了。段誉，你的六脉神剑给力啊。" />
+    <action type="DIALOG" value="枯荣大师#阿弥陀佛，我段氏有后了…我这有一本自己研习的六脉神剑精义，誉儿你拿去吧。" />
+    <action type="ITEM" value="六脉神剑谱#1" />
+    <action type="DIALOG" value="枯荣大师#阿弥陀佛，那一些儿女情长的旧事，正明，让它烟消云散去吧。" />
+    <action type="DIALOG" value="段正明#大师如此吩咐，自当尽心尽力。" />
+    <action type="DIALOG" value="段誉#谢谢大师！" />
+    <action type="DIALOG" value="木婉清#挽回了段郎的颜面，你这个和尚不错！" />
+    <action type="DIALOG" value="枯荣大师#阿弥陀佛...贫僧今日见证誉儿和木姑娘良缘，无以相赠，唯有传授些许微薄武艺，以表祝贺。" />
+    <action type="UPGRADE.MAXHP" value="木婉清#1000" />
+    <action type="UPGRADE.MAXMP" value="木婉清#1000" />
+    <action type="GET_POINT" value="木婉清#30" />
+    <action type="UPGRADE.拳掌" value="木婉清#20" />
+    <action type="UPGRADE.剑法" value="木婉清#10" />
+    <action type="UPGRADE.刀法" value="木婉清#10" />
+    <action type="UPGRADE.奇门" value="木婉清#10" />
+    <action type="LEARN.SKILL" value="木婉清#六脉神剑#10" />
+    <action type="UPGRADE.MAXHP" value="段誉#1000" />
+    <action type="UPGRADE.MAXMP" value="段誉#1000" />
+    <action type="GET_POINT" value="段誉#30" />
+    <action type="UPGRADE.拳掌" value="段誉#20" />
+    <action type="UPGRADE.剑法" value="段誉#10" />
+    <action type="UPGRADE.刀法" value="段誉#10" />
+    <action type="UPGRADE.奇门" value="段誉#10" />
+    <action type="LEARN.SKILL" value="段誉#六脉神剑#10" />
+    <action type="DIALOG" value="木婉清#谢谢你！段郎...(眼中含泪）他们终于肯让我们在一起了。" />
+    <action type="DIALOG" value="段誉#（含笑）婉妹，这一路历险，我们不是都在一起么。" />
+    <action type="DIALOG" value="木婉清#嗯！从此，我们也再不会分开了..." />
+    <action type="DIALOG" value="段正明#咳咳...好了，誉儿，有时间回去看看我们这些老骨头吧。" />
+    <action type="DIALOG" value="段誉#是，多谢伯父成全！" />
+    <action type="NICK" value="六脉传人" />
+    <action type="LOG" value="天龙寺胜鸠摩智，段誉和木婉清被成全。" />
+    <result ret="0">
+      <control type="map" value="大地图">
+        <condition type="key_not_in_team" value="女主" />
+      </control>
+      <control type="story" value="original_女主.天龙八部.天龙寺六脉神剑">
+        <condition type="key_in_team" value="女主" />
+        <condition type="should_finish" value="original_长安.家中"/>
+      </control>
+    </result>
+  </story>
+  <story name="tlbb.dy_天龙寺.战鸠摩智">
+    <action type="BACKGROUND" value="地图.佛堂" />
+    <action type="MUSIC" value="音乐.天龙八部.佛音4" />
+    <action type="DIALOG" value="段誉#伯父，我身上好难受…" />
+    <action type="DIALOG" value="段正明#誉儿，你再坚持一下。枯荣大师定有办法。（誉儿这吸取内力的邪功好霸道！）" />
+    <action type="DIALOG" value="鸠摩智#废话我也不说了，我就是来抢六脉神剑谱的。这些少林武功啊、火焰刀啊什么的秘籍，你们爱拿去就拿去吧，都是赠送品。" />
+    <action type="DIALOG" value="枯荣大师#六脉神剑是我段家的传家宝贝，怎么能给你！（枯荣大师烧毁剑谱）" />
+    <action type="DIALOG" value="鸠摩智#你们反正又学不会，何必呢…" />
+    <action type="DIALOG" value="段誉#（啊，好难受，刚刚剑谱上的小人，运气…）哇，剑气耶！" />
+    <action type="DIALOG" value="鸠摩智#！（这小子原来是本活剑谱）" />
+    <action type="DIALOG" value="主角#大和尚，抢什么抢，六脉神剑是我的，这些顶级武功都是我的！" />
+    <action type="BATTLE" value="天龙寺.战鸠摩智_战斗" />
+    <result ret="win" type="story" value="tlbb.dy_天龙寺.战鸠摩智胜" />
+    <result ret="lose" type="story" value="tlbb.dy_天龙寺.战鸠摩智负" />
+  </story>
+  <story name="tlbb.dy_天龙寺.战鸠摩智胜">
+    <action type="BACKGROUND" value="地图.佛堂" />
+    <action type="MUSIC" value="音乐.天龙八部.佛音4" />
+    <action type="ITEM" value="火焰刀秘籍#1" />
+    <action type="NICK" value="枯荣刹那" />
+    <action type="DIALOG" value="鸠摩智#（抓住段誉）哼，终究是让我抓到了这本活剑谱。" />
+    <action type="DIALOG" value="段誉#啊，救命啊！（六脉神剑关键时候又不灵了）" />
+    <action type="DIALOG" value="鸠摩智#这就带你去慕容博老先生墓前活祭他！" />
+    <action type="DIALOG" value="段誉#啊！好野蛮啊！" />
+    <action type="DIALOG" value="主角#追！" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="tlbb.dy_天龙寺.战鸠摩智负">
+    <action type="BACKGROUND" value="地图.佛堂" />
+    <action type="MUSIC" value="音乐.天龙八部.佛音4" />
+    <action type="DIALOG" value="鸠摩智#（抓住段誉）哼，终究是让我抓到了这本活剑谱。" />
+    <action type="DIALOG" value="段誉#啊，救命啊！（六脉神剑关键时候又不灵了）" />
+    <action type="DIALOG" value="鸠摩智#这就带你去慕容博老先生墓前活祭他！" />
+    <action type="DIALOG" value="段誉#啊！好野蛮啊！" />
+    <action type="DIALOG" value="主角#追！" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="tlbb.dy_曼陀山庄1">
+    <action type="BACKGROUND" value="地图.院内" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="主角#咦？段誉？你不是被鸠摩智抓走了么？" />
+    <action type="DIALOG" value="段誉#是啊，后来那大和尚把我俘虏到江南。多亏了阿朱阿碧两位姐姐相救，在王夫人这里暂住。" />
+    <action type="DIALOG" value="主角#唉，那你现在有何打算？" />
+    <action type="DIALOG" value="段誉#我告诉你哦。" />
+    <action type="DIALOG" value="主角#？" />
+    <action type="DIALOG" value="段誉#你不要偷偷跟别人讲哦。" />
+    <action type="DIALOG" value="主角#？" />
+    <action type="DIALOG" value="段誉#你真的不要跟别人讲哦。" />
+    <action type="DIALOG" value="主角#…你再啰嗦，我就把你押回大理去。" />
+    <action type="DIALOG" value="段誉#哎呀，我不回去，我哪里都不去。我跟你讲，这曼陀山庄里有位王姑娘，长得跟无量山洞里的神仙姐姐一模一样。" />
+    <action type="DIALOG" value="主角#所以呢？" />
+    <action type="DIALOG" value="段誉#（大义凛然状）所以我要泡她。" />
+    <action type="DIALOG" value="主角#......" />
+    <result ret="0" type="story" value="tlbb.dy_曼陀山庄2" />
+  </story>
+  <story name="tlbb.dy_曼陀山庄2">
+    <action type="BACKGROUND" value="地图.院内" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="包不同#非也非也，王姑娘是我们家慕容公子的，你这癞蛤蟆可别想了。" />
+    <action type="DIALOG" value="风波恶#我们要北上寻找慕容公子了，带上你这小子实在是麻烦。你快滚吧。" />
+    <action type="DIALOG" value="段誉#啊，两位大爷…" />
+    <action type="DIALOG" value="主角#我说段誉，你好歹是堂堂大理王储，他们也太不给面子了。" />
+    <action type="DIALOG" value="包不同#非也非也，江湖人不讲王法。" />
+    <action type="DIALOG" value="主角#他们这么欺负你，我给你出气！" />
+    <action type="BATTLE" value="曼陀山庄_战斗" />
+    <result ret="win" type="story" value="tlbb.dy_曼陀山庄胜" />
+    <result ret="lose" type="story" value="tlbb.dy_曼陀山庄负" />
+  </story>
+  <story name="tlbb.dy_曼陀山庄胜">
+    <action type="BACKGROUND" value="地图.院内" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="ITEM" value="参合指书#1" />
+    <action type="DIALOG" value="包不同#打不过你是一回事，但是这小子我们就不带。" />
+    <result ret="0" type="story" value="tlbb.dy_曼陀山庄3" />
+  </story>
+  <story name="tlbb.dy_曼陀山庄负">
+    <action type="BACKGROUND" value="地图.院内" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="包不同#哎呀，一只摇尾乞怜的流浪狗，一只干不过架的三脚猫，真般配呀真般配。" />
+    <result ret="0" type="story" value="tlbb.dy_曼陀山庄3" />
+  </story>
+  <story name="tlbb.dy_曼陀山庄3">
+    <action type="BACKGROUND" value="地图.院内" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="主角#算了，段誉，跟我走！" />
+    <action type="DIALOG" value="段誉#王姑娘..." />
+    <action type="DIALOG" value="主角#走啦，别丢人现眼了。" />
+    <action type="JOIN" value="段誉" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="tlbb.dy_江南酒楼1">
+    <action type="BACKGROUND" value="地图.酒楼" />
+    <action type="MUSIC" value="音乐.天龙八部2" />
+    <action type="DIALOG" value="段誉#唉，郁闷啊。陪我喝酒吧。" />
+    <action type="DIALOG" value="主角#我可不行，那边那个壮汉，看起来喝酒很猛，你去跟他拼。" />
+    <action type="DIALOG" value="段誉#兄台，我郁闷啊，陪我喝酒吧。" />
+    <action type="DIALOG" value="乔峰#？" />
+    <action type="DIALOG" value="段誉#你说我，活到现在。好不容易有个对我又好，我也很喜欢的姑娘，结果却是自己亲妹妹。" />
+    <action type="DIALOG" value="段誉#你说我郁闷不？" />
+    <action type="DIALOG" value="乔峰#那只能怪你爹。" />
+    <action type="DIALOG" value="段誉#又有个妹子对我好，身娇体软易推倒，闹了一场又是我亲妹妹。" />
+    <action type="DIALOG" value="段誉#你说我郁闷不？" />
+    <action type="DIALOG" value="乔峰#你爹太牛了。" />
+    <action type="DIALOG" value="段誉#好不容易，又碰到一个神仙姐姐一般的好妹子，偏偏一颗芳心早有所属。" />
+    <action type="DIALOG" value="段誉#你说我郁闷不？" />
+    <action type="DIALOG" value="乔峰#至少不是你妹妹，好一点了。" />
+    <action type="DIALOG" value="段誉#那难说，这要回去问问爹才知道。" />
+    <action type="DIALOG" value="乔峰#......" />
+    <action type="DIALOG" value="段誉#我这么郁闷，你就陪我喝一壶吧。" />
+    <action type="DIALOG" value="乔峰#好！喝一把！为了你牛比的爹，干一壶！" />
+    <action type="DIALOG" value="段誉#干一壶！" />
+    <action type="DIALOG" value="主角#两人喝了一壶又一壶，段誉不行了，开始作弊…" />
+    <action type="DIALOG" value="乔峰#（此人虽然是个书呆子，但酒量着实惊人）" />
+    <action type="DIALOG" value="段誉#唉，不行了。不喝了。" />
+    <action type="DIALOG" value="乔峰#我看你还挺猛啊。" />
+    <action type="DIALOG" value="段誉#不行了，不瞒你说，我刚刚一直在用内力把酒逼出体外，累死了。" />
+    <action type="DIALOG" value="乔峰#（内力逼酒，好俊的功夫！）足下可是姑苏慕容复？" />
+    <action type="DIALOG" value="段誉#呸，我最恨慕容复，抢我的神仙姐姐！" />
+    <action type="DIALOG" value="乔峰#兄弟内功奇高，乔某佩服。来，我们再比比脚力！" />
+    <result ret="0" type="story" value="tlbb.dy_江南酒楼2" />
+  </story>
+  <story name="tlbb.dy_江南酒楼2">
+    <action type="BACKGROUND" value="地图.郊野" />
+    <action type="MUSIC" value="音乐.天龙八部2" />
+    <action type="DIALOG" value="乔峰#好高明的轻功，果然人外有人，我乔峰今天输了，哈哈。" />
+    <action type="DIALOG" value="段誉#大哥你好厉害，我还没有见过第二个能跟凌波微步赛跑的人。今天又喝酒，又赛跑，太尽兴了！不如我们结拜为兄弟吧？" />
+    <action type="DIALOG" value="乔峰#好！" />
+    <action type="DIALOG" value="主角#两人结拜为兄弟。" />
+    <action type="DIALOG" value="乔峰#今日结交你这位兄弟，乔某甚感高兴！来，我们再走上两招！" />
+    <action type="BATTLE" value="江南郊野_战斗" />
+    <result ret="win" type="story" value="tlbb.dy_江南酒楼2胜" />
+    <result ret="lose" type="story" value="tlbb.dy_江南酒楼2负" />
+  </story>
+  <story name="tlbb.dy_江南酒楼2胜">
+    <action type="BACKGROUND" value="地图.郊野" />
+    <action type="MUSIC" value="音乐.天龙八部2" />
+    <action type="ITEM" value="擒龙功#1" />
+    <action type="DIALOG" value="段誉#与大哥过招，果然收益良多！" />
+    <action type="UPGRADE.MAXHP" value="段誉#1000" />
+    <action type="UPGRADE.MAXMP" value="段誉#1000" />
+    <action type="GET_POINT" value="段誉#20" />
+    <action type="UPGRADE.拳掌" value="段誉#20" />
+    <action type="LEARN.SKILL" value="段誉#擒龙功#10" />
+    <action type="NICK" value="结义金兰" />
+    <action type="DIALOG" value="乔峰#二弟，可惜我今日帮中还有要事，先行一步了。欢迎随时来丐帮找我，我们后会有期！" />
+  </story>
+  <story name="tlbb.dy_江南酒楼2负">
+    <action type="BACKGROUND" value="地图.郊野" />
+    <action type="MUSIC" value="音乐.天龙八部2" />
+    <action type="DIALOG" value="段誉#与大哥过招，果然收益良多！" />
+    <action type="UPGRADE.MAXHP" value="段誉#1000" />
+    <action type="UPGRADE.MAXMP" value="段誉#1000" />
+    <action type="GET_POINT" value="段誉#20" />
+    <action type="UPGRADE.拳掌" value="段誉#20" />
+    <action type="LEARN.SKILL" value="段誉#擒龙功#10" />
+    <action type="DIALOG" value="乔峰#二弟，可惜我今日帮中还有要事，先行一步了。欢迎随时来丐帮找我，我们后会有期！" />
+  </story>
+  <story name="tlbb.dy_丐帮总舵">
+    <action type="BACKGROUND" value="地图.丐帮" />
+    <action type="MUSIC" value="音乐.天龙八部2" />
+    <action type="DIALOG" value="丐帮弟子#飞雪连天射白鹿。" />
+    <action type="DIALOG" value="主角#笑书神侠倚碧鸳。" />
+    <action type="DIALOG" value="丐帮弟子#天王盖地虎。" />
+    <action type="DIALOG" value="主角#宝塔镇河妖。" />
+    <action type="DIALOG" value="丐帮弟子#哇，都答对了！地振高冈，一派溪山千古秀。" />
+    <action type="DIALOG" value="主角#你妹。" />
+    <action type="DIALOG" value="丐帮弟子#......" />
+    <action type="DIALOG" value="主角#对来对去烦死了，你到底让不让我进去啊。" />
+    <action type="DIALOG" value="丐帮弟子#你不对对子，我就不让你进去。" />
+    <action type="DIALOG" value="主角#那就来硬的！" />
+    <action type="BATTLE" value="丐帮弟子_战斗" />
+    <result ret="win" type="story" value="tlbb.dy_丐帮总舵胜" />
+    <result ret="lose" type="story" value="tlbb.dy_丐帮总舵负" />
+  </story>
+  <story name="tlbb.dy_丐帮总舵胜">
+    <action type="BACKGROUND" value="地图.丐帮" />
+    <action type="MUSIC" value="音乐.天龙八部2" />
+    <action type="DIALOG" value="主角#嘻嘻。" />
+    <action type="DIALOG" value="丐帮弟子#......" />
+    <action type="DIALOG" value="丐帮弟子#过了打狗大阵，以后阁下可以随时出入丐帮了。" />
+    <result ret="0" type="map" value="丐帮"/>
+  </story>
+  <story name="tlbb.dy_丐帮总舵负">
+    <action type="BACKGROUND" value="地图.丐帮" />
+    <action type="MUSIC" value="音乐.天龙八部2" />
+    <action type="DIALOG" value="主角#......" />
+    <action type="DIALOG" value="丐帮弟子#太弱了，下次再来挑战吧。" />
+  </story>
+  <story name="tlbb.dy_丐帮大变1">
+    <action type="BACKGROUND" value="地图.丐帮" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="乔峰#不可能，这不可能！" />
+    <action type="DIALOG" value="执法长老#乔帮主，我且还称你为一声帮主。你契丹人的身份真真确确，绝无疑义。" />
+    <action type="DIALOG" value="乔峰#你胡说！" />
+    <action type="DIALOG" value="传功长老#萧峰，我们养虎为患，终成大祸。你武功一日高强，我中华武林一日不得安宁。" />
+    <action type="DIALOG" value="乔峰#诸位兄弟，我乔峰的为人，这么多年来，大家清清楚楚。今日之事，必有蹊跷。我乔峰今日暂辞去帮主之位，打狗棒交回。待我查明真相，再来向各位兄弟交代！" />
+    <action type="DIALOG" value="全冠清#姓萧的，你别以为可以想走就走！" />
+    <action type="DIALOG" value="主角#一群迂腐不化的呆子。段誉，我们替你大哥教训这帮蠢驴！" />
+    <action type="DIALOG" value="段誉#嗯..." />
+    <action type="DIALOG" value="主角#段誉？上啊？" />
+    <action type="DIALOG" value="段誉#我看到王姑娘了耶...你看，在那里，在那里。" />
+    <action type="DIALOG" value="王语嫣#......（这个呆子，真的好生无礼）" />
+    <action type="DIALOG" value="段誉#Hi，王姑娘~" />
+    <action type="DIALOG" value="主角#要泡妹子可以，打完这仗再说！" />
+    <action type="BATTLE" value="丐帮大变1_战斗" />
+    <result ret="win" type="story" value="tlbb.dy_丐帮大变2" />
+  </story>
+  <story name="tlbb.dy_丐帮大变2">
+    <action type="BACKGROUND" value="地图.丐帮" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="主角#咦？乔帮主呢？" />
+    <action type="DIALOG" value="段誉#大哥怕是心情抑郁，又不忍心见兄弟反目，一个人先走了。" />
+    <action type="DIALOG" value="主角#此事事关重大，我们一定要查个水落石出！段誉，你怎么看？" />
+    <action type="DIALOG" value="段誉#我看此中必有蹊跷..." />
+    <action type="DIALOG" value="主角#丐帮这帮废物，没有了乔帮主就不堪一击。" />
+    <action type="DIALOG" value="段延庆#没错，这帮废物不堪一击，都给我抓起来！" />
+    <action type="DIALOG" value="主角#西夏人！" />
+    <action type="BATTLE" value="丐帮大变2_战斗" />
+    <result ret="win" type="story" value="tlbb.dy_丐帮大变3" />
+  </story>
+  <story name="tlbb.dy_丐帮大变3">
+    <action type="BACKGROUND" value="地图.丐帮" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="段延庆#哼，阁下身手不凡。西夏一品堂改日再请赐教！撤！" />
+    <action type="LOG" value="丐帮大变，帮主乔峰出走。" />
+    <action type="DIALOG" value="主角#呼呼，打跑了。咦？段誉呢？" />
+    <result ret="0" type="story" value="tlbb.dy_丐帮大变.王语嫣1" />
+  </story>
+  <story name="tlbb.dy_少林寺1">
+    <action type="BACKGROUND" value="地图.室内" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="乔峰#师父！我来晚了一步，究竟是谁害死了你！" />
+    <action type="DIALOG" value="主角#怎么了？" />
+    <action type="DIALOG" value="乔峰#我本欲上少林追寻身世之谜，不料我在少林的授业恩师玄苦大师，被人抢先一步用强劲掌力杀害。师父，我对不起你..." />
+    <action type="DIALOG" value="主角#这事情越来越蹊跷了，仿佛后面有一个大阴谋。" />
+    <action type="DIALOG" value="乔峰#我只想知道，我到底是谁..." />
+    <result ret="0" type="story" value="tlbb.dy_少林寺2" />
+  </story>
+  <story name="tlbb.dy_少林寺2">
+    <action type="BACKGROUND" value="地图.室内" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="玄慈方丈#阿弥陀佛！野兽尚且懂得反哺养育之恩，萧施主，你先杀乔三槐夫妇，又杀授业恩师，所谓到底是何！" />
+    <action type="DIALOG" value="乔峰#不是我！" />
+    <action type="DIALOG" value="玄慈方丈#给我拿下！" />
+    <action type="DIALOG" value="乔峰#少林于我有养育之恩，乔某不愿与众位为敌，先行告退，待查明真相后再携真凶首级祭拜师父！" />
+    <action type="DIALOG" value="玄慈方丈#追！" />
+    <action type="DIALOG" value="主角#段誉，我们掩护乔帮主离开！" />
+    <action type="DIALOG" value="段誉#好！" />
+    <action type="LOG" value="少林寺玄苦大师五脏俱裂而死。" />
+    <action type="BATTLE" value="少林寺乔峰_战斗" />
+    <result ret="win" type="story" value="tlbb.dy_少林寺3胜" />
+    <result ret="lose" type="story" value="tlbb.dy_少林寺3负" />
+  </story>
+  <story name="tlbb.dy_少林寺3胜">
+    <action type="BACKGROUND" value="地图.室内" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="ITEM" value="大金刚掌法#1" />
+    <action type="DIALOG" value="段誉#少林寺卧虎藏龙，咱们也先撤吧。" />
+    <action type="DIALOG" value="主角#嗯，好。" />
+    <result ret="0">
+      <control type="map" value="大地图">
+        <condition type="not_in_team" value="阿朱" />
+      </control>
+      <control type="story" value="tlbb.dy_少林寺.阿朱" />
+    </result>
+  </story>
+  <story name="tlbb.dy_少林寺3负">
+    <action type="BACKGROUND" value="地图.室内" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="段誉#呼，好厉害，咱们也先撤吧。" />
+    <action type="DIALOG" value="主角#嗯，好。" />
+    <result ret="0">
+      <control type="map" value="大地图">
+        <condition type="not_in_team" value="阿朱" />
+      </control>
+      <control type="story" value="tlbb.dy_少林寺.阿朱" />
+    </result>
+  </story>
+  <story name="tlbb.dy_少林寺.阿朱">
+    <action type="BACKGROUND" value="地图.室内" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="阿朱#乔大爷...（乔大爷英雄盖世，绝不会杀害父母和师父！）" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="tlbb.dy_聚贤庄1">
+    <action type="BACKGROUND" value="地图.聚贤庄" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感2" />
+    <action type="DIALOG" value="乔峰#好！你们都说我是契丹狗！我乔峰今日，便与天下英雄一较高下！" />
+    <action type="DIALOG" value="传功长老#乔帮主！这是我最后一次称呼你为帮主了！喝完这壶酒，我们恩断义绝！" />
+    <action type="DIALOG" value="乔峰#（仰天大笑）好！丐帮的兄弟，咱们一饮而尽！" />
+    <action type="DIALOG" value="主角#乔峰与众兄弟一一喝完绝交酒。" />
+    <action type="DIALOG" value="乔峰#好！谁要送死，第一个上来吧！" />
+    <action type="DIALOG" value="段誉#大哥！我来助你！" />
+    <action type="BATTLE" value="聚贤庄_战斗" />
+    <result ret="win" type="story" value="tlbb.dy_聚贤庄2" />
+  </story>
+  <story name="tlbb.dy_聚贤庄2">
+    <action type="BACKGROUND" value="地图.聚贤庄" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="乔峰#我乔峰今日铸成大错，这丐帮，是回不去了。但是我的身世，我一定要查个水落石出！" />
+    <action type="DIALOG" value="段誉#大哥，这些俗人憎恨你是契丹人，其实更因为他们畏惧你的武功。他们越是反应激烈，越是说明内心的恐惧。" />
+    <action type="DIALOG" value="主角#唉，契丹人也好，汉人也罢，又有什么区别呢。乔帮主你心向何处，才是最重要的啊。" />
+    <result ret="0">
+      <control type="story" value="tlbb.dy_聚贤庄3">
+        <condition type="not_in_team" value="阿朱" />
+      </control>
+      <control type="story" value="tlbb.dy_聚贤庄.阿朱" />
+    </result>
+  </story>
+  <story name="tlbb.dy_聚贤庄.阿朱">
+    <action type="BACKGROUND" value="地图.聚贤庄" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="阿朱#是啊，乔大爷，公子所言甚是。身世一节，又何必耿耿于怀。你是契丹人也好，汉人也罢，都是我们心中的大英雄。" />
+    <action type="DIALOG" value="乔峰#（慕容家的一个丫鬟，见识也是如此不凡，我乔峰真是浅陋了）" />
+    <result ret="0" type="story" value="tlbb.dy_聚贤庄3" />
+  </story>
+  <story name="tlbb.dy_聚贤庄3">
+    <action type="BACKGROUND" value="地图.聚贤庄" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="乔峰#谢谢几位好兄弟的安慰，乔某心下舒服多了。只是身世一天未明，一日乔某寝食难安。待到查明真相，再与几位兄弟一起喝酒！" />
+    <action type="LOG" value="聚贤庄上，虽万人吾亦往矣。" />
+  </story>
+  <story name="tlbb.dy_雁门关">
+    <action type="DIALOG" value="乔峰#不！不会的！这不是真的！！" />
+    <action type="DIALOG" value="主角#（胸口的狼首刺青...看来乔峰果然是契丹人无疑）" />
+    <action type="DIALOG" value="主角#乔帮主，即算你是契丹人，可契丹人中也有好人，汉人中也有恶棍。乔帮主武功盖世，豪气干云，又何必拘泥于种族之争呢。" />
+    <action type="DIALOG" value="乔峰#不！（乔峰狂性大作）" />
+    <action type="BATTLE" value="雁门关_战斗" />
+    <result ret="win">
+      <control type="story" value="tlbb.dy_雁门关无阿朱">
+        <condition type="not_in_team" value="阿朱" />
+      </control>
+      <control type="story" value="tlbb.dy_雁门关有阿朱" />
+    </result>
+  </story>
+  <story name="tlbb.dy_雁门关无阿朱">
+    <action type="BACKGROUND" value="地图.雁门关" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="ITEM" value="降龙十八掌谱#1" />
+    <action type="DIALOG" value="乔峰#（颓然）兄弟，谢谢你。可是我身世已经明朗，中原再无我容身之所。" />
+    <action type="DIALOG" value="段誉#大哥，不妨来我大理！" />
+    <action type="DIALOG" value="乔峰#二弟，谢谢你一片美意。只是乔某身世虽名，使命未尽。我非得查清楚当年的来龙去脉不可。" />
+    <action type="DIALOG" value="乔峰#二位兄弟，告辞了！" />
+    <action type="LOG" value="雁门关外，乔峰身世大白，黯然离去。" />
+    <action type="NICK" value="降龙神掌" />
+  </story>
+  <story name="tlbb.dy_雁门关有阿朱">
+    <action type="BACKGROUND" value="地图.雁门关" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="乔峰#（颓然）兄弟，谢谢你。可是我身世已经明朗，中原再无我容身之所。" />
+    <action type="DIALOG" value="阿朱#乔大爷，你别把这种事情放在心上。你是汉人也好，契丹人也好，本是没有什么分别的。" />
+    <action type="DIALOG" value="乔峰#（冷冷）我不用你可怜。阿朱姑娘，你心中瞧不起我，也不必假惺惺说什么好话。" />
+    <action type="DIALOG" value="阿朱#（他既知自己确是契丹胡虏，说不定便归漠北，从此不踏入中土一步）" />
+    <action type="DIALOG" value="阿朱#乔大爷，你是契丹的大英雄，瞧不起我这低三下四的丫鬟。我心里最敬重的，便是你乔大爷。你如今这样言语，我便陪你死在这里好了。" />
+    <action type="DIALOG" value="乔峰#（知道阿朱对自己好，心下感动）阿朱，你是慕容公子的丫环，又不是我的丫环，我……我怎会瞧不起你？" />
+    <action type="DIALOG" value="阿朱#（学着乔峰顽皮说话）我不用你可怜，你心中瞧不起我，也不用假惺惺的说什么好话。" />
+    <action type="DIALOG" value="乔峰#（哑然失笑）" />
+    <action type="DIALOG" value="阿朱#（正色说道）乔大爷，我服侍慕容公子，并不是卖身给他的。只因我从小没了爹娘，流落在外，有一日受人欺凌，慕容老爷见到了，救了我回家。" />
+    <action type="DIALOG" value="阿朱#我孤苦无依，便做了他家的丫环。其实慕容公子也并不真当我是丫环，他还买了几个丫环服侍我呢。" />
+    <action type="DIALOG" value="阿朱#慕容老爷和夫人当年曾说，哪一天我和阿碧想离开燕子坞，他慕容家欢欢喜喜的给我们送行……" />
+    <action type="DIALOG" value="阿朱#今后我服侍你，做你的丫环，慕容公子决不会见怪。" />
+    <action type="DIALOG" value="乔峰#不，不！我是个胡人蛮夷，怎能用什么丫环？你在江南富贵人家住得惯了，跟着我漂泊吃苦，有什么好处？你瞧我这等粗野汉子，也配受你服侍么？" />
+    <action type="DIALOG" value="阿朱#（嫣然一笑）这样吧，我算是给你掳掠来的奴仆，你高兴时向我笑笑，不开心时便打我骂我，好不好呢？" />
+    <action type="DIALOG" value="乔峰#（微笑）我一拳打下来，只怕登时便将你打死了。" />
+    <action type="DIALOG" value="阿朱#当然你只轻轻的打，可不能出手太重。" />
+    <action type="DIALOG" value="乔峰#（哈哈大笑）轻轻的打，不如不打。我也不想要什么奴仆。" />
+    <action type="DIALOG" value="阿朱#你是契丹的大英雄，掳掠几个汉人女子做奴仆，有什么不可？你瞧那些大宋官兵，不也是掳掠了许多契丹人吗？（忽然觉得似乎说错了话，吐了吐舌头）" />
+    <action type="DIALOG" value="乔峰#......" />
+    <action type="DIALOG" value="乔峰#我一向只道契丹人凶恶残暴，虐害汉人，但其实大宋官兵也是一般残杀契丹的老弱妇孺，我……我……阿朱，我是契丹人，从今而后，不再以契丹人为耻，也不以大宋为荣。" />
+    <action type="DIALOG" value="阿朱#我早说胡人中有好有坏，汉人中也有好有坏。胡人没汉人那样狡猾，只怕坏人还更少些呢。" />
+    <action type="DIALOG" value="乔峰#阿朱，我爹爹妈妈被这些汉人无辜害死，此仇非报不可。" />
+    <action type="DIALOG" value="阿朱#乔大哥..." />
+    <action type="DIALOG" value="段誉#大哥，不妨一路同行。" />
+    <action type="DIALOG" value="乔峰#（前日偷听马夫人说，带头大哥可能是大理段正淳。既然是二弟的父亲，同行太不方便了。）还是不了，我一个人再查探一番吧。" />
+    <action type="DIALOG" value="阿朱#（含泪）乔大爷，那你不要阿朱跟随你了么。" />
+    <action type="DIALOG" value="乔峰#（一怔，随即叹一口气）好吧，我们沿途一起查探。阿朱，咱们走吧。" />
+    <action type="DIALOG" value="阿朱#嗯！" />
+    <action type="JOIN" value="乔峰" />
+    <action type="NICK" value="降龙神掌" />
+  </story>
+  <story name="tlbb.dy_丐帮大变.王语嫣1">
+    <action type="BACKGROUND" value="地图.主角之家" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派" />
+    <action type="DIALOG" value="段誉#呼呼，王姑娘，你没事吧？" />
+    <action type="DIALOG" value="王语嫣#那西夏人的悲酥清风好厉害，段公子，我浑身发软，没有力气..." />
+    <action type="DIALOG" value="段誉#这该怎么办啊，怎么办啊？" />
+    <action type="DIALOG" value="李延宗#哼哼，别想跑！" />
+    <action type="DIALOG" value="段誉#可恶，跟你拼了！" />
+    <action type="BATTLE" value="丐帮屋内_战斗" />
+    <result ret="win" type="story" value="tlbb.dy_丐帮大变.王语嫣1胜" />
+    <result ret="lose" type="story" value="tlbb.dy_丐帮大变.王语嫣1负" />
+  </story>
+  <story name="tlbb.dy_丐帮大变.王语嫣1胜">
+    <action type="BACKGROUND" value="地图.主角之家" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派" />
+    <action type="ITEM" value="李延宗的项链#1" />
+    <action type="DIALOG" value="王语嫣#段公子，原来你这么厉害。刚才那人武功很高的！" />
+    <action type="DIALOG" value="段誉#嘻嘻，没啥...（耶！）" />
+    <action type="DIALOG" value="主角#段誉，终于找到你了。我们走吧。" />
+    <action type="DIALOG" value="风波恶#呼呼，王姑娘，原来你在这，我们走吧，去找公子。" />
+    <action type="DIALOG" value="段誉#王姑娘......" />
+    <action type="DIALOG" value="主角#走啦~" />
+    <action type="DIALOG" value="段誉#呜..." />
+  </story>
+  <story name="tlbb.dy_丐帮大变.王语嫣1负">
+    <action type="BACKGROUND" value="地图.主角之家" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派" />
+    <action type="DIALOG" value="王语嫣#段公子，听我指挥，那人这里这里或许还有破绽，你再试试！" />
+    <action type="DIALOG" value="段誉#啊！听王姑娘一席话，段誉茅塞顿开！" />
+    <action type="UPGRADE.拳掌" value="段誉#10" />
+    <action type="UPGRADE.剑法" value="段誉#10" />
+    <action type="UPGRADE.刀法" value="段誉#10" />
+    <action type="UPGRADE.奇门" value="段誉#10" />
+    <action type="DIALOG" value="李延宗#无聊，我先走了。" />
+    <result ret="0" type="story" value="tlbb.dy_丐帮大变.王语嫣1负2" />
+  </story>
+  <story name="tlbb.dy_丐帮大变.王语嫣1负2">
+    <action type="BACKGROUND" value="地图.主角之家" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派" />
+    <action type="DIALOG" value="主角#段誉，终于找到你了。我们走吧。" />
+    <action type="DIALOG" value="风波恶#呼呼，王姑娘，原来你在这，我们走吧，去找公子。" />
+    <action type="DIALOG" value="段誉#王姑娘......" />
+    <action type="DIALOG" value="主角#走啦~" />
+    <action type="DIALOG" value="段誉#呜..." />
+  </story>
+  <story name="tlbb.dy_小镜湖乔峰1">
+    <action type="BACKGROUND" value="地图.小镜湖" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="段正淳#阿星，我来看你了。" />
+    <action type="DIALOG" value="乔峰#（段正淳！马夫人说段正淳就是带头大哥。不错，又有武林声誉，又贵为大理王爷，当年的带头大哥可能就是他！）" />
+    <action type="DIALOG" value="阮星竹#段...段郎？" />
+    <action type="DIALOG" value="阿紫#娘啊，这又是谁啊？" />
+    <action type="DIALOG" value="段正淳#阿星，她叫你娘？" />
+    <action type="DIALOG" value="阮星竹#呸，还不是你这浑水摸鱼的天煞星惹的祸。当年我被迫送走两个女儿，今日能找到阿紫，我已经是高兴到天上去了。" />
+    <action type="DIALOG" value="段正淳#阿星，我也真的好开心啊！" />
+    <action type="DIALOG" value="乔峰#段王爷，你好。能借一步说话吗？" />
+    <action type="DIALOG" value="段正淳#嗯？好。" />
+    <action type="DIALOG" value="乔峰#段王爷，我问你，你可曾因为一件大错事而后悔？" />
+    <action type="DIALOG" value="段正淳#是，我做了错事。（阿星，红棉，青萝，宝宝，小康...）可是我并不后悔。" />
+    <action type="DIALOG" value="乔峰#（不后悔！）你可曾想到，当年的婴孩还会回来？" />
+    <action type="DIALOG" value="段正淳#（阿紫...是的我真高兴）说实话我真的吃了一惊，已经这么大了呢。" />
+    <action type="DIALOG" value="乔峰#（没错，就是你了）好，既然如此，今夜十二点在门外桥上一见吧！" />
+    <action type="DIALOG" value="段正淳#（这么奇怪？算了，乔峰光明磊落，我又何惧。）好！" />
+    <action type="DIALOG" value="段正淳#对了，阿星，你怎么知道阿紫是我们的女儿呢？" />
+    <action type="DIALOG" value="阮星竹#当年我将她们送走，一人脖子上挂着一块金锁。我见到她的金锁，自然就知道是我的女儿了！" />
+    <action type="DIALOG" value="段正淳#阿星，你真聪明。那还有一个女儿，也带着金锁？" />
+    <action type="DIALOG" value="阮星竹#自然带着了，那上面应当写着“天上星，亮晶晶，永灿烂，长安宁”才是。" />
+    <action type="DIALOG" value="阿朱#！！" />
+    <action type="DIALOG" value="阿朱#这......怎么可能如此巧合呢。" />
+    <action type="DIALOG" value="乔峰#阿朱，怎么了？" />
+    <action type="DIALOG" value="阿朱#（金锁在我身上...段王爷是我的爹爹...却又是杀害乔大爷一家的带头大哥...我该怎么办？该怎么办？）" />
+    <action type="DIALOG" value="阿朱#没...没什么。乔大爷，今晚上你一定能将真相水落石出。" />
+    <action type="DIALOG" value="乔峰#嗯！" />
+    <result ret="0" type="story" value="tlbb.dy_小镜湖乔峰2" />
+  </story>
+  <story name="tlbb.dy_小镜湖乔峰2">
+    <action type="BACKGROUND" value="地图.小镜湖晚上" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="主角#当天晚上......" />
+    <action type="DIALOG" value="乔峰#段王爷，你来了！" />
+    <action type="DIALOG" value="段正淳#......" />
+    <action type="DIALOG" value="乔峰#三十年前的雁门关，你还记得被你杀死的契丹女子，跳下悬崖的契丹汉子吗？" />
+    <action type="DIALOG" value="乔峰#你还记得那日襁褓中的婴儿吗？！" />
+    <action type="DIALOG" value="段正淳#......" />
+    <action type="DIALOG" value="乔峰#纳命来！" />
+    <action type="DIALOG" value="主角#（不对！这段正淳是阿朱姐姐假扮的！）住手！" />
+    <action type="DIALOG" value="乔峰#休要拦我！" />
+    <action type="BATTLE" value="小镜湖阿朱王语嫣_战斗" />
+    <result ret="win" type="story" value="tlbb.dy_小镜湖乔峰3" />
+  </story>
+  <story name="tlbb.dy_小镜湖乔峰3">
+    <action type="BACKGROUND" value="地图.小镜湖晚上" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="乔峰#为什么要拦我？" />
+    <action type="DIALOG" value="主角#你看清楚，这到底是不是段正淳。" />
+    <result ret="0" type="story" value="tlbb.dy_小镜湖乔峰4" />
+  </story>
+  <story name="tlbb.dy_小镜湖乔峰4">
+    <action type="BACKGROUND" value="地图.小镜湖晚上" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="阿朱#(揭开面具）......" />
+    <action type="DIALOG" value="乔峰#阿朱？为什么是你？" />
+    <action type="DIALOG" value="阿朱#（含泪）乔大爷，你可知道，段王爷是我的父亲。" />
+    <action type="DIALOG" value="乔峰#这？！" />
+    <action type="DIALOG" value="阿朱#（取出金锁）天上星，亮晶晶。永灿烂，常安宁。你看这金锁，那还会有假的么？" />
+    <action type="DIALOG" value="乔峰#我，这，不对，一定是哪里不对。" />
+    <action type="DIALOG" value="阿朱#乔大爷，我不能让你杀我的父亲。你杀了我吧，我替他还你的债。" />
+    <result ret="0" type="story" value="tlbb.dy_小镜湖乔峰5" />
+  </story>
+  <story name="tlbb.dy_小镜湖乔峰5">
+    <action type="BACKGROUND" value="地图.小镜湖晚上" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="段正淳#这，到底是怎么回事？" />
+    <action type="DIALOG" value="阿朱#！！父亲。" />
+    <action type="DIALOG" value="段正淳#金锁？阿朱，原来你也是我的女儿。" />
+    <action type="DIALOG" value="乔峰#段王爷，三十年前你所说的错事是？" />
+    <action type="DIALOG" value="段正淳#唉，我当年游戏人间，惹了一身情债，这是桩天大的错事啊。" />
+    <action type="DIALOG" value="乔峰#......（仰天长叹）" />
+    <action type="DIALOG" value="乔峰#我乔峰真是莽夫，差点错杀好人。我一路追踪带头大哥，被仇恨迷了心窍，差点连阿朱都杀死了。我真是，唉..." />
+    <action type="DIALOG" value="主角#乔帮主，恭喜你看破此节。" />
+    <action type="DIALOG" value="乔峰#阿朱，谢谢你一路陪伴我。我真是太对不起你了。" />
+    <action type="DIALOG" value="阿朱#（含泪）嘻嘻，乔大爷。你只要开心，阿朱便十分满足了。" />
+    <action type="DIALOG" value="乔峰#是！眼前这么多人关心我，是不是契丹人，找不找得到杀父仇人又有何妨。各位兄弟，请受乔某一拜！" />
+    <action type="DIALOG" value="主角#乔帮主言重了。" />
+    <action type="DIALOG" value="乔峰#段王爷，今日多多得罪。改日一定做东，请你喝个痛快！" />
+    <action type="DIALOG" value="段正淳#那便多谢乔帮主了。" />
+    <action type="DIALOG" value="乔峰#阿朱，今日你和段王爷父女相认，我也很替你高兴。" />
+    <action type="DIALOG" value="阿朱#嗯！" />
+    <action type="DIALOG" value="乔峰#哈哈，差点又干了件糊涂事，多谢小兄弟阻拦！" />
+    <action type="DIALOG" value="主角#小意思，小意思。" />
+    <action type="DIALOG" value="乔峰#此番由怒转惊，由惊转悲，由悲转喜，人生百味，俱在其中！一路体会，于武功也有所裨益。" />
+    <action type="LEARN.TALENT" value="乔峰#天龙.盖世英雄" />
+    <action type="LEARN.TALENT" value="乔峰#清心" />
+    <action type="GET_POINT" value="乔峰#30" />
+    <action type="UPGRADE.MAXHP" value="乔峰#1500" />
+    <action type="UPGRADE.MAXMP" value="乔峰#1500" />
+    <action type="UPGRADE.臂力" value="乔峰#20" />
+    <action type="UPGRADE.定力" value="乔峰#20" />
+    <action type="UPGRADE.拳掌" value="乔峰#40" />
+    <action type="NICK" value="盖世英雄"/>
+    <action type="DIALOG" value="乔峰#阿朱，你和父母好不容易相聚，就留在这里小住几天吧。" />
+    <action type="DIALOG" value="阿朱#不！我要跟你一起！" />
+    <action type="DIALOG" value="乔峰#呃..." />
+    <action type="DIALOG" value="段正淳#呵呵，乔帮主，小女有幸能追随乔帮主。就让她去吧。" />
+    <action type="DIALOG" value="乔峰#唉，好吧。" />
+    <action type="DIALOG" value="阿朱#嘻嘻。" />
+  </story>
+  <story name="tlbb.dy_西夏驸马.酒楼传闻">
+    <action type="DIALOG" value="男子#听说最近，银川公主到出嫁年纪了，邀请天下名流公子来应聘驸马呢。" />
+    <action type="DIALOG" value="主角#嗯？西夏驸马？" />
+  </story>
+  <story name="tlbb.dy_西夏驸马段誉1">
+    <action type="BACKGROUND" value="地图.小镜湖晚上" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="王语嫣#......" />
+    <action type="DIALOG" value="段誉#王姑娘？你怎么会在这里？" />
+    <action type="DIALOG" value="王语嫣#表哥说，他要去当西夏驸马。" />
+    <action type="DIALOG" value="段誉#这？" />
+    <action type="DIALOG" value="王语嫣#她不要我了，不要我了（哭）" />
+    <action type="DIALOG" value="段誉#这个慕容复，真是个混账。这么好的神仙姐姐都不要，却要去当什么西夏驸马。一定是脑子被驴踢了！" />
+    <action type="DIALOG" value="王语嫣#不准你骂表哥！" />
+    <result ret="0" type="story" value="tlbb.dy_西夏驸马段誉2" />
+  </story>
+  <story name="tlbb.dy_西夏驸马段誉2">
+    <action type="BACKGROUND" value="地图.小镜湖晚上" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="慕容复#段公子，你这么说就不对了。我当了西夏驸马，回来再娶表妹做妾，一举两得，不是很好？" />
+    <action type="DIALOG" value="段誉#王姑娘为你一往情深，你却为了功名要去娶什么银川公主，我呸。" />
+    <action type="DIALOG" value="慕容复#（恶狠狠）你懂什么！（不如在此除掉段誉，明日也少了一个劲敌！）" />
+    <result ret="0" type="story" value="tlbb.dy_西夏驸马段誉3" />
+  </story>
+  <story name="tlbb.dy_西夏驸马段誉3">
+    <action type="BACKGROUND" value="地图.小镜湖晚上" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="鸠摩智#哈哈哈哈，慕容公子。你们在这里聊些什么啊。今日我抓了这活剑谱去祭你父亲，岂不妙哉？（明天务必要保证宗赞王子当选，在这里除掉慕容复！）" />
+    <action type="DIALOG" value="慕容复#你这恶和尚，一天到晚打什么鬼主意，以为我不知道？想把握除掉让你们王子当选驸马，那就来试试呀。" />
+    <action type="DIALOG" value="鸠摩智#哈哈哈哈！（正要运功，忽然全身经脉大乱）" />
+    <action type="DIALOG" value="鸠摩智#啊！这是怎么回事！啊啊啊啊啊啊！！！！" />
+    <action type="DIALOG" value="慕容复#滚下去吧！（将鸠摩智打下枯井）" />
+    <result ret="0" type="story" value="tlbb.dy_西夏驸马段誉4" />
+  </story>
+  <story name="tlbb.dy_西夏驸马段誉4">
+    <action type="BACKGROUND" value="地图.小镜湖晚上" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="慕容复#段誉，你也给我下去吧！" />
+    <action type="DIALOG" value="段誉#啊！" />
+    <result ret="0" type="story" value="tlbb.dy_西夏驸马段誉5" />
+  </story>
+  <story name="tlbb.dy_西夏驸马段誉5">
+    <action type="BACKGROUND" value="地图.小镜湖晚上" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="王语嫣#表哥，你为什么要这样？你不是一直很温柔的吗，表哥？段公子他哪里错了？" />
+    <action type="DIALOG" value="慕容复#（皱眉）你左一个段公子，右一个段公子。你眼里到底是我多一些，还是段誉那臭小子多一些！" />
+    <action type="DIALOG" value="王语嫣#我眼里自然是只有你！可是你又何曾正眼看过我？你现在还要去当什么西夏驸马，我不要你去，不要你去！" />
+    <action type="DIALOG" value="慕容复#呸！你懂什么！妇道人家，不要管闲事！" />
+    <action type="DIALOG" value="王语嫣#（哭）我就要管！我明天要让全城的人都知道，姑苏慕容复是一个背信弃义，无情无义的人！" />
+    <action type="DIALOG" value="慕容复#（不能因为表妹而误了大事！成大事不拘小节！）你也给我下去吧！" />
+    <action type="DIALOG" value="王语嫣#啊！" />
+    <result ret="0" type="story" value="tlbb.dy_西夏驸马段誉6" />
+  </story>
+  <story name="tlbb.dy_西夏驸马段誉6">
+    <action type="BACKGROUND" value="地图.枯井底" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派" />
+    <action type="DIALOG" value="段誉#......王姑娘，你没事吧？" />
+    <action type="DIALOG" value="王语嫣#呜呜呜...表哥，表哥他生气了，他不要我了。" />
+    <action type="DIALOG" value="段誉#（血脉喷张，在这枯井之中，忽然忍不住紧紧抱住王语嫣）王姑娘，他不要你，你还有我！" />
+    <action type="DIALOG" value="王语嫣#！" />
+    <action type="DIALOG" value="段誉#我段誉一定会对你好，让你幸福的。慕容公子醉心功名，就让他去吧。我们找个安静的地方一起生活，好吗？" />
+    <action type="DIALOG" value="王语嫣#（一日之间变故太多，心神已乱。靠在段誉胸膛，忽然感觉说不出的温暖）嗯..." />
+    <action type="DIALOG" value="段誉#啊！你答应了！" />
+    <action type="DIALOG" value="王语嫣#嗯..." />
+    <action type="DIALOG" value="段誉#哈哈哈，哈哈哈哈哈，我段誉真是天底下最幸福的人啊！" />
+    <action type="JOIN" value="王语嫣" />
+    <result ret="0" type="story" value="tlbb.dy_西夏驸马段誉7" />
+  </story>
+  <story name="tlbb.dy_西夏驸马段誉7">
+    <action type="BACKGROUND" value="地图.枯井底" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派" />
+    <action type="DIALOG" value="鸠摩智#呃...好难受..." />
+    <action type="DIALOG" value="段誉#糟糕，还有这恶僧！" />
+    <action type="DIALOG" value="鸠摩智#好难受啊！（忽然狂性大发）" />
+    <action type="BATTLE" value="枯井底_战斗" />
+    <result ret="win" type="story" value="tlbb.dy_西夏驸马段誉8" />
+  </story>
+  <story name="tlbb.dy_西夏驸马段誉8">
+    <action type="BACKGROUND" value="地图.枯井底" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派" />
+    <action type="DIALOG" value="鸠摩智#这是什么邪门武功，居然将我的内力吸得干干净净..." />
+    <action type="DIALOG" value="段誉#嫣妹，这恶僧经脉大乱，却被我的北冥神功化解了全身内力。如今虽然经脉恢复，但一身武功恐怕也废了。反而倒是增强了我的功力。" />
+    <action type="UPGRADE.MAXHP" value="段誉#1000" />
+    <action type="UPGRADE.MAXMP" value="段誉#1000" />
+    <action type="GET_POINT" value="段誉#20" />
+    <action type="NICK" value="鸠摩国师" />
+    <action type="DIALOG" value="鸠摩智#呼呼...感谢段公子救命之恩。" />
+    <action type="DIALOG" value="段誉#国师客气了。" />
+    <action type="DIALOG" value="鸠摩智#往日多有得罪，还请见谅。我这内功名为小无相功，是昔日慕容博老先生传授。我只道老先生对我有大恩，却不想到这内功内藏如此凶险。" />
+    <action type="DIALOG" value="鸠摩智#如今武功虽去，心却明朗。佛门中人，本不应该涉足世俗之事太多。如今我就返回吐蕃去，明日王子胜负，与我也无关系了。" />
+    <action type="DIALOG" value="段誉#国师大彻大悟，可喜可贺。" />
+    <action type="DIALOG" value="鸠摩智#阿弥陀佛，恭喜两位成就一段良缘。本座告辞了。这里有一本当时我得到的少林寺的经书，也请一并帮我还给少林寺吧！" />
+    <action type="ITEM" value="少林寺失窃的经书#1" />
+    <action type="DIALOG" value="段誉#嫣妹，如今能和你一起，我真是太幸福了！" />
+    <action type="DIALOG" value="王语嫣#段，段郎..." />
+    <action type="DIALOG" value="主角#呼呼，你们没事吧？" />
+    <action type="DIALOG" value="段誉#没事，没事，好得不得了！" />
+  </story>
+  <story name="tlbb.dy_归还经书">
+    <action type="DIALOG" value="主角#参见方丈。这里有一本鸠摩智让我送还给少林的经书，特此过来归还贵寺。" />
+    <action type="DIALOG" value="方证大师#阿弥陀佛，谢谢施主...施主有善心，能让鸠摩智大彻大悟，真乃佛门大幸！" />
+    <action type="ITEM" value="少林寺失窃的经书#-1" />
+    <result ret="0">
+      <control type="story" value="tlbb.dy_归还经书1">
+        <condition type="should_finish" value="original_少林.无名老僧.胜" />
+      </control>
+      <control type="story" value="tlbb.dy_归还经书2" />
+    </result>
+  </story>
+  <story name="tlbb.dy_归还经书1">
+    <action type="DIALOG" value="无名老僧#阿弥陀佛...小兄弟，这本《法华经》乃少林丢失的重要经书，感谢你了。" />
+    <action type="DIALOG" value="主角#啊，神僧……" />
+    <action type="DIALOG" value="无名老僧#施主立此大功，且又平息了最近许些江湖纷争，你我亦属有缘之人，这本《易筋经》真本，便赠与了施主。" />
+    <action type="DIALOG" value="主角#啊？谢神僧！！（这下赚大发了！）" />
+    <action type="ITEM" value="易筋经真本#1" />
+    <action type="NICK" value="易筋神功" />
+  </story>
+  <story name="tlbb.dy_归还经书2">
+    <action type="DIALOG" value="方证大师#为了感谢施主归还这本重要的《法华经》，请收下这礼物。" />
+    <action type="ITEM" value="金钟罩心法#1" />
+    <action type="DIALOG" value="主角#谢谢方丈！" />
+  </story>
+  <story name="tlbb.dy_少林寺萧远山1">
+    <action type="BACKGROUND" value="地图.大殿" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感2" />
+    <action type="DIALOG" value="主角#哇，今天少林寺好热闹啊！" />
+    <action type="DIALOG" value="段誉#大哥！" />
+    <action type="DIALOG" value="萧峰#二弟！你今天也来了。" />
+    <action type="DIALOG" value="段誉#大哥，今天这是怎么了？" />
+    <action type="DIALOG" value="萧峰#丐帮新来了个铁头的帮主，联合其他各大门派，在这里开英雄大会。为的，恐怕还是对付我萧某人。" />
+    <action type="DIALOG" value="段誉#大哥，你如今已经自称萧某人了。" />
+    <action type="DIALOG" value="萧峰#我既然明了身世，自当如此。萧峰今日不以契丹人为耻，也不以汉人为荣。如今我知道，契丹人里也有热血好男儿，汉人里也有奸诈之徒。" />
+    <action type="DIALOG" value="全冠清#嘿嘿，说到奸诈之徒，萧峰，你在聚贤庄亲手打死昔日丐帮的兄弟，又害死玄苦大师，残杀马夫人、赵钱孙、谭公谭婆等人，更禽兽不如的是居然打死自己的养父母。" />
+    <action type="DIALOG" value="全冠清#契丹狗，真是猪狗不如！" />
+    <action type="DIALOG" value="萧峰#我呸！我萧峰行事光明磊落，你是什么东西，也配向我来发问！滚吧！" />
+    <action type="DIALOG" value="庄聚贤#萧峰，我庄聚贤今日领教你的高招！" />
+    <action type="DIALOG" value="萧峰#你这鬼怪，用的尽是阴邪功夫，我来教教你什么才是丐帮的降龙十八掌！" />
+    <action type="DIALOG" value="慕容复#（剿灭萧峰，正是我扬名立万的大好时候！）萧峰，你这契丹狗贼，天下人人得尔诛之！" />
+    <action type="DIALOG" value="萧峰#好！今日一并领教姑苏慕容斗转星移的高招！" />
+    <action type="DIALOG" value="段誉#大哥，我帮你！" />
+    <action type="DIALOG" value="段延庆#（抓住段誉，夺王位！）哈哈，慕容公子，久仰阁下大名，今日我西夏和大宋携手，剿灭契丹狗贼！" />
+    <action type="BATTLE" value="少林萧远山1_战斗" />
+    <result ret="win" type="story" value="tlbb.dy_少林寺萧远山2" />
+  </story>
+  <story name="tlbb.dy_少林寺萧远山2">
+    <action type="BACKGROUND" value="地图.大殿" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感2" />
+    <action type="DIALOG" value="王语嫣#表哥！段公子，我求求你，不要再打了。" />
+    <action type="DIALOG" value="段誉#（王姑娘求我，我又岂能不从）" />
+    <action type="DIALOG" value="慕容复#（咬牙）该死！（突发袭击）" />
+    <action type="BATTLE" value="少林萧远山2_战斗" />
+    <result ret="win" type="story" value="tlbb.dy_少林寺萧远山31" />
+  </story>
+  <story name="tlbb.dy_少林寺萧远山31">
+    <action type="BACKGROUND" value="地图.大殿" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感2" />
+    <action type="DIALOG" value="慕容复#（面无血色）罢了，罢了，居然如此一败涂地。" />
+    <action type="DIALOG" value="慕容复#我连一个武功尚未能学全的文弱书生都打不过，还谈什么复兴大燕。啊！！（慕容复披头散发，狼狈不堪）" />
+    <action type="DIALOG" value="慕容复#（今日在天下英雄面前受此奇耻大辱，我慕容复还有何脸面立于世间！）还不如死了的好！" />
+    <result ret="0" type="story" value="tlbb.dy_少林寺萧远山32" />
+  </story>
+  <story name="tlbb.dy_少林寺萧远山32">
+    <action type="BACKGROUND" value="地图.大殿" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感2" />
+    <action type="DIALOG" value="神秘慕容博#慢！" />
+    <action type="DIALOG" value="慕容复#！！" />
+    <action type="DIALOG" value="神秘慕容博#你曾祖父到你祖父，到你父亲，再到你，一脉单传。我问你！慕容家的志向你还记不记得！" />
+    <action type="DIALOG" value="慕容复#我当然记得！" />
+    <action type="DIALOG" value="神秘慕容博#成就大事者，不拘小节。如今受了点小挫折就要寻死，你有没有想过慕容家的千秋大计！" />
+    <action type="DIALOG" value="慕容复#！！前辈教训的是！" />
+    <action type="DIALOG" value="神秘慕容博#哈哈哈哈，回去再来过！十年后方可至天下顶尖高手之列！" />
+    <result ret="0" type="story" value="tlbb.dy_少林寺萧远山33" />
+  </story>
+  <story name="tlbb.dy_少林寺萧远山33">
+    <action type="BACKGROUND" value="地图.大殿" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感2" />
+    <action type="DIALOG" value="神秘萧远山#阁下好说笑，十年之后，嘿嘿，若是这小子能得到你的真传，恐怕不用一年也就够了！" />
+    <action type="DIALOG" value="神秘慕容博#你我二人在少林寺中多年，鲜少碰面，彼此对对方武功十分佩服。今天，为何却主动现身？" />
+    <action type="DIALOG" value="神秘萧远山#这正是揭露真相的最好的舞台！是吧，玄慈方丈。不，三十年前的带头大哥！" />
+    <action type="DIALOG" value="萧峰#居然是你！玄慈方丈！" />
+    <action type="DIALOG" value="玄慈方丈#阿弥陀佛...慕容施主，若不是你的书信，三十年前我又如何会做此错事。" />
+    <result ret="0" type="story" value="tlbb.dy_少林寺萧远山41" />
+  </story>
+  <story name="tlbb.dy_少林寺萧远山41">
+    <action type="BACKGROUND" value="地图.大殿" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感2" />
+    <action type="DIALOG" value="慕容博#哈哈哈哈，哈哈哈哈！" />
+    <action type="DIALOG" value="慕容复#爹！原来你没有死！" />
+    <action type="DIALOG" value="玄慈方丈#慕容施主，大错之后，我痛定思痛，才明白。你是大燕皇室遗胄，挑起中原武林与契丹之间的纠纷，原来是想趁乱复兴大燕！" />
+    <action type="DIALOG" value="慕容博#不错！成大事者不拘小节！" />
+    <result ret="0" type="story" value="tlbb.dy_少林寺萧远山42" />
+  </story>
+  <story name="tlbb.dy_少林寺萧远山42">
+    <action type="BACKGROUND" value="地图.大殿" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感2" />
+    <action type="DIALOG" value="萧远山#原来，是你在背后捣鬼！" />
+    <action type="DIALOG" value="萧峰#（此人怎么与我长相一模一样！）难道你是？" />
+    <action type="DIALOG" value="萧远山#不错，峰儿，三十年前这帮中原人想将我们一家人赶尽杀绝，可是我没死！" />
+    <action type="DIALOG" value="萧峰#那杀死乔三槐夫妇、玄苦大师、赵钱孙、谭公谭婆的？" />
+    <action type="DIALOG" value="萧远山#不错，都是我！他们不肯告诉你真相，让你做汉人的奴隶，都该死！" />
+    <action type="DIALOG" value="萧远山#慕容博，玄慈方丈，三十年前的旧账我们该算算了。" />
+    <action type="DIALOG" value="慕容博#哈哈哈，姓萧的。我们改日再聚吧！复儿，我们走！" />
+    <action type="DIALOG" value="萧远山#休想逃跑！追！" />
+    <result ret="0" type="story" value="tlbb.dy_少林寺萧远山5" />
+  </story>
+  <story name="tlbb.dy_少林寺萧远山5">
+    <action type="BACKGROUND" value="地图.大殿" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感2" />
+    <action type="DIALOG" value="萧远山#慕容博，我念你也是一代武林名流。今日我不动手，你自裁谢罪了吧。" />
+    <action type="DIALOG" value="慕容博#姓萧的，你以为你杀得了我？" />
+    <action type="DIALOG" value="萧远山#峰儿，我们一起上！" />
+    <action type="DIALOG" value="慕容复#休要伤害我爹！" />
+    <action type="DIALOG" value="主角#帮谁呢？" />
+    <action type="DIALOG" value="段誉#帮我大哥啊！" />
+    <action type="DIALOG" value="阿碧#公子，奴婢虽然卑微，但是一直跟随公子，求公子帮帮我家公子吧！他只是有点糊涂，他并不坏的！" />
+    <action type="SELECT" value="主角#帮谁呢？#萧峰#慕容复" />
+    <result ret="0" type="story" value="tlbb.dy_少林寺帮助萧峰" />
+    <result ret="1" type="story" value="tlbb.dy_少林寺帮助慕容复" />
+  </story>
+  <story name="tlbb.dy_少林寺帮助萧峰">
+    <action type="BACKGROUND" value="地图.大殿" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感2" />
+    <action type="DIALOG" value="主角#乔帮主，我先帮你打头阵！" />
+    <action type="DIALOG" value="阿碧#公子！罢了，阿碧再呆在这里也无济于事。我们就此别过了。" />
+    <action type="LEAVE" value="阿碧" />
+    <action type="BATTLE" value="少林萧远山帮萧峰_战斗" />
+    <result ret="win" type="story" value="tlbb.dy_少林寺帮助萧峰胜" />
+  </story>
+  <story name="tlbb.dy_少林寺帮助萧峰胜">
+    <action type="BACKGROUND" value="地图.大殿" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感2" />
+    <action type="ITEM" value="斗转星移决#1" />
+    <action type="ITEM" value="斗转星移之法#1" />
+    <result ret="0" type="story" value="tlbb.dy_少林寺萧远山慕容博1" />
+  </story>
+  <story name="tlbb.dy_少林寺帮助慕容复">
+    <action type="BACKGROUND" value="地图.大殿" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感2" />
+    <action type="DIALOG" value="主角#段誉，虽然你大哥没有错，可是他父亲杀死乔三槐夫妇、玄苦大师等人。如此我们不可助纣为虐。" />
+    <action type="DIALOG" value="段誉#可是！" />
+    <action type="DIALOG" value="主角#等等，先让我们平定了这场纠纷。再来讨论这其中的是是非非吧。" />
+    <action type="DIALOG" value="主角#我们来让他们先冷静一下！" />
+    <action type="BATTLE" value="少林萧远山帮慕容复_战斗" />
+    <result ret="win" type="story" value="tlbb.dy_少林寺萧远山慕容博1" />
+  </story>
+  <story name="tlbb.dy_少林寺萧远山慕容博1">
+    <action type="BACKGROUND" value="地图.大殿" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感2" />
+    <action type="DIALOG" value="萧远山#小子，让开！不然我一掌震死你。" />
+    <action type="DIALOG" value="慕容博#小子，快滚一边去。你武功虽然不错，但要破慕容家的斗转星移还早了点。" />
+    <action type="DIALOG" value="主角#......（这两边都有点失去理性了，该怎么收场？）" />
+    <result ret="0" type="story" value="tlbb.dy_少林寺萧远山慕容博2" />
+  </story>
+  <story name="tlbb.dy_少林寺萧远山慕容博2">
+    <action type="BACKGROUND" value="地图.大殿" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感2" />
+    <action type="DIALOG" value="无名老僧#阿弥陀佛，仇恨又生仇恨，灾祸又起灾祸。冤冤相报何时了，两位施主，都罢手吧。" />
+    <action type="DIALOG" value="萧远山#你算老几！" />
+    <action type="DIALOG" value="无名老僧#两位施主在藏经阁偷学少林武功多年。每每两位驾临藏经阁，我总在武功秘籍旁边放着般若经、法华经，可是两位却从不曾瞄上一眼。" />
+    <action type="DIALOG" value="慕容博#（这老头子如果不是虚张声势，那武功也太匪夷所思了。我两人武功已臻化境，尚且对他不知不觉！让我试他一试）呸！" />
+    <action type="DIALOG" value="萧远山#你放屁！（一掌攻去）" />
+    <action type="DIALOG" value="无名老僧#阿弥陀佛...（衣袖飘动间，慕容博、萧远山已经倒毙在地）" />
+    <action type="DIALOG" value="萧峰#爹！" />
+    <action type="DIALOG" value="慕容复#爹！" />
+    <action type="DIALOG" value="无名老僧#阿弥陀佛...（在将两人尸体扶起，飞速点两人周身大穴，不一会儿两人又醒觉过来）" />
+    <action type="DIALOG" value="萧远山#我...不是死了么？" />
+    <action type="DIALOG" value="慕容博#这？" />
+    <action type="DIALOG" value="无名老僧#两位施主，如今死生一关之后，可否有新的体验？" />
+    <action type="DIALOG" value="萧远山#高僧出手的一刹那，萧某想到将死，看着新近重逢的儿子，心中只是说不出的悲。往日的仇恨，实在可笑。" />
+    <action type="DIALOG" value="慕容博#高僧佛法无边，点化我二人。功德无量，阿弥陀佛..." />
+    <action type="DIALOG" value="无名老僧#两位看破死生一节，可喜可贺。不如从此留在少林，精研佛法。" />
+    <action type="DIALOG" value="萧远山#谨遵高僧教诲。" />
+    <action type="DIALOG" value="慕容博#阿弥陀佛..." />
+    <action type="DIALOG" value="萧峰#爹！你这就要留在少林了吗？母亲的仇你不报了吗？" />
+    <action type="DIALOG" value="慕容复#爹！大燕兴国，还请爹爹主持大局啊！" />
+    <action type="DIALOG" value="无名老僧#阿弥陀佛...诸位，萧远山、慕容博两位施主如今既已入空门，红尘俱为往事，各位请回吧。" />
+    <action type="DIALOG" value="主角#......这也未尝不是件好事，我们也走吧。" />
+    <action type="DIALOG" value="段誉#嗯..." />
+  </story>
+  <story name="tlbb.dy_燕子坞慕容复">
+    <action type="BACKGROUND" value="地图.院内" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="阿碧#公子？" />
+    <action type="DIALOG" value="慕容复#阿碧，经过了少林一战。爹心已经死了，我的心也已经死了。" />
+    <action type="DIALOG" value="阿碧#公子，还请振作。" />
+    <action type="DIALOG" value="王语嫣#阿碧，就让我和表哥在这里长居，不再理世事吧。" />
+    <action type="DIALOG" value="主角#慕容公子，你的理想并没有错，只是你的手段不对。" />
+    <action type="DIALOG" value="慕容复#？" />
+    <action type="DIALOG" value="主角#天下唯有德者居之。你往日所作所为，不够光明正大，是以不能令天下英雄信服。" />
+    <action type="DIALOG" value="主角#其实论武功，你也还未能称得上顶尖高手。试想，有朝一日，你慕容复斗转星移大成，又在武林正派树立威名。天下归心，大事依然可期。" />
+    <action type="DIALOG" value="慕容复#兄台所言，极有道理！" />
+    <action type="DIALOG" value="主角#你如今武功未成，威信未立。不如和我一起在武林上闯荡一番，多多磨练！" />
+    <action type="DIALOG" value="阿碧#是啊，公子。你就一起来吧。" />
+    <action type="DIALOG" value="慕容复#好！我随你们去！" />
+    <action type="DIALOG" value="王语嫣#表哥...我也跟你一起去。" />
+    <action type="JOIN" value="慕容复" />
+    <action type="JOIN" value="王语嫣" />
+    <action type="ITEM" value="斗转星移心得#1" />
+    <action type="NICK" value="斗转星移" />
+  </story>
+  <story name="tlbb.dy_无量山洞段誉慕容复">
+    <action type="DIALOG" value="王语嫣#原来这就是段公子所说的，很像我的玉像。" />
+    <action type="DIALOG" value="慕容复#我想这刻的，兴许是姨妈的母亲。" />
+    <action type="DIALOG" value="慕容复#当年逍遥派武功，十分独到。" />
+    <action type="DIALOG" value="段誉#慕容公子，段誉不才，也从中学到了一二。" />
+    <action type="DIALOG" value="慕容复#那日在少林寺，我仔细观察了扫地神僧的武功，或许也融入了斗转星移和逍遥武学的精义。" />
+    <action type="DIALOG" value="段誉#天下武学，本是同源。扫地神僧武功深不可测，会一点也是很正常的。" />
+    <action type="DIALOG" value="慕容复#不如你我也在此参研一番扫地神僧武学，或许会有所得。" />
+    <action type="DIALOG" value="段誉#好！" />
+    <action type="BATTLE" value="无量山洞斗转星移_战斗" />
+    <result ret="win">
+      <control type="story" value="tlbb.dy_无量山洞段誉慕容复胜简单模式">
+        <condition type="game_mode" value="normal" />
+      </control>
+      <control type="story" value="tlbb.dy_无量山洞段誉慕容复胜" />
+    </result>
+    <result ret="lose" type="story" value="tlbb.dy_无量山洞段誉慕容复负" />
+  </story>
+  <story name="tlbb.dy_无量山洞段誉慕容复胜">
+    <action type="DIALOG" value="慕容复#原来如此，原来如此！天下武功尽在这折梅六式！" />
+    <action type="UPGRADE.MAXHP" value="慕容复#1000" />
+    <action type="UPGRADE.MAXMP" value="慕容复#1000" />
+    <action type="GET_POINT" value="慕容复#30" />
+    <action type="UPGRADE.拳掌" value="慕容复#20" />
+    <action type="UPGRADE.剑法" value="慕容复#20" />
+    <action type="UPGRADE.刀法" value="慕容复#20" />
+    <action type="UPGRADE.奇门" value="慕容复#20" />
+    <action type="UPGRADE.MAXHP" value="段誉#1000" />
+    <action type="UPGRADE.MAXMP" value="段誉#1000" />
+    <action type="GET_POINT" value="段誉#30" />
+    <action type="UPGRADE.拳掌" value="段誉#20" />
+    <action type="LEARN.SKILL" value="慕容复#天山折梅手#10" />
+    <action type="LEARN.SKILL" value="慕容复#斗转星移#10" />
+    <action type="LEARN.SKILL" value="段誉#天山折梅手#10" />
+    <action type="LEARN.SKILL" value="段誉#斗转星移#10" />
+    <action type="ITEM" value="斗转星移决#1" />
+    <action type="NICK" value="无量逍遥"/>
+  </story>
+  <story name="tlbb.dy_无量山洞段誉慕容复胜简单模式">
+    <action type="DIALOG" value="慕容复#原来如此，原来如此！天下武功尽在这折梅六式！" />
+    <action type="UPGRADE.MAXHP" value="慕容复#500" />
+    <action type="UPGRADE.MAXMP" value="慕容复#500" />
+    <action type="GET_POINT" value="慕容复#15" />
+    <action type="UPGRADE.拳掌" value="慕容复#10" />
+    <action type="UPGRADE.剑法" value="慕容复#10" />
+    <action type="UPGRADE.刀法" value="慕容复#10" />
+    <action type="UPGRADE.奇门" value="慕容复#10" />
+    <action type="UPGRADE.MAXHP" value="段誉#500" />
+    <action type="UPGRADE.MAXMP" value="段誉#500" />
+    <action type="GET_POINT" value="段誉#15" />
+    <action type="UPGRADE.拳掌" value="段誉#10" />
+    <action type="LEARN.SKILL" value="慕容复#天山折梅手#10" />
+    <action type="LEARN.SKILL" value="慕容复#斗转星移#10" />
+    <action type="LEARN.SKILL" value="段誉#天山折梅手#10" />
+    <action type="LEARN.SKILL" value="段誉#斗转星移#10" />
+    <action type="DIALOG" value="慕容复#好像，还不够过瘾！" />
+    <action type="DIALOG" value="段誉#可能因为是简单模式吧..." />
+  </story>
+  <story name="tlbb.dy_无量山洞段誉慕容复负">
+    <action type="DIALOG" value="慕容复#下次再来试试吧。" />
+  </story>
+  <story name="tlbb.dy_无量山洞段誉慕容复挑战">
+    <action type="DIALOG" value="慕容复#要回忆无名老僧的战斗吗？" />
+    <action type="SELECT" value="主角#要回忆无名老僧的战斗吗？#回忆#算了，下次吧" />
+    <result ret="0" type="story" value="tlbb.dy_无量山洞段誉慕容复挑战_战斗" />
+  </story>
+  <story name="tlbb.dy_无量山洞段誉慕容复挑战_战斗">
+    <action type="BATTLE" value="无量山洞斗转星移_战斗" />
+    <result ret="win">
+      <control type="story" value="tlbb.dy_无量山洞段誉慕容复胜简单模式">
+        <condition type="game_mode" value="normal" />
+      </control>
+      <control type="story" value="tlbb.dy_无量山洞段誉慕容复胜" />
+    </result>
+    <result ret="lose" type="story" value="tlbb.dy_无量山洞段誉慕容复负" />
+  </story>
+  <story name="tlbb.dy_曼陀山庄李青萝1">
+    <action type="BACKGROUND" value="地图.曼陀山庄" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="段誉#这里的山茶花开得真美，只可惜比起我们大理来，还是逊色了半分。" />
+    <action type="DIALOG" value="阿朱#嘘...公子声音小一点，要是让王夫人听见了，小心把我们抓起来去做花肥呢。" />
+    <action type="DIALOG" value="木婉清#这王夫人，可是指的曼陀山庄王夫人？" />
+    <action type="DIALOG" value="阿朱#不错，木姑娘真是见闻广博。" />
+    <action type="DIALOG" value="木婉清#......段郎，我要杀了这个王夫人。" />
+    <action type="DIALOG" value="段誉#（吓一跳）婉妹，你说什么呢？" />
+    <action type="DIALOG" value="木婉清#这是我母亲的交待，曼陀山庄王夫人，是她的死敌。" />
+    <action type="DIALOG" value="段誉#秦阿姨的死敌...难道？" />
+    <action type="DIALOG" value="木婉清#又是你爹的风流债？" />
+    <action type="DIALOG" value="段誉#...那也是你的父亲，婉妹..." />
+    <action type="DIALOG" value="木婉清#哼！我不承认！" />
+    <action type="DIALOG" value="段誉#我们溜进去看看吧！" />
+    <result ret="0" type="story" value="tlbb.dy_曼陀山庄李青萝2" />
+  </story>
+  <story name="tlbb.dy_曼陀山庄李青萝2">
+    <action type="BACKGROUND" value="地图.曼陀山庄" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="王语嫣#表哥此去丐帮，也不知道吉凶如何..." />
+    <action type="DIALOG" value="段誉#（啊！神仙姐姐）" />
+    <action type="DIALOG" value="木婉清#（不准三心二意！）" />
+    <action type="DIALOG" value="王语嫣#啊！" />
+    <action type="DIALOG" value="阿朱#嘘......小姐，我们是自己人..." />
+    <action type="DIALOG" value="李青萝#阿朱！你又带外人擅闯我曼陀山庄，来啊！都抓起来！" />
+    <action type="BATTLE" value="真曼陀山庄_战斗" />
+    <result ret="win" type="story" value="tlbb.dy_曼陀山庄李青萝3" />
+  </story>
+  <story name="tlbb.dy_曼陀山庄李青萝3">
+    <action type="BACKGROUND" value="地图.曼陀山庄" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="木婉清#哼！段郎，让我杀了她！" />
+    <action type="DIALOG" value="段誉#婉妹，何必动不动就说要杀人的。这王夫人虽然凶恶，但养了这一山庄的茶花，想必并非恶人。" />
+    <action type="DIALOG" value="李青萝#（仔细看着木婉清）你是修罗刀秦红棉什么人？" />
+    <action type="DIALOG" value="木婉清#是我娘，怎么了？" />
+    <action type="DIALOG" value="李青萝#秦红棉那贱人，居然生出这么一个如花似玉的女儿。嘿嘿..." />
+    <action type="DIALOG" value="木婉清#（怒）我剜了你的舌头！" />
+    <action type="DIALOG" value="段誉#婉妹，不可！" />
+    <action type="DIALOG" value="李青萝#你叫她妹妹，你又是什么人？等等，你...是刀白凤的儿子？" />
+    <action type="DIALOG" value="段誉#！！" />
+    <action type="DIALOG" value="李青萝#哈哈哈哈，好，好啊。真是不是冤家不聚头。今天我居然栽在了一群后辈手上。" />
+    <action type="DIALOG" value="王语嫣#阿朱姐姐，求求你劝劝你的朋友，放过我们吧。这山庄里的什么我们都可以给你们。" />
+    <action type="DIALOG" value="阿朱#公子..." />
+    <action type="DIALOG" value="段誉#阿朱姐姐，我也不愿意伤人性命。婉妹，这王夫人与秦阿姨的仇，多半也是因为爹爹的原因而起。你若是要杀她，不如让秦阿姨来杀了我泄愤吧。" />
+    <action type="DIALOG" value="木婉清#哼！她和你无亲无故，你干嘛袒护她！" />
+    <action type="DIALOG" value="木婉清#啊，我知道了，你是舍不得她这娇滴滴的女儿伤心！哼！" />
+    <action type="DIALOG" value="段誉#不是这样子的，婉妹！" />
+    <action type="DIALOG" value="木婉清#那是怎样子的？" />
+    <action type="DIALOG" value="段誉#就是不想你杀人嘛，总之此事我一人承担！有什么事情我去跟秦阿姨说！" />
+    <action type="DIALOG" value="木婉清#木鱼脑袋...我怎么舍得你一个人承担。唉，你说不杀，那不杀就是了。" />
+    <action type="DIALOG" value="段誉#嘻嘻，婉妹你最好了。" />
+    <action type="DIALOG" value="木婉清#...不理你。" />
+    <action type="DIALOG" value="段誉#嘻嘻，我们走吧。" />
+    <action type="DIALOG" value="王语嫣#多谢公子。这是我的一片心意，还请收下吧。" />
+    <action type="ITEM" value="王语嫣的武学概要#1" />
+    <action type="NICK" value="曼陀嫣然"/>
+  </story>
+  <story name="tlbb.dy_马夫人1">
+    <action type="BACKGROUND" value="地图.洛阳" />
+    <action type="MUSIC" value="音乐.天龙八部2" />
+    <action type="DIALOG" value="段誉#婉妹，你怎么了？" />
+    <action type="DIALOG" value="木婉清#这里，又有娘的一个死对头。" />
+    <action type="DIALOG" value="段誉#难道又是爹的...啊，头好疼..." />
+    <action type="DIALOG" value="木婉清#我们摸进城去看看情况！" />
+    <result ret="0" type="story" value="tlbb.dy_马夫人2" />
+  </story>
+  <story name="tlbb.dy_马夫人2">
+    <action type="BACKGROUND" value="地图.室内" />
+    <action type="MUSIC" value="音乐.天龙八部2" />
+    <action type="DIALOG" value="马夫人#嘻嘻...段郎，你果然还是来了呢。" />
+    <action type="DIALOG" value="段正淳#小康，我好想你啊。" />
+    <action type="DIALOG" value="木婉清#呸！不要脸！" />
+    <action type="DIALOG" value="段正淳#啊！！！（这是怎么回事啊？！）" />
+    <action type="DIALOG" value="段誉#Hi，老爹..." />
+    <action type="DIALOG" value="段正淳#（嘴巴张成了O字...）誉、誉儿？你怎么会在这里？" />
+    <action type="DIALOG" value="段誉#爹，这应该是我问你的吧..." />
+    <action type="DIALOG" value="段正淳#这太有冲击力了，简直难以令人相信..." />
+    <action type="DIALOG" value="段誉#这貌似也是我的台词吧..." />
+    <action type="DIALOG" value="木婉清#段正淳，你这禽兽不如的东西。如今被我们捉奸在床，我这就带你去见我母亲，让她来发落！" />
+    <action type="DIALOG" value="段誉#婉妹...他也是你爹..." />
+    <action type="DIALOG" value="木婉清#我不管！" />
+    <action type="DIALOG" value="段正淳#誉儿，现在怎么办？" />
+    <action type="DIALOG" value="段誉#这...爹，你总得给婉妹一个交代，让她消消气才行。" />
+    <action type="DIALOG" value="段正淳#唉，罢了。我跟你们一起去见红棉吧。" />
+    <action type="LOG" value="段正淳被儿子、女儿捉奸在床..." />
+    <action type="JOIN" value="段正淳" />
+    <action type="NICK" value="捉奸在床"/>
+    <action type="DIALOG" value="马夫人#等等！段郎，你这就要走了？" />
+    <action type="DIALOG" value="段正淳#小康...你看今天这架势，我儿子和女儿要把我架走，我还能反抗不成么..." />
+    <action type="DIALOG" value="马夫人#薄情寡义的人，别想这么简单就走！好歹我也是丐帮副帮主夫人，来人啊！救命啊！" />
+    <action type="BATTLE" value="马夫人_战斗" />
+    <result ret="win" type="story" value="tlbb.dy_马夫人3" />
+  </story>
+  <story name="tlbb.dy_马夫人3">
+    <action type="BACKGROUND" value="地图.室内" />
+    <action type="MUSIC" value="音乐.天龙八部2" />
+    <action type="DIALOG" value="段誉#（抚额）爹，快走吧..." />
+    <action type="DIALOG" value="段正淳#好，走，走吧..." />
+  </story>
+  <story name="tlbb.dy_秦红棉居秦红棉1">
+    <action type="BACKGROUND" value="地图.琴舍" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派" />
+    <action type="DIALOG" value="木婉清#娘，你看我把谁给你带来了。" />
+    <action type="DIALOG" value="段正淳#红棉，你好..." />
+    <action type="DIALOG" value="秦红棉#段郎..." />
+    <action type="DIALOG" value="段正淳#红棉，我好想你啊。" />
+    <action type="DIALOG" value="秦红棉#少来了，你对谁都是这么说的。" />
+    <action type="DIALOG" value="段正淳#红棉，我是真心的。你性格这么刚烈，这么久没有见到你，我真的好担心你。" />
+    <action type="DIALOG" value="秦红棉#......" />
+    <action type="DIALOG" value="段正淳#当初我教你的五罗轻烟掌，你还记得么。" />
+    <action type="DIALOG" value="秦红棉#段郎......" />
+    <action type="DIALOG" value="段正淳#当时我们多年轻啊，现在我们都老了。不，我老了，你还是那么的美丽，那么可爱。" />
+    <action type="DIALOG" value="秦红棉#段郎......我好开心啊。" />
+    <action type="DIALOG" value="段正淳#红棉，我也是啊。" />
+    <action type="DIALOG" value="秦红棉#段郎，你不要走了。和我一起在这里吧。" />
+    <action type="DIALOG" value="段正淳#咳咳，红棉，你也知道。我的事情比较多..." />
+    <action type="DIALOG" value="秦红棉#哼！只知道哄我开心！然后说一套，做一套！" />
+    <action type="DIALOG" value="木婉清#是啊，娘，别让他走了！" />
+    <action type="DIALOG" value="段誉#额，怎么办？" />
+    <action type="DIALOG" value="段正淳#（誉儿，快救你爹！）" />
+    <action type="DIALOG" value="段誉#（爹！我也不知道该帮谁啊！）" />
+    <action type="DIALOG" value="段正淳#（当然是帮我啊！！）" />
+    <action type="DIALOG" value="段誉#（可是我觉得你这样挺过分啊！）" />
+    <action type="DIALOG" value="段正淳#（男人嘛！！！）" />
+    <action type="DIALOG" value="段正淳#（你连自己妹妹都泡了，我还没追究呢！）" />
+    <action type="DIALOG" value="段誉#（好吧...你赢了）" />
+    <action type="DIALOG" value="段誉#咳咳，这样吧。秦阿姨，您也知道爹位高权重，大理不可没有了他。可是您又不肯回大理去。那就让爹跟我们走，有婉妹跟着他，让他不乱来，好不好？" />
+    <action type="DIALOG" value="秦红棉#唉，其实这么多年，我争夺的心早就弱了。如果你能对婉儿好，往事就一笔勾销吧。" />
+    <action type="DIALOG" value="段正淳#红棉，你真好。" />
+    <action type="DIALOG" value="秦红棉#唉，你们走吧。" />
+    <action type="DIALOG" value="秦红棉#对了，婉儿。" />
+    <action type="DIALOG" value="木婉清#？" />
+    <action type="DIALOG" value="秦红棉#这么多年，娘一直隐瞒你的身世，希望你原谅我。" />
+    <action type="DIALOG" value="木婉清#（眼睛湿润）我从来就没有怪过你。" />
+    <action type="DIALOG" value="秦红棉#那就好..." />
+  </story>
+  <story name="tlbb.dy_小镜湖阮星竹1">
+    <action type="BACKGROUND" value="地图.小镜湖晚上" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="阮星竹#段...段郎？" />
+    <action type="DIALOG" value="阿紫#娘啊，这又是谁啊？" />
+    <action type="DIALOG" value="段正淳#阿星，她叫你娘？" />
+    <action type="DIALOG" value="阮星竹#呸，还不是你这浑水摸鱼的天煞星惹的祸。当年我被迫送走两个女儿，今日能找到阿紫，我已经是高兴到天上去了。" />
+    <action type="DIALOG" value="段正淳#阿星，我也真的好开心啊！不过，你怎么知道她是我们的女儿呢？" />
+    <action type="DIALOG" value="阮星竹#当年我将她们送走，一人脖子上挂着一块金锁。我见到她的金锁，自然就知道是我的女儿了！" />
+    <action type="DIALOG" value="段正淳#阿星，你真聪明。那还有一个女儿，也带着金锁？" />
+    <action type="DIALOG" value="阮星竹#自然带着了，那上面应当写着“天上星，亮晶晶，永灿烂，长安宁”才是。" />
+    <action type="DIALOG" value="阿朱#！！" />
+    <action type="DIALOG" value="阿朱#这......怎么可能如此巧合呢。" />
+    <action type="DIALOG" value="段誉#阿朱姐姐，怎么了？" />
+    <action type="DIALOG" value="阿朱#（将金锁哆哆嗦嗦拿出）阮前辈，您说的，难道是这块金锁？" />
+    <action type="DIALOG" value="阮星竹#啊呀！！我的女儿啊！！老天爷，你终于开了眼啊！今天，居然让我与两个女儿重聚了！" />
+    <action type="DIALOG" value="阿朱#（眼泪夺眶而出）娘！我想你想得好苦啊，娘..." />
+    <action type="DIALOG" value="阮星竹#阿紫，阿紫，快来叫姐姐。" />
+    <action type="DIALOG" value="阿紫#姐姐......" />
+    <action type="DIALOG" value="阿朱#嗯...（擦擦眼眶）好妹妹，好妹妹。真好，真好，这是太好了。" />
+    <result ret="0" type="story" value="tlbb.dy_小镜湖阮星竹2" />
+  </story>
+  <story name="tlbb.dy_小镜湖阮星竹2">
+    <action type="BACKGROUND" value="地图.小镜湖晚上" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="刀白凤#哼，原来跑到这里来鬼混了。" />
+    <action type="DIALOG" value="段正淳#哎呀，夫夫夫夫夫，夫人..." />
+    <action type="DIALOG" value="段誉#哎呀，娘娘娘娘娘，娘..." />
+    <action type="DIALOG" value="木婉清#王妃，你好......" />
+    <action type="DIALOG" value="刀白凤#跟我回去吧，这些男男女女的事情，我一次跟你们算个干净。" />
+    <result ret="0" type="story" value="tlbb.dy_小镜湖阮星竹3" />
+  </story>
+  <story name="tlbb.dy_小镜湖阮星竹3">
+    <action type="BACKGROUND" value="地图.小镜湖晚上" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="段延庆#哈哈哈哈，回去？谁说你们回得去？" />
+    <action type="BATTLE" value="小镜湖阮星竹段延庆_战斗" />
+    <result ret="win" type="story" value="tlbb.dy_小镜湖阮星竹4" />
+  </story>
+  <story name="tlbb.dy_小镜湖阮星竹4">
+    <action type="BACKGROUND" value="地图.小镜湖晚上" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="段延庆#打不过不要紧，我还会用阴的，哈哈哈哈。" />
+    <action type="DIALOG" value="主角#糟糕，是悲酥清风！（全体无法动弹）" />
+    <action type="DIALOG" value="段延庆#这段誉似乎是百毒不侵的体质，看我点你穴道！" />
+    <action type="DIALOG" value="段誉#啊！" />
+    <action type="DIALOG" value="段延庆#镇南王，如今我抓住你，和你这些姘头、儿女什么的，去跟保定帝换个王位，你说如何呀？" />
+    <result ret="0" type="story" value="tlbb.dy_小镜湖阮星竹5" />
+  </story>
+  <story name="tlbb.dy_小镜湖阮星竹5">
+    <action type="BACKGROUND" value="地图.小镜湖晚上" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="慕容复#哈哈哈哈，恐怕你是没这个能耐去换王位了！" />
+    <action type="DIALOG" value="段延庆#慕容复？" />
+    <action type="DIALOG" value="阿朱#公...公子？你怎么会在这里？" />
+    <action type="DIALOG" value="慕容复#我跟踪你们一行人多时了。如今上天赐我一个绝好的机会！我只需拿住段正淳一行人，大理兵马任我调遣，复兴大燕指日可待！哈哈哈哈。" />
+    <action type="DIALOG" value="段延庆#跟我争，你还嫩了点！" />
+    <action type="DIALOG" value="慕容复#哈哈哈哈，你也中了我下的悲酥清风。段延庆啊段延庆，这就叫螳螂捕蝉，黄雀在后。" />
+    <action type="DIALOG" value="段延庆#（无法动弹）该死！" />
+    <action type="DIALOG" value="段正淳#你们都疯了，拿住了我，皇兄也不会给你们兵权的。" />
+    <action type="DIALOG" value="慕容复#不给？哈哈哈哈，我就拿你的宝贝儿子，大理段氏的独苗段誉去跟他换，看他给不给！" />
+    <action type="DIALOG" value="刀白凤#不！誉儿！" />
+    <action type="DIALOG" value="慕容复#哈哈哈哈！" />
+    <action type="DIALOG" value="刀白凤#哈哈哈哈！" />
+    <action type="DIALOG" value="慕容复#你笑什么？" />
+    <action type="DIALOG" value="刀白凤#我笑你浅陋无知，还自以为聪明。" />
+    <action type="DIALOG" value="刀白凤#誉儿根本不是什么皇室之后，你拿他去威胁皇上，不是白费心机？" />
+    <action type="DIALOG" value="慕容复#你说什么？" />
+    <action type="DIALOG" value="刀白凤#（缓缓地看着段正淳）誉儿不是你的儿子。" />
+    <action type="DIALOG" value="段正淳#你到底在说什么？！" />
+    <action type="DIALOG" value="段誉#娘，这是怎么回事？" />
+    <action type="DIALOG" value="刀白凤#我还记得，那一天，我和你争吵的很厉害。你在外面沾花惹草，我管不了你。好，我也决定去找一个男人给你好看！" />
+    <action type="DIALOG" value="刀白凤#那天下着雷雨，大理城外的树下躺着一个浑身衣着破烂的流浪汉。我一气之下，便和他......哈哈哈，段正淳啊，你一身自命风流，处处留情，却不曾想到唯一的儿子居然是别人所生！" />
+    <action type="DIALOG" value="段正淳#凤凰儿，你...这是真的吗？" />
+    <action type="DIALOG" value="刀白凤#我生誉儿前十个月，根本不曾与你同房。是真是假，难道你却不知道？" />
+    <action type="DIALOG" value="段正淳#不！这不可能！！" />
+    <action type="DIALOG" value="段延庆#白衣观音......原来那日的白衣观音，居然是你？！" />
+    <action type="DIALOG" value="刀白凤#？！" />
+    <action type="DIALOG" value="段延庆#原来那日在树下温柔待我的白衣观音，是你！原来段誉，是我的孩子？！" />
+    <action type="DIALOG" value="刀白凤#那日在树下的，是你？！" />
+    <action type="DIALOG" value="段延庆#我还清楚地记得，那天，你穿着一身白衣，你头上三朵翠玉金花的簪子，还有你小腹边上那颗黑痣..." />
+    <action type="DIALOG" value="刀白凤#够了！！够了！！你这个丑八怪！我不想再看到你！" />
+    <action type="DIALOG" value="慕容复#啊！！！太混乱了！！！我把你们都杀了，谁都不知道发生了什么，我照样拿着段誉去见保定帝！（挺剑刺去）" />
+    <action type="DIALOG" value="主角#可恶！住手！！（异世人天赋爆发，行动能力恢复！）" />
+    <action type="BATTLE" value="小镜湖阮星竹慕容复_战斗" />
+    <result ret="win" type="story" value="tlbb.dy_小镜湖阮星竹6" />
+  </story>
+  <story name="tlbb.dy_小镜湖阮星竹6">
+    <action type="BACKGROUND" value="地图.小镜湖晚上" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="慕容复#可恶，今天是难以如愿了。撤退！" />
+    <action type="DIALOG" value="段延庆#（白衣观音...算了，今日不是说话的时候，走吧！）" />
+    <action type="DIALOG" value="阿朱#公子！...公子如今有点...唉。" />
+    <action type="DIALOG" value="主角#算了，人各有志，他也有他的路要走。" />
+    <action type="DIALOG" value="段誉#母亲...你们刚刚说的，都是真的吗？" />
+    <action type="DIALOG" value="刀白凤#誉儿..." />
+    <action type="DIALOG" value="段誉#不，我不信，我不信！" />
+    <action type="LEAVE" value="段誉" />
+    <action type="LEAVE" value="木婉清" />
+    <action type="DIALOG" value="刀白凤#誉儿！" />
+    <action type="DIALOG" value="阿朱#公子，我们去找他们回来吧。" />
+    <action type="DIALOG" value="阿紫#（呆在这里太没意思了）阿朱姐姐，我跟你一起走吧！" />
+    <action type="DIALOG" value="阮星竹#阿朱，阿紫！我们刚刚见面，你们就要走吗？" />
+    <action type="DIALOG" value="阿朱#娘，我得去找到我们家公子劝劝他，还得找段公子回来。我会回来常看你的！" />
+    <action type="DIALOG" value="阿紫#娘，我也陪姐姐，有个照应，你放心吧！" />
+    <action type="DIALOG" value="阮星竹#唉...年轻人是喜欢外面闯荡一些。你们去吧，照顾好自己，要常常回来陪陪娘。" />
+    <action type="DIALOG" value="段正淳#阿星..." />
+    <action type="DIALOG" value="阮星竹#你也去找你的宝贝儿子吧，照顾好阿朱阿紫。" />
+    <action type="DIALOG" value="段正淳#嗯..." />
+    <action type="JOIN" value="阿紫" />
+    <action type="ITEM" value="神木王鼎#1" />
+  </story>
+  <story name="tlbb.dy_秦红棉居段誉">
+    <action type="BACKGROUND" value="地图.琴舍" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派" />
+    <action type="DIALOG" value="主角#段誉，木姑娘，你们果然在这里啊。" />
+    <action type="DIALOG" value="段誉#我好乱，让我静一静好不好。" />
+    <action type="DIALOG" value="木婉清#你们就不要再烦段郎了。我们好累，只想在这里休息。" />
+    <action type="DIALOG" value="段正淳#誉儿..." />
+    <action type="DIALOG" value="段誉#爹，我接受不了..." />
+    <action type="DIALOG" value="段正淳#我何尝又接受得了呢。唉，说到底，都是我年轻时候造孽太多了。" />
+    <action type="DIALOG" value="段誉#事到如今，真相已明。我也从大理世子的角色中解脱了，未必不是件好事。" />
+    <action type="DIALOG" value="段正淳#或许...吧。" />
+    <action type="DIALOG" value="段誉#爹，请让我们在这里静静生活吧。我本来就不喜欢武功，也不喜欢当皇子。如今可以吟啸山林，有婉妹作伴，我别无所求了。" />
+    <action type="DIALOG" value="段正淳#这..." />
+    <action type="DIALOG" value="主角#王爷，人各有志，你若还爱段誉，就依了他吧。" />
+    <action type="DIALOG" value="段正淳#唉，罢了，先这样吧。" />
+    <action type="DIALOG" value="段誉#多谢爹成全！" />
+    <action type="DIALOG" value="段誉#对了，昔日在无量山洞中，我从神仙姐姐玉像中习得凌波微步，此法不伤人性命，施展开来亦可于刀剑之中保得平安。爹请习之，可保平安。" />
+    <action type="LEARN.SPECIALSKILL" value="段正淳#凌波微步" />
+    <action type="ITEM" value="凌波微步图谱#1" />
+    <action type="DIALOG" value="段誉#爹，珍重！" />
+    <action type="DIALOG" value="段正淳#誉儿，你也要保重！" />
+    <action type="DIALOG" value="段誉#对了，兄弟？" />
+    <action type="DIALOG" value="主角#？" />
+    <action type="DIALOG" value="段誉#这里还有一本我研习六脉神剑所记录的心法要诀，你收下吧。" />
+    <action type="DIALOG" value="主角#好，谢谢了。你保重！" />
+    <action type="ITEM" value="六脉神剑心法#1" />
+    <action type="ITEM" value="六脉神剑残章#1" />
+    <action type="DIALOG" value="木婉清#段郎，他们都走了。" />
+    <action type="DIALOG" value="段誉#嗯，婉妹，再没有什么可以阻止我们在一起的了，再没有了。" />
+    <action type="DIALOG" value="木婉清#（眼角含泪）嗯...段郎，真是太好了。" />
+    <action type="NICK" value="六脉神剑"/>
+    <result ret="0">
+      <control type="map" value="大地图">
+        <condition type="key_not_in_team" value="女主" />
+      </control>
+      <control type="story" value="original_女主.天龙八部.秦红棉居">
+        <condition type="key_in_team" value="女主" />
+        <condition type="should_finish" value="original_长安.家中"/>
+      </control>
+    </result>
+  </story>
+  <story name="tlbb.dy_湘江阿碧">
+    <action type="DIALOG" value="段誉#这里风景真好。" />
+    <action type="DIALOG" value="阿碧#哎呀，段公子，这里有几分像是我们江南的风光哩。" />
+    <action type="DIALOG" value="段誉#是吗？" />
+    <action type="DIALOG" value="阿碧#让我唱首歌来给你听。" />
+    <action type="DIALOG" value="阿碧#菡萏香连十顷陂~" />
+    <action type="DIALOG" value="阿碧#小姑贪戏采莲迟~" />
+    <action type="DIALOG" value="阿碧#晚来弄水船头湿~" />
+    <action type="DIALOG" value="阿碧#更脱红裙裹鸭儿~" />
+    <action type="DIALOG" value="段誉#阿碧，你唱的真好。" />
+    <action type="DIALOG" value="阿碧#嘻嘻。" />
+    <action type="LEARN.SPECIALSKILL" value="阿碧#阿碧的歌声" />
+    <action type="UPGRADE.MAXHP" value="阿碧#500" />
+    <action type="UPGRADE.MAXMP" value="阿碧#500" />
+    <action type="DIALOG" value="木婉清#呜呜，就你们在玩，我郁闷。" />
+    <action type="DIALOG" value="段誉#婉妹，要不你也表演一个？" />
+    <action type="DIALOG" value="木婉清#我就知道舞枪弄剑，没意思。" />
+    <action type="DIALOG" value="段誉#不会的啦，婉妹声音这么好，也唱一个嘛。" />
+    <action type="DIALOG" value="木婉清#真的也要我唱？" />
+    <action type="DIALOG" value="段誉#是啊。" />
+    <action type="DIALOG" value="木婉清#就唱一小段！" />
+    <action type="DIALOG" value="段誉#好！" />
+    <action type="DIALOG" value="木婉清#欢乐趣，离别苦。" />
+    <action type="DIALOG" value="木婉清#就中更有痴儿女。" />
+    <action type="DIALOG" value="木婉清#君应有语,渺万里层云,千山暮雪，" />
+    <action type="DIALOG" value="木婉清#只影向谁去?" />
+    <action type="DIALOG" value="段誉#..." />
+    <action type="DIALOG" value="段誉#婉妹，怎的变得这么感伤了？" />
+    <action type="DIALOG" value="木婉清#段郎，我好怕有一天你离我而去。" />
+    <action type="DIALOG" value="段誉#不会的，你放心，我一直陪着你。" />
+    <action type="DIALOG" value="木婉清#嗯...但愿，我只是多心了。" />
+    <action type="DIALOG" value="段誉#嘻嘻，婉妹你唱得也很好啊。" />
+    <action type="DIALOG" value="阿碧#是啊，是啊，木姑娘，我都没胆再在你面前献丑了。" />
+    <action type="DIALOG" value="木婉清#嘻嘻，你们两个小贼，就知道讨好我。" />
+    <action type="DIALOG" value="阿碧#嘻嘻。" />
+    <action type="DIALOG" value="木婉清#（段郎，我要一辈子守护你。这美好的时光，会常存在我们心底）" />
+    <action type="LEARN.TALENT" value="段誉#木婉清的眷恋" />
+  </story>
+  <story name="tlbb.dy_琴韵小筑阿碧1">
+    <action type="BACKGROUND" value="地图.院内" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="阿碧#一阵子没回来燕子坞看看了。" />
+    <action type="DIALOG" value="木婉清#阿碧，当时你住在哪里呢？" />
+    <action type="DIALOG" value="阿碧#琴韵小筑啊，要去看看吗？" />
+    <action type="DIALOG" value="段誉#好啊好啊。" />
+    <result ret="0" type="story" value="tlbb.dy_琴韵小筑阿碧2" />
+  </story>
+  <story name="tlbb.dy_琴韵小筑阿碧2">
+    <action type="BACKGROUND" value="地图.琴韵小筑" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="段誉#此处古色生香，真是一个好地方。" />
+    <action type="DIALOG" value="阿碧#公子喜欢这里？" />
+    <action type="DIALOG" value="段誉#此处地处太湖之中，湖水广袤无边，冬赏雪，夏赏荷。又兼阿碧姑娘吴侬软语，清歌小曲。实在是骨头都酥了。" />
+    <action type="DIALOG" value="木婉清#呸呸呸，你这个色鬼。" />
+    <action type="DIALOG" value="段誉#婉妹，这就叫做文化~" />
+    <action type="DIALOG" value="木婉清#羞羞脸，你这哄女孩子的本事，我看一点也不比你爹爹差呢。" />
+    <action type="DIALOG" value="段誉#婉妹，要不你也弹个曲子吧~" />
+    <action type="DIALOG" value="木婉清#我才不会呢。" />
+    <action type="DIALOG" value="段誉#婉妹，来，我教你。" />
+    <action type="UPGRADE.定力" value="木婉清#20" />
+    <action type="UPGRADE.悟性" value="木婉清#20" />
+    <action type="UPGRADE.福缘" value="木婉清#20" />
+    <action type="DIALOG" value="木婉清#嘻嘻，今天真是开心。" />
+    <action type="DIALOG" value="段誉#我也是，嘻嘻。" />
+    <action type="LEARN.SPECIALSKILL" value="阿碧#吴侬软语" />
+    <action type="UPGRADE.MAXHP" value="阿碧#500" />
+    <action type="UPGRADE.MAXMP" value="阿碧#500" />
+  </story>
+  <story name="tlbb.dy_闪电貂带路">
+    <action type="DIALOG" value="段誉#婉妹，刚刚是我看花眼了么。我仿佛看到一个东西极快地跑到那边去了。" />
+    <action type="DIALOG" value="阿碧#好像我也看见了。" />
+    <action type="DIALOG" value="木婉清#我仿佛也看见了。我们跟着去瞧瞧吧。" />
+    <result ret="0" type="story" value="tlbb.dy_闪电貂带路2" />
+  </story>
+  <story name="tlbb.dy_闪电貂带路2">
+    <action type="BACKGROUND" value="地图.密洞" />
+    <action type="MUSIC" value="音乐.天龙八部.无量山洞" />
+    <action type="DIALOG" value="段誉#原来这无量玉洞里还别有洞天。不是仔细寻找，实在很难发现。" />
+    <action type="DIALOG" value="木婉清#段郎，你看那边墙上，“无崖子为秋水妹书，洞中无日月，人间至乐也。”" />
+    <action type="DIALOG" value="段誉#婉妹，你我若能隐居在此。也学着无崖子前辈，那可真是快活至极。" />
+    <action type="DIALOG" value="木婉清#段郎...啊呀，你看那边。" />
+    <action type="DIALOG" value="段誉#是了，我刚才看到的，就是这个小东西。" />
+    <action type="DIALOG" value="阿碧#没错没错，就是这个小东东。" />
+    <action type="DIALOG" value="木婉清#原来是万劫谷钟妹妹的闪电貂，我们拿去还给它吧。" />
+    <action type="DIALOG" value="段誉#嗯，好" />
+  </story>
+  <story name="tlbb.dy_闪电貂还钟灵">
+    <action type="DIALOG" value="木婉清#钟灵，给，你的貂。收好了。" />
+    <action type="DIALOG" value="钟灵#啊！我找好久了！嘻嘻，谢谢木姐姐。" />
+    <action type="LOG" value="替钟灵寻回闪电貂。" />
+  </story>
+  <story name="tlbb.dy_无量玉洞无崖子">
+    <action type="DIALOG" value="木婉清#“无崖子为秋水妹书，洞中无日月，人间至乐也...”" />
+    <action type="DIALOG" value="段誉#婉妹，你还在想着这里呢。" />
+    <action type="DIALOG" value="木婉清#段郎，外面那一尊玉像，是你朝思暮想的神仙姐姐。我问你，你是爱它多一些，还是爱我多一些呢？" />
+    <action type="DIALOG" value="段誉#傻妹妹，你是真人，如何能和石像去比呢？" />
+    <action type="DIALOG" value="木婉清#要是有一天，你遇上了一个和石像一模一样的人，又该如何呢？" />
+    <action type="DIALOG" value="段誉#这怎么可能呢。" />
+    <action type="DIALOG" value="木婉清#要是就是发生了呢？你快告诉我啊。" />
+    <action type="DIALOG" value="段誉#我段誉，从看到你的第一眼开始，就已经深深为之倾倒。我不管什么兄妹，什么国家，我只知道你是我此生唯一真真实实爱着的人。" />
+    <action type="DIALOG" value="木婉清#段郎...（眼中含着泪光）如果你哪一天不爱我了，我就用这袖箭先把你杀了，然后自尽。" />
+    <action type="DIALOG" value="段誉#婉妹..." />
+    <action type="DIALOG" value="阿碧#好感人啊，像是看爱情戏一样..." />
+    <action type="DIALOG" value="木婉清#这洞藏得如此之深，外面有凌波微步秘籍，里头难道没有点什么秘密？" />
+    <result ret="0" type="story" value="tlbb.dy_无量山洞无崖子选择" />
+  </story>
+  <story name="tlbb.dy_无量山洞无崖子选择">
+    <action type="DIALOG" value="木婉清#要搜寻一番吗？" />
+    <action type="SELECT" value="木婉清#要搜寻一番吗？#必然搜啊#不太好吧.." />
+    <result ret="0" type="story" value="tlbb.dy_无量山洞无崖子战" />
+  </story>
+  <story name="tlbb.dy_无量山洞无崖子战">
+    <action type="DIALOG" value="段誉#不妙，似乎有机关！" />
+    <action type="BATTLE" value="无量秘洞无崖子_战斗" />
+    <result ret="win" type="story" value="tlbb.dy_无量山洞无崖子战胜" />
+  </story>
+  <story name="tlbb.dy_无量山洞无崖子战胜">
+    <action type="BACKGROUND" value="地图.密洞" />
+    <action type="MUSIC" value="音乐.天龙八部.无量山洞" />
+    <action type="DIALOG" value="段誉#呼呼...好厉害。" />
+    <action type="ITEM" value="天山折梅手法#1" />
+    <action type="DIALOG" value="段誉#这里似乎有一本日记？" />
+    <action type="DIALOG" value="段誉#...七月初二，姑苏王氏携幼女来访......藏经于曼陀山庄琅擐玉洞..." />
+    <action type="DIALOG" value="段誉#这是，怎么一回事呢？" />
+    <action type="DIALOG" value="阿碧#啊，王氏可能是指的王夫人，王夫人家叫做曼陀山庄。" />
+    <action type="DIALOG" value="段誉#好阿碧，能带我们去王夫人府上一番么？" />
+    <action type="DIALOG" value="阿碧#嘻嘻，我们去寻宝吧。" />
+  </story>
+  <story name="tlbb.dy_曼陀山庄逍遥子">
+    <action type="BACKGROUND" value="地图.藏书" />
+    <action type="MUSIC" value="音乐.天龙八部.无量山洞" />
+    <action type="DIALOG" value="段誉#哇...好多武学秘籍。" />
+    <action type="DIALOG" value="阿碧#嘘...别让王夫人看到我们了，要不都会被抓去当花肥呢。" />
+    <action type="DIALOG" value="段誉#哇，好刺激。阿碧姐姐，咱们去哪里找宝贝呢？" />
+    <action type="DIALOG" value="阿碧#我也不知道耶。" />
+    <action type="DIALOG" value="木婉清#凌波微步...北冥神功...有了！这本好特别！" />
+    <action type="DIALOG" value="段誉#婉妹，小心！" />
+    <action type="BATTLE" value="曼陀山庄逍遥子_战斗" />
+    <result ret="win" type="story" value="tlbb.dy_曼陀山庄逍遥子胜" />
+  </story>
+  <story name="tlbb.dy_曼陀山庄逍遥子胜">
+    <action type="BACKGROUND" value="地图.藏书" />
+    <action type="MUSIC" value="音乐.天龙八部.无量山洞" />
+    <action type="DIALOG" value="段誉#这！这是？！" />
+    <action type="DIALOG" value="逍遥子#“...余昔日曾访天下奇诡之所，一日得见一迷雾山谷，名曰不老长春谷。”" />
+    <action type="DIALOG" value="逍遥子#“传闻谷中有一泉水，饮之可永葆青春。然而千百年来，凡入谷者，无一生还。”" />
+    <action type="DIALOG" value="逍遥子#“传闻人在谷中，并无异样。然而出谷之际，将全身迅速衰老死去。人道此乃幽冥鬼境，凡人不可入也。”" />
+    <action type="DIALOG" value="逍遥子#“彼时吾神功已成，北冥真气冰火交融，自持甚高。又对谷中之事甚为好奇，遂独自入谷。”" />
+    <action type="DIALOG" value="逍遥子#“谷中气象宏大，余行走一日有余，终于寻到泉水。却又一番因缘际遇，于泉水边得到此秘籍，书中文字甚是古朴，书名为‘不老长春功法’。”" />
+    <action type="DIALOG" value="逍遥子#“余仔细研读，此功法千奇百怪，与世间武学皆为不同。余在山中思索数日，终有所悟。”" />
+    <action type="DIALOG" value="逍遥子#“待出谷时，余忽觉体内真气汹涌激荡。余行走江湖半生，体内北冥真气从无一日如此之不听使唤。真气激荡越来越烈，余哀叹此命休矣，人不可胜天也。”" />
+    <action type="DIALOG" value="逍遥子#“忽然体内不老长春功力产生作用，真气或正，或反，颠倒错乱。此事万万不合常理，乃余生平未见之怪状。”" />
+    <action type="DIALOG" value="逍遥子#“余醒来时，已经躺在乡民农院之中，仿佛一场梦一般。再观镜中之人，竟然回复到二十岁时之貌状！”" />
+    <action type="DIALOG" value="逍遥子#“奇哉此法！不老长春，以传后人。......逍遥子手书。”" />
+    <action type="ITEM" value="不老长春功法#1" />
+    <action type="NICK" value="不老长春"/>
+    <action type="DIALOG" value="木婉清#段郎，世界上真有如此神奇的返老还童的武功？" />
+    <action type="DIALOG" value="段誉#我也不敢相信，要练练试试吗？" />
+    <action type="DIALOG" value="木婉清#还是算了，我可不想违抗天地时仪..." />
+    <action type="DIALOG" value="段誉#嗯...此书，且收下吧。" />
+  </story>
+  <story name="tlbb.dy_阿朱阿碧">
+    <action type="BACKGROUND" value="地图.院内" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="恶棍#格老子的，给老子上酒！" />
+    <action type="DIALOG" value="阿碧#（这些人闯进燕子坞来，实在可恶）" />
+    <action type="DIALOG" value="恶棍#他奶奶的慕容复，居然不在家。嘿嘿，北乔峰、南慕容，我们大家伙儿倒要看看这厮是个什么货色。" />
+    <action type="DIALOG" value="阿朱#我家公子，又岂是你们这些恶人能见到的。" />
+    <action type="DIALOG" value="恶棍#你这个小妞儿，居然还给老子装渔夫。格老子的，看老子好好教训你~" />
+    <action type="DIALOG" value="阿碧#住手！" />
+    <action type="DIALOG" value="恶棍#这个小妞儿倒也不错，说话细细软软，小手儿光滑细嫩的，让大爷也来好好瞧瞧~" />
+    <action type="DIALOG" value="主角#住手！" />
+    <action type="BATTLE" value="阿朱阿碧_战斗" />
+    <result ret="win" type="story" value="tlbb.dy_阿朱阿碧2" />
+  </story>
+  <story name="tlbb.dy_阿朱阿碧2">
+    <action type="BACKGROUND" value="地图.院内" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="阿朱#公子出手相助，打退敌人。奴婢感激不尽。" />
+    <action type="DIALOG" value="主角#小事一桩。姑苏慕容，名满天下。今日见到两位姐姐，顿感此言不虚。" />
+    <action type="DIALOG" value="阿朱#嘻嘻，公子说笑了。" />
+    <action type="DIALOG" value="主角#不知道这伙人来燕子坞闹事，所为何事？" />
+    <action type="DIALOG" value="阿碧#奴婢直听说，公子在外面新近得罪了不少人。这些日来寻上门来的，是一批又一批哩。" />
+    <action type="DIALOG" value="阿碧#好在这太湖广袤，真寻得到这里的，也已经是少之又少喽。" />
+    <action type="DIALOG" value="主角#两位姐姐，慕容公子不在家。燕子坞又天天有仇家寻上门来，未免过于危险。不如与我同游江湖，也可以寻找慕容公子下落。如何？" />
+    <action type="DIALOG" value="阿碧#好啊好啊，姐姐，这位公子如肯带我们去找公子，那可真是好极了。" />
+    <action type="DIALOG" value="阿朱#阿碧，家中不可一日无人。虽然我也很想去找公子..." />
+    <action type="DIALOG" value="阿朱#这样吧，我们两人一人留守，一人出去找公子。" />
+    <action type="SELECT" value="主角#带谁走呢？#阿朱#阿碧" />
+    <result ret="0" type="story" value="tlbb.dy_阿朱阿碧.阿朱" />
+    <result ret="1" type="story" value="tlbb.dy_阿朱阿碧.阿碧" />
+  </story>
+  <story name="tlbb.dy_阿朱阿碧.阿朱">
+    <action type="BACKGROUND" value="地图.院内" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="阿朱#好，我随公子外出。阿碧，你要好好看家。再有外敌来犯，务必向王夫人求救。" />
+    <action type="DIALOG" value="阿碧#是，姐姐..." />
+    <action type="DIALOG" value="阿朱#公子，我们走吧。" />
+    <action type="JOIN" value="阿朱" />
+  </story>
+  <story name="tlbb.dy_阿朱阿碧.阿碧">
+    <action type="BACKGROUND" value="地图.院内" />
+    <action type="MUSIC" value="音乐.天龙八部.燕子坞" />
+    <action type="DIALOG" value="阿碧#嘻嘻，谢谢公子。姐姐，你在家要小心。" />
+    <action type="DIALOG" value="阿朱#放心吧，姐姐自有办法。" />
+    <action type="DIALOG" value="阿碧#公子，我们走吧。" />
+    <action type="JOIN" value="阿碧" />
+  </story>
+  <story name="tlbb.dy_钟灵">
+    <action type="DIALOG" value="钟灵#大哥哥，我的闪电貂走丢了，你能帮我去找找吗？" />
+    <action type="SELECT" value="主角#要帮钟灵找闪电貂吗？#义不容辞#我还有要事在身..." />
+    <result ret="0" type="story" value="tlbb.dy_钟灵找" />
+    <result ret="1" type="story" value="tlbb.dy_钟灵不找" />
+  </story>
+  <story name="tlbb.dy_钟灵找">
+    <action type="DIALOG" value="钟灵#太好了！我们出发吧！" />
+    <action type="JOIN" value="钟灵" />
+  </story>
+  <story name="tlbb.dy_钟灵不找">
+    <action type="DIALOG" value="钟灵#大哥哥是坏蛋..." />
+  </story>
+  <story name="tlbb.dy_钟灵不找2">
+    <action type="DIALOG" value="钟灵#哼，你不找就不找。我请别人帮我找..." />
+  </story>
+  <story name="tlbb.dy_闪电貂">
+    <action type="DIALOG" value="云中鹤#老三啊，我今天好背啊。" />
+    <action type="DIALOG" value="岳老三#你又怎么了？一大早鬼叫的。" />
+    <action type="DIALOG" value="云中鹤#你看我的手，都被咬成了马。" />
+    <action type="DIALOG" value="岳老三#哇，这毒好厉害啊。叫你乱采花吧，这大理的姑娘，民风彪悍，那多半都是带点毒的。" />
+    <action type="DIALOG" value="云中鹤#我什么都没干啊，就躺在树林里，跑来一只貂，冲过来二话不说就是一口。" />
+    <action type="DIALOG" value="岳老三#是钟万仇那宝贝女儿养的那只？" />
+    <action type="DIALOG" value="云中鹤#诶，你倒提醒了我，就是那只貂啊！他奶奶的，那姑娘倒是水灵灵的，很对老子胃口...就是这毒，诶哟..." />
+    <action type="DIALOG" value="岳老三#哼，活该。" />
+    <action type="DIALOG" value="云中鹤#...算了不跟你啰嗦，找钟谷主解毒去。" />
+    <action type="DIALOG" value="主角#（他们在说的，似乎是钟灵的闪电貂。只是不知道到底去哪里了。）" />
+  </story>
+  <story name="tlbb.dy_闪电貂2">
+    <action type="DIALOG" value="段延庆#嗯...这只貂不错，杀了把毒素取出来。想办法弄到保定帝的饮食里去..." />
+    <action type="DIALOG" value="云中鹤#老大英明神武啊！这只貂咬得我疼死了，嗷嗷..." />
+    <action type="DIALOG" value="钟灵#我的貂！住手！" />
+    <action type="BATTLE" value="闪电貂_战斗" />
+    <result ret="win">
+      <control type="story" value="tlbb.dy_闪电貂死">
+        <condition type="not_in_team" value="木婉清" />
+      </control>
+      <control type="story" value="tlbb.dy_闪电貂不死" />
+    </result>
+  </story>
+  <story name="tlbb.dy_闪电貂死">
+    <action type="DIALOG" value="段延庆#哼，小娃子武功还不错嘛！（这貂毒性太强，需要除掉！）" />
+    <action type="DIALOG" value="段延庆#（段延庆一手掐死闪电貂）哈哈哈哈，就不还给你。" />
+    <action type="DIALOG" value="钟灵#你！" />
+    <result ret="0" type="story" value="tlbb.dy_闪电貂死2" />
+  </story>
+  <story name="tlbb.dy_闪电貂死2">
+    <action type="DIALOG" value="段延庆#毒计已经败露，我们暂且告退，再谋后计吧。" />
+    <action type="DIALOG" value="钟灵#呜呜呜...貂儿...你死的好惨..." />
+    <action type="DIALOG" value="主角#钟灵妹妹，请节哀...我们把小貂埋了吧。" />
+    <action type="DIALOG" value="钟灵#小貂儿，虽然你已经在天上了，我也还是想念你..." />
+    <action type="LOG" value="找寻闪电貂失败。" />
+  </story>
+  <story name="tlbb.dy_闪电貂不死">
+    <action type="DIALOG" value="段延庆#哼，小娃子武功还不错嘛！（这貂毒性太强，需要除掉！）" />
+    <action type="DIALOG" value="木婉清#慢！（袖箭出手！）" />
+    <action type="DIALOG" value="段延庆#可恶，这貂是杀不成了。我们撤！" />
+    <result ret="0" type="story" value="tlbb.dy_闪电貂不死2" />
+  </story>
+  <story name="tlbb.dy_闪电貂不死2">
+    <action type="DIALOG" value="木婉清#钟灵，给，你的貂。收好了。" />
+    <action type="DIALOG" value="钟灵#嘻嘻，谢谢木姐姐。" />
+    <action type="DIALOG" value="主角#那个啥，我也有打退四大恶人的功劳嘛..." />
+    <action type="DIALOG" value="钟灵#嗯，也谢谢你。你们都太好了。" />
+    <action type="DIALOG" value="主角#哈哈，没啥..." />
+    <action type="LEARN.SPECIALSKILL" value="钟灵#闪电貂" />
+    <action type="LOG" value="寻回闪电貂。" />
+    <action type="NICK" value="闪电毒貂"/>
+  </story>
+  <story name="tlbb.dy_刀白凤树林1">
+    <action type="BACKGROUND" value="地图.树林" />
+    <action type="MUSIC" value="音乐.天龙八部10" />
+    <action type="DIALOG" value="云中鹤#好靓的人妻，好正点啊！" />
+    <action type="DIALOG" value="刀白凤#…" />
+    <action type="DIALOG" value="主角#无耻淫贼，看招！" />
+    <action type="BATTLE" value="刀白凤树林_战斗1" />
+    <result ret="win" type="story" value="tlbb.dy_刀白凤树林2" />
+  </story>
+  <story name="tlbb.dy_刀白凤树林2">
+    <action type="BACKGROUND" value="地图.树林" />
+    <action type="MUSIC" value="音乐.天龙八部10" />
+    <action type="DIALOG" value="云中鹤#我闪~" />
+    <action type="DIALOG" value="刀白凤#小兄弟，谢谢你。" />
+    <action type="ITEM" value="拂尘秘诀#1" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="tlbb.dy_无量剑左子穆1">
+    <action type="DIALOG" value="左子穆#剑术，我还是会一点。这无量宫，我还想多住几年…" />
+    <action type="DIALOG" value="主角#也就是会一点点而已啦。" />
+    <action type="DIALOG" value="左子穆#什么人？！" />
+    <action type="DIALOG" value="主角#来参观神仙姐姐，打酱油路过的。" />
+    <action type="DIALOG" value="左子穆#大胆！我无量宫岂容你说来就来！" />
+    <action type="BATTLE" value="无量宫_战斗2" />
+    <result ret="win" type="story" value="tlbb.dy_无量剑左子穆2" />
+  </story>
+  <story name="tlbb.dy_无量剑左子穆2">
+    <action type="DIALOG" value="左子穆#……" />
+    <action type="ITEM" value="无量剑法秘籍#1" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+</root>

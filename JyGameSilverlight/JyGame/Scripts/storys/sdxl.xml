@@ -1,0 +1,446 @@
+<root>
+  <story name="sdxl_古墓幽居">
+    <action type="BACKGROUND" value="地图.古墓内" />
+    <action type="MUSIC" value="音乐.室内_安静" />
+    <action type="DIALOG" value="小龙女#春心莫共花争发，一寸相思一寸灰" />
+    <action type="DIALOG" value="主角#绝代有佳人，古墓藏丽影" />
+    <action type="DIALOG" value="小龙女#你是在打金庸群侠传，不是古墓丽影" />
+    <action type="DIALOG" value="主角#..." />
+    <action type="DIALOG" value="小龙女#你来这里干什么？" />
+    <action type="DIALOG" value="主角#据说这里有美女看，手一贱就点进来了。" />
+    <action type="DIALOG" value="小龙女#…那看完了，你可以出去了。" />
+    <result ret="0" type="story" value="sdxl_古墓幽居2" />
+  </story>
+  <story name="sdxl_古墓幽居2">
+    <action type="BACKGROUND" value="地图.古墓内" />
+    <action type="MUSIC" value="音乐.室内_安静" />
+    <action type="DIALOG" value="李莫愁#小师妹，你又是在勾搭哪家的公子呢，嗯？" />
+    <action type="DIALOG" value="小龙女#师姐，不要随便拿我开玩笑，我也是会生气的。" />
+    <action type="DIALOG" value="李莫愁#小师妹，本门的秘籍，你也该交出来了。" />
+    <action type="DIALOG" value="主角#你以为收秘籍是收房租，说给就给啊。我来替龙姑娘领教一下你的五毒神掌！" />
+    <action type="BATTLE" value="古墓内_战斗1" />
+    <result ret="win" type="story" value="sdxl_古墓幽居.战斗胜利" />
+  </story>
+  <story name="sdxl_古墓幽居.战斗胜利">
+    <action type="BACKGROUND" value="地图.古墓内" />
+    <action type="MUSIC" value="音乐.室内_安静" />
+    <action type="ITEM" value="五毒神掌掌谱#1" />
+    <action type="ITEM" value="冰魄银针精要#1" />
+    <action type="DIALOG" value="李莫愁#哼，狗男女，等着！（李莫愁离去）" />
+    <action type="DIALOG" value="小龙女#唉，过了明朝，还复今朝。你也走吧。" />
+    <action type="DIALOG" value="主角#我还会再来看你的…" />
+    <action type="LOG" value="探寻幽居古墓的小龙女。" />
+    <action type="NICK" value="古墓寻幽" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="sdxl_武林大会">
+    <action type="BACKGROUND" value="地图.武林大会" />
+    <action type="MUSIC" value="音乐.室内_世俗" />
+    <action type="DIALOG" value="主角#哈哈，赶上了热闹的武林大会。看我痛打来捣乱的妖人！" />
+  </story>
+  <story name="sdxl_绝情谷1">
+    <action type="BACKGROUND" value="地图.绝情谷大厅.小" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="主角#唉，情花有毒，配对有误，小龙女居然要嫁给大田鼠。" />
+    <action type="DIALOG" value="公孙谷主#你说谁是大田鼠？" />
+    <action type="DIALOG" value="主角#谁老大不羞，厚着脸皮要娶美娇娘，谁就是大田鼠。" />
+    <action type="DIALOG" value="杨过#…那我愿意做大田鼠。" />
+    <action type="DIALOG" value="主角#你闭嘴，你又打不过他。看哥给你出头！" />
+    <action type="BATTLE" value="绝情谷大厅_战斗1" />
+    <result ret="win" type="story" value="sdxl_绝情谷.战斗胜利1" />
+  </story>
+  <story name="sdxl_绝情谷.战斗胜利1">
+    <action type="BACKGROUND" value="地图.绝情谷大厅.小" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="ITEM" value="阴阳倒乱刃#1" />
+    <action type="DIALOG" value="主角#嘻嘻，大田鼠，你服不服？" />
+    <action type="DIALOG" value="公孙谷主#…他们虽然逃走了，但中了我绝情谷情花之毒，命不久矣！" />
+    <action type="DIALOG" value="主角#枉你一身武功，也称得上是一代宗师。为人竟然如此阴狠毒辣，留你在世上又有何用！" />
+    <action type="DIALOG" value="公孙谷主#啊！（一声惨叫死去。)" />
+    <result ret="0" type="story" value="sdxl_绝情谷.战斗胜利2" />
+  </story>
+  <story name="sdxl_绝情谷.战斗胜利2">
+    <action type="BACKGROUND" value="地图.绝情谷大厅.小" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="主角#好了，此处没事了。今天做了件大好事，爽了。" />
+    <action type="LOG" value="击败绝情谷公孙谷主。" />
+    <action type="NICK" value="双剑合璧" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="sdxl_全真派">
+    <action type="BACKGROUND" value="地图.全真教" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="小龙女#过儿，我怕是撑不住了。最后能死在你怀里，我很幸福。" />
+    <action type="DIALOG" value="杨过#姑姑！（咬牙切齿）今日我杨过杀尽全真的野狗！" />
+    <action type="DIALOG" value="主角#兄弟，我帮你！" />
+  </story>
+  <story name="sdxl_程英.月下吹箫">
+    <action type="BACKGROUND" value="地图.小村口" />
+    <action type="MUSIC" value="音乐.神雕.歌泣" />
+    <action type="DIALOG" value="程英.初级#瞻彼淇奥，绿竹猗猗，有匪君子，如切如磋，如琢如磨。" />
+    <action type="DIALOG" value="主角#（这首诗在《诗经》里看到过）瞻彼淇奥，绿竹青青。有匪君子，充耳琇莹，会弁如星。" />
+    <action type="DIALOG" value="程英.初级#你知道我在吹什么？" />
+    <action type="DIALOG" value="主角#（好一位温柔淡雅的姑娘）你在思念一位君子。" />
+    <action type="DIALOG" value="程英.初级#你可知道他的下落？" />
+    <action type="DIALOG" value="主角#（我连他是谁都不知道…）姑娘不妨和我一起搭伙寻找。" />
+    <action type="DIALOG" value="程英.初级#你是可靠之人，我和你同去。" />
+    <action type="JOIN" value="程英.初级" />
+    <action type="ITEM" value="玉箫剑法秘籍#1" />
+    <action type="ITEM" value="落英神剑掌秘籍#1" />
+    <action type="LOG" value="与程英月下对诗。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="sdxl_程英.风陵渡口">
+    <action type="BACKGROUND" value="地图.风陵渡口" />
+    <action type="MUSIC" value="音乐.神雕.歌泣" />
+    <action type="DIALOG" value="程英.高级#问花花不语，为谁落？为谁开？算春色三分，半随流水，半入尘埃。" />
+    <action type="DIALOG" value="杨过#二妹，这些年的风霜，难为你了。" />
+    <action type="DIALOG" value="程英.高级#（淡淡一笑）终不算些什么。杨大哥，见到你就很开心了。" />
+    <action type="DIALOG" value="主角#英姑娘，不妨一起闯荡江湖。" />
+    <action type="DIALOG" value="程英.高级#杨大哥都在的话，我自然愿意和你同去。" />
+    <action type="JOIN" value="程英.高级" />
+    <action type="ITEM" value="弹指神通秘籍#1" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="sdxl_郭襄.风陵渡口">
+    <action type="BACKGROUND" value="地图.风陵渡口" />
+    <action type="MUSIC" value="音乐.神雕.歌泣" />
+    <action type="DIALOG" value="主角#在这个稀烂的渡口，曾经有一个感人的故事。一个小萝莉，爱上了一只怪大叔…" />
+    <action type="DIALOG" value="田伯光#咦？那边有美女耶。" />
+    <action type="DIALOG" value="主角#嗯？美女？" />
+    <action type="DIALOG" value="郭芙#看什么看？再看，本姑娘刺瞎了你的狗眼！" />
+    <action type="DIALOG" value="田伯光#嘻嘻，花姑娘，大大的…" />
+    <action type="DIALOG" value="郭芙#（气愤）看剑！" />
+    <action type="BATTLE" value="风陵渡口.郭襄_战斗1" />
+    <result ret="win" type="story" value="sdxl_郭襄.风陵渡口.战斗胜利" />
+  </story>
+  <story name="sdxl_郭襄.风陵渡口.战斗胜利">
+    <action type="BACKGROUND" value="地图.风陵渡口" />
+    <action type="MUSIC" value="音乐.神雕.歌泣" />
+    <action type="DIALOG" value="主角#田兄，别闹了…美女，误会，误会…" />
+    <action type="DIALOG" value="郭芙#（气得直跺脚）" />
+    <action type="DIALOG" value="郭襄#姐姐，他们说话也蛮好玩的。" />
+    <action type="DIALOG" value="田伯光#嗯，这个小妹子说话声音又好听，又乱可爱的，我老田很喜欢…" />
+    <action type="DIALOG" value="郭襄#你喜欢也没用，我现在就想再见到神雕大侠一面，别的谁喜欢我都没有用。" />
+    <action type="DIALOG" value="主角#哦？你也在找神雕大侠？" />
+    <action type="DIALOG" value="郭襄#（亮闪闪）你知道哪里可以见到他吗？" />
+    <action type="DIALOG" value="主角#曾几何时，我们一起大战十大恶人。那一柄称砣一样死重的剑，还有那只明显肥胖症的大鸟，令人记忆犹新，黯然销魂…" />
+    <action type="DIALOG" value="郭襄#（泪汪汪）原来，你也是神雕大侠的粉丝。我们都是可怜人…" />
+    <action type="DIALOG" value="主角#要不我们一起去找神雕大侠吧？" />
+    <action type="DIALOG" value="郭襄#好呀好呀。" />
+    <action type="DIALOG" value="田伯光#（亮闪闪）好呀好呀。" />
+    <action type="DIALOG" value="郭芙#一点都不好！" />
+    <action type="DIALOG" value="郭襄#嘻嘻，姐姐别生气，我去去就回。" />
+    <action type="DIALOG" value="田伯光#事不宜迟，走你~" />
+    <action type="DIALOG" value="郭芙#（追之不及）妹妹！" />
+    <action type="LOG" value="风陵渡口偶遇郭芙、郭襄姐妹。" />
+    <action type="JOIN" value="郭襄" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="sdxl_剑魔荒冢.杨过">
+    <action type="BACKGROUND" value="地图.剑魔荒冢" />
+    <action type="MUSIC" value="音乐.神雕.主题" />
+    <action type="DIALOG" value="主角#雕兄，又见雕兄！你还是这么肥，这么可爱！" />
+    <action type="DIALOG" value="神雕#..." />
+    <action type="DIALOG" value="杨过#..." />
+    <action type="DIALOG" value="主角#你们好阴沉啊…真是一对般配的好基友。" />
+    <action type="DIALOG" value="神雕#..." />
+    <action type="DIALOG" value="杨过#..." />
+    <action type="DIALOG" value="主角#杨兄弟，我知道你很猛。我们一起闯荡江湖吧！" />
+    <action type="DIALOG" value="杨过#为什么我要跟你一起走？" />
+    <action type="DIALOG" value="主角#兄弟，好男儿志在四方，不要一大把年纪了，天天只想着泡妞。" />
+    <action type="DIALOG" value="杨过#..." />
+    <action type="DIALOG" value="主角#我们来走上两招，别这么阴沉嘛。" />
+    <action type="BATTLE" value="剑魔荒冢_战斗.杨过" />
+    <result ret="win" type="story" value="sdxl_剑魔荒冢.战胜杨过" />
+  </story>
+  <story name="sdxl_剑魔荒冢.战胜杨过">
+    <action type="BACKGROUND" value="地图.剑魔荒冢" />
+    <action type="MUSIC" value="音乐.神雕.主题" />
+    <action type="DIALOG" value="杨过#（原来人外有人，天外有天。我杨过自认这些年来武功已臻化境，却不料只是一只井底之蛙！）罢了，我输了。" />
+    <action type="DIALOG" value="主角#哈哈。" />
+    <action type="DIALOG" value="杨过#不过要我和你一起走，你还得赢过雕兄才可以。" />
+    <action type="DIALOG" value="神雕#我才不要杨过跟你一起走！" />
+    <action type="DIALOG" value="主角#哇！会说话了！" />
+    <action type="DIALOG" value="神雕#凭什么我只能嘎嘎叫卖萌啊，我也是重要角色啊！你看这部小说还是以我命名的啊！" />
+    <action type="DIALOG" value="主角#好吧，你赢了…" />
+    <action type="DIALOG" value="神雕#妈咪妈咪哄！召唤神雕小分队！" />
+    <action type="BATTLE" value="剑魔荒冢_战斗.神雕" />
+    <result ret="win" type="story" value="sdxl_剑魔荒冢.战胜神雕" />
+  </story>
+  <story name="sdxl_剑魔荒冢.战胜神雕">
+    <action type="BACKGROUND" value="地图.剑魔荒冢" />
+    <action type="MUSIC" value="音乐.神雕.主题" />
+    <action type="DIALOG" value="神雕#..." />
+    <action type="DIALOG" value="杨过#..." />
+    <action type="DIALOG" value="主角#..." />
+    <action type="DIALOG" value="神雕#..." />
+    <action type="DIALOG" value="杨过#..." />
+    <action type="DIALOG" value="主角#..." />
+    <action type="DIALOG" value="神雕#...那个，你们谁说句话好么..." />
+    <action type="DIALOG" value="主角#大鸟会说话，打架还这么猛，我的三观收到了很大的冲击。" />
+    <action type="DIALOG" value="杨过#我被虐待了很多年了..." />
+    <action type="DIALOG" value="神雕#...唉，你们走吧。有空常回来看看..." />
+    <action type="LOG" value="剑魔荒冢战胜神雕、杨过。" />
+    <action type="JOIN" value="杨过" />
+    <action type="ITEM" value="黯然销魂掌谱#1" />
+    <action type="NICK" value="黯然销魂" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="sdxl_剑魔荒冢.独孤求败">
+    <action type="BACKGROUND" value="地图.剑魔荒冢" />
+    <action type="MUSIC" value="音乐.神雕.主题" />
+    <action type="DIALOG" value="杨过#雕兄，过得怎样？" />
+    <action type="DIALOG" value="神雕#很好，很好。" />
+    <action type="DIALOG" value="令狐冲#原来这就是独孤求败老人家所养的神雕…" />
+    <action type="DIALOG" value="神雕#不是养的，是他哥们儿！" />
+    <action type="DIALOG" value="令狐冲#好吧，你赢了..." />
+    <action type="DIALOG" value="神雕#你们都是和我兄弟有缘的人，今日我破一回例，开启他的幻象封印。你们只要能胜得过我们，就教给你们我兄弟最牛的秘籍心法！" />
+    <action type="DIALOG" value="主角#那还等个啥？上啊！" />
+  </story>
+  <story name="sdxl_断肠崖.杨过跳崖">
+    <action type="BACKGROUND" value="地图.断肠崖.小" />
+    <action type="MUSIC" value="音乐.神雕.主题" />
+    <action type="DIALOG" value="杨过#十六年了，望断天涯，龙儿，你还是不愿意和我相见么。" />
+    <action type="DIALOG" value="杨过#为什么！！！（杨过排山倒海般宣泄内力，山谷为之震动）" />
+    <action type="DIALOG" value="杨过#啊！！！！（杨过奋身一跃，投入了谷底的深深云雾之中）" />
+    <result ret="0" type="story" value="sdxl_断肠崖.杨过跳崖2" />
+  </story>
+  <story name="sdxl_断肠崖.杨过跳崖2">
+    <action type="BACKGROUND" value="地图.断肠崖.小" />
+    <action type="MUSIC" value="音乐.神雕.主题" />
+    <action type="DIALOG" value="主角#兄弟！别这么急啊！先把装备脱了再跳啊！" />
+    <action type="DIALOG" value="主角#…罢了，我也做个绳索下去找吧。" />
+    <action type="DIALOG" value="主角#（一个时辰之后）好了，我也下去看看吧。" />
+    <result ret="0" type="story" value="sdxl_绝情谷底.小龙女" />
+  </story>
+  <story name="sdxl_断肠崖.杨过郭襄跳崖">
+    <action type="BACKGROUND" value="地图.断肠崖.小" />
+    <action type="MUSIC" value="音乐.神雕.主题" />
+    <action type="DIALOG" value="杨过#十六年了，望断天涯，龙儿，你还是不愿意和我相见么。" />
+    <action type="DIALOG" value="杨过#为什么！！！（杨过排山倒海般宣泄内力，山谷为之震动）" />
+    <action type="DIALOG" value="杨过#啊！！！！（杨过奋身一跃，投入了谷底的深深云雾之中）" />
+    <result ret="0" type="story" value="sdxl_断肠崖.杨过郭襄跳崖2" />
+  </story>
+  <story name="sdxl_断肠崖.杨过郭襄跳崖2">
+    <action type="BACKGROUND" value="地图.断肠崖.小" />
+    <action type="MUSIC" value="音乐.神雕.主题" />
+    <action type="DIALOG" value="郭襄#大哥哥！！（郭襄跟着一跃）" />
+    <result ret="0" type="story" value="sdxl_断肠崖.杨过郭襄跳崖3" />
+  </story>
+  <story name="sdxl_断肠崖.杨过郭襄跳崖3">
+    <action type="BACKGROUND" value="地图.断肠崖.小" />
+    <action type="MUSIC" value="音乐.神雕.主题" />
+    <action type="DIALOG" value="主角#你们别这么急啊！先把装备脱了再跳啊！" />
+    <action type="DIALOG" value="主角#…罢了，我也做个绳索下去找吧。" />
+    <action type="DIALOG" value="主角#（一个时辰之后）好了，我也下去看看吧。" />
+    <result ret="0" type="story" value="sdxl_绝情谷底.郭襄" />
+  </story>
+  <story name="sdxl_绝情谷底.小龙女">
+    <action type="BACKGROUND" value="地图.绝情谷底" />
+    <action type="MUSIC" value="音乐.神雕.主题" />
+    <action type="DIALOG" value="杨过#（这里的景致，竟然与古墓里无异。杨过睹物思人，不禁潸然泪下）龙儿…" />
+    <result ret="0" type="story" value="sdxl_绝情谷底.小龙女2" />
+  </story>
+  <story name="sdxl_绝情谷底.小龙女2">
+    <action type="BACKGROUND" value="地图.绝情谷底" />
+    <action type="MUSIC" value="音乐.神雕.主题" />
+    <action type="DIALOG" value="小龙女#过儿，又谁惹你伤心了？" />
+    <action type="DIALOG" value="杨过#龙儿，我不是在做梦？" />
+    <action type="DIALOG" value="小龙女#（因为十多年没有说话，望着杨过一时竟然忘记如何再开口。只是淡淡的一笑）" />
+    <action type="DIALOG" value="杨过#哈哈，龙儿，我好高兴，我好高兴！（杨过原地打了七八个跟斗）" />
+    <result ret="0" type="story" value="sdxl_绝情谷底.小龙女3" />
+  </story>
+  <story name="sdxl_绝情谷底.小龙女3">
+    <action type="BACKGROUND" value="地图.绝情谷底" />
+    <action type="MUSIC" value="音乐.神雕.主题" />
+    <action type="DIALOG" value="主角#（两人互诉衷肠直至日落）恭喜恭喜，两位今日重逢，不知有何打算？" />
+    <action type="DIALOG" value="杨过#兄弟，我夫妻分别十六年，此番重逢，只想找一处安静地方隐居，从此不问世事。" />
+    <action type="DIALOG" value="主角#oh no！我费尽力气拉你入伙，你就这么跑了。我岂不白费心思了。" />
+    <action type="DIALOG" value="杨过#兄弟，我知道我对不起你。不过我实在是累了。" />
+    <action type="DIALOG" value="小龙女#过儿，我看得出来你还像以前一样爱玩。这位小兄弟是做大事的人，我们跟着他完成时代赋予的任务，再隐居山林不迟。" />
+    <action type="DIALOG" value="主角#龙姑娘深明大义，在下感激不尽！（哈哈，又多了两个强力队友）" />
+    <action type="DIALOG" value="杨过#哈哈，兄弟，我今天太高兴了。我们先来走上两路，你陪陪我们夫妻，温习一下我古墓派的双剑合璧！" />
+    <action type="BATTLE" value="绝情谷底_战斗1" />
+    <result ret="win" type="story" value="sdxl_绝情谷底.小龙女加入" />
+    <result ret="lose" type="story" value="sdxl_绝情谷底.小龙女加入" />
+  </story>
+  <story name="sdxl_绝情谷底.小龙女加入">
+    <action type="BACKGROUND" value="地图.绝情谷底" />
+    <action type="MUSIC" value="音乐.神雕.主题" />
+    <action type="DIALOG" value="主角#你们夫妇合力，实在是太猛了。" />
+    <action type="DIALOG" value="小龙女#（不再说话，默默含笑望着杨过。）" />
+    <action type="DIALOG" value="主角#时候也不早了，我们出谷吧。" />
+    <action type="LOG" value="绝情谷底，杨过与小龙女久别重逢。" />
+    <action type="JOIN" value="小龙女" />
+    <action type="NICK" value="素月冰心" />
+    <result ret="0">
+      <control type="story" value="original_女主.神雕侠侣.绝情谷小龙女">
+        <condition type="key_in_team" value="女主" />
+        <condition type="should_finish" value="original_长安.家中"/>
+      </control>
+      <control type="map" value="大地图">
+        <condition type="key_not_in_team" value="女主" />
+      </control>
+    </result>
+  </story>
+  
+  <story name="sdxl_三枚金针.丢失">
+    <action type="DIALOG" value="郭襄#完了完了，出大事了。" />
+    <action type="DIALOG" value="主角#怎么了？" />
+    <action type="DIALOG" value="郭襄#大哥哥给我的三枚金针不见了…" />
+    <action type="DIALOG" value="主角#这么重要的东西，怎么说不见就不见了呢？" />
+    <action type="DIALOG" value="郭襄#我也不知道…" />
+    <action type="DIALOG" value="郭襄#呜…" />
+    <action type="DIALOG" value="主角#别哭别哭，我给你把它们找出来。" />
+    <action type="LOG" value="郭襄把神雕大侠送的三根金针弄丢了。" />
+  </story>
+  <story name="sdxl_三枚金针.桃花岛">
+    <action type="DIALOG" value="郭襄#啊，原来上次来找外公玩，有一枚金针就丢在桃花岛了。" />
+    <action type="DIALOG" value="主角#你这也太大线条了…" />
+    <action type="DIALOG" value="郭襄#找回一枚金针。" />
+    <action type="LOG" value="桃花岛上，找回一枚神雕大侠的金针。" />
+  </story>
+  <story name="sdxl_三枚金针.风陵渡口">
+    <action type="DIALOG" value="主角#有什么在闪闪发光…" />
+    <action type="DIALOG" value="郭襄#啊，我的金针，在那个鬼鬼祟祟的人手里！" />
+    <action type="DIALOG" value="主角#追！" />
+    <action type="DIALOG" value="顶尖杀手#可恶，本想偷来此物，为朝廷捉拿神雕侠。今日被你们发现，只好拼个你死我活了。" />
+    <action type="DIALOG" value="主角#哼，受死吧！" />
+    <action type="BATTLE" value="风陵渡口金针_战斗" />
+    <result ret="win" type="story" value="sdxl_三枚金针.风陵渡口胜" />
+  </story>
+  <story name="sdxl_三枚金针.风陵渡口胜">
+    <action type="DIALOG" value="郭襄#找回一枚金针。" />
+    <action type="LOG" value="风陵渡口，找回一枚神雕大侠的金针。" />
+  </story>
+  <story name="sdxl_三枚金针.襄阳">
+    <action type="DIALOG" value="郭襄#可恶，都找回襄阳了，怎么还是找不到最后一枚呢…" />
+    <action type="DIALOG" value="主角#别着急，我们在这里好好找找。" />
+    <action type="DIALOG" value="郭襄#啊，这里有一则告示。" />
+    <action type="DIALOG" value="主角#“金针之盟，何其珍贵。城南小丘，勿失约定。”" />
+    <action type="DIALOG" value="郭襄#我们赶紧去城南小丘看看吧。" />
+    <action type="DIALOG" value="主角#好。" />
+    <result ret="0" type="story" value="sdxl_三枚金针.襄阳城南" />
+  </story>
+  <story name="sdxl_三枚金针.襄阳城南">
+    <action type="BACKGROUND" value="地图.树林3" />
+    <action type="MUSIC" value="战斗音乐.山谷行进" />
+    <action type="DIALOG" value="郭襄#咦？什么人都没有啊。" />
+    <action type="DIALOG" value="顶尖杀手#哈哈，果然上当啦！一枚金针就把你们骗来了。抓住这个小女孩，我蒙古大军攻破襄阳就是指日可待了！" />
+    <action type="DIALOG" value="主角#呸，休想！" />
+    <action type="BATTLE" value="襄阳城南_战斗" />
+    <result ret="win" type="story" value="sdxl_三枚金针.襄阳胜" />
+  </story>
+  <story name="sdxl_三枚金针.襄阳胜">
+    <action type="BACKGROUND" value="地图.树林3" />
+    <action type="MUSIC" value="战斗音乐.山谷行进" />
+    <action type="DIALOG" value="郭襄#找回一枚金针。" />
+    <action type="LOG" value="襄阳城南，找回一枚神雕大侠的金针。" />
+    <action type="DIALOG" value="郭襄#呼呼，终于找齐了。" />
+    <action type="DIALOG" value="主角#下次可不能乱丢了，你看因为丢了几枚金针，惹来很多烦恼啊。" />
+    <action type="DIALOG" value="郭襄#嗯，谢谢你！金针呀金针，我一定会好好保管你！看到你就像看到了大哥哥！你也会保佑我的对不对？" />
+    <action type="NICK" value="三枚金针"/>
+    <action type="LEARN.SPECIALSKILL" value="郭襄#襄儿的心愿" />
+  </story>
+  <story name="sdxl_绝情谷底.郭襄">
+    <action type="BACKGROUND" value="地图.绝情谷底" />
+    <action type="MUSIC" value="音乐.神雕.主题" />
+    <action type="DIALOG" value="杨过#龙儿…说好的十六年之约，你为何要骗我，你为何要骗我！（杨过肝肠寸断，当着郭襄的面嚎啕大哭起来）" />
+    <action type="DIALOG" value="郭襄#（泪流满面）大哥哥，她已经不在这世界上了，已经不在这世界上了。你到底明白不明白，明白不明白啊！（郭襄哭得死去活来）" />
+    <action type="DIALOG" value="杨过#我明白也好，不明白也罢，这又有什么意义！我活着还有什么意义！！" />
+    <action type="DIALOG" value="郭襄#（紧紧抓住杨过的手臂）是的，她死了！可是你还好好的活着。你还要为万民除害，你还要当侠之大者，你还不可以死。" />
+    <action type="DIALOG" value="郭襄#（掏出杨过给的最后一根玉蜂针）答应我，你不可以自己去寻死。此事不违侠义道，你自己有诺在先。一言既出，驷马难追。" />
+    <action type="DIALOG" value="杨过#（一时间不知道该以何种表情面对郭襄）" />
+    <action type="DIALOG" value="郭襄#（紧紧抱住杨过）大哥哥，哪怕这些誓言、道理都不存在，为了我，你也不可以去死。你若执意要死，我便陪你。就像先前从悬崖上跳下来一样。" />
+    <action type="DIALOG" value="杨过#（心中极为感动，又极为痛苦）我杨过何德何能，你是郭伯伯的千金。上至朝堂，下至江湖，无人不敬重你。为我而死，不值得。" />
+    <action type="DIALOG" value="郭襄#那你便不要去死，我也就不会死了。" />
+    <action type="DIALOG" value="杨过#（一时语塞）" />
+    <action type="DIALOG" value="郭襄#我知道，知道你心中只有她一人。我好恨自己为什么不能早出生二十年，投胎做了大龙女，然后你先遇到的便是我。" />
+    <action type="DIALOG" value="郭襄#你心中只有我，只对我好。再见到小龙女，你也只会给她三根金针说，你很好，很可爱，我很喜欢。可是我心中已经有了大龙女，对不起。" />
+    <action type="DIALOG" value="郭襄#（眼泪又止不住簌簌流下）那样…该有多好…该有多好…" />
+    <action type="DIALOG" value="杨过#（一声叹息，将郭襄抱入怀中）" />
+    <action type="DIALOG" value="郭襄#我还是小婴儿的时候，你也是这样一般抱着我的么。" />
+    <action type="DIALOG" value="杨过#（百种滋味心头流过，只是静静地抱着郭襄）" />
+    <result ret="0" type="story" value="sdxl_绝情谷底.郭襄2" />
+  </story>
+  <story name="sdxl_绝情谷底.郭襄2">
+    <action type="BACKGROUND" value="地图.绝情谷底" />
+    <action type="MUSIC" value="音乐.神雕.主题" />
+    <action type="DIALOG" value="主角#两人静默地拥抱着，我只能在一边静静看着他们。直到太阳西下。" />
+    <action type="DIALOG" value="主角#在离去之前，我们检查了谷底的情形。依稀有人生活过的痕迹。可能小龙女坠崖之后，还在此生活了一段时间，之后情花毒发去世了。" />
+    <action type="DIALOG" value="主角#我们没有找到小龙女的骸骨，却发现了她手抄的武功典籍和心得。小龙女在生命临终之际依然不负古墓派教养心血，希望古墓和全真绝学得以传承。" />
+    <action type="ITEM" value="君子剑#1" />
+    <action type="ITEM" value="淑女剑#1" />
+    <action type="ITEM" value="玉女素心剑谱#1" />
+    <action type="ITEM" value="九阴真经抄本#1" />
+    <action type="LOG" value="绝情谷底，小龙女芳踪难寻，郭襄对杨过真情告白。" />
+    <action type="LOG" value="获得武学宝典《九阴真经》抄本。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="sdxl_峨眉金顶">
+    <action type="DIALOG" value="郭襄#大哥哥，此处风景秀丽。等我们厌倦了江湖，来这里终老一生如何？" />
+    <action type="DIALOG" value="杨过#（忽然想到了本应该与小龙女终老一生的古墓，心中一阵酸楚）" />
+    <action type="DIALOG" value="郭襄#…我知道，你又在想念龙姐姐了。" />
+    <action type="DIALOG" value="杨过#…" />
+    <action type="DIALOG" value="郭襄#你若是要回古墓，我便陪你回古墓。你愿留在此处，我此刻就在这里结庐，与你终老一生。" />
+    <action type="DIALOG" value="杨过#那郭伯父、郭伯母又该如何？家国天下又该如何？" />
+    <action type="DIALOG" value="郭襄#那些原就不是你会去关心的事情，一笔揭过又能如何？" />
+    <action type="DIALOG" value="郭襄#你看这峨眉风景，如此美丽。你又何不放开胸怀，痛快醉饮，饱览这大好山河。" />
+    <action type="DIALOG" value="杨过#（看着郭襄许久，越发觉得这小女孩的不可思议）你说的对，酒来！" />
+    <action type="DIALOG" value="主角#…（无奈的递上酒）你们爱结庐怎么的都可以，不过一切等哥通关了再说。" />
+    <action type="DIALOG" value="杨过#你放心，我杨过助你到现在，岂会半途而废。" />
+    <action type="DIALOG" value="郭襄#（饱览山川河流，心中一片清明）" />
+    <result ret="0">
+      <control type="story" value="sdxl_峨眉金顶2简单模式">
+        <condition type="game_mode" value="normal" />
+      </control>
+      <control type="story" value="sdxl_峨眉金顶2" />
+    </result>
+  </story>
+  <story name="sdxl_峨眉金顶2简单模式">
+    <action type="UPGRADE.MAXHP" value="郭襄#1000" />
+    <action type="UPGRADE.MAXMP" value="郭襄#1000" />
+    <action type="GET_POINT" value="郭襄#15" />
+    <action type="UPGRADE.拳掌" value="郭襄#20" />
+    <action type="UPGRADE.剑法" value="郭襄#20" />
+    <action type="UPGRADE.刀法" value="郭襄#10" />
+    <action type="UPGRADE.奇门" value="郭襄#10" />
+    <action type="LEARN.INTERNALSKILL" value="郭襄#九阳神功#10" />
+    <action type="LEARN.TALENT" value="郭襄#峨眉宗师" />
+    <action type="NICK" value="峨眉宗师" />
+    <action type="LOG" value="峨眉金顶，郭襄若有所思。" />
+    <result ret="0">
+      <control type="story" value="original_女主.神雕侠侣.峨眉山郭襄">
+        <condition type="key_in_team" value="女主" />
+        <condition type="should_finish" value="original_长安.家中"/>
+      </control>
+      <control type="map" value="大地图">
+        <condition type="key_not_in_team" value="女主" />
+      </control>
+    </result>
+  </story>
+  <story name="sdxl_峨眉金顶2">
+    <action type="UPGRADE.MAXHP" value="郭襄#1500" />
+    <action type="UPGRADE.MAXMP" value="郭襄#1500" />
+    <action type="GET_POINT" value="郭襄#30" />
+    <action type="UPGRADE.拳掌" value="郭襄#40" />
+    <action type="UPGRADE.剑法" value="郭襄#40" />
+    <action type="UPGRADE.刀法" value="郭襄#10" />
+    <action type="UPGRADE.奇门" value="郭襄#10" />
+    <action type="LEARN.INTERNALSKILL" value="郭襄#九阴神功#10" />
+    <action type="LEARN.INTERNALSKILL" value="郭襄#九阳神功#10" />
+    <action type="LEARN.TALENT" value="郭襄#峨眉宗师" />
+    <action type="NICK" value="峨眉宗师" />
+    <action type="LOG" value="峨眉金顶，郭襄若有所思。" />
+    <result ret="0">
+      <control type="story" value="original_女主.神雕侠侣.峨眉山郭襄">
+        <condition type="key_in_team" value="女主" />
+        <condition type="should_finish" value="original_长安.家中"/>
+      </control>
+      <control type="map" value="大地图">
+        <condition type="key_not_in_team" value="女主" />
+      </control>
+    </result>
+  </story>
+</root>

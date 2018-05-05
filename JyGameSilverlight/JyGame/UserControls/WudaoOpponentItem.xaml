@@ -1,0 +1,19 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" x:Class="JyGame.UserControls.WudaoOpponentItem"
+    mc:Ignorable="d" d:DesignWidth="400" Height="125" Loaded="UserControl_Loaded">
+    <Canvas x:Name="RootCanvas" HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="400">
+        <Canvas.Background>
+            <ImageBrush ImageSource="/Resource/ui/info.png"/>
+        </Canvas.Background>
+        <Image x:Name="HeadImage" Height="80" Width="80" Source="/Resource/ui/attack1.png" Canvas.Left="14" Canvas.Top="11"/>
+        <TextBlock x:Name="InfoText" Height="71" Canvas.Left="105" TextWrapping="Wrap" Text="小虾米" Width="285" Canvas.Top="10" Foreground="#FFF70000" FontSize="16"/>
+        <TextBlock x:Name="RankText" Height="30" TextWrapping="Wrap" Text="江湖排名：5" Canvas.Top="91" Width="141" FontSize="16" FontWeight="Bold" Foreground="#FFF300FF" RenderTransformOrigin="0.478,-0.333" Canvas.Left="10"/>
+        <StackPanel x:Name="TeamPanel" Height="40" Canvas.Left="105" Canvas.Top="69" Width="142" Orientation="Horizontal" FlowDirection="RightToLeft"/>
+        <Button x:Name="BattleButton" Content="挑战" Height="29" Canvas.Left="270" Canvas.Top="86" Width="72" BorderThickness="5" Click="BattleButton_Click"/>
+        <TextBlock x:Name="SayContent" TextWrapping="Wrap" Width="267" Height="49" Canvas.Left="106" Canvas.Top="32"/>
+    </Canvas>
+</UserControl>

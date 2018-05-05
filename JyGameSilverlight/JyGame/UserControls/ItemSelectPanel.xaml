@@ -1,0 +1,72 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Toolkit"
+    xmlns:local="clr-namespace:JyGame"
+	xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+	xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing"
+	mc:Ignorable="d"
+	x:Class="JyGame.ItemSelectPanel"
+	d:DesignWidth="640" d:DesignHeight="480" Width="388" Height="449" Loaded="UserControl_Loaded">
+
+    <Canvas x:Name="LayoutRoot" AllowDrop="True" Opacity="0.95" Width="388" Height="449">
+    	<Canvas.Background>
+    		<ImageBrush Stretch="Fill" ImageSource="/Resource/ui/UI-kuang8.png"/>
+    	</Canvas.Background>
+		<TextBlock x:Name="ItemInfo" Height="29" TextWrapping="Wrap" Foreground="#FFE9F508" Cursor="Arrow" Canvas.Left="8" Canvas.Top="412" Width="58"/>
+		<TextBlock x:Name="moneyLabel" Height="18" Canvas.Left="16" TextWrapping="Wrap" Text="银子" Canvas.Top="420" Width="49" Foreground="#FFF9F8F1" FontWeight="Bold" FontSize="16" ToolTipService.ToolTip="白花花的银子，有钱能使鬼推磨"/>
+		<TextBlock x:Name="money" Height="18" Canvas.Left="56" TextWrapping="Wrap" Text="0" Canvas.Top="420" Width="108" Foreground="White" FontSize="16" FontWeight="Bold" ToolTipService.ToolTip="白花花的银子，有钱能使鬼推磨"/>
+		<Button x:Name="Cancel" Content="关闭" Height="26" Canvas.Left="312" Width="54" Click="Cancel_Click" Canvas.Top="3" Foreground="Black" BorderThickness="5" Opacity="0.58" BorderBrush="#FFA29E9B">
+			<Button.Background>
+				<ImageBrush Stretch="Fill"/>
+			</Button.Background>
+		</Button>
+		<Button x:Name="ArrangeButton" Content="整理" Height="26" Canvas.Left="246" Width="58" Click="Arrange_Click" Canvas.Top="3" Foreground="Black" BorderThickness="5" Opacity="0.58" BorderBrush="#FFA29E9B">
+			<Button.Background>
+				<ImageBrush Stretch="Fill"/>
+			</Button.Background>
+		</Button>
+		<ComboBox x:Name="ItemTypeCombo" Height="28" Canvas.Left="18" Canvas.Top="4" Width="135" SelectionChanged="ItemTypeCombo_SelectionChanged" Opacity="0.585" BorderThickness="5"/>
+		<Button x:Name="PrevPage" Content="上一页" Height="22" Canvas.Left="172" Width="71" Click="PrevPage_Click" Canvas.Top="420" Foreground="Black" BorderThickness="2" Opacity="0.58" BorderBrush="#FFA29E9B">
+			<Button.Background>
+				<ImageBrush Stretch="Fill"/>
+			</Button.Background>
+		</Button>
+		<Button x:Name="NextPage" Content="下一页" Height="22" Canvas.Left="305" Width="71" Click="NextPage_Click" Canvas.Top="420" Foreground="Black" BorderThickness="2" Opacity="0.58" BorderBrush="#FFA29E9B">
+			<Button.Background>
+				<ImageBrush Stretch="Fill"/>
+			</Button.Background>
+		</Button>
+		<TextBlock x:Name="PageLabel" Height="18" Canvas.Left="248" TextWrapping="Wrap" Text="3/15" Canvas.Top="421" Width="49" Foreground="#FFF9F8F1" FontWeight="Bold" FontSize="16" ToolTipService.ToolTip="" TextAlignment="Center"/>
+		<ScrollViewer Height="363" Width="339" Canvas.Left="27" Canvas.Top="52" VerticalScrollBarVisibility="Disabled" BorderThickness="0">
+			<StackPanel x:Name="RootPanel" AllowDrop="False" ScrollViewer.VerticalScrollBarVisibility="Visible" UseLayoutRounding="True" RenderTransformOrigin="0.5,0.5"/>
+		</ScrollViewer>
+	</Canvas>
+    <!--
+    <Canvas Margin="0,0,76,60" Width="640" Height="480">
+		<Canvas Height="88" Canvas.Left="8" Canvas.Top="384" Width="624">
+			<TextBlock x:Name="Info" Height="28" Canvas.Left="8" TextWrapping="Wrap" Canvas.Top="8" Width="608" FontSize="18.667" HorizontalAlignment="Left" TextAlignment="Center" Foreground="White"/>
+		</Canvas>
+        <ListBox x:Name="ItemList" Height="380" Width="640" SelectionChanged="ItemList_SelectionChanged" HorizontalAlignment="Left" VerticalAlignment="Top">
+			<ListBox.Background>
+				<ImageBrush Stretch="Fill"/>
+			</ListBox.Background>
+			<ListBox.ItemTemplate>
+                <DataTemplate>
+					<StackPanel Orientation="Horizontal">
+                        <local:IconCard HoldImage="{Binding Pic}"/>
+					</StackPanel>
+				</DataTemplate>
+            </ListBox.ItemTemplate>
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <toolkit:WrapPanel Orientation="Horizontal" />
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+        </ListBox>
+        <Button Content="取消" Height="30" Canvas.Left="587" Width="53" RenderTransformOrigin="0.774,0.2" Click="Button_Click"/>
+	</Canvas>
+    -->
+</UserControl>

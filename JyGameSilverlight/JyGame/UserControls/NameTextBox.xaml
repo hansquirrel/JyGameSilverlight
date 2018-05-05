@@ -1,0 +1,20 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+	mc:Ignorable="d"
+	x:Class="JyGame.NameTextBox" Height="95" Width="400">
+
+
+
+	<Grid x:Name="LayoutRoot" Opacity="0.86" >
+		<Grid.Background>
+			<ImageBrush Stretch="Fill" ImageSource="/Resource/ui/UI-kuang5.png"/>
+		</Grid.Background>
+		<TextBox x:Name="text" Margin="100,32,104,33" TextWrapping="Wrap" FontSize="16" Text="铃兰" MaxLength="8"/>
+		<Button x:Name="confirm" Content="确定" HorizontalAlignment="Right" Margin="0,32,29,33" Width="64" Click="Button_Click"/>
+		<TextBlock x:Name="title" HorizontalAlignment="Left" Margin="8,33,0,30" TextWrapping="Wrap" Text="更名" FontSize="18.667" Foreground="White" Width="85" TextAlignment="Center"/>
+	</Grid>
+</UserControl>

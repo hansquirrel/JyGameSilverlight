@@ -1,0 +1,1402 @@
+<root>
+  <story name="笑傲江湖_田伯光居1">
+    <action type="BACKGROUND" value="地图.室内" />
+    <action type="MUSIC" value="音乐.室内_世俗" />
+    <action type="DIALOG" value="主角#田兄，大床安在否？" />
+    <action type="DIALOG" value="田伯光#安在。" />
+    <action type="DIALOG" value="主角#还爱好小尼姑否？" />
+    <action type="DIALOG" value="田伯光#还爱。" />
+    <action type="DIALOG" value="主角#你我兄弟二人，联手闯荡江湖，泡尽天下尼姑，岂不快哉！" />
+    <action type="DIALOG" value="田伯光#你骗我入伙的，不鸟你。" />
+    <action type="DIALOG" value="主角#......" />
+    <action type="DIALOG" value="田伯光#很久以前，也有个长得跟你一样丑的哥们儿拉我入伙。" />
+    <action type="DIALOG" value="田伯光#后来那兄弟又拉了一大票妹子，结果他都成了武林盟主了，却一个妹子都没有分给我！" />
+    <action type="DIALOG" value="主角#......" />
+    <action type="DIALOG" value="田伯光#少废话，要我入伙，试试你的本事先！" />
+    <action type="BATTLE" value="田伯光居_战斗1" />
+    <result ret="win" type="story" value="笑傲江湖_田伯光居.胜田伯光" />
+    <result ret="lose" type="story" value="笑傲江湖_田伯光居.负田伯光" />
+  </story>
+  <story name="笑傲江湖_田伯光居.胜田伯光">
+    <action type="BACKGROUND" value="地图.室内" />
+    <action type="MUSIC" value="音乐.室内_世俗" />
+    <action type="DIALOG" value="主角#哈哈，你服了不服？" />
+    <action type="DIALOG" value="田伯光#好吧，算你厉害。我跟你跑跑。" />
+    <action type="DIALOG" value="主角#耶，欢迎你，伟大的小田田。" />
+    <action type="DIALOG" value="田伯光#但是有一个条件。" />
+    <action type="DIALOG" value="主角#说。" />
+    <action type="DIALOG" value="田伯光#有尼姑，先给我。" />
+    <action type="DIALOG" value="主角#...成交！" />
+    <action type="JOIN" value="田伯光" />
+    <action type="ITEM" value="狂风刀法秘籍#1" />
+    <action type="ITEM" value="生生造化丹#5" />
+    <action type="NICK" value="万里独行" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="笑傲江湖_田伯光居.负田伯光">
+    <action type="BACKGROUND" value="地图.室内" />
+    <action type="MUSIC" value="音乐.室内_世俗" />
+    <action type="DIALOG" value="主角#田兄，你好威猛哦~" />
+    <action type="DIALOG" value="田伯光#你别拍我马屁，男人拍马屁太肉麻了。" />
+    <action type="DIALOG" value="主角#田兄，你就跟我跑跑嘛，嘛~" />
+    <action type="DIALOG" value="田伯光#（一地的鸡皮疙瘩）哎呀，好了，别恶心了。" />
+    <action type="DIALOG" value="主角#那你不跟我走，我就一直缠着你。我保证，跟我走一定有美女！" />
+    <action type="DIALOG" value="田伯光#唉...我真是造孽啊。" />
+    <action type="JOIN" value="田伯光" />
+    <action type="ITEM" value="狂风刀法秘籍#1" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="笑傲江湖_天下第一令狐冲">
+    <action type="DIALOG" value="令狐冲#哈哈，天下风云出我辈，一入江湖岁月催！" />
+    <action type="DIALOG" value="主角#冲哥，剑在心中，无招胜有招，天下更何求啊。" />
+    <action type="DIALOG" value="令狐冲#唉，兄弟，这无招胜有招，如今冲哥我是有心无力啊。" />
+    <action type="DIALOG" value="主角#怎么回事？" />
+    <action type="DIALOG" value="令狐冲#说来丢脸，前两个月在家中和盈盈激战..." />
+    <action type="DIALOG" value="主角#激战？" />
+    <action type="DIALOG" value="令狐冲#咳咳...你懂的..." />
+    <action type="DIALOG" value="主角#哦......." />
+    <action type="DIALOG" value="令狐冲#总之，一不小心岔了气，易筋经算是白练了。" />
+    <action type="DIALOG" value="主角#冲哥，真惨啊...总是各种真气走岔..." />
+    <action type="DIALOG" value="令狐冲#唉，我也不想啊。" />
+    <action type="DIALOG" value="主角#冲哥，不如和我同行，我知道几个名医也许有点办法。" />
+    <action type="DIALOG" value="令狐冲#趁盈盈不在赶紧走吧...要不就潇洒不起来了。" />
+    <action type="JOIN" value="令狐冲" />
+  </story>
+  <story name="笑傲江湖_曲非烟1">
+    <action type="DIALOG" value="曲非烟#山间清泉，明月松风，也不能减淡我心中一丝一毫的恨意...怎么办..." />
+    <action type="DIALOG" value="主角#嗯？漂亮妹子？" />
+    <action type="DIALOG" value="曲非烟#抚琴吟啸，复返山林，这么多年过去了，我却始终无法忘记..." />
+    <action type="DIALOG" value="主角#怎么了？" />
+    <action type="DIALOG" value="曲非烟#说与你听，你又何尝明白呢。" />
+  </story>
+  <story name="笑傲江湖_曲非烟2">
+    <action type="DIALOG" value="曲非烟#山间清泉，明月松风，也不能减淡我心中一丝一毫的恨意...怎么办..." />
+    <action type="DIALOG" value="主角#嗯？漂亮妹子？" />
+    <action type="DIALOG" value="曲非烟#抚琴吟啸，复返山林，这么多年过去了，我却始终无法忘记..." />
+    <action type="DIALOG" value="主角#怎么了？" />
+    <action type="DIALOG" value="曲非烟#说与你听，你又何尝明白呢。" />
+    <action type="DIALOG" value="令狐冲#那说与我听如何？曲妹妹。" />
+    <action type="DIALOG" value="曲非烟#啊！是令狐哥哥。" />
+    <action type="DIALOG" value="令狐冲#当日在衡阳，我以为你被费彬那狗贼一剑刺死了。" />
+    <action type="DIALOG" value="曲非烟#险些死去，幸得到高人相救。可惜，祖父和刘先生都已经不在人世了。" />
+    <action type="DIALOG" value="令狐冲#唉，前辈高人，高山仰止。当年也多亏了《笑傲江湖曲》，才有了我和盈盈的缘分。" />
+    <action type="DIALOG" value="曲非烟#令狐哥哥..." />
+    <action type="DIALOG" value="费彬#嘿嘿，一帮邪魔歪道，今日定将你们屠戮干净！" />
+    <action type="DIALOG" value="令狐冲#曲妹妹，我帮你！" />
+    <action type="BATTLE" value="曲非烟_战斗" />
+    <result ret="win" type="story" value="笑傲江湖_曲非烟胜" />
+  </story>
+  <story name="笑傲江湖_曲非烟胜">
+    <action type="DIALOG" value="费彬#厉害，我闪！" />
+    <action type="DIALOG" value="曲非烟#可恨！我与此人不共戴天！" />
+    <action type="DIALOG" value="令狐冲#曲妹妹，息怒。这江湖仇杀，何时又是个尽头呢。" />
+    <action type="DIALOG" value="曲非烟#我不懂这些，我只是难忘记当年的一幕。" />
+    <action type="DIALOG" value="令狐冲#..." />
+    <action type="DIALOG" value="曲非烟#令狐哥哥，我跟你走，我要报仇。" />
+    <action type="DIALOG" value="令狐冲#......" />
+    <action type="JOIN" value="曲非烟" />
+    <action type="ITEM" value="日月鞭法秘籍#1" />
+    <action type="NICK" value="古琴知音" />
+    <result ret="0" type="map" value="衡阳郊外" />
+  </story>
+  <story name="笑傲江湖_蓝凤凰1">
+    <action type="DIALOG" value="蓝凤凰#（笑嘻嘻）小兄弟跑到我五毒教来干什么呢。" />
+  </story>
+  <story name="笑傲江湖_蓝凤凰2">
+    <action type="DIALOG" value="蓝凤凰#（笑嘻嘻）冲哥哥哟，怎么一副这么萎顿的样子咯。" />
+    <action type="DIALOG" value="令狐冲#唉..." />
+    <action type="DIALOG" value="蓝凤凰#要不要妹子今天帮你暖暖床铺咯。" />
+    <action type="DIALOG" value="令狐冲#多谢妹子好意，可惜冲哥有病在身..." />
+    <action type="DIALOG" value="蓝凤凰#我给你治治？" />
+    <action type="DIALOG" value="令狐冲#怕是难得治好了。" />
+    <action type="DIALOG" value="蓝凤凰#别怕，我带你去找平一指大夫看看。" />
+    <action type="JOIN" value="蓝凤凰" />
+    <action type="ITEM" value="毒龙鞭法秘籍#1" />
+  </story>
+  <story name="笑傲江湖_岳灵珊1">
+    <action type="DIALOG" value="岳灵珊#（目光呆滞）大师兄..." />
+    <action type="DIALOG" value="主角#怎么回事？" />
+    <action type="DIALOG" value="岳灵珊#大师兄...我好后悔..." />
+    <action type="DIALOG" value="主角#？" />
+    <action type="DIALOG" value="岳灵珊#我好后悔...好后悔啊！（岳灵珊忽然杀气大作！）" />
+    <action type="BATTLE" value="岳灵珊_战斗" />
+    <result ret="win" type="story" value="笑傲江湖_岳灵珊1胜" />
+  </story>
+  <story name="笑傲江湖_岳灵珊1胜">
+    <action type="DIALOG" value="岳灵珊#大师兄...小林子...爹爹..." />
+    <action type="ITEM" value="华山剑法秘籍#1" />
+    <action type="ITEM" value="紫霞神功秘籍#1" />
+    <result ret="0" type="map" value="华山派" />
+  </story>
+  <story name="笑傲江湖_岳灵珊2">
+    <action type="DIALOG" value="岳灵珊#大师兄...小林子...爹爹..." />
+    <action type="DIALOG" value="岳灵珊#为什么！为什么要为了什么宝典秘籍，连我都不顾了！" />
+    <action type="DIALOG" value="岳灵珊#你们都怎么了！！！（岳灵珊忽然杀气大作！）" />
+    <action type="BATTLE" value="岳灵珊_战斗" />
+    <result ret="win" type="story" value="笑傲江湖_岳灵珊2胜" />
+  </story>
+  <story name="笑傲江湖_岳灵珊2胜">
+    <action type="DIALOG" value="岳灵珊#大师兄...小林子...爹爹..." />
+    <result ret="0" type="map" value="华山派" />
+  </story>
+  <story name="笑傲江湖_岳灵珊3">
+    <action type="DIALOG" value="岳灵珊#大师兄...小林子...爹爹..." />
+    <action type="DIALOG" value="令狐冲#小师妹？！你究竟是亡魂，还是..." />
+    <action type="DIALOG" value="岳灵珊#（凄然一笑）大师兄，我是死是活，如今又有什么重要的呢。" />
+    <action type="DIALOG" value="令狐冲#...小师妹，我没有能保护好你，对不起..." />
+    <action type="DIALOG" value="岳灵珊#是我自己太傻，不关你的事。" />
+    <action type="DIALOG" value="岳灵珊#可我真的好恨，好恨，为什么小林子会变成这样，爹爹也会着迷什么宝典！" />
+    <action type="DIALOG" value="令狐冲#那本是害人的东西，把师父和小师弟折磨得不人不鬼。" />
+    <action type="DIALOG" value="岳灵珊#欲练神功，必先自宫...嘿嘿..." />
+    <action type="DIALOG" value="岳灵珊#我好恨！（岳灵珊忽然杀气大作！）" />
+    <action type="DIALOG" value="主角#这一阵阴风...冲哥，小心了！" />
+    <action type="BATTLE" value="岳不群_战斗" />
+    <result ret="win" type="story" value="笑傲江湖_岳灵珊3胜" />
+  </story>
+  <story name="笑傲江湖_岳灵珊3胜">
+    <action type="DIALOG" value="岳灵珊#大师兄...小林子...爹爹...（岳灵珊渐渐消失在烟雾中）" />
+    <action type="DIALOG" value="令狐冲#不！小师妹！！！不！！！！" />
+    <action type="DIALOG" value="令狐冲#（泣不成声）" />
+    <action type="DIALOG" value="主角#冲哥，她本已经是亡魂了，就让死者安息吧。" />
+    <action type="DIALOG" value="令狐冲#令狐冲呆呆地望着从小长大的华山镇岳宫，一句话也听不进去了。" />
+    <action type="DIALOG" value="主角#唉...咦？这是什么？" />
+    <action type="ITEM" value="辟邪剑法残卷#1" />
+    <action type="DIALOG" value="主角#欲练神功，必先...后面无法辨认了。" />
+    <action type="DIALOG" value="主角#...先揣在口袋里吧。" />
+    <action type="LOG" value="在华山派遇到岳灵珊、岳不群的亡魂。" />
+    <action type="LOG" value="得到辟邪剑法的线索" />
+    <result ret="0" type="map" value="华山派" />
+  </story>
+  <story name="笑傲江湖_平一指1">
+    <action type="DIALOG" value="平一指#哼，医一人，杀一人。" />
+  </story>
+  <story name="笑傲江湖_平一指2">
+    <action type="DIALOG" value="平一指#哼，医一人，杀一人。" />
+    <action type="DIALOG" value="蓝凤凰#哟，平老师，瞧我给您带来一位老朋友。" />
+    <action type="DIALOG" value="令狐冲#Hi..." />
+    <action type="DIALOG" value="平一指#......" />
+    <action type="DIALOG" value="平一指#令狐冲，你这次又是什么毛病啊？" />
+    <action type="DIALOG" value="令狐冲#说来难以启齿...这个那个..." />
+    <action type="DIALOG" value="平一指#哦...我懂了。" />
+    <action type="DIALOG" value="令狐冲#嗯，你懂的。" />
+    <action type="DIALOG" value="蓝凤凰#你们在打什么哑谜啊？" />
+    <action type="DIALOG" value="平一指#咳咳，总之，很难治..." />
+    <action type="DIALOG" value="令狐冲#那，肿么办？" />
+    <action type="DIALOG" value="平一指#这样吧，你凑齐【雪莲花】、【万年冰蚕】、【长白人参】，配以【万年醉】，再来找我。" />
+    <action type="LOG" value="寻找治疗令狐冲的雪莲花、万年冰蚕、长白人参、万年醉。" />
+    <action type="DIALOG" value="令狐冲#这些玩意，听名字似乎都不是很容易找到的样子..." />
+    <action type="DIALOG" value="平一指#废话，常见的我这里能没有么。" />
+    <action type="DIALOG" value="令狐冲#那一时半会儿老是咳嗽很难受啊。" />
+    <action type="DIALOG" value="平一指#唉...看在圣姑面上，我随你一起去找吧。" />
+    <action type="DIALOG" value="平一指#要是再咳嗽，我给你急救一下。" />
+    <action type="DIALOG" value="令狐冲#耶，万岁！" />
+    <action type="JOIN" value="平一指" />
+    <action type="DIALOG" value="平一指#战场上，平一指气血充足时，令狐冲咳嗽可以临时救治，继续行动！" />
+    <action type="DIALOG" value="费彬#哼，魔教妖人，看我嵩山派荡平魔教！" />
+    <action type="DIALOG" value="主角#嵩山派什么的，最烦了！" />
+    <action type="BATTLE" value="平一指_战斗" />
+    <result ret="win" type="map" value="平一指居" />
+  </story>
+  <story name="笑傲江湖_平一指3">
+    <action type="DIALOG" value="平一指#药还没找齐。" />
+    <action type="DIALOG" value="平一指#需要【雪莲花】、【万年冰蚕】、【长白人参】和【万年醉】。" />
+  </story>
+  <story name="笑傲江湖_昆仑山雪莲">
+    <action type="DIALOG" value="主角#啊！是雪莲花！" />
+    <action type="ITEM" value="雪莲花#1" />
+  </story>
+  <story name="笑傲江湖_西湖底.询问林平之辟邪1">
+    <action type="BACKGROUND" value="地图.地牢" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="林平之#...你是谁？" />
+    <action type="DIALOG" value="主角#你不管我是谁，我只想问你，这份残篇可是你的东西？" />
+    <action type="DIALOG" value="林平之#嘿嘿，你明知道我双眼已瞎，我又怎么知道你说的是什么东西。" />
+    <action type="DIALOG" value="主角#一定要我念出来？欲练神功，必先..." />
+    <action type="DIALOG" value="林平之#（脸色阴晴不定）你从何处得来此物？" />
+    <action type="DIALOG" value="主角#华山镇岳宫。" />
+    <action type="DIALOG" value="林平之#你想怎么样？" />
+    <action type="DIALOG" value="主角#不怎么样，只是想学来玩玩。" />
+    <action type="DIALOG" value="林平之#嘿嘿，这可不是随便玩的东西。" />
+    <action type="DIALOG" value="主角#人各有所求，你不也是想报仇，才学的这邪门剑法么。" />
+    <action type="DIALOG" value="林平之#嘿嘿，你很腹黑嘛，不错，不错，很对我胃口。" />
+    <action type="DIALOG" value="林平之#不过想练这辟邪剑法，让我先试试你的本事！" />
+    <action type="BATTLE" value="西湖底_战斗林平之" />
+    <result ret="win" type="story" value="笑傲江湖_西湖底.询问林平之辟邪2" />
+  </story>
+  <story name="笑傲江湖_西湖底.询问林平之辟邪2">
+    <action type="BACKGROUND" value="地图.地牢" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="林平之#好，你功夫不错。" />
+    <action type="DIALOG" value="主角#现在可以告诉我了？" />
+    <action type="DIALOG" value="林平之#你武功招式间一派正大光明，何必学这千煞万煞的阴邪功夫？" />
+    <action type="DIALOG" value="主角#那岳不群的紫霞神功、华山剑法，不也是一派正大光明？" />
+    <action type="DIALOG" value="林平之#（狂笑）哈哈哈哈，不错，不错。你越来越对我胃口了！" />
+    <action type="DIALOG" value="主角#那你说不说？" />
+    <action type="DIALOG" value="林平之#听好，华山后山山洞，你可知道？" />
+    <action type="DIALOG" value="主角#昔日五岳剑派和魔教长老斗剑之所？" />
+    <action type="DIALOG" value="林平之#不错，当日我拿到辟邪剑谱后，手抄了一份，便藏在此处。" />
+    <action type="DIALOG" value="主角#我如何知道那是真是假？" />
+    <action type="DIALOG" value="林平之#嘿嘿，我又如何知道你要剑谱是真是假？" />
+    <action type="DIALOG" value="主角#（一时无语）那你为什么要给我？" />
+    <action type="DIALOG" value="林平之#嘿嘿，我一个废人，还图什么？我只想这世界更疯狂，更混乱，哈哈哈哈！（狂笑）" />
+    <action type="DIALOG" value="主角#你还真是黑暗啊。" />
+    <action type="DIALOG" value="林平之#你！经历了那么多后，也会跟我一样！！哈哈哈哈（狂笑）" />
+    <result ret="0" type="story" value="笑傲江湖_西湖底.询问林平之辟邪3" />
+  </story>
+  <story name="笑傲江湖_西湖底.询问林平之辟邪3">
+    <action type="BACKGROUND" value="地图.地牢" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="令狐冲#你为什么要问辟邪剑谱的事情？" />
+    <action type="DIALOG" value="主角#你都听见了？" />
+    <action type="DIALOG" value="令狐冲#回答我（手按在剑上）" />
+    <action type="DIALOG" value="主角#冲哥你搞错了，我问剑谱，只是想毁掉它。" />
+    <action type="DIALOG" value="令狐冲#当真？" />
+    <action type="DIALOG" value="主角#哎呀，冲哥，我们都相处这么久了，你还不相信我的人品？" />
+    <action type="DIALOG" value="令狐冲#不相信。" />
+    <action type="DIALOG" value="主角#......" />
+    <action type="DIALOG" value="令狐冲#我师父也好，林师弟也好，都是本性不坏的人。但这剑谱太邪门，诱惑力太大了。" />
+    <action type="DIALOG" value="主角#...放心啦，我可不想自宫啥的..." />
+    <action type="DIALOG" value="令狐冲#谁知道呢..." />
+    <action type="DIALOG" value="主角#..." />
+    <action type="DIALOG" value="令狐冲#我们一起去华山，我要亲眼看到你把它毁了。" />
+    <action type="DIALOG" value="主角#好！走吧！" />
+  </story>
+  <story name="笑傲江湖_华山山洞.辟邪剑谱1">
+    <action type="BACKGROUND" value="地图.阴冷山洞1" />
+    <action type="MUSIC" value="音乐.天龙八部.忧伤" />
+    <action type="DIALOG" value="主角#找到了，剑谱就在这里！" />
+    <action type="DIALOG" value="令狐冲#（手按在剑上）快毁了它。" />
+    <action type="DIALOG" value="主角#冲哥，让我看两眼学习一些高深的招式嘛..." />
+    <action type="DIALOG" value="令狐冲#快毁了它！" />
+    <action type="DIALOG" value="主角#（无奈）好吧..." />
+    <result ret="0" type="story" value="笑傲江湖_华山山洞.辟邪剑谱2" />
+  </story>
+  <story name="笑傲江湖_华山山洞.辟邪剑谱2">
+    <action type="BACKGROUND" value="地图.阴冷山洞1" />
+    <action type="MUSIC" value="音乐.天龙八部.忧伤" />
+    <action type="DIALOG" value="封不平#（突施暗算抢到剑谱）哈哈哈哈，原来世上还有一本辟邪剑谱！" />
+    <action type="DIALOG" value="令狐冲#封不平！你原来还没死。" />
+    <action type="DIALOG" value="封不平#我华山、我剑宗复兴有望了，哈哈哈哈。" />
+    <action type="DIALOG" value="令狐冲#快还回来，这东西很邪门。" />
+    <action type="DIALOG" value="封不平#那又如何？别以为你的独孤九剑天下第一，嘿嘿，令狐冲..." />
+    <action type="DIALOG" value="令狐冲#我从不觉得自己剑法多高明。" />
+    <action type="DIALOG" value="封不平#你虚伪！你如今是功成名就，自然不在乎什么五岳剑派，什么日月神教了，可是我在乎！" />
+    <action type="DIALOG" value="令狐冲#..." />
+    <action type="DIALOG" value="封不平#（攥着辟邪剑谱）我要靠这剑谱功成名就，重振我华山剑宗雄威！" />
+    <action type="DIALOG" value="令狐冲#...别发疯了，我这就让你的梦彻底结束。" />
+    <action type="DIALOG" value="封不平#哼！" />
+    <action type="BATTLE" value="华山山洞_战斗辟邪剑谱" />
+    <result ret="win" type="story" value="笑傲江湖_华山山洞.辟邪剑谱3" />
+  </story>
+  <story name="笑傲江湖_华山山洞.辟邪剑谱3">
+    <action type="BACKGROUND" value="地图.阴冷山洞1" />
+    <action type="MUSIC" value="音乐.天龙八部.忧伤" />
+    <action type="DIALOG" value="令狐冲#可恶，让他跑了。" />
+    <action type="DIALOG" value="令狐冲#辟邪剑法过于邪门，我们必须找到封不平把剑谱毁了。" />
+    <action type="DIALOG" value="主角#..." />
+  </story>
+  <story name="笑傲江湖_黑木崖.封不平1">
+    <action type="BACKGROUND" value="地图.黑木崖" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="令狐冲#封不平？" />
+    <action type="DIALOG" value="封不平#嘿嘿，令狐师侄，你来看师叔千秋万载，一统江湖的么？好啊，好啊..." />
+    <action type="DIALOG" value="令狐冲#你的声音变尖了。" />
+    <action type="DIALOG" value="封不平#那又如何？" />
+    <action type="DIALOG" value="令狐冲#终究你还是练了那邪门的武功！" />
+    <action type="DIALOG" value="封不平#我华山剑法虽精妙，却远未能达到独步天下的境界。华山派人丁凋零，我为光复我派，做些自我牺牲又有何妨，嘿嘿。" />
+    <action type="DIALOG" value="令狐冲#那年，你虽败给了我，却依然是条响当当的汉子。" />
+    <action type="DIALOG" value="令狐冲#而如今，你不过是个利欲熏心的狂徒罢了。" />
+    <action type="DIALOG" value="封不平#是不是狂徒，我们手下见个真章吧，令狐少侠！" />
+    <action type="BATTLE" value="黑木崖_战斗封不平1" />
+    <result ret="win" type="story" value="笑傲江湖_黑木崖.封不平2" />
+  </story>
+  <story name="笑傲江湖_黑木崖.封不平2">
+    <action type="BACKGROUND" value="地图.黑木崖" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="封不平#呜呜，可恶...终究还是功力不够吗..." />
+    <action type="DIALOG" value="令狐冲#......" />
+    <action type="DIALOG" value="封不平#我不甘心！" />
+    <action type="DIALOG" value="封不平#再来！！" />
+    <action type="DIALOG" value="令狐冲#多少次你也只能是败！" />
+    <action type="BATTLE" value="黑木崖_战斗封不平2" />
+    <result ret="win" type="story" value="笑傲江湖_黑木崖.封不平3" />
+  </story>
+  <story name="笑傲江湖_黑木崖.封不平3">
+    <action type="BACKGROUND" value="地图.黑木崖" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="封不平#为什么，为什么要阻拦我！" />
+    <action type="DIALOG" value="令狐冲#......" />
+    <action type="DIALOG" value="封不平#你不是华山弟子？你不愿意看到我华山一统江湖？" />
+    <action type="DIALOG" value="封不平#为什么！" />
+    <action type="DIALOG" value="令狐冲#一统江湖？" />
+    <action type="DIALOG" value="令狐冲#我只是知道，这本剑谱害得我恩师丧心病狂，害得我小师妹凄冷死去，害得我师弟至今依然不得不关在西湖底下！" />
+    <action type="DIALOG" value="令狐冲#什么一统江湖，什么千秋万代，又有什么意义？" />
+    <action type="DIALOG" value="令狐冲#只可怜东方不败、任教主、左冷禅神功盖世，至今不过是青冢一座。" />
+    <action type="DIALOG" value="封不平#哈哈哈哈，你不懂。这其中的追求，你不懂！" />
+    <action type="DIALOG" value="封不平#华山列祖列宗，助我讨此逆贼！（挥剑刺瞎自己双眼，黑血狂飙）" />
+    <action type="DIALOG" value="主角#这是巫术！冲哥，小心了！" />
+    <action type="BATTLE" value="黑木崖_战斗封不平3" />
+    <result ret="win" type="story" value="笑傲江湖_黑木崖.封不平4" />
+  </story>
+  <story name="笑傲江湖_黑木崖.封不平4">
+    <action type="BACKGROUND" value="地图.黑木崖" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="封不平#嘿嘿...终究...还是...（全身喷黑血，暴毙当场）" />
+    <action type="DIALOG" value="令狐冲#......" />
+    <action type="DIALOG" value="主角#......" />
+    <action type="DIALOG" value="主角#然后呢？" />
+    <action type="DIALOG" value="令狐冲#我想，封不平的事件应该告一段落了吧..." />
+    <action type="ITEM" value="狂风快剑决#1" />
+    <action type="LOG" value="剑宗高手封不平自宫，学习辟邪剑法。" />
+    <action type="LOG" value="封不平强攻黑木崖，身亡。" />
+    <action type="NICK" value="狂风快剑" />
+    <action type="DIALOG" value="主角#（等等，辟邪剑法应该在封不平身上...）" />
+    <action type="DIALOG" value="主角#（一番搜索...）" />
+    <action type="DIALOG" value="主角#哈哈哈，果然功夫不负有心人，居然让我找到了这本秘籍。" />
+    <action type="DIALOG" value="令狐冲#你！这秘籍太过阴邪，小兄弟我劝你还是从长计议。" />
+    <action type="DIALOG" value="主角#哎呀，我就看两眼嘛...欲练神功，必先自宫..." />
+    <action type="DIALOG" value="主角#这..." />
+    <action type="DIALOG" value="令狐冲#所以我说了，这邪门的武功还是不要练了。把秘籍给我吧。" />
+    <action type="DIALOG" value="主角#为什么要给你？" />
+    <action type="DIALOG" value="令狐冲#你难道担心我偷练？我这就在你面前将它毁去。" />
+    <action type="DIALOG" value="主角#冲哥，别这么轻易就毁了嘛...好不容易才拿到的..." />
+    <action type="DIALOG" value="令狐冲#(手按剑柄）休要阻我，话我只说一遍。" />
+    <action type="DIALOG" value="主角#这..." />
+    <action type="SELECT" value="主角#要把辟邪剑谱交出去吗？#交出去#不交！" />
+    <result ret="0" type="story" value="笑傲江湖_黑木崖.辟邪剑谱交" />
+    <result ret="1" type="story" value="笑傲江湖_黑木崖.辟邪剑谱不交" />
+  </story>
+  <story name="笑傲江湖_黑木崖.辟邪剑谱交">
+    <action type="BACKGROUND" value="地图.黑木崖" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="主角#......" />
+    <action type="DIALOG" value="主角#冲哥，别紧张，给，给你吧。" />
+    <action type="DIALOG" value="令狐冲#...（接过剑谱，暗运内力，辟邪剑谱化为漫天飞舞的纸屑）" />
+    <action type="DIALOG" value="主角#唉，可惜了。" />
+    <action type="DIALOG" value="令狐冲#小兄弟能经得起这绝顶武学的诱惑，我衷心佩服。走，我们下山吧。" />
+    <action type="UPGRADE.定力" value="主角#30" />
+    <action type="UPGRADE.福缘" value="主角#30" />
+    <action type="DIALOG" value="主角#算了，天下的好武功多着呢。我才不要那啥，自宫呢。" />
+  </story>
+  <story name="笑傲江湖_黑木崖.辟邪剑谱不交">
+    <action type="BACKGROUND" value="地图.黑木崖" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="主角#......" />
+    <action type="DIALOG" value="主角#冲哥，这辟邪剑谱，我还是想再看看！" />
+    <action type="DIALOG" value="令狐冲#...既然你已经决定了，就不要怪我不客气了！" />
+    <action type="LEAVE" value="令狐冲" />
+    <action type="BATTLE" value="黑木崖_辟邪剑谱" />
+    <result ret="win" type="story" value="笑傲江湖_黑木崖.辟邪剑谱不交胜" />
+  </story>
+  <story name="笑傲江湖_黑木崖.辟邪剑谱不交胜">
+    <action type="BACKGROUND" value="地图.黑木崖" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="主角#......" />
+    <action type="DIALOG" value="令狐冲#虽然你赢了我，可是天下武林不会原谅你的。兄弟，好自为之！改日再领教高招！" />
+    <result ret="0">
+      <control type="story" value="笑傲江湖_黑木崖.辟邪剑谱不交蓝凤凰">
+        <condition type="in_team" value="蓝凤凰" />
+      </control>
+      <control type="story" value="笑傲江湖_黑木崖辟邪剑谱平一指判断" />
+    </result>
+  </story>
+  <story name="笑傲江湖_黑木崖.辟邪剑谱不交蓝凤凰">
+    <action type="BACKGROUND" value="地图.黑木崖" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="蓝凤凰#唉，冲哥哥，我也跟你一起走。" />
+    <action type="LEAVE" value="蓝凤凰" />
+    <result ret="0" type="story" value="笑傲江湖_黑木崖辟邪剑谱平一指判断"/>
+  </story>
+  <story name="笑傲江湖_黑木崖辟邪剑谱平一指判断">
+    <result ret="0">
+      <control type="story" value="笑傲江湖_黑木崖.辟邪剑谱不交平一指">
+        <condition type="in_team" value="平一指" />
+      </control>
+      <control type="story" value="笑傲江湖_黑木崖辟邪剑谱曲非烟判断" />
+    </result>
+  </story>
+  <story name="笑傲江湖_黑木崖.辟邪剑谱不交平一指">
+    <action type="BACKGROUND" value="地图.黑木崖" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="平一指#都要走，我留着也没意思。" />
+    <action type="LEAVE" value="平一指" />
+    <result ret="0" type="story" value="笑傲江湖_黑木崖辟邪剑谱曲非烟判断"/>
+  </story>
+  <story name="笑傲江湖_黑木崖辟邪剑谱曲非烟判断">
+    <result ret="0">
+      <control type="story" value="笑傲江湖_黑木崖.辟邪剑谱不交曲非烟">
+        <condition type="in_team" value="曲非烟" />
+      </control>
+      <control type="story" value="笑傲江湖_黑木崖辟邪剑谱任盈盈判断" />
+    </result>
+  </story>
+  <story name="笑傲江湖_黑木崖.辟邪剑谱不交曲非烟">
+    <action type="BACKGROUND" value="地图.黑木崖" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="曲非烟#令狐大哥，我和你一起。" />
+    <action type="LEAVE" value="曲非烟" />
+    <result ret="0" type="story" value="笑傲江湖_黑木崖辟邪剑谱任盈盈判断"/>
+  </story>
+  <story name="笑傲江湖_黑木崖辟邪剑谱任盈盈判断">
+    <result ret="0">
+      <control type="story" value="笑傲江湖_黑木崖.辟邪剑谱不交任盈盈">
+        <condition type="in_team" value="任盈盈" />
+      </control>
+      <control type="story" value="笑傲江湖_黑木崖.辟邪剑谱到手" />
+    </result>
+  </story>
+  <story name="笑傲江湖_黑木崖.辟邪剑谱不交任盈盈">
+    <action type="BACKGROUND" value="地图.黑木崖" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="任盈盈#冲哥，我和你一起。" />
+    <action type="LEAVE" value="任盈盈" />
+    <result ret="0" type="story" value="笑傲江湖_黑木崖.辟邪剑谱到手" />
+  </story>
+
+  <story name="笑傲江湖_黑木崖.辟邪剑谱到手">
+    <action type="BACKGROUND" value="地图.黑木崖" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="主角#拿个辟邪剑谱，代价还真是大啊..." />
+    <action type="ITEM" value="辟邪剑谱#1" />
+    <action type="LOG" value="获得江湖秘宝之辟邪剑谱。" />
+    <action type="DIALOG" value="主角#要练这个剑谱，还得先自宫才行，牺牲好大啊！！得想好了才行..." />
+  </story>
+  <story name="笑傲江湖_华山后山.剑宗1">
+    <action type="BACKGROUND" value="地图.阴冷山洞1" />
+    <action type="MUSIC" value="音乐.天龙八部.忧伤" />
+    <action type="DIALOG" value="令狐冲#昔日就是在这里，师父召集五岳剑派学习前辈剑术，趁机屠戮。" />
+    <action type="DIALOG" value="令狐冲#五岳精英，折损殆尽，师父和我也展开了生死之斗...咳，咳..." />
+    <action type="DIALOG" value="曲非烟#令狐大哥..." />
+    <result ret="0" type="story" value="笑傲江湖_华山后山.剑宗2" />
+  </story>
+  <story name="笑傲江湖_华山后山.剑宗2">
+    <action type="BACKGROUND" value="地图.阴冷山洞1" />
+    <action type="MUSIC" value="音乐.天龙八部.忧伤" />
+    <action type="DIALOG" value="封不平#嘿嘿，尽是一些卑鄙小人，死了真是干干净净！" />
+    <action type="DIALOG" value="令狐冲#封不平，居然会是你？！" />
+    <action type="DIALOG" value="封不平#昔日败在你手里，我心服口服。当时的是是非非，如今想来也没有意义了。" />
+    <action type="DIALOG" value="令狐冲#不愧是剑宗第一高手，拿得起放得下！" />
+    <action type="DIALOG" value="封不平#嘿嘿，你得了风师叔的真传，我输给你，也不算输给气宗了。" />
+    <action type="DIALOG" value="令狐冲#原来你也知道了..." />
+    <action type="DIALOG" value="封不平#这么多年，独孤九剑，名震江湖，我又岂能不知道？" />
+    <action type="DIALOG" value="令狐冲#..." />
+    <action type="DIALOG" value="封不平#我问你，后来你可曾再见到风师叔？" />
+    <action type="DIALOG" value="令狐冲#不曾。" />
+    <action type="DIALOG" value="封不平#何必骗我？" />
+    <action type="DIALOG" value="令狐冲#不骗你。" />
+    <action type="DIALOG" value="封不平#（怒）令狐冲，你也曾经是我华山弟子，就不想振兴我华山？我华山希望，全在风师叔身上！" />
+    <action type="DIALOG" value="令狐冲#门派之见，又有何意义？五岳剑派你争我斗，不过是在这华山之上，多添几幅白骨。" />
+    <action type="DIALOG" value="曲非烟#..." />
+    <action type="DIALOG" value="封不平#我不认同！你不带我去找，好，我抓你去找！" />
+    <action type="DIALOG" value="令狐冲#你的剑法不如我，如何抓我？" />
+    <action type="DIALOG" value="封不平#我不管，这些年来，我也不是白白修炼的！" />
+    <action type="DIALOG" value="主角#冲哥小心，这华山煞气很重，孤魂野鬼之属太多！" />
+    <action type="DIALOG" value="令狐冲#便是要用这手中长剑，荡平华山的重重戾气！" />
+    <action type="BATTLE" value="华山后山剑宗1_战斗" />
+    <result ret="win" type="story" value="笑傲江湖_华山后山.剑宗3" />
+  </story>
+  <story name="笑傲江湖_华山后山.剑宗3">
+    <action type="BACKGROUND" value="地图.阴冷山洞1" />
+    <action type="MUSIC" value="音乐.天龙八部.忧伤" />
+    <action type="DIALOG" value="封不平#我不服！我们单挑！" />
+    <action type="DIALOG" value="令狐冲#好！尽管来吧！" />
+    <action type="BATTLE" value="华山后山剑宗2_战斗" />
+    <result ret="win" type="story" value="笑傲江湖_华山后山.剑宗4" />
+  </story>
+  <story name="笑傲江湖_华山后山.剑宗4">
+    <action type="BACKGROUND" value="地图.阴冷山洞1" />
+    <action type="MUSIC" value="音乐.天龙八部.忧伤" />
+    <action type="DIALOG" value="封不平#（脸色苍白）罢了，如此剑术，为何竟不传授我剑宗弟子！" />
+    <action type="DIALOG" value="令狐冲#风太师叔心胸，远非你所能理解。" />
+    <action type="DIALOG" value="封不平#我不会放弃的！（封不平遁入黑暗之中）" />
+    <result ret="0" type="story" value="笑傲江湖_华山后山.剑宗5" />
+  </story>
+  <story name="笑傲江湖_华山后山.剑宗5">
+    <action type="BACKGROUND" value="地图.阴冷山洞1" />
+    <action type="MUSIC" value="音乐.天龙八部.忧伤" />
+    <action type="DIALOG" value="令狐冲#曲妹妹，你看此人如何？" />
+    <action type="DIALOG" value="曲非烟#人都是有执念的，他为他的信念努力，令狐大哥，我不觉得他真的败了。" />
+    <action type="DIALOG" value="令狐冲#...是么..." />
+    <action type="ITEM" value="狂风快剑决#1" />
+  </story>
+  <story name="笑傲江湖_西湖底.封不平救走林平之1">
+    <action type="BACKGROUND" value="地图.地牢" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="主角#这林平之可能知道关于残卷的线索..." />
+    <action type="DIALOG" value="主角#有人？！" />
+    <result ret="0" type="story" value="笑傲江湖_西湖底.封不平救走林平之2" />
+  </story>
+  <story name="笑傲江湖_西湖底.封不平救走林平之2">
+    <action type="BACKGROUND" value="地图.地牢" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="主角#封不平？！" />
+    <action type="DIALOG" value="封不平#哈哈，要光复我华山剑宗，还得在这活剑谱身上下功夫。" />
+    <action type="DIALOG" value="主角#别想跑！" />
+    <action type="BATTLE" value="西湖底_战斗封不平" />
+    <result ret="win" type="story" value="笑傲江湖_西湖底.封不平救走林平之3" />
+  </story>
+  <story name="笑傲江湖_西湖底.封不平救走林平之3">
+    <action type="BACKGROUND" value="地图.地牢" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="主角#可恶，还是让他跑了。" />
+    <action type="DIALOG" value="令狐冲#我们追，林师弟实在是过于危险，这两个人在一起不会干什么好事情。" />
+    <action type="LOG" value="令狐冲估计林平之去了黑木崖附近" />
+    <action type="DIALOG" value="主角#嗯！" />
+  </story>
+  <story name="笑傲江湖_黑木崖.封不平林平之1">
+    <action type="BACKGROUND" value="地图.黑木崖" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="令狐冲#封不平？林师弟？" />
+    <action type="DIALOG" value="封不平#嘿嘿，令狐师侄，你来看师叔千秋万载，一统江湖的么？好啊，好啊..." />
+    <action type="DIALOG" value="令狐冲#你的声音变尖了。" />
+    <action type="DIALOG" value="封不平#那又如何？" />
+    <action type="DIALOG" value="令狐冲#终究林师弟还是教你练了那邪门的武功！" />
+    <action type="DIALOG" value="林平之#哼。什么邪门，比你厉害就行。你若不是怕我，何必把我关在西湖底下这么多年。" />
+    <action type="DIALOG" value="令狐冲#封不平，当年你虽败给了我，却依然是条响当当的汉子。" />
+    <action type="DIALOG" value="令狐冲#而如今，你不过是个利欲熏心的狂徒罢了。" />
+    <action type="DIALOG" value="封不平#是不是狂徒，我们手下见个真章吧，令狐少侠！" />
+    <action type="BATTLE" value="黑木崖_战斗封不平林平之1" />
+    <result ret="win" type="story" value="笑傲江湖_黑木崖.封不平林平之2" />
+  </story>
+  <story name="笑傲江湖_黑木崖.封不平林平之2">
+    <action type="BACKGROUND" value="地图.黑木崖" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="封不平#呜呜，可恶...终究还是功力不够吗..." />
+    <action type="DIALOG" value="令狐冲#......" />
+    <action type="DIALOG" value="封不平#我不甘心！" />
+    <action type="DIALOG" value="封不平#再来！！" />
+    <action type="DIALOG" value="令狐冲#多少次你也只能是败！" />
+    <action type="DIALOG" value="林平之#封师叔，我帮你！" />
+    <action type="DIALOG" value="令狐冲#你的筋骨？！" />
+    <action type="DIALOG" value="林平之#嘿嘿，你只当我是木头，这么久还不能医好？看剑！" />
+    <action type="BATTLE" value="黑木崖_战斗封不平林平之2" />
+    <result ret="win" type="story" value="笑傲江湖_黑木崖.封不平林平之3" />
+  </story>
+  <story name="笑傲江湖_黑木崖.封不平林平之3">
+    <action type="BACKGROUND" value="地图.黑木崖" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="封不平#为什么，为什么要阻拦我！" />
+    <action type="DIALOG" value="令狐冲#......" />
+    <action type="DIALOG" value="封不平#你不是华山弟子？你不愿意看到我华山一统江湖？" />
+    <action type="DIALOG" value="封不平#为什么！" />
+    <action type="DIALOG" value="令狐冲#一统江湖？" />
+    <action type="DIALOG" value="令狐冲#我只是知道，这本剑谱害得我恩师丧心病狂，害得我小师妹凄冷死去，害得我师弟..." />
+    <action type="DIALOG" value="令狐冲#害得我林师弟如今人不人，鬼不鬼地站在这里。" />
+    <action type="DIALOG" value="令狐冲#什么一统江湖，什么千秋万代，又有什么意义？" />
+    <action type="DIALOG" value="令狐冲#只可怜东方不败、任教主、左冷禅神功盖世，至今不过是青冢一座。" />
+    <action type="DIALOG" value="封不平#哈哈哈哈，你不懂。这其中的追求，你不懂！" />
+    <action type="DIALOG" value="封不平#华山列祖列宗，助我讨此逆贼！（挥剑刺瞎自己双眼，黑血狂飙）" />
+    <action type="DIALOG" value="主角#这是巫术！冲哥，小心了！" />
+    <action type="BATTLE" value="黑木崖_战斗封不平林平之3" />
+    <result ret="win" type="story" value="笑傲江湖_黑木崖.封不平林平之4" />
+  </story>
+  <story name="笑傲江湖_黑木崖.封不平林平之4">
+    <action type="BACKGROUND" value="地图.黑木崖" />
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版" />
+    <action type="DIALOG" value="封不平#嘿嘿...终究...还是...（全身喷黑血，暴毙当场）" />
+    <action type="DIALOG" value="林平之#没用的东西...令狐冲，改日再领教你高招！（渐渐隐去身形）" />
+    <action type="DIALOG" value="令狐冲#......" />
+    <action type="DIALOG" value="主角#......" />
+    <action type="DIALOG" value="曲非烟#......" />
+    <action type="DIALOG" value="曲非烟#令狐大哥...人为什么要这么执着呢？以他的武功之高，潇洒于江湖之间，不是更快乐么。" />
+    <action type="DIALOG" value="令狐冲#是啊，以他的武功之高，潇洒于江湖之间，不是更快乐么。" />
+    <action type="DIALOG" value="令狐冲#可是被欺负过的人，总想着再复仇去欺负别人。复仇了，站在人生顶点了，其实不过是下一场仇恨的开始罢了。" />
+    <action type="DIALOG" value="令狐冲#今天你杀我子弟，千秋万载了。明天我再杀回来，也千秋万载了。其实，不过是百年之后一缕黄土罢了。" />
+    <action type="DIALOG" value="曲非烟#..." />
+    <action type="DIALOG" value="令狐冲#曲妹妹，你心中的仇恨呢..." />
+    <action type="DIALOG" value="曲非烟#我不知道...令狐大哥，你说的都很有道理，可是我忍受不了..." />
+    <action type="DIALOG" value="令狐冲#好妹妹，这是需要时间的。" />
+    <action type="DIALOG" value="曲非烟#..." />
+    <action type="DIALOG" value="主角#走吧，我们下山去吧" />
+    <action type="LOG" value="剑宗高手封不平自宫，学习辟邪剑法。" />
+    <action type="LOG" value="封不平强攻黑木崖，身亡。" />
+    <result ret="0" type="story" value="笑傲江湖_黑木崖下.费彬1" />
+  </story>
+  <story name="笑傲江湖_黑木崖下.费彬1">
+    <action type="BACKGROUND" value="地图.黑木崖下" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="费彬#魔教妖孽，一网打尽！" />
+    <action type="DIALOG" value="曲非烟#费彬!!" />
+    <action type="DIALOG" value="主角#（糟糕，是埋伏！）" />
+    <action type="DIALOG" value="费彬#懒得跟你们啰嗦，上！" />
+    <action type="BATTLE" value="黑木崖下_战斗" />
+    <result ret="win" type="story" value="笑傲江湖_黑木崖下.费彬2" />
+  </story>
+  <story name="笑傲江湖_黑木崖下.费彬2">
+    <action type="BACKGROUND" value="地图.黑木崖下" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="费彬#厉害，扯呼！" />
+    <action type="DIALOG" value="曲非烟#费彬!!" />
+    <action type="DIALOG" value="令狐冲#曲妹妹，冷静一点，对方人多势众，显然是事先知道了风声，在此狙击我们。不要追击了。" />
+    <action type="DIALOG" value="曲非烟#不！一次一次看着仇人从眼前溜走，令狐大哥你知道这是怎样的心情吗？！" />
+    <action type="DIALOG" value="令狐冲#即算是看到了封不平的结局，依然是这样想的吗？" />
+    <action type="DIALOG" value="曲非烟#我..." />
+    <action type="DIALOG" value="令狐冲#好，我带你上嵩山找他。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="笑傲江湖_嵩山1">
+    <action type="BACKGROUND" value="地图.嵩山派" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="曲非烟#今天，终于来到此地..." />
+    <action type="DIALOG" value="主角#我一直没明白，既然这费彬是嵩山派的。之前你随便找个时间杀上来寻仇不就得了。" />
+    <action type="DIALOG" value="曲非烟#我害怕，害怕这一切结束之后，自己该不知道往哪儿去..." />
+    <action type="DIALOG" value="令狐冲#曲妹妹，人生总有抉择。我们最痛苦的时候不是前方无路可走，而是在十字路口不知道往哪个方向。今天带你来嵩山，就是让你直面自己的选择。" />
+    <action type="DIALOG" value="曲非烟#令狐大哥，我好怕。杀害爷爷的仇人就在眼前，我的手却在颤抖。" />
+    <action type="DIALOG" value="令狐冲#凡事不破不立，你要怎么去选择，完全取决于你自己。" />
+    <action type="DIALOG" value="费彬#喂！你们这些人，别说得我好想已经死了似的！" />
+    <action type="DIALOG" value="曲非烟#费彬！！" />
+    <action type="BATTLE" value="嵩山派1_战斗" />
+    <result ret="win" type="story" value="笑傲江湖_嵩山2" />
+  </story>
+  <story name="笑傲江湖_嵩山2">
+    <action type="BACKGROUND" value="地图.嵩山派" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="费彬#贼人厉害，众位兄弟助我！" />
+    <action type="BATTLE" value="嵩山派2_战斗" />
+    <result ret="win" type="story" value="笑傲江湖_嵩山3" />
+  </story>
+  <story name="笑傲江湖_嵩山3">
+    <action type="BACKGROUND" value="地图.嵩山派" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="费彬#......我嵩山派技不如人，无话可说。今日死在独孤九剑传人手上，也算是了无遗憾了。哈哈哈哈。" />
+    <action type="DIALOG" value="令狐冲#费彬，你也算是顶天立地的汉子。你我往日有些过节，可犯不上性命相搏。今日你的生死，还在曲妹妹的手上。" />
+    <action type="DIALOG" value="费彬#嘿嘿，魔教中人，当格杀勿论！当日衡阳城外，让你这小姑娘捡回一条性命，我费彬深感遗憾！" />
+    <action type="DIALOG" value="曲非烟#为什么！刘伯伯金盆洗手，爷爷浪迹江湖，我们又哪一点碍着你们嵩山的千秋大计，非得除之而后快！" />
+    <action type="DIALOG" value="费彬#自古，正邪不两立！" />
+    <action type="DIALOG" value="曲非烟#你嵩山派强权施压，欺软怕硬。青城山余沧海灭福威镖局满门，亦不过问。华山派收留无家可归的林平之，却被左冷禅左右刁难。" />
+    <action type="DIALOG" value="曲非烟#内诛异己，外欺弱小，结党营私，逐鹿为马，好一个名门正派！今日我来，一为私仇，一为公义！（曲非烟持剑向费彬刺去！）" />
+    <action type="SELECT" value="主角#是否阻止？#阻止曲非烟。#不阻止。" />
+    <result ret="0" type="story" value="笑傲江湖_嵩山.阻止1" />
+    <result ret="1" type="story" value="笑傲江湖_嵩山.不阻止1" />
+  </story>
+  <story name="笑傲江湖_嵩山.阻止1">
+    <action type="BACKGROUND" value="地图.嵩山派" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="主角#慢！" />
+    <action type="DIALOG" value="曲非烟#休要拦我！" />
+    <action type="BATTLE" value="嵩山派3_战斗" />
+    <result ret="win">
+      <control type="story" value="笑傲江湖_嵩山.阻止2简单模式">
+        <condition type="game_mode" value="normal" />
+      </control>
+      <control type="story" value="笑傲江湖_嵩山.阻止2" />
+    </result>
+  </story>
+  <story name="笑傲江湖_嵩山.阻止2简单模式">
+    <action type="BACKGROUND" value="地图.嵩山派" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="曲非烟#为什么？我要杀了他！我要杀了他！" />
+    <action type="DIALOG" value="主角#冷静一点！你看你现在这个样子，就跟中邪发了疯一样！那个温柔聪慧的曲妹妹去哪里了呢？" />
+    <action type="DIALOG" value="主角#你现在这样子，和那黑木崖上的封不平又有什么区别呢？杀了他又能如何？杀了他能换回你爷爷，能破除你的执念？" />
+    <action type="DIALOG" value="曲非烟#我不管！杀了他，是我这十多年来苦练武功唯一的目的！" />
+    <action type="DIALOG" value="主角#你的问题，从一开始就不在于费彬，而在于你的内心。" />
+    <action type="DIALOG" value="曲非烟#（一怔）" />
+    <action type="DIALOG" value="主角#内心成魔，万事皆成魔。不错，费彬当年杀了曲洋长老。可是他也不过是听命于左冷禅的一把剑罢了。只是左冷禅已死，你没有了复仇的对象。" />
+    <action type="DIALOG" value="主角#所以你一把心火烧到了费彬身上。好了，你的复仇的烈火把他烧死了，却又如何？你的心火并不会因此而扑灭，因为它早已经烧光了你的美好的感情，只留给你黑暗的深渊！" />
+    <action type="DIALOG" value="曲非烟#美好的...感情？" />
+    <action type="DIALOG" value="主角#能写出《笑傲江湖》的曲非烟，何等的才华横溢！那一份潇洒和美好，如今却变得如此狭隘吗？" />
+    <action type="DIALOG" value="主角#我拦住你，是不想让这一剑让你彻底堕落下去。" />
+    <action type="DIALOG" value="令狐冲#我要说的，都被你说完了......收手吧，曲妹妹。人死不能复生，杀了他，不过让你双手沾满鲜血罢了。" />
+    <action type="DIALOG" value="曲非烟#（想起黑木崖上血染的封不平）......" />
+    <action type="DIALOG" value="曲非烟#你们说得对。我其实又何尝不明白。只是不走到这一步，不到这悬崖边上，人总是难以醒觉。（嫣然一笑）令狐大哥，我听你的。" />
+    <action type="DIALOG" value="曲非烟#只是此人实在可恶，活罪难饶。我们今天废了他武功，让他再不能兴风作浪！" />
+    <action type="DIALOG" value="令狐冲#好！" />
+    <action type="DIALOG" value="费彬#啊！！（武功被废，昏死过去）" />
+    <action type="DIALOG" value="曲非烟#千山万水，从此逍遥！令狐大哥，我看着这嵩山云海，忽然觉得精神无比爽朗！" />
+    <action type="UPGRADE.MAXHP" value="曲非烟#500" />
+    <action type="UPGRADE.MAXMP" value="曲非烟#500" />
+    <action type="GET_POINT" value="曲非烟#15" />
+    <action type="UPGRADE.奇门" value="曲非烟#10" />
+    <action type="DIALOG" value="令狐冲#最难便是回头！曲妹妹，我真替你高兴！" />
+    <action type="LOG" value="嵩山派，曲非烟顿悟。云海之上，领悟一番大智慧。" />
+  </story>
+  <story name="笑傲江湖_嵩山.阻止2">
+    <action type="BACKGROUND" value="地图.嵩山派" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="曲非烟#为什么？我要杀了他！我要杀了他！" />
+    <action type="DIALOG" value="主角#冷静一点！你看你现在这个样子，就跟中邪发了疯一样！那个温柔聪慧的曲妹妹去哪里了呢？" />
+    <action type="DIALOG" value="主角#你现在这样子，和那黑木崖上的封不平又有什么区别呢？杀了他又能如何？杀了他能换回你爷爷，能破除你的执念？" />
+    <action type="DIALOG" value="曲非烟#我不管！杀了他，是我这十多年来苦练武功唯一的目的！" />
+    <action type="DIALOG" value="主角#你的问题，从一开始就不在于费彬，而在于你的内心。" />
+    <action type="DIALOG" value="曲非烟#（一怔）" />
+    <action type="DIALOG" value="主角#内心成魔，万事皆成魔。不错，费彬当年杀了曲洋长老。可是他也不过是听命于左冷禅的一把剑罢了。只是左冷禅已死，你没有了复仇的对象。" />
+    <action type="DIALOG" value="主角#所以你一把心火烧到了费彬身上。好了，你的复仇的烈火把他烧死了，却又如何？你的心火并不会因此而扑灭，因为它早已经烧光了你的美好的感情，只留给你黑暗的深渊！" />
+    <action type="DIALOG" value="曲非烟#美好的...感情？" />
+    <action type="DIALOG" value="主角#能写出《笑傲江湖》的曲非烟，何等的才华横溢！那一份潇洒和美好，如今却变得如此狭隘吗？" />
+    <action type="DIALOG" value="主角#我拦住你，是不想让这一剑让你彻底堕落下去。" />
+    <action type="DIALOG" value="令狐冲#我要说的，都被你说完了......收手吧，曲妹妹。人死不能复生，杀了他，不过让你双手沾满鲜血罢了。" />
+    <action type="DIALOG" value="曲非烟#（想起黑木崖上血染的封不平）......" />
+    <action type="DIALOG" value="曲非烟#你们说得对。我其实又何尝不明白。只是不走到这一步，不到这悬崖边上，人总是难以醒觉。（嫣然一笑）令狐大哥，我听你的。" />
+    <action type="DIALOG" value="曲非烟#只是此人实在可恶，活罪难饶。我们今天废了他武功，让他再不能兴风作浪！" />
+    <action type="DIALOG" value="令狐冲#好！" />
+    <action type="DIALOG" value="费彬#啊！！（武功被废，昏死过去）" />
+    <action type="DIALOG" value="曲非烟#千山万水，从此逍遥！令狐大哥，我看着这嵩山云海，忽然觉得精神无比爽朗！" />
+    <action type="UPGRADE.MAXHP" value="曲非烟#1000" />
+    <action type="UPGRADE.MAXMP" value="曲非烟#1000" />
+    <action type="GET_POINT" value="曲非烟#30" />
+    <action type="UPGRADE.拳掌" value="曲非烟#10" />
+    <action type="UPGRADE.剑法" value="曲非烟#10" />
+    <action type="UPGRADE.刀法" value="曲非烟#10" />
+    <action type="UPGRADE.奇门" value="曲非烟#30" />
+    <action type="LEARN.TALENT" value="曲非烟#琴胆剑心" />
+    <action type="DIALOG" value="令狐冲#最难便是回头！曲妹妹，我真替你高兴！" />
+    <action type="LOG" value="嵩山派，曲非烟顿悟。云海之上，领悟一番大智慧。" />
+  </story>
+  <story name="笑傲江湖_嵩山.不阻止1">
+    <action type="BACKGROUND" value="地图.嵩山派" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="费彬#啊！！（一声惨叫死去）" />
+    <action type="DIALOG" value="曲非烟#（持剑久久呆立在原地，望着死去的仇人。十多年来的仇恨，一朝血洗，只留下深深的怅惘）" />
+    <action type="DIALOG" value="曲非烟#令狐大哥，仇人已经死了，爷爷却回不来了，我今后又该去哪里呢..." />
+    <action type="DIALOG" value="令狐冲#因为这一段仇恨，你已经失去太多了。曾经写出《笑傲江湖曲》的绝世才华，曲妹妹，如今你是否还记得那样的心情？" />
+    <action type="DIALOG" value="曲非烟#是啊，我已经失去的太多了...（深深叹息）" />
+    <action type="DIALOG" value="曲非烟#令狐大哥，我心里很乱。我很累，我想一个人找个地方安静地休息。" />
+    <action type="DIALOG" value="令狐冲#我相信，以你的聪明才智，一定能看破这一切的。" />
+    <action type="DIALOG" value="曲非烟#谢谢你，令狐大哥，谢谢你陪着我见证了这一程。我该走了，这本是我演奏《笑傲江湖》的心得，留给你做个纪念。这颗长白参，是我为了治你的病特意收集的，今天也留给你了。" />
+    <action type="ITEM" value="长白人参#1" />
+    <action type="ITEM" value="笑傲江湖曲#1" />
+    <action type="LEAVE" value="曲非烟" />
+    <result ret="0" type="story" value="笑傲江湖_嵩山.不阻止2" />
+  </story>
+  <story name="笑傲江湖_嵩山.不阻止2">
+    <action type="BACKGROUND" value="地图.嵩山派" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="曲非烟#（渐渐远去在嵩山的飘渺烟云中）" />
+    <action type="DIALOG" value="主角#为什么你不阻止她呢？" />
+    <action type="DIALOG" value="令狐冲#阻止她什么？阻止她杀费彬，还是阻止她走？" />
+    <action type="DIALOG" value="主角#嗯...可能都能阻止吧。" />
+    <action type="DIALOG" value="令狐冲#那都是她自己的选择。就算我阻止了又能如何，我阻得了一时，也阻不了一世。该经历的人生道路，谁也无法替代她去经历。" />
+    <action type="DIALOG" value="主角#即算那条道路会是如此彷徨痛苦..." />
+    <action type="DIALOG" value="令狐冲#是的，她是一个经历很悲惨，却很坚强的女孩。我相信，终有一天她能走出过去，再谱一曲《笑傲江湖》。" />
+    <action type="DIALOG" value="主角#嗯..." />
+    <action type="LOG" value="嵩山派，曲非烟杀死费彬，报仇雪恨，远遁山林。" />
+  </story>
+  <story name="笑傲江湖_平一指治疗">
+    <action type="DIALOG" value="平一指#好了，药已经找到三味了。唯独差了【万年冰蚕】。" />
+    <action type="DIALOG" value="令狐冲#这个实在是找不到啊...坑爹的游戏制作人啊。" />
+    <action type="DIALOG" value="平一指#可是没那个药不行啊，三缺一的话，有可能药性适得其反。" />
+    <action type="DIALOG" value="令狐冲#这......" />
+    <result ret="0" type="story" value="笑傲江湖_平一指治好" />
+  </story>
+  <story name="笑傲江湖_平一指治好">
+    <action type="DIALOG" value="任盈盈#哼哼~" />
+    <action type="DIALOG" value="令狐冲#啊，盈盈！你怎么跑这里来了。" />
+    <action type="DIALOG" value="任盈盈#我怎么跑来了，你一下子溜出去晃荡这么长时间，我找我夫君回家不是天经地义啊。" />
+    <action type="DIALOG" value="任盈盈#倒是你这只大马猴，一跑出去玩就忘了家在哪里了。" />
+    <action type="DIALOG" value="令狐冲#（挠头）这个嘛，嘿嘿，盈盈..." />
+    <action type="DIALOG" value="任盈盈#我不管，你跟我回家去。" />
+    <action type="DIALOG" value="蓝凤凰#启禀圣姑，冲哥哥的病还没有治好哩。" />
+    <action type="DIALOG" value="任盈盈#蓝凤凰，你私自带着我们家大马猴到处乱跑，我还没问你的罪呢。" />
+    <action type="DIALOG" value="蓝凤凰#（吐吐舌头）圣姑息怒..." />
+    <action type="DIALOG" value="任盈盈#你那味【万年冰蚕】也不用找了，我给你找来了。" />
+    <action type="DIALOG" value="令狐冲#哇！盈盈伟大。" />
+    <action type="DIALOG" value="平一指#圣姑给力。" />
+    <action type="DIALOG" value="蓝凤凰#厉害，厉害..." />
+    <action type="DIALOG" value="任盈盈#但是把这药给你用，我有个条件。" />
+    <action type="DIALOG" value="令狐冲#（尴尬）盈盈，咱俩还讲什么条件嘛..." />
+    <action type="DIALOG" value="任盈盈#听不听？" />
+    <action type="DIALOG" value="令狐冲#（抚额）你说，你说..." />
+    <action type="DIALOG" value="任盈盈#吃了药，跟我回家。" />
+    <action type="DIALOG" value="令狐冲#这......" />
+    <action type="DIALOG" value="任盈盈#怎么啊？" />
+    <action type="DIALOG" value="令狐冲#盈盈，我再多逍遥一下嘛，难得出来一趟。不如我们结伴同游？" />
+    <action type="DIALOG" value="任盈盈#哼！我累了，我回家了。药你随便。" />
+    <action type="DIALOG" value="令狐冲#（望着蓝凤凰，怎么办？）" />
+    <action type="DIALOG" value="蓝凤凰#哎呀呀，圣姑，冲哥哥这病好了以后，那就更威风了呢。" />
+    <action type="DIALOG" value="任盈盈#那又怎么样啊？" />
+    <action type="DIALOG" value="蓝凤凰#先不说这洛阳城里的怀春少女，也不说我们五毒教的苗家姑娘，怕是一路同行的女眷，都要被冲哥哥迷倒了哩。" />
+    <action type="DIALOG" value="任盈盈#（瞪着令狐冲）你敢在外面给我沾花惹草，我就让你下场跟你师父一样！" />
+    <action type="DIALOG" value="令狐冲#（抚额...）" />
+    <action type="DIALOG" value="任盈盈#为了不让你真的变成跟你师父一样，我就勉为其难看管看管你吧。" />
+    <action type="DIALOG" value="令狐冲#嘻嘻，盈盈你最好了。" />
+    <action type="DIALOG" value="任盈盈#这么多人在，少给我肉麻！" />
+    <action type="JOIN" value="任盈盈" />
+    <action type="DIALOG" value="主角#半月之后..." />
+    <action type="COST_DAY" value="15" />
+    <action type="REMOVE.TALENT" value="令狐冲#令狐冲的怪病" />
+    <action type="GET_POINT" value="令狐冲#40" />
+    <action type="UPGRADE.剑法" value="令狐冲#30" />
+    <action type="UPGRADE.MAXHP" value="令狐冲#1000" />
+    <action type="UPGRADE.MAXMP" value="令狐冲#1000" />
+    <action type="DIALOG" value="令狐冲#哈哈，无病一身轻啊！盈盈，我们走吧！" />
+    <action type="LOG" value="令狐冲的怪病治好了！" />
+    <action type="DIALOG" value="任盈盈#我爹有事情找你，好像挺急的。咱们有时间还是回一趟黑木崖吧。"/>
+    <action type="DIALOG" value="令狐冲#嗯。"/>
+    <action type="LOG" value="圣姑有点想她爹了，让令狐冲去看看" />
+  </story>
+  <story name="笑傲江湖_辟邪剑法">
+    <action type="DIALOG" value="主角#这是？！" />
+  </story>
+   <!--正线-->
+  <story name="笑傲江湖_黑木崖岳父">
+    <action type="BACKGROUND" value="地图.室内2" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="任盈盈#爹爹..." />
+    <action type="DIALOG" value="任我行#乖女儿，还知道回来看我啊。" />
+    <action type="DIALOG" value="令狐冲#任教主。" />
+    <action type="DIALOG" value="任我行#什么？没听清。" />
+    <action type="DIALOG" value="任盈盈#（踢了令狐冲一脚）笨大马猴。" />
+    <action type="DIALOG" value="令狐冲#（不习惯）岳，岳父..." />
+    <action type="DIALOG" value="任我行#哈哈哈，不错，这才像我的好女婿，我日月神教的接班人。" />
+    <action type="DIALOG" value="任盈盈#爹..." />
+    <action type="DIALOG" value="令狐冲#岳...岳父，神教之事还恕晚辈..." />
+    <action type="DIALOG" value="任我行#（怒而拍桌）怎么，入我神教一事，你还在犹豫？！" />
+    <action type="DIALOG" value="任盈盈#爹...此事我们稍后再说吧，今天您老人家找我们来到底有什么事？" />
+    <action type="DIALOG" value="任我行#哼！令狐冲，我警告你，你不要敬酒不吃吃罚酒。好吧，今天有更重要的事情，我且不与你再多计较。" />
+    <action type="DIALOG" value="任我行#这件事，你们切不可对外人说起。" />
+    <action type="DIALOG" value="令狐冲#到底是什么事情这么神秘？" />
+    <action type="DIALOG" value="任我行#东方不败还没死！" />
+    <action type="DIALOG" value="令狐冲#这...那天我们亲眼看见..." />
+    <action type="DIALOG" value="任我行#我听说，这世上有一门叫做龟息功的高明功夫，可暂时封闭七窍，状如死人。或许葵花宝典中也有记载相关的法门..." />
+    <action type="DIALOG" value="任我行#我黑木崖上有确切线报证明他还活着。既然你还不愿意入我神教，多余的话，你就不要问了。" />
+    <action type="DIALOG" value="令狐冲#（我一点也不稀罕你的神教！）" />
+    <action type="DIALOG" value="任盈盈#爹，咱们夺了他的位，又杀了他的侍宠杨莲亭，他肯定处心积虑想办法对付我们。" />
+    <action type="DIALOG" value="任我行#是的。他练了葵花宝典形如鬼魅，要是专心做刺客，咱们谁也抵挡不住。" />
+    <action type="DIALOG" value="任我行#但他隐忍至今还没有行动，或许重伤在身，又或许有更大的阴谋诡计。此人修炼葵花宝典以后，行事不可捉摸。所以我今天特意找你们来。" />
+    <action type="DIALOG" value="任我行#令狐冲，你是与他交过手的。他的阴险狠毒，我也不需要再多说了。我教务缠身，无暇他顾。只能命你去江湖上打探此事，切记不可打草惊蛇！" />
+    <action type="DIALOG" value="令狐冲#（我何时需要你来命令我！但这也关系到盈盈的安危，今日也只能勉强接受）晚辈定会竭尽全力。" />
+    <action type="DIALOG" value="任我行#哈哈，好，好。这才像是我任我行的女婿。" />
+    <action type="LOG" value="黑木崖上，任我行告知东方不败未死的消息。" />
+  </story>
+  <story name="笑傲江湖_向问天1">
+    <action type="DIALOG" value="向问天#没找到任何东方不败的踪迹。" />
+  </story>
+  <story name="笑傲江湖_上官云1">
+    <action type="DIALOG" value="上官云#那东方不败受了那么重的伤，又强行催动功力走脱，绝对是逃不远的。" />
+  </story>
+  <story name="笑傲江湖_黑木崖东方">
+    <action type="DIALOG" value="主角#这山洞里...哇！好难看的女人！" />
+    <action type="DIALOG" value="东方不败#什么人！" />
+    <action type="DIALOG" value="令狐冲#是东方不败！" />
+    <action type="BATTLE" value="黑木崖东方_战斗" />
+    <result ret="win" type="story" value="笑傲江湖_黑木崖东方胜" />
+  </story>
+  <story name="笑傲江湖_黑木崖东方胜">
+    <action type="DIALOG" value="主角#可恶，被他跑了，好快的身法！" />
+  </story>
+  <story name="笑傲江湖_向问天2">
+    <action type="DIALOG" value="向问天#外围巡山弟子发现一道红色人影往南方去了。" />
+  </story>
+  <story name="笑傲江湖_上官云2">
+    <action type="DIALOG" value="上官云#听说，最危险的地方也最安全。" />
+  </story>
+  <story name="笑傲江湖_琴居东方">
+    <action type="MUSIC" value="音乐.七秀" />
+    <action type="DIALOG" value="任盈盈#好一个东方不败，竟然躲在琴馆里养伤！真是糟蹋风流。！" />
+    <action type="DIALOG" value="东方不败#呵呵呵，盈盈，这地方清新雅致。我很喜欢，你们今天来，又是要干什么呢？" />
+    <action type="DIALOG" value="主角#当然是要抓你上黑木崖！" />
+    <action type="BATTLE" value="琴居东方_战斗" />
+    <result ret="win" type="story" value="笑傲江湖_琴居东方胜" />
+  </story>
+  <story name="笑傲江湖_琴居东方胜">
+    <action type="MUSIC" value="音乐.七秀" />
+    <action type="DIALOG" value="东方不败#这位小兄弟是何人啊，武功竟然不弱于现在的我呢。江湖上说起来最近有一位丑侠，莫不是说你？" />
+    <action type="DIALOG" value="主角#打不过了吧？嘿嘿，有种这次你别跑了" />
+    <action type="DIALOG" value="东方不败#若不是我今日有心试你们武功，你们又怎么可能找到我？自从黑木崖上被高手围攻以来，我由生到死" />
+    <action type="DIALOG" value="东方不败#再由死复生的这么走了一遭，心境大开。对于武学之道，竟又有所领悟。此刻尚未大成，我们后会有期。" />
+    <action type="DIALOG" value="令狐冲#哪里走！" />
+    <action type="DIALOG" value="东方不败#（一道红霞飘忽而去）" />
+    <action type="DIALOG" value="任盈盈#冲哥，你没事吧！" />
+    <action type="DIALOG" value="令狐冲#没事。只可惜又让他跑了！" />
+    <action type="DIALOG" value="主角#这东方不败身法奇高，即便咱们打赢了也拦不住他。" />
+    <action type="DIALOG" value="令狐冲#那又有什么办法，走吧，接着再找他。" />
+    <action type="LOG" value="让东方不败跑了，可能要回黑木崖再去听听消息了" />
+  </story>
+  <story name="笑傲江湖_向问天3">
+    <action type="DIALOG" value="向问天#华山附近好像有尖声细嗓的人出没。" />
+  </story>
+  <story name="笑傲江湖_上官云3">
+    <action type="DIALOG" value="上官云#东方不败的手段狠辣，他屡次相让，必有大图谋！" />
+  </story>
+  <story name="笑傲江湖_风陵渡黑衣人">
+    <action type="BACKGROUND" value="地图.风陵渡口" />
+    <action type="MUSIC" value="音乐.神雕.歌泣" />
+    <action type="DIALOG" value="令狐冲#等等，盈盈，你看这前面的人是？！" />
+    <action type="DIALOG" value="任盈盈#冲哥，好像是你们华山派的人。" />
+    <action type="DIALOG" value="令狐冲#不错，你们几个，怎么会在这里？" />
+    <action type="DIALOG" value="华山弟子#......" />
+    <action type="DIALOG" value="令狐冲#怎么不说话？" />
+    <action type="DIALOG" value="华山弟子#大师哥..." />
+    <action type="DIALOG" value="令狐冲#怎么了？梁发呢？" />
+    <action type="DIALOG" value="华山弟子#大师哥...小心！！" />
+    <result ret="0" type="story" value="笑傲江湖_风陵渡黑衣人1" />
+  </story>
+  <story name="笑傲江湖_风陵渡黑衣人1">
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="蒙面黑衣人#（忽然从草丛里冲出，挺剑直向令狐冲刺去！）" />
+    <action type="DIALOG" value="令狐冲#（令狐冲向旁边掠去，堪堪避过。）" />
+    <action type="DIALOG" value="令狐冲#（若不是师弟早有警示，此刻我怕是着了道了。此人剑法如闪电一般，好快！）" />
+    <action type="DIALOG" value="蒙面黑衣人#（尖声尖气）呸，几个华山派的臭崽子，毫不顶用，坏我大事！" />
+    <action type="DIALOG" value="令狐冲#你是谁？！为何要挟持我华山子弟在此伏击我？" />
+    <action type="DIALOG" value="蒙面黑衣人#受死！大家伙儿都出来吧！" />
+    <action type="BATTLE" value="风陵渡黑衣人_战斗" />
+    <result ret="win" type="story" value="笑傲江湖_风陵渡黑衣人胜" />
+  </story>
+
+  <story name="笑傲江湖_风陵渡黑衣人胜">
+    <action type="BACKGROUND" value="地图.风陵渡口" />
+    <action type="MUSIC" value="音乐.神雕.歌泣" />
+    <action type="DIALOG" value="令狐冲#这是……辟邪剑法？！" />
+    <action type="DIALOG" value="蒙面黑衣人#今日事败，改日再图良策。弟兄们，撤！" />
+    <action type="DIALOG" value="令狐冲#休想走！" />
+    <action type="DIALOG" value="蒙面黑衣人#（鬼魅一般的身影渐渐远去）哈哈，令狐冲，还是操心一下你们华山派的兔崽子吧！" />
+    <result ret="0" type="story" value="笑傲江湖_风陵渡黑衣人胜1" />
+  </story>
+  <story name="笑傲江湖_风陵渡黑衣人胜1">
+    <action type="DIALOG" value="令狐冲#到底怎么回事？你们为什么会在这里当他们的诱饵？梁发呢？" />
+    <action type="DIALOG" value="华山弟子#大师哥...此事说来话长...上个月一帮匪徒摸上玉女峰来，他们武功奇高，我们都不是对手。掌门师兄也被他们控制了..." />
+    <action type="DIALOG" value="华山弟子#这帮匪徒身手奇快，又一股说不出的诡异。就好像...就好像..." />
+    <action type="DIALOG" value="令狐冲#就好像昔日师父使的辟邪剑法一般？" />
+    <action type="DIALOG" value="华山弟子#我们武功低微，不敢乱加揣测...不过招式确实是像极了..." />
+    <action type="DIALOG" value="令狐冲#（一声长叹）这场江湖祸乱，到底何时才能结束..." />
+    <action type="DIALOG" value="华山弟子#他们对我们又是威逼，又是利诱。还一个劲地嘲讽师父和林师弟，说他们的剑法练得不到家，逼我们自宫跟他们去学剑..." />
+    <action type="DIALOG" value="令狐冲#混账！" />
+    <action type="DIALOG" value="华山弟子#掌门师兄当然断然不肯，他们便强行...强行...对他施了宫刑！大师兄，那一幕实在是太惨了！" />
+    <action type="DIALOG" value="令狐冲#......梁发，是我害了你..." />
+    <action type="DIALOG" value="华山弟子#掌门师兄惨遭此刑，依然不屈，一心求死。那些匪类没法子，将他带走了。" />
+    <action type="DIALOG" value="令狐冲#好样的梁发！这才是我华山的好儿郎！后来又怎样了？" />
+    <action type="DIALOG" value="华山弟子#后来他们又开始打起我们的主意...给我们每个人强制灌了毒药，说我们如果不愿意练剑，就不给解药！" />
+    <action type="DIALOG" value="令狐冲#...好狠毒！那你们现在？" />
+    <action type="DIALOG" value="华山弟子#大师兄...那毒药好厉害啊！发作起来头痛欲裂，满天满地都是妖魔鬼怪，呜咽哭号！" />
+    <action type="DIALOG" value="华山弟子#就好像昔日师父使的辟邪剑法一般？有时候又像是舒服得不得了，让人渐渐无力麻痹...被这毒药折磨的，我们都不想活了..." />
+    <action type="DIALOG" value="任盈盈#！！" />
+    <action type="DIALOG" value="令狐冲#怎么了，盈盈？" />
+    <action type="DIALOG" value="任盈盈#他们说的这毒药像极了三尸脑神丹...难道此事也与东方不败有关？" />
+    <action type="DIALOG" value="令狐冲#极有可能，我见到那几个黑衣人的身影已经起疑了。你们放心，我一定会想办法治疗你们。" />
+    <action type="DIALOG" value="令狐冲#极有可能你们身中了三尸脑神丹的奇毒，所幸盈盈是日月教圣姑，或许有法可解。" />
+    <action type="DIALOG" value="华山弟子#多谢大师兄！多谢大师兄！只可惜有几个不争气的后辈，受不了毒药发作，" />
+    <action type="DIALOG" value="华山弟子#又贪恋他们的剑法，居然向外敌摇尾乞怜，当场自宫啊！" />
+    <action type="DIALOG" value="令狐冲#......" />
+    <action type="DIALOG" value="华山弟子#他们把我们擒拿至此，就是要引诱你们过来好暗下杀手！他们承诺事成之后一定给我们解药，所以我们...我们...呜呜呜......" />
+    <action type="DIALOG" value="令狐冲#此事不怪你们。这些人如此阴险狠毒，背后恐怕多为东方不败指使。他血洗武林" />
+    <action type="DIALOG" value="令狐冲#招募一帮贪恋辟邪剑法的死士，恐怕很快会有大动作。" />
+    <action type="DIALOG" value="令狐冲#你们先上黑木崖请任教主收留治疗，他会卖我一个面子的。" />
+    <action type="DIALOG" value="华山弟子#是，大师兄。" />
+    <action type="DIALOG" value="任盈盈#冲哥，前路多艰，我们该怎么办？" />
+    <action type="DIALOG" value="令狐冲#唉，这葵花宝典、辟邪剑法实在太邪恶，又太厉害。只可惜我学艺不精，不然能制住东方不败，总还会有些办法。" />
+    <action type="LOG" value="风陵渡口，黑衣人突袭令狐冲，得知了东方不败的阴谋。" />
+    <result ret="0" type="story" value="笑傲江湖_风陵渡黑衣人胜2" />
+  </story>
+  <story name="笑傲江湖_风陵渡黑衣人胜2">
+    <action type="MUSIC" value="音乐.经典" />
+    <action type="DIALOG" value="风清扬#哈哈哈哈，笑话！堂堂独孤九剑，怎会比不过邪魔外道！" />
+    <action type="DIALOG" value="令狐冲#风太师叔！" />
+    <action type="DIALOG" value="风清扬#冲儿，咱们好久不见。我这几年听了不少关于你的英雄故事。很好，我华山派有你传后世，我可以放心了。" />
+    <action type="DIALOG" value="令狐冲#风太师叔！我好想你！怎么你会在这里？" />
+    <action type="DIALOG" value="风清扬#我一路云游，恰好遇到那几个黑衣人，身形诡异。所以一路暗中探访，居然这其中又有一个大阴谋。" />
+    <action type="DIALOG" value="令狐冲#嗯，如今东方不败重出武林，引起这一番轩然大波。可惜徒孙能力有限，不能力挽狂澜..." />
+    <action type="DIALOG" value="风清扬#冲儿，你不必自责。当时我们相处时日尚短，独孤九剑你虽学得精髓，但还尚未能完全精通。" />
+    <action type="DIALOG" value="风清扬#如今你已经和天下高手都交一番手，此时再来领悟独孤九剑，定然会更上一层楼！" />
+    <action type="DIALOG" value="风清扬#独孤九剑的原本，乃刻在独孤大侠隐居的山洞内的一处石壁上.这石壁极为隐秘，我也是偶然发现的，" />
+    <action type="DIALOG" value="风清扬#你去找到这处石壁，在石壁前再次参悟这套独孤九剑。定然会更有一番领会！" />
+    <action type="DIALOG" value="令狐冲#是，风太师叔！" />
+    <action type="DIALOG" value="风清扬#去吧。" />
+    <action type="LOG" value="偶遇风太师叔，令狐冲或许会在剑魔荒冢有另一番际遇" />
+  </story>
+  <story name="笑傲江湖_真独孤九剑">
+    <action type="BACKGROUND" value="地图.剑魔荒冢" />
+    <action type="MUSIC" value="音乐.纵横江湖" />
+    <action type="DIALOG" value="令狐冲#这里应该就是风太师叔说的石壁了。" />
+    <action type="DIALOG" value="令狐冲#你知道么。。。我时常在想。。。如果我当初没和太师叔学剑" />
+    <action type="DIALOG" value="令狐冲#师傅就不会看到那么多精妙的剑招，后来也就不会贪恋什么辟邪剑法" />
+    <action type="DIALOG" value="令狐冲#如果师傅不贪恋这些，师娘和小师妹就不会死。。。。" />
+    <action type="DIALOG" value="令狐冲#如今，又有人拿着辟邪剑法危害江湖。。。。你说这么多绝世武功有什么用？" />
+    <action type="DIALOG" value="主角#剑不杀人，杀人的是用剑的人。剑法也一样，再好的剑法，再精妙的招式" />
+    <action type="DIALOG" value="主角#也比不上一颗用剑的心，我想这也是风前辈和你师傅的区别吧" />
+    <action type="DIALOG" value="令狐冲#一颗用剑的心。。。。。" />
+    <action type="DIALOG" value="令狐冲#太师叔常说独孤九剑是无招胜有招，因为剑是死的，人是活的。。。" />
+    <action type="DIALOG" value="令狐冲#是啊。。。。有招用的是剑法，无招用的是剑心。。。" />
+    <action type="DIALOG" value="令狐冲#无牵无挂，快慢随心，此时无招胜有招。" />
+    <action type="LEARN.SKILL" value="令狐冲#独孤九剑#12" />
+    <action type="DIALOG" value="令狐冲#走，我们一起去化解这场江湖纷争" />
+    <action type="DIALOG" value="主角#（无论如何是独孤大侠的武功赶紧做个副本）" />
+    <action type="ITEM" value="独孤九剑秘籍#1" />
+    <action type="LOG" value="令狐冲领悟独孤九剑真意。" />
+  </story>
+  <story name="笑傲江湖_向问天4">
+    <action type="DIALOG" value="向问天#教主有令，讨伐五岳剑派！" />
+  </story>
+  <story name="笑傲江湖_上官云4">
+    <action type="DIALOG" value="上官云#东方不败必是以三尸脑神丹胁迫五岳剑派为他效力！" />
+  </story>
+  <story name="笑傲江湖_任我行伐五岳">
+    <action type="DIALOG" value="任我行#你们不用查了，那东方不败必是隐藏在五岳剑派中。" />
+    <action type="DIALOG" value="任盈盈#爹，你怎知道？" />
+    <action type="DIALOG" value="任我行#哼，那伙黑衣人的武功就是东方不败传授的！既然现在有了华山派的事件，那自然还会有泰山、衡山、恒山和嵩山，你们不用查了。" />
+    <action type="DIALOG" value="任我行#令狐冲，我封你为副教主，跟我去讨伐五岳剑派，待拿下五岳剑派以后，便由你做这五岳盟主！" />
+    <action type="DIALOG" value="令狐冲#这，任教主，光凭几个黑衣人并不能说全体五岳剑派都被控制住了，也不用举派讨伐吧？" />
+    <action type="DIALOG" value="任我行#你不要说了，斩草要除根，东方不败这个人我了解，他一定是想要控制五岳剑派来跟我日月神教抗衡！" />
+    <action type="DIALOG" value="令狐冲#东方不败到底要如何我不敢下定论，但是任教主你是想要扫平五岳剑派，借此机会一统江湖吧？" />
+    <action type="DIALOG" value="任我行#嘿嘿，就算是又如何！东方不败在逐渐控制五岳剑派这已经是事实，莫非还要等到他完全控制住五岳剑派么？" />
+    <action type="DIALOG" value="令狐冲#任教主，不用再说了。这等杀伐之事，我是万万不能从。" />
+    <action type="DIALOG" value="令狐冲#盈盈，我们走吧。" />
+    <action type="DIALOG" value="任我行#你们谁敢走！" />
+    <action type="DIALOG" value="任盈盈#爹...（眼中泛着泪光）" />
+    <action type="DIALOG" value="任我行#（心中一阵酸楚）罢了，你们都滚吧，不要让我看到。" />
+    <result ret="0" type="story" value="笑傲江湖_任我行伐五岳1" />
+  </story>
+  <story name="笑傲江湖_任我行伐五岳1">
+    <action type="BACKGROUND" value="地图.黑木崖下" />
+    <action type="DIALOG" value="任盈盈#冲哥，咱们这回怎么办？" />
+    <action type="DIALOG" value="令狐冲#我想去看看恒山派，我很担心仪琳他们的安危..." />
+    <action type="DIALOG" value="任盈盈#嗯，我们走吧。" />
+    <action type="LOG" value="和任我行决裂，但是令狐冲有点担心仪琳的安危" />
+  </story>
+  <story name="笑傲江湖_恒山无人">
+    <action type="DIALOG" value="主角#嗯？人呢？" />
+    <action type="DIALOG" value="令狐冲#怎么一个人都没有？" />
+    <action type="DIALOG" value="任盈盈#他们人会去哪里呢？" />
+  </story>
+  <story name="笑傲江湖_天关黑木崖">
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="蒙面黑衣人#什么人！" />
+    <action type="DIALOG" value="任盈盈#你们怎么在黑木崖上？我爹呢！" />
+    <action type="DIALOG" value="蒙面黑衣人#师弟小心，那是魔教教主的女儿任盈盈！" />
+    <action type="DIALOG" value="蒙面黑衣人#她身边那人难道是令狐冲？" />
+    <action type="DIALOG" value="令狐冲#什么？" />
+    <action type="DIALOG" value="蒙面黑衣人#你速速上山通报还有妖人未除！咱们拖住他们！" />
+    <action type="DIALOG" value="华山弟子#是，师叔！" />
+    <action type="BATTLE" value="天关战斗_围攻黑木崖" />
+    <result ret="win" type="story" value="笑傲江湖_天关黑木崖胜" />
+  </story>
+  <story name="笑傲江湖_天关黑木崖胜">
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="令狐冲#各路好手竟有这么多投靠东方不败……" />
+    <action type="DIALOG" value="主角#都是受不了三尸脑神丹的毒，又有野心当太监学剑法啊！" />
+    <action type="DIALOG" value="任盈盈#快救我爹爹！" />
+    <result ret="0" type="story" value="笑傲江湖_战东方不败" />
+  </story>
+  <story name="笑傲江湖_战东方不败">
+    <action type="DIALOG" value="任盈盈#爹爹！" />
+    <action type="DIALOG" value="东方不败#呵呵呵呵，任教主，你还是败了..." />
+    <action type="DIALOG" value="任我行#东方不败！你个臭人妖，老夫不服啊！" />
+    <action type="DIALOG" value="令狐冲#住手！" />
+    <action type="BATTLE" value="战东方不败_战斗" />
+    <result ret="win" type="story" value="笑傲江湖_令狐挑东方" />
+  </story>
+  <story name="笑傲江湖_令狐挑东方">
+    <action type="MUSIC" value="音乐.纵横江湖" />
+    <action type="DIALOG" value="东方不败#这...怎么可能！！" />
+    <action type="DIALOG" value="主角#哈哈，怎么不可能？你以为一个足球队的太监公公，就可以一统江湖啊？" />
+    <action type="DIALOG" value="东方不败#令狐冲，你是和我交过手的。这谁又一统江湖，谁又千秋万载，我是那么在乎的人吗？" />
+    <action type="DIALOG" value="令狐冲#我不了解你。" />
+    <action type="DIALOG" value="东方不败#唉，我想你英雄年少，多少会有一些见解，没想到也是这样不堪。比之我的莲弟，真是差了十万八千里。" />
+    <action type="DIALOG" value="令狐冲#你到底想说什么？" />
+    <action type="DIALOG" value="东方不败#这些污秽俗人，我又怎么会愿意跟他们一道？他们想学我的武功，也做千秋万载的大梦，我又怎么会不知道？" />
+    <action type="DIALOG" value="东方不败#但是我要上黑木崖来，再来看看我的莲弟，任教主势力太大，所以我不得不找些帮手。" />
+    <action type="DIALOG" value="令狐冲#巧言令色，你下了三尸脑神丹的毒，又诱骗他们自宫练剑。如此卑劣行径，还要自命清高？" />
+    <action type="DIALOG" value="东方不败#俗！你们这些人啊，以为入了正派，便是正派人士？入了我日月神教，就活该卑劣无耻？" />
+    <action type="DIALOG" value="东方不败#那些后生晚辈怕毒药，他们哪一个又真的是惧怕毒药？哪一个不是借此机会找个台阶下，自愿自宫，我又怎么逼得来？" />
+    <action type="DIALOG" value="东方不败#这些人自己卑鄙无耻，心术不正，我不过是他们的一个幌子罢了。躲在我身后，就一切卑鄙都可以推给我，是我逼他们成了这副模样。" />
+    <action type="DIALOG" value="东方不败#其实他们哪个不是野心勃勃，做着一统江湖的大梦？" />
+    <action type="DIALOG" value="令狐冲#我实在不明白，师父、左冷禅、任教主、封不平...一个个做着千秋大梦，到头来哪个不是尘土一杯，笑谈一场？" />
+    <action type="DIALOG" value="东方不败#江山如此多娇...这种情怀，你是不明白的。我曾经也为此沉迷，所以夺了任教主的位，又修炼了葵花宝典。" />
+    <action type="DIALOG" value="东方不败#可是自从我从葵花宝典中明白了万物滋长，天人化生的妙境，这些已经不算什么了..." />
+    <action type="DIALOG" value="东方不败#所以你把我和那些下三滥的俗人一起比，令狐冲，你境界太低了呀。" />
+    <action type="DIALOG" value="令狐冲#......你既然早已经出尘脱俗，又何必还与我等俗人纠缠，自寻烦恼？" />
+    <action type="DIALOG" value="东方不败#任教主与我恩怨太深，我只求了断此事，从此隐姓埋名，永不过问江湖之事。" />
+    <action type="DIALOG" value="令狐冲#我为什么要相信你？" />
+    <action type="DIALOG" value="东方不败#我要杀你，十个令狐冲也杀了，还等到今天？我说的话，你又岂能不信？" />
+    <action type="DIALOG" value="令狐冲#我不知道你打什么算盘，你和任教主之间恩怨我也本不应该过问。可是你使五岳离心，伦常败坏，葵花宝典又过于邪恶，我实在留你不得！" />
+    <action type="DIALOG" value="东方不败#（怆然大笑）哈哈哈哈，令狐冲，令狐冲，你真的也不过如此。我以为你心中无成俗，所以剑意如此凌厉，原来也不过是俗人一个。葵花宝典，无上妙法，何恶之有？" />
+    <action type="DIALOG" value="令狐冲#你我见解不同，不相为谋。东方不败，我敬你一世枭雄，今日让你输得心服口服，我们单挑吧！" />
+    <action type="EFFECT" value="音效.女的奸笑"/>
+    <action type="DIALOG" value="东方不败#（举止若癫狂）哈哈哈哈！来吧！" />
+    <action type="DIALOG" value="东方不败#来吧！" />
+    <action type="BATTLE" value="令狐挑东方_战斗" />
+    <result ret="win" type="story" value="笑傲江湖_吸星大法" />
+  </story>
+  <story name="笑傲江湖_吸星大法">
+    <action type="MUSIC" value="音乐.纵横江湖" />
+    <action type="DIALOG" value="东方不败#泰山十八盘。。。无双无对，宁式一剑。。。不对不对。。。五岳剑法。。。独孤九剑。。。这是什么剑招？" />
+    <action type="EFFECT" value="音效.男2"/>
+    <action type="DIALOG" value="令狐冲#（只见令狐冲忽而用华山剑法，忽而用五岳剑法，突兀的又斜歪歪的点出一剑独孤九剑的剑意，剑光越来越快，初时只见白光一片，到了最后竟然变为了红光，原来那剑快的竟然连划过的空气都燃烧了起来）" />
+    <action type="DIALOG" value="东方不败#（东方不败开始还进退有余，到了最后竟被剑光压制的只剩下招架的份。最后东方不败长啸一声，用胸腔接下了令狐冲的剑，一掌印向令狐冲的心脏）" />
+    <action type="EFFECT" value="音效.男3"/>
+    <action type="DIALOG" value="令狐冲#（令狐冲无奈只能与其对掌，奈何东方不败内力连绵不绝，无法抵挡。最终只能运起多年不用的吸星大法，吸走东方不败的内力）" />
+    <action type="UPGRADE.MAXMP" value="令狐冲#10" />
+    <action type="UPGRADE.MAXMP" value="令狐冲#100" />
+    <action type="UPGRADE.MAXMP" value="令狐冲#1000" />
+    <action type="UPGRADE.MAXMP" value="令狐冲#1500" />
+    <action type="EFFECT" value="音效.男惨叫"/>
+    <action type="DIALOG" value="东方不败#吸星大法……吸星大法……任教主……" />
+    <action type="DIALOG" value="主角#这东方不败终于死了！" />
+    <action type="DIALOG" value="任盈盈#冲哥！" />
+    <action type="DIALOG" value="令狐冲#（令狐冲的神智虽然清醒，但身体却无法动弹）" />
+    <action type="DIALOG" value="任我行#他吸走了东方不败的内力，那东方不败的内力何等霸道，以他那半吊子的吸星大法，根本无法化解这股内力。" />
+    <action type="DIALOG" value="任盈盈#爹爹！你怎么样？冲哥，冲哥他……" />
+    <action type="DIALOG" value="任我行#咳咳，你把令狐冲扶到我身边来，我把这吸星大法最后一篇传给他。！" />
+    <action type="DIALOG" value="任我行#（片刻过去）我已经将乱窜的真气引回气海，只要等他自行化解内力即可。盈盈，扶我起来！" />
+    <action type="DIALOG" value="任盈盈#爹爹！爹爹你没事吧？" />
+    <action type="DIALOG" value="主角#（这任我行的双眼都被刺瞎了，太阳穴也被穿了孔，任盈盈竟然没发现么）" />
+    <action type="DIALOG" value="任我行#（慢慢的站直了身子）呼——跪下，任盈盈！" />
+    <action type="DIALOG" value="任盈盈#爹爹？" />
+    <action type="DIALOG" value="任我行#跪下！" />
+    <action type="DIALOG" value="任我行#我任我行！从此刻起将教主之位传于我女任盈盈！圣教主战无不胜，文成武德，千秋万载，一统江湖！" />
+    <action type="DIALOG" value="任盈盈#爹？爹！" />
+    <action type="DIALOG" value="主角#任……这个盈盈，你爹已经去了，你还是……" />
+    <action type="DIALOG" value="主角#任盈盈？任盈盈？唉……昏过去了，也好，免得悲伤过度，这一天的打击对她来说够大的了。" />
+    <result ret="0" type="story" value="笑傲江湖_吸星大法1" />
+  </story>
+  <story name="笑傲江湖_吸星大法1">
+    <action type="BACKGROUND" value="地图.黑木崖下" />
+    <action type="MUSIC" value="音乐.纵横江湖" />
+    <action type="DIALOG" value="主角#（接下来的一些日子里，$MALE$与令狐冲在日月神教上帮助刚刚执掌日月神教的任盈盈处理事务。令狐冲化解了东方不败的内力，功力更胜往昔）" />
+    <action type="UPGRADE.MAXHP" value="令狐冲#1000" />
+    <action type="GET_POINT" value="令狐冲#30" />
+    <action type="LEARN.TALENT" value="令狐冲#吸星大法" />
+    <action type="ITEM" value="吸星大法精义#1" />
+    <action type="UPGRADE.MAXHP" value="任盈盈#1000" />
+    <action type="UPGRADE.MAXMP" value="任盈盈#1000" />
+    <action type="GET_POINT" value="任盈盈#30" />
+    <action type="LEARN.SKILL" value="任盈盈#日月鞭法#10" />
+    <action type="LEARN.SKILL" value="任盈盈#嵩山剑法#10" />
+    <action type="LEARN.SKILL" value="任盈盈#华山剑法#10" />
+    <action type="DIALOG" value="任盈盈#教中事务已经处理好了，以后日月神教不会再作恶了，咱们走吧。" />
+    <action type="LOG" value="令狐冲终于击败东方不败，得以笑傲江湖" />
+    <action type="NICK" value="人生一醉" />
+    <action type="LOG" value="黑木崖上大战东方不败，任我行传教主之位给任盈盈。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  
+  
+  <!--邪线-->
+  <story name="笑傲邪_初见东方">
+    <action type="MUSIC" value="音乐.七秀" />
+    <action type="DIALOG" value="主角#（这个人……？）" />
+    <action type="DIALOG" value="东方不败#我认得你，你叫做小虾米是吧？" />
+    <action type="DIALOG" value="主角#你的这一身打扮，莫非是？不可能！这个人早已死了，你不可能是他！" />
+    <action type="DIALOG" value="东方不败#呵呵，葵花宝典玄妙无比，又有什么不可能的呢？至于你，你还没有回答我的问题，你可是那个小虾米？" />
+    <action type="DIALOG" value="主角#那要看教主指的是哪个小虾米，江湖上的小虾米很多，但若其中能有一个被天下第一人的东方教主记住，那一定是在下！只是不知在下做了些什么事，被教主记下了呢？" />
+    <action type="DIALOG" value="东方不败#我虽在此地养伤，但对江湖上发生的大事还是了解一些的。你为了一本辟邪剑法，竟然不惜与兄弟决裂，闹得众叛亲离，这件事情我还是有所听闻的。" />
+    <action type="DIALOG" value="东方不败#只是不知你这位江湖上的小虾米肯为了一本辟邪剑法闹出这么大的事情来，那假若是一本葵花宝典，你又肯做出什么来呢？" />
+    <action type="DIALOG" value="主角#那也要看那位有葵花宝典的人想让小子做什么？" />
+    <action type="DIALOG" value="东方不败#好！妾身现在只有两大愿望，这两个愿望你帮我做成任何一个，我都会将这葵花宝典传与你！" />
+    <action type="DIALOG" value="东方不败#这第一个，就是帮我重回黑木崖，拿回我应有的权利！这件事我已经有了详尽的计划，只是缺一个武功高强又心狠手辣的人帮我出面做事。" />
+    <action type="DIALOG" value="东方不败#原本这件事我自己去也可以的，但经过这次黑木崖上的死里逃生，我由死到生这么走了一遭儿，原本对于武之一道上未解的地方又有了一番见地，所以我要在此闭关潜修，这就需要你去帮我办这件事了！" />
+    <action type="DIALOG" value="主角#重返黑木崖啊，这黑木崖上高手如云，想要杀回去不易于登天。东方教主还是说说您的第二个愿望吧？" />
+    <action type="DIALOG" value="东方不败#这第二个愿望呢，就简单的多了，只有一句话而已：我想变成一个真正的女人。" />
+    <action type="DIALOG" value="主角#哦。（咱们还是谈谈第一个吧）" />
+    <action type="DIALOG" value="主角#关于这个重返黑木崖的计划，我想听听东方教主的意见？" />
+    <action type="DIALOG" value="东方不败#我要在此闭关，你也只有这么几个人，单凭你们怎么可能杀上黑木崖呢？所以咱们要借力！" />
+    <action type="DIALOG" value="主角#借力？借谁的力？" />
+    <action type="DIALOG" value="东方不败#五岳剑派！现在五岳剑派并派失败，各派高手伤的伤死的死，正是士气最为低落的时候。若我所料不错，那任我行势必也有攻打五岳剑派的想法，所以咱们必须要赶在他之前将这五岳剑派整合统一！" />
+    <action type="DIALOG" value="主角#这说得轻巧，拿什么统一呢？" />
+    <action type="DIALOG" value="东方不败#威逼利诱，可以利用的一切手段！辟邪剑法乃天下第一剑法，以此剑法做饵，三尸脑神丹也是无上妙药，用此药为刀。或拉拢或威逼，总可以得到支持者，然后再把不支持的全杀掉！" />
+    <action type="DIALOG" value="主角#然后再用这批归顺者命令门派中不知情的弟子，则五岳剑派可为我所用。再整合五岳剑派中的所有人攻向黑木崖，届时东方教主神功大成，加上五岳剑派的势，必能成功！" />
+    <action type="DIALOG" value="东方不败#就是这样，你果然是个妙人儿，真是一点就透，妾身都舍不得放你走了！" />
+    <action type="DIALOG" value="主角#那小子这就去办了，请教主等我好消息吧。" />
+    <action type="DIALOG" value="东方不败#等等！五岳剑派中华山声威最大，但势却最弱，你可以先挑华山下手，进而携领华山再次挑战嵩山，重提五岳并派一事，将其他各派掌门召集到嵩山上，然后一举控制他们。" />
+    <action type="DIALOG" value="主角#东方教主神机妙算，在下已经知晓了。" />
+    <action type="LOG" value="决心帮助东方不败" />
+  </story>
+  <story name="笑傲邪_收服华山">
+    <action type="DIALOG" value="华山弟子#来者何人？" />
+    <action type="DIALOG" value="主角#麻烦通报一下你们梁掌门，就说小虾米携辟邪剑来访。" />
+    <action type="DIALOG" value="华山弟子#（小虾米！辟邪剑！这就是令狐师兄说的那个人么？）" />
+    <action type="DIALOG" value="华山弟子#这个人不是我们应付得了的，师弟，你去上山通报掌门。" />
+    <action type="DIALOG" value="华山弟子#客人，请留步，在下的师弟已经去通报掌门了，请稍微等待。" />
+    <action type="DIALOG" value="主角#华山不愧为华山，在前掌门君子剑的调教下果然是谦谦有礼，进退有度。" />
+    <action type="DIALOG" value="华山弟子#客人久等了，鄙派掌门请您上殿一叙，请跟我来。" />
+    <result ret="0" type="story" value="笑傲邪_收服华山2" />
+  </story>
+  <story name="笑傲邪_收服华山2">
+    <action type="DIALOG" value="梁发#少侠来我派有何要事？" />
+    <action type="DIALOG" value="主角#贵派的大师兄令狐冲现在虽担任恒山掌门，但这华山上也还是他说了算的。敢问梁掌门这是为什么呢？" />
+    <action type="DIALOG" value="梁发#哦？这是为何呢？" />
+    <action type="DIALOG" value="主角#自然是因为那令狐冲的武功高，而且还用他高明的剑法闯下了不少涨他名声的事情。" />
+    <action type="DIALOG" value="主角#难道梁掌门对此就不感到气愤么，这华山派你是掌门，凭什么一个统领恒山尼姑的男人可以说了算？更何况这个男人还与魔教圣女不清不白，这个男人有什么资格命令你的华山派呢？" />
+    <action type="DIALOG" value="梁发#令狐师兄出自我华山派，他攒下的名声都有我华山派一份，况且令狐师兄自小与我情同手足，一同习武，我有什么可嫉妒的呢？至于他跟魔教圣女的感情，做师弟的只能送上一段祝福，不会有别的想法。" />
+    <action type="DIALOG" value="主角#梁掌门此言谬矣！昔日你听从他所言或许是因为如你说的种种原因，但久而久之，这华山派上下就只识他而不认你了，不要忘了谁才是继承华山派的正统，这样下去对华山派并无好处。" />
+    <action type="DIALOG" value="主角#而我这里有名满江湖的辟邪剑法剑谱，这上面当真是今世第一剑法，威力绝对在那令狐冲独孤九剑之上，梁掌门何不习此剑法，力压令狐冲一头，更好的统领华山呢？" />
+    <action type="DIALOG" value="梁发#呵呵，这辟邪剑法我虽没见过，但也听说过少侠你得来不易，这么难以得到的东西，相信少侠不会平白拿来送人的。而梁某武功虽低，但做人的道理还是懂的，绝对不会因为贪恋此剑法而去做那伤天害理之事。" />
+    <action type="DIALOG" value="主角#梁掌门又说错了！我并没有想让梁掌门做什么伤天害理的事情，我只想让梁掌门掌握住华山，而后进逼嵩山，再次召开五岳并派大会，只有五岳剑派连理同枝，才能抵挡住魔教任我行的讨伐。" />
+    <action type="DIALOG" value="梁发#哦？讨伐？" />
+    <action type="DIALOG" value="主角#梁掌门还不知道？那任我行已经趁着五岳剑派元气大伤的机会，打算统一五岳剑派了。" />
+    <action type="DIALOG" value="主角#我也是一片好心，不忍看到名震江湖的五岳剑派被魔教一举荡平，所以才来劝说五岳剑派联合对抗魔教。" />
+    <action type="DIALOG" value="主角#至于彼派令狐冲说出的可能诬蔑在下的话语，实是令狐兄误会了小弟，这辟邪剑法乃当今第一剑法，万万不可让它就此失传下去，所以绝对不能毁掉啊。" />
+    <action type="DIALOG" value="主角#令狐兄也是想起这辟邪剑法害的多少人家破人亡，才跟小弟动手想毁掉辟邪剑法的。却是没想过这剑是死的，人是活的，这剑法掌握在我的手里，就是正义之剑啊！" />
+    <action type="DIALOG" value="主角#还恳请梁掌门见到令狐冲的时候，替我向他道个歉，说清原委，相信令狐兄弟会原谅我的！" />
+    <action type="DIALOG" value="梁发#呵呵，少侠真是一张好嘴。恐怕这五岳剑派一合并，就都要以你为尊了吧？" />
+    <action type="DIALOG" value="梁发#况且，梁某不去相信那打小一起长大的大师兄，反而相信你一个外人，这可能么？" />
+    <action type="DIALOG" value="梁发#少侠不要再说了，请回吧。来人，替我送少侠下山！" />
+    <action type="DIALOG" value="主角#梁发，梁掌门！你要相信我啊，五岳并派，对各个门派都是好事，况且任我行即将讨伐五岳剑派一事现在传的满江湖都是，不并派绝对是灭顶之灾啊！我也绝对不会去统领这五岳剑派，我可以发誓啊！" />
+    <action type="DIALOG" value="梁发#哼，我还是相信大师兄的话。纵使要五岳并派，我也要依靠自己的力量，绝不与你合作！送客吧！" />
+    <action type="DIALOG" value="主角#真是死脑筋，敬酒不吃吃罚酒！" />
+    <action type="DIALOG" value="梁发#你说什么！你还敢在我华山上动武么！？华山弟子何在，组护山大阵！" />
+    <action type="DIALOG" value="主角#呵呵呵呵呵，咱们俩的对话我已经都让同伴们传给整个华山派了，看来梁掌门虽然脑筋不转，可是你华山派上下倒是有很多人认同我的观点呢！由此可见你梁掌门对华山派的掌控果然是不够啊！" />
+    <action type="DIALOG" value="梁发#可恶！来啊，随我杀了这妖人！" />
+    <action type="BATTLE" value="笑傲邪华山_战斗" />
+    <result ret="win" type="story" value="笑傲邪_收服华山胜利" />
+  </story>
+  <story name="笑傲邪_收服华山胜利">
+    <action type="DIALOG" value="主角#这辟邪剑法第一页写的就是欲练神功，必先自宫！梁发你现在是不想练也要给我练了！让你一下子成为绝世高手嘿嘿。来人，给我阉了这小子！" />
+    <action type="DIALOG" value="华山弟子#遵命，大人。" />
+    <action type="DIALOG" value="主角#哈哈哈，以后不要叫我大人，叫我主人！" />
+    <action type="DIALOG" value="华山弟子#是，主人！" />
+    <action type="DIALOG" value="梁发#卓思心，李思立，你们要做什么！" />
+    <action type="DIALOG" value="梁发#（一刀下去——）啊！！！你们这些叛徒！我就是被阉一千遍也绝不投降！" />
+    <action type="DIALOG" value="主角#好，我就喜欢有骨气的人！来把他的命根子小宝贝给我。" />
+    <action type="DIALOG" value="梁发#小人，我绝对不会放过你的，大师兄也绝对不会放过你的，我们是不会屈服的。" />
+    <action type="DIALOG" value="主角#来，这是三尸脑神丹，吃了以后可以增强你们的功力，记得按月向我讨要，否则痛不欲生。给你们的梁掌门吃双倍的。让他多补补，左右补的均衡点。" />
+    <action type="DIALOG" value="华山弟子#是，主人！" />
+    <action type="DIALOG" value="梁发#三尸脑神丹！不能吃这个……你，唔，你究竟是哪一伙的……我不吃！（咕咚——）" />
+    <action type="DIALOG" value="梁发#呕……呕……我告诉你，我是绝对不会投降于你的！" />
+    <action type="DIALOG" value="主角#哈哈哈哈，这话留着你发病几次后，抱着我大腿向我求药的时候再说吧！" />
+    <action type="DIALOG" value="主角#你们向衡山，恒山和泰山发出通知，邀他们齐聚嵩山再次召开五岳并派大会，我亲自上嵩山走一遭！" />
+    <action type="DIALOG" value="华山弟子#是，主人！" />
+    <action type="LOG" value="威压华山派" />
+  </story>
+
+  <story name="笑傲邪_收服嵩山">
+    <action type="BACKGROUND" value="地图.嵩山派" />
+    <action type="MUSIC" value="音乐.天龙八部5" />
+    <action type="DIALOG" value="左冷禅#来着何人?" />
+    <action type="DIALOG" value="主角#我给左掌门送大机会来了，治疗左掌门眼睛的药丸我也带来了。（实际上就是三尸脑神丹啦~~）" />
+    <action type="DIALOG" value="左冷禅#药就不必了，左某人当一个瞎子更能看清世态炎凉，但你这么做对你又有什么好处？" />
+    <action type="DIALOG" value="主角#当然有好处，五岳剑派合并为一，保护中原武林不受魔教荼毒，这难道不算是好处么？" />
+    <action type="DIALOG" value="左冷禅#呵呵呵，左某人玩这些的时候你还没出生呢，不要跟我耍心机了，你到底想要什么？" />
+    <action type="DIALOG" value="主角#唉，左掌门果然是聪明人。其实我想要的真的只是这些，不过如果左掌门做了五岳盟主以后，能纠集五岳剑派先一步杀上黑木崖，除了那任我行，自然是更好的。" />
+    <action type="DIALOG" value="左冷禅#就这？恩，倒也不是不可以，不过就算左某人统一了五派，五岳剑派倾派而出，恐怕也打不上那黑木崖啊！" />
+    <action type="DIALOG" value="主角#这个不必担心，到时自有高手相助。" />
+    <action type="DIALOG" value="左冷禅#高手？哦……东方教主还好么？" />
+    <action type="DIALOG" value="主角#呃......还好" />
+    <action type="DIALOG" value="左冷禅#哼！我当是什么大义凛然之辈，原来是那东方不败想要重掌黑木崖！你就甘心做他的走狗？他许了你什么好处？葵花宝典？" />
+    <action type="DIALOG" value="主角#哼，左掌门果然是……嘿，这件事你就不要再打探了，总之我保你为五岳盟主，一统五岳剑派，你则帮我杀上黑木崖！" />
+    <action type="DIALOG" value="主角#而黑木崖纵使被东方不败重新掌握，也是经过五岳剑派围攻之后的了，教众和高手一定是死伤无数的，届时整个武林必然以你五岳剑派为尊，左掌门还有什么可犹豫的呢？" />
+    <action type="DIALOG" value="左冷禅#嗯……倒也不是不可以，不过我嵩山上下是绝对不会吃你那个所谓治眼睛，实则是三尸脑神丹的药丸。而且你必须把三尸脑神丹的药方给我！" />
+    <action type="DIALOG" value="左冷禅#好。还有一件事，这五岳剑派并派大会，恒山是决计不会再来的，你需上恒山走一遭，废掉那恒山掌门令狐冲！恒山长老仪清是我嵩山内应，可以为你所用。" />
+    <action type="DIALOG" value="主角#左掌门果然高瞻远瞩，小子佩服佩服，那我这就去了。" />
+    <action type="LOG" value="成功帮助左冷禅举行嵩山大会" />
+  </story>
+
+  <story name="笑傲邪_收服恒山">
+    <action type="MUSIC" value="音乐.天龙八部5" />
+    <action type="DIALOG" value="主角#令狐兄！" />
+    <action type="DIALOG" value="令狐冲#是你！你我早已恩断义绝，且你做的事也太过于肮脏！马上从我恒山派离开，不要逼我动手！" />
+    <action type="DIALOG" value="主角#呵呵，令狐兄，我也正是为了此事而来啊！" />
+    <action type="DIALOG" value="向问天#令狐兄弟小心！" />
+    <action type="BATTLE" value="收服恒山_战斗" />
+    <result ret="win" type="story" value="笑傲邪_收服恒山胜利" />
+  </story>
+  <story name="笑傲邪_收服恒山胜利">
+    <action type="MUSIC" value="音乐.天龙八部5" />
+    <action type="DIALOG" value="令狐冲#好强的功夫！盈盈，我们快走！" />
+    <action type="DIALOG" value="主角#……唉，罢了，不追了，让他们走吧！" />
+    <action type="DIALOG" value="主角#仪清是哪一位？" />
+    <action type="DIALOG" value="仪清#回少侠的话，是我。我已经接到嵩山秘信说明少侠的来意，我会全力配合少侠的。！" />
+    <action type="DIALOG" value="主角#嗯……你去通知全恒山派的人，就说令狐冲已经投靠魔教，拒不接受五岳并派。现在令狐冲已经被嵩山派的师兄打跑了，并指定由你来接任恒山掌门。" />
+    <action type="DIALOG" value="仪清#可，可有人不听我的要怎么做？" />
+    <action type="DIALOG" value="主角#可以给他们喂下这个药丸，要是态度太坚决的，直接杀掉吧。我们要的是绝对服从，没有半点质疑声音的五岳剑派。" />
+    <action type="DIALOG" value="仪清#是，少侠。" />
+    <action type="DIALOG" value="主角#（恒山事已了，我也该回到嵩山筹备五岳剑派并派的事情了）" />
+  </story>
+  <story name="笑傲邪_五岳并派大会">
+    <action type="BACKGROUND" value="地图.嵩山派" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="左冷禅#今天召集各位来此的目的大家也清楚了，就是重提这五岳剑派合二为一的事情！" />
+    <action type="DIALOG" value="左冷禅#我来给大家介绍一下这五岳剑派中的代表！" />
+    <action type="DIALOG" value="左冷禅#这一位是华山的代表，华山的梁师弟因为练功走火入魔，正在修养，不过他是支持并派的。" />
+    <action type="DIALOG" value="左冷禅#这一位是衡山的莫大师兄，以及衡山的现任掌门鲁连荣。" />
+    <action type="DIALOG" value="左冷禅#这位是泰山的师弟天乙道长，也是泰山的掌门人。" />
+    <action type="DIALOG" value="左冷禅#最后要介绍的是恒山的掌门仪清。" />
+    <action type="DIALOG" value="莫大#哼，仪清？我以为恒山的掌门是令狐冲呢！" />
+    <action type="DIALOG" value="左冷禅#莫大师兄，这你就不知道了，令狐冲已经投靠魔教，做了那魔教的副教主了！" />
+    <action type="DIALOG" value="莫大#令狐冲那孩子我了解他，他是决计不会做出这种事情的！" />
+    <action type="DIALOG" value="左冷禅#不管莫大师兄信不不信，这是已经发生了的事情。我们召集大家也不是为了令狐冲的事情。" />
+    <action type="DIALOG" value="左冷禅#根据江湖上的传言，以及我的内应调查，任我行即将带领魔教讨伐我五岳剑派！此时如不并派团结起来，那势必会被魔教妖人一一击破！" />
+    <action type="DIALOG" value="莫大#难道左掌门以为不并派你嵩山遭了贼人，我衡山就不会支援你了么！" />
+    <action type="DIALOG" value="仪清#在下也是这个意思，并派与不并派无非是个名份，并无实际意义上的帮助！" />
+    <action type="DIALOG" value="鲁连荣#（这仪清怎么帮着我们说话，莫非他不是左冷禅的人？）" />
+    <action type="DIALOG" value="左冷禅#不，这并不是名份问题，若不并派，咱们只是五大派联盟，实则各自为战。但如果五岳合并，那咱们五岳剑派的剑法武功自也可以拿出来共享，取其精华去其糟粕，使得咱们五岳剑派的武功更上一层。" />
+    <action type="DIALOG" value="仪清#哼，说的容易，左师兄难道你肯拿出你的寒冰真气的修炼方法？" />
+    <action type="DIALOG" value="鲁连荣#仪清师妹，这寒冰真气乃是左师兄的独门内功，还是……还是不要…" />
+    <action type="DIALOG" value="左冷禅#当然可以，如果各位同意并派，我不止会拿出寒冰真气的修炼方法，我嵩山上下所有武功，请各位尽情翻阅抄录。左某不求别的，只求咱们五岳剑派能在魔教的倾巢一击下存活下来！" />
+    <action type="DIALOG" value="华山弟子#我华山派也可拿出紫霞神功等秘籍，我派梁掌门是同意左掌门的说辞的！" />
+    <action type="DIALOG" value="仪清#如果左掌门所言非虚，那我恒山派自然也可拿出所有秘籍。" />
+    <action type="DIALOG" value="天乙真人#我泰山派各项武功也可尽情查阅！" />
+    <action type="DIALOG" value="莫大#你们……你们！" />
+    <action type="DIALOG" value="左冷禅#莫大师兄，你意下如何？如果莫大师兄实在不想让你的衡山派并入五岳剑派，也可以暂时加入我们，待咱们击败魔教后，你再分裂出去也可以。" />
+    <action type="DIALOG" value="鲁连荣#莫师兄……都说到这份上了……" />
+    <action type="DIALOG" value="莫大#你，唉！算了，我不管了！左掌门好手段，好气魄！并派一事你跟我师弟鲁连荣商量吧，莫某告辞了！" />
+    <result ret="0" type="story" value="笑傲邪_五岳并派大会2" />
+  </story>
+
+  <story name="笑傲邪_五岳并派大会2">
+    <action type="BACKGROUND" value="地图.室内2" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="左冷禅#太乙师弟，鲁师弟，我单独找你二人，就是想跟二位商量一件事。" />
+    <action type="DIALOG" value="天乙真人#什么事？请左师兄吩咐。" />
+    <action type="DIALOG" value="左冷禅#我这里有两粒药丸，可以增强功力，还请二位服下。" />
+    <action type="DIALOG" value="天乙真人#这是……这好像是三尸脑神丹？" />
+    <action type="DIALOG" value="鲁连荣#三尸脑神丹！？" />
+    <action type="DIALOG" value="左冷禅#天乙师弟好见识，这就是三尸脑神丹。不知二位师弟是自己吃呢，还是让师兄我帮助二位吃呢？" />
+    <action type="DIALOG" value="鲁连荣#不吃！不吃！莫师兄说的没错，你果然有阴谋！" />
+    <action type="BATTLE" value="笑傲邪_并派战斗" />
+    <result ret="win" type="story" value="笑傲邪_并派大会胜利" />
+  </story>
+  <story name="笑傲邪_并派大会胜利">
+    <action type="BACKGROUND" value="地图.室内2" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="天乙真人#罢了罢了……我就吃了罢!" />
+    <action type="DIALOG" value="左冷禅#鲁师弟？" />
+    <action type="DIALOG" value="鲁连荣#莫师兄，对不起……" />
+    <action type="DIALOG" value="左冷禅#哈哈哈哈，这才是我的好师弟，这下咱们五岳剑派可真的并派成功啦！" />
+    <action type="DIALOG" value="左冷禅#下一步，就是召集各派弟子，咱们抢先一步，杀上黑木崖！" />
+    <result ret="0" type="story" value="笑傲邪_并派大会胜利2" />
+  </story>
+  <story name="笑傲邪_并派大会胜利2">
+    <action type="BACKGROUND" value="地图.室内2" />
+    <action type="MUSIC" value="音乐.圣火令" />
+    <action type="DIALOG" value="林平之#嘿嘿，这么盛大的行动怎么能少了我。" />
+    <action type="DIALOG" value="主角#林兄弟，你来啦！" />
+    <action type="DIALOG" value="林平之#那令狐冲将我落到这般地步，现在终于到了复仇的时间了！我随你一起上黑木崖。" />
+    <action type="DIALOG" value="主角#太好了，有了你的加入，那果真是如虎添翼了！" />
+    <action type="LOG" value="小林子加入队伍中" />
+    <action type="JOIN" value="神林平之" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="笑傲邪_围攻黑木崖">
+    <action type="MUSIC" value="音乐.仙剑奇缘" />
+    <action type="DIALOG" value="任我行#东方不败!你好手段！" />
+    <action type="DIALOG" value="令狐冲#想不到你竟然能助纣为虐！我原本以为你只是心生贪念才做这等蠢事，看来我是完全错了。" />
+    <action type="DIALOG" value="林平之#哈哈，令狐冲，没人能够抵挡住辟邪剑法和葵花宝典的诱惑，我等今天已经等了好多年了，我受的苦难，我要你今天全部偿还！" />
+    <action type="DIALOG" value="主角#嘿嘿，令狐兄这话就说错了，任我行妄图征服五岳剑派，我只不过是帮助中原武林除掉一个大害而已！" />
+    <action type="DIALOG" value="主角#倒是你，令狐冲！你身为五岳剑派中的一员，非但不以身作则，反而去投靠日月神教？我还没找你麻烦，你现在反倒指责起我来了？" />
+    <action type="DIALOG" value="仪清#令狐掌门，恒山上下都对您敬重的很，只要你肯脱离魔教，我们整个恒山还愿意奉您为掌门人！" />
+    <action type="DIALOG" value="任我行#好一张利嘴！冲儿，不要说了，成者为王，败者寇，这就是自古以来的道理。况且我们还没有输！！！" />
+    <action type="DIALOG" value="左冷禅#哼，任教主，都到这份上了你还不肯投降么？" />
+    <action type="DIALOG" value="任我行#投降？哈哈哈哈，老夫为什么要投降，我黑木崖上高手如云，单凭你们几个就想夺走我黑木崖？老夫正好要去征讨，你们却全都送上门来了，省的老夫一个个去找你们这些耗子了，真是便宜老夫了！" />
+    <action type="DIALOG" value="主角#哼，嘴硬的老家伙！看过会儿你的狗嘴是不是还能吐出象牙来。" />
+    <action type="DIALOG" value="任我行#冲儿，左右护法，跟我上，杀了他们！" />
+    <action type="BATTLE" value="笑傲邪_围攻黑木崖战斗2" />
+    <result ret="win" type="story" value="笑傲邪_围攻黑木崖战斗2胜利" />
+  </story>
+  <story name="笑傲邪_围攻黑木崖战斗2胜利">
+    <action type="BACKGROUND" value="地图.黑木崖" />
+    <action type="MUSIC" value="音乐.仙剑奇缘" />
+    <action type="DIALOG" value="令狐冲#东方不败，左冷禅，你们这样到底是为了什么，百年之后不一样是白骨一堆。" />
+    <action type="DIALOG" value="任我行#（悄悄将手掌贴在令狐冲后背上，逆运吸星大法，将多年内力传输给令狐冲）" />
+    <action type="DIALOG" value="任盈盈#你这么做，不会有好下场的！" />
+    <action type="DIALOG" value="主角#魔教圣女，来人，杀了她！" />
+    <action type="DIALOG" value="任盈盈#冲哥，能和你死在一起盈盈觉得很开心。。。" />
+    <action type="DIALOG" value="天乙真人#就让贫道将这妖女超度了吧。" />
+    <action type="DIALOG" value="令狐冲#盈盈！（令狐冲突然暴起，剑光一闪，狂躁的内力宣泄而出，竟将天乙真人的宝剑一剑斩断。断了的兵器在令狐冲周围不断旋转,各种剑意在周身舒舒点点，完全看不出是何招式）" />
+    <action type="DIALOG" value="主角#这剑势！（看来是任教主把毕生功力传给了令狐冲，使他可以凭借深厚的内力达到以气御剑的剑仙境界，我以为独孤求败“以气御，山川草木皆可为剑”只是传说，没想到居然是真的！）" />
+    <action type="DIALOG" value="任我行#冲儿！杀了他们，杀了他们！" />
+    <action type="DIALOG" value="令狐冲#传一曲天荒地老，共一声水远山高，正义不倒！任教主、曲前辈、太师叔、盈盈，就让我用这三尺青锋，还天地朗朗乾坤！" />
+    <action type="LOG" value="与令狐冲一决生死" />
+    <action type="BATTLE" value="笑傲邪_围攻黑木崖战斗3" />
+    <result ret="win" type="story" value="笑傲邪_围攻黑木崖战斗3胜利" />
+  </story>
+  <story name="笑傲邪_围攻黑木崖战斗3胜利">
+    <action type="DIALOG" value="主角#别说你是令狐冲，就是真的独孤求败也一样败在我的脚下。" />
+    <action type="DIALOG" value="主角#东方教主，诸事已了，该兑现你的承诺了。" />
+    <action type="DIALOG" value="东方不败#恩，这就是当年任我行给我的葵花宝典，你拿去吧！" />
+    <action type="DIALOG" value="主角#那我就告辞了！（令狐冲太强了，侥幸胜他，这次要不是他身受重伤，恐怕小命就留这里了）" />
+    <action type="ITEM" value="葵花宝典#1" />
+    <action type="ITEM" value="葵花宝典残章#1" />
+    <action type="NICK" value="唯我不败"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+</root>

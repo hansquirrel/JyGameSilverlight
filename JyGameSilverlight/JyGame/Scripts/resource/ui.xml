@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <resource key="UI.战场简明状态" value="/Resource/ui/battleinfo.png"/>
+  <resource key="UI.事件1" value="/Resource/ui/event_1.png"/>
+  <resource key="UI.事件2" value="/Resource/ui/event_2.png"/>
+  <resource key="UI.事件3" value="/Resource/ui/event_3.png"/>
+  <resource key="ui.头像框.激活" value="/Resource/ui/SceneHeadFrameActive.png"/>
+  <resource key="ui.头像框.普通" value="/Resource/ui/sceneHeadFrame.png"/>
+  <resource key="UI.对话0" value="/Resource/ui/dialog-0.png"/>
+  <resource key="UI.对话1" value="/Resource/ui/dialog-1.png"/>
+  <resource key="UI.对话2" value="/Resource/ui/dialog-2.png"/>
+  <resource key="UI.对话3" value="/Resource/ui/dialog-3.png"/>
+  <resource key="UI.对话4" value="/Resource/ui/dialog-4.png"/>
+  <resource key="UI.back" value="/Resource/ui/back.png"/>
+  <resource key="UI.front" value="/Resource/ui/front.png"/>
+  <resource key="UI.left" value="/Resource/ui/left.png"/>
+  <resource key="UI.right" value="/Resource/ui/right.png"/>
+  <resource key="UI.教学" value="/Resource/ui/help.jpg"/>
+  <resource key="UI.教学0" value="/Resource/ui/help0.jpg"/>
+  <resource key="UI.教学1" value="/Resource/ui/help1.jpg"/>
+  <resource key="UI.教学2" value="/Resource/ui/help2.jpg"/>
+  <resource key="UI.教学3" value="/Resource/ui/help3.jpg"/>
+  <resource key="UI.背景框" value="/Resource/ui/info.png"/>
+</resources>

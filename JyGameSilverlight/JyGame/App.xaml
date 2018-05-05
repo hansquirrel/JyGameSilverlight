@@ -1,0 +1,77 @@
+﻿<Application xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             x:Class="JyGame.App"
+             >
+    <Application.Resources>
+        <Style TargetType="TextBlock">
+            <Style.Setters>
+                <Setter Property="FontFamily" Value="SimHei"></Setter>
+            </Style.Setters>
+        </Style>
+        <Style TargetType="Button">
+            <Style.Setters>
+                <Setter Property="FontFamily" Value="SimHei"></Setter>
+                <Setter Property="IsTabStop" Value="False"></Setter>
+            </Style.Setters>
+        </Style>
+        <Style TargetType="TextBox">
+            <Style.Setters>
+                <Setter Property="FontFamily" Value="SimHei"></Setter>
+            </Style.Setters>
+        </Style>
+        <Style TargetType="Run">
+            <Style.Setters>
+                <Setter Property="FontFamily" Value="SimHei"></Setter>
+            </Style.Setters>
+        </Style>
+		<Style TargetType="CheckBox">
+            <Style.Setters>
+                <Setter Property="FontFamily" Value="SimHei"></Setter>
+            </Style.Setters>
+        </Style>
+        <Style TargetType="RichTextBox">
+            <Style.Setters>
+                <Setter Property="FontFamily" Value="SimHei"></Setter>
+            </Style.Setters>
+        </Style>
+		<Style TargetType="ScrollViewer">
+            <Style.Setters>
+                <Setter Property="FontFamily" Value="SimHei"></Setter>
+            </Style.Setters>
+        </Style>
+        <Style TargetType="ToolTip">
+            <Style.Setters>
+                <Setter Property="FontSize" Value="14"></Setter>
+                <Setter Property="FontFamily" Value="SimHei"></Setter>
+                <Setter Property="Background">
+                    <Setter.Value>
+                        <ImageBrush Stretch="Fill" ImageSource="/Resource/ui/info.png" Opacity="0.85"/>
+                    </Setter.Value>
+                </Setter>
+
+                <Setter Property="Padding" Value="5,5,5,5"/>
+                <Setter Property="BorderThickness" Value="0"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="ToolTip">
+                            <Border x:Name="Root" CornerRadius="2" BorderThickness="{TemplateBinding BorderThickness}" Background="#00FFFFFF" BorderBrush="{TemplateBinding BorderBrush}">
+                                <Border BorderBrush="#00FFFFFF" BorderThickness="0" CornerRadius="1" Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}">
+                                    <Border.Resources>
+                                        <Storyboard x:Key="Visible State"/>
+                                        <Storyboard x:Key="Normal State"/>
+                                    </Border.Resources>
+                                    <ContentPresenter
+                              Content="{TemplateBinding Content}"
+                              ContentTemplate="{TemplateBinding ContentTemplate}"
+                              Cursor="{TemplateBinding Cursor}"
+                              Margin="{TemplateBinding Padding}"/>   
+                                </Border>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+                <!--<Setter Property="FontSize" Value="14"></Setter>-->
+            </Style.Setters>
+        </Style>
+    </Application.Resources>
+</Application>

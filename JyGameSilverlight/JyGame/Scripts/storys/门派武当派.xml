@@ -1,0 +1,651 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <story name="武当派_入门">
+    <action type="BACKGROUND" value="地图.三清殿" />
+    <action type="MUSIC" value="音乐.武当" />
+    <action type="DIALOG" value="冲虚道长#武当山乃天下第一道教大派，自也是名门正派，入我门下一定勿忘侠义。" />
+    <action type="DIALOG" value="主角#道长放心，我辈定当谨记。" />
+    <action type="DIALOG" value="冲虚道长#本派武学讲究以柔克刚，后发制人；辩位于尺寸毫厘，制敌于擒扑封闭。平日里要用心体会。你就和松溪学武吧。" />
+    <action type="DIALOG" value="主角#多谢道长。" />
+    <action type="MENPAI" value="武当派" />
+    <action type="LEARN.TALENT" value="主角#阴阳"/>
+     <result ret="0" type="map" value="武当广场"/>
+  </story>
+  <story name="武当派_武当心法">
+    <action type="DIALOG" value="俞岱岩#本派武学内功修习较为特殊，别派向来注重招式，而本派讲求练气。" />
+    <action type="DIALOG" value="俞岱岩#真人在《大道歌》中写道：未炼还丹先炼性，未修大药先修心，心定自然丹信至，性情然后药材生。望你谨记。。。" />
+  </story>
+  <story name="武当派_武当心法1">
+    <action type="DIALOG" value="俞岱岩#好了，你们开始修习本派心法吧：呼吸自然，周身放松;心静意专，神态精神;内外三合，节节贯通;任凭阴阳，身法中正;" />
+    <action type="DIALOG" value="俞岱岩#意到气到，气随意行;内外合一，神形兼备;奇经八脉，畅流全身;太乙五行，旨在养身" />
+    <action type="UPGRADE.INTERNALSKILL" value="主角#武当心法#2" />
+    <action type="UPGRADE.根骨" value="主角#1" />
+    <action type="UPGRADE.定力" value="主角#1" />
+    <action type="COST_DAY" value="2" />
+  </story>
+  <story name="武当派_宋青书介绍">
+    <action type="DIALOG" value="宋青书#哈喽，你是新入门的师弟吧？" />
+    <action type="DIALOG" value="主角#（这人看上去风度翩翩，应该就是宋青书了）是呀，宋师哥好！" />
+    <action type="DIALOG" value="宋青书#那么我来给你介绍一下咱们武当派的武学构成吧。" />
+    <action type="DIALOG" value="宋青书#本派修炼武功讲究由内而外，后发制人，动静结合。外功主要是拳法和剑法，当然，也有奇门、刀法等的分枝。" />
+    <action type="DIALOG" value="宋青书#本门内功玄门正宗，别看基础心法，当修炼到极致时也将会给武学带来极大的收益。另外，本门的身法也有非常独特的造诣，如果你悟性高的话……" />
+    <action type="DIALOG" value="宋青书#甚至还能学到本门的独门身法梯云纵。所以刻苦加油吧！" />
+    <action type="DIALOG" value="宋青书#目前你可以去三清殿找我父亲宋远桥学习拳法，找莫声谷师叔学习剑法和身法，俞岱岩师叔负责教授内功。" />
+    <action type="DIALOG" value="主角#哇啊，我武当这么多武学，我要从何开始练呢？" />
+    <action type="DIALOG" value="宋青书#一口气吃不成胖子，师弟最好还是先选择拳法、剑法中的一项开始吧！" />
+    <action type="DIALOG" value="宋青书#至于我，则负责陪新的师兄弟们练习实战，如果有需要，来找我练剑吧！" />
+    <action type="DIALOG" value="主角#谢谢宋师兄！" />
+  </story>
+  <story name="武当派_宋青书">
+    <action type="MUSIC" value="音乐.纯阳" />
+    <action type="DIALOG" value="宋青书#师弟，来过几招？" />
+    <action type="SELECT" value="主角#是否要和宋青书过招？#是的#下次吧"/>
+    <result ret="0" type="story" value="武当派_宋青书过招"/>
+    <result ret="1" type="map" value="武当广场"/>
+  </story>
+  <story name="武当派_宋青书过招">
+    <action type="DIALOG" value="主角#宋师兄，那师弟就不客气了！" />
+    <action type="BATTLE" value="武当派_宋青书之战" />
+    <result ret="win" type="story" value="武当派_宋青书之战胜利" />
+    <result ret="lose" type="story" value="武当派_宋青书之战失败" />
+  </story>
+  <story name="武当派_宋青书之战胜利">
+    <action type="MUSIC" value="音乐.纯阳" />
+    <action type="DIALOG" value="宋青书#不错，不错，不愧是我武当弟子。来，师弟，这个礼物送给你。" />
+    <action type="ITEM" value="武当心法残章" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="map" value="武当广场"/>
+  </story>
+  <story name="武当派_宋青书之战失败">
+    <action type="MUSIC" value="音乐.纯阳" />
+    <action type="DIALOG" value="宋青书#师弟还得多多练习才是啊。" />
+    <result ret="0" type="map" value="武当广场"/>
+  </story>
+  <story name="武当派_绵掌">
+    <action type="DIALOG" value="宋远桥#你是新入门弟子，就先从绵掌修炼起吧。。。，别小看了这门功夫，它可是我武当拳法根基。" />
+    <action type="UPGRADE.SKILL" value="主角#绵掌#2" />
+    <action type="UPGRADE.臂力" value="主角#2" />
+    <action type="COST_DAY" value="2" />
+  </story>
+ <story name="武当派_绕指柔剑">
+    <action type="DIALOG" value="莫声谷#今天我们来学习我门派的入门剑法。" />
+    <action type="DIALOG" value="主角#是，师叔。。。。" />
+    <action type="UPGRADE.SKILL" value="主角#绕指柔剑#2" />
+    <action type="UPGRADE.定力" value="主角#2" />
+    <action type="COST_DAY" value="2" />
+  </story>
+  <story name="武当派_身法">
+    <action type="DIALOG" value="莫声谷#我武当轻功冠绝天下希望你用心学习，平时与人比武切记卖弄，随我来练习" />
+    <action type="DIALOG" value="主角#是，莫师傅" />
+    <action type="UPGRADE.身法" value="主角#3" />
+    <action type="COST_DAY" value="2" />
+  </story>
+  <story name="武当派_梯云纵">
+    <action type="DIALOG" value="莫声谷#你这身法也已经练习了好些日子了，看你轻功根基不错。今天可与我来学习咱武当顶级身法。" />
+    <action type="DIALOG" value="主角#哇啊，捡到宝了。莫非是梯云纵？" />
+    <action type="DIALOG" value="莫声谷#没错，看好了！" />
+    <action type="DIALOG" value="主角#（只见莫声谷纵身高跃，一转一折，在半空中居然能转向）" />
+    <action type="DIALOG" value="主角#我武当身法果然冠绝天下！" />
+    <action type="LEARN.SPECIALSKILL" value="主角#梯云纵"/>
+    <action type="DIALOG" value="莫声谷#好了，作为新的门派弟子，你的轻功能学到这个境界，已然很不错了！" />
+  </story>
+  <story name="武当派_殷梨亭">
+    <action type="DIALOG" value="主角#（咦，时间这么晚了，殷师叔怎么还在这里）"/>
+    <action type="DIALOG" value="殷梨亭#哎……"/>
+    <action type="DIALOG" value="主角#（看他心事重重的样子，我要怎么办呢？）"/>
+    <action type="SELECT" value="主角#怎么办？#殷师叔有何心事，弟子能否效力？#晚上鬼鬼祟祟的在这里唉声叹气，有何居心？#装没看见，离开"/>
+    <result ret="0" type="story" value="武当派_殷梨亭询问"/>
+    <result ret="1" type="story" value="武当派_殷梨亭质问"/>
+    <result ret="2" type="story" value="武当派_殷梨亭离开"/>
+  </story>
+  <story name="武当派_殷梨亭询问">
+    <action type="MUSIC" value="音乐.如梦往事" />
+    <action type="DIALOG" value="主角#殷师叔有何心事，弟子能否效力？"/>
+    <action type="DIALOG" value="殷梨亭#喔，是你……（老脸一红）"/>
+    <action type="DIALOG" value="主角#如果可以的话，弟子愿意当一个好的聆听者。师叔有何吩咐，弟子也愿意代办。"/>
+    <action type="DIALOG" value="殷梨亭#好吧，有件事我真不知如何是好，你是年轻人，也许能够明白年轻人的想法。"/>
+    <action type="DIALOG" value="殷梨亭#这件事还得从十多年前说起。。当时，我爱上了峨眉派的女弟子纪晓芙。后来阴错阳差，她却和明教的光明左使杨逍在一起……"/>
+    <action type="DIALOG" value="殷梨亭#后来，就是一个悲伤的故事了……"/>
+    <action type="DIALOG" value="殷梨亭#峨眉掌门灭绝师太是个雷厉风行前辈，当她知道自己最得意的弟子居然和邪教人士结交，居然亲手清理门户，处决了纪师妹。"/>
+    <action type="DIALOG" value="殷梨亭#我当时得知这消息，简直几乎要晕过去，终日以泪洗面。"/>
+    <action type="DIALOG" value="殷梨亭#后来我身受重伤，有个跟你差不多年纪的女孩子终日照顾我……"/>
+    <action type="DIALOG" value="主角#我知道了，她叫杨不悔。是晓芙师姑和杨左使的女儿。"/>
+    <action type="DIALOG" value="殷梨亭#是啊，她简直和她母亲长得一模一样，我仿佛又回到了当年，又看到了晓芙师妹，回到当时和她一起谈心、练剑的日子。。"/>
+    <action type="DIALOG" value="主角#于是，你爱上了她。"/>
+    <action type="DIALOG" value="殷梨亭#我也不知道我自己究竟爱的是这种感觉，还是爱的是当年的晓芙，还是爱的是她。但是我……"/>
+    <action type="DIALOG" value="主角#但你确比她整整大了二十多岁，以世俗的眼光看来，你甚至都可以做她的父亲。"/>
+    <action type="DIALOG" value="殷梨亭#是啊，每每想到这里，我自己思绪也很乱，是以在此思考……"/>
+    <action type="DIALOG" value="殷梨亭#我在想，是否目前这个状态是最美好的呢？一旦挑明了说，这一切的一切都会不再……"/>
+    <action type="SELECT" value="主角#如何回答？#不用怀疑，你爱的就是不悔妹子本人#你爱的是纪晓芙，你不能让不悔妹子背负虚假的爱!"/>
+    <result ret="0" type="story" value="武当派_殷梨亭爱杨不悔"/>
+    <result ret="1" type="story" value="武当派_殷梨亭爱纪晓芙"/>
+  </story>
+  <story name="武当派_殷梨亭爱杨不悔">
+    <action type="DIALOG" value="主角#不用怀疑，你爱的就是不悔妹子本人"/>
+    <action type="DIALOG" value="殷梨亭#（身躯一振）是吗……"/>
+    <action type="DIALOG" value="主角#殷师叔，你想想，你和她快乐的在一起的时候，可曾想到昔日和晓芙师姑的日子？"/>
+    <action type="DIALOG" value="殷梨亭#是啊，我从未想到过。"/>
+    <action type="DIALOG" value="主角#殷师叔，你再想想，对于明教杨左使，你现在到底还恨不恨他？"/>
+    <action type="DIALOG" value="殷梨亭#我曾经恨得要命，可现在，即使让我和他对饮三杯，我也非常乐意。"/>
+    <action type="DIALOG" value="殷梨亭#再说，晓芙为她的女儿取名为“不悔”，也足见她对杨逍的真情。我又何必再耿耿于怀呢？我真心的只能祝福在天国的她。"/>
+    <action type="DIALOG" value="主角#那么，殷师叔还等什么呢？人生需要追求幸福，难道经历了如此多，您还害怕世俗的眼光？"/>
+    <action type="DIALOG" value="殷梨亭#（豪气大生）哈哈哈，说的好！我殷梨亭堂堂七尺男儿，一生从未有过愧疚。"/>
+    <action type="DIALOG" value="殷梨亭#我已经在哀伤中虚度了半生，为何不快意人生，追求真正的幸福！"/>
+    <action type="DIALOG" value="主角#殷师叔，那弟子就等着喝您的喜酒了！"/>
+    <action type="DIALOG" value="殷梨亭#谢谢你！$MALE$！"/>
+    <result ret="0" type="map" value="后山练功场"/>
+  </story>
+  <story name="武当派_殷梨亭爱纪晓芙">
+    <action type="DIALOG" value="主角#你爱的是纪晓芙，你不能让一个无辜的善良女孩背负虚假的爱！"/>
+    <action type="DIALOG" value="殷梨亭#……"/>
+    <action type="DIALOG" value="殷梨亭#你说的对，我怎能如此自私，去毁掉一个这么善良的女孩的美好前程。"/>
+    <action type="DIALOG" value="殷梨亭#哎，我这就去和她说明白，谢谢。这里有一本我武当的剑谱，你拿去学习吧。"/>
+    <action type="ITEM" value="柔云剑法秘籍"/>
+    <result ret="0" type="map" value="后山练功场"/>
+  </story>
+  <story name="武当派_殷梨亭质问">
+    <action type="MUSIC" value="音乐.紧张感"/>
+    <action type="DIALOG" value="主角#呔！如此深夜，鬼鬼祟祟的在这里干什么？！"/>
+    <action type="DIALOG" value="殷梨亭#……"/>
+    <result ret="0" type="story" value="武当派_殷梨亭质问2"/>
+  </story>
+  <story name="武当派_殷梨亭质问2">
+    <action type="DIALOG" value="主角#咦，怎么一溜烟不见了。"/>
+    <action type="DIALOG" value="主角#这地上是什么？"/>
+    <action type="ITEM" value="杨不悔的发簪"/>
+    <action type="DIALOG" value="主角#一个发簪？……感觉应该有什么后续剧情，先收着吧。"/>
+    <result ret="0" type="map" value="后山练功场"/>
+  </story>
+  <story name="武当派_殷梨亭离开">
+    <action type="DIALOG" value="主角#我还是莫要管闲事了……"/>
+    <result ret="0" type="map" value="后山练功场"/>
+  </story>
+  <story name="武当派_复真观">
+    <action type="BACKGROUND" value="地图.复真观" />
+    <action type="MUSIC" value="音乐.武当" />
+    <action type="DIALOG" value="主角#今天到复真观逛逛……"/>
+    <action type="DIALOG" value="主角#圣人体道之无，法道之自然无为，以之修身，当无欲而静，无心而虚，不自见自是，自伐自矜，为而不持，功成而不居，怀慈尚俭，处实去华，以之治天下，" />
+    <action type="DIALOG" value="主角#当“处无为之事，行不言之教”，还刀兵，离争斗，不尚贤，不贵难得之货，不见可欲，使民虚心实腹，无知无欲，则无为而治。" />
+     <action type="DIALOG" value="主角#“反者道之动，弱者道之用”，故知道者守雌抱朴，退让谦下，挫锐解纷，和光同尘，以柔弱胜刚强。" />
+    <action type="UPGRADE.根骨" value="主角#1" />
+    <action type="UPGRADE.定力" value="主角#1" />
+    <action type="UPGRADE.悟性" value="主角#1" />
+    <action type="COST_DAY" value="2" />
+  </story>
+  <story name="武当派_天柱峰">
+    <action type="BACKGROUND" value="地图.天柱峰" />
+    <action type="MUSIC" value="音乐.武当" />
+    <action type="DIALOG" value="主角#“亘古无双胜境，天下第一仙山”！名闻于世，何及伟哉？" />
+    <action type="UPGRADE.定力" value="主角#1" />
+    <action type="UPGRADE.悟性" value="主角#1" />
+    <action type="COST_DAY" value="1" />
+  </story>
+<story name="武当派_太和山">
+    <action type="BACKGROUND" value="地图.太和山" />
+    <action type="MUSIC" value="音乐.武当" />
+    <action type="DIALOG" value="主角#混沌初分有此岩，此岩高耸太和山。面朝大顶峰千丈，背涌甘泉水一湾。石缕状成飞凤势，龛纹绾就碧螺鬟。" />
+    <action type="DIALOG" value="主角#“灵源仙涧三方绕，古桧苍松四面环。雨滴琼珠敲石栈，风吹玉笛响松关。" />
+    <action type="DIALOG" value="主角#角鸡报晓东方曙，晚鹤归来月半湾。谷口仙禽常唤语，山巅神兽任跻攀。个中自是乾坤别，就里原来日月闲。" />
+    <action type="DIALOG" value="主角#此是高真成道处，故留踪迹在人间。古来多少神仙侣，为爱名山去复还。-唐“吕洞宾”" />
+    <action type="UPGRADE.悟性" value="主角#2" />
+    <action type="COST_DAY" value="1" />
+  </story>
+  <story name="武当派_玉虚宫">
+    <action type="BACKGROUND" value="地图.玉虚宫" />
+    <action type="MUSIC" value="音乐.武当" />
+    <action type="DIALOG" value="主角#今日静下来阅读道德经吧" />
+    <action type="DIALOG" value="主角#道之理则，分无、有二面。道常无，无名无形，先于天地鬼神，而为天地万物之始，道常有，生天地万物，具无穷之用。" />
+    <action type="DIALOG" value="主角#道之理则贯穿于万有，表现为万有皆相对而存，极则必反，终必归，根本之规律。而有之用，常以无为本，“有生于无”。" />
+    <action type="UPGRADE.MAXHP" value="主角#60" />
+    <action type="UPGRADE.MAXMP" value="主角#60" />
+    <action type="COST_DAY" value="2" />
+  </story>
+  <story name="武当派_宋远桥">
+    <action type="DIALOG" value="宋远桥#要接行侠任务么？" />
+    <action type="SELECT" value="主角#该如何是好呢？#接受#不接受" />
+    <result ret="0" type="story" value="武当派_黑风寨接受"/>
+    <result ret="1" type="story" value="武当派_黑风寨不接受"/>
+  </story>
+  <story name="武当派_黑风寨不接受">
+    <action type="DIALOG" value="宋远桥#好吧，看来只好教给别人来做了。。。。" />
+  </story>
+  <story name="武当派_黑风寨接受">
+    <action type="DIALOG" value="宋远桥#这些年黑风寨的山贼为祸乡里，你去处理一下" />
+    <action type="DIALOG" value="主角#是" />
+    <action type="BATTLE" value="武当派_黑风寨之战" />
+    <result ret="win" type="story" value="武当派_黑风寨之战胜利" />
+    <result ret="lose" type="story" value="武当派_黑风寨之战失败" />
+  </story>
+  <story name="武当派_黑风寨之战失败">
+    <action type="DIALOG" value="小混混3#就你这点实力还来老子这里闹事儿，滚滚。。。" />
+    <action type="COST_DAY" value="2" />
+    <result ret="0" type="map" value="武当广场"/>
+  </story>
+  <story name="武当派_黑风寨之战胜利">
+    <action type="DIALOG" value="小混混3#大侠饶命啊，大侠" />
+    <action type="ITEM" value="三清袍#1" />
+    <action type="COST_DAY" value="2" />
+    <result ret="0" type="map" value="武当广场"/>
+  </story>
+  <story name="武当派_宋远桥1">
+    <action type="DIALOG" value="宋远桥#要再次接行侠任务么？" />
+    <action type="SELECT" value="主角#该如何是好呢？#接受#不接受" />
+    <result ret="0" type="story" value="武当派_黑白双煞接受"/>
+    <result ret="1" type="story" value="武当派_黑白双煞不接受"/>
+  </story>
+  <story name="武当派_黑白双煞不接受">
+    <action type="DIALOG" value="宋远桥#好吧，看来只好交给别人来做了。。。。" />
+  </story>
+  <story name="武当派_黑白双煞接受">
+    <action type="DIALOG" value="宋远桥#黑白双煞 横行江湖危害武林，去为我武当弘扬侠义吧。" />
+    <action type="DIALOG" value="主角#是" />
+    <action type="BATTLE" value="武当派_黑白双煞之战" />
+    <result ret="win" type="story" value="武当派_黑白双煞之战胜利" />
+    <result ret="lose" type="story" value="武当派_黑白双煞之战失败" />
+   </story>
+  <story name="武当派_黑白双煞之战胜利">
+    <action type="DIALOG" value="主角#今日为武林除了两个大祸害。" />‘
+    <action type="DIALOG" value="宋远桥#不错，这是给你的奖励！" />
+    <action type="ITEM" value="玄虚刀法#1" />
+    <action type="DIALOG" value="主角#这是啥？我武当派又不学刀法，要这个有毛用？" />
+    <action type="DIALOG" value="宋远桥#这个……你可以给你练习刀法的队友嘛，毕竟我武当派的武学还是拿得出手的。" />
+    <action type="DIALOG" value="主角#好吧！坑爹~" />
+    <result ret="0" type="map" value="武当广场"/>
+  </story>
+  <story name="武当派_黑白双煞之战失败">
+    <action type="DIALOG" value="黑煞#我要吃了你心脏，嚯嚯" />
+    <action type="DIALOG" value="白煞#我要把你的皮都扒下来做刑架， 嘿嘿" />
+    <action type="DIALOG" value="张松溪#休伤我徒儿，快和我走" />
+    <action type="DIALOG" value="主角#（重伤休息三天）" />
+    <action type="COST_DAY" value="3" />
+    <result ret="0" type="map" value="武当广场"/>
+  </story>
+  <!-- TODO -->
+  <story name="武当派_出师">
+    <action type="DIALOG" value="冲虚道长#道可道，非常道。你也是时候闯荡江湖了。江湖上不要忘记了我武当行侠仗义之念" />
+    <action type="DIALOG" value="主角#是，弟子一定行侠仗义，不堕我武当威名。" />
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  <story name="武当派_冲虚道长出师">
+    <action type="DIALOG" value="冲虚道长#你一定要切记，我武当弟子行走江湖，务必行侠义之事。" />
+    <action type="DIALOG" value="主角#是，弟子一定行侠仗义，不堕我武当威名。" />
+  </story>
+  
+  <!-- 侠义系列 -->
+  <story name="武当派_宋远桥玄冥二老">
+    <action type="DIALOG" value="宋远桥#最近听说江湖上玄冥二老无恶不作，去为我武当弘扬侠义吧。" />
+    <action type="DIALOG" value="宋远桥#要接受这次的侠义任务吗？" />
+    <action type="SELECT" value="主角#接受教训玄冥二老的侠义任务吗？#接受#不接受" />
+    <result ret="0" type="story" value="武当派_宋远桥玄冥二老2"/>
+  </story>
+  <story name="武当派_宋远桥玄冥二老2">
+    <action type="DIALOG" value="主角#让我来教训教训这两个无恶不作的老混蛋！" />
+    <action type="BATTLE" value="武当派_玄冥二老之战"/>
+    <result ret="win" type="story" value="武当派_宋远桥玄冥二老胜利" />
+  </story>
+  <story name="武当派_宋远桥玄冥二老胜利">
+    <action type="DIALOG" value="宋远桥#不错，这是给你的奖励！" />
+    <action type="ITEM" value="倚天屠龙笔法秘籍#1" />
+    <action type="DIALOG" value="主角#这……又是啥玩意，我武当又不练奇门，为何会这么奇葩的有一个笔法。" />
+    <action type="DIALOG" value="主角#好吧，我知道了，这又是可以给我队友练的是吧？" />
+    <action type="DIALOG" value="宋远桥#完全正确，这是我张翠山老弟潜心研究出来的武学，练到极致真的非常强大，你可以试试！"/>
+    <action type="DIALOG" value="宋远桥#另外，不要着急，好的奖励还在后头呢！" />
+    <action type="DIALOG" value="主角#好吧！" />
+    <result ret="0" type="map" value="武当广场"/>
+  </story>
+
+  <story name="武当派_宋远桥余沧海">
+    <action type="DIALOG" value="宋远桥#最近听说江湖上青城派余沧海和塞北明驼木高峰俩人勾结，做尽坏事，去为我武当弘扬侠义吧。" />
+    <action type="DIALOG" value="宋远桥#要接受这次的侠义任务吗？" />
+    <action type="SELECT" value="主角#接受教训青城派的侠义任务吗？#接受#不接受" />
+    <result ret="0" type="story" value="武当派_宋远桥余沧海2"/>
+  </story>
+  <story name="武当派_宋远桥余沧海2">
+    <action type="DIALOG" value="主角#让我来教训教训这两个败类。" />
+    <action type="BATTLE" value="武当派_余沧海之战"/>
+    <result ret="win" type="story" value="武当派_宋远桥余沧海胜利" />
+  </story>
+  <story name="武当派_宋远桥余沧海胜利">
+    <action type="DIALOG" value="宋远桥#不错，这是给你的奖励！" />
+    <action type="ITEM" value="太极神功秘籍#1" />
+    <action type="DIALOG" value="主角#哇啊，这次终于拿到一个好东西了！谢谢师伯！" />
+    <action type="DIALOG" value="宋远桥#太极神功是我武当高深的内功心法，回去好好修炼吧！" />
+    <result ret="0" type="map" value="武当广场"/>
+  </story>
+
+  <story name="武当派_俞莲舟">
+    <action type="DIALOG" value="俞莲舟#别看我武当派绵掌威力不甚大，临敌实战可是用处很大。" />
+    <action type="DIALOG" value="俞莲舟#你绵掌的修为不够，等你练到一定火候，再来找我吧。" />
+  </story>
+  <story name="武当派_俞莲舟考校">
+    <action type="DIALOG" value="俞莲舟#我看你如今绵掌的修为确是到了火候了，可以学习我武当高深拳法。但在这之前，我需要对你进行考校。" />
+    <action type="DIALOG" value="主角#请俞师伯指点！" />
+    <action type="DIALOG" value="俞莲舟#我先问你几个问题，你务必诚心回答。"/>
+    <action type="SELECT" value="俞莲舟#我辈学武是为了什么？#行侠仗义，锄强扶弱#强身健体，洁身自好"/>
+    <result ret="0" type="story" value="武当派_俞莲舟考校1"/>
+    <result ret="1" type="story" value="武当派_俞莲舟考校六合劲"/>
+  </story>
+  <story name="武当派_俞莲舟考校1">
+    <action type="DIALOG" value="俞莲舟#我武当武学向来讲究以柔克刚，光明正大，那对于阴毒狠辣的武学，你的态度是？"/>
+    <action type="SELECT" value="俞莲舟#对于阴毒狠辣武学，态度是？#武学本身无善恶，善恶在人#卑鄙无耻，坚决抵制"/>
+    <result ret="0" type="story" value="武当派_俞莲舟考校2"/>
+    <result ret="1" type="story" value="武当派_俞莲舟考校六合劲"/>
+  </story>
+  <story name="武当派_俞莲舟考校2">
+    <action type="SELECT" value="俞莲舟#假如你无意中练就了一门阴毒狠辣的功夫，你会？#自行废去这门武学#修身养性，不到迫不得已不会使用"/>
+    <result ret="0" type="story" value="武当派_俞莲舟考校六合劲"/>
+    <result ret="1" type="story" value="武当派_俞莲舟考校3"/>
+  </story>
+  <story name="武当派_俞莲舟考校3">
+    <action type="DIALOG" value="俞莲舟#很好，很好。我果然没有看错人，你可以学习我这门武学。"/>
+    <action type="DIALOG" value="俞莲舟#这门武学叫做【绝户虎爪手】，跟它的名字一样，这门武学招招拿人腰眼，被打中的人会有断子绝孙的可能……"/>
+    <action type="DIALOG" value="俞莲舟#我也是无意中变化我武当长拳、绵掌练就的这门功夫，但由于它实在是过于狠辣，你太师傅张真人当年告诫我们，不到迫不得已不得使用。"/>
+    <action type="DIALOG" value="俞莲舟#其实武功本无善恶，善恶在于人心。你要好好利用这门功夫，锄奸惩恶、行侠仗义。"/>
+    <action type="DIALOG" value="主角#是，师伯！"/>
+    <action type="UPGRADE.SKILL" value="主角#绝户虎爪手#10" />
+    <action type="ITEM" value="绝户虎爪手残章#1" />
+    <action type="ITEM" value="绝户虎爪手残章#1" />
+  </story>
+  <story name="武当派_俞莲舟考校六合劲">
+    <action type="DIALOG" value="俞莲舟#哎……（看来你还是不适合学习那门功夫。）" />
+    <action type="DIALOG" value="俞莲舟#行，今天我就传授给你一门武当绝学，在实战中非常有用，看好了！" />
+    <action type="LEARN.SPECIALSKILL" value="主角#六合劲"/>
+    <action type="DIALOG" value="俞莲舟#这一招可以将一个对手的集气瞬间打散，属于战术型技能，可要小心使用了。" />
+    <action type="DIALOG" value="主角#谢谢俞师伯！" />
+  </story>
+  
+  <!-- 神门十三剑任务 -->
+  <story name="武当派_神门十三剑">
+    <action type="DIALOG" value="主角#殷师叔，别来无恙！" />
+    <action type="DIALOG" value="殷梨亭#啊哈，是你！你可是我的大恩人呀。多亏你当时的一席话，目前我已经和不悔妹子结为连理了。" />
+    <action type="DIALOG" value="主角#恭喜殷师叔！天下有情人终成眷属！" />
+    <action type="DIALOG" value="殷梨亭#是啊，抛开了世俗、仇恨、忧虑，才能发现这个世界是如此的可爱。另我没想到的是，师兄弟和师傅都很支持我。看来之前的担心都是多余的。"/>
+    <action type="DIALOG" value="殷梨亭#我也能感觉到，不悔妹子也是真真切切的想和我在一起，人生如此，夫复何求？"/>
+    <action type="DIALOG" value="殷梨亭#哈哈，今天如此痛快，咱俩何不借此雅兴比试一场。我也看看咱们武当派的后辈究竟有多么的后生可畏！"/>
+    <action type="DIALOG" value="主角#恭敬不如从命，殷师叔，得罪了！" />
+    <action type="BATTLE" value="武当派_殷梨亭考校"/>
+    <result ret="win" type="story" value="武当派_神门十三剑2"/>
+    <result ret="lose" type="story" value="武当派_神门十三剑3"/>
+  </story>
+  <story name="武当派_神门十三剑2">
+    <action type="DIALOG" value="殷梨亭#哈哈，好！好！果然长江后浪推前浪！" />
+    <action type="DIALOG" value="殷梨亭#我这便将我最拿手的绝技传授给你，望你好好练习！" />
+    <action type="ITEM" value="神门十三剑剑谱"/>
+    <action type="ITEM" value="神门十三剑残章"/>
+    <action type="DIALOG" value="主角#谢谢师叔！" />
+    <action type="DIALOG" value="殷梨亭#你年轻人继续闯荡江湖吧，我可要隐居去过我的潇洒日子了！" />
+    <action type="DIALOG" value="殷梨亭#剑网尘丝错鸳鸯，梨花暴雨爱萧郎，昆仑山崩汉水绝，不悔寒梅逾出墙。" />
+    <action type="NICK" value="忘年之爱"/>
+    <result ret="0" type="map" value="后山练功场"/>
+  </story>
+  <story name="武当派_神门十三剑3">
+    <action type="DIALOG" value="殷梨亭#哈哈，你这招应该如此如此……" />
+    <action type="DIALOG" value="主角#谢谢师叔指点武学！" />
+    <action type="UPGRADE.SKILL" value="主角#神门十三剑#12"/>
+    <result ret="0" type="map" value="后山练功场"/>
+  </story>
+
+  <story name="武当派_殷梨亭邪">
+    <action type="DIALOG" value="殷梨亭#哎，为何找不到了呢……" />
+    <action type="DIALOG" value="主角#（看他满面惆怅的，似乎在找什么东西。）" />
+    <action type="DIALOG" value="主角#（想起来了，上次也是在这个地方，我捡到了他掉落的一个发簪。）" />
+    <action type="SELECT" value="主角#怎么办呢？#威胁#还给他" />
+    <result ret="0" type="story" value="武当派_殷梨亭邪2"/>
+    <result ret="1" type="story" value="武当派_殷梨亭邪3"/>
+  </story>
+  <story name="武当派_殷梨亭邪2">
+    <action type="MUSIC" value="音乐.紧张感"/>
+    <action type="DIALOG" value="主角#嘿嘿，堂堂的武当七侠之一，却在此找一个女孩子的发簪。" />
+    <action type="DIALOG" value="殷梨亭#啊？你怎么知道？你捡到了吗，请你还给我吧，它对我很重要！" />
+    <action type="DIALOG" value="主角#（殷梨亭……殷梨亭有啥见不得人的事来着？小说里……对了！）" />
+    <action type="DIALOG" value="主角#哈哈，我知道了，你定是偷偷爱上了那个比你小几十岁的女孩杨不悔。" />
+    <action type="DIALOG" value="主角#你这个猥琐男，当年喜欢她母亲，她母亲死了，你看她长得像她母亲，又见色起心！" />
+    <action type="DIALOG" value="主角#你为了满足一己私欲，不惜做出如此不堪之事。今天终于漏出了你的真面目，我要揭发你，揭发你这恶心败类。" />
+    <action type="DIALOG" value="殷梨亭#不是这样的！你……我……这……" />
+    <action type="DIALOG" value="主角#没话说了吧！哈哈哈……" />
+    <action type="DIALOG" value="殷梨亭#（气得面红耳赤）混，混蛋，我跟你拼了！" />
+    <action type="BATTLE" value="武当派_殷梨亭考校"/>
+    <result ret="win" type="story" value="武当派_殷梨亭邪胜"/>
+  </story>
+  <story name="武当派_殷梨亭邪3">
+    <action type="DIALOG" value="主角#殷师叔，你看找的是不是这个发簪？" />
+    <action type="DIALOG" value="殷梨亭#啊！就是它就是它！谢谢，谢谢！" />
+    <action type="DIALOG" value="主角#不客气，给你。（看他这么在乎，似乎是有很大的心事）" />
+    <action type="DIALOG" value="殷梨亭#谢谢你！这个送给你吧。我得赶紧回去了，再见！" />
+    <action type="ITEM" value="王母蟠桃"/>
+    <action type="ITEM" value="杨不悔的发簪#-1"/>
+    <action type="LOG" value="将殷梨亭遗落的杨不悔发簪物归原主"/>
+    <action type="DIALOG" value="主角#（殷师叔走的这么匆忙，我连谢都还没说呢……）" />
+  </story>
+  <story name="武当派_殷梨亭邪胜">
+    <action type="DIALOG" value="主角#管你什么殷六侠，殷师叔，挡我者死！是我的，就终究是我的！哈哈哈哈……" />
+    <action type="DIALOG" value="主角#趁这里夜黑风高，赶紧走人！" />
+    <action type="ITEM" value="神门十三剑剑谱"/>
+    <action type="ITEM" value="柔云剑法秘籍"/>
+    <action type="LOG" value="杀死了武当派殷梨亭"/>
+    <result ret="0" type="map" value="后山练功场"/>
+  </story>
+  
+  <!-- 太极拳剑 -->
+  <story name="武当派_太极拳剑">
+    <action type="DIALOG" value="主角#参见太师傅！"/>
+    <action type="DIALOG" value="张三丰#哈哈，好。你是我武当门下弟子吧，我最近刚研究出来一套新的武学，正在寻求资质甚高的弟子传授。不知你是否可愿挑战？" />
+    <action type="SELECT" value="主角#挑战真武七截阵吗？#是#否"/>
+    <result ret="0" type="story" value="武当派_太极拳剑1"/>
+  </story>
+  <story name="武当派_太极拳剑1">
+    <action type="DIALOG" value="张三丰#好，请做好准备。" />
+    <action type="BATTLE" value="武当七截阵"/>
+    <result ret="win" type="story" value="武当派_太极拳剑2"/>
+    <result ret="lose" type="story" value="武当派_太极拳剑负"/>
+  </story>
+  <story name="武当派_太极拳剑2">
+    <action type="DIALOG" value="张三丰#很好！接着来！这一战你可以找两个帮手。" />
+    <action type="BATTLE" value="武当_真武七截阵_战斗"/>
+    <result ret="win" type="story" value="武当派_太极拳剑3"/>
+    <result ret="lose" type="story" value="武当派_太极拳剑负"/>
+  </story>
+  <story name="武当派_太极拳剑3">
+    <action type="DIALOG" value="张三丰#很好！这里两本秘籍，拿去修炼吧。记得勿忘行侠义之事！" />
+    <action type="ITEM" value="太极拳秘籍"/>
+    <action type="ITEM" value="太极剑秘籍"/>
+  </story>
+  <story name="武当派_太极拳剑负">
+    <action type="DIALOG" value="张三丰#看来你还没有做好准备，下次再来挑战吧。" />
+  </story>
+  
+  <!-- 纯阳无极功任务 -->
+  <story name="武当派_少年张三丰">
+    <action type="DIALOG" value="主角#参见太师傅！"/>
+    <action type="DIALOG" value="张三丰#哈哈，很好，很好！咦，这位……" />
+    <result ret="0" type="story" value="武当派_少年张三丰1"/>
+  </story>
+  <story name="武当派_少年张三丰1">
+    <action type="MUSIC" value="音乐.如梦往事"/>
+    <action type="DIALOG" value="张三丰#小友，我们是不是在哪里见过？" />
+    <action type="DIALOG" value="郭襄#嗯？似乎真的有印象……但是奇怪……好像真的。" />
+    <action type="DIALOG" value="张三丰#（君生我未生，我生君已老。 我离君天涯，君隔我海角。百年了还是放不开张君宝么）" />
+    <action type="DIALOG" value="张三丰#小友，有兴致的话，你们过来，看老道耍套功夫吧。" />
+    <action type="DIALOG" value="郭襄#好的~" />
+    <action type="ITEM" value="武当九阳功秘籍" />
+    <action type="DIALOG" value="张三丰#这套内功心法讲究厚积薄发，你们可以勤加修炼，等练到一定程度，再过来找我吧！" />
+    <action type="NICK" value="沧海桑田" />
+    <result ret="0" type="map" value="武当广场"/>
+  </story>
+  <story name="武当派_张三丰2">
+    <action type="DIALOG" value="张三丰#水能载舟亦能覆舟，勤加修炼，必当成正果。" />
+    <action type="DIALOG" value="张三丰#你的武当九阳功修为不够，等你练到炉火纯青的程度再来找我吧！" />
+  </story>
+  <story name="武当派_山顶悟道">
+    <action type="MUSIC" value="音乐.如梦往事"/>
+    <action type="DIALOG" value="张三丰#看来你武当九阳功已经小有成就了。"/>
+    <action type="DIALOG" value="张三丰#好久没有出来活动活动了，来随我上山散散步" />
+    <action type="DIALOG" value="主角#是，太师父" />
+    <result ret="0" type="story" value="武当派_山顶悟道1"/>
+  </story>
+  <story name="武当派_山顶悟道1">
+    <action type="BACKGROUND" value="地图.武当山顶" />
+    <action type="DIALOG" value="主角#太师父。。。" />
+    <action type="DIALOG" value="张三丰#我徒儿中原本翠山悟性最好，可惜为了素素，自刎在了武当山。徒子徒孙中，无忌和一航本领高强。奈何一个为世俗所困，一个为情所困。老道也一百多岁了。" />
+    <action type="DIALOG" value="张三丰#你看这玄岳武当山，云山雾绕，实在是道家圣地啊。" />
+    <action type="DIALOG" value="张三丰#来，团坐在于此和老道一起来欣赏这武当山的灵气。" />
+    <action type="BATTLE" value="武当派_山顶悟道之战" />
+    <result ret="win" type="story" value="武当派_山顶悟道之战胜利" />
+    <result ret="lose" type="story" value="武当派_山顶悟道之战失败" />
+  </story>
+  <story name="武当派_山顶悟道之战胜利">
+    <action type="MUSIC" value="音乐.仙剑奇缘"/>
+    <action type="DIALOG" value="主角#大梦谁先觉，平生我自知。" />
+    <action type="DIALOG" value="主角#太玄岳，武当山。" />
+    <action type="DIALOG" value="主角#三过必醉吕纯阳，白日疯癫张玄玄。" />
+    <action type="DIALOG" value="主角#只问真仙何处有，不向江湖寻道颜。" />
+    <action type="UPGRADE.INTERNALSKILL" value="主角#纯阳无极功#10" />
+    <action type="DIALOG" value="张三丰#好了，这武学之道，你也算有所领悟了，咱们下山吧。" />
+    <action type="NICK" value="太乙纯阳" />
+    <result ret="0" type="map" value="武当广场"/>
+  </story>
+  <story name="武当派_山顶悟道之战失败">
+    <action type="DIALOG" value="张三丰#好了，欣赏够了。我们下山吧" />
+    <action type="DIALOG" value="张三丰#这几本秘籍给你，我武当毕竟也要有所传承" />
+    <action type="DIALOG" value="主角#谢太师父。" />
+    <action type="ITEM" value="太极神功残章#3"/>
+    <action type="ITEM" value="武当心法残章#3"/>
+    <action type="ITEM" value="武当九阳功残章#3"/>
+    <action type="DIALOG" value="主角#（似乎太师傅想传授我点什么,可惜我太笨无法领悟）" />
+    <result ret="0" type="map" value="武当广场"/>
+  </story>
+  
+  <!-- 在野任务 -->
+  <story name="武当派_金陵怀古">
+    <action type="MUSIC" value="音乐.七夕"/>
+    <action type="DIALOG" value="段誉#此处离金陵很近，不如我们一起去夫子庙逛逛" />‘
+    <action type="DIALOG" value="主角#闯荡江湖这么久，确实也没有好好休息一下。好一起去吧。" />
+    <result ret="0" type="story" value="武当派_金陵怀古1"/>
+  </story>
+  <story name="武当派_金陵怀古1">
+    <action type="BACKGROUND" value="地图.秦淮河" />
+    <action type="DIALOG" value="民女2#烟笼寒水月笼沙，夜泊秦淮近酒家。" />‘
+    <action type="DIALOG" value="主角#闯荡江湖这么久，确实也没有好好休息一下。好一起去吧。" />
+    <action type="DIALOG" value="田伯光#李香君，董小宛，寇白门。。。。我小田田来了。。。" />
+    <action type="DIALOG" value="段誉#。。。。。。" />
+    <action type="DIALOG" value="主角#夫子庙前望圣明，江南贡院揽群英。热心防乱香君死，凉水明忠学士赢？淮水蓬船岁月荡，乌衣小子趁风鸣。" />‘
+    <action type="DIALOG" value="主角#红灯闪闪笙歌地，吊古怀金自在行。（也就是这时候才能感受下古南京，这六朝古都。。。）" />
+    <action type="DIALOG" value="主角#（现在就只能去喝碗鸭血粉丝汤，来份灌汤小笼了）" />
+    <action type="DIALOG" value="主角#因为一起吃了好吃的感到相当满足。。。" />
+    <action type="UPGRADE.MAXHP" value="主角#300" />
+    <action type="UPGRADE.MAXMP" value="主角#300" />
+    <action type="UPGRADE.MAXHP" value="段誉#300" />
+    <action type="UPGRADE.MAXMP" value="段誉#300" />
+    <action type="UPGRADE.MAXHP" value="田伯光#300" />
+    <action type="UPGRADE.MAXMP" value="田伯光#300" />
+    <action type="NICK" value="金陵怀古" />
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  <story name="武当派_对战张召重">
+    <action type="MUSIC" value="音乐.紧张感"/>
+    <action type="DIALOG" value="主角#火手判官，你身为武当弟子尽然甘做朝廷鹰犬，我身为武当三代弟子，要为本派清理门户。" />
+    <action type="DIALOG" value="张召重#就凭你？让我看看你有几斤几两" />
+    <action type="BATTLE" value="武当派_火手判官之战" />
+    <result ret="win" type="story" value="武当派_对战张召重胜利" />
+  </story>
+  <story name="武当派_对战张召重胜利">
+    <action type="DIALOG" value="张召重#好小子，算你狠，我们来日方长，走着瞧！" />
+    <action type="DIALOG" value="主角#可恶，让他给跑了。嗯？这是什么剑，很锋利的样子" />
+    <action type="ITEM" value="凝碧剑#1" />
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  
+  <!-- 蛇形刁手是杨过+小龙女专属线 -->
+  <story name="武当派_蛇形刁手">
+    <action type="DIALOG" value="杨过#看来雕兄又在外出捕蛇了。。。。" />‘
+    <action type="DIALOG" value="神雕#（只见神雕在空中不断盘旋。。。）" />
+    <action type="DIALOG" value="大蛇#（大蛇紧紧盘卧在树下，狠狠的盯着大雕）" />‘
+    <action type="DIALOG" value="主角#神雕上下飞击，而蛇蜿蜒轻身摇首闪击。这不正是我武当太极要义吗？（有时间一定要好好推演一下）" />
+    <action type="DIALOG" value="主角#以柔克刚，后发制人；辩位于尺寸毫厘，制敌于擒扑封闭。这战看来是神雕胜了。" />‘
+    <action type="DIALOG" value="杨过#雕兄又要给我蛇胆么，我的情花毒已经好了。兄弟你拿去吧" />
+    <action type="ITEM" value="蛇胆#1" />
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  <story name="武当派_蛇形刁手1">
+    <action type="BACKGROUND" value="地图.剑魔荒冢" />
+    <action type="DIALOG" value="主角#前日看雕兄与蛇王争斗略有感悟" />
+    <action type="SELECT" value="主角#是否推演太极真意呢？#推演#不推演" />
+    <result ret="0" type="story" value="武当派_蛇形刁手推演"/>
+    <result ret="1" type="story" value="武当派_蛇形刁手不推演"/>
+  </story>
+  <story name="武当派_蛇形刁手不推演">
+    <action type="DIALOG" value="主角#领悟还不够，还是下次再推演吧。" />
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  <story name="武当派_蛇形刁手推演">
+    <action type="DIALOG" value="主角#这次就让我推演太极真意吧。" />
+    <action type="BATTLE" value="武当派_蛇形刁手之战" />
+    <result ret="win" type="story" value="武当派_蛇形刁手之战胜利" />
+    <result ret="lose" type="story" value="武当派_蛇形刁手之战失败" />
+  </story>
+  <story name="武当派_蛇形刁手之战失败">
+    <action type="DIALOG" value="主角#太极之理易学难精，看来我此生是无望参透真谛了。" />
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  <story name="武当派_蛇形刁手之战胜利">
+    <action type="DIALOG" value="主角#桩式沉稳，架势紧凑。腰随胯转，肩胯相对。两手环抱，脚走弧线。绵软缠绕，走圆化柔。动如蛇之行，柔似蚕作茧，这是基本。" />
+    <action type="DIALOG" value="主角#以静为基，以柔为形，神足而意远。以静制动，以柔克刚，尚意不尚力动中求静，静中求动，重意不重形。意气劲形，心息相随，化劲不硬抗。辩位于尺寸毫厘，制动于擒扑封闭。这是技法。" />
+    <action type="DIALOG" value="主角#地法天，天法道，道法自然，返璞归真。这是意境。" />
+    <action type="LEARN.TALENT" value="主角#刚柔并济" />
+    <action type="NICK" value="太极生圆" />
+    <action type="LOG" value="推衍蛇形刁手成功"/>
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  
+  <!-- 乱入？ -->
+  <story name="武当派_卓一航">
+    <action type="DIALOG" value="卓一航#霓裳，四位师叔收手吧，不要再徒增杀戮了。" />
+    <action type="DIALOG" value="宋远桥#这妖女武功高强，杀我武当弟子。。。。" />
+    <action type="DIALOG" value="莫声谷#一航快来助我等一臂之力。" />
+    <action type="DIALOG" value="练霓裳#卓一航你是名门高徒，我是魔教妖女，当年你在武当山下都敢刺我一剑现在你怕什么！" />
+    <action type="DIALOG" value="卓一航#霓裳，你这又是何苦。。。。。" />
+    <action type="DIALOG" value="宋远桥#一航快动手，妖女武功高强我们快顶不住了。。。。" />
+    <action type="DIALOG" value="卓一航#对不起师叔，我不能这么做！" />
+    <action type="DIALOG" value="主角#不好！卓师兄帮“玉罗刹”了，我得助师傅们一臂之力" />
+    <action type="BATTLE" value="武当派_玉罗刹之战" />
+    <result ret="win" type="story" value="武当派_玉罗刹之战胜利" />
+  </story>
+  <story name="武当派_玉罗刹之战胜利">
+    <action type="DIALOG" value="主角#（趁机将他们分开吧）" />
+    <action type="DIALOG" value="宋远桥#一航，你这是要背叛师门么？" />
+    <action type="DIALOG" value="卓一航#霓裳，我们走！" />
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  <story name="武当派_又遇卓一航">
+    <action type="DIALOG" value="主角#这不是卓师兄么？卓师兄怎么弄成了这个样子?" />
+    <action type="DIALOG" value="卓一航#（只见卓一航头发算乱的坐在寒风中），霓裳，霓裳你终究还是不肯见我。。。。。。我。。。我当初是多麽的傻瓜啊，就是不肯相信你。" />
+    <action type="DIALOG" value="主角#（这样下去。。。。卓师兄一定会疯掉的）师兄来，和师弟舞舞剑。" />
+    <action type="DIALOG" value="主角#（顷刻间已经对招拆招数回合，这样可不行，卓师兄居然没有丝毫战意）" />
+    <action type="DIALOG" value="主角#想我堂堂武当首徒，竟然如此差劲。连情之一字都看不破，真是给紫阳道长丢脸。" />
+    <action type="DIALOG" value="卓一航#师傅。。。。。" />
+    <action type="DIALOG" value="卓一航#师傅传我我忘情剑原来如此。。。来师弟我们再比划比划。。。。" />
+    <action type="BATTLE" value="武当派_天柱峰之战" />
+    <result ret="win" type="story" value="武当派_又遇卓一航1" />
+    <result ret="lose" type="story" value="武当派_又遇卓一航2" />
+  </story>
+  <story name="武当派_又遇卓一航1">
+    <action type="DIALOG" value="卓一航#原来如此。。。。原来如此。。。。慧剑斬情丝。。。" />
+    <action type="DIALOG" value="卓一航#（只见卓一航在自己的脚下画了一个三丈的圆），来吧师弟我们再过过招" />
+    <action type="DIALOG" value="主角#好。。。" />
+    <action type="DIALOG" value="主角#（师兄剑招方中带圆，圆中有方。三丈之圆，看似封死了自己的步伐，实则无限可能。招式间，似乎处处是漏洞，却无处可攻。）" />
+    <action type="BATTLE" value="武当派_天柱峰之战1" />
+    <result ret="win" type="story" value="武当派_又遇卓一航3" />
+    <result ret="lose" type="story" value="武当派_又遇卓一航2" />
+  </story>
+  <story name="武当派_又遇卓一航2">
+    <action type="DIALOG" value="卓一航#我果然想错了。。。。你走吧。。。" />
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  <story name="武当派_又遇卓一航3">
+    <action type="DIALOG" value="主角#道可道，非常道。名可名，非常名。。。。。恭喜师兄悟得坐忘无我之境。" />
+    <action type="DIALOG" value="卓一航#多谢师弟，这本紫阳剑经你拿去吧。。。。我要去找霓裳了，哪怕她不再见我" />
+    <action type="ITEM" value="紫阳剑经#1" />
+    <action type="NICK" value="画地为牢" />
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+</root>

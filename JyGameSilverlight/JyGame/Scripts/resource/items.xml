@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <!-- 物品图片-->
+  <resource key="物品.止血草" value="/Resource/items/caoyao.jpg"/>
+  <resource key="物品.小还丹" value="/Resource/items/danyao.jpg"/>
+  <resource key="物品.九转熊蛇丸" value="/Resource/items/jiuzhuanxiongshewan.jpg"/>
+  <resource key="物品.九花玉露丸" value="/Resource/items/jiuhuayuluwan.jpg"/>
+  <resource key="物品.大还丹" value="/Resource/items/dahuandan.jpg"/>
+  <resource key="物品.大蟠桃" value="/Resource/items/dapantao.jpg"/>
+  <resource key="物品.道口烧鸡" value="/Resource/items/daokoushaoji.jpg"/>
+  <resource key="物品.冬虫夏草" value="/Resource/items/dongchongxiacao.jpg"/>
+  <resource key="物品.黑玉断续膏" value="/Resource/items/heiyuduanxugao.jpg"/>
+  <resource key="物品.红药" value="/Resource/items/hongyao.jpg"/>
+  <resource key="物品.鸡腿" value="/Resource/items/jitui.jpg"/>
+  <resource key="物品.生生造化丹" value="/Resource/items/shengshengzaohuadan.jpg"/>
+  <resource key="物品.月饼" value="/Resource/items/yuebing.jpg"/>
+  <resource key="物品.天王保命丹" value="/Resource/items/tianwangbaomingdan.jpg"/>
+  <resource key="物品.七星海棠" value="/Resource/items/qixinghaitang.jpg"/>
+  <resource key="物品.蛇胆" value="/Resource/items/shedan.jpg"/>
+  <resource key="物品.地图" value="/Resource/items/ditu.jpg"/>
+  <!--点击爆炸-->
+  <resource key="物品.点击爆炸" value="/Resource/items/dianjibaozha.jpg"/>
+  <!--武器-->
+  <resource key="物品.倚天剑" value="/Resource/items/Wyitianjian.jpg"/>
+  <resource key="物品.屠龙刀" value="/Resource/items/Wtulongdao.jpg"/>
+  <resource key="物品.打狗棒" value="/Resource/items/Wdagoubang.jpg"/>
+  <resource key="物品.金刚杵" value="/Resource/items/Wjingangchu.jpg"/>
+  <resource key="物品.金蛇剑" value="/Resource/items/Wjinshejian.jpg"/>
+  <resource key="物品.金龙鞭" value="/Resource/items/Wjinlongbian.jpg"/>
+  <resource key="物品.精钢拳套" value="/Resource/items/Wjinggangquantao.jpg"/>
+  <resource key="物品.君子剑" value="/Resource/items/Wjunzijian.jpg"/>
+  <resource key="物品.阔剑" value="/Resource/items/Wkuojian.jpg"/>
+  <resource key="物品.柳叶刀" value="/Resource/items/Wliuyedao.jpg"/>
+  <resource key="物品.灭仙爪" value="/Resource/items/Wmiexianzhao.jpg"/>
+  <resource key="物品.木刀" value="/Resource/items/Wmudao.jpg"/>
+  <resource key="物品.紫薇软剑" value="/Resource/items/Wziweiruanjian.jpg"/>
+  <resource key="物品.血刀" value="/Resource/items/Wxuedao.jpg"/>
+  <resource key="物品.万劫指" value="/Resource/items/wanjiezhi.jpg"/>
+  <resource key="物品.碧水剑" value="/Resource/items/bishuijian.jpg"/>
+  <resource key="物品.龙头拐杖" value="/Resource/items/longtouguaizhang.jpg"/>
+  <resource key="物品.软鞭" value="/Resource/items/ruanbian.jpg"/>
+  <resource key="物品.不二枪" value="/Resource/items/buerqiang.jpg"/>
+
+  <resource key="物品.匕首" value="/Resource/items/bishou.jpg"/>
+  <resource key="物品.匕首2" value="/Resource/items/bishou2.jpg"/>
+  <resource key="物品.匕首3" value="/Resource/items/bishou3.jpg"/>
+  <resource key="物品.刀1" value="/Resource/items/dao.jpg"/>
+  <resource key="物品.刀2" value="/Resource/items/dao2.jpg"/>
+  <resource key="物品.刀3" value="/Resource/items/dao3.jpg"/>
+  <resource key="物品.刀4" value="/Resource/items/dao4.jpg"/>
+  <resource key="物品.飞轮" value="/Resource/items/feilun.jpg"/>
+  <resource key="物品.吴钩" value="/Resource/items/gou.jpg"/>
+  <resource key="物品.棍子" value="/Resource/items/gun.jpg"/>
+  <resource key="物品.剑1" value="/Resource/items/jian.jpg"/>
+  <resource key="物品.剑2" value="/Resource/items/jian2.jpg"/>
+  <resource key="物品.剑3" value="/Resource/items/jian3.jpg"/>
+  <resource key="物品.剑毒" value="/Resource/items/ningbijian.jpg"/>
+  <resource key="物品.流星锤" value="/Resource/items/liuxingchui.jpg"/>
+  <resource key="物品.弩" value="/Resource/items/nu.jpg"/>
+  <resource key="物品.拳套" value="/Resource/items/quantao.jpg"/>
+  <resource key="物品.爪1" value="/Resource/items/zhua.jpg"/>
+  <resource key="物品.爪2" value="/Resource/items/zhua2.jpg"/>
+  <resource key="物品.爪3" value="/Resource/items/zhua3.jpg"/>
+  <resource key="物品.爪4" value="/Resource/items/zhua4.jpg"/>
+
+  <!--防具-->
+  <resource key="物品.金丝道袍" value="/Resource/items/Djinsidaopao.jpg"/>
+  <resource key="物品.粗布道袍" value="/Resource/items/Dcubudaopao.jpg"/>
+  <resource key="物品.乌蚕衣" value="/Resource/items/Dwucanyi.jpg"/>
+  <resource key="物品.黄金重甲" value="/Resource/items/Dhuangjinzhongjia.jpg"/>
+  <resource key="物品.袈裟2" value="/Resource/items/jiasha2.jpg"/>
+  <resource key="物品.盔甲" value="/Resource/items/kuijia.jpg"/>
+  <resource key="物品.女衣1" value="/Resource/items/nvyi1.jpg"/>
+  <resource key="物品.女衣2" value="/Resource/items/nvyi2.jpg"/>
+  <resource key="物品.女衣3" value="/Resource/items/nvyi3.jpg"/>
+  <resource key="物品.忍者服" value="/Resource/items/renzhefu.jpg"/>
+  <resource key="物品.手镯" value="/Resource/items/shouzhuo.jpg"/>
+  <resource key="物品.头盔" value="/Resource/items/toukui.jpg"/>
+  <resource key="物品.衣服1" value="/Resource/items/yifu1.jpg"/>
+  <resource key="物品.衣服2" value="/Resource/items/yifu2.jpg"/>
+  <resource key="物品.衣服3" value="/Resource/items/yifu3.jpg"/>
+  <resource key="物品.衣服4" value="/Resource/items/yifu4.jpg"/>
+  <resource key="物品.衣服5" value="/Resource/items/yifu5.jpg"/>
+  <resource key="物品.衣服6" value="/Resource/items/yifu6.jpg"/>
+  <resource key="物品.衣服7" value="/Resource/items/yifu7.jpg"/>
+  <resource key="物品.衣服8" value="/Resource/items/yifu8.jpg"/>
+  <resource key="物品.红道袍" value="/Resource/items/daopao.jpg"/>
+  
+  <!--特殊-->
+  <resource key="物品.黄金项链" value="/Resource/items/Shuangjinxianglian.jpg"/>
+  <resource key="物品.回力跑鞋" value="/Resource/items/Shuilipaoxie.jpg"/>
+  <resource key="物品.金头箍" value="/Resource/items/Sjintougu.jpg"/>
+  <resource key="物品.莽毒蛛蛤" value="/Resource/items/Smangguzhuha.jpg"/>
+  <resource key="物品.木鱼" value="/Resource/items/Smuyu.jpg"/>
+  <resource key="物品.银手镯" value="/Resource/items/Syinshouzhuo.jpg"/>
+  <resource key="物品.草帽" value="/Resource/items/Scaomao.jpg"/>
+  <resource key="物品.木人" value="/Resource/items/Smuren.jpg"/>
+  <resource key="物品.元宝" value="/Resource/items/yuanbao.png"/>
+  <resource key="物品.令牌" value="/Resource/items/lingpai.png"/>
+  <resource key="物品.铁剑令" value="/Resource/items/lingpai001.jpg" />
+  <resource key="物品.佛珠" value="/Resource/items/fozhu.jpg"/>
+  <resource key="物品.护腕" value="/Resource/items/huwan.jpg"/>
+  <resource key="物品.戒指1" value="/Resource/items/jiezhi1.jpg"/>
+  <resource key="物品.戒指2" value="/Resource/items/jiezhi2.jpg"/>
+  <resource key="物品.戒指3" value="/Resource/items/jiezhi3.jpg"/>
+  <resource key="物品.戒指4" value="/Resource/items/jiezhi4.jpg"/>
+  <resource key="物品.水晶" value="/Resource/items/shuijing.jpg"/>
+
+
+  <!--经书-->
+  <resource key="物品.独孤九剑剑谱" value="/Resource/items/Bdugujiujianjianpu.jpg"/>
+  <resource key="物品.幻阴指指法精要" value="/Resource/items/Bhuanyinzhizhifajingyao.jpg"/>
+  <resource key="物品.葵花宝典" value="/Resource/items/Bkuihuabaodian.jpg"/>
+  <resource key="物品.绕指柔剑剑谱" value="/Resource/items/Braozhiroujianjianpu.jpg"/>
+  <resource key="物品.四象掌拳谱" value="/Resource/items/Bsixiangzhangquanpu.jpg"/>
+  <resource key="物品.易筋经" value="/Resource/items/Byijinjing.jpg"/>
+  <!-- 物品图片-->
+  <resource key="物品.剑谱" value="/Resource/items/Bdugujiujianjianpu.jpg" />
+  <resource key="物品.奇门谱" value="/Resource/items/Bhuanyinzhizhifajingyao.jpg" />
+  <resource key="物品.宝典" value="/Resource/items/Bkuihuabaodian.jpg" />
+  <resource key="物品.刀谱" value="/Resource/items/Braozhiroujianjianpu.jpg" />
+  <resource key="物品.拳谱" value="/Resource/items/Bsixiangzhangquanpu.jpg" />
+  <resource key="物品.内功" value="/Resource/items/Byijinjing.jpg" />
+  <resource key="物品.松果" value="/Resource/items/songguo.jpg" />
+  <resource key="物品.包裹" value="/Resource/items/baoguo.jpg" />
+  <resource key="物品.发簪" value="/Resource/items/biyezan.jpg" />
+  <resource key="物品.龙游帮VIP令牌" value="/Resource/items/viplingpai.jpg" />
+  <resource key="物品.破军披风" value="/Resource/items/pojunpifeng.jpg"/>
+  <resource key="物品.袈裟" value="/Resource/items/jiasha.jpg"/>
+  <resource key="物品.箱子" value="/Resource/items/xiangzi.jpg"/>
+  
+  <!--物品trigger-->
+  <resource key="ItemTrigger.AddHp" value="+生命 {0}"/>
+  <resource key="ItemTrigger.AddMp" value="+内力 {0}"/>
+  <resource key="ItemTrigger.Balls" value="+怒气 {0}"/>
+  <resource key="ItemTrigger.AddMaxHp" value="+生命上限 {0}"/>
+  <resource key="ItemTrigger.AddMaxMp" value="+内力上限 {0}"/>
+  <resource key="ItemTrigger.attack" value="+攻击力 {0} +暴击概率 {1}%"/>
+  <resource key="ItemTrigger.defence" value="+防御力 {0} 减少受到暴击概率 {1}%"/>
+  <resource key="ItemTrigger.skill" value="外功招式 {0},等级上限 {1}"/>
+  <resource key="ItemTrigger.internalskill" value="内功心法 {0},等级上限 {1}"/>
+  <resource key="ItemTrigger.specialskill" value="特殊技能 {0}"/>
+  <resource key="ItemTrigger.talent" value="天赋(被动生效) {0}"/>
+  <resource key="ItemTrigger.eq_talent" value="天赋(装备生效) {0}"/>
+  <resource key="ItemTrigger.解毒" value="解毒 等级 {0},持续时间 {1}"/>
+  
+  <!-- 0.5 -->
+  <resource key="ItemTrigger.animation" value="时装 {0}"/>
+  <resource key="ItemTrigger.powerup_skill" value="+技能【{0}】威力 {1}%"/>
+  <resource key="ItemTrigger.powerup_internalskill" value="+内功【{0}】增益 {1}%"/>
+  <resource key="ItemTrigger.xi" value="+攻击吸血 {0}%"/>
+  <resource key="ItemTrigger.powerup_aoyi" value="奥义【{0}】威力 +{1}%，发动概率 +{2}%"/>
+  <resource key="ItemTrigger.powerup_quanzhang" value="+拳掌系技能加成 {0}%"/>
+  <resource key="ItemTrigger.powerup_jianfa" value="+剑系技能加成 {0}%"/>
+  <resource key="ItemTrigger.powerup_daofa" value="+刀系技能加成 {0}%"/>
+  <resource key="ItemTrigger.powerup_qimen" value="+奇门系技能加成 {0}%"/>
+  <resource key="ItemTrigger.critical" value="+暴击伤害 {0}%"/>
+  <resource key="ItemTrigger.attribute" value="+{0} {1}"/>
+  <resource key="ItemTrigger.mingzhong" value="+攻击命中率 {0}%"/>
+
+  <!-- 0.6 -->
+  <resource key="ItemTrigger.sp" value="+战斗集气速度 {0}"/>
+  <resource key="ItemTrigger.anti_debuff" value="+抵抗不良状态几率 {0}%"/>
+  
+</resources>

@@ -1,0 +1,22 @@
+<root>
+  <story name="yttlj_昆仑仙境">
+    <action type="DIALOG" value="张无忌#这昆仑仙境...当年我在此习得九阳真经，一转眼过去很久了..." />
+    <action type="DIALOG" value="主角#好了，别感慨了，我们继续冒险去吧！" />
+    <action type="JOIN" value="张无忌" />
+    <action type="DIALOG" value="成昆#哈哈哈哈，今天总算让我逮到你啦！张教主！" />
+    <action type="DIALOG" value="张无忌#成昆！" />
+    <action type="BATTLE" value="昆仑仙境_战斗" />
+    <result ret="win" type="story" value="yttlj_昆仑仙境胜" />
+  </story>
+  <story name="yttlj_昆仑仙境胜">
+    <action type="DIALOG" value="张无忌#可恶，又让他跑了..." />
+    <action type="DIALOG" value="主角#你义父呢？赵敏呢？周芷若呢？" />
+    <action type="DIALOG" value="张无忌#义父还陷在少林寺，敏敏不知道去哪里了，芷若也不见了。" />
+    <action type="DIALOG" value="主角#这都是啥设定啊..." />
+    <action type="DIALOG" value="张无忌#我们怎么办？" />
+    <action type="DIALOG" value="主角#怎么办？找妹子，救义父，杀成昆啊！" />
+    <action type="DIALOG" value="张无忌#有理，有理！" />
+    <action type="NICK" value="乾坤挪移" />
+    <result ret="0" type="map" value="昆仑山山洞1" />
+  </story>
+</root>

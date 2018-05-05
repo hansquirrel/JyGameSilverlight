@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <story name="aboutus_main">
+    <action type="BACKGROUND" value="地图.华山后山"/>
+    <action type="DIALOG" value="汉家松鼠#啦啦啦啦！我这就来给大家介绍介绍我们的制作组啦！" />
+    <action type="DIALOG" value="汉家松鼠#首先隆重出场的是我们的制作人，【汉家松鼠.子尹】和【汉家松鼠.cg】" />
+    <result ret="0" type="story" value="about_1"/>
+  </story>
+  <story name="about_1">
+    <action type="DIALOG" value="子尹#大家好，我是闷骚男游戏制作人子尹，这个游戏的主编！" />
+    <action type="DIALOG" value="cg#我是cg，超级宅男+游戏狂人，你看到的这个充满BUG的金X……惭愧，本人就是主程序员了。" />
+    <action type="DIALOG" value="子尹#其实绝大部分的剧本和游戏开发都是我俩做的了，回想起来都已经做了快2年了，才成这样子，真是惭愧啊！" />
+    <action type="DIALOG" value="cg#还好吧，毕竟是我俩第一次做游戏了。大家目前看到的几乎是一个木有美工的游戏……" />
+    <action type="DIALOG" value="子尹#两只程序猿客串美工和编剧真是苦B啊，何况还是业余时间做游戏，更何况还是做免费游戏……" />
+    <action type="DIALOG" value="cg#所以欢迎美工高手加入我们的队伍了！除了金X外，之后我们还会弄一些手机游戏，诚邀有志参与的美工高手加盟呀！" />
+    <action type="DIALOG" value="子尹#是的，我们这儿不缺强悍的程序猿与策划，缺的是强悍的美工啊！BTW，你这头像为啥是一只狗啊？" />
+    <action type="DIALOG" value="cg#这。。这是我养的宠物狗狗【阿布】啊，一直以来都是我的QQ头像啊。可爱吧？" />
+    <action type="DIALOG" value="子尹#好吧，最后欢迎大家到【汉家松鼠】贴吧给我们提宝贵建议，每一条我们都会认真阅读和回复的！" />
+    <action type="DIALOG" value="汉家松鼠#行了行了，你俩有完没完，还打起广告来了，赶紧还有其他人需要介绍呢！" />
+    <action type="DIALOG" value="cg#怎么啊？不服？小心我把你变成HP只有1的土豆渣渣！" />
+    <action type="DIALOG" value="汉家松鼠#……（这不是我的台词么）" />
+    <action type="DIALOG" value="子尹#行了，我俩赶紧撤吧。。" />
+    <result ret="0" type="story" value="about_2"/>
+  </story>
+  <story name="about_2">
+    <action type="DIALOG" value="汉家松鼠#啊呀呀，不好意思这俩家伙太丢人了，他俩毕竟第一次上屏幕，有点紧张是在所难免的！" />
+    <action type="DIALOG" value="汉家松鼠#接下来要鸣谢一下对游戏做出重大贡献的团队成员和热心玩家了！（排名不分先后）" />
+    <action type="DIALOG" value="汉家松鼠#感谢伊格（编剧）、cy（编剧）、shyou（编剧）、WL（程序）、lmn（程序）、天天（美工）等人为游戏开发的辛勤付出！" />
+    <action type="DIALOG" value="汉家松鼠#感谢啊哈哈、小虾米、女王之刃、蜂蜜沉杯底、winter22等人帮忙的对QQ群及贴吧的维护和管理！" />
+    <action type="DIALOG" value="汉家松鼠#感谢广大粉丝们对游戏的热爱！" />
+    <action type="DIALOG" value="汉家松鼠#最后，祝大家新年快乐！在2014年有新的收获，心想事成！" />
+    <action type="DIALOG" value="汉家松鼠#还是老生常谈，欢迎关注我的新浪微博 @汉家松鼠，来订阅游戏最新的资讯并与我交流~" />
+    <action type="DIALOG" value="汉家松鼠#好啦，就不啰嗦了，我先闪了！祝大家开心游戏！" />
+    <result ret="0" type="mainmenu" value=""/>
+  </story>
+
+</root>

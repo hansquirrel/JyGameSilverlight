@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+门派天赋：
+血刀门人：血刀大法威力随等级提升
+
+武学： 
+血刀大法（外功）
+雪遁步行（特殊技） 飘渺2回合
+（内功特点都是只重攻不重防）
+血刀心法（内功）
+血海魔功（内功，天赋：血海魔功）
+
+门派任务：
+拜师：道德小于30，无门派
+学习血刀大法：找善勇师兄，拍马屁，最大解锁8级
+恶人问答：回答宝象师兄的问题，切磋后，传授雪遁步行绝技
+抢姑娘：胜谛色心犯了，要你帮她去抢一个姑娘。打一波“见义勇为之士”，开启血刀心法10级
+门内比武：固定时间，召回门内比武，胜利得血刀大法10级
+血刀老祖事件：第二章节，帮血刀老祖杀狄云，传授血海魔功，解锁12级血刀上限（武功还是8或10级）
+血刀：血刀老祖事件后，达到12级血刀，触发和血刀老祖比武（3轮），比赢后，获得血刀
+-->
+<root>
+  <!--
+  <story name="血刀门_进门">
+    <action type="BACKGROUND" value="地图.血刀门" />
+    <action type="MUSIC" value="音乐.血刀门" />
+    <action type="DIALOG" value="胜谛#什么人擅闯血刀门？不想活了么？" />
+    <action type="SELECT" value="主角#如何回答？#拜师#我是来剿灭血刀门的！#没事我只是不小心路过的" />
+    <result ret="0" type="story" value="血刀门_拜师">
+      <control type="story" value="血刀门_拜师_已有门派">
+        <condition type="has_menpai" value="" />
+      </control>
+      <control type="story" value="血刀门_拜师_拒绝">
+        <condition type="daode_more_than" value="50" />
+      </control>
+      <control type="story" value="血刀门_拜师_接受"/>
+    </result>
+    <result ret="1" type="story" value="血刀门_灭门" />
+    <result ret="2" type="story" value="血刀门_闲逛" />
+  </story>
+  <story name="血刀门_拜师_已有门派">
+    <action type="DIALOG" value="主角#晚辈久仰血刀门大名！特此来求师！" />
+    <action type="SELECT" value="胜谛#小子，你已经有门派了，只怕是来消遣老子的吧，赶紧滚！" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="血刀门_拜师_拒绝">
+    <action type="DIALOG" value="主角#晚辈久仰血刀门大名！特此来求师！" />
+    <action type="SELECT" value="胜谛#看你油头满面的，八成不是什么好东西，血刀门不收你这种伪君子，赶紧滚吧！" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="血刀门_拜师_接受">
+    <action type="DIALOG" value="主角#晚辈久仰血刀门大名！特此来求师！"/>
+    <action type="SELECT" value="胜谛#你这小子，邪邪乎乎的，正和老子心意，估计老祖也会非常喜欢你，赶紧进去叩见老祖吧！" />
+    <result ret="0" type="story" value="血刀门_拜师2"/>
+  </story>
+  -->
+  <story name="血刀门_进门">
+    <action type="BACKGROUND" value="地图.血刀门外" />
+    <action type="MUSIC" value="音乐.血刀门" />
+    <action type="DIALOG" value="胜谛#什么人擅闯血刀门？不想活了么？" />
+    <action type="DIALOG" value="主角#晚辈久仰血刀门大名！特此来求师！" />
+    <action type="DIALOG" value="胜谛#你这小子，邪邪乎乎的，正和老子心意，估计老祖也会非常喜欢你，赶紧进去叩见老祖吧！" />
+    <result ret="0" type="story" value="血刀门_拜师2"/>
+  </story>
+  <story name="血刀门_拜师2">
+    <action type="BACKGROUND" value="地图.血刀门" />
+    <action type="DIALOG" value="胜谛#启禀老祖，这里有个小子想加入我大血刀门。"/>
+    <action type="DIALOG" value="主角#拜见老祖！我大血刀门横行江湖，晚辈仰慕已久，求收我为徒吧！"/>
+    <action type="DIALOG" value="血刀老祖#哈哈哈哈，好！我看你这小子天资不错，又不像那些伪君子一样整天口不对心，准了！"/>
+    <action type="DIALOG" value="血刀老祖#你先在门内好好习武，别一出去就被人砍了，丢我血刀门的脸。还有，小娃娃，本门门规，胜谛你说给他听。"/>
+    <action type="DIALOG" value="胜谛#是，你听好了，本门门规只有两条：1、坚决服从老祖领导，2、坚决将坏人做到底！"/>
+    <action type="DIALOG" value="胜谛#坏要坏得坦荡荡，藏头露尾虚情假意的都是伪君子，晓得了吗？"/>
+    <action type="DIALOG" value="主角#……明白了！"/>
+    <action type="DIALOG" value="胜谛#好，从今以后你就是血刀门人了，先去跟师兄弟们学学功夫吧。"/>
+    <action type="MENPAI" value="血刀门"/>
+    <action type="NICK" value="血刀门人" />
+    <action type="ITEM" value="血刀门门装"/>
+    <action type="LEARN.TALENT" value="主角#嗜血狂魔" />
+    <result ret="0" type="map" value="血刀门"/>
+  </story>
+
+  <story name="血刀门_善勇">
+    <action type="DIALOG" value="善勇#嘿，新来的吧，赶紧过来拜见你大师哥。听好了，老子叫做善勇。" />
+    <action type="DIALOG" value="主角#参见大师哥！" />
+    <action type="DIALOG" value="善勇#嗯，很好，我就教你几手本门绝学吧。" />
+    <action type="DIALOG" value="善勇#血刀门，顾名思义，本门以刀法立世。说实在的，本门从上到下，只有一套刀法，但学成了足以纵横江湖。" />
+    <action type="DIALOG" value="善勇#这一套血刀大法，每一招都是从绝不可能的方向击出，所谓刀刀见血，无血不欢。并且本门心法讲究的是可以在战斗中吸取对方生命，为我所用。" />
+    <action type="DIALOG" value="主角#壮哉我大血刀门！师哥！我已经迫不及待了，我一定努力练习不坠我血刀门名声！" />
+    <result ret="0" type="story" value="血刀门_善勇2"/>
+  </story>
+  <story name="血刀门_善勇2">
+    <action type="DIALOG" value="主角#师哥请传授我血刀门绝技吧！" />
+    <action type="DIALOG" value="善勇#来，今天先给老子捶捶背。" />
+    <action type="DIALOG" value="主角#是，师哥（我捶死你这个臭和尚）" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0">
+      <control type="story" value="血刀门_善勇3">
+        <condition type="probability" value="50"/>
+      </control>
+      <control type="story" value="血刀门_善勇4" />
+    </result>
+  </story>
+  <story name="血刀门_善勇3">
+    <action type="DIALOG" value="善勇#舒服啊，好了，大爷今天心情好，教你两手。看好了！" />
+    <action type="UPGRADE.SKILL" value="主角#血刀大法#1" />
+    <action type="UPGRADE.刀法" value="主角#1" />
+  </story>
+  <story name="血刀门_善勇4">
+    <action type="DIALOG" value="善勇#今天捶得太用力了，老子背都要被你捶烂了。不教了！不教了！" />
+    <action type="DIALOG" value="主角#（这个坑爹货！就当顺便锻炼臂力算了）" />
+    <action type="UPGRADE.臂力" value="主角#1" />
+    <action type="UPGRADE.MAXHP" value="主角#15" />
+    <action type="UPGRADE.MAXMP" value="主角#50" />
+  </story>
+
+  <story name="血刀门_宝象">
+    <action type="DIALOG" value="宝象#嘿嘿，师弟新来的把。我叫宝象，是你的师哥。" />
+    <action type="DIALOG" value="主角#宝象师哥好！" />
+    <result ret="0" type="story" value="血刀门_宝象2"/>
+  </story>
+  <story name="血刀门_宝象2">
+    <action type="DIALOG" value="宝象#来来来，看你这么识相，今天师哥和你好好聊聊……" />
+    <action type="DIALOG" value="主角#（额，聊聊可以，师哥别让我拣肥皂就好了）" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0">
+      <control type="story" value="血刀门_宝象问答1">
+        <condition type="probability" value="20"/>
+      </control>
+      <control type="story" value="血刀门_宝象问答2">
+        <condition type="probability" value="20"/>
+      </control>
+      <control type="story" value="血刀门_宝象问答3">
+        <condition type="probability" value="20"/>
+      </control>
+      <control type="story" value="血刀门_宝象问答4">
+        <condition type="probability" value="20"/>
+      </control>
+      <control type="story" value="血刀门_宝象问答5" />
+    </result>
+  </story>
+  <story name="血刀门_宝象问答1">
+    <action type="DIALOG" value="宝象#街上看到老奶奶摔倒了，正确的做法是？" />
+    <action type="SELECT" value="主角#街上看到老奶奶摔倒了，正确的做法是？#赶紧扶起来#冲上去踩一脚" />
+    <result ret="0" type="story" value="血刀门_宝象问答ERROR"/>
+    <result ret="1" type="story" value="血刀门_宝象问答OK"/>  
+  </story>
+  <story name="血刀门_宝象问答2">
+    <action type="DIALOG" value="宝象#上街看到个美女，特别心动，正确的做法是？" />
+    <action type="SELECT" value="主角#上街看到个美女，特别心动，正确的做法是？#冲上去波一个#直接摁倒#含羞表白" />
+    <result ret="0" type="story" value="血刀门_宝象问答ERROR"/>
+    <result ret="1" type="story" value="血刀门_宝象问答OK"/>
+    <result ret="2" type="story" value="血刀门_宝象问答ERROR"/>
+  </story>
+  <story name="血刀门_宝象问答3">
+    <action type="DIALOG" value="宝象#看到大小孩在抢小小孩的棒棒糖，正确的做法是？" />
+    <action type="SELECT" value="主角#看到大小孩在抢小小孩的棒棒糖，正确的做法是？#帮小小孩把棒棒糖抢回来#帮大小孩抢棒棒糖#两个小孩一起揍，抢了棒棒糖自己吃" />
+    <result ret="0" type="story" value="血刀门_宝象问答ERROR"/>
+    <result ret="1" type="story" value="血刀门_宝象问答ERROR"/>
+    <result ret="2" type="story" value="血刀门_宝象问答OK"/>
+  </story>
+  <story name="血刀门_宝象问答4">
+    <action type="DIALOG" value="宝象#看到段誉和木婉清俩人被关密室，被下了春药怎么办？" />
+    <action type="SELECT" value="主角#看到段誉和木婉清俩人被关密室，被下了春药怎么办？#上吧骚年#忍住#敲晕段誉，让我来！" />
+    <result ret="0" type="story" value="血刀门_宝象问答ERROR"/>
+    <result ret="1" type="story" value="血刀门_宝象问答ERROR"/>
+    <result ret="2" type="story" value="血刀门_宝象问答OK"/>
+  </story>
+  <story name="血刀门_宝象问答5">
+    <action type="DIALOG" value="宝象#你看师哥我帅吗？" />
+    <action type="SELECT" value="主角#宝象帅吗？#简直是震古烁今第一帅哥#只比血刀老祖差那么一点#丑死了！" />
+    <result ret="0" type="story" value="血刀门_宝象问答OK"/>
+    <result ret="1" type="story" value="血刀门_宝象问答ERROR2"/>
+    <result ret="2" type="story" value="血刀门_宝象问答ERROR"/>
+  </story>
+  <story name="血刀门_宝象问答ERROR">
+    <action type="DIALOG" value="宝象#回答错误！赶紧滚蛋！"/>
+  </story>
+  <story name="血刀门_宝象问答ERROR2">
+    <action type="DIALOG" value="宝象#好吧，老祖确实是最帅的。。"/>
+    <action type="DIALOG" value="主角#然后呢？"/>
+    <action type="DIALOG" value="宝象#（不爽的样子）今天心情不好，不教了！"/>
+    <action type="DIALOG" value="主角#……"/>
+  </story>
+  <story name="血刀门_宝象问答OK">
+    <action type="DIALOG" value="宝象#完全正确！不愧是我血刀门的好兄弟，来来，师哥教你两手！"/>
+    <action type="UPGRADE.身法" value="主角#1" />
+    <action type="UPGRADE.福缘" value="主角#1" />
+    <result ret="0">
+      <control type="story" value="血刀门_宝象雪遁步行">
+        <condition type="probability" value="15"/>
+        <condition type="should_not_finish" value="血刀门_宝象雪遁步行2"/>
+      </control>
+      <control type="map" value="血刀门"/>
+    </result>
+  </story>
+  <story name="血刀门_宝象雪遁步行">
+    <action type="DIALOG" value="主角#自从跟师哥聊天，我感觉身体倍棒，吃饭倍香了！"/>
+    <action type="DIALOG" value="宝象#不错嘛师弟，看在咱俩这么投缘。我来跟你切磋切磋！"/>
+    <action type="SELECT" value="主角#要和宝象切磋嘛？#切磋#不切磋"/>
+    <result ret="0" type="story" value="血刀门_宝象切磋"/>
+    <result ret="1" type="story" value="血刀门_宝象不切磋"/>
+  </story>
+  <story name="血刀门_宝象切磋">
+    <action type="DIALOG" value="主角#请师兄指教！"/>
+    <action type="BATTLE" value="血刀门_宝象雪遁步行"/>
+    <result ret="win" type="story" value="血刀门_宝象雪遁步行2"/>
+    <result ret="lose" type="story" value="血刀门_宝象雪遁步行3"/>
+  </story>
+  <story name="血刀门_宝象不切磋">
+    <action type="DIALOG" value="主角#师哥太厉害了，小弟打不过，还是下次吧！"/>
+    <action type="DIALOG" value="宝象#太怂了！"/>
+  </story>
+  <story name="血刀门_宝象雪遁步行2">
+    <action type="DIALOG" value="宝象#佩服佩服！真是年轻青出于蓝胜于蓝！师哥来教你一手绝活！"/>
+    <action type="LEARN.SPECIALSKILL" value="主角#雪遁步行"/>
+    <action type="DIALOG" value="主角#师哥威武，师哥真厉害！从今以后，我一切听你的~"/>
+    <action type="DIALOG" value="宝象#（抛个媚眼）来，师弟，师哥的肥皂掉了，麻烦你帮拣拣……"/>
+    <action type="DIALOG" value="主角#（浑身一哆嗦）……我还是赶紧撤吧。"/>
+  </story>
+  <story name="血刀门_宝象雪遁步行3">
+    <action type="DIALOG" value="主角#师哥威武，师哥好厉害！"/>
+    <action type="DIALOG" value="宝象#你这还需要加油啊。"/>
+    <action type="DIALOG" value="主角#是！"/>
+  </story>
+
+  <story name="血刀门_胜谛">
+    <action type="DIALOG" value="胜谛#嘿嘿，师弟你好啊，我是你胜谛师兄。"/>
+    <action type="DIALOG" value="主角#师兄好！"/>
+    <action type="DIALOG" value="胜谛#看你手脚还算挺灵活的，怎么样，帮师兄我办件事吧？"/>
+    <action type="DIALOG" value="主角#不知师兄有何吩咐？"/>
+    <action type="DIALOG" value="胜谛#嘿嘿，师兄我生平就一爱好，最近好久没有见过姑娘了，老祖又吩咐我在门内得办些事，脱不开身，实在是饥渴难耐啊！"/>
+    <action type="DIALOG" value="主角#（额，只要你不看上我就好）那……？"/>
+    <action type="DIALOG" value="胜谛#麻烦你上街走一趟，给我抓个漂亮姑娘回来让我一解饥渴吧！"/>
+    <action type="DIALOG" value="主角#啊？"/>
+    <result ret="0" type="story" value="血刀门_胜谛2"/>
+  </story>
+  <story name="血刀门_胜谛2">
+    <action type="DIALOG" value="胜谛#麻烦师弟了，给我抓个姑娘回来。只要一个，一个就好！"/>
+    <action type="SELECT" value="主角#帮胜谛这个忙吗？#帮#不帮"/>
+    <result ret="0" type="story" value="血刀门_胜谛帮"/>
+    <result ret="1" type="story" value="血刀门_胜谛不帮"/>
+  </story>
+  <story name="血刀门_胜谛帮">
+    <action type="DIALOG" value="主角#好！师兄我就帮了你这个忙，不知师兄喜欢什么口味的？"/>
+    <action type="DIALOG" value="胜谛#（色狼状）什么都行！只要是个女的！！"/>
+    <result ret="0" type="story" value="血刀门_胜谛帮2"/>
+  </story>
+  <story name="血刀门_胜谛帮2">
+    <action type="BACKGROUND" value="地图.市井"/>
+    <action type="MUSIC" value="音乐.欢乐"/>
+    <action type="DIALOG" value="主角#啊呀，街上花姑娘怎么这么少呢，估计是大家都知道我血刀门师兄们好色，都躲起来了。"/>
+    <action type="DIALOG" value="主角#咦，那边有一个！！上！"/>
+    <result ret="0" type="story" value="血刀门_胜谛帮3"/>
+  </story>
+  <story name="血刀门_胜谛帮3">
+    <action type="DIALOG" value="凤姐#……"/>
+    <action type="DIALOG" value="主角#（这这口味有点重，不过胜谛师兄既然说品质无所谓，那就你了）"/>
+    <action type="DIALOG" value="主角#姐姐，不好意思，血刀门来抢花姑娘了，请跟我走一趟吧！"/>
+    <action type="DIALOG" value="凤姐#啊！救命啊，有血刀恶僧强抢民女啦！"/>
+    <action type="BATTLE" value="血刀门_胜谛抢民女"/>
+    <result ret="win" type="story" value="血刀门_胜谛帮4"/>
+  </story>
+  <story name="血刀门_胜谛帮4">
+    <action type="BACKGROUND" value="地图.血刀门"/>
+    <action type="MUSIC" value="音乐.血刀门"/>
+    <action type="DIALOG" value="主角#师兄，花姑娘来了！"/>
+    <action type="DIALOG" value="凤姐#……"/>
+    <action type="DIALOG" value="胜谛#（我草，这也行？）师弟，你审美真特别！这这……要不我让给你吧？"/>
+    <action type="DIALOG" value="凤姐#（姐有这么差么？）……"/>
+    <action type="DIALOG" value="主角#（看了两眼这位民女）师兄……我觉得我还是不趁人之美了。您赶紧享用吧！"/>
+    <action type="DIALOG" value="胜谛#哎，好吧，看在你这么卖力，来，师兄送你一本秘籍！"/>
+    <action type="ITEM" value="血刀心法秘籍#1"/>
+    <action type="DIALOG" value="主角#谢师兄！春宵一刻值千金，好好享受吧！我先撤啦。"/>
+  </story>
+  <story name="血刀门_胜谛不帮">
+    <action type="DIALOG" value="主角#师兄不好意思我今天太忙了……回头再帮你吧。"/>
+    <action type="DIALOG" value="胜谛#赶紧的啊，拜托了！"/>
+  </story>
+  <story name="血刀门_胜谛事后">
+    <action type="DIALOG" value="主角#师兄，滋味如何？"/>
+    <action type="DIALOG" value="胜谛#妙极妙极！来，今天我教你点硬功吧。"/>
+    <action type="UPGRADE.MAXHP" value="主角#15" />
+    <action type="UPGRADE.MAXMP" value="主角#15" />
+    <action type="COST_DAY" value="1" />
+  </story>
+
+  <story name="血刀门_出师">
+    <action type="BACKGROUND" value="地图.血刀门"/>
+    <action type="MUSIC" value="音乐.血刀门"/>
+    <action type="DIALOG" value="血刀老祖#好了，你这小子武功也练的差不多了，赶紧去江湖上历练历练吧。"/>
+    <action type="DIALOG" value="主角#是！老祖！一定不辜负您的期望！"/>
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  <story name="血刀门_门内比武">
+    <action type="BACKGROUND" value="地图.血刀门"/>
+    <action type="MUSIC" value="音乐.血刀门"/>
+    <action type="DIALOG" value="血刀老祖#小的们，又到了我们门内一年一度比武的日子。"/>
+    <action type="DIALOG" value="血刀老祖#武功对我们坏人来说是很重要的，木有武功就无法为恶，所以我要对武功卓越者提出特别奖励！来，大家一起去比武！"/>
+    <result ret="0" type="story" value="血刀门_门内比武1"/>
+  </story>
+  <story name="血刀门_门内比武1">
+    <action type="BACKGROUND" value="地图.血刀门外"/>
+    <action type="DIALOG" value="血刀老祖#比赛制度为单淘，现在正式开始！谁先上场呢……"/>
+    <action type="DIALOG" value="血刀老祖#喂，你，就你了，上场吧！"/>
+    <action type="DIALOG" value="主角#（左看右看，难道是我？）啊？"/>
+    <action type="BATTLE" value="血刀门_门内比武1"/>
+    <result ret="win" type="story" value="血刀门_门内比武2"/>
+    <result ret="lose" type="story" value="血刀门_门内比武负"/>
+  </story>
+  <story name="血刀门_门内比武2">
+    <action type="BACKGROUND" value="地图.血刀门外"/>
+    <action type="DIALOG" value="血刀老祖#第二场！"/>
+    <action type="BATTLE" value="血刀门_门内比武2"/>
+    <result ret="win" type="story" value="血刀门_门内比武3"/>
+    <result ret="lose" type="story" value="血刀门_门内比武负"/>
+  </story>
+  <story name="血刀门_门内比武3">
+    <action type="BACKGROUND" value="地图.血刀门外"/>
+    <action type="DIALOG" value="血刀老祖#第三场！"/>
+    <action type="BATTLE" value="血刀门_门内比武3"/>
+    <result ret="win" type="story" value="血刀门_门内比武4"/>
+    <result ret="lose" type="story" value="血刀门_门内比武负"/>
+  </story>
+  <story name="血刀门_门内比武4">
+    <action type="BACKGROUND" value="地图.血刀门外"/>
+    <action type="DIALOG" value="血刀老祖#第四场！"/>
+    <action type="BATTLE" value="血刀门_门内比武4"/>
+    <result ret="win" type="story" value="血刀门_门内比武胜"/>
+    <result ret="lose" type="story" value="血刀门_门内比武负"/>
+  </story>
+  <story name="血刀门_门内比武胜">
+    <action type="BACKGROUND" value="地图.血刀门"/>
+    <action type="MUSIC" value="音乐.血刀门"/>
+    <action type="DIALOG" value="血刀老祖#很好！你获得了门内比武第一名，作为我血刀门后期之秀，你已经非常了不得了！"/>
+    <action type="DIALOG" value="血刀老祖#作为奖励，我来传你一手绝招！看好了！"/>
+    <action type="LEARN.SKILL" value="主角#血刀大法#11"/>
+    <action type="DIALOG" value="主角#谢老祖！（你那诱人的血海魔功啥时候能教我啊……）"/>
+    <action type="LOG" value="血刀门门内比武获胜"/>
+    <action type="NICK" value="血刀高手"/>
+  </story>
+  <story name="血刀门_门内比武负">
+    <action type="BACKGROUND" value="地图.血刀门"/>
+    <action type="MUSIC" value="音乐.血刀门"/>
+    <action type="DIALOG" value="血刀老祖#你输了，赶紧回家再好好练武功吧。"/>
+    <action type="LOG" value="血刀门门内比武失败"/>
+  </story>
+
+  <story name="血刀门_血刀老祖杀死狄云">
+    <action type="DIALOG" value="血刀老祖#娃儿，你来了。"/>
+    <action type="DIALOG" value="主角#给老祖请安！"/>
+    <action type="DIALOG" value="血刀老祖#这娃儿真懂事，（正好在思考办事的人选）来来，替你老祖爷爷办件事吧。"/>
+    <action type="SELECT" value="主角#要接受血刀老祖的任务吗？#要#不接"/>
+    <result ret="0" type="story" value="血刀门_血刀老祖杀死狄云OK"/>
+    <result ret="1" type="story" value="血刀门_血刀老祖杀死狄云NO"/>
+  </story>
+  <story name="血刀门_血刀老祖杀死狄云OK">
+    <action type="DIALOG" value="主角#赴汤蹈火在所不辞！"/>
+    <action type="DIALOG" value="血刀老祖#嘿嘿，好。。江湖上最近出了一人，叫做狄云，你可知道？"/>
+    <action type="DIALOG" value="主角#（怎么会不知道，连城诀的主角嘛）知道！"/>
+    <action type="DIALOG" value="血刀老祖#很好，有本书叫做《连城诀》，我觉得本来我应该是主角的，可是却被这小子给抢了风头，你说可不可恶？"/>
+    <action type="DIALOG" value="主角#居然敢抢我大血刀门的风头，简直是可恶至极，该杀至极！"/>
+    <action type="DIALOG" value="血刀老祖#嗯嗯，你给我去把他给杀了，拿人头回来复命。"/>
+    <action type="DIALOG" value="主角#（额，好艰难的任务）是！"/>
+    <action type="LOG" value="接受血刀老祖关于杀死狄云的任务。"/>
+  </story>
+  <story name="血刀门_血刀老祖杀死狄云NO">
+    <action type="DIALOG" value="主角#这这……恐怕弟子无能完不成任务啊！"/>
+    <action type="DIALOG" value="血刀老祖#太怂了！滚吧。"/>
+  </story>
+  <story name="血刀门_血刀老祖杀死狄云执行中">
+    <action type="DIALOG" value="血刀老祖#赶紧给我把狄云的人头领回来！"/>
+    <action type="DIALOG" value="主角#是！"/>
+  </story>
+  <story name="血刀门_血刀老祖杀死狄云完成">
+    <action type="DIALOG" value="主角#启禀老祖，在下幸不辱命！狄云首级在此！"/>
+    <action type="DIALOG" value="血刀老祖#哈哈！我果然没看错人，你小子真是个可塑之才。"/>
+    <action type="DIALOG" value="主角#全仗老祖全力培养啊！"/>
+    <action type="DIALOG" value="血刀老祖#很好，很好，也不能让你白干活，今天教你一手，看好了。"/>
+    <action type="LEARN.SKILL" value="主角#血刀大法#12"/>
+    <action type="DIALOG" value="血刀老祖#另外这里有一本秘籍记载我门绝世心法，看在你办事利索，一并赏给你了。"/>
+    <action type="ITEM" value="血海魔功秘籍#1"/>
+    <action type="DIALOG" value="主角#哇！血刀门的绝世心法！终于拿到手了！"/>
+    <action type="LOG" value="获得血刀门绝世心法血海魔功"/>
+    <action type="NICK" value="血海魔功"/>
+  </story>
+
+  <!--血刀老祖的试炼-->
+  <story name="血刀门_血刀老祖的试炼">
+    <action type="DIALOG" value="血刀老祖#小子，血海魔功学的怎样了？"/>
+    <action type="DIALOG" value="主角#启禀老祖，我回家后天天苦练从没有偷懒过，现在终于有点小成了！"/>
+    <action type="DIALOG" value="血刀老祖#嗯，我也听说你在江湖上混得风生水起，算是对得起我的栽培了。"/>
+    <action type="DIALOG" value="血刀老祖#但你可知道，我血刀老祖闻名于世，可不单是因为我血刀大法，还有我这把削铁如泥的血刀。这套刀法，配合这把神器才能发挥最大的威力。"/>
+    <action type="DIALOG" value="主角#是啊！老祖的宝刀是我门的震派之宝，当然威力无穷了！"/>
+    <action type="DIALOG" value="血刀老祖#嘿嘿，我看你小子已经垂涎已久了，我说的没错吧？"/>
+    <action type="DIALOG" value="主角#不敢不敢！只是非常羡慕老祖您而已！"/>
+    <action type="DIALOG" value="血刀老祖#我是真心喜欢你这乖徒儿，好吧，说的我都手痒痒了，来，咱们切磋切磋。"/>
+    <action type="DIALOG" value="主角#啊？"/>
+    <action type="BATTLE" value="血刀门_血刀老祖的试炼1"/>
+    <result ret="win" type="story" value="血刀门_血刀老祖的试炼2"/>
+    <result ret="lose" type="story" value="血刀门_血刀老祖的试炼失败"/>
+  </story>
+  <story name="血刀门_血刀老祖的试炼2">
+    <action type="BACKGROUND" value="地图.血刀门"/>
+    <action type="DIALOG" value="血刀老祖#不错不错！这次我会更加认真了，小心。"/>
+    <action type="BATTLE" value="血刀门_血刀老祖的试炼2"/>
+    <result ret="win" type="story" value="血刀门_血刀老祖的试炼3"/>
+    <result ret="lose" type="story" value="血刀门_血刀老祖的试炼失败"/>
+  </story>
+  <story name="血刀门_血刀老祖的试炼3">
+    <action type="BACKGROUND" value="地图.血刀门"/>
+    <action type="DIALOG" value="血刀老祖#哟，不错嘛，那这次我可真的要使全力了！"/>
+    <action type="BATTLE" value="血刀门_血刀老祖的试炼3"/>
+    <result ret="win" type="story" value="血刀门_血刀老祖的试炼成功"/>
+    <result ret="lose" type="story" value="血刀门_血刀老祖的试炼失败"/>
+  </story>
+  <story name="血刀门_血刀老祖的试炼成功">
+    <action type="BACKGROUND" value="地图.血刀门"/>
+    <action type="MUSIC" value="音乐.血刀门"/>
+    <action type="DIALOG" value="血刀老祖#不错！小子，娃儿，乖徒儿，你如今这武功只怕已经在我之上了。"/>
+    <action type="DIALOG" value="血刀老祖#这把震门之宝血刀，就赠给你了，千万要将老子的功夫发扬光大！"/>
+    <action type="DIALOG" value="主角#哇，老祖，爱死你了！啵一个~"/>
+    <action type="DIALOG" value="血刀老祖#你这也算是出师了，我想着你这个坏蛋到江湖上去，只怕那些伪君子酸秀才花姑娘们都要倒大霉了！我自己想想就兴奋！"/>
+    <action type="DIALOG" value="主角#一定不辜负老祖的期望！做一个十足的大坏蛋！"/>
+    <action type="DIALOG" value="血刀老祖#行了！你赶紧去吧，我也该回家睡觉抱女人去了，哈哈哈！"/>
+    <action type="LOG" value="通过血刀老祖的试炼，获得血刀。"/>
+    <action type="ITEM" value="血刀#1"/>
+  </story>
+  <story name="血刀门_血刀老祖的试炼失败">
+    <action type="BACKGROUND" value="地图.血刀门"/>
+    <action type="MUSIC" value="音乐.血刀门"/>
+    <action type="DIALOG" value="血刀老祖#哈哈，你这武功只怕还是及不上老祖我啊。回去再好好练过吧！"/>
+    <action type="DIALOG" value="主角#老祖天下无敌！及不上也是必须的嘛！"/>
+    <action type="DIALOG" value="血刀老祖#很好，很好，乖徒儿很孝顺！"/>
+    <action type="DIALOG" value="主角#然后呢……"/>
+    <action type="DIALOG" value="血刀老祖#然后就没然后了！谁叫你没打过我，哈哈！滚蛋吧。"/>
+    <action type="DIALOG" value="主角#……"/>
+  </story>
+
+  <story name="血刀门_血刀老祖废话">
+    <action type="DIALOG" value="血刀老祖#嘿嘿，敢想敢做，任性而为，正乃我血刀门人本色！"/>
+  </story>
+</root>

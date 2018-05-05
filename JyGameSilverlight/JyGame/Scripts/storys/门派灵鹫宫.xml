@@ -1,0 +1,553 @@
+﻿<root>
+  <story name="灵鹫宫_加入灵鹫宫">
+    <action type="BACKGROUND" value="地图.灵鹫宫" />
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="DIALOG" value="秦婆婆#我天山灵鹫宫乃逍遥派武学正宗，入我灵鹫宫之人必须潇洒轻逸，出手之间不失风度。本来你这长相是不合格的，不过既然是南贤介绍来的就勉强收下吧。灵鹫宫武学首重领悟，平日里多读读书。武学也会大有进益。" />
+    <action type="DIALOG" value="主角#（果然选头像和真人长相不是一马事）是婆婆，我一定会好好努力的。" />
+    <action type="DIALOG" value="秦婆婆#人生有限，宇宙无穷。所以古人讲的是抛弃小我，追求大道。越工作人越容易狭隘，所以要看看诗歌回归过去，才能有好文章，好作品。武学也是一样的道理。" />
+    <action type="DIALOG" value="主角#受教了，婆婆。" />
+    <action type="NICK" value="灵鹫弟子" />
+    <action type="LEARN.TALENT" value="主角#御风" />
+    <action type="ITEM" value="灵鹫宫装束"/>
+    <action type="MENPAI" value="灵鹫宫" />
+    <result ret="0" type="map" value="灵鹫宫"/>
+  </story>
+  <story name="灵鹫宫.御虚阁">
+    <action type="BACKGROUND" value="地图.雪山1" />
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="DIALOG" value="梅剑#今日就教你灵鹫宫的基本武学，听好了“其形也，翩若惊鸿，婉若游龙，荣曜秋菊，华茂春松。" />
+    <action type="DIALOG" value="梅剑#髣髴兮若轻云之蔽月，飘飖兮若流风之回雪。远而望之，皎若太阳升朝霞。迫而察之，灼若芙蕖出渌波。秾纤得衷，修短合度。肩若削成，腰如约素。。。。。。”" />
+    <action type="DIALOG" value="主角#“。。。。。。。。。（好多好困）" />
+    <action type="UPGRADE.身法" value="主角#2" />
+    <action type="UPGRADE.拳掌" value="主角#2" />
+    <action type="UPGRADE.SKILL" value="主角#天山掌法#2" />
+    <action type="COST_DAY" value="2" />
+    <result ret="0" type="map" value="灵鹫宫"/>
+  </story>
+  <story name="灵鹫宫_修炼天山掌法1">
+    <action type="BACKGROUND" value="地图.雪山1" />
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="DIALOG" value="梅剑#今日就教你灵鹫宫的基本武学，听好了“其形也，翩若惊鸿，婉若游龙，荣曜秋菊，华茂春松。" />
+    <action type="DIALOG" value="梅剑#髣髴兮若轻云之蔽月，飘飖兮若流风之回雪。远而望之，皎若太阳升朝霞。迫而察之，灼若芙蕖出渌波。秾纤得衷，修短合度。肩若削成，腰如约素。。。。。。”" />
+    <action type="DIALOG" value="主角#后面好像是“延颈秀项，皓质呈露，芳泽无加，铅华弗御。云髻峨峨，修眉联娟，丹唇外朗，皓齿内鲜。明眸善睐，靥辅承权，瓌姿艳逸，仪静体闲。" />
+    <action type="DIALOG" value="主角#柔情绰态，媚于语言。奇服旷世，骨象应图。披罗衣之璀粲兮，珥瑶碧之华琚。戴金翠之首饰，缀明珠以耀躯。。。。”" />
+    <action type="UPGRADE.悟性" value="主角#3" />
+    <action type="UPGRADE.身法" value="主角#6" />
+    <action type="UPGRADE.SKILL" value="主角#天山掌法#2" />
+    <action type="COST_DAY" value="2" />
+    <result ret="0" type="map" value="灵鹫宫"/>
+  </story>
+  <story name="灵鹫宫_修炼天山掌法2">
+    <action type="BACKGROUND" value="地图.雪山1" />
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="DIALOG" value="梅剑#听好了“体迅飞凫，飘忽若神。凌波微步，罗袜生尘。动无常则，若危若安。进止难期，若往若还。转眄流精，光润玉颜。含辞未吐，气若幽兰。华容婀娜，令我忘餐。”" />
+    <action type="DIALOG" value="主角#（体迅飞凫，飘忽若神。凌波微步，罗袜生尘。体迅飞凫，飘忽若神。）好一个凌波仙子，体迅飞凫，飘忽若神。" />
+    <action type="UPGRADE.身法" value="主角#10" />
+    <action type="DIALOG" value="主角#凌波微步啊！好像差那么一点就能悟出来了。" />
+    <action type="COST_DAY" value="2" />
+    <result ret="0" type="map" value="灵鹫宫"/>
+  </story>
+  <story name="灵鹫宫.九尊殿">
+    <action type="BACKGROUND" value="地图.琴舍" />
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="DIALOG" value="秦婆婆#既然入得我灵鹫宫，就要对姥姥敬爱有加，别学梅兰竹菊那些小丫头片子们没个规矩。来虽然童姥不在，和婆婆一起三叩九拜，学习天山心法。”" />
+    <action type="DIALOG" value="主角#嗯，婆婆说的是（尊老爱幼，是传统美德）" />
+    <action type="UPGRADE.定力" value="主角#6" />
+    <action type="UPGRADE.根骨" value="主角#3" />
+    <action type="UPGRADE.INTERNALSKILL" value="主角#天山心法#3" />
+    <action type="COST_DAY" value="3" />
+    <result ret="0" type="map" value="灵鹫宫"/>
+  </story>
+  <story name="灵鹫宫_修炼归藏剑">
+    <action type="BACKGROUND" value="地图.九宫八卦" />
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="DIALOG" value="竹剑#看你天山掌法学的不错，今天就教你灵鹫宫的镇宫绝学。“归藏剑”姥姥不在宫中，姐姐也只能把招式交给你了，不过这门绝学的精深之处似乎已经失传很久了" />
+    <action type="DIALOG" value="主角#嗯嗯，竹剑姐姐认真的样子好漂亮啊" />
+    <action type="DIALOG" value="竹剑#（脸色微红）就知道取笑别人。听好了啊“归藏剑分为乾、坤、巽、坎、离、艮、兑、震，依《归藏》之理交相生衍，幻化天地万象 ，天地万物,皆归藏于其间”" />
+    <action type="DIALOG" value="主角#哇塞，这么厉害" />
+    <action type="DIALOG" value="竹剑#不是说了精深之处失传很久了么，好了，明天来了正式传给你。" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="map" value="灵鹫宫"/>
+  </story>
+  <story name="灵鹫宫_修炼归藏剑1">
+    <action type="BACKGROUND" value="地图.九宫八卦" />
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="DIALOG" value="竹剑#首先是乾剑道，乾剑道”变化繁复，为诸剑之首。“乾”者天也，剑势高远，如万古云霄，空灵无极。 ”" />
+    <action type="DIALOG" value="竹剑#乾剑道”包容天象，前后九个‘大剑势’，每个“大剑势”又包容九个‘中剑势’，每个“中剑势”里又包括九个“小剑势”，环环相套，生生不穷。" />
+    <action type="DIALOG" value="主角#这剑法深谙道家至理，我可得用心学。" />
+    <action type="UPGRADE.SKILL" value="主角#归藏剑#2" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="map" value="灵鹫宫"/>
+  </story>
+  <story name="灵鹫宫_修炼归藏剑2">
+    <action type="BACKGROUND" value="地图.九宫八卦" />
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="DIALOG" value="竹剑#坤剑道：“坤”卦为大地，故而“坤剑道”沉浑厚重，是极厉害的防守剑术。" />
+    <action type="DIALOG" value="竹剑#今天就教到这里了，明天再教" />
+    <action type="UPGRADE.SKILL" value="主角#归藏剑#1" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="map" value="灵鹫宫"/>
+  </story>
+  <story name="灵鹫宫_修炼归藏剑3">
+    <action type="BACKGROUND" value="地图.九宫八卦" />
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="DIALOG" value="竹剑#艮剑道：“艮”卦为山岳，是以“艮剑道”雍穆雄奇。但这路剑法很少独运，多与“兑剑道”合使。" />
+    <action type="DIALOG" value="竹剑#今天就教到这里了，明天再教" />
+    <action type="UPGRADE.SKILL" value="主角#归藏剑#1" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="map" value="灵鹫宫"/>
+  </story>
+  <story name="灵鹫宫_修炼归藏剑4">
+    <action type="BACKGROUND" value="地图.九宫八卦" />
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="DIALOG" value="竹剑#坎剑道：“坎”为天下之水，“坎剑道”自也深得水性，若江若海，若湖若瀑。" />
+    <action type="DIALOG" value="竹剑#要知“天下莫柔弱于水，而攻坚强者莫之能胜”，这路剑法极得“弱之胜强，柔之胜刚”的妙谛，堪称归藏剑中最厉害的剑术。" />
+    <action type="DIALOG" value="竹剑#今天就教到这里了，明天再教" />
+    <action type="UPGRADE.SKILL" value="主角#归藏剑#1" />
+    <action type="UPGRADE.剑法" value="主角#2" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="map" value="灵鹫宫"/>
+  </story>
+  <story name="灵鹫宫_修炼归藏剑5">
+    <action type="BACKGROUND" value="地图.九宫八卦" />
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="DIALOG" value="竹剑#震剑道：“震”为雷霆霹雳，雷霆万钧，但只是一瞬。是以这路剑法只有一招，不出则已，出则无坚不摧。其狠辣迅疾，足为归藏剑第一。" />
+    <action type="DIALOG" value="竹剑#今天就教到这里了，明天再教" />
+    <action type="UPGRADE.SKILL" value="主角#归藏剑#1" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="map" value="灵鹫宫"/>
+  </story>
+  <story name="灵鹫宫_修炼归藏剑6">
+    <action type="BACKGROUND" value="地图.九宫八卦" />
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="DIALOG" value="竹剑#巽剑道：巽者风也，风乃宇宙之气，起于青萍之末，舞于松柏之下。“巽剑道”变化多端，为“归藏剑”之最，轻柔时有扬花拂柳之妙；但若是癫狂起来，则有碎石伐木、摧枯拉朽的大威力。" />
+    <action type="DIALOG" value="竹剑#今天就教到这里了，明天再教" />
+    <action type="UPGRADE.SKILL" value="主角#归藏剑#1" />
+    <action type="UPGRADE.剑法" value="主角#1" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="map" value="灵鹫宫"/>
+  </story>
+  <story name="灵鹫宫_修炼归藏剑7">
+    <action type="BACKGROUND" value="地图.九宫八卦" />
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="DIALOG" value="竹剑#离剑道：“离剑道”则为火象，霸气十足，无所遮拦，可一旦使出，便似野火燎原，势不可当。" />
+    <action type="DIALOG" value="竹剑#今天就教到这里了，明天再教" />
+    <action type="UPGRADE.SKILL" value="主角#归藏剑#1" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="map" value="灵鹫宫"/>
+  </story>
+  <story name="灵鹫宫_修炼归藏剑8">
+    <action type="BACKGROUND" value="地图.九宫八卦" />
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="DIALOG" value="竹剑#兑剑道：兑为沼泽，山泽合用，一正一奇，往往陷敌于无形。" />
+    <action type="DIALOG" value="竹剑#今天就教到这里了，明天再教" />
+    <action type="UPGRADE.SKILL" value="主角#归藏剑#1" />
+    <action type="UPGRADE.剑法" value="主角#1" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="map" value="灵鹫宫"/>
+  </story>
+  <story name="灵鹫宫_修炼归藏剑9">
+    <action type="BACKGROUND" value="地图.九宫八卦" />
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="DIALOG" value="竹剑#这就是归藏剑的全部了，姐姐没什么教的了，自己体悟吧" />
+    <action type="DIALOG" value="主角#慢慢想啊，慢慢想，要不回家先吃个饭吧。。。" />
+    <action type="UPGRADE.剑法" value="主角#1" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="map" value="灵鹫宫"/>
+  </story>
+  <story name="灵鹫宫_读书识字">
+    <action type="BACKGROUND" value="地图.琴舍" />
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="DIALOG" value="兰剑#“小弟弟，不读书可是不行的哟。。。。”" />
+    <action type="DIALOG" value="主角#（郁闷，我不小。。。。）子曰：“学而时习之，不亦悦乎？有朋自远方来，不亦乐乎？。。。。。。”" />
+    <action type="UPGRADE.悟性" value="主角#2" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="map" value="灵鹫宫"/>
+  </story>
+  <story name="灵鹫宫_踢毽子">
+    <action type="BACKGROUND" value="地图.树林" />
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="DIALOG" value="菊剑#反正也没事儿做，和姐姐踢毽子吧。" />
+    <action type="DIALOG" value="主角#好啊，好啊（咦？这踢毽子的时候怎么觉得像我派信天游轻功啊）" />
+    <action type="UPGRADE.身法" value="主角#1" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="map" value="灵鹫宫"/>
+  </story>
+  <story name="灵鹫宫_好好练功">
+    <action type="BACKGROUND" value="地图.树林" />
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="DIALOG" value="菊剑#婆婆说了，平日里让你好好练功，你怎么又跑到这里玩耍？" />
+    <action type="DIALOG" value="主角#。。。。姐姐教训的是（你还不是天天在这里玩）" />
+    <action type="DIALOG" value="菊剑#O(∩_∩)O~，以为这样就能溜了，今天要考教你的武功" />
+    <action type="DIALOG" value="主角#啊！菊剑姐姐和我打不明摆着欺负我么？" />
+    <action type="DIALOG" value="菊剑#放心说了是考教你的武功，派些阿猫阿狗上就可以了。" />
+    <action type="DIALOG" value="主角#阿猫阿狗。。。。" />
+    <action type="BATTLE" value="灵鹫宫_阿猫阿狗之战" />
+    <result ret="win" type="story" value="灵鹫宫_好好练功_胜利" />
+    <result ret="lose" type="story" value="灵鹫宫_好好练功_失败" />
+  </story>
+  <story name="灵鹫宫_好好练功_胜利">
+    <action type="DIALOG" value="菊剑#不错不错，没想到天天看你玩也有这么多收获" />
+    <action type="DIALOG" value="主角#呵呵，都是菊剑姐姐教导有方" />
+    <action type="DIALOG" value="菊剑#送给师弟一个礼物吧。" />
+    <action type="DIALOG" value="主角#菊剑姐姐真好！" />
+    <action type="ITEM" value="九花玉露丸#1" />
+    <result ret="0" type="map" value="灵鹫宫"/>
+  </story>
+  <story name="灵鹫宫_好好练功_失败">
+    <action type="DIALOG" value="菊剑#这也太差了，连些阿猫阿狗都打不过。别连累我挨婆婆骂啊" />
+    <action type="DIALOG" value="主角#……" />
+    <result ret="0" type="map" value="灵鹫宫"/>
+  </story>
+  <story name="灵鹫宫_间谍">
+    <action type="BACKGROUND" value="地图.树林" />
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="DIALOG" value="主角#今天天气真好啊，咦？菊剑姐姐去哪里了？什么！！！菊剑姐姐被打晕了。" />
+    <result ret="0" type="story" value="灵鹫宫_间谍2"/>
+  </story>
+  <story name="灵鹫宫_间谍2">
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="李秋水#好小子！让你撞见了我的秘密！" />
+    <action type="DIALOG" value="李秋水#今天我心情好，要是肯给我当间谍就饶你一条狗命！" />
+    <action type="SELECT" value="主角#怎么办么？（菊剑姐姐都打不过这个老太婆）#委屈求全#宁死不屈" />
+    <result ret="0" type="story" value="灵鹫宫_委屈求全" />
+    <result ret="1" type="story" value="灵鹫宫_宁死不屈" />
+    <result ret="0" type="map" value="灵鹫宫"/>
+  </story>
+  <story name="灵鹫宫_委屈求全">
+    <action type="BACKGROUND" value="地图.树林" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="李秋水#好小子，果然识时务，吃了这逍遥极乐丹。千秋万代，供我驱策吧" />
+    <action type="DIALOG" value="主角#鸣鸣。。。（吞下丹药）" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="map" value="灵鹫宫"/>
+  </story>
+  <story name="灵鹫宫_宁死不屈">
+    <action type="BACKGROUND" value="地图.树林" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="李秋水#有骨气，这是阎王要你三更死，谁敢留人到五更啊" />
+    <action type="BATTLE" value="灵鹫宫_李秋水之战" />
+    <result ret="win" type="story" value="灵鹫宫_作弊佬" />
+    <result ret="lose" type="story" value="灵鹫宫_不加入李秋水"/>
+  </story>
+  <story name="灵鹫宫_作弊佬">
+    <action type="BACKGROUND" value="地图.树林" />
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="DIALOG" value="李秋水#你个作弊佬，能赢就鬼了，受死吧。" />
+    <action type="BATTLE" value="灵鹫宫_李秋水之战" />
+    <result ret="win" type="story" value="灵鹫宫_作弊佬" />
+  </story>
+  <story name="灵鹫宫_不加入李秋水">
+    <action type="BACKGROUND" value="地图.树林"/>
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="DIALOG" value="李秋水#哼，小子有点骨气，就留你一条命！" />
+    <action type="DIALOG" value="主角#……" />
+  </story>
+  <story name="灵鹫宫_委屈求全1">
+    <action type="BACKGROUND" value="地图.树林" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="李秋水#最近灵鹫宫是个怎么情况" />
+    <action type="DIALOG" value="主角#是这样的。。。。。。。" />
+    <action type="DIALOG" value="李秋水#看你这么苦，教你两手好好替我办事" />
+    <action type="DIALOG" value="主角#谢王妃（可不是我愿意当二五仔，实在是没有办法）" />
+    <action type="UPGRADE.SKILL" value="主角#天山六阳掌#4" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="map" value="灵鹫宫"/>
+  </story>
+  <story name="门派灵鹫宫_出师">
+    <action type="BACKGROUND" value="地图.树林" />
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="DIALOG" value="秦婆婆#好了，你在灵鹫宫内的短暂修行就告一段落了。从今天起，你可以以灵鹫宫弟子的身份闯荡江湖了！" />
+    <action type="DIALOG" value="主角#婆婆啊，我舍不得你和诸位姐姐啊。" />
+    <action type="DIALOG" value="秦婆婆#婆婆一直在寻找无崖子和尊主的消息，你到了江湖上也一定要多方打探" />
+    <action type="DIALOG" value="主角#是婆婆，我一定尽力找到前辈和尊主" />
+    <action type="LOG" value="出师灵鹫宫" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="灵鹫宫_攻打">
+    <action type="BACKGROUND" value="地图.树林" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="菊剑#糟了，三十六岛，七十二洞马上要来攻打灵鹫宫了，秦婆婆让你从后山进入前去九宫支援。" />
+    <action type="DIALOG" value="主角#好好，我马山就到！" />
+    <action type="DIALOG" value="主角#前面怎么会有个小和尚和个小萝莉……" />
+    <action type="DIALOG" value="主角#不对！这不是萝莉是九尊殿上的童姥！" />
+    <result ret="0" type="story" value="灵鹫宫_攻打1"/>
+  </story>
+  <story name="灵鹫宫_攻打1">
+    <action type="DIALOG" value="虚竹#阿弥陀佛，师傅说过酒肉穿肠过，佛祖心中留。师傅说过酒肉穿肠过，佛祖心中留。" />
+    <action type="DIALOG" value="天山童姥#小和尚，还好意思说什么酒肉穿肠过，佛祖心中留，如今你是酒戒也破了肉戒也破了，连色戒也。。。哈哈！" />
+    <action type="DIALOG" value="虚竹#那。。那都是你逼的。" />
+    <action type="DIALOG" value="天山童姥#是么？你不想知道梦姑是谁？" />
+    <action type="DIALOG" value="虚竹#小僧。。。小僧" />
+    <result ret="0" type="story" value="灵鹫宫_攻打2"/>
+  </story>
+  <story name="灵鹫宫_攻打2">
+    <action type="DIALOG" value="李秋水#大师姐，没想到啊，你这个老不死的居然还活着！" />
+    <action type="DIALOG" value="天山童姥#你这个老不死的都没有死，我当然活的好好的。" />
+    <action type="DIALOG" value="李秋水#可惜，可惜这八荒六合唯我独尊的武功你看来没有练好啊，身子回的来，容貌回不来了，师兄是不会喜欢你的。更何况师兄是不会喜欢你的。你看看这幅画，哈哈。" />
+    <action type="DIALOG" value="天山童姥#虚竹！要想见你的梦姑，替我杀了这个贱人！" />
+    <action type="DIALOG" value="主角#姥姥，我来帮你们！" />
+    <action type="BATTLE" value="灵鹫宫_童姥之死" />
+    <result ret="win" type="story" value="灵鹫宫_一世情殇" />
+  </story>
+  <story name="灵鹫宫_一世情殇">
+    <action type="MUSIC" value="音乐.天外村" />
+    <action type="DIALOG" value="李秋水#（垂死）就算我死了。。。。师。。师兄喜欢的也是我" />
+    <action type="DIALOG" value="天山童姥#（气喘吁吁）小和尚，你去把那幅画。。。。拿过来。" />
+    <action type="DIALOG" value="虚竹#姥姥，你的伤。。。" />
+    <action type="DIALOG" value="天山童姥#快照我说的做，否则你一辈子也别想见到梦姑了" />
+    <action type="DIALOG" value="天山童姥#（半晌）哈哈，不是她，不是她，我就知道，师兄怎么会喜欢那个贱人。（噗！一口鲜血咽气）" />
+    <action type="DIALOG" value="虚竹#姥姥。。。。" />
+    <action type="DIALOG" value="主角#姥姥。。。。" />
+    <action type="DIALOG" value="主角#小和尚，你这可是我逍遥派的掌门扳指么？" />
+    <action type="DIALOG" value="虚竹#本来我不要的，但姥姥非要我当，我看你也是灵鹫宫弟子，要不就给了你吧？" />
+    <action type="SELECT" value="主角#怎么办？#开玩笑这个是掌门扳指我怎么能要#好，君子能成人之美，我就不客气了" />
+    <result ret="0" type="story" value="灵鹫宫_开玩笑这个是掌门扳指我怎么能要" />
+    <result ret="1" type="story" value="灵鹫宫_君子能成人之美" />
+  </story>
+  <story name="灵鹫宫_开玩笑这个是掌门扳指我怎么能要">
+    <action type="BACKGROUND" value="地图.树林" />
+    <action type="MUSIC" value="音乐.神秘山洞" />
+    <action type="DIALOG" value="虚竹#唉，这掌门扳指……" />
+    <action type="DIALOG" value="主角#灵鹫宫顶上还在传来厮杀的声音，我们赶紧回去救灵鹫宫的周围姐姐们吧！" />
+    <action type="DIALOG" value="虚竹#好！" />
+    <result ret="0" type="story" value="灵鹫宫_山顶大战1" />
+  </story>
+  <story name="灵鹫宫_山顶大战1">
+    <action type="BACKGROUND" value="地图.灵鹫宫" />
+    <action type="MUSIC" value="音乐.神秘山洞" />
+    <action type="DIALOG" value="虚竹#各位各位，别打了都，姥姥已经仙去了。" />
+    <action type="DIALOG" value="慕容复#（只差一点就攻陷灵鹫宫了！臭小子想坏我好事，绝对不能让他说话）接招" />
+    <action type="BATTLE" value="灵鹫宫_慕容复" />
+    <result ret="win" type="story" value="灵鹫宫_胜慕容复" />
+  </story>
+  <story name="灵鹫宫_胜慕容复">
+    <action type="DIALOG" value="慕容复#哼，在这里也没什么好呆的了，走吧！" />
+    <action type="DIALOG" value="包不同#是，公子。" />
+    <action type="DIALOG" value="风波恶#哎，技不如人。" />
+    <result ret="0" type="story" value="灵鹫宫_山顶大战2"/>
+  </story>
+  <story name="灵鹫宫_山顶大战2">
+    <action type="DIALOG" value="福岛主#大家都住手！这姥姥死了，谁来解我我们的生死符！" />
+    <action type="DIALOG" value="主角#大家住手！灵鹫宫新任尊主在此！（拉过虚竹）" />
+    <action type="DIALOG" value="虚竹#啊，这……" />
+    <action type="DIALOG" value="秦婆婆#（看到虚竹手上的掌门扳指）这是尊主的扳指，奴婢叩见尊主。" />
+    <action type="DIALOG" value="虚竹#这个……童姥曾经教过我生死符的破解之法，我便来给大家拔除这生死符。" />
+    <action type="DIALOG" value="主角#虚竹花了三天三夜治好了众人" />
+    <action type="COST_DAY" value="3"/>
+    <result ret="0" type="story" value="灵鹫宫_山顶大战3"/>
+  </story>
+  <story name="灵鹫宫_山顶大战3">
+    <action type="DIALOG" value="福岛主#（带众人）终于解除这困扰了我们几十年的生死符了！多谢尊主！您真是我们的再生父母啊！" />
+    <action type="DIALOG" value="秦婆婆#尊主，接下来怎么办？（他们杀了我们这么多姐妹，难道就这么算了？）" />
+    <action type="DIALOG" value="虚竹#这……冤家宜解不宜结，冤冤相报何时了，婆婆，我看就这么算了吧，让他们走吧。" />
+    <action type="DIALOG" value="秦婆婆#是，听见没有，还不谢谢尊主？！" />
+    <action type="DIALOG" value="福岛主#谢尊主，谢尊主！" />
+    <result ret="0" type="story" value="灵鹫宫_山顶大战4"/>
+  </story>
+  <story name="灵鹫宫_山顶大战4">
+    <action type="DIALOG" value="虚竹#这……多亏你及时带我来，我们才救了这么多人。" />
+    <action type="DIALOG" value="主角#尊主，这是我灵鹫宫弟子应该的。" />
+    <action type="DIALOG" value="虚竹#我这有几手童姥教给我的武功，我便都传与了你把！" />
+    <action type="DIALOG" value="主角#谢尊主！谢尊主！" />
+    <action type="UPGRADE.SKILL" value="主角#天山折梅手#10" />
+    <action type="ITEM" value="真北冥气穴图#1" />
+    <action type="LOG" value="与虚竹一起平息了灵鹫宫风波。虚竹当上了灵鹫宫尊主。"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="灵鹫宫_君子能成人之美">
+    <action type="BACKGROUND" value="地图.树林" />
+    <action type="MUSIC" value="音乐.神秘山洞" />
+    <action type="DIALOG" value="主角#好，我就带为收下了！" />
+    <action type="NICK" value="灵鹫尊主"/>
+    <action type="DIALOG" value="主角#灵鹫宫顶还在大战呢，走，和我一起救灵鹫宫的姐姐们！" />
+    <result ret="0" type="story" value="灵鹫宫_山顶大战_宗主" />
+  </story>
+  <story name="灵鹫宫_山顶大战_宗主">
+    <action type="BACKGROUND" value="地图.灵鹫宫" />
+    <action type="MUSIC" value="音乐.神秘山洞" />
+    <action type="DIALOG" value="主角#（出示灵鹫宫掌门扳指）别打了都，姥姥已经死了。如今我是灵鹫宫掌门！" />
+    <action type="DIALOG" value="慕容复#（只差一点就攻陷灵鹫宫了！臭小子想坏我好事，绝对不能让他说话）接招！" />
+    <action type="BATTLE" value="灵鹫宫_慕容复" />
+    <result ret="win" type="story" value="灵鹫宫_胜慕容复2" />
+  </story>
+  <story name="灵鹫宫_胜慕容复2">
+    <action type="DIALOG" value="慕容复#哼，在这里也没什么好呆的了，走吧！" />
+    <action type="DIALOG" value="包不同#是，公子。" />
+    <action type="DIALOG" value="风波恶#哎，技不如人。" />
+    <result ret="0" type="story" value="灵鹫宫_山顶大战_宗主1"/>
+  </story>
+  <story name="灵鹫宫_山顶大战_宗主1">
+    <action type="BACKGROUND" value="地图.灵鹫宫" />
+    <action type="MUSIC" value="音乐.神秘山洞" />
+    <action type="DIALOG" value="福岛主#停手！我们这些人攻打灵鹫宫无非是求生死符解药。谁解生死符的话我们就尊谁尊主！" />
+    <action type="DIALOG" value="主角#（糟了！我可没和姥姥学过解生死符的方法。）"/>
+    <action type="DIALOG" value="主角#（对了，我不会，可小和尚会啊）嘿嘿……" />
+    <action type="DIALOG" value="主角#虚竹，我已将生死符的解法教会了你，你就给大家解除生死符吧。" />
+    <action type="DIALOG" value="虚竹#好啊（傻乎乎的点头）" />
+    <action type="DIALOG" value="主角#（虚竹花了三天三夜治好了众人）" />
+    <action type="COST_DAY" value="3"/>
+    <result ret="0" type="story" value="灵鹫宫_山顶大战_宗主2"/>
+  </story>
+  <story name="灵鹫宫_山顶大战_宗主2">
+    <action type="BACKGROUND" value="地图.灵鹫宫" />
+    <action type="MUSIC" value="音乐.神秘山洞" />
+    <action type="DIALOG" value="福岛主#（带众人）终于解除这困扰了我们几十年的生死符了！多谢尊主！您真是我们的再生父母啊！" />
+    <action type="DIALOG" value="秦婆婆#尊主，接下来怎么办？（他们杀了我们这么多姐妹，难道就这么算了？）" />
+    <action type="DIALOG" value="主角#小和尚，你说怎么办？" />
+    <action type="DIALOG" value="虚竹#这……冤家宜解不宜结，冤冤相报何时了，尊主，我看就这么算了吧，让他们走吧。" />
+    <action type="DIALOG" value="主角#嗯，就这么办吧。" />
+    <action type="DIALOG" value="秦婆婆#是，听见没有，还不谢谢尊主？！" />
+    <action type="DIALOG" value="福岛主#谢尊主，谢尊主！" />
+    <action type="DIALOG" value="主角#这是本尊主应该做的！（小和尚栽树，我乘凉，实在是太好了呵呵）" />
+    <result ret="0" type="story" value="灵鹫宫_山顶大战_宗主3"/>
+  </story>
+  <story name="灵鹫宫_山顶大战_宗主3">
+    <action type="DIALOG" value="主角#嘿嘿，这边事也差不多了，不知当上尊主有啥好处啊？" />
+    <action type="DIALOG" value="秦婆婆#尊主，我逍遥灵鹫宫的历代新尊主都有资格入武学密地，一窥典籍十天。" />
+    <action type="DIALOG" value="主角#（我就知道这个宗主不会白当）谢谢！" />
+    <result ret="0" type="story" value="灵鹫宫_密室武学" />
+  </story>
+  <story name="灵鹫宫_密室武学">
+    <action type="BACKGROUND" value="地图.藏书" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="主角#这这。。只有几幅画，这是什么意思啊。我又不是虚竹肯定是悟不出天山折梅手了。" />
+    <action type="DIALOG" value="主角#这不是归藏易理么？莫非。。。。" />
+    <action type="DIALOG" value="主角#易理有云：“天与火，同人，君子以类族辨物。”天、火本为同气，合流较易，是以这路招式三分狂烈，七分飘忽，乾上而离下，如火从天降。-“同人”" />
+    <action type="DIALOG" value="主角#离下乾上，变成火在天上的“大有”。易象曰：“火在天上，大有，君子以惩恶扬善，顺天休命”，这一招惩恶扬善，自是霹雳手段，与儒生以攻对攻，不落下风。-“大有”" />
+    <action type="DIALOG" value="主角#变“乾”为“坤”，“坤剑道”法后土之象，乃是天下少有的防守剑术，但“离剑道”的剑意却未收敛，如此一来，就变成了“坤上离下”的“明夷”。明夷之意，即是火在地下，如岩浆藏于地底，勃勃欲发。”-“明夷”" />
+    <action type="DIALOG" value="主角#坤离易位，火上土下，野火燎原，便无法收拾。-“晋道”" />
+    <action type="DIALOG" value="主角#坤上而震下，易理中称复卦曰：“反复其道，七日来复。”复道攻守反复，共有七变。”-“复道”" />
+    <action type="DIALOG" value="主角#‘乾’卦与‘坤’卦相合，乾上坤下便成天地‘泰’卦，坤上乾下则成了天地‘否’卦，如此一来，无异变出‘泰道’与‘否道’，若泰否两卦相交，又成新卦，如此循环演化，当可无穷无尽了。-‘泰道’‘否道’" />
+    <action type="DIALOG" value="主角#天下武学也不过是那易经卦理，降龙十八掌见龙在田，或跃在渊，哪个不是出自易经。纵观八荒，宇宙六合。唯我独尊。”" />
+    <action type="COST_DAY" value="10" />
+    <action type="LEARN.INTERNALSKILL" value="主角#八荒六合唯我独尊功#12" />
+    
+    <result ret="0" type="story" value="灵鹫宫_密室武学1" />
+  </story>
+  <story name="灵鹫宫_密室武学1">
+    <action type="DIALOG" value="秦婆婆#宗主，时间到了要出来了" />
+    <action type="DIALOG" value="主角#好好，就来！" />
+    <result ret="0" type="map" value="灵鹫宫" />
+  </story>
+  <story name="灵鹫宫_攻打_完成珍珑棋局">
+    <action type="BACKGROUND" value="地图.树林" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="李秋水#$MALE$，现在童姥那个老太婆现在恰逢三十年一遇的返老还童。我煽动了她的下属反叛。" />
+    <action type="DIALOG" value="李秋水#你来和我一起把她一锅端了。唉，师兄都时隔四十年了，你以为我真的没有找到你么。如若那不是我妹妹，你以为自己可以在这里颐养天年。" />
+    <action type="DIALOG" value="主角#（女人心，果然海底针）" />
+    <action type="DIALOG" value="李秋水#不过童姥这个贱女人，毁我容貌，我也要让她生不如死！！" />
+    <action type="SELECT" value="主角#怎么办#属下，誓死跟随王妃#王妃今天我肚子疼。。。。" />
+    <result ret="0" type="story" value="灵鹫宫_攻打完成珍珑棋局大战" />
+    <result ret="1" type="story" value="灵鹫宫_肚子疼" />
+  </story>
+  <story name="灵鹫宫_攻打完成珍珑棋局大战">
+    <action type="BACKGROUND" value="地图.树林" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="李秋水#大师姐，你跑的了么，真是灯下黑，没想到堂堂灵鹫宫尊主居然躲在西夏王宫之中。" />
+    <action type="DIALOG" value="天山童姥#小和尚替我杀了这个贱人" />
+    <action type="DIALOG" value="虚竹#这这，姥姥依小僧看您还是和这位李施主和解吧" />
+    <action type="DIALOG" value="天山童姥#你还想见梦姑么？" />
+    <action type="DIALOG" value="虚竹#想。。。。" />
+    <action type="DIALOG" value="主角#（真没出息）" />
+    <action type="DIALOG" value="天山童姥#那还不快动手！" />
+    <action type="BATTLE" value="天山_对战虚竹天山童姥" />
+    <result ret="win" type="story" value="灵鹫宫_攻打完成珍珑棋局大战胜利" />
+  </story>
+  <story name="灵鹫宫_攻打完成珍珑棋局大战胜利">
+    <action type="DIALOG" value="天山童姥#小贱人，小。。。。贱人" />
+    <action type="DIALOG" value="李秋水#让你死的瞑目些，你看看这幅无崖子的画像" />
+    <action type="DIALOG" value="天山童姥#不可能的。。。不可能的师兄怎么会喜欢你我不甘心！我不甘心！（噗！一口鲜血咽气）" />
+    <action type="DIALOG" value="虚竹#姥姥。。。。" />
+    <action type="DIALOG" value="主角#小和尚莫悲伤，其实梦姑是西夏公主！(唉，已经改写了希望虚竹的命运不会太糟糕）" />
+    <action type="DIALOG" value="虚竹#谢谢小兄弟（擦干眼泪离去）" />
+    <action type="DIALOG" value="主角#王妃，我们要不要放过灵鹫宫的人" />
+    <action type="DIALOG" value="李秋水#不行，这些丫鬟婆婆和我师姐沆瀣一气。就让她们为她陪葬吧。" />
+    <action type="DIALOG" value="主角#（爱莫能助了）" />
+    <action type="DIALOG" value="李秋水#你做的很好，这是逍遥极乐丹的解药。看你资质不错我逍遥派的百年根基也不能毁在我的手上。否则对不起列祖列宗。其中天山六阳掌博大精深，有手三阳，头三阳之称。这些秘籍你拿去吧。让我一个人静一静。" />
+    <action type="ITEM" value="真北冥气穴图#1" />
+    <action type="ITEM" value="北冥神功精义#1" />
+    <action type="ITEM" value="天山六阳掌真解#1" />
+    <action type="DIALOG" value="李秋水#琅琊福地，神仙洞侣。。。师兄我以为是写给我的。。" />
+    <action type="DIALOG" value="主角#问世间情为何物，直教人生死相许（她也是个可怜人）。" />
+    <action type="NICK" value="诸天生死"/>
+    <action type="LOG" value="帮助李秋水打败天山童姥。"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="灵鹫宫_贡品">
+    <action type="BACKGROUND" value="地图.酒楼" />
+    <action type="MUSIC" value="音乐.天龙八部2" />
+    <action type="DIALOG" value="主角#见了上使还不知道参见!" />
+    <action type="DIALOG" value="童姥使者#参见上使。" />
+    <action type="DIALOG" value="主角#嗯，可有什么新的贡品" />
+    <action type="DIALOG" value="童姥使者#回上使，虽然今年收成不好，但是鹌鹑嘴里抢泥，蚊子肚里揩油。" />
+    <action type="DIALOG" value="童姥使者#向来是我们灵鹫宫的特色" />
+    <action type="DIALOG" value="主角#说的好。。" />
+    <action type="DIALOG" value="童姥使者#还请上使代为转交姥姥" />
+    <action type="DIALOG" value="主角#好（我会转交才怪）" />
+    <action type="ITEM" value="王母蟠桃#1" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="灵鹫宫_肚子疼">
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="李秋水#嘿嘿，你肚子疼是吧。看看到底是逍遥极乐丹疼还是你肚子疼（飘然而去）" />
+    <action type="DIALOG" value="李秋水#我倒是看看你能不能把这颗丹药给拉出来（渐渐消失的声音）" />
+    <action type="DIALOG" value="主角#王妃？！" />
+    <action type="DIALOG" value="主角#哎呦怎么肚子突然疼成这个样子！" />
+    <action type="DIALOG" value="主角#比我小时候喝了生豆浆还疼。。。。。" />
+    <action type="DIALOG" value="主角#比去年得了肾结石还疼。。。。。" />
+    <action type="UPGRADE.MAXHP" value="主角#-500" />
+    <action type="UPGRADE.MAXMP" value="主角#-500" />
+    <action type="DIALOG" value="主角#坑爹啊。。。" />
+    <action type="DIALOG" value="主角#多做运动，争取拉出来。。。。" />
+    <action type="DIALOG" value="主角#。。。。。。。" />
+    <action type="DIALOG" value="主角#动无常则，若危若安。进止难期，若往若还" />
+    <action type="DIALOG" value="主角#唉，舒服点了。" />
+    <action type="DIALOG" value="主角#摁。。。。。怎么突然更痛了。。。" />
+    <action type="UPGRADE.定力" value="主角#-10" />
+    <action type="DIALOG" value="主角#我要忍不住了。。。。（主角意识渐渐模糊）" />
+    <result ret="0" type="story" value="灵鹫宫_偶遇逍遥子" />
+  </story>
+
+  <story name="灵鹫宫_偶遇逍遥子">
+    <action type="BACKGROUND" value="地图.树林" />
+    <action type="MUSIC" value="音乐.中原树林" />
+    <action type="DIALOG" value="逍遥子#呵呵，这小子有意思，都这样了，还在这里上蹦下跳的。" />
+    <action type="DIALOG" value="逍遥子#倒是悟性不错，意识迷糊了还在用我那天上茅厕编出来的掌法" />
+    <action type="DIALOG" value="逍遥子#也算和我有缘，我就帮帮他吧" />
+    <action type="DIALOG" value="主角#（我命休矣）" />
+    <action type="DIALOG" value="逍遥子#听好了" />
+    <action type="DIALOG" value="逍遥子#锦瑟无端五十弦，一弦一柱思华年。" />
+    <action type="DIALOG" value="逍遥子#庄生晓梦迷蝴蝶，望帝春心托杜鹃。" />
+    <action type="DIALOG" value="逍遥子#此情可待成追忆，只是当时已惘然" />
+    <action type="DIALOG" value="主角#（这不就是小李杜的诗，我都快死了听这有什么用）" />
+    <action type="DIALOG" value="逍遥子#。。。。。。。。" />
+    <action type="DIALOG" value="逍遥子#身似大鲲游百里，心若大鹏可登天。" />
+    <action type="DIALOG" value="逍遥子#逍遥好似追风翼，不达北冥终不还" />
+    <action type="DIALOG" value="主角#（难不成这是北冥神功的心法？和庄子有关？）" />
+    <action type="DIALOG" value="主角#（真气游走，渐渐化解了体内的疼痛）" />
+    <action type="UPGRADE.悟性" value="主角#20" />
+    <action type="LEARN.TALENT" value="主角#北冥真气" />
+    <action type="DIALOG" value="逍遥子#（小子还算有点悟性）道可道，非常道。名可名，非常名。" />
+    <action type="DIALOG" value="逍遥子#（嗯，已经稳定下来了，可以走了)" />
+    <action type="COST_DAY" value="5" />
+    <result ret="0" type="story" value="灵鹫宫_偶遇逍遥子1" />
+  </story>
+  <story name="灵鹫宫_偶遇逍遥子1">
+    <action type="DIALOG" value="主角#前辈，前辈" />
+    <action type="DIALOG" value="主角#看来前辈已经走远了。。。" />
+    <action type="DIALOG" value="主角#若夫乘天地之正，而御六气之辩，以游无穷者，彼且恶乎待哉！故曰：至人无己，神人无功，圣人无名。" />
+    <action type="DIALOG" value="主角#多谢前辈救命之恩。" />
+    <action type="NICK" value="鲲鹏展翅"/>
+  </story>
+  <!--需要门派的奥义，初级的和顶级的-->
+  <!--门派分支剧情还 不够丰富，需要补充-->
+  <story name="灵鹫宫_秦婆婆1">
+    <action type="DIALOG" value="秦婆婆#人生有限，宇宙无穷，作为灵鹫宫弟子需抛弃小我，追求大道。" />
+  </story>
+  <story name="灵鹫宫_秦婆婆2">
+    <action type="DIALOG" value="秦婆婆#属下叩见尊主！" />
+    <action type="DIALOG" value="主角#免礼。" />
+  </story>
+
+</root>

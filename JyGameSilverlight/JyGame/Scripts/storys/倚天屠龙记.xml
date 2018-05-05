@@ -1,0 +1,724 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <!--倚天屠龙记正线剧情-->
+  <story name="倚天屠龙_张无忌">
+    <action type="BACKGROUND" value="地图.山洞1" />
+    <action type="MUSIC" value="音乐.神秘山洞" />
+    <action type="DIALOG" value="主角#张无忌，张教主？怎么藏在这种地方？" />
+    <action type="DIALOG" value="张无忌#唉，我已将教主之位传于杨逍，兄台以后不要叫我张教主了，我已经不是什么教主了。" />
+    <action type="DIALOG" value="主角#啊？不是教主了，这是怎么回事？？" />
+    <action type="DIALOG" value="张无忌#张某对于权利本无追求，这明教教主之位张某原本就是代理，如今明教大势已成，张某合该辞去那教主之位，退位让贤了" />
+    <action type="DIALOG" value="主角#大势已成？天下动荡不安，几队人马争来争去，你管这个叫大势已成？" />
+    <action type="DIALOG" value="张无忌#我明教生死存亡的大关已经过去了，这争夺天下，领兵打仗的事情，张某没那个能力，也没那个兴趣" />
+    <action type="DIALOG" value="主角#你武功盖世，宽厚待人，正是一教之主应该有的样子。那领兵打仗，自然有懂得领兵打仗的人去做，你怎能因为这个就放弃教主之位？" />
+    <action type="DIALOG" value="张无忌#你为何一再撺掇我重回教主之位？你到底有何图谋？你到底是谁？" />
+    <action type="DIALOG" value="主角#是我啊，$MALE$，你不记得我了吗？" />
+    <action type="DIALOG" value="张无忌#张某的记忆里从来没有你这一号人物。你是我那什么兄弟派来的人么？兄弟，哼哼，兄弟，这个年头兄弟这个词还可信么？" />
+    <action type="DIALOG" value="主角#（不好，他好像受到很大刺激）" />
+    <action type="BATTLE" value="张无忌_战斗" />
+    <result ret="win" type="story" value="倚天屠龙_张无忌2" />
+  </story>
+  <story name="倚天屠龙_张无忌2">
+    <action type="BACKGROUND" value="地图.山洞1" />
+    <action type="MUSIC" value="音乐.神秘山洞" />
+    <action type="DIALOG" value="主角#无忌兄弟，你到底怎么了？" />
+    <action type="DIALOG" value="张无忌#无忌兄弟？嘿，现在还有哪一个肯称我一声无忌兄弟！" />
+    <action type="DIALOG" value="主角#到底是怎么一回事啊？你怎么好像受到了很大打击的样子！" />
+    <action type="DIALOG" value="张无忌#唉……罢了，反正也不是什么要紧事，难得现在还有人肯叫我一声兄弟，就告诉你好了。" />
+    <action type="DIALOG" value="张无忌#前些日子我明教兄弟们指挥的抗元军屡战屡胜，我就去军中跟兄弟们喝酒。哪想他们竟然给我和敏敏下了迷药，将我们两个关了起来！" />
+    <action type="DIALOG" value="主角#啊？竟然给你下了迷药？这是大逆不道的事情啊！那后来呢？" />
+    <action type="DIALOG" value="张无忌#哈，那区区迷药怎么可能迷得住我！小小牢房怎么可能困得住我呢！" />
+    <action type="DIALOG" value="张无忌#不过就在我打算出去质问兄弟们为何如此的时候，却听到我最信任的手下朱重八和我在明教最信任的两个兄弟徐达常遇春的秘密谈话。" />
+    <action type="DIALOG" value="张无忌#他们……他们竟然怀疑我与蒙古有染，想要连同这教主之位一同奉送给那狗皇帝。" />
+    <action type="DIALOG" value="张无忌#想我张无忌怎么可能是贪图富贵之人，可笑我那几个兄弟竟然如此的怀疑我。" />
+    <action type="DIALOG" value="张无忌#罢了，我本就不是正规接任教主的，以前也不是明教中人，所以这教主之位，就还给他们明教吧！于是我就将教主之位传于杨逍，带着敏敏到此隐居来了。" />
+    <action type="DIALOG" value="主角#哦，那赵敏郡主呢？" />
+    <action type="DIALOG" value="张无忌#哦，她……遭了！她说回家跟爹爹道个别就跟我私奔，现在还没回来，一定出事情了！我要去救人！" />
+    <result ret="0" type="story" value="倚天屠龙_张无忌3"/>
+  </story>
+  <story name="倚天屠龙_张无忌3">
+    <action type="DIALOG" value="主角#无忌兄弟？哎？好快的身法，去哪里了？" />
+    <action type="DIALOG" value="主角#哎，赶紧去找无忌兄弟吧！" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="倚天屠龙_北京救赵敏">
+    <action type="BACKGROUND" value="地图.御书房" />
+    <action type="MUSIC" value="音乐.天龙八部1" />
+    <action type="DIALOG" value="张无忌#敏敏！你还好吧？" />
+    <action type="DIALOG" value="赵敏#我就知道无忌哥哥你会来救我的。" />
+    <result ret="0" type="story" value="倚天屠龙_北京救赵敏2"/>
+  </story>
+  <story name="倚天屠龙_北京救赵敏2">
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="鹤笔翁#放肆！汝阳王府岂容你大喊大叫！还敢直呼郡主闺名，我看你是不想活了！" />
+    <action type="DIALOG" value="鹿杖客#张无忌！天堂有路你不走，地狱无门你闯进来！昔日武当山上有张三丰护着你，这回我看谁能护着你！领死吧！！" />
+    <action type="DIALOG" value="主角#无忌兄弟莫慌，我来助你！" />
+    <action type="BATTLE" value="汝阳王府_战斗" />
+    <result ret="win" type="story" value="倚天屠龙_张无忌入队" />
+  </story>
+  <story name="倚天屠龙_张无忌入队">
+    <action type="BACKGROUND" value="地图.御书房" />
+    <action type="MUSIC" value="音乐.天龙八部1" />
+    <action type="DIALOG" value="张无忌#敏敏！你还好吧？" />
+    <action type="DIALOG" value="赵敏#我就知道无忌哥哥你会来救我的。这位是？" />
+    <action type="DIALOG" value="主角#Hi..." />
+    <action type="DIALOG" value="张无忌#对了！还没谢过兄台，若是没有兄台出手，我怕是赢不了他们的。" />
+    <action type="DIALOG" value="张无忌#也好，难得碰上一个还肯拿我当兄弟的人，出去走走也好。只是……敏敏？" />
+    <action type="DIALOG" value="赵敏#无忌哥哥，我已经跟我爹爹道过别了。况且他们，他们拿我做饵，也无情分可言，今后我便只有你一个亲人，我不跟你走还能去哪里。" />
+    <action type="JOIN" value="张无忌" />
+    <action type="DIALOG" value="张无忌#敏敏，你真好。哎，现在最放心不下的还是明教的这帮兄弟们，真好想再回光明顶看看啊！" />
+    <action type="DIALOG" value="主角#哈哈，好，皆大欢喜，那么就走吧！" />
+    <action type="NICK" value="玄冥神掌" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="倚天屠龙_光明顶胜利">
+    <action type="MUSIC" value="音乐.天龙八部.紧张感5" />
+    <action type="DIALOG" value="杨逍#属下参见教主！" />
+    <action type="DIALOG" value="张无忌#我早已将教主之位传给你啦，现在你才是教主。不过你在这里做什么？" />
+    <action type="DIALOG" value="杨逍#唉，我老啦，没什么精力去管教中事情了。连咱们的抗元大军现在也是教中几位懂行军打仗的兄弟领导着……" />
+    <action type="DIALOG" value="杨逍#我现在只是天天来这山上巡视一圈，回忆一下当年的事情罢了。这人一老啊，就都活在回忆里了。" />
+    <action type="DIALOG" value="张无忌#……咱们的抗元军现在情形如何？" />
+    <action type="DIALOG" value="杨逍#咱们的小明王韩林儿因为惧战投敌，被那个朱元璋给沉江祭了军。现在是朱元璋领军，要说这个朱元璋啊，也确是奇才，这没多长时间，元朝就已经只剩下大都一偶之地了。" />
+    <action type="DIALOG" value="张无忌#朱元璋？" />
+    <action type="DIALOG" value="杨逍#就是朱重八啦，他嫌自己的名字不好听，就改成了朱元璋，意为诛杀元朝的璋玉。" />
+    <action type="DIALOG" value="杨逍#不过他……唉，他现在被陈友谅率领的另外一只抗元大军围于鄱阳湖，形势不太妙啊。" />
+    <action type="DIALOG" value="张无忌#都是抗元的队伍，为什么要自相残杀呢？" />
+    <action type="DIALOG" value="杨逍#争夺天下啊！这蒙古人马上就要被灭了，那这天下谁来担当？难不成要划江而治么？不过陈友谅兵威虽胜……" />
+    <action type="DIALOG" value="杨逍#但我明教诸将也不是省油的灯。只是陈友谅乃是丐帮八袋长老出身，说动了不少武林门派出人相助。" />
+    <action type="DIALOG" value="杨逍#其中武当，少林，峨眉，华山，嵩山，青城这些有名有姓的大派全都打赢援助那陈友谅了！咱们形势堪忧啊！" />
+    <action type="DIALOG" value="张无忌#竟然这样？都是汉人，他们为何要参与这天下之争！只因咱们是明教，是魔教么？" />
+    <action type="DIALOG" value="张无忌#不成，起码我还从蒙古手上救过各大门派的人，我去劝说各派不要参与这场争斗吧！就当这是我为咱们明教做的最后一件事情。" />
+    <result ret="0" type="story" value="倚天屠龙_光明顶胜利2"/>
+  </story>
+  <story name="倚天屠龙_光明顶胜利2">
+    <action type="DIALOG" value="张无忌#兄弟，麻烦你跟我一起走一趟，我们把这事给办一下！我们分别去各大派，要求他们不要参与这场非正义的战争。" />
+    <action type="DIALOG" value="主角#好的！我们赶紧赶往【武当】，【少林】，【峨眉】，【华山】，【嵩山】，【青城】各派。" />
+    <action type="LOG" value="前往【武当】，【少林】，【峨眉】，【华山】，【嵩山】，【青城】各派化解陈友谅的江湖援军"/>
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  
+  <story name="倚天屠龙_劝说武当">
+    <action type="BACKGROUND" value="地图.大殿2" />
+    <action type="MUSIC" value="音乐.天龙八部4" />
+    <action type="DIALOG" value="张无忌#拜见冲虚道长！" />
+    <action type="DIALOG" value="冲虚道长#哦？无忌？你来这是为了何事啊？" />
+    <action type="DIALOG" value="张无忌#是这样的……（说明了陈友谅和朱元璋的战争始末）" />
+    <action type="DIALOG" value="冲虚道长#这件事啊，唉，说起来我们也不想去的，只是陈友谅拿正派的名头压过来，不由得我们不去啊。" />
+    <action type="DIALOG" value="冲虚道长#不过我们要派去的武当派弟子如果都受了伤，那就……嘿！" />
+    <action type="DIALOG" value="张无忌#哈哈，那就多谢冲虚道长指点了，就让各位道长来考较一下无忌的功夫吧！" />
+    <action type="BATTLE" value="武当山_战斗" />
+    <result ret="win" type="story" value="倚天屠龙_劝说武当成功" />
+  </story>
+  <story name="倚天屠龙_劝说武当成功">
+    <action type="MUSIC" value="音乐.天龙八部4" />
+    <action type="DIALOG" value="冲虚道长#不错，无忌你功夫大有长进啊。对了，太师傅要见见你，你去里屋吧。" />
+    <action type="DIALOG" value="张无忌#是！" />
+    <result ret="0" type="story" value="倚天屠龙_劝说武当成功2"/>
+  </story>
+  <story name="倚天屠龙_劝说武当成功2">
+    <action type="BACKGROUND" value="地图.室内" />
+    <action type="DIALOG" value="张无忌#太师傅！" />
+    <action type="DIALOG" value="张三丰#恩，无忌孩儿。你刚才破真武七截阵的战斗我看了，还是稍显不足。" />
+    <action type="DIALOG" value="张无忌#是！请太师傅指点！" />
+    <action type="DIALOG" value="张三丰#你那一招野马分鬃后为什么不接虚步压掌呢……" />
+    <action type="DIALOG" value="张三丰#（半个时辰过去……）" />
+    <action type="DIALOG" value="张无忌#多谢太师傅指点，无忌已经明了！" />
+    <action type="DIALOG" value="张三丰#无忌孩儿，你这次又是跟全天下正道武林为敌……"/>
+    <action type="DIALOG" value="张无忌#太师傅，这……" />
+    <action type="DIALOG" value="张三丰#什么都不用说了，太师傅理解你，人生在世，是当以追求自己所为正道。只要无愧于心，则无愧于天地！" />
+    <action type="DIALOG" value="张三丰#这是我近年来潜心钻研的太极功夫，这便传授给你！" />
+    <action type="DIALOG" value="张无忌#多谢太师傅！" />
+    <action type="GET_POINT" value="张无忌#15" />
+    <action type="LEARN.SKILL" value="张无忌#太极拳#10" />
+    <action type="LEARN.SKILL" value="张无忌#太极剑#10" />
+    <action type="DIALOG" value="张三丰#无忌，多保重！记住，只要无愧于心，则无愧于天地！" />
+    <action type="DIALOG" value="张无忌#我懂了，太师傅！告辞了！" />
+    <action type="NICK" value="乾坤挪移" />
+    <action type="LOG" value="劝说武当不加入陈友谅援军"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="倚天屠龙_劝说少林">
+    <action type="BACKGROUND" value="地图.嵩山" />
+    <action type="MUSIC" value="音乐.天龙八部5" />
+    <action type="DIALOG" value="方证大师#张无忌？你为何事而来？" />
+    <action type="DIALOG" value="张无忌#方证大师，蒙古人已经快被赶出中原了，您为何还要插手汉人之争呢？" />
+    <action type="DIALOG" value="方证大师#这不仅是汉人之争，这是正邪两道之争。张无忌，看在你以往从蒙古手上拯救过中原武林的事情，我少林寺不强留你，你走吧。" />
+    <action type="DIALOG" value="张无忌#又是所谓正派邪派，方证大师，请问，我们明教有做过多少伤天害理的邪教事情？" />
+    <action type="DIALOG" value="张无忌#这一次抗元斗争，我们是不是出了大力，这半壁江山都是我们光复的，难道这也是不对的吗！" />
+    <action type="DIALOG" value="方证大师#阿弥陀佛，张施主还是执念太深。就请再来闯闯我少林三位渡字前辈的金刚伏魔圈吧。" />
+    <action type="DIALOG" value="方证大师#施主若是胜了，我少林遵守诺言绝不参战，施主若是败了，就留在我少林寺青灯古卷，以伴佛缘吧。" />
+    <action type="DIALOG" value="张无忌#好，我便再来闯一闯三位神僧的金刚伏魔圈！" />
+    <action type="BATTLE" value="金刚伏魔圈" />
+    <result ret="win" type="story" value="倚天屠龙_劝说少林成功" />
+  </story>
+  <story name="倚天屠龙_劝说少林成功">
+    <action type="BACKGROUND" value="地图.嵩山" />
+    <action type="MUSIC" value="音乐.天龙八部5" />
+    <action type="NICK" value="金刚伏魔圈"/>
+    <action type="DIALOG" value="张无忌#承让！" />
+    <action type="DIALOG" value="方证大师#张施主既然破的了这金刚伏魔圈。" />
+    <action type="DIALOG" value="方证大师#自也是参透这若当来世，后五百岁，其有众生得闻是经，信解受持，是人即为第一希有。" />
+    <action type="DIALOG" value="方证大师#唉，天意天意，罢了，施主下山去吧，我少林绝不参战。" />
+    <action type="DIALOG" value="张无忌#多谢方证大师" />
+    <action type="LOG" value="劝说少林不加入陈友谅援军"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="倚天屠龙_劝说华山">
+    <action type="BACKGROUND" value="地图.帮派门前" />
+    <action type="MUSIC" value="音乐.武侠雄壮" />
+    <action type="DIALOG" value="张无忌#阁下就是华山派新任掌门么？" />
+    <action type="DIALOG" value="岳肃#在下岳肃，列华山派掌门之职。" />
+    <action type="DIALOG" value="张无忌#在下明教张无忌。" />
+    <action type="DIALOG" value="岳肃#竟是明教教主大驾光临！不知张教主有何见教？" />
+    <action type="DIALOG" value="张无忌#惭愧，张某早已将教主主位传于光明左使杨逍，现已不是教主了。不过我此次来确实是有事相求，能否恳请掌门不要去援助陈友谅？" />
+    <action type="DIALOG" value="蔡子峰#我二人原也不想答应援助，但我华山前任掌门鲜于通那卑鄙嘴脸显露出来之后，我华山派人走的走，辞的辞，现在我华山派人丁已经极其稀少，这是灭派的危机啊！" />
+    <action type="DIALOG" value="岳肃#陈友谅答应我二人只要他赢了这一战，便会精挑细选出一百根骨上佳的弟子送到我华山派来，所以……" />
+    <action type="DIALOG" value="岳肃#岳某不得不答应。实际上，鲜于通老贼谋害我派白长老并将罪名推到彼派身上，我也是深感愧意的，只不过形势相逼，确实没办法。" />
+    <action type="DIALOG" value="张无忌#难道就没有别的办法了？！" />
+    <action type="DIALOG" value="岳肃#办法……也有。我和我的师弟蔡子峰正因为先练剑还是先练气争执不已，一会我召集全华山弟子来坐忘峰……" />
+    <action type="DIALOG" value="岳肃#请张教主和这位小友一同来指点我和师弟一番，看看我华山剑法与气功强弱。" />
+    <action type="DIALOG" value="主角#（这是什么办法……？被我们打败了还能光大华山？？）" />
+    <action type="BATTLE" value="华山坐忘峰_战斗" />
+    <result ret="win" type="story" value="倚天屠龙_劝说华山失败"/>
+    <result ret="lose" type="story" value="倚天屠龙_劝说华山成功" />
+  </story>
+  <story name="倚天屠龙_劝说华山失败">
+    <action type="DIALOG" value="岳肃#好功夫，再来一场！" />
+    <action type="DIALOG" value="主角#（这人好无赖，什么时候是个完，难道要我们故意输给他？）" />
+    <action type="BATTLE" value="华山坐忘峰_战斗" />
+    <result ret="win" type="story" value="倚天屠龙_劝说华山失败"/>
+    <result ret="lose" type="story" value="倚天屠龙_劝说华山成功" />
+  </story>
+  <story name="倚天屠龙_劝说华山成功">
+    <action type="BACKGROUND" value="地图.帮派门前" />
+    <action type="MUSIC" value="音乐.武侠雄壮" />
+    <action type="DIALOG" value="蔡子峰#明教张教主！我华山剑之一道与气之一道，对比这天下武学，强弱如何啊？。" />
+    <action type="DIALOG" value="张无忌#不错！这是天下顶级的剑法与气功，确实威力无比。" />
+    <action type="DIALOG" value="岳肃#众弟子，大家看到了，我华山派无论剑气，都是世间绝学，咱们这鄱阳湖，就不去啦！咱们要抓紧将我华山剑法内功的威名，宣扬出去，扬我华山赫赫声威！" />
+    <action type="DIALOG" value="华山弟子#是！弟子遵命！。" />
+    <action type="DIALOG" value="主角#（他们原来是做给周围这些华山弟子们看的，打败了明教张无忌，这威名就会传遍天下了吧）。" />
+    <action type="DIALOG" value="主角#好了，无忌兄，华山的事也告一段落了，我们赶紧去下一个门派吧。" />
+    <action type="DIALOG" value="张无忌#不错，岳掌门，告辞！" />
+    <action type="DIALOG" value="岳肃#恭送张教主！" />
+    <action type="LOG" value="劝说华山不加入陈友谅援军"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="倚天屠龙_劝说嵩山">
+    <action type="BACKGROUND" value="地图.嵩山派" />
+    <action type="MUSIC" value="音乐.天龙八部5" />
+    <action type="DIALOG" value="张无忌#左掌门！" />
+    <action type="DIALOG" value="左冷禅#张教主！张教主此来是劝我不要去帮陈友谅么？" />
+    <action type="DIALOG" value="张无忌#左掌门果然是有大智慧的人，张某正是为此事而来。" />
+    <action type="DIALOG" value="左冷禅#这事说来倒也简单，只要张教主答应鄙人一个小条件，放心吧，对张教主来说只是举手之劳而已。" />
+    <action type="DIALOG" value="张无忌#哦？说来听听，能办到的话我会尽量办到的。" />
+    <action type="DIALOG" value="左冷禅#只需张教主将贵派乾坤大挪移心法写下一份，交予我就行了。得到此物后，我不仅不会去帮陈友谅，反而穷五岳之力帮你明教夺得天下。" />
+    <action type="DIALOG" value="张无忌#这……恕在下无能为力，左掌门可以换个要求么？" />
+    <action type="DIALOG" value="左冷禅#既然张教主不答应的话，也无妨。那就请张教主上华山思过崖上的一个山洞之中，山洞中的墙壁上刻着我嵩山派失落的剑法……" />
+    <action type="DIALOG" value="左冷禅#请将那剑法拓印下来，交给我，那我嵩山派上下就绝不参战帮那陈友谅。" />
+    <action type="DIALOG" value="张无忌#好，左冷禅一言九鼎，张某去去就回。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="倚天屠龙_劝说嵩山1">
+    <action type="BACKGROUND" value="地图.华山山洞" />
+    <action type="MUSIC" value="音乐.武侠雄壮" />
+    <action type="DIALOG" value="主角#就是这个山洞么？" />
+    <action type="DIALOG" value="张无忌#咱们将这些剑法拓印下来吧" />
+    <action type="DIALOG" value="赵敏#东岳岱宗夫如何，西岳华山智取难，中岳嵩山巍巍然，北岳恒山栈道寒，南岳衡山寿比安。" />
+    <action type="DIALOG" value="张无忌#这些剑法路数各不相同，端的是精妙无比，真是大开眼界啊！" />
+    <action type="UPGRADE.剑法" value="张无忌#30" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="倚天屠龙_劝说嵩山2">
+    <action type="BACKGROUND" value="地图.嵩山派" />
+    <action type="MUSIC" value="音乐.天龙八部5" />
+    <action type="DIALOG" value="张无忌#左掌门，这是石壁上的剑法，已经全部拓印下来了。" />
+    <action type="DIALOG" value="左冷禅#好！好好好！我嵩山派一定遵守诺言，不去参战！" />
+    <action type="LOG" value="劝说嵩山派不加入陈友谅援军"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="倚天屠龙_劝说峨眉">
+    <action type="BACKGROUND" value="地图.华山" />
+    <action type="MUSIC" value="音乐.武侠回忆" />
+    <action type="DIALOG" value="周芷若#无忌哥哥……" />
+    <action type="DIALOG" value="张无忌#芷若……" />
+    <action type="DIALOG" value="赵敏#说正事！" />
+    <action type="DIALOG" value="张无忌#是，芷若，你……" />
+    <action type="DIALOG" value="周芷若#好，我答应了。既然无忌哥哥亲自相求，我又有什么不能答应的呢。" />
+    <action type="DIALOG" value="张无忌#芷若，谢谢你。" />
+    <action type="DIALOG" value="周芷若#不过我也有一个要求。" />
+    <action type="DIALOG" value="张无忌#什么要求？" />
+    <action type="DIALOG" value="周芷若#（羞涩）无忌哥哥，你带我一起走吧，我……" />
+    <action type="DIALOG" value="赵敏#不行，你贵为峨眉掌门，领导中土三大派之一，怎可说走就走？" />
+    <action type="DIALOG" value="周芷若#无忌哥哥，你可还记得你还欠我一个条件？现在我说了，我要跟你走，我跟你永远不分开。" />
+    <action type="DIALOG" value="张无忌#这……兄弟，你看这……" />
+    <action type="DIALOG" value="主角#（齐人之福啊）男人三妻四妾很正常，何况是无忌兄弟这么英俊潇洒，功夫高强的人呢！" />
+    <action type="DIALOG" value="赵敏#好啊，三妻是一发妻二平妻，再加上四个小妾。不知周姑娘是想当这平妻呢，还是小妾呢？" />
+    <action type="DIALOG" value="周芷若#我与无忌哥哥有婚约在先，理应我做结发之妻才是" />
+    <action type="DIALOG" value="赵敏#笑话，我与张郎情投意合，早已私定终身。至于你，你那婚约早就被你自己毁到没边啦！" />
+    <action type="DIALOG" value="周芷若#你！好哇，张无忌！你说我们两个谁好看？" />
+    <action type="DIALOG" value="赵敏#（媚眼）是啊，无忌哥哥，你说我俩谁好看？" />
+    <action type="DIALOG" value="主角#（怎么感觉一股杀气迎面而来，无忌兄，你惨了！）" />
+    <action type="DIALOG" value="张无忌#这……（好难回答的问题）" />
+    <action type="SELECT" value="张无忌#谁更好看呢？#赵敏#周芷若#不答" />
+    <result ret="0" type="story" value="倚天屠龙_赵敏好看"/>
+    <result ret="1" type="story" value="倚天屠龙_周芷若好看"/>
+    <result ret="2" type="story" value="倚天屠龙_不答"/>
+  </story>
+  <story name="倚天屠龙_赵敏好看">
+    <action type="UPGRADE.臂力" value="张无忌#5"/>
+    <action type="DIALOG" value="张无忌#当然是我的敏敏漂亮啦！" />
+    <action type="DIALOG" value="赵敏#哈哈，无忌哥哥，我知道你对我最好啦！" />
+    <action type="DIALOG" value="周芷若#哼……" />
+    <result ret="0" type="story" value="倚天屠龙_劝说峨眉2"/>
+  </story>
+  <story name="倚天屠龙_周芷若好看">
+    <action type="UPGRADE.定力" value="张无忌#5"/>
+    <action type="DIALOG" value="张无忌#还是芷若妹妹更胜一筹了。。" />
+    <action type="DIALOG" value="周芷若#无忌哥哥，你真好！" />
+    <action type="DIALOG" value="赵敏#哼，张无忌！回头让你跪搓衣板！" />
+    <action type="DIALOG" value="周芷若#你敢！" />
+    <result ret="0" type="story" value="倚天屠龙_劝说峨眉2"/>
+  </story>
+  <story name="倚天屠龙_不答">
+    <action type="GET_POINT" value="张无忌#2"/>
+    <action type="DIALOG" value="张无忌#……" />
+    <action type="DIALOG" value="主角#额，我来说句公道话吧，两位都是绝世大美人！我都嫉妒无忌兄弟了！" />
+    <action type="DIALOG" value="赵敏#哼！" />
+    <action type="DIALOG" value="周芷若#谢谢~" />
+    <result ret="0" type="story" value="倚天屠龙_劝说峨眉2"/>
+  </story>
+  <story name="倚天屠龙_劝说峨眉2">
+    <action type="DIALOG" value="张无忌#哎，这…… 都好看，都好看！" />
+    <action type="DIALOG" value="赵敏#怎么？又转到长相上来了？别说我容貌不下于你，况且我乃前朝郡主，身份地位哪一项不配张郎？倒是你呢？" />
+    <action type="DIALOG" value="周芷若#我，我，我精通九阴真经，武功可站天下前列！" />
+    <action type="DIALOG" value="赵敏#哼，嫁与张郎还需要那么强的武功做什么，奴家还需要张郎来保护呢~况且我武功虽不及你，但我也精通百家武学，正好与张郎互补呢~！" />
+    <action type="DIALOG" value="周芷若#你，你，我不跟你说了。那边那个英俊潇洒的小帅哥，你说我们俩谁适合做发妻，谁做平妻？" />
+    <action type="DIALOG" value="主角#啊？这是说我么？唉哟，这个……" />
+    <action type="DIALOG" value="主角#(赵敏姑娘可令张无忌知晓百家武学的路数，闪避敌人攻击。而周芷若姑娘则可助张无忌上阵杀敌，威力更甚往昔。)"/>
+    <action type="SELECT" value="主角#谁做张无忌的大老婆呢？#赵敏做大老婆#周芷若做大老婆" />
+    <result ret="0" type="story" value="倚天屠龙_劝说峨眉2_赵敏" />
+    <result ret="1" type="story" value="倚天屠龙_劝说峨眉2_周芷若" />
+  </story>
+  <story name="倚天屠龙_劝说峨眉2_赵敏">
+    <action type="DIALOG" value="赵敏#嘻嘻！算你识相。" />
+    <action type="LEARN.TALENT" value="张无忌#赵敏的眷念"/>
+    <result ret="0" type="story" value="倚天屠龙_劝说峨眉成功"/>
+  </story>
+  <story name="倚天屠龙_劝说峨眉2_周芷若">
+    <action type="DIALOG" value="周芷若#爱死你了，无忌哥哥！" />
+    <action type="LEARN.TALENT" value="张无忌#芷若的眷念"/>
+    <result ret="0" type="story" value="倚天屠龙_劝说峨眉成功"/>
+  </story>
+
+  <story name="倚天屠龙_劝说峨眉成功">
+    <action type="BACKGROUND" value="地图.华山" />
+    <action type="MUSIC" value="音乐.武侠回忆" />
+    <action type="DIALOG" value="主角#这个，我看，只是一个名份而已，二位姑娘就不要争了吧？否则天天若是为了这个争论不休，张兄会伤心的，他待你二人一视同仁，不分什么发妻平妻，可好？" />
+    <action type="DIALOG" value="周芷若#哼，看在无忌哥哥的面子上。" />
+    <action type="DIALOG" value="赵敏#这回可便宜你了！" />
+    <action type="DIALOG" value="张无忌#哎，这个，我啊，恩这个。。" />
+    <action type="DIALOG" value="主角#这个什么这个，齐人之福你还这个那个的，好处全让你占了，走吧！" />
+    <action type="DIALOG" value="张无忌#（摇头）哎，走吧……" />
+    <action type="LOG" value="劝说峨眉派不加入陈友谅援军"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="倚天屠龙_劝说青城">
+    <action type="BACKGROUND" value="地图.帮派门前" />
+    <action type="MUSIC" value="音乐.武侠雄壮" />
+    <action type="DIALOG" value="长青子#哼，来者何人？" />
+    <action type="DIALOG" value="张无忌#小子张无忌。" />
+    <action type="DIALOG" value="长青子#张无忌？好哇，正想抓你与陈大将军请功，没想到你竟自己找上门来了！跟我上，抓住他！" />
+    <action type="DIALOG" value="张无忌#等等……" />
+    <action type="BATTLE" value="青城派_战斗" />
+    <result ret="win" type="story" value="倚天屠龙_劝说青城成功" />
+  </story>
+  <story name="倚天屠龙_劝说青城成功">
+    <action type="DIALOG" value="张无忌#这长青子也受了重伤，看来也不用咱们说什么了，走吧。" />
+    <action type="LOG" value="击败青城派，青城派将不加入陈友谅援军"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="倚天屠龙_鄱阳湖">
+    <action type="BACKGROUND" value="地图.郊野" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感2" />
+    <action type="DIALOG" value="张无忌#虽说咱们已经劝阻了名门大派，但那些小门派就没时间去挨个找上门了。不过在战场上仅仅那些小门小派还翻不起什么风浪来" />
+    <action type="DIALOG" value="主角#（自己说不担心，但还不是来了）" />
+    <action type="DIALOG" value="周芷若#赵敏姐姐，你读过武穆遗书，通兵法，你看那朱元璋能赢么？" />
+    <action type="DIALOG" value="赵敏#敌我实力相差很大，不过若是我指挥，要赢也不难，只是需要一个契机罢了，就看这个叫朱元璋的能否抓住这个契机。" />
+    <action type="DIALOG" value="张无忌#啊？那咱们要想办法提醒朱元璋啊！" />
+    <action type="DIALOG" value="赵敏#放心吧无忌哥哥，那武穆遗书我早已转交给了徐达，徐达本就会带兵打仗，如今得了武穆遗书，不会抓不住这个契机的，他一定会提醒朱元璋的。" />
+    <action type="DIALOG" value="张无忌#那就好，对了敏敏，你说的契机是什么呀？" />
+    <action type="DIALOG" value="周芷若#无忌哥哥！赵敏姐姐！前方有一大队人马正向咱们这里疾驰而来！" />
+    <action type="DIALOG" value="赵敏#来这里？不好，他们想绕山奔袭朱元璋的粮草，一定要挡住他们！" />
+    <action type="DIALOG" value="赵敏#不要鲁莽！对面是一支军队，人数远比咱们多，要是咱们全都气力已尽那就全都要俯首就缚了！此地易守难攻，咱们节省人员，分节对抗他们的大军！坚持一段时间朱元璋一定会派兵来援的！" />
+    <action type="BATTLE" value="天关战斗_鄱阳湖对陈友谅" />
+    <result ret="win" type="story" value="倚天屠龙_鄱阳湖胜利" />
+  </story>
+  <story name="倚天屠龙_鄱阳湖胜利">
+    <action type="BACKGROUND" value="地图.郊野" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感1" />
+    <action type="DIALOG" value="主角#援兵来了，援兵来了，可累死我了！" />
+    <action type="DIALOG" value="常遇春#是哪一伙兄弟帮着挡住敌人？" />
+    <action type="DIALOG" value="张无忌#常……常遇春。" />
+    <action type="DIALOG" value="常遇春#张兄弟！你怎么突然就失踪了！" />
+    <action type="DIALOG" value="张无忌#你还肯叫我一声兄弟么？" />
+    <action type="DIALOG" value="常遇春#这是什么话，我从来没拿你当外人啊！" />
+    <action type="DIALOG" value="张无忌#（二人将当日情况分说清楚）" />
+    <action type="DIALOG" value="常遇春#什么！朱重八竟敢以下犯上，明目张胆的篡权！这个忘恩负义的东西，也不看看是谁把他提拔上来的！" />
+    <action type="DIALOG" value="张无忌#你在这领军作战吧，我亲自去大营问他一问！" />
+    <result ret="0" type="story" value="倚天屠龙_朱元璋" />
+  </story>
+  <story name="倚天屠龙_朱元璋">
+    <action type="BACKGROUND" value="地图.军营" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感1" />
+    <action type="DIALOG" value="张无忌#(终于到了中军大帐了）" />
+    <action type="DIALOG" value="张无忌#朱重八！！！！" />
+    <action type="DIALOG" value="彭和尚#元帅有令，见张无忌杀无赦！！！" />
+    <action type="DIALOG" value="彭和尚#这，唉，张兄弟，对不住了！布光明圣火阵！" />
+    <action type="DIALOG" value="张无忌#哼，我今日就来看看我明教的大阵到底如何！" />
+    <action type="BATTLE" value="光明圣火阵_战斗" />
+    <result ret="win" type="story" value="倚天屠龙_朱元璋1" />
+  </story>
+  <story name="倚天屠龙_朱元璋1">
+    <action type="BACKGROUND" value="地图.军营" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感1" />
+    <action type="DIALOG" value="张无忌#我没下死手，你们先躺着吧！" />
+    <action type="DIALOG" value="彭和尚#（张教主……）" />
+    <action type="DIALOG" value="张无忌#兄弟，你在这里帮我看着，我自己进去找朱重八算算账。" />
+    <action type="DIALOG" value="主角#好，张兄小心！" />
+    <result ret="0" type="story" value="倚天屠龙_朱元璋2"/>
+  </story>
+  <story name="倚天屠龙_朱元璋2">
+    <action type="BACKGROUND" value="地图.军营" />
+    <action type="MUSIC" value="音乐.武侠回忆" />
+    <action type="DIALOG" value="张无忌#（过了半晌，从帐内走了出来）" />
+    <action type="DIALOG" value="张无忌#唉，走吧兄弟，咱们走吧，远离这里。" />
+    <action type="DIALOG" value="主角#怎么回事？" />
+    <action type="DIALOG" value="张无忌#他说的对，如今他马上要击败陈友谅取得天下了，如果此时他死了，那天下又要陷入纷争了。" />
+    <action type="DIALOG" value="主角#那就这么放过他了？" />
+    <action type="DIALOG" value="张无忌#是啊，比起个人的荣辱得失，江山社稷、百姓的幸福才是真正最重要的。" />
+    <action type="DIALOG" value="张无忌#而且我也和朱元璋聊了许久，他的确是一个雄才伟略的人，能够称得上皇帝的位置。他比我们更热衷权位，而我们，向往的是江湖闲云野鹤的生活。" />
+    <action type="DIALOG" value="张无忌#我不能为了我个人的仇恨，为了明教之主这个头衔，来让这个世界再度陷入纷争，挑起这些没有意义的争权夺利的斗争。" />
+    <action type="DIALOG" value="张无忌#在这场战争中，无数妻子失去丈夫，无数母亲失去孩子，无数孩子失去父亲，他们都是无辜的！我真的不愿意再看到杀戮。" />
+    <action type="DIALOG" value="张无忌#所以，这次就这样吧，真的累了。当然，连年的战争也要结束了，这是值得所有人欣慰的！" />
+    <action type="DIALOG" value="赵敏#无忌哥哥，我真高兴你能放弃仇恨，放弃这些顾忌。" />
+    <action type="DIALOG" value="赵敏#我们大家向往的都是闲云野鹤潇洒江湖的生活，自从跟着你来，我就没有想过再要回去与这些尔虞我诈的政治人物打交道。" />
+    <action type="DIALOG" value="周芷若#是呀，无忌哥哥，这些年无论是江湖门派之争，还是天下之争，都曾让我们沉溺之间无法自拔。" />
+    <action type="DIALOG" value="周芷若#其实看开了，都只是过眼烟云，我真高兴我们能不再有这些你争我抢的仇杀和负担。" />
+    <action type="DIALOG" value="张无忌#（顿时觉得心情豁然开朗）没错，权力都是过眼烟云，“浅斟低吟浮名尽，流觞曲水入梦来”，让我们好好享受余下的生活吧！" />
+    <action type="GET_POINT" value="张无忌#25" />
+    <action type="LEARN.INTERNALSKILL" value="张无忌#太极神功#10" />
+    <action type="LEARN.TALENT" value="张无忌#至空至明" />
+    <action type="UPGRADE.MAXHP" value="张无忌#1000" />
+    <action type="UPGRADE.MAXMP" value="张无忌#1000" />
+    <action type="DIALOG" value="主角#（你是可以享受了，可我还得游戏通关啊。）" />
+    <action type="DIALOG" value="张无忌#兄弟，你放心，我会帮你达成你的心愿，然后再与敏敏、芷若一起去草原牧马放牛！" />
+    <action type="DIALOG" value="主角#太棒了，无忌兄，我的队伍里就需要你这种站得住的肉盾型打手啊！" />
+    <action type="NICK" value="至空至明"/>
+    <action type="LOG" value="张无忌放弃明教教主之位，朱元璋击败陈友谅。"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <!--倚天屠龙记邪线剧情-->
+  <story name="倚天邪线_丐帮">
+    <action type="BACKGROUND" value="地图.丐帮" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感5" />
+    <action type="DIALOG" value="全冠清#这位少侠，你既能闯过我丐帮打狗大阵，就一定是功夫不错的人了。不知少侠肯不肯为了我汉人的大义，天下的苍生而加入我抗元义军的队伍？" />
+    <action type="DIALOG" value="主角#哦？加入你们义军有什么好处啊？" />
+    <action type="DIALOG" value="全冠清#呵呵，实不相瞒，我们义军的统帅陈友谅陈大帅已经定都于江州，建立了汉国，实力很是雄厚，而那蒙古鞑子已经快被我大帅天威杀出中原了。此时只有那朱元璋与那些个明教余孽率领的红巾军在跟我陈大帅唱对角戏。" />
+    <action type="DIALOG" value="全冠清#不过此时我陈大帅率领六十五万大军屯兵于鄱阳湖，正准备与那朱元璋一较长短，不过嘛……呵呵，那朱元璋只有区区二十万老弱残兵，孰胜孰负，一看便知。来日陈大帅统一了中原，便会大肆封赏有功之臣，少侠若是……" />
+    <action type="SELECT" value="主角#要加入陈友谅的义军么？#加入 #不加入" />
+    <result ret="0" type="story" value="倚天邪线_加入丐帮" />
+    <result ret="1" type="story" value="倚天邪线_不加入丐帮" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="倚天邪线_加入丐帮">
+    <action type="BACKGROUND" value="地图.丐帮" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感5" />
+    <action type="DIALOG" value="主角#阁下如何称呼？" />
+    <action type="DIALOG" value="全冠清#在下全冠清，丐帮九袋长老，目前是陈大帅任命的丐帮义军负责人。" />
+    <action type="DIALOG" value="主角#好，全长老，我便加入你们义军了，需要我做什么？" />
+    <action type="DIALOG" value="全冠清#好，少侠果然快人快语！眼下便有一份十分重要的事情要少侠去办，如果办妥了，那少侠就是立了大功一件！" />
+    <action type="DIALOG" value="主角#哦？什么事，说吧！" />
+    <action type="DIALOG" value="全冠清#前阵陈大将军被他的至交好友康茂才骗到江中，险些丧命！你此番就是去杀了那康茂才！此时康茂才被朱元璋任命为秦淮水军元帅，你去找他，然后杀掉他。" />
+    <action type="DIALOG" value="主角#好的，我立刻去办。" />
+    <action type="LOG" value="加入陈友谅的义军"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="倚天邪线_不加入丐帮">
+    <action type="BACKGROUND" value="地图.丐帮" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感5" />
+    <action type="DIALOG" value="全冠清#哼，有眼不识金镶玉，大好的开国元勋机会就这么放过了。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="倚天邪线_康茂才">
+    <action type="BACKGROUND" value="地图.郊野" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感2" />
+    <action type="DIALOG" value="主角#康茂才，纳命来！" />
+    <action type="BATTLE" value="杀康茂才_战斗" />
+    <result ret="win" type="story" value="倚天邪线_杀康茂才" />
+  </story>
+  <story name="倚天邪线_杀康茂才">
+    <action type="BACKGROUND" value="地图.郊野" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感2" />
+    <action type="DIALOG" value="主角#这老贼跑得倒快，不过依然重创了他，估计他是活不了多长时间了" />
+    <action type="LOG" value="重创康茂才。"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="倚天邪线_劝说各大派">
+    <action type="BACKGROUND" value="地图.丐帮" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感5" />
+    <action type="DIALOG" value="全冠清#少侠除了康茂才那老贼？" />
+    <action type="DIALOG" value="主角#让他逃了，不过他挨了我一掌，活不了多长时间的。" />
+    <action type="DIALOG" value="全冠清#这样啊……勉强吧，恩，这里有一个非常重要的任务，本想交给你的，可你实在是令人失望！" />
+    <action type="DIALOG" value="主角#再给我一次机会吧全长老！我是实在没想到那老杀才跑的如此之快啊！" />
+    <action type="DIALOG" value="全冠清#唉，好吧。你知道陈大帅正与朱元璋对峙于鄱阳湖。陈大帅兵威虽胜，但朱元璋手下明教妖人众多。" />
+    <action type="DIALOG" value="全冠清#陈大帅恐有什么万一，就命人去联络武当，少林，华山，嵩山，峨眉五大门派齐聚鄱阳湖，共破朱元璋。这个任务，就交给你了，如果你成了，那鄱阳湖大胜你有大功在内。" />
+    <action type="DIALOG" value="主角#可武当峨眉明显跟明教交好，华山有愧于明教。我怎么去劝说他们呢？" />
+    <action type="DIALOG" value="全冠清#呵呵，那你就多动动脑子呀……武当峨眉虽跟明教交好，但同是三大宗，一定会受到所谓名门正派的名头束缚。" />
+    <action type="DIALOG" value="全冠清#至于华山么，鲜于通一死，华山辞的辞，去的去，人丁凋零已经没什么人了。咱们大帅统一天下以后，天下都是咱们的，你不妨许他一点好处，待赢得天下后，给他就是了。" />
+    <action type="DIALOG" value="主角#谢全长老指点，以后我肯定不会忘了全长老那一份的！！" />
+    <action type="DIALOG" value="全冠清#嘿嘿，不客气！到时同朝为官，还请少侠多多关照！" />
+    <action type="LOG" value="接到陈友谅任务，联络武当，少林，华山，嵩山，峨眉五大门派齐聚鄱阳湖，共破朱元璋。"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="倚天邪线_劝说武当成功">
+    <action type="BACKGROUND" value="地图.大殿2" />
+    <action type="MUSIC" value="音乐.天龙八部4" />
+    <action type="DIALOG" value="主角#陈大帅有令，明教高手太多，想让你等出人相助！" />
+    <action type="DIALOG" value="冲虚道长#啊？这……我武当如今……" />
+    <action type="DIALOG" value="主角#哼，那明教妖人烧杀辱掠不下蒙古鞑子，而今更是聚起二三十万人马妄图夺得天下。" />
+    <action type="DIALOG" value="主角#你不想想一旦被他们夺得天下，那天下老百姓还有好日子过么？我陈大帅有好生之德，在那鄱阳湖阻挡明教，六十万大军那！那明教怎能获胜？若是日后我陈大帅得了这天下，论功行赏的时候，发觉你武当……呵呵，我就不明说了。" />
+    <action type="DIALOG" value="冲虚道长#可这……" />
+    <action type="DIALOG" value="张三丰#不要说了，我们去就是了。特使请回吧，我们择日就动身。" />
+    <action type="DIALOG" value="主角#好！有张真人一句话，胜过千军万马。那我就在鄱阳湖恭候大驾" />
+    <action type="LOG" value="成功联络武当，参与鄱阳湖大战。"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="倚天邪线_劝说少林">
+    <action type="MUSIC" value="音乐.天龙八部5" />
+    <action type="DIALOG" value="主角#陈大帅有令，那明教高手太多，想让你等出人相助！" />
+    <action type="DIALOG" value="方证大师#这个，我们理应是出人相助的。不过……少侠你也看到了，我少林被那蒙古鞑子杀的杀，废的废，剩下的人只够留守这山上了。" />
+    <action type="DIALOG" value="主角#大师不要忘了，是谁将那鞑子驱逐出中原的，是我们家陈大帅！" />
+    <action type="DIALOG" value="方证大师#唉……可是，不若这样吧，我少林中有三位渡字辈的前辈，可以结成一套阵法金刚伏魔圈，这套阵法纵使二三十位掌门级的高手也难以闯过，原是看守那明教金毛狮王谢逊的。" />
+    <action type="DIALOG" value="方证大师#如今那谢逊也不知去向，那三位前辈也只在禁地潜修。如果少侠能够闯过那金刚伏魔圈，那我便可以说动三位师叔去那鄱阳湖助战，如何？" />
+    <action type="DIALOG" value="主角#好，来！" />
+    <action type="BATTLE" value="金刚伏魔圈邪线" />
+    <result ret="win" type="story" value="倚天邪线_劝说少林成功" />
+  </story>
+  <story name="倚天邪线_劝说少林成功">
+    <action type="MUSIC" value="音乐.天龙八部5" />
+    <action type="NICK" value="金刚伏魔"/>
+    <action type="DIALOG" value="主角#哈哈哈，痛快！" />
+    <action type="DIALOG" value="方证大师#少侠功力惊人，老衲佩服佩服！" />
+    <action type="DIALOG" value="主角#大师不要忘了，是谁将那鞑子驱逐出中原的，是我们家陈大帅！" />
+    <action type="DIALOG" value="主角#不要忘了你的承诺！" />
+    <action type="DIALOG" value="方证大师#少侠放心吧，我们过些时日就赶去那鄱阳湖助阵。" />
+    <action type="LOG" value="成功联络少林，参与鄱阳湖大战。"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="倚天邪线_劝说嵩山">
+    <action type="BACKGROUND" value="地图.嵩山派" />
+    <action type="MUSIC" value="音乐.天龙八部5" />
+    <action type="DIALOG" value="主角#陈大帅有令，让左掌门的嵩山派出人于鄱阳湖相助破敌。" />
+    <action type="DIALOG" value="左冷禅#哦？呵呵，这样啊，那明教妖人太多，责令我等出战也是正常的。" />
+    <action type="DIALOG" value="主角#左掌门果然是聪明人，那左掌门的意思如何呢？" />
+    <action type="DIALOG" value="左冷禅#呵呵，对抗那明教自是我等名门正派应该做的事。不过……我这一去，若是那任我行寻上山来，屠灭我嵩山派，该当如何？！" />
+    <action type="DIALOG" value="主角#任我行怎会这么巧就来屠灭你嵩山？" />
+    <action type="DIALOG" value="左冷禅#哈哈，任我行昔日在少林寺，被我堂堂正正击败，自是恨我恨得深入骨髓。怎能不趁机寻仇？" />
+    <action type="DIALOG" value="主角#左掌门竟能击败日月神教任我行！好厉害的武功！！那左掌门到底要怎么样才肯出战呢，莫非是让我杀了那任我行么？" />
+    <action type="DIALOG" value="左冷禅#不不不，任我行势力大的很，我怎可能让少侠去做这种送死的事情。我想让少侠办的事情很简单，大理段家有一套凝聚众人之力于一点的阵法，专为袭杀高手所创。你将那套阵法拿来，我派中弟子修习后有了自保之力，我便可以安心下山去助阵了。" />
+    <action type="DIALOG" value="主角#好，那我去去就来。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="倚天邪线_大理夺阵">
+    <action type="BACKGROUND" value="地图.府门前" />
+    <action type="MUSIC" value="音乐.天龙八部5" />
+    <action type="DIALOG" value="大理高手#什么人！" />
+    <action type="BATTLE" value="大理夺阵_战斗" />
+    <result ret="win" type="story" value="倚天邪线_劝说嵩山成功" />
+  </story>
+  <story name="倚天邪线_劝说嵩山成功">
+    <action type="BACKGROUND" value="地图.嵩山派" />
+    <action type="MUSIC" value="音乐.天龙八部5" />
+    <action type="DIALOG" value="主角#左掌门，这是那套阵法。" />
+    <action type="DIALOG" value="左冷禅#恩，少侠果然厉害！那我这就去准备了。" />
+    <action type="DIALOG" value="主角#好，左掌门，那我便先告辞了。" />
+    <action type="LOG" value="成功联络嵩山，参与鄱阳湖大战。"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="倚天邪线_劝说华山成功">
+    <action type="BACKGROUND" value="地图.帮派门前" />
+    <action type="MUSIC" value="音乐.武侠雄壮" />
+    <action type="DIALOG" value="主角#陈大帅有令，让华山派出人于鄱阳湖相助破敌。" />
+    <action type="DIALOG" value="岳肃#唉，不是我们不想，你也看到了，我华山人丁稀少，拿什么相助啊？" />
+    <action type="DIALOG" value="主角#我听闻华山新任掌门与掌门师弟二人，一个剑法高强，一个内功深厚，皆是人中翘楚，怎么就说拿不出人相助呢？" />
+    <action type="DIALOG" value="蔡子峰#让我等亲自下山也不无不可，不过留在山上的那也没几个人，不如就全带下山去了。但我华山派人丁稀少啊，这损失一个就少一个，这怎么能行？" />
+    <action type="DIALOG" value="主角#哦，这个好办，我们陈大帅说了，如果鄱阳湖之战获胜，就会精心挑选出一百个根骨上佳的孩子送到你们华山来，做你华山派的弟子。" />
+    <action type="DIALOG" value="岳肃#哦？此言当真！好，我这就收拾东西，带徒儿们下山！" />
+    <action type="DIALOG" value="主角#如此，就恭候大驾了！" />
+    <action type="LOG" value="成功联络华山，参与鄱阳湖大战。"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="倚天邪线_劝说峨眉成功">
+    <action type="BACKGROUND" value="地图.华山" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感2" />
+    <action type="DIALOG" value="主角#陈大帅有令，让周掌门的峨眉派出人于鄱阳湖相助破敌。" />
+    <action type="DIALOG" value="周芷若#破敌……是破明教么？" />
+    <action type="DIALOG" value="主角#是的。" />
+    <action type="DIALOG" value="周芷若#那我，那我便不去！" />
+    <action type="DIALOG" value="主角#呵呵，周姑娘想必还不知道吧，就是现在的明教实际上的统帅朱元璋，将那张无忌逼走下落不明的。" />
+    <action type="DIALOG" value="周芷若#！！！" />
+    <action type="DIALOG" value="主角#待得陈大帅赢得这天下，找一个人还算得上什么功夫么？" />
+    <action type="DIALOG" value="周芷若#我这便通知我峨眉派中弟子，叫他们做好准备！" />
+    <action type="DIALOG" value="主角#呵呵呵，这才对。那我就在鄱阳湖恭迎大驾了。" />
+    <action type="LOG" value="成功联络峨眉，参与鄱阳湖大战。"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="倚天邪线_劝说完成">
+    <action type="BACKGROUND" value="地图.丐帮" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感5" />
+    <action type="DIALOG" value="主角#幸不辱命，在下已经将那五大门派全都说服了！" />
+    <action type="DIALOG" value="全冠清#哼，你还不知道吧，你说服的那五大门派，又都来信说不能助战了！" />
+    <action type="DIALOG" value="主角#什么？怎么可能？？" />
+    <action type="DIALOG" value="全冠清#看他们信里的意思，是受了另外一个人的劝阻，才不能来帮忙的" />
+    <action type="DIALOG" value="主角#这怎么可能！！这怎么能行！！这岂不，这岂不是……岂不是坏了大帅的好事！！" />
+    <action type="DIALOG" value="全冠清#唉，如今你我一条绳上的蚂蚱，只能想办法将功补过了！" />
+    <action type="DIALOG" value="主角#长老还有何妙策，快快告诉我啊！" />
+    <action type="DIALOG" value="全冠清#四川还有一个大派，唤做青城派，不过派虽大，武功却不甚高明，这也是我没叫你去联络的原因。" />
+    <action type="DIALOG" value="全冠清#你这回，去联络这个青城派，让他们出人帮忙，记住纵使许下事后绝对不能达成的条件，你也要许给那个掌门长青子，只许成功不许失败！" />
+    <action type="DIALOG" value="主角#可一个小小青城派，顶得什么用处？" />
+    <action type="DIALOG" value="全冠清#不，这青城派只是一个诱饵。你说服那长青子以后，就在左近隐藏起来，等上几天，看到底是谁在坏咱们的好事，" />
+    <action type="DIALOG" value="全冠清#然后能擒则擒，擒不住就当场斩杀了他！将功补过，希望功过相抵，大帅能绕过咱们吧。" />
+    <action type="DIALOG" value="主角#好，长老放心，小子这会必能成事！" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="倚天邪线_劝说青城">
+    <action type="BACKGROUND" value="地图.帮派门前" />
+    <action type="MUSIC" value="音乐.武侠雄壮" />
+    <action type="DIALOG" value="主角#长青子掌门，事情就是这样的了，你看？" />
+    <action type="DIALOG" value="长青子#事成以后，许我青城做天下道派之首，当真！？" />
+    <action type="DIALOG" value="主角#我们陈大帅一言九鼎，有什么当不得真的！" />
+    <action type="DIALOG" value="长青子#好，那我便阖派出袭，穷我青城之力，助陈大帅成就大业！" />
+    <action type="DIALOG" value="主角#好，如此我便等您的好消息了！" />
+    <result ret="0" type="story" value="倚天邪线_劝说青城1"/>
+  </story>
+  <story name="倚天邪线_劝说青城1">
+    <action type="BACKGROUND" value="地图.塞外" />
+    <action type="MUSIC" value="音乐.太行八径" />
+    <action type="DIALOG" value="主角#就在这里等着吧，我倒要看看到底是谁坏我好事！" />
+    <action type="DIALOG" value="黑影#（几道黑影瞬间窜了上去）" />
+    <action type="DIALOG" value="主角#好俊的轻功，难道这就是我要找的人么！那个背影怎么这么熟悉？" />
+    <action type="DIALOG" value="主角#（这么一会的功夫青城上下上百口人就全被他们打成了重伤？伤而不死，这伙人好高明的武功）" />
+    <result ret="0" type="story" value="倚天邪线_劝说青城完成" />
+  </story>
+  <story name="倚天邪线_劝说青城完成">
+    <action type="BACKGROUND" value="地图.塞外" />
+    <action type="MUSIC" value="音乐.太行八径" />
+    <action type="DIALOG" value="张无忌#什么人在外面？" />
+    <action type="DIALOG" value="主角#张无忌！" />
+    <action type="DIALOG" value="周芷若#无忌哥哥，就是他，就是他劝我们峨眉去跟明教作对的。" />
+    <action type="DIALOG" value="主角#峨眉周掌门！你竟已经投靠明教了么！" />
+    <action type="DIALOG" value="赵敏#什么叫投靠明教，真是笑话！" />
+    <action type="DIALOG" value="主角#绍敏郡主！蒙古人竟会跟汉人勾结！" />
+    <action type="DIALOG" value="张无忌#这位少侠，两军对垒，胜负全凭自己本事，就不要扯进武林人士了吧？" />
+    <action type="DIALOG" value="主角#张无忌，想不到竟然是你坏了我的好事！你领死吧！" />
+    <action type="BATTLE" value="劝说青城张无忌_战斗" />
+    <result ret="win" type="story" value="倚天邪线_劝说青城完成1" />
+  </story>
+  <story name="倚天邪线_劝说青城完成1">
+    <action type="BACKGROUND" value="地图.塞外" />
+    <action type="MUSIC" value="音乐.太行八径" />
+    <action type="DIALOG" value="张无忌#敏敏！芷若！！我们走！" />
+    <action type="DIALOG" value="主角#这身法……我是追不上了，这下可好，又让他们跑了。难道我这功……是立不上了？" />
+    <action type="DIALOG" value="主角#没脸去见长老了，我直接去鄱阳湖做一个马前卒吧！" />
+    <action type="LOG" value="联络青城派受挫，赶往鄱阳湖之战。"/>
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  <story name="倚天邪线_鄱阳湖偷粮">
+    <action type="BACKGROUND" value="地图.襄阳" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="全冠清#少侠，你来啦！赶紧，鄱阳湖大战在即，陈大帅令你戴罪立功，绕过战场去袭烧朱元璋的粮草！" />
+    <action type="DIALOG" value="主角#是！" />
+    <action type="DIALOG" value="主角#陈大帅命我戴罪立功，率领你们绕过战场去袭烧朱元璋的粮草，跟我走！" />
+    <result ret="0" type="story" value="倚天邪线_鄱阳湖"/>
+  </story>
+  <story name="倚天邪线_鄱阳湖">
+    <action type="BACKGROUND" value="地图.郊野" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="张无忌#想要偷粮？从我尸体上踏过去！！" />
+    <action type="DIALOG" value="主角#张！！！！无！！！！忌！！！！又是你！每次都是你来坏我的好事！！受死吧！" />
+    <action type="BATTLE" value="鄱阳湖张无忌_战斗" />
+    <result ret="win" type="story" value="倚天邪线_鄱阳湖胜无忌" />
+  </story>
+  <story name="倚天邪线_鄱阳湖胜无忌">
+    <action type="BACKGROUND" value="地图.郊野" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="张无忌#坚持住，援军来了！！" />
+    <action type="DIALOG" value="徐达#多谢张兄弟相助，咱们一起挡住他们！" />
+    <action type="DIALOG" value="主角#可恶！快快突破他们！" />
+    <action type="BATTLE" value="天关战斗_邪线鄱阳湖" />
+    <result ret="win" type="story" value="倚天邪线_鄱阳湖终" />
+  </story>
+  <story name="倚天邪线_鄱阳湖终">
+    <action type="BACKGROUND" value="地图.郊野" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="ITEM" value="九阳真经真解#1"/>
+    <action type="DIALOG" value="主角#好，终于突破了！兄弟们跟我冲，抓紧时间！" />
+    <action type="DIALOG" value="主角#疑？那徐达怀里什么东西？" />
+    <action type="ITEM" value="武穆遗书#1"/>
+    <action type="NICK" value="岳飞传人"/>
+    <result ret="0" type="story" value="倚天邪线_鄱阳湖终2"/>
+  </story>
+  <story name="倚天邪线_鄱阳湖终2">
+    <action type="BACKGROUND" value="地图.郊野" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="士兵#将，将军！" />
+    <action type="DIALOG" value="主角#还不快走，什么事？" />
+    <action type="DIALOG" value="士兵#将军，你看，那火连天都烧红了！" />
+    <action type="DIALOG" value="主角#这，这好像是咱们的大营？" />
+    <action type="DIALOG" value="士兵#啊？这怎么办！？" />
+    <action type="DIALOG" value="朱元璋近卫#陈友谅已死，陈友谅已死！" />
+    <action type="DIALOG" value="主角#啊……失败了！陈大帅失败了。" />
+    <action type="DIALOG" value="士兵#将军，什么意思？" />
+    <action type="DIALOG" value="主角#竹篮……那个打水……一场空……" />
+    <action type="DIALOG" value="主角#陈大帅的义军失败了，我也没有脸呆在这里了，赶紧离开这个是非之地吧。" />
+    <action type="LOG" value="鄱阳湖陈友谅战败，脱离义军。"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="功夫_柴山十八路">
+    <action type="MUSIC" value="音乐.欢乐" />
+    <action type="DIALOG" value="流浪汉#小子你过来！！" />
+    <action type="DIALOG" value="主角#干嘛？" />
+    <action type="DIALOG" value="流浪汉#靓崽，看你的骨骼精奇，是万中无一的武学奇才，维护世界和平就靠你了，我这有本秘籍。。。" />
+    <action type="DIALOG" value="主角#是不是如来神掌，见与我有缘，就十块卖给我了！（开玩笑功夫的台词我怎么可能不知道）" />
+    <action type="DIALOG" value="流浪汉#额，你怎么知道。。。。。不过如来神掌涨价了，现在卖一千万两" />
+    <action type="DIALOG" value="主角#靠这么贵。。。。。大哥有没有便宜点的。。。。最便宜的" />
+    <action type="DIALOG" value="流浪汉#我这里有本柴山十八路。。。。为了世界和平。。。就卖你十两吧。。" />
+    <action type="SELECT" value="主角#掏十两银子么？#买 #不买" />
+    <result ret="0" type="story" value="功夫_柴山十八路_买" />
+    <result ret="1" type="story" value="功夫_柴山十八路_不买" />
+  </story>
+  <story name="功夫_柴山十八路_买">
+    <action type="DIALOG" value="主角#本来我要用这十两念书，当个医生、律师，但为了世界和平……唉！" />
+    <action type="DIALOG" value="流浪汉#嗯，祝你早日打通任督二脉，到时候还不飞龙在天啊。" />
+    <action type="ITEM" value="柴山十八路秘籍#1"/>
+  </story>
+  <story name="功夫_柴山十八路_不买">
+    <action type="DIALOG" value="流浪汉#连十两都没有，快滚快滚，别打扰老子做生意，穷光蛋" />
+  </story>
+  <story name="刀法_雁行刀">
+    <action type="BACKGROUND" value="地图.郊野" />
+    <action type="DIALOG" value="主角#塞外江南景色果然是别具一格啊" />
+    <action type="DIALOG" value="牧羊女#花飞花落花满天，情来情去情随缘。" />
+    <action type="DIALOG" value="牧羊女#雁去雁归雁不散, 潮起潮落潮无眠。" />
+    <action type="DIALOG" value="牧羊女#夜深月明梦婵娟 ，千金难留是红颜。" />
+    <action type="DIALOG" value="牧羊女#若说人生苦长短 ，为何相思情难断？" />
+    <action type="DIALOG" value="主角#这是谁的诗写的好美啊！" />
+    <action type="DIALOG" value="牧羊女#我也不知道，这是几年前一个旅者留下的。" />
+    <action type="DIALOG" value="牧羊女#我当时也觉得很好，偶尔就唱唱。" />
+    <action type="DIALOG" value="主角#是啊，我也觉得很好" />
+    <action type="DIALOG" value="牧羊女#看少侠是江湖人士，当时那人还送了本秘籍，我就赠与少侠吧。" />
+    <action type="DIALOG" value="主角#多谢姑娘。" />
+    <action type="ITEM" value="雁行刀秘录#1"/>
+    <result ret="0" type="map" value="大地图" />
+  </story>
+</root>

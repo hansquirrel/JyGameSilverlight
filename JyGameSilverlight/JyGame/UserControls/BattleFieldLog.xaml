@@ -1,0 +1,21 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	x:Class="JyGame.BattleFieldLog"
+	d:DesignWidth="640" Width="280" Height="262" Opacity="0.75" Loaded="UserControl_Loaded">
+
+	<Grid x:Name="LayoutRoot">
+		<Canvas HorizontalAlignment="Left" Height="43" VerticalAlignment="Top" Width="280" Background="#7F808080" Margin="0,219,0,-22">
+			<TextBlock Height="18" Canvas.Left="10" TextWrapping="Wrap" Text="战斗详细信息" Width="103" FontSize="16" Foreground="Red" Canvas.Top="-1"/>
+			<Button x:Name="HideShowButton" Content="隐藏" Height="19" Canvas.Left="235" Width="35" Canvas.Top="2" Opacity="0.545" Click="HideShowButton_Click"/>
+			<Button x:Name="ClearButton" Content="清空" Opacity="0.545" Click="ClearButton_Click" Height="19" Canvas.Left="192" Canvas.Top="2" Width="35"/>
+			<CheckBox x:Name="AutoBattleCheckBox" Content="自动战斗" Height="25" Canvas.Left="10" Canvas.Top="18" Width="114" FontFamily="SimHei" Checked="AutoBattleCheckBox_Checked" FontSize="16" Background="Red" Foreground="Red" ToolTipService.ToolTip="勾选则自动进行战斗" Unchecked="AutoBattleCheckBox_Unchecked"/>
+		</Canvas>
+		<ScrollViewer x:Name="LogView" BorderThickness="0" VerticalScrollBarVisibility="Auto" Padding="0,0,4,0" Margin="0,0,0,43" VerticalContentAlignment="Bottom" Background="#4C000000">
+			<StackPanel x:Name="LogPanel" VerticalAlignment="Bottom"/>
+		</ScrollViewer>
+	</Grid>
+</UserControl>

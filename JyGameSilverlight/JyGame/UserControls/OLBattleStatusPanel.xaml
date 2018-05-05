@@ -1,0 +1,18 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:local="clr-namespace:JyGame"
+	mc:Ignorable="d"
+	x:Class="JyGame.OLBattleStatusPanel"
+	d:DesignWidth="640" d:DesignHeight="480" Width="800" Height="600">
+
+	<Grid x:Name="LayoutRoot">
+		<Grid.Background>
+			<ImageBrush Stretch="Fill" ImageSource="/Resource/ui/mainmenu.jpg"/>
+		</Grid.Background>
+		<TextBlock x:Name="textTip" Height="34" Margin="164,0,274,140" TextWrapping="Wrap" Text="请耐心等待" VerticalAlignment="Bottom" FontSize="26.667" FontWeight="Bold" Foreground="#FF124AD4"/>
+		<local:SuggestTip x:Name="suggestTip" Margin="226,148,274,252"/>
+	</Grid>
+</UserControl>

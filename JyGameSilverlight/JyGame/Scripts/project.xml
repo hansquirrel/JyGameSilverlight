@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <files>
+    <!--对话剧本-->
+    <file type="story" path="storys/aboutus.xml"/>
+    <file type="story" path="storys/mainStory.xml"/>
+    <file type="story" path="storys/original.xml"/>
+    <file type="story" path="storys/sdxl.xml"/>
+    <file type="story" path="storys/test.xml"/>
+    <file type="story" path="storys/tlbb.dy.xml"/>
+    <file type="story" path="storys/tlbb.xz.xml"/>
+    <file type="story" path="storys/yttlj.xml"/>
+    <file type="story" path="storys/笑傲江湖.xml"/>
+    <file type="story" path="storys/雪山飞狐.xml"/>
+    <file type="story" path="storys/射雕英雄传.xml"/>
+    <file type="story" path="storys/碧血剑.xml"/>
+    <file type="story" path="storys/连城诀.xml"/>
+    <file type="story" path="storys/白马啸西风.xml"/>
+    <file type="story" path="storys/书剑恩仇录.xml"/>
+    <file type="story" path="storys/鹿鼎记.xml"/>
+    <file type="story" path="storys/门派古墓.xml"/>
+    <file type="story" path="storys/门派大轮寺.xml"/>
+    <file type="story" path="storys/门派血刀门.xml"/>
+    <file type="story" path="storys/门派全真教.xml"/>
+    <file type="story" path="storys/门派灵鹫宫.xml"/>
+    <file type="story" path="storys/门派少林寺.xml"/>
+    <file type="story" path="storys/门派武当派.xml"/>
+    <!--<file type="story" path="storys/门派昆仑.xml"/>-->
+    <file type="story" path="storys/侠客行.xml"/>
+    <file type="story" path="storys/飞狐外传.xml"/>
+    <file type="story" path="storys/倚天屠龙记.xml"/>
+    <file type="story" path="storys/鸳鸯刀.xml"/>
+    <file type="story" path="storys/pilitang.xml"/>
+    <file type="story" path="storys/bixuejianShyou.xml"/>
+    <!--物品-->
+    <file type="item" path="item/item.xml"/>
+    <file type="item" path="item/itemPY.xml"/>
+    <file type="item" path="item/itemCY.xml"/>
+    <file type="item" path="item/itemCG.xml"/>
+    <file type="item" path="item/itemShyou.xml"/>
+    <file type="item" path="item/itemTriggerDb.xml"/>
+
+    <!--战斗-->
+    <file type="battle" path="battles/battle.xml"/>
+    <file type="battle" path="battles/battlePY.xml"/>
+    <file type="battle" path="battles/battleCY.xml"/>
+    <file type="battle" path="battles/battleTower.xml"/>
+    <file type="battle" path="battles/battleShyou.xml"/>
+
+    <!--闯天关地图集-->
+    <file type="tower" path="tower/tower.xml"/>
+    <!--资源-->
+    <file type="resources" path="resource/audios.xml"/>
+    <file type="resources" path="resource/buffs.xml"/>
+    <file type="resources" path="resource/heads.xml"/>
+    <file type="resources" path="resource/items.xml"/>
+    <file type="resources" path="resource/maps.xml"/>
+    <file type="resources" path="resource/nicks.xml"/>
+    <file type="resources" path="resource/talents.xml"/>
+    <file type="resources" path="resource/tips.xml"/>
+    <file type="resources" path="resource/ui.xml"/>
+    <file type="resources" path="resource/roleinfo.xml"/>
+    <!--角色-->
+    <file type="role" path="role/role.xml"/>
+    <file type="role" path="role/rolePY.xml"/>
+    <file type="role" path="role/roleCY.xml"/>
+    <file type="role" path="role/roleXiakexing.xml"/>
+    <file type="role" path="role/roleXuedaomen.xml"/>
+    <file type="role" path="role/roleQuanzhenjiao.xml"/>
+    <file type="role" path="role/roleShyou.xml"/>
+
+    <!--技能-->
+    <file type="skill" path="skill/skill.xml"/>
+    <file type="skill" path="skill/skillCY.xml"/>
+    <file type="skill" path="skill/skillPY.xml"/>
+    <file type="skill" path="skill/skillShyou.xml"/>
+
+    <!-- 天赋 -->
+    <file type="talent" path="talent/talent.xml"/>
+    <!--地图事件-->
+    <file type="map" path="maps/map.xml"/>
+    <file type="map" path="maps/mapMenpai.xml"/>
+    <file type="map" path="maps/mapPY.xml"/>
+    <file type="map" path="maps/mapShyou.xml"/>
+    <!--商店-->
+    <file type="shop" path="shop/shop.xml"/>
+    <!--时间触发器-->
+    <file type="timetrigger" path="timetrigger/timetrigger.xml"/>
+    <!--动画-->
+    <file type="animation" path="animations/animations.xml"/>
+    <file type="animation" path="animations/skillanimations.xml"/>
+  </files>
+</project>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <maps>
+   
+    <map name="石梁派" pic="地图.青城派" >
+      <musics>
+        <music name="音乐.神雕.舒缓" />
+      </musics>
+      <maprole roleKey="石梁派大殿" pic="地图.大殿室内6" description="石梁派大殿">
+        <event image="头像.温老头" repeat="once" type="story" value="bixuejianShyou_打开包裹石梁派" description="里面人声鼎沸">
+          <condition type="should_finish" value="bixuejianShyou_得黄金" />
+        </event>
+        <event image="头像.温青青" repeat="once" type="story" value="bixuejianShyou_不接黄金石梁派1">
+          <condition type="should_finish" value="bixuejianShyou_不接黄金" />
+        </event>
+        <event image="头像.温青青" repeat="once" type="story" value="bixuejianShyou_接金胜不开包裹石梁派1">
+          <condition type="should_finish" value="bixuejianShyou_接黄金2" />
+          <condition type="should_not_finish" value="bixuejianShyou_得黄金" />
+        </event>
+        <event image="头像.小兵2" repeat="once" type="story" value="bixuejianShyou_接金败石梁派1">
+          <condition type="should_finish" value="bixuejianShyou_接黄金3" />
+        </event>
+        <event description="前往石梁派大殿" type="map" value="石梁派大殿" />
+      </maprole>
+      <maprole roleKey="back" description="返回杭州">
+          <event type="map" value="杭州" />
+        </maprole>
+     </map>
+    <map name="石梁派大殿" pic="地图.大殿室内6" >
+      <musics>
+        <music name="音乐.神雕.舒缓" />
+      </musics>
+      <maprole roleKey="温青青" description="俏脸含煞的瞪着你">
+        <event  type="story" value="bixuejianShyou_不接黄金石梁派5" >
+          <condition type="should_finish" value="bixuejianShyou_不接黄金石梁派4" />
+          <condition type="should_not_finish" value="mainStory_神秘剑客1"/>
+          <condition type="should_not_finish" value="bixuejianShyou_不接黄金石梁派7" />
+        </event>
+      </maprole>
+      <maprole roleKey="back" description="返回杭州">
+        <event type="map" value="石梁派" />
+      </maprole>
+    </map>
+    <map name="天安门" pic="地图.大帐" >
+      <musics>
+        <music name="音乐.城市3" />
+      </musics>
+      <maprole roleKey="公主寝宫" pic="地图.琴舍" description="公主寝宫">
+        <event image="地图.琴舍" description="前往公主寝宫" type="map" value="公主寝宫" />
+      </maprole>
+      <maprole roleKey="孙仲寿" description="神情激昂，状若癫狂">
+        <event repeat="once" type="story" value="bixuejianShyou_京城行3" >
+          <condition type="in_team" value="阿九" />
+          <condition type="should_finish" value="bixuejianShyou_京城行2" />
+        </event>
+      </maprole>
+      <maprole roleKey="back" description="返回北京">
+        <event type="map" value="北京" />
+      </maprole>
+    </map>
+    <map name="公主寝宫" pic="地图.寝宫" >
+      <musics>
+        <music name="音乐.神雕.舒缓" />
+      </musics>
+      <maprole roleKey="阿九" description="惊讶的望着你">
+        <event probability="100" repeat="once" type="story" value="bixuejianShyou_京城行1" >
+          <condition type="not_in_team" value="温青青" />
+          <condition type="in_team" value="袁承志" />
+          <!--<condition type="in_time" value="子#丑#亥" />-->
+        </event>
+      </maprole>
+      <maprole roleKey="back" description="返回北京">
+        <event type="map" value="北京" />
+      </maprole>
+    </map>
+    
+  </maps>
+  
+</root>

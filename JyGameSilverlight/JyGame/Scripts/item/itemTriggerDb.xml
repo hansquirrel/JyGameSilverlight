@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+item_trigger 
+  minlevel 等级最小
+  maxlevel 等级最大
+  name 物品名全等
+  trigger
+      name trigger 名称
+      type 类型 1:武器 2:防具 3:特殊
+      w 权重，默认100
+      param
+          min 最小
+          max 最大
+          pool 选择池，逗号分隔
+    
+没有带pool的param的, name为主键，否则name+pool为主键
+-->
+<item_triggers>
+  <item_trigger minlevel="1" maxlevel="1">
+    <trigger name="attack">
+      <param min="1" max="5"/>
+      <param min="0" max="3"/>
+    </trigger>
+    <trigger name="defence">
+      <param min="1" max="5"/>
+      <param min="0" max="5"/>
+    </trigger>
+    <trigger name="attribute">
+      <param pool="搏击格斗,使剑技巧,耍刀技巧,奇门兵器,根骨,臂力,福缘,身法,定力,悟性"/>
+      <param min="1" max="5"/>
+    </trigger>
+    <trigger name="talent" w="5">
+      <param pool="暴躁,老江湖,左手剑,神兵,宝甲,鲁莽,锐眼"/>
+    </trigger>
+    <trigger name="mingzhong">
+      <param min="3" max="8"/>
+    </trigger>
+  </item_trigger>
+
+  <item_trigger minlevel="2" maxlevel="3">
+    <trigger name="attack">
+      <param min="3" max="10"/>
+      <param min="0" max="5"/>
+    </trigger>
+    <trigger name="defence">
+      <param min="3" max="10"/>
+      <param min="0" max="5"/>
+    </trigger>
+    <trigger name="attribute">
+      <param pool="搏击格斗,使剑技巧,耍刀技巧,奇门兵器,根骨,臂力,福缘,身法,定力,悟性"/>
+      <param min="2" max="6"/>
+    </trigger>
+    <trigger name="talent" w="5">
+      <param pool="暴躁,老江湖,左手剑,神兵,宝甲,鲁莽,锐眼"/>
+    </trigger>
+    <trigger name="mingzhong">
+      <param min="5" max="10"/>
+    </trigger>
+  </item_trigger>
+
+  <item_trigger minlevel="4" maxlevel="5">
+    <trigger name="attack">
+      <param min="8" max="15"/>
+      <param min="0" max="5"/>
+    </trigger>
+    <trigger name="defence">
+      <param min="8" max="15"/>
+      <param min="0" max="5"/>
+    </trigger>
+    <trigger name="attribute">
+      <param pool="搏击格斗,使剑技巧,耍刀技巧,奇门兵器,根骨,臂力,福缘,身法,定力,悟性"/>
+      <param min="4" max="8"/>
+    </trigger>
+    <trigger name="talent">
+      <param pool="暴躁,老江湖,左手剑,神兵,宝甲,鲁莽,锐眼"/>
+    </trigger>
+    <trigger name="xi" w="20">
+      <param min="1" max="3"/>
+    </trigger>
+    <trigger name="critical" w="20">
+      <param min="1" max="5"/>
+    </trigger>
+    <trigger name="powerup_quanzhang" w="20">
+      <param min="1" max="3"/>
+    </trigger>
+    <trigger name="powerup_jianfa" w="20">
+      <param min="1" max="3"/>
+    </trigger>
+    <trigger name="powerup_daofa" w="20">
+      <param min="1" max="3"/>
+    </trigger>
+    <trigger name="powerup_qimen" w="20">
+      <param min="1" max="3"/>
+    </trigger>
+    <trigger name="powerup_aoyi">
+      <param pool="古墓.森罗万象.天罗地网掌,古墓.森罗万象.玉女剑法,古墓.森罗万象.驱蜂术,灵鹫宫绝学.逍遥游,灵鹫宫绝学.北冥一剑,灵鹫宫绝学.北冥神掌,全真绝学.三花聚顶,全真绝学.重阳剑法,狂风,紫霞剑气,华山剑宗,华山一剑,九阴神爪,九阴魔爪,千噬万毒"/>
+      <param min="5" max="15"/>
+      <param min="0" max="5"/>
+    </trigger>
+    <trigger name="mingzhong">
+      <param min="7" max="14"/>
+    </trigger>
+  </item_trigger>
+
+  <item_trigger minlevel="6" maxlevel="7">
+    <trigger name="attack">
+      <param min="10" max="30"/>
+      <param min="3" max="7"/>
+    </trigger>
+    <trigger name="defence">
+      <param min="10" max="30"/>
+      <param min="3" max="10"/>
+    </trigger>
+    <trigger name="attribute">
+      <param pool="搏击格斗,使剑技巧,耍刀技巧,奇门兵器,根骨,臂力,福缘,身法,定力,悟性"/>
+      <param min="5" max="10"/>
+    </trigger>
+    <trigger name="talent" w="50">
+      <param pool="心眼通明,拳掌增益,剑法增益,刀法增益,奇门增益,剑封印,刀封印,奇门封印,拳掌封印,斗魂,奋战"/>
+    </trigger>
+    <trigger name="xi" w="20">
+      <param min="1" max="5"/>
+    </trigger>
+    <trigger name="critical" w="20">
+      <param min="5" max="10"/>
+    </trigger>
+    <trigger name="mingzhong">
+      <param min="5" max="15"/>
+    </trigger>
+    <trigger name="powerup_quanzhang" w="20">
+      <param min="3" max="5"/>
+    </trigger>
+    <trigger name="powerup_jianfa" w="20">
+      <param min="3" max="5"/>
+    </trigger>
+    <trigger name="powerup_daofa" w="20">
+      <param min="3" max="5"/>
+    </trigger>
+    <trigger name="powerup_qimen" w="20">
+      <param min="3" max="5"/>
+    </trigger>
+    <trigger name="powerup_aoyi">
+      <param pool="全真绝学.重阳剑法,全真绝学.太乙剑诀,全真绝学.三花聚顶,灵鹫宫绝学.天地唯我独尊,灵鹫宫绝学.天羽奇剑,日月魔剑,玉蜂群,达摩焚天,达摩千劫,金蛇郎君.金蛇剑法奥义,九阴神爪,九阴魔爪,千噬万毒,阴阳双指,天南一指,纯阳一指,先天一指,碧海潮生,大宗师,潇湘夜雨.一剑落九雁,大轮.无上秘境.金刚神杵,大轮.无上秘境.漫天花雨,大轮.无上秘境.密宗大手印"/>
+      <param min="5" max="23"/>
+      <param min="0" max="5"/>
+    </trigger>
+    <trigger name="powerup_skill">
+      <param pool="野球拳,独孤九剑,降龙十八掌,混元掌,辟邪剑法,打狗棒法,天山折梅手,血刀大法,胡家刀法,黯然销魂掌,六脉神剑,金蛇剑法,一阳指,金蛇锥,天外飞龙,玄冥神掌,药王神掌,上清剑法,连城剑法,苗家剑法,太极剑,玄铁剑法,三花聚顶掌,弹指神通,太极拳,青莲掌法,碧落苍穹"/>
+      <param min="2" max="6"/>
+    </trigger>
+    <trigger name="powerup_internalskill">
+      <param pool="葵花宝典,九阳神功,九阴神功,太玄神功,易筋经,混元功,铁血大旗功,龙象般若功,血海魔功,罗汉伏魔功,八荒六合唯我独尊功,北冥神功,蛤蟆功,太极神功,神照功,先天功"/>
+      <param min="2" max="5"/>
+    </trigger>
+    <trigger name="sp" w="20">
+      <param pool="0.1,0.15"/>
+    </trigger>
+    <trigger name="anti_debuff" w="20">
+      <param min="3" max="6"/>
+    </trigger>
+  </item_trigger>
+
+  <item_trigger minlevel="7" maxlevel="7">
+    <trigger name="powerup_aoyi">
+      <param pool="血刀大法奥义.血海无边,混元掌奥义.劈石破玉拳,辟邪剑法奥义式,辟邪剑法.阴凛玄煞.电光火石,草头百姓的逆袭.百姓也有春天,草头百姓的逆袭.这下子逆天了,绝学.刀剑归真,绝学.无招胜有招,降龙十八掌奥义式,武当绝学.太极拳奥义,武当绝学.太极剑奥义,华山绝学.独孤九剑奥义,逍遥绝学.生死符,丐帮绝学.打狗棒法奥义,古墓绝学.双剑合璧,大理绝学.六脉神剑奥义,铁剑门绝学.银河落九天,黯然销魂掌奥义式"/>
+      <param min="10" max="25"/>
+      <param min="0" max="5"/>
+    </trigger>
+    <trigger name="powerup_skill" w="20">
+      <param pool="野球拳,独孤九剑,降龙十八掌,混元掌,辟邪剑法,打狗棒法,天山折梅手,血刀大法,胡家刀法,黯然销魂掌,六脉神剑,金蛇剑法,玄铁剑法"/>
+      <param min="4" max="10"/>
+    </trigger>
+    <trigger name="powerup_internalskill" w="20">
+      <param pool="葵花宝典,九阳神功,九阴神功,太玄神功,易筋经,混元功,铁血大旗功,龙象般若功,血海魔功,罗汉伏魔功,八荒六合唯我独尊功,北冥神功,蛤蟆功,太极神功,神照功,先天功"/>
+      <param min="4" max="7"/>
+    </trigger>
+    <trigger name="xi" w="20">
+      <param min="2" max="6"/>
+    </trigger>
+    <trigger name="sp" w="20">
+      <param pool="0.1,0.15,0.2,0.25,0.3"/>
+    </trigger>
+    <trigger name="anti_debuff" w="20">
+      <param min="5" max="12"/>
+    </trigger>
+  </item_trigger>
+  
+</item_triggers>

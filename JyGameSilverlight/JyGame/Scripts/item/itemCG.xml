@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- type 0消耗品  1武器  2防具  3特殊  4经书  5任务物品-->
+<items>
+  <!-- 武器-->
+  <item name="精制匕首" desc="一把锋利的匕首" pic="物品.匕首2" type="1" level="2" price="100" talent="剑系装备" drop="true">
+    <require name="shenfa" argvs="35"/>
+    <trigger name="attack" argvs="40,3"/>
+  </item>
+  <item name="古铜匕首" desc="一把古铜铸造的匕首" pic="物品.匕首3" type="1" level="4" price="200" talent="剑系装备" drop="true">
+    <require name="shenfa" argvs="40"/>
+    <trigger name="attack" argvs="40,3"/>
+    <trigger name="attribute" argvs="身法,5"/>
+  </item>
+  <item name="龙泉剑" desc="清澈如水的龙泉宝剑" pic="物品.剑3" type="1" level="5" price="300" talent="剑系装备" drop="true">
+    <require name="shenfa" argvs="70"/>
+    <require name="dingli" argvs="70"/>
+    <trigger name="attack" argvs="80,3"/>
+  </item>
+
+  <item name="铲刀" desc="长得象铲子的刀" pic="物品.刀1" type="1" level="2" price="150" talent="刀系装备" drop="true">
+    <require name="shenfa" argvs="40"/>
+    <require name="bili" argvs="40"/>
+    <trigger name="attack" argvs="40,3"/>
+    <trigger name="critical" argvs="12"/>
+  </item>
+  <item name="戒刀" desc="江湖汉子使用的普通刀" pic="物品.刀3" type="1" level="4" price="200" talent="刀系装备" drop="true">
+    <require name="shenfa" argvs="45"/>
+    <require name="bili" argvs="45"/>
+    <trigger name="attack" argvs="55,3"/>
+    <trigger name="critical" argvs="14"/>
+  </item>
+  <item name="锯齿刀" desc="铸有倒刺的刀，锋利无比" pic="物品.刀4" type="1" level="5" price="300" talent="刀系装备" drop="true">
+    <require name="shenfa" argvs="65"/>
+    <require name="bili" argvs="70"/>
+    <trigger name="attack" argvs="75,3"/>
+    <trigger name="critical" argvs="18"/>
+  </item>
+  <item name="飞轮" desc="可以甩出去的暗器" pic="物品.飞轮" type="1" level="3" price="250" talent="奇门装备" drop="true">
+    <require name="shenfa" argvs="65"/>
+    <require name="dingli" argvs="55"/>
+    <trigger name="attack" argvs="60,3"/>
+    <trigger name="powerup_qimen" argvs="10"/>
+  </item>
+  <item name="吴钩" desc="钩，兵器，形似剑而曲。春秋吴人善铸钩，故称。" pic="物品.吴钩" type="1" level="4" price="300" talent="奇门装备" drop="true">
+    <require name="shenfa" argvs="65"/>
+    <require name="dingli" argvs="55"/>
+    <trigger name="attack" argvs="75,3"/>
+    <trigger name="powerup_qimen" argvs="12"/>
+  </item>
+  <item name="流星锤" desc="流星锤，是一种将金属锤头系于长绳一端或两端制成的软兵器，亦属索系暗器类。" pic="物品.流星锤" type="1" level="5" price="300" talent="奇门装备" drop="true">
+    <require name="shenfa" argvs="77"/>
+    <require name="dingli" argvs="55"/>
+    <trigger name="attack" argvs="80,7"/>
+    <trigger name="powerup_qimen" argvs="14"/>
+  </item>
+  <item name="拳击手套" desc="拳击手使用的手套。" pic="物品.拳套" type="1" level="3" price="300" talent="拳系装备" drop="true">
+    <require name="bili" argvs="60"/>
+    <require name="gengu" argvs="55"/>
+    <trigger name="attack" argvs="60,3"/>
+  </item>
+  <item name="月梦爪" desc="梦到月亮？" pic="物品.爪1" type="1" level="4" price="300" talent="拳系装备" drop="true">
+    <require name="bili" argvs="60"/>
+    <require name="gengu" argvs="55"/>
+    <trigger name="attack" argvs="50,3"/>
+    <trigger name="attribute" argvs="悟性,10"/>
+  </item>
+  <item name="搏击爪套" desc="耐用的搏击用的爪套" pic="物品.爪2" type="1" level="5" price="350" talent="拳系装备" drop="true">
+    <require name="bili" argvs="70"/>
+    <require name="gengu" argvs="55"/>
+    <trigger name="attack" argvs="60,3"/>
+    <trigger name="defence" argvs="15,0"/>
+  </item>
+  
+  <!-- 防具-->
+  <item name="金丝袈裟" desc="珠光宝气的袈裟" pic="物品.袈裟2" type="2" level="4" price="300" drop="true">
+    <require name="shenfa" argvs="65"/>
+    <require name="dingli" argvs="55"/>
+    <trigger name="defence" argvs="25,5"/>
+    <trigger name="attribute" argvs="福缘,10"/>
+  </item>
+  <item name="忍者服" desc="忍者穿的衣服" pic="物品.忍者服" type="2" level="5" price="400" drop="true">
+    <require name="shenfa" argvs="75"/>
+    <require name="dingli" argvs="75"/>
+    <trigger name="defence" argvs="40,5"/>
+    <trigger name="attack" argvs="15,2"/>
+  </item>
+  <item name="粗布披风" desc="很平常的粗布制造的披风" pic="物品.衣服3" type="2" level="3" price="200" drop="true">
+    <require name="shenfa" argvs="35"/>
+    <require name="dingli" argvs="35"/>
+    <trigger name="defence" argvs="20,5"/>
+  </item>
+  <item name="华裳" desc="华丽的衣裳" pic="物品.衣服7" type="2" level="4" price="350" drop="true">
+    <require name="shenfa" argvs="35"/>
+    <require name="dingli" argvs="35"/>
+    <trigger name="defence" argvs="15,5"/>
+    <trigger name="attribute" argvs="福缘,15"/>
+  </item>
+  <item name="幽梦衣" desc="传说鬼魂穿的衣服" pic="物品.衣服8" type="2" level="6" price="450">
+    <require name="shenfa" argvs="90"/>
+    <require name="dingli" argvs="90"/>
+    <trigger name="defence" argvs="50,8"/>
+    <trigger name="attribute" argvs="臂力,10"/>
+  </item>
+  <item name="霓裳羽衣" desc="以云霓为裳，以羽毛作衣。" pic="物品.女衣1" type="2" level="6" price="450">
+    <require name="shenfa" argvs="90"/>
+    <require name="dingli" argvs="90"/>
+    <trigger name="defence" argvs="42,8"/>
+    <trigger name="attribute" argvs="福缘,10"/>
+  </item>
+  
+  <!-- 饰品-->
+  <item name="将军头盔" desc="冲锋陷阵的有用头盔。" pic="物品.头盔" type="3" level="2" price="100" drop="true">
+    <trigger name="attribute" argvs="福缘,5"/>
+  </item>
+  
+  <item name="檀香佛珠" desc="散发着檀香的怡人芬芳的佛珠。" pic="物品.佛珠" type="3" level="3" price="200" drop="true">
+    <trigger name="attribute" argvs="福缘,5"/>
+  </item>
+  
+  <item name="金丝护腕" desc="金丝纺织而成的护腕。" pic="物品.护腕" type="3" level="3" price="200" drop="true">
+    <trigger name="attribute" argvs="臂力,8"/>
+  </item>
+
+  <item name="橙色灯戒" desc="橙色发光的戒指。" pic="物品.戒指1" type="3" level="4" price="300" drop="true">
+    <trigger name="attribute" argvs="福缘,5"/>
+  </item>
+
+  <item name="铂金戒指" desc="铂金做的戒指。" pic="物品.戒指2" type="3" level="5" price="400" drop="true">
+    <trigger name="attribute" argvs="定力,5"/>
+  </item>
+
+  <item name="蓝宝戒指" desc="镶嵌有蓝宝石的戒指。" pic="物品.戒指3" type="3" level="6" price="450" drop="true">
+    <trigger name="attribute" argvs="定力,10"/>
+    <trigger name="attribute" argvs="福缘,10"/>
+  </item>
+
+  <item name="水晶护符" desc="水晶做的护身符，能极大的提高你的幸运。" pic="物品.水晶" type="3" level="6" price="450">
+    <trigger name="attribute" argvs="福缘,30"/>
+  </item>
+</items>

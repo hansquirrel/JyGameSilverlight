@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <!-- 全真教门内 -->
+  <story name="全真教_加入全真">
+    <action type="BACKGROUND" value="地图.全真教" />
+    <action type="MUSIC" value="音乐.全真教" />
+    <action type="DIALOG" value="马钰#全真教是武林正派，自古正邪不两立，只要你立下誓言行侠仗义，除恶安良，保护平民百姓以及不残害正派同门，就可入我全真门下。" />
+    <action type="DIALOG" value="主角#是，我发誓以后会行侠仗义，除暴安良，保护百姓，不残害正派同门。" />
+    <action type="DIALOG" value="马钰#恩，以后你可随尹志平习武。门派每过一段时间都有大比，只要你表现优秀，就可研习全真上乘功夫。但表现的太糟糕的话，可是会受到惩罚的。" />
+    <action type="DIALOG" value="主角#是，弟子记下了。" />
+    <action type="DIALOG" value="马钰#恩，你下去吧。" />
+    <action type="NICK" value="全真弟子" />
+    <action type="LEARN.TALENT" value="主角#清风" />
+    <action type="MENPAI" value="全真教" />
+    <action type="ITEM" value="全真教道服" />
+    <result ret="0" type="map" value="全真教"/>
+  </story>
+
+  <story name="全真教_烧香坊">
+    <action type="BACKGROUND" value="地图.佛堂" />
+    <action type="DIALOG" value="主角#点上一根香，求神灵保佑！" />
+    <action type="UPGRADE.福缘" value="主角#2" />
+    <action type="UPGRADE.MAXHP" value="主角#30" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="map" value="全真教"/>
+  </story>
+  <story name="全真教_静念楼">
+    <action type="BACKGROUND" value="地图.藏书" />
+    <action type="DIALOG" value="主角#自别后遥山隐隐，更那堪远山粼粼。 见杨柳飞绵滚滚，对桃花醉脸醺醺。 透内阁香风阵阵，掩重门暮雨纷纷。" />
+    <action type="UPGRADE.根骨" value="主角#1" />
+    <action type="UPGRADE.定力" value="主角#1" />
+    <action type="UPGRADE.MAXMP" value="主角#30" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="map" value="全真教"/>
+  </story>
+  
+  <story name="全真教_苗守一练习">
+    <action type="DIALOG" value="苗守一#师弟，来陪我练习练习武功吧？" />
+    <action type="SELECT" value="主角#花一天时间陪苗守一练功吗？#是#否" />
+    <result ret="0" type="story" value="全真教_苗守一练习是" />
+    <result ret="1" type="story" value="全真教_苗守一练习否" />
+  </story>
+  <story name="全真教_苗守一练习是">
+    <action type="DIALOG" value="主角#好！我们一起来练习吧！" />
+    <action type="COST_DAY" value="1" />
+    <action type="BATTLE" value="门派大比3_苗守一" />
+    <result ret="win" type="story" value="全真教_苗守一练习胜利" />
+    <result ret="lose" type="story" value="全真教_苗守一练习失败" />
+  </story>
+  <story name="全真教_苗守一练习否">
+    <action type="DIALOG" value="主角#不好意思师兄，我今天没空。" />
+  </story>
+  <story name="全真教_苗守一练习胜利">
+    <action type="DIALOG" value="苗守一#师弟好厉害！" />
+    <action type="DIALOG" value="主角#承让承让！" />
+    <action type="DIALOG" value="苗守一#送给师弟一个礼物吧。" />
+    <action type="DIALOG" value="主角#谢谢！" />
+    <action type="ITEM" value="九花玉露丸#1" />
+    <result ret="0" type="map" value="全真教"/>
+  </story>
+  <story name="全真教_苗守一练习失败">
+    <action type="DIALOG" value="苗守一#哈哈，终于有人武功比我还差了，开心。" />
+    <action type="DIALOG" value="主角#……" />
+    <result ret="0" type="map" value="全真教"/>
+  </story>
+  
+  <story name="全真教_尹志平">
+    <action type="DIALOG" value="尹志平#欢迎师弟加入全真教，我是尹志平，负责教授新人武学知识。" />
+    <action type="DIALOG" value="主角#（OOXX小龙女的便是这货了，不知道此作里能否阻止他……）是，尹师兄！" />
+    <action type="DIALOG" value="尹志平#我全真教讲究自内而外的修炼，讲究扎实的功底，以气运剑，以气运拳，所以请先随我修习内功吧。" />
+    <action type="DIALOG" value="主角#好的！" />
+  </story>
+  <story name="全真教_尹志平内功">
+    <action type="DIALOG" value="尹志平#今天要学习内功吗？" />
+    <action type="SELECT" value="主角#要学习吗？#学一天#学五天#否" />
+    <result ret="0" type="story" value="全真教_尹志平内功学习" />
+    <result ret="1" type="story" value="全真教_尹志平内功学习2" />
+  </story>
+  <story name="全真教_尹志平内功学习">
+    <action type="DIALOG" value="主角#一住行窠五十年，蓬头白日走如颠。"/>
+    <action type="UPGRADE.INTERNALSKILL" value="主角#全真心法#1" />
+    <action type="UPGRADE.根骨" value="主角#1" />
+    <action type="COST_DAY" value="1" />
+  </story>
+  <story name="全真教_尹志平内功学习2">
+    <action type="DIALOG" value="主角#一住行窠五十年，蓬头白日走如颠。"/>
+    <action type="UPGRADE.INTERNALSKILL" value="主角#全真心法#5" />
+    <action type="UPGRADE.根骨" value="主角#5" />
+    <action type="COST_DAY" value="5" />
+  </story>
+  <story name="全真教_尹志平内功修炼完毕">
+    <action type="DIALOG" value="尹志平#师弟内功基础已经学的不错了，今天我们开始学习外功武学。本门武学分拳、剑两个分枝。当然，有兴趣的话，也可以双修。比如我重阳祖师，在拳剑上均有极高的造诣。" />
+    <action type="DIALOG" value="主角#不知我派均有哪些绝学？" />
+    <action type="DIALOG" value="尹志平#拳法上，有周伯通师叔祖开创的空明拳，有门派绝学三花聚顶掌，当然我重阳祖师最擅长的是一阳指。" />
+    <action type="DIALOG" value="尹志平#剑法上，有七星七绝剑、同归剑法、一剑化三清甚至我们的强大剑阵天罡北斗阵。" />
+    <action type="DIALOG" value="尹志平#内功上，我门派也是傲视群雄，比如重阳祖师所创的先天功，以及江湖上传说的神秘的九阴神功。当然，这些我也只是听说而已，我是没有福分修得，看师弟的造化了！" />
+    <action type="DIALOG" value="主角#谢谢师兄！" />
+    <action type="DIALOG" value="尹志平#那我们开始习武吧，虽然我门绝学众多，但也需要从基础的开始学起。" />
+    <result ret="0" type="story" value="全真教_尹志平2"/>
+  </story>
+  <story name="全真教_尹志平2">
+    <action type="DIALOG" value="尹志平#今天想要学习什么？" />
+    <action type="SELECT" value="主角#今天想要学习什么？#全真剑法#全真剑法（五天）#昊天掌#昊天掌（五天）#金雁功#金雁功（五天）" />
+    <result ret="0" type="story" value="全真教_尹志平_全真剑法"/>
+    <result ret="1" type="story" value="全真教_尹志平_全真剑法2"/>
+    <result ret="2" type="story" value="全真教_尹志平_昊天掌"/>
+    <result ret="3" type="story" value="全真教_尹志平_昊天掌2"/>
+    <result ret="4" type="story" value="全真教_尹志平_金雁功"/>
+    <result ret="5" type="story" value="全真教_尹志平_金雁功2"/>
+  </story>
+  <story name="全真教_尹志平_全真剑法">
+    <action type="DIALOG" value="主角#可得一点浩然气，便成千里快哉风！"/>
+    <action type="UPGRADE.SKILL" value="主角#全真剑法#1" />
+    <action type="UPGRADE.剑法" value="主角#1" />
+    <action type="COST_DAY" value="1" />
+  </story>
+  <story name="全真教_尹志平_全真剑法2">
+    <action type="DIALOG" value="主角#可得一点浩然气，便成千里快哉风！"/>
+    <action type="UPGRADE.SKILL" value="主角#全真剑法#5" />
+    <action type="UPGRADE.剑法" value="主角#5" />
+    <action type="COST_DAY" value="5" />
+  </story>
+  <story name="全真教_尹志平_昊天掌">
+    <action type="DIALOG" value="主角#摩拳擦掌弓弦挽，英雄泼墨断云山！"/>
+    <action type="UPGRADE.SKILL" value="主角#昊天掌#1" />
+    <action type="UPGRADE.拳掌" value="主角#1" />
+    <action type="UPGRADE.定力" value="主角#1" />
+    <action type="UPGRADE.根骨" value="主角#1" />
+    <action type="COST_DAY" value="1" />
+  </story>
+  <story name="全真教_尹志平_昊天掌2">
+    <action type="DIALOG" value="主角#摩拳擦掌弓弦挽，英雄泼墨断云山！"/>
+    <action type="UPGRADE.SKILL" value="主角#昊天掌#5" />
+    <action type="UPGRADE.拳掌" value="主角#5" />
+    <action type="UPGRADE.定力" value="主角#5" />
+    <action type="UPGRADE.根骨" value="主角#5" />
+    <action type="COST_DAY" value="5" />
+  </story>
+  <story name="全真教_尹志平_金雁功">
+    <action type="DIALOG" value="主角#漫雪走飞割如瀑,白光辗转鸟不绝。"/>
+    <action type="UPGRADE.身法" value="主角#2" />
+    <action type="COST_DAY" value="1" />
+  </story>
+  <story name="全真教_尹志平_金雁功2">
+    <action type="DIALOG" value="主角#漫雪走飞割如瀑,白光辗转鸟不绝。"/>
+    <action type="UPGRADE.身法" value="主角#10" />
+    <action type="COST_DAY" value="5" />
+  </story>
+  <story name="全真教_赵志敬">
+    <action type="DIALOG" value="主角#（这家伙就是坏蛋牛鼻子赵志敬了）" />
+    <action type="DIALOG" value="赵志敬#哼！来我这里有何事啊？" />
+    <action type="SELECT" value="主角#要做什么呢？#挑战#讨好" />
+    <result ret="0" type="story" value="全真教_挑战赵志敬"/>
+    <result ret="1" type="story" value="全真教_讨好赵志敬"/>
+  </story>
+  <story name="全真教_挑战赵志敬">
+    <action type="DIALOG" value="赵志敬#小辈对长辈不敬，找死！" />
+    <action type="BATTLE" value="赵志敬_战斗" />
+    <result ret="win" type="story" value="全真教_战胜赵志敬"/>
+    <result ret="lose" type="story" value="全真教_战败赵志敬"/>
+  </story>
+  <story name="全真教_战胜赵志敬">
+    <action type="DIALOG" value="主角#哼哼，堂堂志字辈道长被一个刚入门的小辈给打败咯，说出去真丢脸啊！" />
+    <action type="DIALOG" value="主角#你这剑不错，大爷我就没收了。" />
+    <action type="ITEM" value="赵志敬的剑#1"/>
+    <action type="DIALOG" value="赵志敬#君子报仇十年不晚，你等着！" />
+  </story>
+  <story name="全真教_战败赵志敬">
+    <action type="DIALOG" value="赵志敬#给我舒活舒活筋骨也蛮好，本道长今天心情好放过你了，滚吧！" />
+  </story>
+  <story name="全真教_讨好赵志敬">
+    <action type="DIALOG" value="主角#赵仙长，看您操劳教中事物太累了，小的都看不下去了，就让小的给您锤锤腿，揉揉肩吧！" />
+    <action type="DIALOG" value="赵志敬#恩！手法不错，这年头像你这么懂事的小娃娃很少有了！去，顺便把那堆衣服也给我洗了吧！" />
+    <action type="DIALOG" value="主角#是，赵仙长。那小的就先下去了，您好好休息吧！" />
+    <action type="COST_DAY" value="1" />
+    <action type="DIALOG" value="主角#好累好累，洗了一整天啊……" />
+  </story>
+  <story name="全真教_讨好赵志敬后">
+    <action type="DIALOG" value="主角#赵仙长，您老好！" />
+    <action type="DIALOG" value="赵志敬#嗯！小娃娃挺孝顺。你赶紧把剑法基础练好点，我来给你开点小灶。" />
+  </story>
+  <story name="全真教_讨好赵志敬开小灶">
+    <action type="DIALOG" value="赵志敬#小娃娃不错，来今天我偷偷教你一招，看好了。" />
+    <action type="UPGRADE.SKILL" value="主角#一剑化三清#1" />
+    <action type="UPGRADE.剑法" value="主角#1" />
+    <action type="DIALOG" value="主角#哇，赵仙长你简直是小人的在生父母啊！" />
+    <action type="COST_DAY" value="1" />
+  </story>
+  <story name="全真教_讨好赵志敬开小灶2">
+    <action type="DIALOG" value="赵志敬#小娃娃，来帮我把那堆衣服洗了。" />
+    <action type="DIALOG" value="主角#是，赵仙长（当锻炼臂力了……）" />
+    <action type="UPGRADE.臂力" value="主角#1" />
+    <action type="COST_DAY" value="1" />
+  </story>
+  <story name="全真教_门派大比">
+    <action type="BACKGROUND" value="地图.全真教" />
+    <action type="MUSIC" value="音乐.全真教" />
+    <action type="DIALOG" value="马钰#今天到了门派大比的日子了！大家加油表现自己的能力！" />
+    <result ret="0">
+      <control type="story" value="全真教_门派大比1">
+        <condition type="should_not_finish" value="全真教_赵志敬" />
+      </control>
+      <control type="story" value="全真教_门派大比2">
+        <condition type="should_finish" value="全真教_挑战赵志敬" />
+      </control>
+      <control type="story" value="全真教_门派大比3">
+        <condition type="should_finish" value="全真教_讨好赵志敬" />
+      </control>
+    </result>
+  </story>
+  <story name="全真教_门派大比1">
+    <action type="DIALOG" value="赵志敬#前面都打的不错，那个新来的，到你了，下场吧！" />
+    <action type="DIALOG" value="主角#（这什么情况，比武怎么没人事先通知我……）" />
+    <action type="DIALOG" value="赵志敬#谭守诚，你下去跟他打一场看看吧！" />
+    <action type="BATTLE" value="门派大比1_谭守诚"/>
+    <result ret="win" type="story" value="全真教_门派大比完"/>
+    <result ret="lose" type="story" value="全真教_门派大比完"/>
+  </story>
+  <story name="全真教_门派大比完">
+    <action type="DIALOG" value="赵志敬#打的真是一般般，下去吧，哼哼！" />
+    <action type="DIALOG" value="马钰#等等，这名弟子已经有了下山游历的实力了，就让他下山去游历锻炼吧！" />
+    <action type="DIALOG" value="赵志敬#是，师傅！" />
+    <action type="DIALOG" value="赵志敬#听到掌门说的话了么？拿着你的东西，快滚吧！" />
+    <result ret="0" type="story" value="全真教_出师"/>
+  </story>
+  <story name="全真教_门派大比2">
+    <action type="DIALOG" value="赵志敬#（想不到是我负责门派大比吧！）喂，你，下去！" />
+    <action type="DIALOG" value="主角#……（糟，遭了！）" />
+    <action type="DIALOG" value="赵志敬#就让李志常跟你打打吧！" />
+    <action type="BATTLE" value="门派大比2_李志常"/>
+    <result ret="win" type="story" value="全真教_李志常胜"/>
+    <result ret="lose" type="story" value="全真教_门派大比完"/>
+  </story>
+  <story name="全真教_李志常胜">
+    <action type="DIALOG" value="赵志敬#这……这……" />
+    <action type="DIALOG" value="马钰#你是……我记得你，你刚刚入门三个月吧？" />
+    <action type="DIALOG" value="主角#是的掌门。" />
+    <action type="DIALOG" value="马钰#刚刚入门三个月的弟子就能击败李志常，纵使他没有出全力，你也是天纵奇才了！" />
+    <action type="DIALOG" value="主角#多谢道长夸奖！" />
+    <action type="DIALOG" value="马钰#这柄剑是祖师爷遗留下来的佩剑，虽不是特别锋利，但这柄剑中却有一股浩然正气存在，可以使持剑者心气平和。你是我门新人中的佼佼者，就给你佩戴了。" />
+    <action type="ITEM" value="重阳遗剑#1" />
+    <action type="DIALOG" value="主角#谢掌门！" />
+    <action type="DIALOG" value="马钰#恩，你武功乃是全真新一代中第一人，可以下山去游历了！记住要维护住自己名门正派的声名！" />
+    <action type="DIALOG" value="主角#是！" />
+    <result ret="0" type="story" value="全真教_出师"/>
+  </story>
+  <story name="全真教_门派大比3">
+    <action type="DIALOG" value="赵志敬#接下来，恩，来吧小娃子，该你上去试试了，放心吧。" />
+    <action type="DIALOG" value="主角#是，谢道长！" />
+    <action type="DIALOG" value="赵志敬#就让苗守一跟你打一打吧" />
+    <action type="BATTLE" value="门派大比3_苗守一"/>
+    <result ret="win" type="story" value="全真教_苗守一"/>
+    <result ret="lose" type="story" value="全真教_苗守一"/>
+  </story>
+  <story name="全真教_苗守一">
+    <action type="DIALOG" value="赵志敬#恩打的不错！招式圆润平和，腿法恰到好处，内功你也练得不错了吧？" />
+    <action type="DIALOG" value="主角#（嘿，果然没白讨好）是的，弟子已经练到小圆满境界了。" />
+    <action type="DIALOG" value="赵志敬#师傅，我看这小子是个好苗子，不如就？" />
+    <action type="DIALOG" value="马钰#恩，志敬啊，我自然相信你的眼光，只是他的武功还缺少那么一股……劲道。" />
+    <action type="DIALOG" value="赵志敬#他不仅武功不错，道德方面更是没的说，尊老爱幼，洗衣做饭，他都帮忙，而且不求回报，现在这个社会，这种有道德的人才去哪里找？" />
+    <action type="DIALOG" value="马钰#恩，也对。这样吧，这柄剑是我年轻时候的佩剑，就赐予你了，此剑锋利无比，正好可以弥补你武功缺少的劲道，希望你能好好对待它。" />
+    <action type="ITEM" value="马钰佩剑#1" />
+    <action type="DIALOG" value="主角#谢掌门！" />
+    <action type="DIALOG" value="马钰#恩，你武功现在可算可以了，就去下山游历吧。我全真七子里的丘处机道长也在四处游历，之前听说他应该在【襄阳】附近。" />
+    <action type="DIALOG" value="马钰#如果你碰到他，可以凭此剑恳求他指点指点你，他是我们七人里武功最好的那一个，你要跟待我一样尊敬他，知道么？" />
+    <action type="DIALOG" value="主角#是掌门！那弟子告退了！"/>
+    <result ret="0" type="story" value="全真教_出师"/>
+  </story>
+  <story name="全真教_出师">
+    <action type="LOG" value="从全真教出师"/>
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  <!-- 全真教江湖事件 -->
+  <story name="全真教_马钰废话">
+    <action type="DIALOG" value="马钰#切记，行走江湖一定要保持一个侠字，行侠仗义才是我辈所为。"/>
+  </story>
+  
+  <!-- 真九阴事件 -->
+  <story name="全真教_古墓九阴">
+    <action type="DIALOG" value="杨过#（又回到古墓了，真是怀念在这里的日子）"/>
+    <action type="DIALOG" value="杨过#来，兄弟，跟我练练剑吧。"/>
+    <action type="DIALOG" value="主角#行，你用这柄剑吧。"/>
+    <action type="DIALOG" value="杨过#诶，不对！赵志敬……你这柄剑从何而来？"/>
+    <action type="DIALOG" value="主角#这个啊，这是我从赵志敬手上抢来的。"/>
+    <action type="DIALOG" value="杨过#抢来？怎么回事，跟我说说？"/>
+    <action type="DIALOG" value="主角#就是如此这般……"/>
+    <action type="DIALOG" value="杨过#哈哈哈，好你个赵志敬，你也有今天！兄弟你这可算是给我报仇了！你不知道吧，我最开始也是全真弟子，不过却是在赵志敬手下学武功，结果得罪了他，被废了武功，逐出全真了。"/>
+    <action type="DIALOG" value="主角#啊？那？"/>
+    <action type="DIALOG" value="杨过#哈哈哈，也正因为如此，我才碰上了姑姑。说起来这还要感谢那个赵志敬，不过你把他的佩剑抢来，到是真解恨！"/>
+    <action type="DIALOG" value="主角#竟然还有这种事？杨兄，你看，这是祖师王重阳的佩剑，我乃是全真新一代的第一人，我带你上山去解释解释，咱们让那个赵志敬也体验体验被废了武功逐出山门的滋味，如何？"/>
+    <action type="DIALOG" value="杨过#兄弟，你有这份心就够了。冤冤相报何时了，我和姑姑很享受现在这份宁静，不想徒生事端了。"/>
+    <action type="DIALOG" value="小龙女#既然你是全真当前的首徒，不如？"/>
+    <action type="DIALOG" value="杨过#对，我们古墓中有一份你们王重阳祖师刻下的半部九阴真经，当真奇妙无比。这应当是你们全真目前已经失传了的高深内功吧，既然你是全真首徒，理应去过过目。"/>
+    <action type="DIALOG" value="主角#（九阴真经！）啊？这，杨兄，大恩不言谢，以后有用得着我的地方直说！"/>
+    <action type="DIALOG" value="杨过#哎，我和姑姑的重逢，还是因为你在之间的机缘巧合呢。我们夫妻二人还要感谢你呢。"/>
+    <action type="DIALOG" value="小龙女#过儿，带他去看看吧。"/>
+    <action type="DIALOG" value="杨过#好的姑姑，来兄弟，这边走，请看。"/>
+    <action type="DIALOG" value="主角#（仔细参详）原来九阴真经是这般这般……"/>
+    <action type="LEARN.INTERNALSKILL" value="主角#九阴神功#6"/>
+  </story>
+  <story name="全真教_周伯通胜">
+    <action type="DIALOG" value="周伯通#你的武功路数不对！你肯定看过九九九九九阴真经！你是什么人！"/>
+    <action type="DIALOG" value="主角#师叔祖！我是全真弟子啊，我只在机缘巧合下看过半部九阴真经。"/>
+    <action type="DIALOG" value="周伯通#你叫谁师叔祖？你是全真弟子？我不信！"/>
+    <action type="DIALOG" value="主角#师叔你看（亮出重阳遗剑），我乃是全真新一代的第一人。"/>
+    <action type="DIALOG" value="周伯通#给我看看！这是师兄的佩剑啊！他连这把剑都给你了，也难怪你会一点九阴真经上的武功路数了。"/>
+    <action type="DIALOG" value="主角#（给？王重阳祖师不是早已仙逝了么？难道另有隐情？）"/>
+    <action type="DIALOG" value="周伯通#不过你学的不太全啊，没关系，我再点拨点拨你吧。"/>
+    <action type="LEARN.INTERNALSKILL" value="主角#九阴神功#9"/>
+  </story>
+  <story name="全真教_马钰考核">
+    <action type="DIALOG" value="马钰#你下山历练这么久，也闯下不小的名头了，就让我看看你现在的功夫如何吧。"/>
+    <action type="DIALOG" value="主角#是，掌门。"/>
+    <action type="BATTLE" value="全真教_马钰"/>
+    <result ret="win" type="story" value="全真教_马钰胜"/>
+    <result ret="lose" type="story" value="全真教_马钰胜"/>
+  </story>
+  <story name="全真教_马钰胜">
+    <action type="DIALOG" value="马钰#（这，这手功夫……九阴……）"/>
+    <action type="DIALOG" value="主角#掌门手下留情"/>
+    <action type="DIALOG" value="马钰#（罢了，天意……）你……你去祖师爷的房间，去打扫一下吧，注意房间里的蒲团，不要弄错了位置。"/>
+    <action type="DIALOG" value="主角#（好奇怪）是，掌门。"/>
+    <result ret="0" type="story" value="全真教_九阴蒲团"/>
+  </story>
+  <story name="全真教_九阴蒲团">
+    <action type="BACKGROUND" value="地图.室内"/>
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="主角#蒲团？蒲团里有东西么？"/>
+    <action type="DIALOG" value="主角#蒲团下面的石板！"/>
+    <action type="DIALOG" value="主角#（石板背面刻着九阴真经的总决）"/>
+    <action type="DIALOG" value="主角#什么！这段话的意思难道是将内力直接从丹田灌入？"/>
+    <action type="DIALOG" value="主角#富贵险中求，拼了！"/>
+    <action type="BATTLE" value="全真教_真九阴"/>
+    <result ret="win" type="story" value="全真教_真九阴胜利"/>
+  </story>
+  <story name="全真教_真九阴胜利">
+    <action type="BACKGROUND" value="地图.室内"/>
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="主角#（重阳遗剑传来一阵又一阵的清凉，逐渐压制了澎湃汹涌的内力）"/>
+    <action type="DIALOG" value="主角#多亏了祖师爷的佩剑，否则就要走火入魔了。如果是没有佩戴这重阳遗剑的人来练这九阴真经的总纲，一定会走火入魔，全身内力迸发而死。好险好险。"/>
+    <action type="LEARN.INTERNALSKILL" value="主角#九阴神功#12"/>
+    <action type="LEARN.TALENT" value="主角#玄门罡气"/>
+    <action type="GET_POINT" value="主角#15"/>
+    <action type="LOG" value="学会全真教相传顶级武学，九阴真经。"/>
+    <action type="NICK" value="重阳祖师"/>
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  
+  <!--同归剑法事件-->
+  <story name="全真教_丘处机">
+    <action type="DIALOG" value="主角#丘师伯好。"/>
+    <action type="DIALOG" value="丘处机#哦？你是……马钰的佩剑？"/>
+    <action type="DIALOG" value="主角#丘师伯好眼光，这是掌门赐予我的佩剑，他说让我下山后来找您指点我武功。"/>
+    <action type="DIALOG" value="丘处机#恩，可以。这样吧，你先去下面战场上杀邪教人物，让我看看你武功如何吧。邪教人物杀人不眨眼，你要小心。"/>
+    <action type="BATTLE" value="全真教_襄阳邪教人物"/>
+    <result ret="win" type="story" value="全真教_邪教人物胜利"/>
+  </story>
+  <story name="全真教_邪教人物胜利">
+    <action type="DIALOG" value="主角#丘师伯，如何？"/>
+    <action type="DIALOG" value="丘处机#恩……杀伐果断却又中气平和，确实是一块好苗子。"/>
+    <action type="DIALOG" value="主角#请师伯指点！"/>
+    <action type="DIALOG" value="丘处机#我这就传授给你一门我全真教的拳掌绝学。"/>
+    <action type="DIALOG" value="主角#是！"/>
+    <action type="ITEM" value="三花聚顶掌掌谱#1"/>
+    <action type="DIALOG" value="丘处机#行了，我先走了，你我有缘再见吧。"/>
+    <action type="DIALOG" value="主角#恭送师伯！"/>
+  </story>
+  
+  <!--三花聚顶掌-->
+  <story name="全真教_孙不二">
+    <action type="DIALOG" value="孙不二#听说你是我门新一辈中的佼佼者，果然一表人才。"/>
+    <action type="DIALOG" value="主角#晚辈拜见孙师伯！"/>
+    <action type="DIALOG" value="孙不二#很好，很好！你这跟着尹志平武功练的不错，我这儿有个任务交给你。"/>
+    <action type="DIALOG" value="孙不二#最近江湖上出了一个采花大盗名叫田伯光，你去将他杀死，为民除害！"/>
+    <action type="DIALOG" value="主角#（啊，我的小田田。。）"/>
+    <action type="SELECT" value="主角#是否要接受杀死田伯光的任务？#是#否"/>
+    <result ret="0" type="story" value="全真教_孙不二是"/>
+    <result ret="1" type="story" value="全真教_孙不二否"/>
+  </story>
+  <story name="全真教_孙不二是">
+    <action type="DIALOG" value="主角#是！师伯！晚辈一定竭尽全力！"/>
+    <action type="DIALOG" value="孙不二#嗯，等你的好消息。"/>
+    <action type="LOG" value="接受孙不二的任务，前往杀死田伯光"/>
+  </story>
+  <story name="全真教_孙不二进行中">
+    <action type="DIALOG" value="孙不二#杀死田伯光了么？"/>
+  </story>
+  <story name="全真教_孙不二否">
+    <action type="DIALOG" value="主角#恕难从命，田伯光虽然是采花大盗，但也是个响当当的汉子，师伯给他一条改正之路吧。"/>
+    <action type="DIALOG" value="孙不二#哼！你走吧！"/>
+  </story>
+  <story name="全真教_杀死田伯光">
+    <action type="BACKGROUND" value="地图.室内" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="主角#可恶的采花大盗田伯光，我今天就来为民除害！"/>
+    <action type="DIALOG" value="田伯光#哼哼，那得看你的本事了！"/>
+    <action type="BATTLE" value="田伯光居_战斗1"/>
+    <result ret="win" type="story" value="全真教_杀死田伯光完成"/>
+  </story>
+  <story name="全真教_杀死田伯光完成">
+    <action type="DIALOG" value="主角#好了，杀死了田伯光，回去找孙师伯复命吧。"/>
+    <action type="LOG" value="杀死了采花大盗田伯光"/>
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  <story name="全真教_孙不二完成任务">
+    <action type="DIALOG" value="主角#师伯，幸不辱命，田伯光首级在此。"/>
+    <action type="DIALOG" value="孙不二#很好，很好！我这就传授你一招全真教的超强武学，但非到紧急关头勿要使用，因为此招名为同归剑法，实质上时欲与敌人同归于尽。"/>
+    <action type="LEARN.SPECIALSKILL" value="主角#同归剑法"/>
+    <action type="DIALOG" value="主角#谢谢孙师伯！"/>
+  </story>
+  
+  <!--全真教第二轮大校-->
+  <story name="全真教_大校">
+    <action type="BACKGROUND" value="地图.全真教" />
+    <action type="MUSIC" value="音乐.全真教" />
+    <action type="DIALOG" value="马钰#今天又到了我全真教大校的时间了，大家以武会友，点到为止！"/>
+    <action type="DIALOG" value="主角#好！看我大显身手的时刻到了！"/>
+    <action type="BATTLE" value="全真教大校_战斗1"/>
+    <result ret="win" type="story" value="全真教_大校2"/>
+    <result ret="lose" type="story" value="全真教_大校负"/>
+  </story>
+  <story name="全真教_大校2">
+    <action type="DIALOG" value="马钰#第二轮！"/>
+    <action type="BATTLE" value="全真教大校_战斗2"/>
+    <result ret="win" type="story" value="全真教_大校3"/>
+    <result ret="lose" type="story" value="全真教_大校负"/>
+  </story>
+  <story name="全真教_大校3">
+    <action type="DIALOG" value="马钰#第三轮！"/>
+    <action type="BATTLE" value="全真教大校_战斗3"/>
+    <result ret="win" type="story" value="全真教_大校4"/>
+    <result ret="lose" type="story" value="全真教_大校负"/>
+  </story>
+  <story name="全真教_大校4">
+    <action type="DIALOG" value="马钰#第四轮！"/>
+    <action type="BATTLE" value="全真教大校_战斗4"/>
+    <result ret="win" type="story" value="全真教_大校胜"/>
+    <result ret="lose" type="story" value="全真教_大校负"/>
+  </story>
+  <story name="全真教_大校胜">
+    <action type="DIALOG" value="马钰#很好！恭喜你获得全真教大校优胜！这是这次的奖品！"/>
+    <action type="ITEM" value="七星七绝剑剑谱#1"/>
+    <action type="DIALOG" value="主角#谢谢掌门！"/>
+    <action type="NICK" value="全真高手"/>
+    <action type="LOG" value="获得全真教比武大校胜利。"/>
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  <story name="全真教_大校负">
+    <action type="DIALOG" value="马钰#很不幸，你没有获得大校胜利！下次再努力吧。"/>
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+</root>

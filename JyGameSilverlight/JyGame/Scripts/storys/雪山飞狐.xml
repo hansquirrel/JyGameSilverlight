@@ -1,0 +1,715 @@
+<root>
+  <story name="雪山飞狐_商家堡.商宝震练功">
+    <action type="BACKGROUND" value="地图.室内" />
+    <action type="MUSIC" value="音乐.天龙八部3" />
+    <action type="DIALOG" value="商宝震#好无聊啊，整天只能打木人练功，兄弟陪我练练吧。" />
+    <action type="DIALOG" value="主角#好啊，我正愁找不到地方练级呢。" />
+    <action type="BATTLE" value="商家堡.商宝震练功" />
+    <result ret="win" type="map" value="大地图" />
+    <result ret="lose" type="map" value="大地图" />
+  </story>
+  <story name="雪山飞狐_商家堡.商家堡风波1">
+    <action type="BACKGROUND" value="地图.府门前" />
+    <action type="MUSIC" value="战斗音乐.3" />
+    <action type="DIALOG" value="商老太#“胡一刀，曲池，天枢！” ，“苗人凤，地仓，合谷！”" />
+    <action type="DIALOG" value="商宝震#（飞刀掷向木人）我扎，我扎，我扎扎扎！" />
+    <action type="DIALOG" value="主角#好啊，老太婆加一个臭小子，打不过人家，把人家名字写在木偶上，偷偷在家扎木偶玩诅咒。这个属于封建迷信没用的！" />
+    <action type="DIALOG" value="商宝震#门都不敲就进来，吓死人了。还好我是在练武，万一在洗澡啥的咋办？" />
+    <action type="DIALOG" value="主角#这个大宅里一个年轻女眷都木有，我可没兴趣偷看老太婆和年轻汉子洗澡……" />
+    <action type="DIALOG" value="商老太#呔，少废话，既然被你偷看到我家的秘密，就别想这么轻易离去。" />
+    <action type="LOG" value="发现商家堡娘俩偷偷拿写有仇人名字的木头人练功。" />
+    <action type="BATTLE" value="商家堡.商家堡风波1" />
+    <result ret="win" type="story" value="雪山飞狐_商家堡.商家堡风波1.胜利" />
+  </story>
+  <story name="雪山飞狐_商家堡.商家堡风波1.胜利">
+    <action type="BACKGROUND" value="地图.府门前" />
+    <action type="MUSIC" value="战斗音乐.3" />
+    <action type="DIALOG" value="主角#这俩木人没收了，以后都不准玩扎针眼的游戏了！" />
+    <action type="DIALOG" value="商宝震#……" />
+    <action type="DIALOG" value="商老太#……" />
+    <action type="ITEM" value="木人#2" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="雪山飞狐_商家堡.商家堡风波2">
+    <action type="BACKGROUND" value="地图.府门前" />
+    <action type="MUSIC" value="战斗音乐.3" />
+    <action type="DIALOG" value="商老太#哈哈哈，烧死他们" />
+    <action type="DIALOG" value="胡斐#（终于从这个小狗洞里爬出来了）疯婆子，赶紧开门，大家都要被烧死了！" />
+    <action type="DIALOG" value="商老太#这臭小子就是仇人的儿子，今天必须要你的命！" />
+    <action type="DIALOG" value="主角#不要脸，老太婆和臭小子现在又开始欺负人了！" />
+    <action type="DIALOG" value="商老太#又是你！上次把我的木人抢走了，害的我没法练功，召唤死鬼老头子！" />
+    <action type="DIALOG" value="商剑鸣#老婆子，I’m coming" />
+    <action type="BATTLE" value="商家堡.商家堡风波2" />
+    <result ret="win" type="story" value="雪山飞狐_商家堡.商家堡风波2.胜利" />
+  </story>
+  <story name="雪山飞狐_商家堡.商家堡风波2.胜利">
+    <action type="BACKGROUND" value="地图.府门前" />
+    <action type="MUSIC" value="战斗音乐.3" />
+    <action type="DIALOG" value="商老太#又输了！商老爷子再生也打不过啊！天亡我商家堡！" />
+    <action type="DIALOG" value="商老太#（商老太弓身走入厅门，对熊熊大火竟是视若无睹。脸露笑容，端坐在火焰之中。）" />
+    <action type="DIALOG" value="主角#木人被抢了，打不过人家也犯不着自焚吧！哎……这个死心眼的老婆子" />
+    <action type="DIALOG" value="主角#咦，商老太这里落下了一把刀。" />
+    <action type="ITEM" value="紫金八卦刀#1" />
+    <action type="LOG" value="阻止了商家堡商老太烧死胡斐及赵半山等人的阴谋。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="雪山飞狐_商家堡.商家堡风波3">
+    <action type="BACKGROUND" value="地图.府门前" />
+    <action type="MUSIC" value="战斗音乐.3" />
+    <action type="DIALOG" value="商剑鸣#好小子，害死我老婆居然还敢来商家堡，这次一定叫你有来无回。拿命来！" />
+    <action type="DIALOG" value="主角#又玩诈尸了……" />
+    <action type="DIALOG" value="商剑鸣#胡斐这混蛋也在，看我的分身大法！" />
+    <action type="DIALOG" value="胡斐#……" />
+    <action type="BATTLE" value="商家堡.商家堡风波3" />
+    <result ret="win" type="story" value="雪山飞狐_商家堡.商家堡风波3.胜利" />
+  </story>
+  <story name="雪山飞狐_商家堡.商家堡风波3.胜利">
+    <action type="BACKGROUND" value="地图.府门前" />
+    <action type="MUSIC" value="战斗音乐.3" />
+    <action type="DIALOG" value="主角#终于把这老不死的分身干掉了。商家堡从此要从江湖上除名了。" />
+    <action type="ITEM" value="八卦刀法秘籍#1" />
+    <action type="NICK" value="商家堡主" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="雪山飞狐_胡斐居">
+    <action type="BACKGROUND" value="地图.室内" />
+    <action type="MUSIC" value="音乐.天龙八部7" />
+    <action type="DIALOG" value="胡斐#兄台何人？" />
+    <action type="DIALOG" value="主角#（趁着胡斐这哥们还缺两页刀法，赶紧虐虐他，看看能否赚点便宜。）" />
+    <action type="DIALOG" value="主角#听说你乃辽东大侠胡一刀的后人，特来找你讨教武学。" />
+    <action type="DIALOG" value="胡斐#好的，那我就来陪小兄弟玩两手。" />
+    <action type="BATTLE" value="胡斐居.战斗" />
+    <result ret="win" type="story" value="雪山飞狐_胡斐居.胜利" />
+    <result ret="lose" type="story" value="雪山飞狐_胡斐居.失败" />
+  </story>
+  <story name="雪山飞狐_胡斐居.胜利">
+    <action type="BACKGROUND" value="地图.室内" />
+    <action type="MUSIC" value="音乐.天龙八部7" />
+    <action type="DIALOG" value="胡斐#厉害！甘拜下风" />
+    <action type="DIALOG" value="主角#我知道你这么菜的原因是缺了两页刀法" />
+    <action type="DIALOG" value="胡斐#厉害！这你都能知道" />
+    <action type="DIALOG" value="主角#那咱赶紧把它找回来吧" />
+    <action type="DIALOG" value="胡斐#厉害！走你" />
+    <action type="JOIN" value="胡斐" />
+    <action type="LOG" value="答应帮胡斐找回两页刀法。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="雪山飞狐_胡斐居.失败">
+    <action type="BACKGROUND" value="地图.室内" />
+    <action type="MUSIC" value="音乐.天龙八部7" />
+    <action type="DIALOG" value="胡斐#兄弟还需要努力啊。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="雪山飞狐_阎基居.两页刀法">
+    <action type="BACKGROUND" value="地图.室内" />
+    <action type="MUSIC" value="音乐.天龙八部7" />
+    <action type="DIALOG" value="阎基#哈哈，又来了几个冤大头，赶紧把身上值钱的玩意都给大爷我交出来。" />
+    <action type="DIALOG" value="主角#还有人在自己家里打劫过客，这智商可真够高的……" />
+    <action type="BATTLE" value="阎基居.战斗" />
+    <result ret="win" type="story" value="雪山飞狐_阎基居.两页刀法.胜利" />
+  </story>
+  <story name="雪山飞狐_阎基居.两页刀法.胜利">
+    <action type="BACKGROUND" value="地图.室内" />
+    <action type="MUSIC" value="音乐.天龙八部7" />
+    <action type="DIALOG" value="胡斐#你是何人，为何会使我胡家的武功？" />
+    <action type="DIALOG" value="主角#胡兄，就是这个跌打医生当年盗了你家的两页胡家刀法。阎基老匹夫，赶紧把刀法交出来！" />
+    <action type="DIALOG" value="阎基#真是倒霉，抢劫反倒被人抢，好吧，给你" />
+    <action type="ITEM" value="两页胡家刀法#1" />
+    <action type="DIALOG" value="主角#我知道你这小子家里还藏了不少药，叫啥天王保命丹的，当年藏在角落的柜子里，害小哥好一顿找，赶紧也交出来" />
+    <action type="DIALOG" value="阎基#少侠真是好眼力，好吧，给你" />
+    <action type="ITEM" value="天王保命丹#1" />
+    <action type="DIALOG" value="主角#（赚发了）" />
+    <action type="DIALOG" value="阎基#你这一下把我干到解放前了……" />
+    <action type="DIALOG" value="主角#你小子别想藏私！" />
+    <action type="LOG" value="找回了两页胡家刀法。" />
+  </story>
+  <story name="雪山飞狐_佛山镇.凤天南">
+    <action type="DIALOG" value="凤天南#看什么看，没见过这么帅的土豪地绅啊？" />
+    <action type="DIALOG" value="主角#……" />
+  </story>
+  <story name="雪山飞狐_佛山镇.凤天南作恶">
+    <action type="DIALOG" value="主角#街上吵吵闹闹的过去看看是啥事。" />
+    <action type="DIALOG" value="凤天南#钟阿四！就是你家孩子偷吃了我的鹅！" />
+    <action type="DIALOG" value="钟阿四#老爷冤枉啊，我家钟小四平时老实巴交从来不会做这种事啊。。" />
+    <action type="DIALOG" value="凤天南#反正吃都吃了，你能怎么证明？你赔！你赔！。" />
+    <action type="DIALOG" value="钟阿四#（剖开钟小四的肚子）你看，肚子里啥都没有，凤老爷冤枉我啊！" />
+    <action type="DIALOG" value="胡斐#岂有此理，你这老爷也太霸道了。这事不能不管。" />
+    <action type="DIALOG" value="凤天南#你算老几，我凤某在佛山就是牛逼，轮不到你们管我的事，我想要钟阿四家的田产，是我看得起他，他应该感到荣幸！。" />
+    <action type="DIALOG" value="胡斐#我不算老几，本人姓拔，名凤毛，拔爷今天还就盯上你了，受死吧！" />
+    <action type="BATTLE" value="佛山镇.凤天南作恶.战斗" />
+    <result ret="win" type="story" value="雪山飞狐_佛山镇.凤天南作恶.胜利" />
+  </story>
+  <story name="雪山飞狐_佛山镇.凤天南作恶.胜利">
+    <action type="DIALOG" value="凤天南#点子手硬，扯呼。" />
+    <action type="DIALOG" value="胡斐#混蛋，别跑！就算你跑到天边，我也要把你追上来偿钟阿四家这笔血债。" />
+    <action type="LOG" value="佛山镇遇到凤天南作恶。" />
+  </story>
+  <story name="雪山飞狐_湘妃庙.凤天南作恶">
+    <action type="DIALOG" value="凤天南#黑夜之中又有大雨，正好赶路。莫要贪得一时安逸，却把全家性命送了，此处离大路不远，别鬼使神差地撞在小贼手里。" />
+    <action type="DIALOG" value="胡斐#（居然在这碰到混蛋凤天南）当真是鬼使神差，撞在我手里。凤老爷，这里是湘妃庙，风雅得行啊。" />
+    <action type="DIALOG" value="凤天南#完了，又在这碰到这煞神，真要赶尽杀绝么。" />
+    <action type="DIALOG" value="胡斐#这儿便是你的死地！" />
+    <action type="BATTLE" value="湘妃庙.凤天南作恶.战斗" />
+    <result ret="win" type="story" value="雪山飞狐_湘妃庙.凤天南作恶.胜利" />
+  </story>
+  <story name="雪山飞狐_湘妃庙.凤天南作恶.胜利">
+    <action type="DIALOG" value="胡斐#终于杀掉了这个佛山恶霸，为钟阿四报仇。" />
+    <action type="ITEM" value="黄金棒#1" />
+    <action type="LOG" value="杀死了恶霸凤天南，为钟家报仇雪恨。" />
+  </story>
+  <story name="雪山飞狐_苗人凤居.苗人凤.1">
+    <action type="DIALOG" value="苗人凤#我家不是随随便便进出的地方，赶紧走开。" />
+  </story>
+  <story name="雪山飞狐_苗人凤居.苗人凤被毒">
+    <action type="DIALOG" value="天龙门弟子#这封信请苗大侠拆看，小人信已送到，这便告辞。" />
+    <action type="DIALOG" value="苗人凤#（这封信定是战书）慢着。我瞧信之后，烦你带一句回话。" />
+    <action type="DIALOG" value="苗人凤#啊！这信有毒！我的眼睛！" />
+    <action type="DIALOG" value="胡斐#狗贼，居然搞封毒信来害苗大侠性命！" />
+    <action type="DIALOG" value="天龙门弟子#他眼睛瞎了，兄弟们，上啊！谁杀了金面佛苗人凤，谁就能坐天下第一的交椅！" />
+    <action type="DIALOG" value="主角#你们好像当我不存在？苗大侠，我来助你。" />
+    <action type="BATTLE" value="苗人凤居.苗人凤被毒.战斗" />
+    <result ret="win" type="story" value="雪山飞狐_苗人凤居.苗人凤被毒.胜利" />
+  </story>
+  <story name="雪山飞狐_苗人凤居.苗人凤被毒.胜利">
+    <action type="DIALOG" value="苗人凤#小兄弟，你尊姓大名，与我可有渊源？" />
+    <action type="DIALOG" value="胡斐#丈夫结交，何重义气，只须肝胆相照，何必提名道姓？苗大侠若是信托得过，在下便是粉身碎骨，也要保护周全。" />
+    <action type="DIALOG" value="苗人凤#好，苗人凤独来独往，生平只有两个知交，一个是辽东大侠胡一刀，另一个便是你这位不知姓名、没见过面的小兄弟。" />
+    <action type="DIALOG" value="胡斐#苗大侠，你眼睛怎样？再用水洗一洗吧！" />
+    <action type="DIALOG" value="苗人凤#这毒药估计是从毒手药王处取来的，若是求毒手药王救治，或能解得。" />
+    <action type="DIALOG" value="主角#那咱赶紧去药王庄拿解药吧。走你" />
+    <action type="DIALOG" value="主角#等等..药王谷在哪？" />
+    <action type="DIALOG" value="苗人凤#这一直是江湖的一个迷，只有传闻说大概在湖南衡阳附近。" />
+    <action type="DIALOG" value="胡斐#苗大侠请稍作休息，我们去去便回！" />
+    <action type="LOG" value="苗人凤眼睛被奸人毒瞎，需请求毒手药王医治" />
+  </story>
+  <story name="雪山飞狐_苗人凤居.苗人凤.正在求解药">
+    <action type="DIALOG" value="胡斐#苗大侠您再忍忍，我们马上去取解药。" />
+    <action type="DIALOG" value="苗人凤#好的（这毒药毒得眼睛真NM痛啊）……" />
+  </story>
+  <story name="雪山飞狐_药王庄.程灵素.求药">
+    <action type="DIALOG" value="胡斐#这就是药王庄了，听说毒手药王神龙见首不见尾，也不知道在不在家" />
+    <action type="DIALOG" value="程灵素#几位有何贵干？" />
+    <action type="DIALOG" value="胡斐#（这姑娘面黄肌瘦的，难道是毒手药王？）" />
+    <action type="DIALOG" value="胡斐#在下胡斐，我有一个朋友被毒瞎了双眼，特来求见毒手药王医治" />
+    <action type="DIALOG" value="程灵素#毒手药王已经去世了，我是他的弟子，不知是哪位朋友中的何种毒？" />
+    <action type="DIALOG" value="主角#中毒的是金面佛苗人凤大侠（将中毒经过描述了一遍）" />
+    <action type="DIALOG" value="程灵素#看来是七星海棠之毒，需要解这种毒，首先需要拿到七星海棠。" />
+    <action type="DIALOG" value="胡斐#请问哪里可以取得？" />
+    <action type="DIALOG" value="程灵素#这就不清楚了，听说最近江湖上出了个跌打医生使毒很厉害，有可能从他那儿能够得到点消息" />
+    <action type="DIALOG" value="主角#程姑娘能否跟我们走一趟？医治苗大侠的眼睛" />
+    <action type="DIALOG" value="程灵素#看在这位胡大哥的份上我就跟你走一趟" />
+    <action type="JOIN" value="程灵素" />
+    <action type="LOG" value="程灵素答应医治金面佛苗人凤的眼睛" />
+  </story>
+  <story name="雪山飞狐_阎基居.七星海棠">
+    <action type="BACKGROUND" value="地图.室内" />
+    <action type="MUSIC" value="音乐.天龙八部7" />
+    <action type="DIALOG" value="阎基#大爷，上次已经一下把我搞到解放前了，您就饶过小的吧" />
+    <action type="DIALOG" value="主角#你这家伙不老实，听说你家里还藏了个宝贝？" />
+    <action type="DIALOG" value="阎基#我对天发誓家里绝对没有值钱的玩意了！" />
+    <action type="DIALOG" value="胡斐#七星海棠不是在你这吗？赶紧交出来，我们要用它救人" />
+    <action type="DIALOG" value="阎基#真心木有啊!" />
+    <action type="DIALOG" value="主角#（翻箱倒柜）这是什么？" />
+    <action type="DIALOG" value="阎基#我擦了，还真被你找到了。既然这样，就让你见识一下七星海棠的威力吧！" />
+    <action type="DIALOG" value="胡斐#找死" />
+    <action type="BATTLE" value="阎基居.战斗.七星海棠" />
+    <result ret="win" type="story" value="雪山飞狐_阎基居.七星海棠.胜利" />
+  </story>
+  <story name="雪山飞狐_阎基居.七星海棠.胜利">
+    <action type="BACKGROUND" value="地图.室内" />
+    <action type="MUSIC" value="音乐.天龙八部7" />
+    <action type="DIALOG" value="阎基#啊！大侠请饶我不死！我愿意为你做牛做马！" />
+    <action type="DIALOG" value="胡斐#这种混蛋留在世上只能为祸人间！" />
+    <action type="DIALOG" value="阎基#别杀我！我有一个大秘密！" />
+    <action type="DIALOG" value="主角#说！" />
+    <action type="DIALOG" value="阎基#你得先答应我饶我不死！" />
+    <action type="SELECT" value="主角#杀还是不杀呢？#杀#留他狗命" />
+    <result ret="0" type="story" value="雪山飞狐_阎基居.七星海棠.胜利.杀" />
+    <result ret="1" type="story" value="雪山飞狐_阎基居.七星海棠.胜利.不杀" />
+  </story>
+  <story name="雪山飞狐_阎基居.七星海棠.胜利.杀">
+    <action type="BACKGROUND" value="地图.室内" />
+    <action type="MUSIC" value="音乐.天龙八部7" />
+    <action type="DIALOG" value="主角#受死吧！你这个为恶多端的破医生" />
+    <action type="DIALOG" value="阎基#啊！" />
+    <action type="NICK" value="七星海棠" />
+    <action type="ITEM" value="七星海棠#1" />
+    <action type="DIALOG" value="程灵素#解药拿到了，咱们赶紧去苗大侠那儿吧。" />
+    <action type="LOG" value="杀死了江湖混混阎基。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="雪山飞狐_阎基居.七星海棠.胜利.不杀">
+    <action type="BACKGROUND" value="地图.室内" />
+    <action type="MUSIC" value="音乐.天龙八部7" />
+    <action type="DIALOG" value="主角#留着你小子一命，快说！" />
+    <action type="DIALOG" value="阎基#谢谢大侠！秘密就是……" />
+    <action type="DIALOG" value="阎基#杀死辽东大侠胡一刀的，就是金面佛苗人凤。这是我当年亲眼所见。" />
+    <action type="DIALOG" value="胡斐#你说什么？！" />
+    <action type="DIALOG" value="阎基#千真万确，我对天发誓。" />
+    <action type="DIALOG" value="胡斐#父仇不共戴天，你敢否与我前去苗大侠家中对峙？" />
+    <action type="DIALOG" value="阎基#没问题，只要保证我人身安全，让我干啥都行。" />
+    <action type="ITEM" value="七星海棠#1" />
+    <action type="JOIN" value="阎基" />
+    <action type="DIALOG" value="程灵素#解药拿到了，咱们赶紧去苗大侠那儿吧。" />
+    <action type="LOG" value="从阎基口中得知，苗人凤是胡斐的杀父仇人。" />
+    <result ret="1" type="map" value="大地图" />
+  </story>
+  <story name="雪山飞狐_苗人凤居.救治">
+    <action type="DIALOG" value="胡斐#苗大侠，我们回来了，这位是毒手药王的关门弟子程姑娘" />
+    <action type="DIALOG" value="程灵素#见过苗大侠" />
+    <action type="DIALOG" value="苗人凤#劳驾！" />
+    <action type="DIALOG" value="程灵素#（给苗人凤包好了眼药，并且敷上)" />
+    <action type="DIALOG" value="苗人凤#（痛……）" />
+    <action type="DIALOG" value="苗人凤#谁?" />
+    <result ret="0" type="story" value="雪山飞狐_苗人凤居.田归农来战" />
+  </story>
+  <story name="雪山飞狐_苗人凤居.田归农来战">
+    <action type="BACKGROUND" value="地图.小村口" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感5" />
+    <action type="DIALOG" value="田归农#苗大侠，别来无恙?" />
+    <action type="DIALOG" value="苗人凤#哼.." />
+    <action type="DIALOG" value="田归农#哎哟，苗大侠好像眼睛不太舒服？要不要小弟帮治治？" />
+    <action type="DIALOG" value="胡斐#（这人阴阳怪气的多半不是好人）" />
+    <action type="DIALOG" value="田归农#胡苗范田四家的恩怨今天要做个了断，苗大侠，你可不要怪小弟心狠手辣" />
+    <action type="DIALOG" value="主角#又是个趁人之危的，苗大侠，我来助你御敌！" />
+    <action type="DIALOG" value="田归农#哼，多管闲事！" />
+    <action type="BATTLE" value="苗人凤居.田归农来战.战斗" />
+    <result ret="win" type="story" value="雪山飞狐_苗人凤居.田归农来战.胜利" />
+  </story>
+  <story name="雪山飞狐_苗人凤居.田归农来战.胜利">
+    <action type="BACKGROUND" value="地图.小村口" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感5" />
+    <action type="DIALOG" value="田归农#可恶，撤！" />
+    <action type="DIALOG" value="苗人凤#哼.." />
+    <action type="DIALOG" value="主角#苗大侠，你别整天哼来哼去的啊，也表达一下自己愤怒的感情嘛！" />
+    <action type="DIALOG" value="苗人凤#哼.." />
+    <action type="DIALOG" value="主角#……" />
+    <action type="DIALOG" value="胡斐#……" />
+    <action type="DIALOG" value="苗人凤#咳咳，多谢几位出手相助，苗人凤感激不尽！" />
+    <action type="DIALOG" value="苗人凤#我看这位小兄弟使的是胡家刀法，不知你和辽东大侠胡一刀有何渊源？" />
+    <action type="DIALOG" value="胡斐#正是家父" />
+    <action type="DIALOG" value="苗人凤#啊！胡大侠居然有后人在世！好，好！很好！" />
+    <action type="DIALOG" value="胡斐#怎么？苗大侠与家父是好友？" />
+    <action type="DIALOG" value="苗人凤#岂止好友，简直是我苗某人今生最佩服的人。" />
+    <action type="DIALOG" value="苗人凤#可惜当年我失手将胡大侠伤到，最后他竟莫名其妙中毒死了，这件事我想了好久也想不通怎么回事。" />
+    <action type="DIALOG" value="胡斐#！！！" />
+    <action type="DIALOG" value="田归农#我又回来了……我作证，当年我亲眼所见，胡兄弟，这苗人凤就是你的杀父仇人。" />
+    <action type="DIALOG" value="苗人凤#滚" />
+    <action type="DIALOG" value="田归农#是是，我滚~" />
+    <result ret="0" type="story" value="雪山飞狐_苗人凤居.田归农来战.胜利.2" />
+  </story>
+  <story name="雪山飞狐_苗人凤居.田归农来战.胜利.2">
+    <action type="BACKGROUND" value="地图.小村口" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感5" />
+    <action type="DIALOG" value="苗人凤#确实，胡兄弟，你的杀父仇人就在这里，你来报仇吧！" />
+    <action type="DIALOG" value="主角#这件事情很蹊跷，我们必须先调查清楚" />
+    <action type="DIALOG" value="胡斐#哼，这件事必须调查清楚，但如果是真的，我一定会回来找你的，苗，大，侠。" />
+    <action type="DIALOG" value="苗人凤#随时恭候大驾，这里有一本你父亲当年的遗物，你拿去吧。" />
+    <action type="DIALOG" value="胡斐#多谢！" />
+    <action type="ITEM" value="胡家刀法手抄本#1" />
+    <action type="LOG" value="得知苗人凤是胡斐的杀父仇人，但此事需要进一步调查原因。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="雪山飞狐_苗人凤居.正在调查">
+    <action type="DIALOG" value="苗人凤#小兄弟调查得怎么样了？" />
+    <action type="DIALOG" value="胡斐#还没有头绪。但此事一定会水落石出的。" />
+  </story>
+  <story name="雪山飞狐_苗人凤居.阎基对峙">
+    <action type="BACKGROUND" value="地图.小村口" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感5" />
+    <action type="DIALOG" value="胡斐#（这人就是我的杀父仇人了。但也需光明正大的报仇，先给他治疗吧）" />
+    <action type="DIALOG" value="胡斐#我们回来了，这位是毒手药王的关门弟子程姑娘" />
+    <action type="DIALOG" value="苗人凤#劳驾！" />
+    <action type="DIALOG" value="程灵素#（给苗人凤包好了眼药，并且敷上)" />
+    <action type="DIALOG" value="苗人凤#（痛……）" />
+    <action type="DIALOG" value="胡斐#苗大侠，你当年是否曾杀死一个姓胡的大侠？" />
+    <action type="DIALOG" value="阎基#就是辽东大侠胡一刀！" />
+    <action type="DIALOG" value="苗人凤#哎……是，这些年来这件事一直耿耿于怀。" />
+    <action type="DIALOG" value="胡斐#也就是说你承认这件事了？" />
+    <action type="DIALOG" value="阎基#我没说谎吧，我当年亲眼所见，苗人凤杀死了胡一刀和胡夫人，啧啧，那个胡夫人可真是个美人啊" />
+    <action type="DIALOG" value="苗人凤#咦，你是？胡夫人当年自杀殉情，确实也因我而起。" />
+    <action type="DIALOG" value="阎基#而且当年你打不过胡大侠，用的卑鄙手段将他毒死的！" />
+    <action type="DIALOG" value="苗人凤#胡大侠确实中毒而死，关于当年为何刀上有毒，这件事至今我都想不清楚。" />
+    <action type="DIALOG" value="胡斐#苗人凤！妄你号称大侠，却使这般下三滥手段害人！" />
+    <action type="DIALOG" value="阎基#那还等什么！报仇啊！大伙一起上啊！" />
+    <action type="SELECT" value="主角#是否杀苗人凤为胡斐报仇？#上#不上" />
+    <result ret="0" type="story" value="苗人凤居.阎基对峙.杀苗人凤_战斗" />
+    <result ret="1" type="story" value="雪山飞狐_苗人凤居.田归农来战.胜利.2" />
+  </story>
+  <story name="苗人凤居.阎基对峙.杀苗人凤_战斗">
+    <action type="BATTLE" value="苗人凤居.阎基对峙.杀苗人凤.战斗"/>
+    <result ret="win" type="story" value="雪山飞狐_苗人凤居.阎基对峙.杀苗人凤.战斗.胜利"/>
+  </story>
+  <story name="雪山飞狐_苗人凤居.阎基对峙.杀苗人凤.战斗.胜利">
+    <action type="BACKGROUND" value="地图.小村口" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感5" />
+    <action type="DIALOG" value="胡斐#终于为父亲报仇了！" />
+    <action type="DIALOG" value="阎基#嘿嘿……是啊，恭喜胡兄弟" />
+    <action type="DIALOG" value="主角#你这家伙终于发挥了点作用" />
+    <action type="UPGRADE.MAXHP" value="胡斐#1200" />
+    <action type="UPGRADE.MAXMP" value="胡斐#1200" />
+    <action type="GET_POINT" value="胡斐#30" />
+    <action type="UPGRADE.剑法" value="胡斐#20" />
+    <action type="UPGRADE.刀法" value="胡斐#20" />
+    <action type="LEARN.SKILL" value="胡斐#苗家剑法#10" />
+    <action type="LEARN.SKILL" value="胡斐#胡家刀法#9" />
+    <action type="LEARN.TALENT" value="胡斐#阴谋家" />
+    <action type="UPGRADE.MAXHP" value="阎基#1200" />
+    <action type="UPGRADE.MAXMP" value="阎基#1200" />
+    <action type="GET_POINT" value="阎基#30" />
+    <action type="UPGRADE.剑法" value="阎基#30" />
+    <action type="UPGRADE.刀法" value="阎基#30" />
+    <action type="LEARN.SKILL" value="阎基#苗家剑法#10" />
+    <action type="LEARN.SKILL" value="阎基#胡家刀法#9" />
+    <action type="LEARN.TALENT" value="阎基#阴谋家" />
+    <action type="ITEM" value="胡家刀法手抄本#1" />
+    <action type="ITEM" value="苗家剑法秘籍#1" />
+    <action type="LOG" value="阎基阴谋得逞，杀死了胡斐的杀父仇人金面佛苗人凤。" />
+    <action type="NICK" value="金面神佛" />
+  </story>
+  <story name="雪山飞狐_苗人凤居.阎基对峙.杀苗人凤.战斗.胜利简单模式">
+    <action type="BACKGROUND" value="地图.小村口" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感5" />
+    <action type="DIALOG" value="胡斐#终于为父亲报仇了！" />
+    <action type="DIALOG" value="阎基#嘿嘿……是啊，恭喜胡兄弟" />
+    <action type="DIALOG" value="主角#你这家伙终于发挥了点作用" />
+    <action type="UPGRADE.MAXHP" value="胡斐#500" />
+    <action type="UPGRADE.MAXMP" value="胡斐#500" />
+    <action type="GET_POINT" value="胡斐#15" />
+    <action type="UPGRADE.剑法" value="胡斐#5" />
+    <action type="UPGRADE.刀法" value="胡斐#5" />
+    <action type="LEARN.SKILL" value="胡斐#苗家剑法#10" />
+    <action type="LEARN.SKILL" value="胡斐#胡家刀法#9" />
+    <action type="LEARN.TALENT" value="胡斐#阴谋家" />
+    <action type="UPGRADE.MAXHP" value="阎基#500" />
+    <action type="UPGRADE.MAXMP" value="阎基#500" />
+    <action type="GET_POINT" value="阎基#15" />
+    <action type="UPGRADE.剑法" value="阎基#5" />
+    <action type="UPGRADE.刀法" value="阎基#5" />
+    <action type="LEARN.SKILL" value="阎基#苗家剑法#10" />
+    <action type="LEARN.SKILL" value="阎基#胡家刀法#9" />
+    <action type="LEARN.TALENT" value="阎基#阴谋家" />
+    <action type="DIALOG" value="阎基#该死的编剧，就这么点奖励啊。。" />
+    <action type="DIALOG" value="主角#知足吧，要知道这只是简单模式..." />
+    <action type="ITEM" value="胡家刀法手抄本#1" />
+    <action type="ITEM" value="苗家剑法秘籍#1" />
+    <action type="LOG" value="阎基阴谋得逞，杀死了胡斐的杀父仇人金面佛苗人凤。" />
+    <action type="NICK" value="金面神佛" />
+  </story>
+  <story name="雪山飞狐_湘妃庙.田归农.阎基">
+    <action type="BACKGROUND" value="地图.佛堂" />
+    <action type="MUSIC" value="音乐.神秘山洞" />
+    <action type="DIALOG" value="阎基#田相公，你好啊" />
+    <action type="DIALOG" value="田归农#你是？" />
+    <action type="DIALOG" value="阎基#嘿嘿，真是贵人多忘事，当年跑腿的小厮，田相公想起来了么？" />
+    <action type="DIALOG" value="田归农#……原来是你，你想怎样？" />
+    <action type="DIALOG" value="阎基#这位兄弟在调查当年胡一刀大侠的死因，田相公，你觉得胡大侠是否死的蹊跷呢？" />
+    <action type="DIALOG" value="田归农#……（这家伙想搞什么鬼，明知故问）" />
+    <action type="DIALOG" value="阎基#兄弟我最近手头缺点钱，田掌门看着办吧。" />
+    <action type="DIALOG" value="主角#怎么感觉你们说话的逻辑这么乱？" />
+    <action type="DIALOG" value="田归农#凭你这点斤两也想敲诈我，少废话，动手吧。" />
+    <action type="DIALOG" value="主角#喂喂，我是无辜的。" />
+    <action type="BATTLE" value="湘妃庙.田归农.阎基.战斗" />
+    <result ret="win" type="story" value="雪山飞狐_湘妃庙.田归农.阎基.胜利" />
+  </story>
+  <story name="雪山飞狐_湘妃庙.田归农.阎基.胜利">
+    <action type="BACKGROUND" value="地图.佛堂" />
+    <action type="MUSIC" value="音乐.神秘山洞" />
+    <action type="DIALOG" value="阎基#田相公，你还是老实点的好。" />
+    <action type="DIALOG" value="田归农#阎基！你以为你是什么货色！当年杀胡一刀下毒的不是你是谁？！" />
+    <action type="DIALOG" value="胡斐#！！" />
+    <action type="DIALOG" value="阎基#狗急跳墙么，坑死你爹爹我了。" />
+    <action type="DIALOG" value="田归农#没错，当年便是我提供的毒药，伙同了这个跌打医生阎基下毒把胡一刀毒死了。哈哈哈哈" />
+    <action type="DIALOG" value="田归农#什么胡一刀、苗人凤，什么辽东大侠、打遍天下无敌手金面佛，不都被我玩弄于鼓掌之中" />
+    <action type="DIALOG" value="胡斐#终于找到害我父亲的凶手了，阎基、田归农，拿命来！" />
+    <action type="DIALOG" value="田归农#嘿嘿，事到如今，我也没必要隐藏自己的实力了。来吧" />
+    <action type="DIALOG" value="主角#胡兄小心！" />
+    <action type="DIALOG" value="胡斐#多谢关心，我必须手刃这两个奸贼！" />
+    <action type="LEAVE" value="阎基" />
+    <action type="BATTLE" value="湘妃庙.胡斐单挑田归农阎基.战斗" />
+    <result ret="win" type="story" value="雪山飞狐_湘妃庙.胡斐单挑田归农阎基.胜利" />
+  </story>
+  <story name="雪山飞狐_湘妃庙.胡斐单挑田归农阎基.胜利">
+    <action type="DIALOG" value="胡斐#终于手刃这两个奸贼，回去找苗大侠吧！之前真是误会他了。" />
+    <action type="ITEM" value="天龙宝剑#1" />
+    <action type="LOG" value="手刃害死胡一刀的奸贼田归农、阎基。" />
+  </story>
+  <story name="雪山飞狐_湘妃庙.田归农">
+    <action type="DIALOG" value="主角#田掌门，在这里又相见了。" />
+    <action type="DIALOG" value="田归农#嘿嘿，胡兄弟，你想不想知道当年你父亲死的真相？" />
+    <action type="DIALOG" value="胡斐#（这家伙不知道有几句真话）你说吧。" />
+    <action type="DIALOG" value="田归农#当年你母亲怀了你，你父亲可能一些小事得罪了一个酒店的小厮……" />
+    <action type="DIALOG" value="田归农#那个小厮怀恨在心，刚好你父亲和苗人凤在比武，那小厮便找了苗人凤" />
+    <action type="DIALOG" value="田归农#说他有无比剧毒的毒药，可以卖给苗大侠，帮他赢得比武" />
+    <action type="DIALOG" value="田归农#苗人凤当年号称打遍天下无敌手，哪经得起一败，于是便跟那个小厮勾结，在胡一刀的刀上涂了毒药" />
+    <action type="DIALOG" value="田归农#然后假惺惺的和胡一刀惺惺相惜，和胡一刀互换武器，苗人凤用胡家刀法，胡一刀用苗家剑法切磋" />
+    <action type="DIALOG" value="田归农#可怜你父亲神功盖世，却造了这厮暗算。" />
+    <action type="DIALOG" value="胡斐#你的意思还是苗人凤害了我父亲？那个小厮是谁？" />
+    <action type="DIALOG" value="田归农#便是那个跌打医生阎基。" />
+    <action type="DIALOG" value="主角#（阎基这家伙已经死了，这家伙正好来个死无对证，不知什么居心）" />
+    <action type="DIALOG" value="胡斐#阎基已经死了，不过他贼头贼脑的确实不是什么好东西。" />
+    <action type="DIALOG" value="田归农#如蒙不弃，我愿意一起和胡兄回去找苗人凤为胡大侠报仇。" />
+    <action type="SELECT" value="主角#该相信田归农么？#相信#不相信" />
+    <result ret="0" type="story" value="雪山飞狐_湘妃庙.相信田归农" />
+    <result ret="1" type="story" value="雪山飞狐_湘妃庙.不相信田归农" />
+  </story>
+  <story name="雪山飞狐_湘妃庙.相信田归农">
+    <action type="DIALOG" value="主角#好！我们就一起去找奸贼苗人凤算账！" />
+    <action type="DIALOG" value="田归农#嘿嘿，正是！" />
+    <action type="JOIN" value="田归农" />
+    <action type="LOG" value="从田归农口中得知害死胡大侠的是阎基和苗人凤。" />
+  </story>
+  <story name="雪山飞狐_湘妃庙.不相信田归农">
+    <action type="DIALOG" value="主角#你这家伙满嘴胡言，苗大侠是光明磊落的汉子，怎么可能做这种事！" />
+    <action type="DIALOG" value="田归农#……（说得这么诚恳还不信，果然有两下子）" />
+    <action type="DIALOG" value="胡斐#你一直挑唆离间，有何居心？" />
+    <action type="DIALOG" value="田归农#嘿嘿，什么胡一刀、苗人凤，凭什么就你们是大侠，我田归农就整天得缩着看你们脸色" />
+    <action type="DIALOG" value="田归农#事到如今，我也没必要隐藏了，我就是看不惯这俩人不可一世的样子。所以……" />
+    <action type="DIALOG" value="田归农#他们都必须——死！" />
+    <action type="DIALOG" value="主角#小心！" />
+    <action type="DIALOG" value="胡斐#这人疯了！" />
+    <action type="BATTLE" value="湘妃庙.胡斐单挑田归农.战斗" />
+    <result ret="win" type="story" value="雪山飞狐_湘妃庙.胡斐单挑田归农.胜利" />
+  </story>
+  <story name="雪山飞狐_湘妃庙.胡斐单挑田归农.胜利">
+    <action type="DIALOG" value="胡斐#当年的真相到底是怎样的？说！" />
+    <action type="DIALOG" value="田归农#没错，确实是阎基下的毒药，只不过毒药是我给的！哈哈哈哈哈" />
+    <action type="DIALOG" value="胡斐#你这个内心阴暗的蟑螂，死吧。" />
+    <action type="DIALOG" value="田归农#啊！" />
+    <action type="LOG" value="手刃害死胡一刀的奸贼田归农。" />
+    <result ret="0" type="map" value="湘妃庙" />
+  </story>
+  <story name="雪山飞狐_苗人凤居.田归农">
+    <action type="DIALOG" value="苗人凤#调查出结果了么？" />
+    <action type="DIALOG" value="主角#调查出来了，你这个伪君子，假面佛！" />
+    <action type="DIALOG" value="田归农#苗大侠，没想到吧，胡一刀的血债你还是得偿的（哼哼）" />
+    <action type="DIALOG" value="胡斐#苗人凤，你害死我父亲的证据确凿，你还有什么可说！" />
+    <action type="DIALOG" value="苗人凤#也罢，胡苗两家的恩怨，最终来做个了断吧。" />
+    <action type="BATTLE" value="苗人凤居.田归农胡斐.杀苗人凤.战斗" />
+    <result ret="win">
+      <control type="story" value="雪山飞狐_苗人凤居.田归农胡斐.杀苗人凤.胜利简单模式">
+        <condition type="game_mode" value="normal" />
+      </control>
+      <control type="story" value="雪山飞狐_苗人凤居.田归农胡斐.杀苗人凤.胜利" />
+    </result>
+  </story>
+  <story name="雪山飞狐_苗人凤居.田归农胡斐.杀苗人凤.胜利">
+    <action type="BACKGROUND" value="地图.小村口" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感5" />
+    <action type="DIALOG" value="苗人凤#……" />
+    <action type="DIALOG" value="田归农#死吧。（杀死了苗人凤）" />
+    <action type="DIALOG" value="田归农#啊哈哈哈哈！！！" />
+    <action type="DIALOG" value="胡斐#终于得报父仇。" />
+    <action type="UPGRADE.MAXHP" value="胡斐#1200" />
+    <action type="UPGRADE.MAXMP" value="胡斐#1200" />
+    <action type="GET_POINT" value="胡斐#30" />
+    <action type="UPGRADE.剑法" value="胡斐#25" />
+    <action type="UPGRADE.刀法" value="胡斐#25" />
+    <action type="LEARN.SKILL" value="胡斐#苗家剑法#10" />
+    <action type="LEARN.SKILL" value="胡斐#胡家刀法#9" />
+    <action type="LEARN.TALENT" value="胡斐#阴谋家" />
+    <action type="UPGRADE.MAXHP" value="田归农#1200" />
+    <action type="UPGRADE.MAXMP" value="田归农#1200" />
+    <action type="GET_POINT" value="田归农#30" />
+    <action type="UPGRADE.剑法" value="田归农#30" />
+    <action type="UPGRADE.刀法" value="田归农#30" />
+    <action type="LEARN.SKILL" value="田归农#天龙剑法#15" />
+    <action type="LEARN.SKILL" value="田归农#苗家剑法#10" />
+    <action type="LEARN.TALENT" value="田归农#阴谋家" />
+    <action type="ITEM" value="胡家刀法手抄本#1" />
+    <action type="ITEM" value="苗家剑法秘籍#1" />
+    <action type="LOG" value="田归农阴谋得逞，杀死了胡斐的杀父仇人金面佛苗人凤。" />
+    <action type="NICK" value="天龙掌门" />
+  </story>
+  <story name="雪山飞狐_苗人凤居.田归农胡斐.杀苗人凤.胜利简单模式">
+    <action type="BACKGROUND" value="地图.小村口" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感5" />
+    <action type="DIALOG" value="苗人凤#……" />
+    <action type="DIALOG" value="田归农#死吧。（杀死了苗人凤）" />
+    <action type="DIALOG" value="田归农#啊哈哈哈哈！！！" />
+    <action type="DIALOG" value="胡斐#终于得报父仇。" />
+    <action type="UPGRADE.MAXHP" value="胡斐#500" />
+    <action type="UPGRADE.MAXMP" value="胡斐#500" />
+    <action type="GET_POINT" value="胡斐#15" />
+    <action type="UPGRADE.剑法" value="胡斐#5" />
+    <action type="UPGRADE.刀法" value="胡斐#5" />
+    <action type="LEARN.SKILL" value="胡斐#苗家剑法#10" />
+    <action type="LEARN.SKILL" value="胡斐#胡家刀法#9" />
+    <action type="LEARN.TALENT" value="胡斐#阴谋家" />
+    <action type="UPGRADE.MAXHP" value="田归农#500" />
+    <action type="UPGRADE.MAXMP" value="田归农#500" />
+    <action type="GET_POINT" value="田归农#15" />
+    <action type="UPGRADE.剑法" value="田归农#5" />
+    <action type="UPGRADE.刀法" value="田归农#5" />
+    <action type="LEARN.SKILL" value="田归农#天龙剑法#15" />
+    <action type="LEARN.SKILL" value="田归农#苗家剑法#10" />
+    <action type="LEARN.TALENT" value="田归农#阴谋家" />
+    <action type="DIALOG" value="田归农#该死的编剧，就这么点奖励啊。。" />
+    <action type="DIALOG" value="主角#知足吧，要知道这只是简单模式..." />
+    <action type="ITEM" value="胡家刀法手抄本#1" />
+    <action type="ITEM" value="苗家剑法秘籍#1" />
+    <action type="LOG" value="田归农阴谋得逞，杀死了胡斐的杀父仇人金面佛苗人凤。" />
+    <action type="NICK" value="天龙掌门" />
+  </story>
+  <story name="雪山飞狐_苗人凤居.谜底">
+    <action type="DIALOG" value="苗人凤#调查出结果了么？" />
+    <result ret="0" type="story" value="雪山飞狐_苗人凤居.谜底.3" />
+  </story>
+  <story name="雪山飞狐_苗人凤居.谜底.2">
+    <action type="DIALOG" value="苗人凤#调查出结果了么？" />
+    <result ret="0" type="story" value="雪山飞狐_苗人凤居.谜底.3" />
+  </story>
+  <story name="雪山飞狐_苗人凤居.谜底.3">
+    <action type="DIALOG" value="胡斐#调查出来了，原来害死我父亲的竟是天龙门掌门田归农和那个跌打医生阎基。" />
+    <action type="DIALOG" value="胡斐#(胡斐给苗人凤详细描述当年的过程)" />
+    <action type="DIALOG" value="苗人凤#原来如此！虽然这样，我也有不可推卸的责任。" />
+    <action type="DIALOG" value="主角#往事已矣，苗大侠不要过分自责。" />
+    <action type="DIALOG" value="苗人凤#是了，故人之子尚在，我现在眼睛已经好的差不多了。" />
+    <result ret="0" type="story" value="雪山飞狐_苗人凤居.回忆战" />
+  </story>
+  <story name="雪山飞狐_苗人凤居.回忆战">
+    <action type="DIALOG" value="苗人凤#胡兄弟，想当年，你父亲以苗家剑法和我以胡家刀法比试，那是何等酣畅淋漓！" />
+    <action type="DIALOG" value="胡斐#两位武学大家比试，真实令人神往。只恨晚生了十几年，无缘得见。" />
+    <action type="SELECT" value="苗人凤#要回忆当年比武情形么？#是#否" />
+    <result ret="0" type="story" value="雪山飞狐_苗人凤居.回忆战_战斗" />
+  </story>
+  <story name="雪山飞狐_苗人凤居.回忆战_战斗">
+    <action type="BATTLE" value="苗人凤居.回忆战.战斗"/>
+    <result ret="win" type="story" value="雪山飞狐_苗人凤居.回忆战.胜利"/>
+    <result ret="lose" type="story" value="雪山飞狐_苗人凤居.回忆战.失败"/>
+  </story>
+  
+  <story name="雪山飞狐_苗人凤居.回忆战.胜利">
+    <action type="BACKGROUND" value="地图.小村口" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感5" />
+    <action type="DIALOG" value="胡斐#原来这才是胡家刀法和苗家剑法的精髓所在！" />
+    <action type="UPGRADE.MAXHP" value="胡斐#1500" />
+    <action type="UPGRADE.MAXMP" value="胡斐#1500" />
+    <action type="GET_POINT" value="胡斐#40" />
+    <action type="UPGRADE.剑法" value="胡斐#30" />
+    <action type="UPGRADE.刀法" value="胡斐#30" />
+    <action type="LEARN.SKILL" value="胡斐#苗家剑法#10" />
+    <action type="LEARN.SKILL" value="胡斐#胡家刀法#10" />
+    <action type="LEARN.TALENT" value="胡斐#雪山飞狐" />
+    <action type="LEARN.TALENT" value="胡斐#轻功大师" />
+    <action type="ITEM" value="胡家刀法秘籍#1" />
+    <action type="ITEM" value="苗家剑法秘籍#1" />
+    <action type="LOG" value="回忆胡一刀和苗人凤的惊天大决战。" />
+    <action type="NICK" value="雪山飞狐" />
+    <result ret="0" type="map" value="苗人凤居" />
+  </story>
+  <story name="雪山飞狐_苗人凤居.回忆战.胜利简单模式">
+    <action type="BACKGROUND" value="地图.小村口" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感5" />
+    <action type="DIALOG" value="胡斐#原来这才是胡家刀法和苗家剑法的精髓所在！" />
+    <action type="UPGRADE.MAXHP" value="胡斐#500" />
+    <action type="UPGRADE.MAXMP" value="胡斐#500" />
+    <action type="GET_POINT" value="胡斐#20" />
+    <action type="UPGRADE.剑法" value="胡斐#10" />
+    <action type="UPGRADE.刀法" value="胡斐#10" />
+    <action type="LEARN.SKILL" value="胡斐#苗家剑法#10" />
+    <action type="LEARN.SKILL" value="胡斐#胡家刀法#10" />
+    <action type="LEARN.TALENT" value="胡斐#雪山飞狐" />
+    <action type="LEARN.TALENT" value="胡斐#轻功大师" />
+    <action type="DIALOG" value="胡斐#感觉还有点不太够。。" />
+    <action type="DIALOG" value="苗人凤#知足吧，谁叫你玩的是简单模式呢？" />
+    <action type="DIALOG" value="胡斐#……" />
+    <action type="LOG" value="回忆胡一刀和苗人凤的惊天大决战。" />
+    <action type="NICK" value="雪山飞狐" />
+  </story>
+  <story name="雪山飞狐_苗人凤居.回忆战.失败">
+    <action type="BACKGROUND" value="地图.小村口" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感5" />
+    <action type="DIALOG" value="苗人凤#小兄弟你功力尚浅，尚未能领悟那次决战的精髓，请下次再来吧。" />
+    <result ret="0" type="map" value="苗人凤居" />
+  </story>
+  <story name="雪山飞狐_苗人凤居.告诫">
+    <action type="DIALOG" value="苗人凤#胡兄弟，江湖险恶，请自珍重！" />
+    <action type="DIALOG" value="胡斐#多谢苗大侠教诲！" />
+  </story>
+  <story name="雪山飞狐_药王庄.毒手药王">
+    <action type="DIALOG" value="程灵素#师父！你怎么会在这儿？你不是……" />
+    <action type="DIALOG" value="毒手药王#嘿嘿，编剧安排我复活了，木有办法。" />
+    <action type="DIALOG" value="主角#哈，那是不是有啥隐藏剧情？" />
+    <action type="DIALOG" value="毒手药王#是的，打败我，就有奖品哦！" />
+    <action type="SELECT" value="主角#要挑战毒手药王吗？#挑战#下次吧" />
+    <result ret="0" type="story" value="雪山飞狐_药王庄.毒手药王_战斗" />
+  </story>
+  <story name="雪山飞狐_药王庄.毒手药王_战斗">
+    <action type="BATTLE" value="药王庄.毒手药王.战斗"/>
+    <result ret="win" type="story" value="雪山飞狐_药王庄.毒手药王.胜利"/>
+    <result ret="lose" type="story" value="雪山飞狐_药王庄.毒手药王.失败"/>
+  </story>
+  <story name="雪山飞狐_药王庄.毒手药王.胜利">
+    <action type="BACKGROUND" value="地图.小村口" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感5" />
+    <action type="DIALOG" value="程灵素#顿时觉得学到了很多……" />
+    <action type="DIALOG" value="毒手药王#不错！这是奖给你的。" />
+    <action type="UPGRADE.MAXHP" value="程灵素#1000" />
+    <action type="UPGRADE.MAXMP" value="程灵素#1000" />
+    <action type="GET_POINT" value="程灵素#30" />
+    <action type="UPGRADE.拳掌" value="程灵素#10" />
+    <action type="ITEM" value="药王神篇#1" />
+    <action type="NICK" value="药王传人" />
+    <action type="LOG" value="击败毒手药王。" />
+    <action type="DIALOG" value="毒手药王#（转身离去）" />
+    <action type="DIALOG" value="程灵素#师父你要去哪？" />
+    <action type="DIALOG" value="毒手药王#编剧说了，我的戏份完了，我得撤了……闪" />
+    <action type="DIALOG" value="程灵素#汗，恭送师父！" />
+    <action type="DIALOG" value="毒手药王#谨记，毒能害人，也能救人。" />
+    <result ret="0" type="map" value="药王庄" />
+  </story>
+  <story name="雪山飞狐_药王庄.毒手药王.失败">
+    <action type="BACKGROUND" value="地图.小村口" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感5" />
+    <action type="DIALOG" value="毒手药王#嗯……功力还不够，再回去练练吧。" />
+    <action type="DIALOG" value="程灵素#是，师父。" />
+    <result ret="0" type="map" value="药王庄" />
+  </story>
+  <story name="雪山飞狐_药王庄.毒手药王.单挑战">
+    <action type="BACKGROUND" value="地图.小村口" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感5" />
+    <action type="DIALOG" value="毒手药王#乖徒儿，我又来了。" />
+    <action type="DIALOG" value="程灵素#师父您老人家好！" />
+    <action type="DIALOG" value="毒手药王#我突然想明白一个问题。" />
+    <action type="DIALOG" value="程灵素#？" />
+    <action type="DIALOG" value="毒手药王#上次你不是靠自己赢我的，而是靠跟你一起的这个丑哥。" />
+    <action type="DIALOG" value="主角#长得丑不是我错。" />
+    <action type="DIALOG" value="毒手药王#徒儿，这次是对你的考验！" />
+    <action type="DIALOG" value="程灵素#请师父指教！" />
+    <action type="BATTLE" value="药王庄.毒手药王.单挑战.战斗" />
+    <result ret="win" type="story" value="雪山飞狐_药王庄.毒手药王.单挑战.胜利" />
+    <result ret="lose" type="story" value="雪山飞狐_药王庄.毒手药王.单挑战.失败" />
+  </story>
+  <story name="雪山飞狐_药王庄.毒手药王.单挑战.胜利">
+    <action type="BACKGROUND" value="地图.小村口" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感5" />
+    <action type="DIALOG" value="毒手药王#果然是青出于蓝而胜于蓝啊！" />
+    <action type="DIALOG" value="程灵素#师父，承让！（顿时学到了很多）" />
+    <action type="UPGRADE.MAXHP" value="程灵素#500" />
+    <action type="UPGRADE.MAXMP" value="程灵素#500" />
+    <action type="UPGRADE.拳掌" value="程灵素#10" />
+    <action type="UPGRADE.定力" value="程灵素#10" />
+    <action type="LEARN.SKILL" value="程灵素#药王神掌#10" />
+    <action type="NICK" value="毒手药王" />
+    <action type="LOG" value="程灵素单挑击败毒手药王。" />
+    <action type="DIALOG" value="毒手药王#谨记，毒能害人，也能救人。" />
+    <result ret="0" type="map" value="药王庄" />
+  </story>
+  <story name="雪山飞狐_药王庄.毒手药王.单挑战.失败">
+    <action type="BACKGROUND" value="地图.小村口" />
+    <action type="MUSIC" value="音乐.天龙八部.紧张感5" />
+    <action type="DIALOG" value="毒手药王#你这闯荡江湖看来没太大长进呀，心思没放在功夫上？" />
+    <action type="DIALOG" value="程灵素#（脸红，瞟了一眼胡斐）师父教训的是，弟子一定加倍努力。" />
+    <action type="DIALOG" value="毒手药王#呵呵！很好，看在这个份上，我再教你几手吧！" />
+    <action type="UPGRADE.MAXHP" value="程灵素#400" />
+    <action type="UPGRADE.MAXMP" value="程灵素#400" />
+    <action type="UPGRADE.身法" value="程灵素#10" />
+    <action type="UPGRADE.臂力" value="程灵素#10" />
+    <action type="LEARN.SKILL" value="程灵素#黑血神针#10" />
+    <action type="NICK" value="药王庄主" />
+    <action type="LOG" value="程灵素单挑负于毒手药王。" />
+    <action type="DIALOG" value="毒手药王#谨记，毒能害人，也能救人。" />
+    <result ret="0" type="map" value="药王庄" />
+  </story>
+</root>

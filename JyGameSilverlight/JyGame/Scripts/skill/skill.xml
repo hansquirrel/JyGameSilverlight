@@ -1,0 +1,723 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<skills>
+		<!-- covertype:覆盖类型 cover:覆盖范围  suit:阴阳适性  power:威力  hard:难度系数  animation:特效动画id-->
+		<!-- type 0拳掌 1剑法 2刀法 3奇门 4内功 -->
+		<!-- covertype 技能覆盖类型 0点 1十字 2星形 3一字 4面 5扇形 6环状 7对角线-->
+		<!-- coversize 技能覆盖范围 -->
+		<!-- castsize 技能施展范围 0:本地（默认十字、米字均是这里） >0:范围 1:一格（默认直线攻击)-->
+		<!-- 在未指定的情况下，各系武功的覆盖范围与武功类型一致，拳掌：点攻击 | 剑法:十字 | 刀法：星形 | 奇门：一字-->
+		<!-- 在未指定情况下，武功每两级涨一点攻击范围 -->
+		<!-- 在未指定情况下，武功威力以basepower+step*(武功等级-1)来计算-->
+		<!-- 在未指定情况下，武功各级的动画、CD均不变-->
+		<!-- buff格式 name1.level1#name2.level2#.... -->
+		<!-- 特殊武功 -->
+		<skill name="野球拳" tiaohe="1" type="0" suit="0" hard="12" info="江湖混混与人胡搅蛮缠的拳法" audio="音效.拳2" basepower="2" step="0.1" animation="kongmingquan" cd="1">
+			<level level="10" covertype="0" coversize="5" power="17" animation="quantou_zadi" cd="1"/>
+      <level level="11" covertype="0" coversize="5" power="17.5" animation="quantou_zadi" cd="1"/>
+      <level level="12" covertype="0" coversize="5" power="18" animation="quantou_zadi" cd="1"/>
+      <level level="13" covertype="0" coversize="5" power="18.5" animation="quantou_zadi" cd="1"/>
+      <level level="14" covertype="0" coversize="5" power="19" animation="quantou_zadi" cd="1"/>
+      <level level="15" covertype="0" coversize="5" power="19.5" animation="quantou_zadi" cd="1"/>
+      <level level="16" covertype="0" coversize="5" power="20" animation="quantou_zadi" cd="1"/>
+      <level level="17" covertype="0" coversize="5" power="20.5" animation="quantou_zadi" cd="1"/>
+      <level level="18" covertype="0" coversize="5" power="21" animation="quantou_zadi" cd="1"/>
+      <level level="19" covertype="0" coversize="5" power="21.5" animation="quantou_zadi" cd="1"/>
+      <level level="20" covertype="0" coversize="5" power="22" animation="quantou_zadi" cd="1" />
+			<unique name="野球拳.市井流氓" info="我是流氓我怕谁！" covertype="3" castsize="1" coversize="5" poweradd="0" requirelv="5" animation="quantou_zadi" cd="5" costball="2" audio="音效.拳2" buff="晕眩.0.2.100"/>
+			<unique name="野球拳.胡搅蛮缠" info="我要发飙了！" covertype="1" coversize="2" poweradd="2" requirelv="10" animation="quanji" cd="5" costball="6" audio="音效.拳2" buff="晕眩.0.2.100"/>
+      <trigger name="attribute" argvs="搏击格斗,18" lv="5"/>
+      <trigger name="powerup_quanzhang" argvs="3" lv="10"/>
+      <trigger name="powerup_aoyi" argvs="草头百姓的逆袭.这下子逆天了,15,5" lv="15"/>
+      <trigger name="talent" argvs="神拳无敌" lv="20"/>
+		</skill>
+		<!-- 初级武功 -->
+		<!-- 拳掌 -->
+		<skill name="猴抓" tiaohe="0" type="0" suit="0" hard="0" info="猴子挠人" audio="音效.飙血" basepower="1" step="0.1" animation="zhua" cd="1">
+			<unique name="猴子偷桃" info="猴子专用的阴毒招数" covertype="3" castsize="1" coversize="4" poweradd="2" requirelv="1" animation="zhua" cd="3" costball="4" audio="音效.飙血"/>
+      <trigger name="attribute" argvs="搏击格斗,6" lv="10"/>
+      <trigger name="powerup_quanzhang" argvs="3" lv="20"/>
+		</skill>
+		<skill name="雕啄" tiaohe="0" type="0" suit="0" hard="0" info="大雕啄人" audio="音效.鸟啄" basepower="6" step="0.4" animation="biaoxue" cd="1" buff="重伤">
+			<unique name="大鹏展翅" info="大鹏展翅" covertype="2" coversize="4" poweradd="2" requirelv="1" animation="biaoxue" cd="3" costball="1" audio="音效.鸟啄" buff="重伤.0.3.100#轻身.3.3.100"/>
+      <trigger name="attribute" argvs="搏击格斗,6" lv="10"/>
+      <trigger name="powerup_quanzhang" argvs="3" lv="20"/>
+		</skill>
+		<skill name="天山掌法" tiaohe="0" type="0" suit="0.2" hard="4" info="灵鹫宫的入门掌法" audio="音效.闷拳" basepower="2" step="0.5" animation="zhang" cd="1">
+			<unique name="伪生死符" info="灵鹫宫普通弟子行走江湖吓唬人的" covertype="0" castsize="3" coversize="1" poweradd="1.5" requirelv="3" animation="zhang" cd="3" costball="4" audio="音效.拳1" buff="定身.1.1.100"/>
+      <trigger name="attribute" argvs="搏击格斗,6" lv="10"/>
+      <trigger name="powerup_aoyi" argvs="灵鹫宫绝学.逍遥游,15,5" lv="10"/>
+      <trigger name="powerup_aoyi" argvs="灵鹫宫绝学.北冥神掌,15,5" lv="12"/>
+      <trigger name="powerup_aoyi" argvs="逍遥绝学.生死符,20,5" lv="20"/>
+		</skill>
+		<skill name="飘雪穿云掌" tiaohe="0" type="0" suit="0.2" hard="4" info="峨眉派轻灵飘逸的掌法" audio="音效.拳1" basepower="2" step="0.5" animation="xiayu" cd="1">
+			<unique name="飘雪穿云掌.雪漫金山" info="飘雪穿云，雪漫金山" covertype="0" castsize="3" coversize="1" poweradd="1.5" requirelv="5" animation="xiayu" cd="3" costball="4" audio="音效.拳1" buff="轻身.1.3.100"/>
+      <trigger name="attribute" argvs="搏击格斗,8" lv="10"/>
+      <trigger name="powerup_quanzhang" argvs="2" lv="20"/>
+		</skill>
+    <skill name="天罗地网掌" tiaohe="0" type="0" suit="-0.2" hard="4" info="古墓派轻灵飘逸的掌法" audio="音效.拳1" basepower="2" step="0.5" animation="guanghuan_bianfu" cd="1">
+      <unique name="天罗地网掌.彩翼双飞" info="杨过、小龙女自由发挥的天罗地网绝技" covertype="0" castsize="3" coversize="1" poweradd="1.5" requirelv="5" animation="guanghuan_bianfu" cd="3" costball="4" audio="音效.拳1" buff="定身.1.2.100"/>
+      <trigger name="attribute" argvs="搏击格斗,8" lv="10"/>
+      <trigger name="talent" argvs="飘然" lv="20"/>
+    </skill>
+    <skill name="摧心掌" tiaohe="0" type="0" suit="-1" hard="6" info="青城派掌门余沧海的绝学掌法" audio="音效.拳3" basepower="4" step="0.4" animation="guanghuan_bianfu" cd="1">
+      <unique name="摧心掌.辣手摧心" info="青城派掌门余沧海的绝学掌法" covertype="0" castsize="3" coversize="1" poweradd="2" requirelv="5" animation="guanghuan_bianfu" cd="3" costball="4" audio="音效.拳1" buff="定身.1.2.100"/>
+      <trigger name="attribute" argvs="搏击格斗,8" lv="10"/>
+      <trigger name="powerup_skill" argvs="松风剑法,50" lv="15"/>
+      <trigger name="powerup_internalskill" argvs="青城心法,80" lv="20"/>
+    </skill>
+    
+    <!-- 剑法 -->
+		<skill name="松风剑法" tiaohe="0" type="1" suit="0" hard="1" info="入门剑法" audio="音效.剑" basepower="3" step="0.55" animation="baozha_cheng" cd="1">
+			<unique name="屁股向后.平沙落雁式" info="撅着屁股，发挥出松风剑法最大的威力" covertype="2" coversize="5" poweradd="1.5" requirelv="1" animation="baozha_cheng" cd="3" costball="4" audio="音效.剑"/>
+      <trigger name="attribute" argvs="使剑技巧,6" lv="10"/>
+      <trigger name="powerup_skill" argvs="摧心掌,50" lv="15"/>
+      <trigger name="powerup_internalskill" argvs="青城心法,80" lv="20"/>
+		</skill>
+		<skill name="华山剑法" tiaohe="0" type="1" suit="0.1" hard="4" info="华山派剑法" audio="音效.飙血" basepower="3" step="0.5" animation="baozha_lan" cd="1">
+			<unique name="华山剑法.苍松迎客" info="苍松迎客" covertype="2" coversize="5" poweradd="1.5" requirelv="1" animation="baozha_lan" cd="3" costball="4" audio="音效.剑"/>
+      <trigger name="attribute" argvs="使剑技巧,7" lv="10"/>
+      <trigger name="powerup_aoyi" argvs="华山绝学.独孤九剑奥义,10,3" lv="15"/>
+      <trigger name="powerup_skill" argvs="独孤九剑,10" lv="17"/>
+      <trigger name="powerup_aoyi" argvs="华山绝学.独孤九剑奥义,10,5" lv="20"/>
+		</skill>
+    <skill name="恒山剑法" tiaohe="0" type="1" suit="0.1" hard="4" info="恒山派剑法" audio="音效.飙血" basepower="2" step="0.5" animation="biaoxue" cd="1">
+      <trigger name="attribute" argvs="使剑技巧,6" lv="10"/>
+      <trigger name="talent" argvs="救死扶伤" lv="20"/>
+    </skill>
+		<!-- 刀法 -->
+		<!-- 奇门 -->
+		<skill name="袖箭" tiaohe="0" type="3" suit="0.1" hard="4" info="出其不意的袖箭" audio="音效.暗器1" basepower="2" step="0.5" animation="anqi" cd="1">
+			<unique name="连环箭" info="情急之下，一顿乱射。绝招由此而来。" covertype="3" castsize="1" coversize="5" poweradd="1.5" requirelv="3" animation="anqi" cd="3" costball="4" audio="音效.暗器1"/>
+      <trigger name="attribute" argvs="身法,6" lv="7"/>
+      <trigger name="attribute" argvs="奇门兵器,5" lv="10"/>
+      <trigger name="attribute" argvs="奇门兵器,15" lv="20"/>
+		</skill>
+    <skill name="拂尘" tiaohe="0" type="3" suit="-0.1" hard="4" info="拂尘也可以是武器!" audio="音效.暗器1" basepower="2" step="0.5" animation="baozha_cheng" cd="1">
+      <trigger name="attribute" argvs="奇门兵器,7" lv="10"/>
+      <trigger name="attribute" argvs="奇门兵器,10" lv="20"/>
+    </skill>
+    <skill name="蛇鹤八打" tiaohe="0" type="3" suit="-0.1" hard="4" info="云中鹤的诡异武功" audio="音效.暗器1" basepower="2" step="0.5" animation="biaoxue" cd="1">
+      <trigger name="attribute" argvs="奇门兵器,8" lv="10"/>
+      <trigger name="talent" argvs="轻功高超" lv="12"/>
+      <trigger name="attribute" argvs="身法,18" lv="20"/>
+    </skill>
+		<!-- 中级武功-->
+		<!-- 拳掌 -->
+    <skill name="四象掌" tiaohe="0" type="0" suit="-0.4" hard="6" info="峨眉派掌法，圆中有方，阴阳相成，灭绝师太自负为天下绝学。" audio="音效.拳击" basepower="3" step="0.5" animation="taiji_blue" cd="1" buff="防御强化.3.3.100">
+      <trigger name="attribute" argvs="搏击格斗,10" lv="10"/>
+      <trigger name="defence" argvs="100,15" lv="16"/>
+    </skill>
+    <skill name="昊天掌" tiaohe="0" type="0" suit="0.4" hard="6" info="全真教入门掌法。" audio="音效.拳击" basepower="3" step="0.5" animation="taiji_blue" cd="1" buff="防御强化.1.3.50">
+      <trigger name="attribute" argvs="搏击格斗,6" lv="10"/>
+      <trigger name="powerup_aoyi" argvs="全真绝学.三花聚顶,25,8" lv="12"/>
+      <trigger name="powerup_skill" argvs="三花聚顶掌,15" lv="14"/>
+      <trigger name="powerup_skill" argvs="三花聚顶掌,15" lv="16"/>
+      <trigger name="powerup_aoyi" argvs="全真绝学.三花聚顶,12,3" lv="18"/>
+      <trigger name="powerup_aoyi" argvs="全真绝学.三花聚顶.炼神返虚,12,3" lv="20"/>
+      <trigger name="attribute" argvs="搏击格斗,5" lv="20"/>
+    </skill>
+    <skill name="寒冰绵掌" covertype="6" tiaohe="0" type="0" suit="-0.4" hard="6" info="青翼蝠王韦一笑平生绝学。" audio="音效.拳击" basepower="4.5" step="0.5" animation="bingdong2" cd="1" buff="定身.3.3.60">
+      <trigger name="attribute" argvs="搏击格斗,7" lv="10"/>
+      <trigger name="attribute" argvs="身法,7" lv="10"/>
+      <trigger name="xi" argvs="5" lv="20"/>
+    </skill>
+    <skill name="落英神剑掌" tiaohe="0" type="0" suit="-0.4" hard="6" info="桃花影落飞神剑，碧海潮声按玉箫。" audio="音效.利器4" basepower="3" step="0.5" animation="flower_jian" cd="1">
+      <trigger name="attribute" argvs="搏击格斗,7" lv="10"/>
+      <trigger name="powerup_skill" argvs="弹指神通,12" lv="12"/>
+      <trigger name="powerup_skill" argvs="弹指神通,12" lv="16"/>
+      <trigger name="attribute" argvs="搏击格斗,5" lv="20"/>
+    </skill>
+    <skill name="五毒神掌" tiaohe="0" type="0" suit="-0.4" hard="6" info="赤练仙子李莫愁的看家本领。" audio="音效.拳2" basepower="3" step="0.5" animation="duyao" cd="1" buff="中毒.2">
+      <unique name="赤练神掌" info="赤练仙子李莫愁的掌法绝技" covertype="0" castsize="3" coversize="1" poweradd="2" requirelv="5" animation="guanghuan_bianfu" cd="3" costball="4" audio="音效.拳1" buff="中毒.4.4.100"/>
+      <trigger name="attribute" argvs="搏击格斗,7" lv="10"/>
+      <trigger name="attribute" argvs="搏击格斗,5" lv="20"/>
+    </skill>
+    <skill name="八卦游身掌" tiaohe="0" type="0" suit="0.35" hard="5" info="八卦门的掌系绝学。" audio="音效.拳2" basepower="3.5" step="0.4" animation="taiji" cd="1" buff="缓速.1">
+      <trigger name="attribute" argvs="搏击格斗,7" lv="10"/>
+      <trigger name="powerup_skill" argvs="八卦刀法,30" lv="10"/>
+      <trigger name="powerup_aoyi" argvs="绝学.八卦无双,40,5" lv="14"/>
+      <trigger name="powerup_aoyi" argvs="绝学.八卦无双,40,5" lv="20"/>
+    </skill>
+    <skill name="密宗大手印" tiaohe="0" type="0" suit="0.4" hard="6" info="大轮寺密宗掌法" audio="音效.闷拳" basepower="3.5" step="0.5" animation="foxiang" cd="1" buff="防御强化.1.3.50">
+      <trigger name="attribute" argvs="搏击格斗,6" lv="10"/>
+      <trigger name="defence" argvs="100,6" lv="15"/>
+      <trigger name="powerup_internalskill" argvs="龙象般若功,10" lv="20"/>
+    </skill>
+    
+    <!-- 剑法 -->
+    <skill name="绕指柔剑" tiaohe="0" type="1" suit="-0.4" hard="6" info="武当派入门剑法，飘忽不定的奇幻剑术" audio="音效.利器2" basepower="3" step="0.5" animation="flower2" cd="1">
+      <trigger name="attribute" argvs="使剑技巧,6" lv="10"/>
+      <trigger name="powerup_skill" argvs="柔云剑法,20" lv="14"/>
+      <trigger name="powerup_skill" argvs="神门十三剑,20" lv="16"/>
+      <trigger name="powerup_skill" argvs="太极剑,20" lv="18"/>
+      <trigger name="attribute" argvs="使剑技巧,6" lv="20"/>
+    </skill>
+    <skill name="峨眉剑法" tiaohe="0" type="1" suit="0" hard="6" info="风陵渡口，一世情伤" audio="音效.利器2" basepower="3" step="0.5" animation="flower" cd="1">
+      <trigger name="attribute" argvs="使剑技巧,6" lv="10"/>
+      <trigger name="attribute" argvs="使剑技巧,6" lv="20"/>
+    </skill>
+    <skill name="无量剑法" covertype="7" tiaohe="0" type="1" suit="-0.3" hard="6" info="无量玉璧上的神奇剑法" audio="音效.利器1" basepower="3.5" step="0.5" animation="baozha_cheng" cd="1">
+      <trigger name="attribute" argvs="使剑技巧,6" lv="10"/>
+      <trigger name="attribute" argvs="使剑技巧,6" lv="20"/>
+    </skill>
+    <skill name="天龙剑法" tiaohe="0" type="1" suit="0.2" hard="6" info="天龙门的入门剑法" audio="音效.利器1" basepower="3" step="0.5" animation="baozha_cheng" cd="1">
+      <trigger name="attribute" argvs="使剑技巧,6" lv="10"/>
+      <trigger name="attribute" argvs="使剑技巧,6" lv="20"/>
+    </skill>
+    <skill name="玉箫剑法" tiaohe="0" type="1" suit="-0.4" hard="6" info="桃花影落飞神剑，碧海潮声按玉箫。" audio="音效.利器4" basepower="3" step="0.5" animation="yuxiaojianfa" cd="1">
+      <trigger name="attribute" argvs="使剑技巧,6" lv="10"/>
+      <trigger name="powerup_skill" argvs="弹指神通,12" lv="12"/>
+      <trigger name="powerup_skill" argvs="弹指神通,12" lv="16"/>
+      <trigger name="powerup_skill" argvs="弹指神通,12" lv="20"/>
+    </skill>
+    <skill name="全真剑法" tiaohe="0" type="1" suit="0.4" hard="6" info="全真教入门剑法" audio="音效.利器2" basepower="3" step="0.5" animation="baozha_green" cd="1" buff="攻击弱化">
+      <trigger name="attribute" argvs="使剑技巧,6" lv="10"/>
+      <trigger name="powerup_aoyi" argvs="全真绝学.太乙剑诀,25,5" lv="14"/>
+      <trigger name="powerup_aoyi" argvs="全真绝学.重阳剑法,25,5" lv="18"/>
+      <trigger name="powerup_jianfa" argvs="5" lv="20"/>
+    </skill>
+    <skill name="玉女剑法" tiaohe="0" type="1" suit="-0.4" hard="6" info="古墓派玉女剑法" audio="音效.利器3" basepower="3" step="0.5" animation="hua" cd="1">
+      <trigger name="attribute" argvs="使剑技巧,6" lv="10"/>
+      <trigger name="powerup_internalskill" argvs="玉女心经,25" lv="10"/>
+      <trigger name="powerup_aoyi" argvs="古墓绝学.双剑合璧,25,5" lv="15"/>
+      <trigger name="powerup_skill" argvs="玉女素心剑,12" lv="20"/>
+    </skill>
+    <skill name="古墓剑法" tiaohe="0" type="1" suit="-0.4" hard="6" info="古墓派入门剑法" audio="音效.利器3" basepower="3" step="0.5" animation="baozha_blue" cd="1">
+      <trigger name="attribute" argvs="使剑技巧,6" lv="10"/>
+      <trigger name="powerup_internalskill" argvs="玉女心经,25" lv="10"/>
+      <trigger name="powerup_aoyi" argvs="古墓绝学.双剑合璧,25,5" lv="15"/>
+      <trigger name="powerup_skill" argvs="玉女素心剑,12" lv="20"/>
+    </skill>
+    <skill name="铁剑剑法" covertype="2" tiaohe="0" type="1" suit="0.4" hard="6" info="铁剑门的剑法" audio="音效.利器3" basepower="3" step="0.5" animation="dabiaoxue" cd="1" buff="轻身.0">
+      <trigger name="attribute" argvs="使剑技巧,7" lv="10"/>
+      <trigger name="powerup_internalskill" argvs="铁血大旗功,10" lv="15"/>
+    </skill>
+    <skill name="雪山剑法" tiaohe="0" type="1" suit="-0.4" hard="6" info="雪山派入门剑法" audio="音效.利器3" basepower="3" step="0.5" animation="baozha_blue" cd="1" buff="定身.0.1.10">
+      <trigger name="attribute" argvs="使剑技巧,7" lv="10"/>
+      <trigger name="attribute" argvs="定力,7" lv="15"/>
+      <trigger name="attribute" argvs="使剑技巧,7" lv="20"/>
+    </skill>
+    <skill name="一剑化三清" tiaohe="0" type="1" suit="0.4" hard="6" info="全真教的高阶剑术" audio="音效.飙血" basepower="4.5" step="0.5" animation="flower2" cd="1" buff="轻身.0">
+      <trigger name="attribute" argvs="使剑技巧,10" lv="10"/>
+      <trigger name="powerup_aoyi" argvs="全真绝学.太乙剑诀,25,5" lv="14"/>
+      <trigger name="powerup_aoyi" argvs="全真绝学.重阳剑法,25,5" lv="18"/>
+    </skill>
+    <!-- 刀法 -->
+		<skill name="狂风刀法" tiaohe="0" type="2" suit="-0.4" hard="6" info="沙尘暴来啦！" audio="音效.利器2" basepower="3" step="0.5" animation="baozha" cd="1">
+			<unique name="狂风刀法.万里独行" info="游走花丛的保命绝技" covertype="2" coversize="3" poweradd="2" requirelv="5" animation="baozha" cd="4" costball="3" audio="音效.利器2" buff="神速攻击.3.2.100"/>
+      <trigger name="attribute" argvs="耍刀技巧,7" lv="10"/>
+      <trigger name="attribute" argvs="身法,10" lv="15"/>
+      <trigger name="powerup_daofa" argvs="7" lv="20"/>
+    </skill>
+    <skill name="八卦刀法" tiaohe="0" type="2" suit="0.35" hard="5" info="特别八卦的刀法，怪不得不是很厉害。但貌似装上紫金八卦刀就变了态了。" audio="音效.利器7" basepower="4" step="0.3" animation="taiji3" cd="1" buff="缓速.1">
+      <trigger name="attribute" argvs="耍刀技巧,7" lv="10"/>
+      <trigger name="powerup_aoyi" argvs="绝学.八卦无双,50,5" lv="14"/>
+      <trigger name="powerup_daofa" argvs="7" lv="20"/>
+    </skill>
+		<!-- 奇门 -->
+    <skill name="冰魄银针" tiaohe="0" type="3" suit="-0.4" hard="6" info="冰魄银针" audio="音效.暗器1" basepower="3" step="0.5" animation="heixue" cd="1" buff="中毒.2.2.100">
+      <trigger name="attribute" argvs="奇门兵器,7" lv="10"/>
+      <trigger name="powerup_skill" argvs="五毒神掌,25" lv="15"/>
+      <trigger name="attribute" argvs="奇门兵器,12" lv="20"/>
+    </skill>
+    <skill name="玉蜂针" tiaohe="0" type="3" suit="-0.4" hard="6" info="玉蜂针" audio="音效.暗器2" basepower="3" step="0.5" animation="anqi" cd="1" buff="中毒.2.2.100">
+      <trigger name="attribute" argvs="奇门兵器,7" lv="10"/>
+      <trigger name="powerup_aoyi" argvs="玉蜂群,20,5" lv="15"/>
+      <trigger name="attribute" argvs="奇门兵器,12" lv="20"/>
+    </skill>
+    <skill name="大剪刀" tiaohe="0" type="3" suit="0.3" hard="5" info="岳老三的野蛮武功" audio="音效.暗器1" basepower="2.5" step="0.5" animation="dabiaoxue" cd="1">
+      <trigger name="attribute" argvs="奇门兵器,7" lv="10"/>
+      <trigger name="attribute" argvs="奇门兵器,12" lv="20"/>
+      <trigger name="attribute" argvs="臂力,12" lv="20"/>
+    </skill>
+    <skill name="无上大力杆" tiaohe="0" type="3" suit="0.3" hard="5" info="密宗的轰雷一杵，力大势沉" audio="音效.钝器1" basepower="5.5" step="0.5" animation="fo" cd="1">
+      <trigger name="attribute" argvs="奇门兵器,7" lv="10"/>
+      <trigger name="powerup_internalskill" argvs="龙象般若功,10" lv="15"/>
+      <trigger name="attribute" argvs="臂力,12" lv="20"/>
+      <trigger name="attribute" argvs="根骨,12" lv="20"/>
+    </skill>
+    <skill name="漫天花雨" tiaohe="0" type="3" covertype="4" suit="0.3" hard="5" info="一手同时撒出七颗棋子，要颗颗打中敌人穴道" audio="音效.暗器1" basepower="4.5" step="0.5" animation="flower" cd="1" buff="致盲.2"><trigger name="attribute" argvs="奇门兵器,7" lv="10"/>
+      <trigger name="attribute" argvs="奇门兵器,10" lv="10"/>
+      <trigger name="attribute" argvs="身法,12" lv="13"/>
+      <trigger name="attribute" argvs="定力,12" lv="15"/>
+      <trigger name="attribute" argvs="悟性,12" lv="20"/>
+    </skill>
+		<!-- 高级武功-->
+		<!-- 拳掌 -->
+		<skill name="一阳指" tiaohe="0" type="0" suit="0.8" hard="10" info="我戳死你。" audio="音效.内功攻击6" basepower="4.5" step="0.5" animation="guanghuan_yellow2" cd="1" buff="恢复.3">
+			<unique name="一阳指.万法归一" info="一阳指练到极限领悟的绝技" covertype="4" castsize="3" coversize="4" poweradd="3" requirelv="14" animation="huozhu_jin" cd="3" costball="3" audio="音效.内功攻击6" buff="内伤.10.3.100#致盲.3.3.100"/>
+      <trigger name="attribute" argvs="搏击格斗,10" lv="10"/>
+      <trigger name="powerup_skill" argvs="六脉神剑,8" lv="14"/>
+      <trigger name="talent" argvs="救死扶伤" lv="18"/>
+      <trigger name="powerup_skill" argvs="六脉神剑,12" lv="20"/>
+		</skill>
+    <skill name="佛光普照" tiaohe="0" type="0" suit="0.6" hard="8" info="以峨眉九阳功为基础，掌力笼罩全身，挡无可挡，是为峨眉绝学。" audio="音效.拳击" basepower="4" step="0.5" animation="foxiang" cd="1" buff="恢复.2#防御强化.2">
+      <trigger name="attribute" argvs="搏击格斗,10" lv="10"/>
+      <trigger name="powerup_internalskill" argvs="峨眉九阳功,50" lv="10"/>
+      <trigger name="powerup_internalskill" argvs="九阳神功,10" lv="20"/>
+    </skill>
+		<skill name="幻阴指" tiaohe="0" type="0" suit="-0.6" hard="9" info="混元霹雳手成昆的邪恶武功。" audio="音效.钝器5" basepower="4.5" step="0.5" animation="kulou_green" cd="1" buff="中毒.2">
+			<unique name="幻阴指.冰魄神爪" info="带冰冻效果攻击" covertype="2" coversize="5" poweradd="1.5" requirelv="4" animation="kulou_green" cd="3" costball="4" audio="音效.暗器3" buff="中毒.2.2.100#缓速.2.2.100"/>
+      <trigger name="attribute" argvs="搏击格斗,10" lv="10"/>
+      <trigger name="powerup_aoyi" argvs="阴阳双指,40,15" lv="15"/>
+      <trigger name="powerup_aoyi" argvs="阴阳双指,40,15" lv="20"/>
+		</skill>
+    <skill name="三阴蜈蚣爪" tiaohe="0" type="0" suit="-0.6" hard="9" info="星宿派的高阶毒功。" audio="音效.暗器3" basepower="4.5" step="0.4" animation="longjuanfeng_green" cd="1" buff="中毒.3#重伤.3">
+      <trigger name="attribute" argvs="搏击格斗,10" lv="10"/>
+      <trigger name="powerup_internalskill" argvs="化功大法,40" lv="16"/>
+    </skill>
+		<skill name="太极拳" tiaohe="1" type="0" suit="0" hard="8" info="武当派张三丰发明的阴柔相济拳法" audio="音效.拳3" basepower="3.5" step="0.65" animation="taiji4" cd="1" buff="防御强化">
+			<unique name="太极拳.三环套月" info="太极拳的精要招式" castsize="2" covertype="2" coversize="3" poweradd="2" requirelv="5" animation="taiji4" cd="4" costball="3" audio="音效.拳3" buff="缓速.3.3.100"/>
+      <trigger name="attribute" argvs="搏击格斗,10" lv="10"/>
+      <trigger name="defence" argvs="40,5" lv="10"/>
+      <trigger name="powerup_quanzhang" argvs="6" lv="15"/>
+      <trigger name="powerup_aoyi" argvs="武当绝学.太极拳奥义,30,6" lv="18"/>
+      <unique name="太极拳.四两拨千斤" info="太极拳的精要招式" castsize="3" covertype="1" coversize="2" poweradd="5" requirelv="20" animation="taiji4" cd="6" costball="4" audio="音效.拳3" buff="麻痹.3.3.100"/>
+		</skill>
+		<skill name="弹指神通" tiaohe="0" type="0" suit="-0.6" hard="9" info="桃花岛黄药师的弹指绝技" audio="音效.指2" basepower="4.5" step="0.5" animation="baozha2" cd="1">
+			<unique name="弹指神通.tjjtds" info="我叫你不乖，叫你不乖！" covertype="0" castsize="7" coversize="1" poweradd="4" requirelv="5" animation="baozha2" cd="1" costball="2" audio="音效.指2" buff="内伤.5.3.100"/>
+      <unique name="弹指神通.冰霜一指" info="弹指神通绝技" covertype="2" castsize="6" coversize="2" poweradd="7" requirelv="15" animation="bingdong" cd="4" costball="4" audio="音效.指2" buff="缓速.5.3.100#定身.5.3.100"/>
+      <trigger name="attribute" argvs="搏击格斗,14" lv="10"/>
+      <trigger name="powerup_aoyi" argvs="碧海潮生,30,10" lv="20"/>
+		</skill>
+    <skill name="混元掌" tiaohe="1" type="0" suit="0" hard="9" info="自外而内修练「混元功」之用的掌式" audio="音效.拳3" basepower="5" step="0.5" animation="hit" cd="1">
+			<unique name="混元掌.独步降魔" info="混元掌中精妙招式，绵延不绝。" covertype="4" castsize="3" coversize="4" poweradd="2.5" requirelv="10" animation="hit" cd="3" costball="3" audio="音效.拳3" buff="恢复.3.2.100#防御强化.3.3.100"/>
+      <trigger name="attribute" argvs="搏击格斗,10" lv="10"/>
+      <trigger name="defence" argvs="45,10" lv="10"/>
+      <trigger name="powerup_internalskill" argvs="混元功,50" lv="15"/>
+      <trigger name="powerup_skill" argvs="混元掌奥义.劈石破玉拳,15,10" lv="20"/>
+		</skill>
+    <skill name="青莲掌法" tiaohe="0" type="0" suit="-0.7" hard="10" info="传说李白用的掌法" audio="音效.拳3" basepower="5" step="0.5" animation="hua" cd="1">
+      <unique name="青莲掌法.竹溪青莲掌" info="青莲掌法中精妙招式，绵延不绝。" covertype="1" castsize="4" coversize="2" poweradd="2.5" requirelv="10" animation="hua" cd="3" costball="3" audio="音效.拳3" />
+      <trigger name="attribute" argvs="搏击格斗,15" lv="10"/>
+      <trigger name="attribute" argvs="身法,15" lv="15"/>
+      <trigger name="attribute" argvs="搏击格斗,10" lv="20"/>
+    </skill>
+    <skill name="碧针清掌" tiaohe="0" type="0" suit="-0.5" hard="7" info="谢烟客的拿手绝学掌法" audio="音效.拳3" basepower="5" step="0.5" animation="yuxiaojianfa" cd="1">
+      <trigger name="attribute" argvs="搏击格斗,15" lv="10"/>
+      <trigger name="attribute" argvs="定力,15" lv="15"/>
+      <trigger name="attribute" argvs="搏击格斗,10" lv="20"/>
+    </skill>
+    <skill name="三花聚顶掌" tiaohe="1" type="0" suit="0" hard="7" info="全真教名震天下的掌法绝学" audio="音效.钝器5" basepower="5" step="0.6" animation="hua" cd="1">
+      <unique name="三花聚顶掌.五气朝阳" info="全真教名震天下的掌法绝学" covertype="2" coversize="5" poweradd="4" requirelv="10" animation="hua" cd="4" costball="4" audio="音效.拳3" buff="重伤.3.3.100"/>
+      <trigger name="attribute" argvs="搏击格斗,15" lv="10"/>
+      <trigger name="attribute" argvs="臂力,15" lv="10"/>
+      <trigger name="attribute" argvs="臂力,15" lv="15"/>
+      <trigger name="powerup_skill" argvs="三花聚顶掌,15" lv="18"/>
+      <trigger name="powerup_aoyi" argvs="全真绝学.三花聚顶,30,20" lv="20"/>
+      <trigger name="attribute" argvs="定力,10" lv="20"/>
+    </skill>
+
+    <!-- 剑法 -->
+		<skill name="玉女素心剑" tiaohe="0" type="1" suit="-1.1" hard="8" info="君子淑女，双剑合璧" audio="音效.利器6" basepower="4" step="0.5" animation="luoxing_purple" cd="1" >
+			<unique name="玉女素心剑.冷月窥人" info="长剑抖动,将敌上半身尽数罩住,趁敌守护之机,刺敌小腹。" covertype="2" coversize="5" poweradd="5" requirelv="10" animation="luoxing_purple" cd="6" costball="6" audio="音效.利器6" buff="左右互搏.10.3.100"/>
+      <trigger name="attribute" argvs="使剑技巧,15" lv="10"/>
+      <trigger name="powerup_aoyi" argvs="古墓绝学.双剑合璧,15,8" lv="13"/>
+      <trigger name="powerup_aoyi" argvs="古墓绝学.双剑合璧,10,3" lv="18"/>
+      <trigger name="powerup_jianfa" argvs="8" lv="20"/>
+		</skill>
+		<skill name="玄铁剑法" tiaohe="1" type="1" suit="0" hard="11" info="重剑无锋，大巧不工" audio="音效.破空钝器" basepower="5" step="0.6" animation="fire" cd="1" >
+			<unique name="玄铁剑法.重剑无锋" info="玄铁剑法朴实无华的一招" covertype="4" castsize="3" coversize="3" poweradd="4" requirelv="10" animation="fire" cd="4" costball="3" audio="音效.破空钝器" buff="缓速.3.3.100"/>
+      <trigger name="attribute" argvs="使剑技巧,15" lv="10"/>
+      <trigger name="attribute" argvs="臂力,12" lv="10"/>
+      <trigger name="powerup_aoyi" argvs="绝学.无招胜有招,15,5" lv="14"/>
+      <trigger name="attribute" argvs="臂力,12" lv="18"/>
+      <trigger name="talent" argvs="孤独求败" lv="20"/>
+		</skill>
+		<skill name="太极剑" tiaohe="1" type="1" suit="0" hard="10" info="武当派张三丰发明的阴柔相济剑法" audio="音效.利器7" basepower="4" step="0.65" animation="taiji3" cd="1">
+      <trigger name="attribute" argvs="使剑技巧,15" lv="10"/>
+      <trigger name="defence" argvs="30,8" lv="10"/>
+      <trigger name="powerup_aoyi" argvs="武当绝学.太极剑奥义,15,3" lv="10"/>
+      <trigger name="powerup_jianfa" argvs="6" lv="15"/>
+      <trigger name="powerup_aoyi" argvs="武当绝学.太极剑奥义,30,6" lv="18"/>
+      <unique name="太极剑.无我无剑" info="太极剑的精要，达到无我的境界，几乎能够毁天灭地的一招" covertype="2" coversize="4" poweradd="8" requirelv="20" animation="taiji4" cd="10" costball="6" audio="音效.利器7" buff="麻痹.3.3.100" />
+    </skill>
+    <skill name="神门十三剑" tiaohe="1" type="1" suit="0" hard="9" info="武当派张松溪自创剑法，一共十三招，专刺神门穴" audio="音效.长剑" basepower="5.6" step="0.6" animation="baozha3" cd="1" buff="致盲.4">
+      <trigger name="attribute" argvs="使剑技巧,15" lv="10"/>
+      <trigger name="powerup_skill" argvs="太极剑,12" lv="15"/>
+      <trigger name="mingzhong" argvs="100" lv="20"/>
+    </skill>
+    <skill name="七星七绝剑" tiaohe="0" type="1" suit="0.9" hard="7" info="全真教根据北斗七星位置参悟的高阶剑法" audio="音效.长剑" basepower="4" step="0.6" animation="maichong_blue" cd="1" buff="致盲.3">
+      <trigger name="attribute" argvs="使剑技巧,15" lv="10"/>
+      <trigger name="mingzhong" argvs="25" lv="14"/>
+      <trigger name="powerup_aoyi" argvs="全真绝学.太乙剑诀,25,5" lv="16"/>
+      <trigger name="powerup_aoyi" argvs="全真绝学.重阳剑法,25,5" lv="20"/>
+    </skill>
+    <skill name="达摩剑法" tiaohe="0" type="1" suit="1" hard="7" info="少林七十二绝技" audio="音效.利器4" basepower="4" step="0.5" animation="fo" cd="1" buffs="重伤#防御强化">
+      <trigger name="attribute" argvs="使剑技巧,12" lv="10"/>
+      <trigger name="attribute" argvs="臂力,12" lv="10"/>
+      <trigger name="attribute" argvs="臂力,12" lv="15"/>
+      <trigger name="powerup_jianfa" argvs="5" lv="20"/>
+    </skill>
+		<skill name="苗家剑法" tiaohe="0" type="1" suit="1.1" hard="10" info="金面佛苗人凤的家传剑法" audio="音效.利器5" basepower="5" step="0.5" animation="miaojiajianfa" cd="1" buff="内伤.2#缓速.2">
+			<unique name="苗家剑法.冲天掌苏秦背剑" info="苗家剑法精妙招式" castsize="1" covertype="5" coversize="4" poweradd="2" requirelv="6" animation="miaojiajianfa" cd="4" costball="2" audio="音效.破空钝器" buff="重伤.5.3.100"/>
+      <trigger name="attribute" argvs="使剑技巧,16" lv="10"/>
+      <trigger name="powerup_aoyi" argvs="绝学.刀剑归真,10,2" lv="10"/>
+      <trigger name="powerup_jianfa" argvs="5" lv="14"/>
+      <trigger name="powerup_aoyi" argvs="绝学.刀剑归真,20,5" lv="20"/>
+		</skill>
+    <skill name="连城剑法" tiaohe="1" type="1" suit="0" hard="10" info="铁骨墨萼梅念笙大侠所创剑法，又称唐诗剑法" audio="音效.利器4" basepower="5" step="0.6" animation="guanghuan_shengji" cd="1">
+      <unique name="连城剑法.长剑横九野" info="连城剑法精妙招式" covertype="2" coversize="4" poweradd="3" requirelv="6" animation="guanghuan_shengji" cd="3" costball="2" audio="音效.利器4" buff="缓速.2.3.100"/>
+      <unique name="连城剑法.大雪满弓刀" info="连城剑法精妙招式" covertype="6" coversize="1" poweradd="5" requirelv="10" animation="guanghuan_shengji" cd="6" costball="4" audio="音效.利器4" buff="诸般封印"/>
+      <trigger name="attribute" argvs="使剑技巧,16" lv="10"/>
+      <trigger name="critical" argvs="25" lv="15"/>
+      <trigger name="powerup_aoyi" argvs="绝学.唐诗剑法,15,8" lv="20"/>
+    </skill>
+    <skill name="太白剑法" tiaohe="1" type="1" suit="0" hard="7" info="传说李白用的剑法" audio="音效.利器4" basepower="4" step="0.6" animation="guanghuan_shengji" cd="1">
+      <unique name="太白剑法.庚已太白剑" info="太白剑法精妙招式" covertype="2" coversize="4" poweradd="3" requirelv="6" animation="guanghuan_shengji" cd="3" costball="2" audio="音效.利器4" />
+      <trigger name="attribute" argvs="使剑技巧,16" lv="10"/>
+      <trigger name="powerup_internalskill" argvs="太玄神功,10" lv="15"/>
+    </skill>
+    <skill name="上清剑法" tiaohe="1" type="1" suit="0" hard="7" info="玄素庄高深剑法" audio="音效.利器4" basepower="4" step="0.6" animation="guanghuan_shengji" cd="1">
+      <unique name="上清剑法.上清无极" info="上清剑法精妙招式" covertype="2" coversize="4" poweradd="2" requirelv="6" animation="guanghuan_shengji" cd="3" costball="2" audio="音效.利器4" buff="内伤.3.3.100" />
+      <trigger name="attribute" argvs="使剑技巧,14" lv="10"/>
+      <trigger name="powerup_internalskill" argvs="太玄神功,10" lv="15"/>
+    </skill>
+    <skill name="归藏剑" tiaohe="1" type="1" suit="0" hard="7" info="灵鹫宫的高深剑法" audio="音效.利器4" basepower="3" step="0.6" animation="guanghuan_shengji" cd="1">
+      <unique name="归藏剑.先天八剑" info="归藏剑法精妙招式" covertype="2" coversize="4" poweradd="2" requirelv="9" animation="guanghuan_shengji" cd="3" costball="2" audio="音效.利器4" buff="缓速.2.3.100" />
+      <trigger name="attribute" argvs="使剑技巧,10" lv="10"/>
+      <trigger name="attribute" argvs="使剑技巧,10" lv="20"/>
+    </skill>
+    <!-- 刀法 -->
+    <skill name="金乌刀法" tiaohe="0" type="2" suit="1" hard="8" info="史婆婆为了对付自大的丈夫白自在所创刀法" audio="音效.利器6" basepower="4" step="0.7" animation="miaojiajianfa" cd="1">
+      <unique name="金乌刀法.梅雪逢夏" info="史婆婆为了对付自大的丈夫白自在所创刀法" covertype="2" coversize="5" poweradd="3" requirelv="4" animation="miaojiajianfa" cd="5" costball="4" audio="音效.利器6" buff="定身.3.3.100"/>
+      <trigger name="attribute" argvs="耍刀技巧,13" lv="10"/>
+      <trigger name="powerup_internalskill" argvs="太玄神功,10" lv="15"/>
+    </skill>
+		<!-- 奇门 -->
+		<skill name="阴阳倒乱刃" tiaohe="0" type="3" suit="-0.9" hard="9" info="胡天胡地，随心所欲" audio="音效.利器6" basepower="4" step="0.4" animation="jinshejianfa" cd="1">
+			<unique name="阴阳倒乱刃.绝情绝义" info="绝情谷主是个老色鬼，偏心要取个这样的绝招名字" covertype="2" coversize="5" poweradd="3" requirelv="4" animation="jinshejianfa" cd="5" costball="4" audio="音效.利器6" buff="中毒.3.3.100"/>
+      <trigger name="attribute" argvs="使剑技巧,14" lv="10"/>
+      <trigger name="attribute" argvs="奇门兵器,14" lv="10"/>
+		</skill>
+		<!-- 变态武功-->
+		<!-- 拳掌 -->
+		<skill name="药王神掌" tiaohe="0" type="0" suit="-1" hard="10" info="毒手药王的武功" audio="音效.拳2" basepower="5" step="0.3" animation="duyao2" cd="1" buff="内伤.3#中毒.6.5.100">
+			<unique name="药王神掌.万蛊嗜心" info="撒出致命毒药" covertype="4" coversize="4" poweradd="1" requirelv="10" animation="duyao2" cd="2" costball="1" audio="音效.内功攻击3" buff="内伤.3.3.100#中毒.10.5.100"/>
+      <trigger name="attribute" argvs="搏击格斗,8" lv="10"/>
+      <trigger name="talent" argvs="毒系精通" lv="10"/>
+      <trigger name="talent" argvs="毒圣" lv="18"/>
+		</skill>
+    <skill name="玄冥神掌" tiaohe="0" type="0" suit="-1.1" hard="10" info="连张三丰都怕的毒功" audio="音效.猛兽2" basepower="6" step="0.4" animation="duyao2" cd="1" buff="内伤.3#中毒.6.5.100">
+      <unique name="玄冥神掌.九幽归天" info="阴寒至极的掌法" covertype="4" coversize="4" poweradd="3" requirelv="10" animation="duyao2" cd="3" costball="2" audio="音效.拳2" buff="内伤.3.3.100#中毒.10.5.100"/>
+      <trigger name="attribute" argvs="搏击格斗,12" lv="10"/>
+      <trigger name="attribute" argvs="搏击格斗,8" lv="20"/>
+    </skill>
+		<skill name="六脉神剑" tiaohe="1" type="0" covertype="3" suit="0.2" hard="10" info="源于一阳指的大理段氏绝学，以气御指，化为剑气" audio="音效.内功攻击4" basepower="6" step="0.55" animation="ball_purple" cd="1">
+			<unique name="六脉神剑.少泽剑" info="以小拇指发出的剑气，速度极快" castsize="1" covertype="3" coversize="10" poweradd="1" requirelv="1" animation="yunshi" cd="2" costball="2" audio="音效.内功攻击4"/>
+			<unique name="六脉神剑.六脉齐发" info="六脉神剑的精髓所在" covertype="2" coversize="4" poweradd="2" requirelv="10" animation="yunshi" cd="3" costball="2" audio="音效.内功攻击4" buff="诸般封印"/>
+      <trigger name="attribute" argvs="搏击格斗,16" lv="10"/>
+      <trigger name="mingzhong" argvs="35" lv="14"/>
+      <trigger name="critical" argvs="20" lv="18"/>
+      <trigger name="talent" argvs="无形剑气" lv="20"/>
+		</skill>
+		<skill name="黯然销魂掌" tiaohe="0" type="0" suit="-1.3" hard="10" info="问世间情为何物" audio="音效.奥义2" basepower="7" step="0.5" animation="ball_purple" cd="1" buff="重伤.3">
+			<unique name="黯然销魂掌.拖泥带水" info="神雕大侠吼一吼，大山也要抖三抖" covertype="2" coversize="3" poweradd="2" requirelv="5" animation="ball_purple" cd="4" costball="4" audio="音效.拳2" buff="重伤.3.3.100"/>
+      <trigger name="attribute" argvs="搏击格斗,16" lv="10"/>
+      <trigger name="attribute" argvs="臂力,16" lv="14"/>
+      <trigger name="powerup_aoyi" argvs="黯然销魂.左手帝,15,5" lv="15"/>
+      <trigger name="powerup_aoyi" argvs="黯然销魂.左手帝,15,5" lv="20"/>
+    </skill>
+		<!-- 剑法 -->
+		<skill name="独孤九剑" tiaohe="1" type="1" suit="0" hard="11" info="独孤求败纵横天下的无敌剑法" audio="音效.威猛利器2" basepower="6" step="0.7" animation="jianqi" cd="1" buff="集气.2">
+			<unique name="独孤九剑.破剑式" info="独孤九剑破剑式" covertype="2" coversize="4" poweradd="4" requirelv="4" animation="light" cd="6" costball="4" audio="音效.威猛利器2" buff="剑封印.0.2.100"/>
+			<unique name="独孤九剑.破刀式" info="独孤九剑破刀式" covertype="2" coversize="4" poweradd="4" requirelv="4" animation="jian_zhan" cd="6" costball="4" audio="音效.威猛利器2" buff="刀封印.0.2.100"/>
+			<unique name="独孤九剑.破掌式" info="独孤九剑破掌式" covertype="2" coversize="4" poweradd="4" requirelv="4" animation="bagua" cd="6" costball="4" audio="音效.威猛利器2" buff="拳掌封印.0.2.100"/>
+			<unique name="独孤九剑.破兵式" info="独孤九剑破兵式，破各种奇门技能" covertype="2" coversize="4" poweradd="4" requirelv="4" animation="ball_purple" cd="6" costball="4" audio="音效.威猛利器2" buff="奇门封印.0.2.100"/>
+			<unique name="独孤九剑.总诀式" info="学成此式，方可以天下绝顶高手一较胜负" covertype="2" coversize="4" poweradd="6" requirelv="10" animation="jianqi" cd="6" costball="4" audio="音效.威猛利器2" buff="诸般封印"/>
+      <trigger name="attribute" argvs="使剑技巧,14" lv="10"/>
+      <trigger name="powerup_jianfa" argvs="4" lv="18"/>
+      <trigger name="talent" argvs="孤独求败" lv="20"/>
+      <trigger name="attribute" argvs="使剑技巧,15" lv="20"/>
+    </skill>
+		<!-- 刀法 -->
+		<skill name="胡家刀法" tiaohe="0" type="2" suit="1" hard="10" info="辽东大侠胡一刀的家传刀法" audio="音效.威猛利器3" basepower="6" step="0.52" animation="hujiadaofa" cd="1" buff="内伤.2">
+			<unique name="胡家刀法.八方藏刀式" info="胡家刀法中的精妙绝技" castsize="4" covertype="2" coversize="3" poweradd="4" requirelv="10" animation="qiege_blue" cd="5" costball="4" audio="音效.威猛利器3" buff="内伤.5.2.100#轻身.1.3.100"/>
+      <trigger name="attribute" argvs="耍刀技巧,16" lv="10"/>
+      <trigger name="powerup_aoyi" argvs="胡家刀法奥义.穿手藏刀,10,10" lv="12"/>
+      <trigger name="powerup_aoyi" argvs="胡家刀法奥义.鹞子翻身刀,10,10" lv="14"/>
+      <trigger name="powerup_aoyi" argvs="胡家刀法奥义.怀中抱月,10,10" lv="16"/>
+      <trigger name="powerup_aoyi" argvs="绝学.刀剑归真,10,10" lv="20"/>
+		</skill>
+		<!-- 奇门 -->
+	</skills>
+	<!-- 内功-->
+	<internal_skills>
+    <internal_skill name="基本内功" info="天下内功的根基" yin="25" yang="25" attack="0.15" critical="0.15" defence="0.15" hard="1">
+      <trigger name="sp" argvs="0.05" lv="10"/>
+      <trigger name="attribute" argvs="根骨,8" lv="10"/>
+      <trigger name="attribute" argvs="臂力,8" lv="14"/>
+      <trigger name="attribute" argvs="身法,8" lv="15"/>
+      <trigger name="attribute" argvs="悟性,8" lv="16"/>
+      <trigger name="attribute" argvs="定力,8" lv="17"/>
+      <trigger name="attribute" argvs="福缘,8" lv="18"/>
+      <trigger name="anti_debuff" argvs="5" lv="20"/>
+    </internal_skill>
+		<internal_skill name="化功大法" info="星宿老仙丁春秋为武林所不齿的内功绝技" yin="50" yang="0" attack="0.2" critical="0.2" defence="0.2" hard="4">
+			<unique name="化功大法.腐尸毒" info="用自身带毒的内力散去敌方内功" covertype="5" castsize="1" coversize="4" poweradd="4" requirelv="5" animation="ball_purple" cd="4" costball="2" audio="音效.暗器2" buff="中毒.4.2.100#内伤.10.2.100"/>
+      <trigger name="talent" argvs="毒系精通" lv="10"/>
+      <trigger name="attribute" argvs="根骨,15" lv="10"/>
+      <trigger name="attribute" argvs="根骨,15" lv="15"/>
+      <trigger name="talent" argvs="化功大法" lv="20"/>
+		</internal_skill>
+    <internal_skill name="血刀心法" info="血刀门的入门心法，只重攻不重防" yin="50" yang="50" attack="0.5" critical="0" defence="0" hard="4">
+      <trigger name="attribute" argvs="根骨,10" lv="10"/>
+      <trigger name="powerup_skill" argvs="血刀大法,8" lv="14"/>
+      <trigger name="powerup_skill" argvs="血刀大法,15" lv="18"/>
+      <trigger name="powerup_internalskill" argvs="血海魔功,15" lv="20"/>
+    </internal_skill>
+    <internal_skill name="段氏心法" info="大理段氏的内功心法" yin="0" yang="50" attack="0.3" critical="0.2" defence="0.3" hard="4">
+      <trigger name="eq_talent" argvs="奋战" lv="10"/>
+      <trigger name="attribute" argvs="根骨,10" lv="10"/>
+      <trigger name="powerup_skill" argvs="一阳指,15" lv="15"/>
+      <trigger name="powerup_skill" argvs="六脉神剑,10" lv="18"/>
+      <trigger name="talent" argvs="大理世家" lv="20"/>
+    </internal_skill>
+    <internal_skill name="紫霞神功" info="华山派心法" yin="0" yang="50" attack="0.3" critical="0.2" defence="0.3" hard="4">
+      <trigger name="eq_talent" argvs="奋战" lv="10"/>
+      <trigger name="attribute" argvs="根骨,10" lv="10"/>
+      <trigger name="powerup_aoyi" argvs="华山一剑,15,5" lv="15"/>
+      <trigger name="attribute" argvs="根骨,20" lv="18"/>
+      <trigger name="sp" argvs="0.1" lv="20"/>
+    </internal_skill>
+    <internal_skill name="全真心法" info="全真派的内功心法" yin="40" yang="40" attack="0.3" critical="0.2" defence="0.3" hard="4">
+      <trigger name="attribute" argvs="根骨,10" lv="10"/>
+      <trigger name="powerup_internalskill" argvs="先天功,8" lv="14"/>
+      <trigger name="powerup_internalskill" argvs="九阴神功,8" lv="16"/>
+      <trigger name="mingzhong" argvs="10" lv="18"/>
+      <trigger name="sp" argvs="0.05" lv="20"/>
+    </internal_skill>
+    <internal_skill name="天山心法" info="灵鹫宫的内功心法，据说藏着很大秘密" yin="45" yang="45" attack="0.3" critical="0.2" defence="0.3" hard="4">
+      <trigger name="attribute" argvs="根骨,10" lv="10"/>
+      <trigger name="powerup_internalskill" argvs="北冥神功,5" lv="12"/>
+      <trigger name="powerup_internalskill" argvs="八荒六合唯我独尊功,5" lv="15"/>
+      <trigger name="powerup_aoyi" argvs="逍遥绝学.生死符,10,6" lv="18"/>
+      <trigger name="powerup_internalskill" argvs="八荒六合唯我独尊功,5" lv="20"/>
+    </internal_skill>
+    <internal_skill name="武当心法" info="武当派的内功心法" yin="40" yang="40" attack="0.2" critical="0.2" defence="0.4" hard="4">
+      <trigger name="attribute" argvs="根骨,10" lv="10"/>
+      <trigger name="powerup_internalskill" argvs="太极神功,15" lv="14"/>
+      <trigger name="powerup_internalskill" argvs="纯阳无极功,15" lv="18"/>
+      <trigger name="sp" argvs="0.1" lv="20"/>
+    </internal_skill>
+    <internal_skill name="青城内功" info="青城内功青山重重" yin="40" yang="40" attack="0.2" critical="0.4" defence="0.4" hard="4">
+      <trigger name="attribute" argvs="根骨,10" lv="10"/>
+      <trigger name="powerup_skill" argvs="青城剑法,50" lv="15"/>
+      <trigger name="powerup_skill" argvs="摧心掌,50" lv="15"/>
+      <trigger name="powerup_skill" argvs="青城剑法,70" lv="20"/>
+      <trigger name="powerup_skill" argvs="摧心掌,70" lv="20"/>
+    </internal_skill>
+    <internal_skill name="少林九阳功" info="九阳神功在少林的分枝" yin="-30" yang="50" attack="0.4" critical="0" defence="0.3" hard="5">
+      <trigger name="eq_talent" argvs="拳掌封印" lv="10"/>
+      <trigger name="attribute" argvs="根骨,10" lv="10"/>
+      <trigger name="powerup_internalskill" argvs="九阳神功,15" lv="16"/>
+      <trigger name="powerup_internalskill" argvs="易筋经,15" lv="16"/>
+      <trigger name="anti_debuff" argvs="8" lv="20"/>
+    </internal_skill>
+    <internal_skill name="武当九阳功" info="九阳神功在武当派的分枝" yin="45" yang="45" attack="0.4" critical="0" defence="0.3" hard="5">
+      <trigger name="eq_talent" argvs="剑封印" lv="10"/>
+      <trigger name="attribute" argvs="根骨,10" lv="10"/>
+      <trigger name="powerup_internalskill" argvs="九阳神功,15" lv="14"/>
+      <trigger name="powerup_internalskill" argvs="纯阳无极功,8" lv="16"/>
+      <trigger name="anti_debuff" argvs="8" lv="20"/>
+    </internal_skill>
+    <internal_skill name="少林心法" info="少林派早课" yin="-30" yang="60" attack="0.3" critical="0" defence="0.3" hard="5" >
+      <trigger name="attribute" argvs="根骨,10" lv="10"/>
+      <trigger name="powerup_internalskill" argvs="少林九阳功,15" lv="14"/>
+      <trigger name="powerup_internalskill" argvs="九阳神功,15" lv="16"/>
+      <trigger name="powerup_internalskill" argvs="易筋经,15" lv="18"/>
+      <trigger name="anti_debuff" argvs="8" lv="20"/>
+    </internal_skill>
+    <internal_skill name="峨眉九阳功" info="九阳神功在峨眉的分枝" yin="-5" yang="50" attack="0.4" critical="0.25" defence="0.3" hard="6">
+      <trigger name="eq_talent" argvs="刀封印" lv="10"/>
+      <trigger name="attribute" argvs="根骨,10" lv="10"/>
+      <trigger name="powerup_internalskill" argvs="九阳神功,15" lv="16"/>
+      <trigger name="anti_debuff" argvs="8" lv="20"/>
+    </internal_skill>
+    <internal_skill name="太极神功" info="张三丰所悟的太极心法" yin="60" yang="60" attack="0.4" critical="0.3" defence="0.4" hard="8">
+      <trigger name="talent" argvs="太极高手" lv="10"/>
+      <trigger name="attribute" argvs="根骨,12" lv="10"/>
+      <trigger name="powerup_skill" argvs="太极拳,12" lv="15"/>
+      <trigger name="powerup_skill" argvs="太极剑,12" lv="15"/>
+      <trigger name="powerup_internalskill" argvs="纯阳无极功,12" lv="18"/>
+      <trigger name="anti_debuff" argvs="10" lv="20"/>
+    </internal_skill>
+		<internal_skill name="纯阳无极功" info="武当派张三丰所创至高心法，必须处男才能使哦~" yin="-50" yang="100" attack="0.65" critical="0.2" defence="0.7" hard="10">
+      <trigger name="eq_talent" argvs="诸般封印" lv="10"/>
+      <trigger name="eq_talent" argvs="真气护体" lv="10"/>
+      <trigger name="attribute" argvs="根骨,12" lv="10"/>
+      <trigger name="powerup_skill" argvs="太极拳,12" lv="10"/>
+      <trigger name="powerup_skill" argvs="太极剑,12" lv="10"/>
+      <trigger name="powerup_aoyi" argvs="武当绝学.太极拳奥义,10,6" lv="15"/>
+      <trigger name="powerup_aoyi" argvs="武当绝学.太极剑奥义,10,6" lv="15"/>
+      <trigger name="sp" argvs="0.1" lv="20"/>
+    </internal_skill>
+    <internal_skill name="北冥神功" info="逍遥派心法宝典，能够吸取内力" yin="40" yang="40" attack="0.35" critical="0.15" defence="0.4" hard="8">
+      <trigger name="eq_talent" argvs="北冥神功" lv="10"/>
+      <trigger name="attribute" argvs="根骨,12" lv="10"/>
+      <trigger name="attribute" argvs="根骨,12" lv="15"/>
+      <trigger name="talent" argvs="鲲跃北溟" lv="20"/>
+    </internal_skill>
+    <internal_skill name="控鹤功" info="谢烟客的心法" yin="70" yang="40" attack="0.85" critical="0.6" defence="0.4" hard="8">
+      <trigger name="attribute" argvs="根骨,12" lv="10"/>
+      <trigger name="critical" argvs="20" lv="14"/>
+      <trigger name="attribute" argvs="根骨,12" lv="16"/>
+      <trigger name="sp" argvs="0.1" lv="20"/>
+    </internal_skill>
+    <internal_skill name="无妄神功" info="依“无妄”卦象所创内功，讲求“天雷无妄，无妄而得，必有所失，必有所得”" yin="60" yang="60" attack="0.6" critical="0.3" defence="0.6" hard="8">
+      <trigger name="eq_talent" argvs="破甲" lv="10"/>
+      <trigger name="eq_talent" argvs="真气护体" lv="10"/>
+      <trigger name="eq_talent" argvs="金钟罩" lv="10"/>
+      <trigger name="attribute" argvs="根骨,12" lv="10"/>
+      <trigger name="animation" argvs="疯子,fengzi" lv="10"/>
+      <trigger name="sp" argvs="0.25" lv="15"/>
+    </internal_skill>
+    <internal_skill name="蛤蟆功" info="呱呱" yin="70" yang="0" attack="0.65" critical="0.3" defence="0.4" hard="7">
+			<unique name="蛤蟆功.癞蛤蟆蹬地" info="趴在地上，呱呱" covertype="5" castsize="1" coversize="4" poweradd="1" requirelv="5" animation="longjuanfeng2" cd="3" costball="2" audio="音效.蛤蟆叫" buff="内伤.5.3.100#中毒.5.5.100"/>
+      <trigger name="attribute" argvs="根骨,12" lv="10"/>
+      <trigger name="powerup_skill" argvs="灵蛇拳,80" lv="18"/>
+      <trigger name="animation" argvs="化身为欧阳锋,ouyangfeng" lv="20"/>
+		</internal_skill>
+    <internal_skill name="八荒六合唯我独尊功" info="易经归藏，天地至理，八荒六合，唯我独尊" yin="75" yang="75" attack="0.8" critical="0.3" defence="0.6" hard="8">
+      <trigger name="eq_talent" argvs="不老长春" lv="10"/>
+      <trigger name="eq_talent" argvs="金钟罩" lv="10"/>
+      <trigger name="attribute" argvs="根骨,12" lv="10"/>
+      <trigger name="animation" argvs="化身为天山童姥,xiaonvhai" lv="14"/>
+      <trigger name="powerup_skill" argvs="天山折梅手,25" lv="14"/>
+      <trigger name="powerup_aoyi" argvs="灵鹫宫绝学.天地唯我独尊,25,10" lv="16"/>
+      <trigger name="powerup_aoyi" argvs="灵鹫宫绝学.天地唯我独尊,25,10" lv="18"/>
+      <trigger name="sp" argvs="0.1" lv="20"/>
+      <trigger name="eq_talent" argvs="万年长春" lv="20"/>
+    </internal_skill>
+    <internal_skill name="罗汉伏魔功" info="集佛家内功之大成，深奥精微" yin="0" yang="60" attack="0.2" critical="0.1" defence="1" hard="8">
+      <trigger name="eq_talent" argvs="真气护体" lv="10"/>
+      <trigger name="eq_talent" argvs="怒不可遏" lv="10"/>
+      <trigger name="attribute" argvs="根骨,12" lv="10"/>
+      <trigger name="powerup_internalskill" argvs="太玄神功,6" lv="14"/>
+      <trigger name="attribute" argvs="根骨,20" lv="16"/>
+      <trigger name="powerup_aoyi" argvs="太玄神功奥义式,12,4" lv="18"/>
+      <trigger name="powerup_internalskill" argvs="太玄神功,10" lv="20"/>
+    </internal_skill>
+    <internal_skill name="太玄神功" info="侠客岛石壁上记载的神奇无上内功" yin="80" yang="80" attack="0.7" critical="0.1" defence="0.65" hard="8">
+      <unique name="太玄神功" info="侠客岛石壁上记载的神奇无上内功" covertype="4" castsize="4" coversize="4" poweradd="4" requirelv="5" animation="fo" cd="3" costball="3" audio="音效.内功攻击1" buff="重伤.3.3.100"/>
+      <trigger name="eq_talent" argvs="真气护体" lv="10"/>
+      <trigger name="eq_talent" argvs="百穴归一" lv="10"/>
+      <trigger name="attribute" argvs="根骨,12" lv="10"/>
+      <trigger name="attack" argvs="100,20" lv="15"/>
+      <trigger name="talent" argvs="吴钩霜雪" lv="20"/>
+    </internal_skill>
+    <internal_skill name="血海魔功" info="血刀门神秘的邪恶内功" yin="90" yang="90" attack="1" critical="0.2" defence="0" hard="8">
+      <unique name="血海魔功.血魔刀" info="血刀门神秘的邪恶内功" covertype="6" castsize="2" coversize="2" poweradd="4" requirelv="5" animation="anranxiaohunzhang" cd="2" costball="2" audio="音效.内功攻击1" buff="内伤.3.3.100#魔神降临.2.2.100"/>
+      <trigger name="eq_talent" argvs="血海魔功" lv="10"/>
+      <trigger name="attribute" argvs="根骨,12" lv="10"/>
+      <trigger name="powerup_skill" argvs="血刀大法,15" lv="12"/>
+      <trigger name="xi" argvs="25" lv="14"/>
+      <trigger name="powerup_skill" argvs="血刀大法,15" lv="16"/>
+      <trigger name="powerup_aoyi" argvs="血刀大法奥义.血海无边,37,12" lv="18"/>
+      <trigger name="attack" argvs="100,0" lv="19"/>
+      <trigger name="talent" argvs="魔神降临" lv="20"/>
+    </internal_skill>
+    <internal_skill name="龙象般若功" info="雪山密宗的盖世奇功" yin="80" yang="80" attack="0.65" critical="0.35" defence="0.8" hard="10">
+      <unique name="龙象般若功.龙象秘境" info="雪山密宗的盖世奇功" covertype="6" castsize="2" coversize="2" poweradd="1" requirelv="5" animation="anranxiaohunzhang" cd="2" costball="2" audio="音效.内功攻击3" buff="内伤.3.3.100"/>
+      <unique name="龙象般若功.庄严宝相" info="雪山密宗的盖世奇功" covertype="4" castsize="4" coversize="3" poweradd="3" requirelv="10" animation="longjuanfeng2" cd="4" costball="4" audio="音效.内功攻击1" buff="定身.4.3.100"/>
+      <trigger name="eq_talent" argvs="斗魂" lv="10"/>
+      <trigger name="attribute" argvs="根骨,12" lv="10"/>
+      <trigger name="defence" argvs="0,100" lv="15"/>
+      <trigger name="anti_debuff" argvs="10" lv="18"/>
+    </internal_skill>
+		<internal_skill name="易筋经" info="少林至高无上的内功宝典" yin="90" yang="90" attack="0.7" critical="0.2" defence="0.8" hard="10">
+			<unique name="易筋经.易筋神功" info="易筋经中记载的绝世武艺" covertype="4" castsize="4" coversize="3" poweradd="1" requirelv="5" animation="huozhu_hong" cd="6" costball="2" audio="音效.内功攻击1" buff="内伤.3.3.100#防御强化.10.1.100"/>
+      <trigger name="eq_talent" argvs="普照" lv="10"/>
+      <trigger name="eq_talent" argvs="清心" lv="10"/>
+      <trigger name="attribute" argvs="根骨,12" lv="10"/>
+      <trigger name="defence" argvs="40,5" lv="12"/>
+      <trigger name="anti_debuff" argvs="35" lv="16"/>
+		</internal_skill>
+		<internal_skill name="九阴神功" info="至高无上的内功心法" yin="100" yang="40" attack="0.9" critical="0.5" defence="0.45" hard="10" >
+			<unique name="九阴神功.九阴神爪" info="这绝不是九阴白骨爪" covertype="0" castsize="3" coversize="1" poweradd="0" requirelv="5" animation="zhua" cd="6" costball="2" audio="音效.破空钝器" buff="缓速.3.3.100"/>
+			<unique name="九阴神功.九阴极意" info="九阴真经中所领悟出来的天下武学总纲" covertype="4" castsize="3" coversize="3" poweradd="2" requirelv="10" animation="guanghuan_blue2" cd="6" costball="6" audio="音效.吸取内力" buff="致盲.3.3.100"/>
+      <trigger name="eq_talent" argvs="破甲" lv="10"/>
+      <trigger name="attribute" argvs="根骨,12" lv="10"/>
+      <trigger name="attack" argvs="40,5" lv="12"/>
+      <trigger name="attack" argvs="40,5" lv="16"/>
+      <trigger name="eq_talent" argvs="怒不可遏" lv="20"/>
+		</internal_skill>
+		<internal_skill name="九阳神功" info="至高无上的内功心法" yin="40" yang="100" attack="0.6" critical="0.3" defence="0.9" hard="10">
+			<unique name="九阳神功.乾卦九阳" info="九阳神功绝招" covertype="4" castsize="3" coversize="4" poweradd="1" requirelv="10" animation="jiuyangshengong" cd="4" costball="4" audio="音效.内功攻击4" buff="防御强化.15.2.100"/>
+      <trigger name="eq_talent" argvs="金钟罩" lv="10"/>
+      <trigger name="attribute" argvs="根骨,12" lv="10"/>
+      <trigger name="defence" argvs="15,15" lv="12"/>
+      <trigger name="anti_debuff" argvs="10" lv="16"/>
+      <trigger name="eq_talent" argvs="至刚至阳" lv="20"/>
+		</internal_skill>
+		<internal_skill name="葵花宝典" info="欲练神功，必先自宫" yin="100" yang="-100" attack="1.0" critical="0.4" defence="0.6" hard="10">
+			<unique name="葵花宝典.绣花针" info="阴毒之极，迅速之极" covertype="0" castsize="6" coversize="1" poweradd="0" requirelv="9" animation="anqi" cd="0" costball="1" audio="音效.暗器2" buff="致盲.2.5.100"/>
+			<unique name="葵花宝典.真辟邪剑法" info="阴毒之极，迅速之极，辟邪剑法奥义式" covertype="1" castsize="0" coversize="5" poweradd="2" requirelv="10" animation="longjuanfeng_green" cd="5" costball="4" audio="音效.利器6" buff="致盲.5.5.100#轻身.2.3.100"/>
+      <trigger name="eq_talent" argvs="自我主义" lv="1"/>
+      <trigger name="eq_talent" argvs="斗魂" lv="5"/>
+      <trigger name="eq_talent" argvs="飘然" lv="8"/>
+      <trigger name="attribute" argvs="根骨,12" lv="10"/>
+      <trigger name="powerup_skill" argvs="辟邪剑法,6" lv="12"/>
+      <trigger name="powerup_skill" argvs="辟邪剑法,6" lv="15"/>
+      <trigger name="powerup_skill" argvs="辟邪剑法,6" lv="18"/>
+      <trigger name="animation" argvs="化身为东方不败,dongfangbubai" lv="20"/>
+    </internal_skill>
+    <internal_skill name="小无相功" info="无相，即没脸，不要脸的功夫……" yin="55" yang="55" attack="0.6" critical="0.4" defence="0.6" hard="8">
+      <trigger name="eq_talent" argvs="斗魂" lv="10"/>
+      <trigger name="attribute" argvs="根骨,12" lv="10"/>
+      <trigger name="attribute" argvs="福缘,10" lv="14"/>
+      <trigger name="attribute" argvs="福缘,10" lv="16"/>
+      <trigger name="powerup_internalskill" argvs="龙象般若功,15" lv="20"/>
+    </internal_skill>
+    <internal_skill name="玉女心经" info="古墓派高级内功" yin="50" yang="30" attack="0.3" critical="0.2" defence="0.2" hard="6">
+      <trigger name="eq_talent" argvs="清心" lv="10"/>
+      <trigger name="attribute" argvs="根骨,11" lv="10"/>
+      <trigger name="talent" argvs="清心" lv="18"/>
+      <trigger name="powerup_skill" argvs="玉女素心剑,20" lv="20"/>
+    </internal_skill>
+    <internal_skill name="混元功" info="华山派由内而外的内功，需配合混元掌使用。" yin="40" yang="40" attack="0.5" critical="0.1" defence="0.5" hard="8" talent="拳掌封印">
+      <unique name="混元功.混元一气" info="混元一气,浑身坚逾精钢" covertype="4" castsize="3" coversize="4" poweradd="2.5" requirelv="10" costball="4" animation="huozhu_hong" cd="3"  audio="音效.内功攻击2" buff="内伤.8.3.100"/>
+      <trigger name="attribute" argvs="根骨,12" lv="10"/>
+      <trigger name="powerup_skill" argvs="混元掌,15" lv="12"/>
+      <trigger name="powerup_skill" argvs="混元掌,15" lv="14"/>
+      <trigger name="powerup_skill" argvs="混元掌,15" lv="15"/>
+      <trigger name="powerup_skill" argvs="混元掌奥义.劈石破玉拳,15,8" lv="16"/>
+      <trigger name="powerup_skill" argvs="混元掌奥义.劈石破玉拳,15,8" lv="18"/>
+      <trigger name="powerup_skill" argvs="混元掌奥义.劈石破玉拳,15,10" lv="20"/>
+      <trigger name="powerup_skill" argvs="混元掌,20" lv="20"/>
+    </internal_skill>
+    <internal_skill name="寒冰真气" info="嵩山派掌门左冷禅的独门内功" yin="70" yang="-70" attack="0.5" critical="0.1" defence="0.5" hard="8">
+      <trigger name="eq_talent" argvs="拳掌封印" lv="10"/>
+      <trigger name="attribute" argvs="根骨,12" lv="10"/>
+      <trigger name="talent" argvs="寒冰真气" lv="14"/>
+      <trigger name="powerup_internalskill" argvs="寒冰真气,40" lv="20"/>
+    </internal_skill>
+    <internal_skill name="日月心经" info="日月神教代代相传的心法" yin="70" yang="70" attack="0.6" critical="0.3" defence="0.6" hard="8">
+      <trigger name="eq_talent" argvs="拳掌封印" lv="10"/>
+      <trigger name="attribute" argvs="根骨,12" lv="10"/>
+      <trigger name="attribute" argvs="根骨,12" lv="14"/>
+      <trigger name="sp" argvs="0.1" lv="15"/>
+    </internal_skill>
+    <internal_skill name="神照功" info="有神罩着，当然牛逼了" yin="70" yang="70" attack="0.7" critical="0.25" defence="0.75" hard="9">
+      <trigger name="attribute" argvs="根骨,12" lv="10"/>
+      <trigger name="eq_talent" argvs="无尽斗志" lv="10"/>
+      <trigger name="attribute" argvs="根骨,12" lv="14"/>
+      <trigger name="powerup_skill" argvs="连城剑法,12" lv="16"/>
+      <trigger name="eq_talent" argvs="我就是神" lv="18"/>
+    </internal_skill>
+    <internal_skill name="先天功" info="先天真气，生生不息" yin="70" yang="70" attack="0.7" critical="0.25" defence="0.5" hard="9">
+      <trigger name="eq_talent" argvs="真气护体" lv="10"/>
+      <trigger name="attribute" argvs="根骨,12" lv="10"/>
+      <trigger name="anti_debuff" argvs="5" lv="12"/>
+      <trigger name="attribute" argvs="根骨,12" lv="14"/>
+      <trigger name="powerup_aoyi" argvs="全真绝学.三花聚顶,15,5" lv="16"/>
+      <trigger name="powerup_aoyi" argvs="全真绝学.三花聚顶.炼神返虚,15,5" lv="18"/>
+      <trigger name="powerup_internalskill" argvs="九阴神功,12" lv="20"/>
+    </internal_skill>
+    <internal_skill name="黑炎心法" info="神秘的黑暗武学" yin="100" yang="100" attack="1" critical="1" defence="1" hard="10" >
+      <trigger name="eq_talent" argvs="魔神降临" lv="10"/>
+      <trigger name="attribute" argvs="根骨,5" lv="10"/>
+    </internal_skill>
+	</internal_skills>
+</root>

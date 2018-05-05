@@ -1,0 +1,82 @@
+﻿<sdk:ChildWindow	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"	xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing"	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"	x:Class="JyGame.StoryEditWindow"
+	Title="剧本编辑器"
+	Width="800" Height="535">
+	<Grid x:Name="LayoutRoot">
+		<Grid.RowDefinitions>
+			<RowDefinition />
+			<RowDefinition Height="Auto" />
+		</Grid.RowDefinitions>
+		<TextBlock HorizontalAlignment="Left" Height="16" Margin="10,3,0,0" TextWrapping="Wrap" Text="剧本名" VerticalAlignment="Top" Width="56"/>
+		<TextBox x:Name="StoryNameTextBox" HorizontalAlignment="Left" Height="23" Margin="71,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" TextChanged="StoryNameTextBox_TextChanged"/>
+		<ListBox x:Name="StoryListBox" HorizontalAlignment="Left" Height="288" Margin="16,42,0,0" VerticalAlignment="Top" Width="316" SelectionChanged="StoryListBox_SelectionChanged"/>
+		<Button x:Name="NewActionButton" Content="新增" HorizontalAlignment="Left" Height="23" Margin="294,335,0,0" VerticalAlignment="Top" Width="38" Click="NewActionButton_Click"/>
+		<Button x:Name="DeleteActionButton" Content="删除" HorizontalAlignment="Left" Height="23" Margin="18,335,0,0" VerticalAlignment="Top" Width="38" Click="DeleteActionButton_Click"/>
+		<Button x:Name="UpActionButton" Content="上移" HorizontalAlignment="Left" Height="23" Margin="61,335,0,0" VerticalAlignment="Top" Width="38" Click="UpActionButton_Click"/>
+		<Button x:Name="DownActionButton" Content="下移" HorizontalAlignment="Left" Height="23" Margin="105,335,0,0" VerticalAlignment="Top" Width="38" Click="DownActionButton_Click"/>
+		<TextBlock HorizontalAlignment="Left" Height="16" Margin="10,27,0,0" TextWrapping="Wrap" Text="剧本" VerticalAlignment="Top" Width="56"/>
+		<TextBlock HorizontalAlignment="Left" Height="16" Margin="365,41,0,0" TextWrapping="Wrap" Text="事件类型" VerticalAlignment="Top" Width="56"/>
+		<Button x:Name="CommitActionButton" Content="确定" HorizontalAlignment="Left" Height="19" Margin="628,38,0,0" VerticalAlignment="Top" Width="40" Click="CommitActionButton_Click"/>
+		<Button x:Name="CancelActionButton" Content="取消" HorizontalAlignment="Left" Height="19" Margin="673,38,0,0" VerticalAlignment="Top" Width="40" Click="CancelActionButton_Click"/>
+		<TextBlock HorizontalAlignment="Left" Height="16" Margin="10,377,0,0" TextWrapping="Wrap" Text="结果" VerticalAlignment="Top" Width="56"/>
+		<ListBox x:Name="ResultListBox" HorizontalAlignment="Left" Height="100" Margin="16,396,0,0" VerticalAlignment="Top" Width="316"/>
+		<ComboBox x:Name="ActionTypeCombo" HorizontalAlignment="Left" Margin="158,337,0,0" VerticalAlignment="Top" Width="131"/>
+		<TextBlock x:Name="ActionTypeText" HorizontalAlignment="Left" Height="16" Margin="444,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="154" Text="无"/>
+		<Button x:Name="DebugButton" Content="调试" HorizontalAlignment="Left" Height="23" Margin="713,0,0,0" VerticalAlignment="Top" Width="59" Click="DebugButton_Click"/>
+		<Canvas x:Name="DialogEditCanvas" HorizontalAlignment="Left" Height="283" Margin="337,63,-5,0" VerticalAlignment="Top" Width="450" Background="#FFD4D4D4" d:IsHidden="True">
+			<TextBlock HorizontalAlignment="Left" Height="16" TextWrapping="Wrap" Text="预览" VerticalAlignment="Top" Width="56" Canvas.Left="10" Canvas.Top="161"/>
+			<Viewbox HorizontalAlignment="Left" Height="106" VerticalAlignment="Top" Width="455" Canvas.Top="179" Canvas.Left="5">
+				<Grid x:Name="LayoutRoot_Copy" Height="137" Opacity="1" Width="621">
+					<Grid.Background>
+						<ImageBrush Stretch="Fill" Opacity="0.795" ImageSource="/Resource/ui/info.png"/>
+					</Grid.Background>
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="186"/>
+						<ColumnDefinition/>
+					</Grid.ColumnDefinitions>
+					<Image x:Name="Head" Margin="22,12,68,16" RenderTransformOrigin="1.309,0.443" Source="/Resource/heads/zhujue.png"/>
+					<TextBlock x:Name="Text" Grid.Column="1" Margin="-44,42,33,0" TextWrapping="Wrap" Text="中文..."   FontSize="16" Foreground="White" FontWeight="Normal" />
+					<TextBlock   FontSize="18" FontWeight="Bold" Foreground="White" Margin="-44,12,89,73" x:Name="RoleName" Text="中文..." TextWrapping="Wrap" TextAlignment="Left" Grid.Column="1" IsHitTestVisible="False" />
+				</Grid>
+			</Viewbox>
+			<TextBlock Height="15" Canvas.Left="5" TextWrapping="Wrap" Text="人物" Canvas.Top="7" Width="44"/>
+			<TextBox x:Name="DialogRoleNameTextBox" Height="27" Canvas.Left="64" TextWrapping="Wrap" Canvas.Top="3" Width="151"/>
+			<TextBlock Height="15" Canvas.Left="5" TextWrapping="Wrap" Text="对白" Canvas.Top="42" Width="44"/>
+			<TextBox x:Name="DialogInfoTextBox" Height="112" Canvas.Left="64" TextWrapping="Wrap" Canvas.Top="44" Width="318"/>
+			<Button Content="选择" Height="27" Canvas.Left="220" Canvas.Top="3" Width="57"/>
+		</Canvas>
+		<Canvas x:Name="ActionEditCanvas" HorizontalAlignment="Left" Height="280" Margin="337,66,0,0" VerticalAlignment="Top" Width="445" Background="#FF7E7B7B" d:IsHidden="True">
+			<TextBox x:Name="ActionValueTextBox" Height="69" Canvas.Left="67" TextWrapping="Wrap" Canvas.Top="44" Width="316"/>
+			<TextBlock Canvas.Left="67" TextWrapping="Wrap" Text="值" Canvas.Top="26"/>
+		</Canvas>
+		<Canvas x:Name="MusicEditCanvas" HorizontalAlignment="Left" Height="280" Margin="337,66,0,0" VerticalAlignment="Top" Width="445" Background="#FF7E7B7B" d:IsHidden="True">
+			<TextBox x:Name="MusicValueTextBox" Height="28" Canvas.Left="24" TextWrapping="Wrap" Canvas.Top="44" Width="185"/>
+			<TextBlock Canvas.Left="24" TextWrapping="Wrap" Text="音乐" Canvas.Top="31"/>
+			<Button x:Name="MusicSelectButton" Content="选择..." Height="28" Canvas.Left="234" Canvas.Top="44" Width="69" Click="MusicSelectButton_Click"/>
+			<TextBox x:Name="MusicActualPathText" Height="28" Canvas.Left="24" TextWrapping="Wrap" Canvas.Top="113" Width="365" IsReadOnly="True"/>
+			<TextBlock Canvas.Left="24" TextWrapping="Wrap" Text="真实路径" Canvas.Top="95"/>
+			<Button x:Name="ListenButton" Content="试听" Height="28" Canvas.Left="320" Canvas.Top="44" Width="69" Click="ListenButton_Click"/>
+		</Canvas>
+		<Canvas x:Name="MapEditCanvas" HorizontalAlignment="Left" Height="280" Margin="337,66,0,0" VerticalAlignment="Top" Width="445" Background="#FFD6D5D5" d:IsHidden="True">
+			<TextBox x:Name="MapValueTextBox" Height="28" Canvas.Left="24" TextWrapping="Wrap" Canvas.Top="44" Width="185"/>
+			<TextBlock Canvas.Left="24" TextWrapping="Wrap" Text="地图" Canvas.Top="31"/>
+			<Button x:Name="MapSelectButton" Content="选择..." Height="28" Canvas.Left="234" Canvas.Top="44" Width="69" Click="MapSelectButton_Click"/>
+			<TextBox x:Name="MapActualPathText" Height="28" Canvas.Left="24" TextWrapping="Wrap" Canvas.Top="113" Width="365" IsReadOnly="True"/>
+			<TextBlock Canvas.Left="24" TextWrapping="Wrap" Text="真实路径" Canvas.Top="95"/>
+			<Image x:Name="MapPreviewImage" Height="100" Canvas.Left="24" Canvas.Top="170" Width="100"/>
+			<TextBlock Canvas.Left="24" TextWrapping="Wrap" Text="预览" Canvas.Top="152"/>
+		</Canvas>
+		<Canvas x:Name="SelectEditCanvas" Margin="350,66,10,170">
+			<TextBlock Canvas.Left="21" TextWrapping="Wrap" Text="选择框编辑器" Canvas.Top="10"/>
+			<TextBlock Canvas.Left="60" TextWrapping="Wrap" Text="标题" Canvas.Top="31"/>
+			<TextBox x:Name="SelectEditTitle" Height="26" Canvas.Left="87" TextWrapping="Wrap" Canvas.Top="27" Width="153"/>
+			<TextBox x:Name="SelectContent" Height="125" Canvas.Left="46" TextWrapping="Wrap" Canvas.Top="129" Width="341" AcceptsReturn="True"/>
+			<TextBlock Canvas.Left="46" TextWrapping="Wrap" Text="选项（每行代表一个选项）" Canvas.Top="111" Width="152"/>
+			<TextBlock Canvas.Left="60" TextWrapping="Wrap" Text="角色" Canvas.Top="62"/>
+			<TextBox x:Name="SelectRoleText" Height="26" Canvas.Left="87" TextWrapping="Wrap" Canvas.Top="62" Width="153"/>
+		</Canvas>
+		<Button x:Name="ResultEditButton" Content="编辑" HorizontalAlignment="Left" Height="19" Margin="44,374,0,0" VerticalAlignment="Top" Width="59" Click="ResultEditButton_Click"/>
+		<TextBlock x:Name="NameConflictText" HorizontalAlignment="Left" Height="23" Margin="318,3,0,0" TextWrapping="Wrap" Text="与已有story重名" VerticalAlignment="Top" Width="105" Foreground="Red" Visibility="Collapsed"/>
+	</Grid>
+</sdk:ChildWindow>

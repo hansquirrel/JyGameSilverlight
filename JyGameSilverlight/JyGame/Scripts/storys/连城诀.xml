@@ -1,0 +1,237 @@
+<root>
+  <story name="连城诀_昆仑山.血刀老祖1">
+    <action type="DIALOG" value="血刀老祖#嘿嘿，什么落花流水，都被我打跑了，好爽，好爽。" />
+    <action type="DIALOG" value="血刀老祖#可惜没有人来继承我血刀大法的绝学，唉..." />
+    <action type="DIALOG" value="主角#嗯？有秘籍？" />
+    <action type="SELECT" value="主角#血刀老祖在这里，要挑战吗？#挑战#还是走吧" />
+    <result ret="0" type="story" value="连城诀_昆仑山.血刀老祖2" />
+    <result ret="1" type="map" value="昆仑山山路2" />
+  </story>
+  <story name="连城诀_昆仑山.血刀老祖2">
+    <action type="DIALOG" value="主角#恶贼，有秘籍还不交出来。太坏了，看招！" />
+    <action type="DIALOG" value="血刀老祖#嘿嘿，送死。" />
+    <action type="BATTLE" value="昆仑山血刀老祖_战斗" />
+    <result ret="win" type="story" value="连城诀_昆仑山.血刀老祖胜" />
+  </story>
+  <story name="连城诀_昆仑山.血刀老祖胜">
+    <action type="BACKGROUND" value="地图.山洞2" />
+    <action type="MUSIC" value="音乐.室内_世俗" />
+    <action type="DIALOG" value="血刀老祖#大爷饶命，大爷饶命啊！" />
+    <action type="SELECT" value="主角#要杀死血刀老祖吗？#杀！#饶他一命吧。" />
+    <result ret="0" type="story" value="连城诀_昆仑山.血刀老祖杀" />
+    <result ret="1" type="story" value="连城诀_昆仑山.血刀老祖不杀" />
+  </story>
+  <story name="连城诀_昆仑山.血刀老祖杀">
+    <action type="BACKGROUND" value="地图.山洞2" />
+    <action type="MUSIC" value="音乐.室内_世俗" />
+    <action type="DIALOG" value="血刀老祖#啊！我做鬼也不会放过你！" />
+    <result ret="0" type="map" value="昆仑山山洞2" />
+  </story>
+  <story name="连城诀_昆仑山.血刀老祖不杀">
+    <action type="BACKGROUND" value="地图.山洞2" />
+    <action type="MUSIC" value="音乐.室内_世俗" />
+    <action type="DIALOG" value="血刀老祖#好汉威武，好汉荡漾，好汉您是我心中的红太阳！" />
+    <action type="ITEM" value="血刀经#1" />
+    <result ret="0" type="map" value="昆仑山山洞2" />
+  </story>
+  <story name="连城诀_昆仑山.血刀老祖不杀后">
+    <action type="DIALOG" value="血刀老祖#好汉威武，好汉荡漾，好汉您是我心中的红太阳！" />
+  </story>
+  <story name="连城诀_唐诗山洞.狄云加入前">
+    <action type="DIALOG" value="狄云#听说你打败了血刀老祖？" />
+    <action type="DIALOG" value="主角#是啊。" />
+    <action type="DIALOG" value="狄云#不错，干得漂亮。那你来找我这个无用之人，又所为何事？" />
+    <action type="DIALOG" value="主角#听说你很猛，想找你一起闯荡江湖啊。" />
+    <action type="DIALOG" value="狄云#那我要先试试你的本事。" />
+    <action type="BATTLE" value="唐诗山洞狄云_战斗" />
+    <result ret="win" type="story" value="连城诀_唐诗山洞.狄云加入" />
+  </story>
+  <story name="连城诀_唐诗山洞.狄云加入">
+    <action type="BACKGROUND" value="地图.洞穴1" />
+    <action type="MUSIC" value="音乐.天龙八部.忧伤" />
+    <action type="DIALOG" value="狄云#不错，你的武功很高。" />
+    <action type="DIALOG" value="主角#那跟我走吧！" />
+    <action type="DIALOG" value="狄云#血刀老祖你杀了没？" />
+    <action type="DIALOG" value="主角#杀了。" />
+    <action type="DIALOG" value="狄云#好，你为人正直，我跟你一起闯荡江湖。" />
+    <action type="JOIN" value="狄云" />
+    <action type="ITEM" value="神照经#1" />
+    <action type="ITEM" value="乌蚕衣#1" />
+    <action type="NICK" value="连城剑客" />
+  </story>
+  <story name="连城诀_唐诗山洞.狄云不加入前">
+    <action type="DIALOG" value="狄云#听说你打败了血刀老祖？" />
+    <action type="DIALOG" value="主角#是啊。" />
+    <action type="DIALOG" value="狄云#不错，干得漂亮。那你来找我这个无用之人，又所为何事？" />
+    <action type="DIALOG" value="主角#听说你很猛，想找你一起闯荡江湖啊。" />
+    <action type="DIALOG" value="狄云#那我要先试试你的本事。" />
+    <action type="BATTLE" value="唐诗山洞狄云_战斗" />
+    <result ret="win" type="story" value="连城诀_唐诗山洞.狄云不加入" />
+  </story>
+  <story name="连城诀_唐诗山洞.狄云不加入">
+    <action type="BACKGROUND" value="地图.洞穴1" />
+    <action type="MUSIC" value="音乐.天龙八部.忧伤" />
+    <action type="DIALOG" value="狄云#不错，你的武功很高。" />
+    <action type="DIALOG" value="主角#那跟我走吧！" />
+    <action type="DIALOG" value="狄云#血刀老祖你杀了没？" />
+    <action type="DIALOG" value="主角#没杀。" />
+    <action type="DIALOG" value="狄云#除非你提血刀老祖头颅来见我，否则我不会加入你的。" />
+  </story>
+  <story name="连城诀_昆仑山.血刀老祖条件">
+    <action type="DIALOG" value="主角#秃子，受死吧！" />
+    <action type="DIALOG" value="血刀老祖#好汉，且慢！你不是不杀我的么？" />
+    <action type="DIALOG" value="主角#狄云跟我说，除非杀了你，否则他不跟我跑路。" />
+    <action type="DIALOG" value="血刀老祖#那我可以跟您跑路嘛..." />
+    <action type="DIALOG" value="主角#呸，你的武功比狄云差，我要他比较划算。" />
+    <action type="DIALOG" value="血刀老祖#那我还可以再追加一本血刀经！" />
+    <action type="DIALOG" value="主角#血刀经那玩意，你不是给了我一本了么。" />
+    <action type="DIALOG" value="血刀老祖#嘻嘻，好汉，您一定发现了，那本只能练到九级...学不到我的绝招。" />
+    <action type="DIALOG" value="主角#竟然还拿本次货忽悠我！" />
+    <action type="DIALOG" value="血刀老祖#好汉息怒，好汉息怒啊...你把狄云杀了，我跟你跑路，真的也给你！" />
+    <action type="DIALOG" value="主角#嗯......" />
+  </story>
+  <story name="连城诀_唐诗山洞.狄云不从">
+    <action type="DIALOG" value="狄云#血刀老祖人头呢？" />
+    <action type="DIALOG" value="主角#他让我来杀你。" />
+    <action type="DIALOG" value="狄云#哦？" />
+    <action type="DIALOG" value="主角#我算了算帐，一本真血刀经+血刀老祖，应该比你加入要划算一点。" />
+    <action type="DIALOG" value="狄云#呸，小人。" />
+    <action type="DIALOG" value="主角#要不，你也给我本神照经、连城剑法之类的？那样还是你比较好嘛。" />
+    <action type="DIALOG" value="狄云#无耻小人，去死吧！" />
+    <action type="BATTLE" value="唐诗山洞狄云等人_战斗" />
+    <result ret="win" type="story" value="连城诀_唐诗山洞.狄云死亡" />
+  </story>
+  <story name="连城诀_血刀门.杀狄云">
+    <action type="DIALOG" value="主角#你就是狄云吧？" />
+    <action type="DIALOG" value="狄云#你是？" />
+    <action type="DIALOG" value="主角#我乃血刀门门下，替老祖来杀你！受死吧！" />
+    <action type="BATTLE" value="唐诗山洞狄云等人_战斗" />
+    <result ret="win" type="story" value="连城诀_唐诗山洞.狄云死亡" />
+  </story>
+  <story name="连城诀_唐诗山洞.狄云死亡">
+    <action type="DIALOG" value="狄云#我做鬼也不会放过你！" />
+    <action type="LOG" value="杀死狄云。" />
+  </story>
+  <story name="连城诀_昆仑山.血刀老祖加入">
+    <action type="DIALOG" value="血刀老祖#啊，好汉，你真的把狄云干掉了！" />
+    <action type="DIALOG" value="主角#好了，别耍滑头了，跟我一起走吧。" />
+    <action type="DIALOG" value="血刀老祖#Yes！好汉！" />
+    <action type="JOIN" value="血刀老祖" />
+    <action type="ITEM" value="血刀经真本#1" />
+    <action type="ITEM" value="血刀#1" />
+    <action type="NICK" value="血刀传人" />
+  </story>
+  <story name="连城诀_唐诗山洞.狄云">
+    <action type="DIALOG" value="狄云#听江湖传言，血刀老祖好像还活着！" />
+  </story>
+
+  <story name="连城诀_天宁寺毒">
+    <action type="DIALOG" value="主角#（天宁寺大佛像后……）是了，这就是连城宝藏了，用不着拿唐诗选集泡水玩我也知道了，哼，先知么。"/>
+    <action type="SELECT" value="主角#开启连城宝藏？#开启 #还是算了"/>
+    <result ret="0" type="story" value="连城诀_天宁寺毒习武" />
+    <result ret="1" type="map" value="天宁寺" />
+  </story>
+
+  <story name="连城诀_天宁寺毒习武">
+    <action type="MUSIC" value="音乐.天龙八部.紧张感1"/>
+    <action type="DIALOG" value="主角#连城宝藏，我来了！"/>
+    <action type="GET_MONEY" value="5000"/>
+    <action type="NICK" value="富可敌国"/>
+    <action type="DIALOG" value="主角#呕——呃——"/>
+    <action type="DIALOG" value="主角#这怎么有毒？我以前拿怎么没事？"/>
+    <action type="DIALOG" value="主角#快逼毒吧！"/>
+    <action type="DIALOG" value="主角#（一个时辰以后）"/>
+    <action type="DIALOG" value="主角#呼，好厉害的毒。全身经脉几乎被撕裂一半，却得到了连城宝藏，不知是福是祸啊！"/>
+    <action type="UPGRADE.臂力" value="主角#-5"/>
+    <action type="UPGRADE.身法" value="主角#-5"/>
+    <action type="UPGRADE.根骨" value="主角#-5"/>
+    <action type="UPGRADE.定力" value="主角#-5"/>
+    <action type="ITEM" value="连城剑法#1" />
+    <action type="LOG" value="天宁寺找宝藏中毒了..." />
+    <result ret="0" type="map" value="天宁寺" />
+  </story>
+
+  <story name="连城诀_天宁寺毒2">
+    <action type="DIALOG" value="主角#你这个坑爹的佛像！！！"/>
+  </story>
+
+  <story name="连城诀_雪谷水笙">
+    <action type="MUSIC" value="音乐.天龙八部.逍遥派抒情版"/>
+    <action type="BACKGROUND" value="地图.雪山山路1"/>
+    <action type="DIALOG" value="水笙#狄大哥！我等了你这么久，我知道你会回来的！"/>
+    <action type="DIALOG" value="狄云#水姑娘……（二人紧紧相拥）"/>
+    <action type="DIALOG" value="主角#（这两天历尽千辛万苦，终于在一起了）"/>
+    <action type="DIALOG" value="狄云#小兄弟，虽然你我意气相投，但我既然已经寻到了水姑娘，我便，我便不能再与她分开了。"/>
+    <action type="DIALOG" value="水笙#（脸红）"/>
+    <action type="DIALOG" value="主角#（羡慕嫉妒恨啊！）"/>
+    <action type="DIALOG" value="狄云#兄弟，我在这江湖上还有一件很重要的事要办，在此我们就分别了。"/>
+    <action type="DIALOG" value="主角#（啊？有异性没人性，你就这么舍我而去啦？哥可是费了九牛二虎之力才把你搞到手啊……这就嫌弃我这个电灯泡了）"/>
+    <action type="DIALOG" value="主角#（为了狄云兄这个强力打手队友，只能豁出去了。）"/>
+    <action type="DIALOG" value="主角#狄兄这就见外了，你的事就是我的事，能有什么帮忙的尽管说！"/>
+    <action type="DIALOG" value="狄云#可是，这个事有危险，我怕你被我连累了。。"/>
+    <action type="DIALOG" value="水笙#我看这位大哥是靠谱之人，我们一并同行也好有个照应啊。"/>
+    <action type="DIALOG" value="狄云#好吧，只要你不怕被我这个苦命人连累了，我要去江陵办这个事，请随我来！"/>
+    <action type="JOIN" value="水笙"/>
+  </story>
+
+  <story name="连城诀_江陵复仇">
+    <action type="MUSIC" value="音乐.天龙八部.紧张感1"/>
+    <action type="BACKGROUND" value="地图.江陵"/>
+    <action type="DIALOG" value="狄云#是了，就是这里了。"/>
+    <action type="DIALOG" value="主角#？"/>
+    <action type="DIALOG" value="狄云#这里就是一切罪恶的起点，他们害死了小师妹，害死了丁大哥，这群人每一个都罪无可赦，"/>
+    <action type="DIALOG" value="狄云#为了一个虚无缥缈的宝藏，他们不顾儿女亲情，不顾兄弟之情，不顾师徒情分，他们全都该杀，该杀！"/>
+    <action type="DIALOG" value="主角#狄大哥，什么人该杀？"/>
+    <action type="DIALOG" value="狄云#我要让他们自相残杀而死，走，跟我去城门那里！"/>
+    <action type="DIALOG" value="主角#狄大哥？"/>
+    <action type="DIALOG" value="狄云#（狄云运起神照功，竟然使得他的脚吸附在城墙上，随后他刻下了一行大字）四、五十一、三十三、二十八……"/>
+    <action type="DIALOG" value="主角#这什么意思？"/>
+    <action type="DIALOG" value="狄云#明白这句话意思的人，全都该杀！咱们哥俩就去酒楼好生喝上一天，明天一早，咱们就去给恶人们收尸去把！"/>
+    <result ret="0" type="story" value="连城诀_天宁寺终" />
+  </story>
+
+  <story name="连城诀_天宁寺终">
+    <action type="MUSIC" value="音乐.武侠回忆"/>
+    <action type="BACKGROUND" value="地图.天宁寺"/>
+    <action type="DIALOG" value="主角#怎么这么多尸体！"/>
+    <action type="DIALOG" value="狄云#都是因为贪心，因为贪心，所以他们都死了。"/>
+    <action type="DIALOG" value="主角#是他们自相残杀甩出的内息激荡将墙皮震了下来，看来后面还有，我把墙皮都拆了看看。"/>
+    <action type="DIALOG" value="狄云#不可！小兄弟，这后边的字上都有毒，包括这大佛像上，都是含有剧毒的。这也是为什么他们要自相残杀的原因，他们想贪这连城宝藏，结果都中了毒，全都疯了。"/>
+    <action type="DIALOG" value="狄云#（用内息一片一片将墙皮震落）这是，这是神照经的最后一章！"/>
+    <action type="DIALOG" value="水笙#这里是连城剑法！是连城剑法！！"/>
+    <action type="BATTLE" value="天宁寺_战斗_梅念笙"/>
+    <result ret="win" type="story" value="连城诀_连城诀" />
+  </story>
+
+  <story name="连城诀_连城诀">
+    <action type="MUSIC" value="音乐.武侠回忆"/>
+    <action type="BACKGROUND" value="地图.天宁寺"/>
+    <action type="DIALOG" value="狄云#原来神照经应该如此运行方可大成！"/>
+    <action type="DIALOG" value="水笙#这就是力敌血刀门的连城剑法么！"/>
+    <action type="UPGRADE.MAXHP" value="狄云#1000" />
+    <action type="UPGRADE.MAXMP" value="狄云#1000" />
+    <action type="GET_POINT" value="狄云#20" />
+    <action type="UPGRADE.拳掌" value="狄云#10" />
+    <action type="UPGRADE.剑法" value="狄云#25" />
+    <action type="UPGRADE.MAXHP" value="水笙#1000" />
+    <action type="UPGRADE.MAXMP" value="水笙#1000" />
+    <action type="GET_POINT" value="水笙#20" />
+    <action type="UPGRADE.拳掌" value="水笙#10" />
+    <action type="UPGRADE.剑法" value="水笙#25" />
+    <action type="LEARN.INTERNALSKILL" value="狄云#神照功#12" />
+    <action type="LEARN.INTERNALSKILL" value="水笙#神照功#12" />
+    <action type="LEARN.SKILL" value="狄云#连城剑法#10" />
+    <action type="LEARN.TALENT" value="狄云#铁骨墨萼" />
+    <action type="LEARN.TALENT" value="水笙#铁骨墨萼" />
+    <action type="NICK" value="铁骨墨萼" />
+    <action type="ITEM" value="连城剑法精要#1" />
+    <action type="LOG" value="和狄云水笙一起完成天宁寺复仇。" />
+    <result ret="0" type="map" value="天宁寺" />
+  </story>
+
+  <story name="连城诀_连城诀2">
+    <action type="DIALOG" value="狄云#这个宝藏真的埋葬了人性的丑恶……"/>
+    <action type="DIALOG" value="水笙#狄大哥，别想太多了，一切都已经过去了。"/>
+    <action type="DIALOG" value="狄云#嗯……"/>
+  </story>
+</root>

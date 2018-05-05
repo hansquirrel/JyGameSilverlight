@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+
+  <story name="少林派_入门">
+    <action type="BACKGROUND" value="地图.大雄宝殿" />
+    <action type="MUSIC" value="音乐.少林山门" />
+    <action type="DIALOG" value="方证大师#不知施主来我少室山门有何贵干啊？" />
+    <action type="DIALOG" value="主角#方丈，我是南贤介绍来学习武功的。" />
+    <action type="DIALOG" value="方证大师#阿弥陀佛，天下门派林林总总，施主能来此定是与我佛有源， 不知施主可是看破红尘决心青灯长卷常与我佛相伴了么？" />
+    <action type="SELECT" value="主角#该如何是好呢？#请大师为我看破孽障#大师误会了，我希望练的一身武艺拯救天下苍生" />
+    <action type="MENPAI" value="少林寺" />
+    <result ret="0" type="story" value="少林派_剃度"/>
+    <result ret="1" type="story" value="少林派_不剃度"/>
+   
+  </story>
+  <story name="少林派_剃度">
+    <action type="BACKGROUND" value="地图.大雄宝殿" />
+    <action type="DIALOG" value="方证大师#既然如此就让我为施主剃度吧。" />
+    <action type="LEARN.TALENT" value="主角#无相" />
+    <action type="NICK" value="看破红尘" />
+    <action type="ANIMATION" value="主角#menpai_shaolin_jian" />
+    <action type="HEAD" value="头像.少林弟子" />
+    <result ret="0" type="map" value="少林寺内"/>
+  </story>
+  <story name="少林派_不剃度">
+    <action type="BACKGROUND" value="地图.大雄宝殿" />
+    <action type="DIALOG" value="方证大师#施主有此志向老衲深感欣慰，你就挂名做我少林的俗家弟子吧。我师弟会传授你些武功希望施主能够达成所愿" />
+    <action type="DIALOG" value="主角#谢方丈成全" />
+    <action type="LEARN.TALENT" value="主角#俗家弟子" />
+    <action type="NICK" value="俗家弟子" />
+    <result ret="0" type="map" value="少林寺内"/>
+  </story>
+  <story name="少林派_少林拳法">
+    <action type="BACKGROUND" value="地图.罗汉堂" />
+    <action type="DIALOG" value="罗汉堂首座#本派武学自达摩祖师以来向来是只为了强身健体，不为与人比武争胜，不过你既然已经剃度，自然要先从少林武僧做起，现在我就传你少林十八罗汉拳。" />
+    <action type="DIALOG" value="主角#是，首座。" />
+    <action type="UPGRADE.臂力" value="主角#1" />
+    <action type="UPGRADE.拳掌" value="主角#1" />
+    <action type="UPGRADE.SKILL" value="主角#罗汉拳#1" />
+    <action type="COST_DAY" value="2" />
+    <result ret="0" type="map" value="少林寺内"/>
+  </story>
+  <story name="少林派_少林拳法1">
+    <action type="BACKGROUND" value="地图.罗汉堂" />
+    <action type="DIALOG" value="罗汉堂首座#基本的招式已经交给你了，那边有木桩沙袋，你和师兄弟们一起练习吧" />
+    <action type="DIALOG" value="主角#是，师傅" />
+    <action type="UPGRADE.臂力" value="主角#1" />
+    <action type="UPGRADE.拳掌" value="主角#1" />
+    <action type="UPGRADE.SKILL" value="主角#罗汉拳#1" />
+    <action type="COST_DAY" value="2" />
+    <result ret="0" type="map" value="少林寺内"/>
+  </story>
+  
+  <story name="少林派_少林拳法2">
+    <action type="BACKGROUND" value="地图.罗汉堂" />
+   <action type="DIALOG" value="罗汉堂首座#这是少林武僧学武的地方，你个俗家弟子不要随意乱走！" />
+    <result ret="0" type="map" value="少林寺内"/>
+  </story>
+  <story name="少林派_少林棍法">
+    <action type="BACKGROUND" value="地图.戒律院" />
+    <action type="DIALOG" value="戒律院首座#曾经我少林十三棍，因救唐王李世民而名扬天下，从今日起我就传你少林棍法吧。" />
+    <action type="DIALOG" value="主角#多谢大师。" />
+    <action type="UPGRADE.臂力" value="主角#1" />
+    <action type="UPGRADE.奇门" value="主角#2" />
+    <action type="UPGRADE.SKILL" value="主角#韦陀棍#1" />
+    <action type="COST_DAY" value="2" />
+    <result ret="0" type="map" value="少林寺内"/>
+  </story>
+  <story name="少林派_少林棍法1">
+    <action type="BACKGROUND" value="地图.戒律院" />
+    <action type="DIALOG" value="戒律院首座#少林棍法之所以名扬天下没别的窍门，只有勤学苦练。" />
+    <action type="DIALOG" value="主角#是，大师弟子知晓了。" />
+    <action type="UPGRADE.臂力" value="主角#1" />
+    <action type="UPGRADE.奇门" value="主角#1" />
+    <action type="UPGRADE.SKILL" value="主角#韦陀棍#1" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="map" value="少林寺内"/>
+  </story>
+    <story name="少林派_少林棍法2">
+    <action type="BACKGROUND" value="地图.戒律院" />
+    <action type="DIALOG" value="戒律院首座#作为少林武僧没犯清规戒律来什么戒律院！还不快走" />
+    <result ret="0" type="map" value="少林寺内"/>
+  </story>
+  <story name="少林派_讲经殿">
+    <action type="BACKGROUND" value="地图.大雄宝殿" />
+    <action type="DIALOG" value="方证大师#既然是佛门弟子，早课是必须要上的。" />
+    <action type="DIALOG" value="主角#南无阿弥陀佛。。。。" />
+    <action type="UPGRADE.INTERNALSKILL" value="主角#少林心法#2" />
+    <action type="UPGRADE.根骨" value="主角#2" />
+    <action type="UPGRADE.定力" value="主角#2" />
+    <action type="UPGRADE.MAXHP" value="主角#20" />
+    <action type="UPGRADE.MAXMP" value="主角#20" />
+    <action type="COST_DAY" value="2" />
+    <result ret="0" type="map" value="少林寺内"/>
+  </story>
+  <story name="少林派_初祖庵">
+    <action type="BACKGROUND" value="地图.初祖庵" />
+    <action type="DIALOG" value="主角#据说我佛菩提达摩为佛陀正法第二十八代祖，曾在此面壁九年有得，不如我也面壁个十天半个月看看有什么收获。" />
+    <action type="DIALOG" value="主角#果然达摩祖师是有大智慧的人。古人求道，无不历尽艰难险阻，忍常人所不能忍。古人尚且如此，我有何德何能？当自勉励!" />
+    <action type="UPGRADE.福缘" value="主角#10" />
+    <action type="UPGRADE.悟性" value="主角#10" />
+    <action type="UPGRADE.定力" value="主角#7" />
+    <action type="COST_DAY" value="12" />
+    <action type="DIALOG" value="无名老僧#（不错。。。孺子可教）" />
+    <result ret="0" type="map" value="少林寺内"/>
+  </story>
+  <story name="少林派_塔林">
+    <action type="BACKGROUND" value="地图.少林塔林" />
+    <action type="DIALOG" value="主角#举足下足，长在道场，是心是情，同归性海，“提水砍柴无非妙道”，在日常劳动生活中一样可以顿悟成佛。我少林许多功夫，都是由砍柴，挑水而来，最普通的功夫，也是最高深的功夫。" />
+    <action type="DIALOG" value="主角#内练一口气，外练筋骨皮。" />
+    <action type="UPGRADE.福缘" value="主角#2" />
+    <action type="UPGRADE.MAXHP" value="主角#30" />
+    <action type="UPGRADE.MAXMP" value="主角#30" />
+    <action type="COST_DAY" value="3" />
+    <result ret="0" type="map" value="少林寺内"/>
+  </story>
+  <story name="少林派_厨房">
+    <action type="DIALOG" value="少林伙夫#别看我是管伙食的，功夫也不一定差，要不咱俩过两手" />
+    <action type="SELECT" value="主角#要领教吗？#好，我就领教领教#算了，我只是来找点斋饭的。" />
+    <result ret="0" type="story" value="少林派_打伙夫"/>
+    <result ret="1" type="story" value="少林派_不打伙夫"/>
+  </story>
+  <story name="少林派_打伙夫">
+    <action type="DIALOG" value="少林伙夫#嘿嘿看我大显身手" />
+    <action type="BATTLE" value="少林寺_火头僧之战" />
+    <result ret="win" type="story" value="少林派_打伙夫胜利" />
+    <result ret="lose" type="story" value="少林派_打伙夫失败" />
+  </story>
+
+  <story name="少林派_打伙夫胜利">
+    <action type="DIALOG" value="少林伙夫#唉，连个刚入门功夫都比不过，这些年的勺是白颠了。我还是赶紧还俗娶个媳妇要紧。" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="map" value="少林寺内"/>
+  </story>
+
+  <story name="少林派_打伙夫失败">
+    <action type="DIALOG" value="少林伙夫#嘿嘿，你以为我颠了这么多年的勺是白闹的么，我早已悟出了一项少林七十二绝技：美味蛋炒饭" />
+    <action type="DIALOG" value="主角#（连个伙夫都打不赢。。。。。）" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="map" value="少林寺内"/>
+  </story>
+
+  <story name="少林派_不打伙夫">
+    <action type="DIALOG" value="少林伙夫#怕了么？我就知道你怕了" />
+    <result ret="0" type="map" value="少林寺内"/>
+  </story>
+
+  <story name="少林派_东汉三阙">
+    <action type="BACKGROUND" value="地图.东汉三阙" />
+    <action type="DIALOG" value="主角#这里看整个少室山的风景最是不错了。少林自汉代起也有数百年的历史了。" />
+    <action type="DIALOG" value="主角#不争和合少林心，止恶扬善少林根；以德服人消贪瞋，后发制人少林门" />
+    <action type="DIALOG" value="主角#我少林不愧为天下武宗。" />
+    <action type="UPGRADE.悟性" value="主角#10" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="map" value="少林寺内"/>
+  </story>
+  <story name="少林派_东汉三阙1">
+    <action type="BACKGROUND" value="地图.东汉三阙" />
+    <action type="DIALOG" value="主角#直指人心观本性，见性成佛定禅宗。" />
+    <action type="UPGRADE.悟性" value="主角#1" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="map" value="少林寺内"/>
+  </story>
+
+  <story name="少林寺_福建南少林">
+    <action type="DIALOG" value="主角#咦，大雄宝殿，那边有什么人熙熙嚷嚷的.." />
+    <result ret="0" type="story" value="少林寺_福建南少林1"/>
+  </story>
+  
+  <story name="少林寺_福建南少林1">
+    <action type="BACKGROUND" value="地图.大雄宝殿" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="本真和尚#都知道天下武功出少林，可凭什么天下人只认可你们嵩山北少林，不认可我们福建南少林。" />
+    <action type="DIALOG" value="本真和尚#南拳北腿，方证我让你们见识见识我南少林小洪拳的厉害。" />
+    <action type="DIALOG" value="本真和尚#那我看这天下武宗的牌匾还是让给我们南少林吧。" />
+    <action type="DIALOG" value="主角#欺人太甚，这块牌匾是太宗所赐，怎能让给你。让我来领教领教你的小洪拳。" />
+    <action type="BATTLE" value="少林寺_南少林之战" />
+    <result ret="win" type="story" value="少林派_南少林之战胜利" />
+    <result ret="lose" type="story" value="少林派_南少林之战失败" />
+  </story>
+  <story name="少林派_南少林之战胜利">
+    <action type="BACKGROUND" value="地图.大雄宝殿" />
+    <action type="MUSIC" value="音乐.少林山门" />
+    <action type="DIALOG" value="本真和尚#我不是输在了北少林腿法之下，不算输！等着下回让我师弟雷老虎来领教领教少林派的无影脚。" />
+    <action type="DIALOG" value="方证大师#虽然本不想让你与本真比武，不过总算也是保住了这块牌匾，这本般若掌拿去练练吧。" />
+    <action type="ITEM" value="般若掌秘籍#1" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="map" value="少林寺内"/>
+  </story>
+<story name="少林派_南少林之战失败">
+    <action type="BACKGROUND" value="地图.大雄宝殿" />
+  <action type="MUSIC" value="音乐.少林山门" />
+    <action type="DIALOG" value="本真和尚#哈哈，什么天下武宗，都是花拳绣腿，小子来我们南少林吧，让你看看什么是真功夫。" />
+    <action type="SELECT" value="主角#要去南少林寺吗#武术强身健体，修炼心性，不与人争胜#好啊，反正北少林的武功这么垃圾" />
+    <result ret="0" type="story" value="少林派_不去南少林"/>
+    <result ret="1" type="story" value="少林派_去南少林"/>
+  </story>
+<story name="少林派_不去南少林">
+    <action type="DIALOG" value="本真和尚#打不赢就讲佛法，果然北少林都是群窝囊废，我走了哈哈哈。" />
+    <action type="DIALOG" value="主角#（这伤估计得养上个三五天了）" />
+    <result ret="0" type="map" value="少林寺内"/>
+    <action type="COST_DAY" value="3" />
+  </story>
+<story name="少林派_去南少林">
+    <action type="DIALOG" value="本真和尚#好好好，随我走吧，方证，没问题吧。" />
+    <action type="DIALOG" value="方证大师#缘起缘灭，既然他愿意，我也不强留你走吧，不过我嵩山少林是不认可南少林的。" />
+    <action type="DIALOG" value="本真和尚#哼，我们走。" />
+    <action type="COST_DAY" value="2" />
+    <result ret="0" type="map" value="南少林"/>
+  </story>
+<story name="少林寺_福建南少林破败">
+    <action type="DIALOG" value="主角#师傅这，这就是南少林了，怎么这么破啊" />
+    <action type="DIALOG" value="本真和尚#哼，我南少林多年来被北少林压制，最终导致香火一年不如一年。不过论及功夫，北少林是比不过我们的。" />
+    <action type="DIALOG" value="主角#(来都来了也没法后悔了）那我能学到什么。" />
+    <action type="DIALOG" value="本真和尚#我南派武学不像北派那样花拳绣腿，练习时不受场地限制。有“拳打卧牛之地”之说。" />
+    <action type="DIALOG" value="本真和尚#其风格主要体现一个“硬”字，攻防兼备，以攻击为主。拳势不强调外形的美观，只求技击的实用。" />
+    <action type="DIALOG" value="本真和尚#步法要求稳固而灵活，眼法讲究以目视目，运气要气沉丹田。其动作迅如闪电，转似轮旋，站如钉立，跳似轻飞。。" />
+    <action type="DIALOG" value="本真和尚#我教你小洪拳，打赢了我，我师弟雷老虎教你大洪拳。" />
+    <action type="DIALOG" value="主角#看我洪拳三十三手定天下" />
+    <action type="UPGRADE.臂力" value="主角#1" />
+    <action type="UPGRADE.拳掌" value="主角#2" />
+    <action type="UPGRADE.根骨" value="主角#3" />
+    <action type="UPGRADE.SKILL" value="主角#小洪拳#1" />
+    <action type="COST_DAY" value="2" />
+    <result ret="0" type="map" value="南少林"/>
+  </story>
+  <story name="少林寺_福建南少林小洪拳">
+    <action type="DIALOG" value="主角#看我洪拳三十三手定天下" />
+    <action type="UPGRADE.臂力" value="主角#1" />
+    <action type="UPGRADE.拳掌" value="主角#1" />
+    <action type="UPGRADE.SKILL" value="主角#小洪拳#1" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="map" value="南少林"/>
+  </story>
+  <story name="少林寺_大洪拳">
+    <action type="DIALOG" value="雷老虎#小子想学大洪拳了？和我师兄打一架赢了再说。。。" />
+    <action type="BATTLE" value="少林寺_南少林之战" />
+    <result ret="0" type="story" value="南少林_大洪拳胜利"/>
+    <result ret="1" type="story" value="南少林_大洪拳失败"/>
+  </story>
+
+  <story name="南少林_大洪拳胜利">
+    <action type="DIALOG" value="雷老虎#好好，我现在就教你大洪拳" />
+    <action type="DIALOG" value="雷老虎#看好了洪拳的五形五禽！" />
+    <action type="DIALOG" value="雷老虎#虎形练骨、豹形练力、蛇形练气、鹤形练精、龙形练神" />
+    <action type="DIALOG" value="雷老虎#虎走刚猛、练筋骨劲力，鹤讲轻巧、明角度攻守，蛇主飘缠、气沉连绵，猴则手眼明快、迅速灵敏，龙写神意、化刚柔。" />
+    <action type="DIALOG" value="雷老虎#故虎形刚猛、鹤形清而巧、龙形合刚化柔、蛇形气沉连绵、猴态快速轻灵。" />
+    <action type="UPGRADE.臂力" value="主角#1" />
+    <action type="UPGRADE.拳掌" value="主角#1" />
+    <action type="UPGRADE.SKILL" value="主角#大洪拳#1" />
+    <action type="COST_DAY" value="1" />
+  </story>
+  <story name="南少林_大洪拳失败">
+    <action type="DIALOG" value="雷老虎#你还是练好了小洪拳再来吧。" />
+    <result ret="0" type="map" value="南少林"/>
+  </story>
+  <story name="少林派_南少林出师">
+    <action type="DIALOG" value="雷老虎#好了，功夫也练的差不多了，你可以走了，记得多收俩徒弟，别坏了南少林响当当的名头。" />
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+
+  <story name="少林派_少林出师">
+    <action type="DIALOG" value="方证大师#好了，你也在少林寺修炼了这么久了，现在派你出江湖去惩恶扬善。" />
+    <action type="DIALOG" value="方证大师#红尘练心，希望你能不忘修业成果。" />
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  <story name="少林派_门派大比">
+    <action type="DIALOG" value="方证大师#阿弥陀佛，到了我们少林派大比的时间了，平日里除了勤习武，更不要忘记钻研佛法。" />
+    <action type="BATTLE" value="少林寺_大比1" />
+    <result ret="win" type="story" value="少林派_大比胜利" />
+    <result ret="lose" type="story" value="少林派_大比失败" />
+  </story>
+  <story name="少林派_大比胜利">
+    <action type="DIALOG" value="方证大师#好，开始第二场" />
+    <action type="BATTLE" value="少林寺_大比2" />
+    <result ret="win" type="story" value="少林派_大比胜利2" />
+    <result ret="lose" type="story" value="少林派_大比失败" />
+  </story>
+  <story name="少林派_大比胜利2">
+    <action type="DIALOG" value="方证大师#好，开始第三场" />
+    <action type="BATTLE" value="少林寺_大比3" />
+    <result ret="win" type="story" value="少林派_大比胜利3" />
+    <result ret="lose" type="story" value="少林派_大比失败" />
+  </story>
+  <story name="少林派_大比胜利3">
+    <action type="DIALOG" value="方证大师#这是这次大比的奖励，两门七十二绝技，希望你能将佛门武学发扬光大。" />
+    <action type="ITEM" value="拈花指秘籍#1" />
+    <action type="ITEM" value="伏魔棍秘籍#1" />
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  <story name="少林派_大比失败">
+    <action type="DIALOG" value="方证大师#阿弥陀佛，你的佛法研究还不够精深，无法领悟更高深的武功，下次再来吧" />
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  <story name="门派少林寺_聊天">
+    <action type="DIALOG" value="方证大师#行走江湖一定要多代我佛行善事，积善缘" />
+  </story>
+  <story name="少林寺_重回塔林">
+    <action type="DIALOG" value="主角#方丈，凭我低微武功，这几个月闯荡江湖恐怕是丢了我少林武宗的名号了。" />
+    <action type="DIALOG" value="方证大师#无妨，老衲现在传你少林不传绝学易筋经，让你行走江湖无碍" />
+    <action type="UPGRADE.INTERNALSKILL" value="主角#易筋经#5" />
+    <action type="DIALOG" value="方证大师#易筋经乃是强身健体之法，切不可好勇斗狠" />
+    <action type="DIALOG" value="主角#谨遵法旨" />
+  </story>
+   <story name="少林寺_南北之争">
+    <action type="DIALOG" value="方证大师#最近江湖之行可有收获？" />
+    <action type="DIALOG" value="主角#方丈，如今一股邪恶势力在江湖上很是猖獗，弟子正在努力平息一场武林浩劫。" />
+    <action type="DIALOG" value="方证大师#阿弥陀佛，武本为强身健体，可偏偏世人只知道用其好勇斗狠，追名逐利。就似上回来这里的本真和尚，在乎南北少林之争，可他怎知自己所证不过是痴念呢？" />
+    <action type="DIALOG" value="主角#方丈，难不成其中另有隐情？" />
+    <action type="DIALOG" value="方证大师#据我少林典籍记载，却有南北之争，不过并非本真和尚所言，福建少林寺为我少林下院。" />
+    <action type="DIALOG" value="主角#嗯？那南少林在何方呢？" />
+    <action type="DIALOG" value="方证大师#一花一世界，一叶一春秋。花本非花，雾本非雾。其实你脚下的嵩山少林寺，正是南少林。" />
+    <action type="DIALOG" value="主角#什么！也就是说实际上少的是北少林？" />
+    <action type="DIALOG" value="方证大师#自我二祖慧可传教以来，佛法大兴，天下间寺庙无数。凡是一心向佛的都可算是我少林分院。" />
+    <action type="DIALOG" value="方证大师#不过，不为世人所知的是，当初初祖达摩面壁九年，坐化是曾留下一个铁盒箱子。" />
+    <action type="DIALOG" value="方证大师#据传当时众僧打开时发现了初祖为参悟佛法所留下的两本强身健体的方法。" />
+    <action type="DIALOG" value="主角#难不成是？" />
+    <action type="DIALOG" value="方证大师#对，正是《易筋经》和《洗髓经》。" />
+    <action type="DIALOG" value="方证大师#可惜全书大部分文字为梵文所写，众僧只得凭借自己领悟一知半解，这才有了我少林名扬天下的七十二绝技。" />
+    <action type="DIALOG" value="方证大师#我二祖慧可是大智慧之人，立志翻译出全本的洗髓经和易筋经。因此，在玄奘西去之时带走了这两本经书。法师玄奘果然也不负众望，多年后带回了这两本经书的译本。" />
+    <action type="DIALOG" value="主角#那这和南北少林有什么关系？" />
+    <action type="DIALOG" value="方证大师#怪就要怪少室山门的这块牌匾天下武功出少林了。" />
+    <action type="DIALOG" value="方证大师#我少林派本身已经是武学大派，玄奘带回来两本经书后，加上众僧勤修苦练，我派声威大显。也导致前来挑战的武林人士络绎不绝，众人皆为名声所累，无暇研习佛法。" />
+    <action type="DIALOG" value="方证大师#终有一日，二祖命僧人带走了其中一本《洗髓经》，《易筋经》也只在高僧之间修习，日子久了，武林纷争渐止，众僧又可以静心修佛了。" />
+    <action type="DIALOG" value="方证大师#而带走《洗髓经》的僧人在北方创建了北少林。" />
+    <action type="DIALOG" value="方证大师#如今江湖纷争渐起，你不如去寻找《洗髓经》或许可以使武学更上一层楼。" />
+    <action type="DIALOG" value="主角#是方丈，弟子知晓了。" />
+  </story>
+<story name="少林寺_南北之争1">
+    <action type="MUSIC" value="音乐.欢快工作" />
+    <action type="BACKGROUND" value="地图.少林塔林" />
+    <action type="DIALOG" value="主角#这就是方丈大师说的北少林么，怎么连个墙壁都没有了。" />
+    <action type="DIALOG" value="玄生#这些年各大寺庙都搞商业化旅游，城市寺院都千篇一律。我们这里又不是太有名气，搞好了也不像嵩山那样有那么多游客来。" />
+    <action type="DIALOG" value="玄生#这么一搞，倒是搞的真正的信众也不来捐香火钱了，寺院的大门政府有让修路腾地方，门墙早让几个师兄弟拿去换吃的了。" />
+    <action type="DIALOG" value="主角#这也可以！那洗髓经的你不会也拿来换了吧" />
+    <action type="DIALOG" value="玄生#那么值钱，当然。。。换了。。。" />
+    <action type="DIALOG" value="主角#武林浩劫啊。。。。" />
+    <action type="DIALOG" value="玄生#怕什么，活生生的会《洗髓经》的人还在这里呢" />
+    <action type="DIALOG" value="主角#什么？你会《洗髓经》" />
+    <action type="DIALOG" value="玄生#当然要不然我是怎么在这个充满三聚氰胺，和苏丹红的世界里活下来的。还不说北方这么重的雾霾" />
+    <action type="DIALOG" value="主角#无论如何，方证大师让我来取回《洗髓经》" />
+    <action type="DIALOG" value="玄生#是方证那小子让你来取的？" />
+    <action type="DIALOG" value="主角#没错。" />
+    <action type="DIALOG" value="玄生#那你做好和我交手的准备了么？打赢我就教你洗髓经，放心我功夫很差的" />
+    <action type="DIALOG" value="主角#来吧，洗髓经说什么我也要带走，别人改变不了不代表我改变不了" />
+    <action type="BATTLE" value="少林寺_洗髓经" />
+    <result ret="win" type="story" value="少林派_洗髓经胜利" />
+    <result ret="lose" type="story" value="少林派_洗髓经失败" />
+  </story>
+<story name="少林派_洗髓经胜利">
+    <action type="DIALOG" value="玄生#少室山林，禅宗祖，千年古刹。" />
+    <action type="DIALOG" value="玄生#寻普度，颂婆罗密，叩拜菩萨。" />
+    <action type="DIALOG" value="玄生#初祖达摩修顿悟，六世慧能传秘法。" />
+    <action type="DIALOG" value="玄生#心印心，自见性成佛，源华夏。" />
+    <action type="DIALOG" value="玄生#阿罗汉，众生化，狮子吼，降凶煞。" />
+    <action type="DIALOG" value="玄生#大乘如来咒，骨铭心挂。" />
+    <action type="DIALOG" value="玄生#种善因求真去恶，尝人生苦甜酸辣。" />
+    <action type="DIALOG" value="玄生#佛性起，把恩怨嗔痴 ，皆放下。" />
+    <action type="DIALOG" value="玄生#了不起，希望你在现实生活中也能改变这一切！" />
+    <action type="DIALOG" value="主角#我一定会的。" />
+    <action type="LEARN.TALENT" value="主角#易经伐髓" />
+    <action type="NICK" value="达摩再世" />
+  </story>
+<story name="少林派_洗髓经失败">
+    <action type="DIALOG" value="玄生#唉，我就知道是没救了。。。" />
+    <action type="DIALOG" value="主角#（居然输了，我也深陷泥潭了么？）。。。" />
+  </story>
+<story name="少林_西夏小和尚">
+    <action type="DIALOG" value="段誉#鸠摩智搞定了，走吧接着去相亲" />
+    <action type="DIALOG" value="王语嫣#段郎（幽怨的眼神）。。。" />
+    <action type="DIALOG" value="段誉#放心我就是走走形式。" />
+    <result ret="0" type="story" value="少林_人生最幸福的事情"/>
+  </story>
+
+<story name="少林_人生最幸福的事情">
+    <action type="BACKGROUND" value="地图.西夏皇宫" />
+    <action type="DIALOG" value="西夏女子#慕容公子，你觉得人生最幸福的地方是哪里呢？" />
+    <action type="DIALOG" value="慕容复#我的人生只有未来，所以人生最幸福的地方不是当下，一定在未来的某处" />
+    <action type="DIALOG" value="西夏女子#（轻轻的摇了摇头）" />
+    <action type="DIALOG" value="西夏女子#段公子，你认为人生最幸福的地方是哪里呢？" />
+    <action type="DIALOG" value="段誉#是在一口老枯井的井底。（眼神望向了王语嫣）" />
+    <action type="DIALOG" value="西夏女子#你呢？虚竹公子" />
+    <action type="DIALOG" value="虚竹#在，在一个破旧的冰窖里" />
+    <action type="DIALOG" value="梦姑#（帷帐中的身影微微动容）" />
+    <action type="DIALOG" value="西夏女子#虚竹公子请随我进去吧,你正是公主要见的人。" />
+    <action type="DIALOG" value="主角#（虚竹好爽啊。。。。）我的幸福又在哪里呢？" />
+  <action type="NICK" value="如梦春深" />
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  
+<story name="少林_由来">
+    <action type="BACKGROUND" value="地图.大雄宝殿" />
+    <action type="DIALOG" value="主角#大师，晚辈只是回少室山看看，叨扰了。" />
+    <action type="DIALOG" value="玄生#无妨，无妨。对了，你可知道少林这名字的来历么？" />
+    <action type="DIALOG" value="主角#晚辈不知，还请大师讲给我听" />
+    <action type="DIALOG" value="玄生#中岳嵩山有两条支脉，东边叫太室山，西边叫少室山。这两座山脉就像一双孪生姐妹，亭亭玉立在中原" />
+    <action type="DIALOG" value="玄生#故老相传，北魏时期有人上少室山观看少室奇景，走到连天峰的时候，气候突然变化，随着山谷刮来的穿梭风，雾流像纵横的野马一样，越滚越近。" />
+    <action type="DIALOG" value="玄生#此人向连天峰望去，上云下雾合在一起，人就像走进云端，那时候连天峰顶有块鼓形石，长宽一丈有余。" />
+    <action type="DIALOG" value="玄生#那个人坐下不长时间，忽然听到云端有人说话。他抬头往上看时，只见天空彩云上边，隐隐约约呈现一座古刹，红墙黄瓦，朱驻雕梁，五脊六兽，铁马叮当，雄伟壮丽，甚是可观。" />
+    <action type="DIALOG" value="玄生#苍松翠柏掩映着山门，门外有一对石雕狮子，眈眈护卫着。门上还有一块牌匾，上书三个大金字--竹林寺。有个小和尚扶着扫帚，正向老僧问话“师傅，竹林寺升天了，天下还有佛寺吗？”" />
+    <action type="DIALOG" value="玄生#老僧颤着胡须笑道“有！有！天上竹林，天下少林嘛。”" />
+    <action type="DIALOG" value="玄生#而这个人据传就是我祖达摩，由西方而来。因此现如今少林是天下最大的佛教圣地。" />
+    <action type="DIALOG" value="主角#晚辈知会了。" />
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  
+  <story name="南少林_如来神掌">
+    <action type="BACKGROUND" value="地图.南少林" />
+    <action type="MUSIC" value="音乐.少林山门"/>
+    <action type="DIALOG" value="雷老虎#好小子，收了这么多的徒弟，咱南少林的名声可是被你宣扬开了。" />
+    <action type="DIALOG" value="主角#（额，师叔貌似是误会了，这些都是我的队友）。。。" />
+    <action type="DIALOG" value="本真和尚#我们终于可以去拿回属于我们南少林的东西了，是吧，师弟？" />
+    <action type="DIALOG" value="雷老虎#没错！师兄！（激情满满的看着本真和尚）" />
+    <action type="DIALOG" value="主角#这，这是怎么个情况。" />
+    <action type="DIALOG" value="雷老虎#我们要你办一件很重要的事情！！！" />
+    <action type="DIALOG" value="主角#什么事？" />
+    <action type="DIALOG" value="本真和尚#晚上，去少林拿回如来神掌！！！" />
+    <action type="DIALOG" value="主角#晚上？那不就是偷么……" />
+    <action type="DIALOG" value="雷老虎#费这么多话干什么，赶紧去！" />
+    <action type="DIALOG" value="主角#是，师叔" />
+    <result ret="0" type="story" value="南少林_如来神掌1"/>
+  </story>
+
+  <story name="南少林_如来神掌1">
+    <action type="BACKGROUND" value="地图.大雄宝殿" />
+    <action type="MUSIC" value="音乐.紧张感"/>
+    <action type="DIALOG" value="主角#趁天黑……赶紧，如来神掌在哪里呀？" />
+    <action type="DIALOG" value="主角#这里好像没有，我还是到藏经阁去看看吧。" />
+    <result ret="0" type="story" value="南少林_如来神掌2"/>
+  </story>
+  <story name="南少林_如来神掌2">
+    <action type="BACKGROUND" value="地图.室内2" />
+    <action type="DIALOG" value="主角#总有不详的预感…… 雷老虎和本真和尚这俩坑爹货为啥不自己来，而叫我来呢？" />
+    <action type="DIALOG" value="主角#难道？……" />
+    <result ret="0" type="story" value="南少林_如来神掌3"/>
+  </story>
+  <story name="南少林_如来神掌3">
+    <action type="DIALOG" value="无名老僧#阿弥陀佛。小友深夜到此不知有何贵干？"/>
+    <action type="DIALOG" value="主角#挖靠，我就知道……怎么办，怎么办？" />
+    <action type="SELECT" value="主角#怎么办？#求饶#硬闯" />
+    <result ret="0" type="story" value="南少林_如来神掌4"/>
+    <result ret="1" type="story" value="南少林_如来神掌5"/>
+  </story>
+  <story name="南少林_如来神掌4">
+    <action type="DIALOG" value="主角#大师，我上有八十岁老母，下有嗷嗷待脯的小儿。求你可怜可怜我，赐我一本如来神掌吧……" />
+    <action type="DIALOG" value="无名老僧#……"/>
+    <action type="DIALOG" value="主角#（看来大师不吃这套，还是换个路线吧……）" />
+    <action type="DIALOG" value="主角#大师，雷老虎和本真和尚那两个家伙整天跟我说，咱少林抢了南少林的如来神掌秘籍，导致南少林没落至此啊……" />
+    <action type="DIALOG" value="无名老僧#世上本无门户之分，武功秘籍本也无归属之分，好吧，这本如来神掌秘籍，你便拿去吧。"/>
+    <action type="ITEM" value="如来神掌秘籍#1"/>
+    <action type="DIALOG" value="主角#谢谢大师（没想到来得这么轻松）" />
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  <story name="南少林_如来神掌5">
+    <action type="DIALOG" value="无名老僧#好胆色，便陪你玩玩。"/>
+    <action type="BATTLE" value="少林无名老僧"/>
+    <result ret="win" type="story" value="南少林_如来神掌6"/>
+  </story>
+  <story name="南少林_如来神掌6">
+    <action type="DIALOG" value="无名老僧#少侠武功高强，老僧佩服，佩服！这本如来神掌，你便拿去把！"/>
+    <action type="DIALOG" value="主角#谢大师！" />
+    <action type="ITEM" value="如来神掌秘籍#1"/>
+    <action type="ITEM" value="如来神掌残章#3"/>
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  
+  <story name="少林_金刚门">
+    <action type="DIALOG" value="方证大师#最近看你在江湖上大显威名，但戾气深重，可愿意听老衲讲个故事？" />
+    <action type="SELECT" value="主角#听么？#没点杀气怎么江湖立威，方丈讲来听听吧#天下纷纷扰扰，晚辈记得我佛不杀之念" />
+    <result ret="0" type="story" value="少林_金刚门听"/>
+    <result ret="1" type="story" value="少林_金刚门不听"/>
+  </story>
+  <story name="少林_金刚门听">
+    <action type="DIALOG" value="方证大师#据此七十余年间，本寺方丈是苦鸣禅师，乃老衲师祖。" />
+    <action type="DIALOG" value="方证大师#这一年中秋，寺中例行一年一度的达摩堂大校" />
+    <action type="DIALOG" value="方证大师#由方丈及达摩堂、罗汉堂两位首座考较合寺弟子武功，查察在过去一年中有何进境。众弟子献技已罢，达摩堂首座苦智禅师升座品评。" />
+    <action type="DIALOG" value="方证大师#突然间一个带发头陀越众而出，大声说道，苦智禅师的话狗屁不通，根本不知武功为何物，竟然妄居达摩堂首席之位，甚是可耻。众僧大惊之下，看这人时，却是香积厨中灶下烧火的一个火工头陀。" />
+    <action type="DIALOG" value="方证大师#众僧大惊之下，看这人时，却是香积厨中灶下烧火的一个火工头陀。" />
+    <action type="DIALOG" value="方证大师#摩堂诸弟子自是不等师父开言，早已齐声呵叱。那火工头陀喝道：“师父狗屁不通，弟子们更加不通狗屁。”说着涌身往掌中一站。众弟子一一上前跟他动手，都被他三拳两脚便击败了。" />
+    <action type="DIALOG" value="方证大师#本来达摩堂中过招，同门较艺，自是点到即止，人人手下留情。这火工头陀却出手极是狠辣，他连败达摩堂九大弟子，九个僧人不是断臂便是折腿，无不身受重伤。" />
+    <action type="DIALOG" value="方证大师#首座苦智禅师又惊又怒，见这火工头陀所学全是少林派本门拳招，并非别家门派的高手混进寺来捣乱，当下强忍怒气，问他的武功是何人所传。”" />
+    <action type="DIALOG" value="方证大师#那火工头陀说道：“无人传过我武功，是我自己学的。”原来这头陀在灶下烧火。监管香积厨的僧人性子极是暴躁，动不动提拳便打，他身有武功，出手自重。那火工头陀三年间给打得接连吐血三次，积怨之下，暗中便去偷学武功。" />
+    <action type="DIALOG" value="方证大师#少林寺弟子人人会武，要偷学拳招，机会良多。他既苦心孤诣，又有过人之智，二十余年间竟练成了极上乘的武功。但他深藏不露，仍是不声不响的在灶下烧火，那监厨僧人拔拳相殴，他也总不还手，只是内功已精，再也不会受伤了。" />
+    <action type="DIALOG" value="方证大师#这火工头陀生性阴鸷，直到自忖武功已胜过合寺僧众，这才在中秋大校之日出来显露身手。数十年来的郁积，使他恨上了全寺的僧侣，一出手竟然毫不容情。" />
+    <action type="DIALOG" value="方证大师#苦智禅师问明原委，冷笑三声，说道：“你这份苦心，委实可敬！”当下离座而起，伸手和他较量。苦智禅师是我寺高手，但一来年事已高，那火工头陀正当壮年，二来苦智手下容情，火工头陀使的却是招招杀手，因此竟斗到五百合外，苦智方稳操胜券。" />
+    <action type="DIALOG" value="方证大师#两人拆到一招“大缠丝”时，四条手臂扭在一起，苦智双手却俱已按上对方胸口死穴，内力一发，火工头陀立时毙命，已然无拆解余地。苦智爱惜他潜心自习，居然有此造诣，不忍就此伤了他性命，双掌一分，喝道：“退开罢！”" />
+    <action type="DIALOG" value="方证大师#岂知那火工头陀会错了意，只道对方使的是“神掌八打”中的一招。这“神掌八打”是少林武功中绝学之一，他曾见达摩堂的大弟子使过，双掌劈出，打断一条木桩，劲力非同小可。" />
+    <action type="DIALOG" value="方证大师#火工头陀武功虽强，毕竟全是偷学，未得名师指点，少林武功博大精深，他只是暗中窥看，时日虽久，又岂能学得全了？苦智这一招其实是“分解掌”，借力卸力，双方一齐退开，乃是停手罢斗之意。" />
+    <action type="DIALOG" value="方证大师#火工头陀却错看成“神掌八打”中的第六掌“裂心掌”，心想：“你要取我性命，却没如此容易。”飞身扑上，双拳齐击。这双拳之力如排山倒海般涌了过来，苦智禅师一惊之下，急忙回掌相抵，其势却已不及，但听得喀喇喇数声，左臂臂骨和胸前四根肋骨登时断裂。" />
+    <action type="DIALOG" value="方证大师#旁观众僧惊惶变色，一齐抢上救护，只见苦智气若游丝，一句话也说不出来，原来内脏已被震得重伤。再看火工头陀时，早已在混乱中逃得不知去向。当晚苦智便即伤重逝世。合寺悲戚之际，那火工头陀又偷进寺，将监管香积厨和平素和他有隙的五名僧人一一使重手打死。" />
+    <action type="DIALOG" value="方证大师#合寺大震之下，派出几十名高手四下追索，但寻遍了江南江北，丝毫不得踪迹。寺中高辈僧侣更为此事大起争执，互责互咎。罗汉堂首座苦慧禅师一怒而远走西域，开创了西域少林一派。（大轮寺）" />
+    <action type="DIALOG" value="方证大师#潘天耕、方天劳、卫天望等三人，便是苦慧禅师的再传弟子。经此一役，少林寺的武学竟尔中衰数十年。自此定下寺规，凡是不得师授而自行偷学武功，发现后重则处死，轻则挑断全身筋脉，使之成为废人。”" />
+    <action type="DIALOG" value="方证大师#如今你身上戾气深重，我真担心你走了火工头陀的老路啊。" />
+    <action type="DIALOG" value="主角#方丈放心，我不会的（看来火工头陀应该是逃到了昆仑方向，否则这么多年不会都没有找到）。" />
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  <story name="少林_金刚门不听">
+    <action type="DIALOG" value="方证大师#阿弥陀佛，看来我白白为你操心了，还特地从少室山出来找你。" />
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  <story name="少林_火工头陀">
+    <action type="BACKGROUND" value="地图.昆仑山底" />
+    <action type="MUSIC" value="音乐.紧张感"/>
+    <action type="DIALOG" value="主角#好你个火工头陀！我就猜到你躲在这里，当年苦智禅师饶你一命，竟让你杀害。受死吧！" />
+    <action type="DIALOG" value="火工头陀#就凭你？哈哈，太嫩了吧！" />
+    <action type="DIALOG" value="主角#我就来领教领教。" />
+    <action type="BATTLE" value="少林寺_火工头陀之战" />
+    <result ret="win" type="story" value="少林派_火工头陀胜利" />
+  </story>
+  <story name="少林派_火工头陀胜利">
+    <action type="MUSIC" value="音乐.紧张感"/>
+    <action type="DIALOG" value="火工头陀#好小子，还真有两下，这样吧，咱们来做个交易如何？" />
+    <action type="DIALOG" value="主角#？？" />
+    <action type="DIALOG" value="火工头陀#我将我毕生绝学都教给你，换我自己一条命，如何？这个交易你可是稳赚不赔。" />
+    <action type="NICK" value="金刚头陀" />
+    <action type="SELECT" value="主角#要答应火工头陀的交易么？#答应#不答应" />
+    <result ret="0" type="story" value="少林派_火工头陀胜利_答应"/>
+    <result ret="1" type="story" value="少林派_火工头陀胜利_不答应"/>
+  </story>
+  <story name="少林派_火工头陀胜利_答应">
+    <action type="DIALOG" value="火工头陀#明智！" />
+    <action type="ITEM" value="大力金刚指秘籍" />
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+  
+  <story name="少林派_火工头陀胜利_不答应">
+    <action type="DIALOG" value="主角#你罪孽太过深重，还是受死吧！"  />
+    <action type="DIALOG" value="火工头陀#啊……"  />
+    <action type="DIALOG" value="主角#咦，这是什么……"  />
+    <action type="ITEM" value="火工头陀的秘本" />
+    <result ret="0" type="map" value="大地图"/>
+  </story>
+</root>

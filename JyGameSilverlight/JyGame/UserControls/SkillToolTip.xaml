@@ -1,0 +1,18 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	x:Class="JyGame.SkillToolTip"
+	d:DesignWidth="640" Width="244" Height="207">
+
+	<Grid x:Name="LayoutRoot">
+		<Grid.Background>
+			<ImageBrush Stretch="Fill" ImageSource="/Resource/ui/info.png" Opacity="0.775"/>
+		</Grid.Background>
+        <RichTextBox x:Name="richTextBox" Background="{x:Null}" Xaml="&lt;Section xml:space=&quot;preserve&quot; HasTrailingParagraphBreakOnPaste=&quot;False&quot; xmlns=&quot;http://schemas.microsoft.com/winfx/2006/xaml/presentation&quot;&gt;&lt;Paragraph FontSize=&quot;11&quot; FontFamily=&quot;SimHei&quot; Foreground=&quot;#FF000000&quot; FontWeight=&quot;Normal&quot; FontStyle=&quot;Normal&quot; FontStretch=&quot;Normal&quot; TextAlignment=&quot;Left&quot;&gt;&lt;Run Text=&quot;&quot; /&gt;&lt;/Paragraph&gt;&lt;/Section&gt;" Margin="8" BorderThickness="0">
+			<Paragraph><Run Text="RichTextBox"/></Paragraph>
+		</RichTextBox>
+	</Grid>
+</UserControl>

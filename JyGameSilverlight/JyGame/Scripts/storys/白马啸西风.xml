@@ -1,0 +1,84 @@
+<root>
+  <story name="白马啸西风_陈达海">
+    <action type="BACKGROUND" value="地图.塞外" />
+    <action type="MUSIC" value="音乐.太行八径" />
+    <action type="DIALOG" value="陈达海#哈哈，一帮蛮子，还想跟我斗。" />
+    <action type="DIALOG" value="李文秀#你为什么要伤害他们！他们跟你无冤无仇！" />
+    <action type="DIALOG" value="陈达海#嘿嘿，没教养的野蛮人，都杀了也不痛不痒啊。" />
+    <action type="DIALOG" value="主角#败类！" />
+    <action type="BATTLE" value="哈萨克部落_战斗" />
+    <result ret="win" type="story" value="白马啸西风_李文秀" />
+  </story>
+  <story name="白马啸西风_李文秀">
+    <action type="BACKGROUND" value="地图.塞外" />
+    <action type="MUSIC" value="音乐.太行八径" />
+    <action type="DIALOG" value="主角#没想到，在塞外还有你这么漂亮的汉人妹子。" />
+    <action type="DIALOG" value="李文秀#我的大仇人逃走了，你能帮我把他抓起来吗？" />
+    <action type="DIALOG" value="主角#好啊，我们一起去吧！" />
+    <action type="JOIN" value="李文秀" />
+  </story>
+  <story name="白马啸西风_高昌迷宫">
+    <action type="BACKGROUND" value="地图.沙漠3" />
+    <action type="MUSIC" value="音乐.宿命" />
+    <action type="DIALOG" value="瓦耳拉齐#哈哈，苏鲁克，还有你的小崽子，都不是我的对手！" />
+    <action type="DIALOG" value="李文秀#苏普！" />
+    <action type="DIALOG" value="主角#危险！" />
+    <action type="BATTLE" value="高昌迷宫_战斗" />
+    <result ret="win" type="story" value="白马啸西风_白马啸西风1" />
+  </story>
+  <story name="白马啸西风_白马啸西风1">
+    <action type="BACKGROUND" value="地图.沙漠3" />
+    <action type="MUSIC" value="音乐.宿命" />
+    <action type="DIALOG" value="瓦耳拉齐#呵呵...阿秀，你真的很好..." />
+    <action type="DIALOG" value="李文秀#师父！他们说迷宫里的是阿萨克人，可是你..." />
+    <action type="DIALOG" value="瓦耳拉齐#嘿嘿，不错，你只知道我是华辉，可我也是瓦耳拉齐。" />
+    <action type="DIALOG" value="瓦耳拉齐#我被族人赶走，学了汉人的功夫，嘿嘿。" />
+    <action type="DIALOG" value="李文秀#师父！你不要死，我只有你和计爷爷才是真的对我好。" />
+    <action type="DIALOG" value="瓦耳拉齐#乖...你的计爷爷，也是我的徒弟，他为了救你而死。很好，很好..." />
+    <action type="DIALOG" value="李文秀#师父！" />
+    <action type="DIALOG" value="瓦耳拉齐#汉人中也有好人，哈萨克人里也有我这样的...坏蛋..." />
+    <action type="DIALOG" value="李文秀#师父！" />
+    <action type="DIALOG" value="瓦耳拉齐#雅丽仙...（瓦耳拉齐再也没有了生息）" />
+    <result ret="0" type="story" value="白马啸西风_白马啸西风2" />
+  </story>
+  <story name="白马啸西风_白马啸西风2">
+    <action type="BACKGROUND" value="地图.沙漠3" />
+    <action type="MUSIC" value="音乐.宿命" />
+    <action type="DIALOG" value="主角#阿秀姑娘，节哀..." />
+    <action type="DIALOG" value="李文秀#...师父死了，计爷爷也死了。苏普心里也没有我...我不知道我还能去哪里。" />
+    <action type="DIALOG" value="主角#不如和我一起回中原吧，江南有杨柳、桃花，有燕子、金鱼……汉人中，有的是英俊勇武的少年，倜傥潇洒的少年……" />
+    <action type="DIALOG" value="李文秀#那都是很好很好的，可是我偏不喜欢。" />
+    <action type="DIALOG" value="李文秀#（骑着年老的白马渐渐远去...）" />
+    <action type="DIALOG" value="主角#..." />
+    <action type="DIALOG" value="主角#人不能活在回忆里！" />
+    <action type="DIALOG" value="李文秀#（转头）？" />
+    <action type="DIALOG" value="主角#如果你活得不开心，计爷爷保护你又是为了什么呢？" />
+    <action type="DIALOG" value="李文秀#（心头一震）" />
+    <action type="DIALOG" value="主角#如果因为你爱的人爱上了别人就一个人躲起来，不过是自残罢了。悲剧是很吸引人，可是..." />
+    <action type="DIALOG" value="李文秀#可是？" />
+    <action type="DIALOG" value="主角#可是我们还活着的人，应该追求的是未来耀眼的幸福。" />
+    <action type="DIALOG" value="李文秀#（忽然呆住了，许久噗嗤一笑）" />
+    <action type="DIALOG" value="主角#笑什么啊？" />
+    <action type="DIALOG" value="李文秀#忽然觉得从你这种人嘴里说出这么严肃的话，很有喜感。" />
+    <action type="DIALOG" value="主角#......" />
+    <action type="DIALOG" value="李文秀#虽然你是很丑，但是你的话很受用。" />
+    <action type="DIALOG" value="主角#不要说我丑......" />
+    <action type="DIALOG" value="李文秀#好了，为了报答你这一番教诲，我和你去中原看看吧。" />
+    <action type="DIALOG" value="主角#哈哈，那我们走吧！" />
+    <action type="GET_POINT" value="李文秀#30" />
+    <action type="UPGRADE.奇门" value="李文秀#40" />
+    <action type="UPGRADE.MAXHP" value="李文秀#500" />
+    <action type="UPGRADE.MAXMP" value="李文秀#500" />
+    <action type="ITEM" value="黑血神针秘籍#1" />
+    <action type="NICK" value="白马西风" />
+    <result ret="0">
+      <control type="story" value="original_女主.白马啸西风">
+        <condition type="key_in_team" value="女主" />
+        <condition type="should_finish" value="original_长安.家中"/>
+      </control>
+      <control type="map" value="大地图">
+        <condition type="key_not_in_team" value="女主" />
+      </control>
+    </result>
+  </story>
+</root>

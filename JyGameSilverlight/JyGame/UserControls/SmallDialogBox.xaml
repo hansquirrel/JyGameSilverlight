@@ -1,0 +1,34 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" x:Name="userControl"
+	mc:Ignorable="d"
+	x:Class="JyGame.SmallDialogBox" Width="160.5" Height="83.5">
+	<UserControl.Resources>
+		<Storyboard x:Name="Storyboard1">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="userControl">
+				<SplineDoubleKeyFrame KeyTime="0" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2" Value="0">
+					<EasingDoubleKeyFrame.EasingFunction>
+						<CubicEase EasingMode="EaseIn"/>
+					</EasingDoubleKeyFrame.EasingFunction>
+				</EasingDoubleKeyFrame>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</UserControl.Resources>
+
+    <Grid x:Name="LayoutRoot">
+        <TextBlock x:Name="content" Margin="50,16,8,19" TextWrapping="Wrap" Text="这里是说话内容试一下最多能有多少字DDDDDDDDDDDDD" RenderTransformOrigin="0.5,0.5" FontSize="10.667" HorizontalAlignment="Center" VerticalAlignment="Center">
+			<TextBlock.RenderTransform>
+				<CompositeTransform/>
+			</TextBlock.RenderTransform>
+		</TextBlock>
+		<Image x:Name="head" Width="40" HorizontalAlignment="Left" Margin="10,16,0,24" RenderTransformOrigin="0.5,0.5" d:LayoutOverrides="VerticalAlignment" Source="/Resource/heads/令狐冲.jpg">
+			<Image.RenderTransform>
+				<CompositeTransform/>
+			</Image.RenderTransform>
+		</Image>
+	</Grid>
+</UserControl>

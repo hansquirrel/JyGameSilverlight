@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <story name="鸳鸯刀_太岳四侠">
+    <action type="BACKGROUND" value="地图.风陵渡口" />
+    <action type="MUSIC" value="音乐.天龙八部1" />
+    <action type="DIALOG" value="盖七省#等等。。。。等等。。。你给我等等。" />
+    <action type="DIALOG" value="流星赶月#此山是我开，此树是我栽。要想从此过，留。。。。留下买路财。" />
+    <action type="DIALOG" value="主角#（看着四人腹漏八块腹肌，若是黑道强人，不会只有四个。若是剪径小贼，怎么会这么胆子大，我还是小心为妙。所谓真人不露相，露相不真人啊。）" />
+    <action type="DIALOG" value="主角#请问四位大哥怎么称呼？" />
+    <action type="DIALOG" value="盖七省#好小子，连我们得名号都没有听过！还敢在江湖上混。" />
+    <action type="DIALOG" value="盖七省#咱大哥是烟霞神龙逍遥子，二哥是双手开碑常长风，三哥是流星赶月花剑影，区区在下是八步赶蟾、赛专诸、踏雪无痕、独脚水上飞、双刺盖七省盖一鸣。" />
+    <action type="DIALOG" value="双手开碑#我们就是大名鼎鼎，鼎鼎大名的。。。。" />
+    <action type="DIALOG" value="烟霞神龙#太❤" />
+    <action type="DIALOG" value="双手开碑#岳❤" />
+    <action type="DIALOG" value="流星赶月#四❤" />
+    <action type="DIALOG" value="盖七省#侠❤" />
+    <action type="DIALOG" value="盖七省#我们的师傅更是震八方五岳昆仑侠。。。。。" />
+    <action type="DIALOG" value="盖七省#有什么好东西赶紧交出来！" />
+    <action type="DIALOG" value="主角#大哥，我就是穷屌丝一个啊。耗子来我家都是抹着眼泪走的啊。" />
+    <action type="DIALOG" value="盖七省#我不信！除非让我摸摸。。。" />
+    <action type="DIALOG" value="主角#（这厮是个变态么）那就，没什么好谈的了，手下见真章吧。" />
+    <action type="BATTLE" value="鸳鸯刀_太岳四侠战斗" />
+    <result ret="win" type="story" value="鸳鸯刀_太岳四侠胜利" />
+  </story>
+  <story name="鸳鸯刀_太岳四侠胜利">
+    <action type="BACKGROUND" value="地图.风陵渡口" />
+    <action type="MUSIC" value="音乐.天龙八部3" />
+    <action type="DIALOG" value="主角#好嘛，我以为碰上高手了，没想到是四个软脚虾。" />
+    <action type="DIALOG" value="盖七省#大侠饶命啊，大侠饶命啊。我们这也就是混口饭吃。。。。" />
+    <action type="DIALOG" value="主角#身上有多少钱，快快交出来！嗯，就这么几两。" />
+    <action type="DIALOG" value="双手开碑#大哥，这年头土匪也不好当啊。" />
+    <action type="NICK" value="太岳四侠" />
+    <result ret="0" type="story" value="鸳鸯刀_太岳四侠胜利1" />
+  </story>
+  <story name="鸳鸯刀_太岳四侠胜利1">
+    <action type="BACKGROUND" value="地图.风陵渡口" />
+    <action type="MUSIC" value="音乐.天龙八部3" />
+    <action type="DIALOG" value="萧中慧#太岳四鳖你们干什么呢？" />
+    <action type="DIALOG" value="烟霞神龙#是大姐大来了。。。。" />
+    <action type="DIALOG" value="流星赶月#还有大姐夫。。。。" />
+    <action type="DIALOG" value="双手开碑#（大姐大，武功这么高一定可以给俺们报仇）大姐大啊，我们打听到他要抢鸳鸯刀啊" />
+    <action type="DIALOG" value="萧中慧#这么不耐烦的小毛贼竟敢打鸳鸯刀的主意。" />
+    <action type="DIALOG" value="主角#等等。。。听我解释啊" />
+    <result ret="0" type="story" value="鸳鸯刀_风陵渡" />
+  </story>
+  <story name="鸳鸯刀_风陵渡">
+    <action type="MUSIC" value="音乐.天龙八部3" />
+    <action type="DIALOG" value="袁冠南#你们竟然也是来夺刀的么！" />
+    <action type="DIALOG" value="萧中慧#相公，我来助你！" />
+    <action type="BATTLE" value="鸳鸯刀风陵渡1_战斗" />
+    <result ret="win" type="story" value="鸳鸯刀_风陵渡胜2" />
+  </story>
+  <story name="鸳鸯刀_风陵渡胜2">
+    <action type="DIALOG" value="萧中慧#既然你这么想要这对鸳鸯刀，就给了你们吧！可别伤害冠南啊。" />
+    <action type="SELECT" value="主角#收下这对刀么？#不收#收下" />
+    <result ret="0" type="story" value="鸳鸯刀正_风陵渡"/>
+    <result ret="1" type="story" value="鸳鸯刀邪_风陵渡"/>
+  </story>
+  <!--正线-->
+  <story name="鸳鸯刀正_风陵渡">
+    <action type="DIALOG" value="主角#给我干嘛，我也没说过我是要那什么……刀的啊？" />
+    <action type="DIALOG" value="萧中慧#不是来夺刀的？那我们怎么打起来的？" />
+    <action type="DIALOG" value="主角#就这两把破刀？用这两把破刀剁人还真是残忍的事情，砍个胳膊都得剁一年吧？" />
+    <action type="DIALOG" value="萧中慧#这一对刀才不是拿来剁人的呢！" />
+    <action type="DIALOG" value="袁冠南#少侠，我就直说了吧，这刀里隐藏着一个无敌于天下的秘密……" />
+    <action type="DIALOG" value="主角#少来蒙我了，这刀要能让人无敌于天下，你还能这么菜么？一下子就撂倒了" />
+    <action type="DIALOG" value="袁冠南#唉，少侠你自己看吧，这两把刀这么合在一起，这无敌于天下的秘密就自然而然的显露出来了。" />
+    <action type="DIALOG" value="主角#搞笑么？谁这么无聊在两把破刀上刻了个仁者无敌就说这是秘密了，这哪个二货搞出来的让我发现了我非得让他把这两把破刀吃下去不可，哈哈哈哈……" />
+    <action type="DIALOG" value="萧中慧#相公……看他这么一笑我突然就觉着我们之前的所作所为全都是笑话了……" />
+    <action type="DIALOG" value="袁冠南#唉，我也是这么想的。为了一个蠢货搞出来的两把破刀拼死拼活，是为了什么呢？要是那个卓天雄再来夺刀，就给了他把！" />
+    <result ret="0" type="story" value="鸳鸯刀_风陵渡1" />
+  </story>
+  <story name="鸳鸯刀_风陵渡1">
+  <action type="DIALOG" value="卓天雄#哼，终于让我找到你们了！这回我带了皇宫里的内卫供奉，纵使你二人合力再厉害，也要用人堆死你们！" />
+  <action type="DIALOG" value="袁冠南#卓大人，这刀，就给你吧，我们留着也没意思。" />
+  <action type="DIALOG" value="卓天雄#哈？你们怕了？" />
+  <action type="DIALOG" value="主角#谁怕了！我怕过谁？给我死来！" />
+  <action type="DIALOG" value="卓天雄#好小子我就喜欢收拾你这种白痴。。。兄弟们上！" />
+  <action type="BATTLE" value="鸳鸯刀正风陵渡_战斗" />
+  <result ret="win" type="story" value="鸳鸯刀正_风陵渡胜" />
+  <result ret="lose" type="story" value="鸳鸯刀正_风陵渡败" />
+  </story>
+  <story name="鸳鸯刀正_风陵渡败">
+    <action type="DIALOG" value="主角#民不与官斗，我闪！" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="鸳鸯刀正_风陵渡胜">
+    <action type="DIALOG" value="主角#怕了吧！" />
+    <action type="DIALOG" value="袁冠南#卓大人，这刀，就给你吧，我们留着也没意思。" />
+    <action type="DIALOG" value="萧中慧#相公，这位少侠倒是挺有趣，实力也强，我们不如？" />
+    <action type="DIALOG" value="袁冠南#好，少侠啊，我们以后就跟你混了吧！" />
+    <action type="JOIN" value="袁冠南" />
+    <action type="NICK" value="仁者无敌" />
+    <!--袁冠南天赋夫妻刀法-->
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  
+  <!--邪线-->
+  <story name="鸳鸯刀邪_风陵渡">
+    <action type="DIALOG" value="主角#（虽然是两把破刀，不过看这二人这么保护这刀，一定有秘密）拿来吧！" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="鸳鸯刀邪_西夏酒楼">
+    <action type="DIALOG" value="韦小宝#诶，老大，这是不是就是那个鸳鸯双刀？" />
+    <action type="DIALOG" value="主角#你认识这对刀？你知道这刀里有什么秘密么？？" />
+    <action type="DIALOG" value="韦小宝#他认识我我也不认识他啊，我只是听小玄子偶然提起，这双刀中隐藏了一个足以让人无敌于天下的秘密，就在朱。" />
+    <action type="DIALOG" value="主角#朱什么？" />
+    <action type="DIALOG" value="韦小宝#没了，他就说到这里。" />
+    <action type="DIALOG" value="主角#哦……朱，朱什么呢？或者是猪？诛？" />
+  </story>
+  <story name="鸳鸯刀邪_佛山镇">
+    <action type="DIALOG" value="小孩#珠江三角洲上有一座洞窟，里面可黑啦！" />
+    <action type="DIALOG" value="主角#珠江三角洲？珠？" />
+    <action type="DIALOG" value="主角#小朋友，你能带我去那洞窟么，给，这点钱给你留着买糖葫芦吃。" />
+    <action type="DIALOG" value="小孩#好吧大哥哥。" />
+    <result ret="0" type="story" value="鸳鸯刀邪_佛山镇1" />
+  </story>
+  <story name="鸳鸯刀邪_佛山镇1">
+    <action type="BACKGROUND" value="地图.洞穴1" />
+    <action type="MUSIC" value="音乐.如梦往事" />
+    <action type="DIALOG" value="主角#唔，拐过这道弯，前面就伸手不见五指了。恩？这弯道处的墙壁上有一个凹槽？看起来……是鸳鸯刀里长的那把。" />
+    <action type="DIALOG" value="主角#阳光……被折射进来了。指向的位置……还有一个短的凹槽，看来是这把了。" />
+    <action type="DIALOG" value="主角#在这里！挖挖看！" />
+    <action type="ITEM" value="厚黑学#1"/>
+    <action type="GET_MONEY" value="5000"/>
+    <action type="DIALOG" value="主角#这都什么乱七八糟的" />
+    <action type="NICK" value="双刀之谜" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+</root>

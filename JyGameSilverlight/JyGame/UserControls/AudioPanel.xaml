@@ -1,0 +1,24 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+	mc:Ignorable="d"
+	x:Class="JyGame.AudioPanel"
+	d:DesignWidth="640" d:DesignHeight="480">
+
+	<Grid x:Name="LayoutRoot" Width="800" Height="600" Margin="0">
+		<Grid.Background>
+			<ImageBrush ImageSource="/Resource/ui/mainmenu.jpg" Stretch="Fill"/>
+		</Grid.Background>
+		<Canvas Margin="226,48,216,41">
+            <Canvas.Background>
+                <ImageBrush Stretch="Fill" ImageSource="/Resource/ui/info.png" Opacity="0.775"/>
+            </Canvas.Background>
+            <TextBlock Height="24" Canvas.Left="116" TextWrapping="Wrap" Text="金X 音乐欣赏" Width="135" Canvas.Top="9" FontSize="21.333"/>
+			<Button x:Name="closeButton" Content="关闭" Height="23" Canvas.Left="282" Canvas.Top="10" Width="67" Click="closeButton_Click"/>
+			<ListBox x:Name="audioList" Height="433" Canvas.Left="55" Canvas.Top="52" Width="247" Background="#5BFFFFFF"/>
+		</Canvas>
+	</Grid>
+</UserControl>

@@ -1,0 +1,589 @@
+<root>
+  <story name="门派古墓_拜师">
+    <action type="BACKGROUND" value="地图.古墓派" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="主角#哇，这里就是古墓派了！好阴森，好可怕哦。" />
+    <action type="DIALOG" value="黄衫女子#你是谁？胆敢擅闯我古墓派？" />
+    <action type="DIALOG" value="主角#哇，美女！" />
+    <action type="DIALOG" value="黄衫女子#快回答我的问题！" />
+    <action type="DIALOG" value="主角#美女别这么凶嘛...南贤让我来投奔古墓派学点功夫。" />
+    <action type="DIALOG" value="黄衫女子#啊，原来是南贤先生推荐来的。好吧，我就收了你。" />
+    <action type="DIALOG" value="主角#啊？你就是古墓派的掌门？" />
+    <action type="DIALOG" value="黄衫女子#不错。" />
+    <action type="DIALOG" value="主角#不会吧！这么年轻啊！" />
+    <action type="DIALOG" value="黄衫女子#怎么，不满？" />
+    <action type="DIALOG" value="主角#不不，满得很，满得很！（师父是美女，有福喽~）" />
+    <action type="DIALOG" value="黄衫女子#既然要拜入我古墓派，就需要向师祖磕头，再朝画像上的这个道士吐口水。" />
+    <action type="DIALOG" value="主角#嗯，我生平最恨牛鼻子道士了。吐！吐！再吐！凡是美女师父讨厌的，我也讨厌！" />
+    <action type="DIALOG" value="黄衫女子#好了，如今你已经是我古墓派弟子了。从今以后要恪守门规。" />
+    <action type="DIALOG" value="主角#是，美女师父！" />
+    <action type="DIALOG" value="黄衫女子#你先自己在古墓中练习吧，稍后我会派任务给你。" />
+    <action type="DIALOG" value="主角#没问题！" />
+    <action type="MENPAI" value="古墓" />
+    <action type="NICK" value="古墓弟子" />
+    <action type="ITEM" value="古墓派装束"/>
+    <action type="LEARN.TALENT" value="主角#幽居" />
+    <result ret="0" type="story" value="门派古墓_练功" />
+  </story>
+  <story name="门派古墓_新的一天">
+    <action type="BACKGROUND" value="地图.古墓派" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="主角#又是新的一天了！" />
+    <result ret="0">
+      <control type="story" value="门派古墓_古墓出师">
+        <condition type="exceed_day" value="60" />
+      </control>
+      <control type="story" value="门派古墓_古墓叛徒1" >
+        <condition type="probability" value="5"/>
+        <condition type="should_not_finish" value="门派古墓_古墓叛徒3"/>
+      </control>
+      <control type="story" value="门派古墓_古墓世仇1" >
+        <condition type="probability" value="5"/>
+        <condition type="should_not_finish" value="门派古墓_古墓世仇3"/>
+      </control>
+      <control type="story" value="门派古墓_古墓故友1" >
+        <condition type="probability" value="5"/>
+        <condition type="should_not_finish" value="门派古墓_古墓故友3"/>
+      </control>
+    </result>
+  </story>
+  <story name="门派古墓_练功">
+    <action type="BACKGROUND" value="地图.古墓派" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="主角#今天要去哪里练习呢？" />
+    <result ret="0" type="map" value="门派古墓" />
+  </story>
+  <story name="门派古墓_出不去">
+    <action type="BACKGROUND" value="地图.古墓派" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="主角#美女师傅交代了，武功没有练好之前，不许出古墓！" />
+  </story>
+  <story name="门派古墓_天罗地网之间">
+    <action type="BACKGROUND" value="地图.古墓天罗地网之间" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="主角#练习了一下捕捉麻雀的技巧！" />
+    <action type="DIALOG" value="主角#捕捉麻雀看来也不简单呀..." />
+    <action type="UPGRADE.身法" value="主角#1" />
+    <action type="UPGRADE.拳掌" value="主角#1" />
+    <action type="UPGRADE.SKILL" value="主角#天罗地网掌#1" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0">
+      <control type="story" value="门派古墓_古墓出师">
+        <condition type="exceed_day" value="60" />
+      </control>
+      <control type="story" value="门派古墓_古墓叛徒1" >
+        <condition type="probability" value="5"/>
+        <condition type="should_not_finish" value="门派古墓_古墓叛徒3"/>
+      </control>
+      <control type="story" value="门派古墓_古墓世仇1" >
+        <condition type="probability" value="5"/>
+        <condition type="should_not_finish" value="门派古墓_古墓世仇3"/>
+      </control>
+      <control type="story" value="门派古墓_古墓故友1" >
+        <condition type="probability" value="5"/>
+        <condition type="should_not_finish" value="门派古墓_古墓故友3"/>
+      </control>
+    </result>
+  </story>
+  <story name="门派古墓_寒玉之间">
+    <action type="BACKGROUND" value="地图.古墓寒玉之间" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="主角#在寒玉床上躺了几个时辰..." />
+    <action type="DIALOG" value="主角#好冷啊！" />
+    <action type="UPGRADE.根骨" value="主角#1" />
+    <action type="UPGRADE.MAXHP" value="主角#15" />
+    <action type="UPGRADE.MAXMP" value="主角#15" />
+    <action type="UPGRADE.INTERNALSKILL" value="主角#玉女心经#1" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0">
+      <control type="story" value="门派古墓_古墓出师">
+        <condition type="exceed_day" value="60" />
+      </control>
+      <control type="story" value="门派古墓_古墓叛徒1" >
+        <condition type="probability" value="5"/>
+        <condition type="should_not_finish" value="门派古墓_古墓叛徒3"/>
+      </control>
+      <control type="story" value="门派古墓_古墓世仇1" >
+        <condition type="probability" value="5"/>
+        <condition type="should_not_finish" value="门派古墓_古墓世仇3"/>
+      </control>
+      <control type="story" value="门派古墓_古墓故友1" >
+        <condition type="probability" value="5"/>
+        <condition type="should_not_finish" value="门派古墓_古墓故友3"/>
+      </control>
+    </result>
+  </story>
+  <story name="门派古墓_祖师之间">
+    <action type="BACKGROUND" value="地图.古墓师祖之间" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="主角#遵照我古墓派祖师之命，用口水淹死王重阳！" />
+    <action type="DIALOG" value="主角#祖师爷显灵，教我神功吧！" />
+    <action type="UPGRADE.悟性" value="主角#1" />
+    <action type="UPGRADE.剑法" value="主角#1" />
+    <action type="UPGRADE.SKILL" value="主角#玉女剑法#1" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0">
+      <control type="story" value="门派古墓_古墓出师">
+        <condition type="exceed_day" value="60" />
+      </control>
+      <control type="story" value="门派古墓_古墓叛徒1" >
+        <condition type="probability" value="5"/>
+        <condition type="should_not_finish" value="门派古墓_古墓叛徒3"/>
+      </control>
+      <control type="story" value="门派古墓_古墓世仇1" >
+        <condition type="probability" value="5"/>
+        <condition type="should_not_finish" value="门派古墓_古墓世仇3"/>
+      </control>
+      <control type="story" value="门派古墓_古墓故友1" >
+        <condition type="probability" value="5"/>
+        <condition type="should_not_finish" value="门派古墓_古墓故友3"/>
+      </control>
+    </result>
+  </story>
+  <story name="门派古墓_绳床之间">
+    <action type="BACKGROUND" value="地图.古墓绳床之间" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="主角#睡在绳子上，这是一种时尚。" />
+    <action type="DIALOG" value="主角#颤颤巍巍..." />
+    <action type="UPGRADE.定力" value="主角#1" />
+    <action type="UPGRADE.身法" value="主角#1" />
+    <action type="UPGRADE.MAXHP" value="主角#15" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0">
+      <control type="story" value="门派古墓_古墓出师">
+        <condition type="exceed_day" value="60" />
+      </control>
+      <control type="story" value="门派古墓_古墓叛徒1" >
+        <condition type="probability" value="5"/>
+        <condition type="should_not_finish" value="门派古墓_古墓叛徒3"/>
+      </control>
+      <control type="story" value="门派古墓_古墓世仇1" >
+        <condition type="probability" value="5"/>
+        <condition type="should_not_finish" value="门派古墓_古墓世仇3"/>
+      </control>
+      <control type="story" value="门派古墓_古墓故友1" >
+        <condition type="probability" value="5"/>
+        <condition type="should_not_finish" value="门派古墓_古墓故友3"/>
+      </control>
+    </result>
+  </story>
+  <story name="门派古墓_玉蜂之间">
+    <action type="BACKGROUND" value="地图.古墓玉蜂之间" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="主角#养蜜蜂，养蜜蜂..." />
+    <action type="DIALOG" value="主角#差点被扎成了马蜂窝！" />
+    <action type="UPGRADE.定力" value="主角#1" />
+    <action type="UPGRADE.奇门" value="主角#1" />
+    <action type="UPGRADE.SKILL" value="主角#玉蜂针#1" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0">
+      <control type="story" value="门派古墓_古墓出师">
+        <condition type="exceed_day" value="60" />
+      </control>
+      <control type="story" value="门派古墓_古墓叛徒1" >
+        <condition type="probability" value="5"/>
+        <condition type="should_not_finish" value="门派古墓_古墓叛徒3"/>
+      </control>
+      <control type="story" value="门派古墓_古墓世仇1" >
+        <condition type="probability" value="5"/>
+        <condition type="should_not_finish" value="门派古墓_古墓世仇3"/>
+      </control>
+      <control type="story" value="门派古墓_古墓故友1" >
+        <condition type="probability" value="5"/>
+        <condition type="should_not_finish" value="门派古墓_古墓故友3"/>
+      </control>
+    </result>
+  </story>
+  <story name="门派古墓_古墓叛徒1">
+    <action type="BACKGROUND" value="地图.古墓派" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="黄衫女子#你来我古墓派，也有一阵子了。" />
+    <action type="DIALOG" value="主角#是的，美女师父。" />
+    <action type="DIALOG" value="黄衫女子#如今，我有个重要的任务交给你。你要去寻找，我们古墓派的一个叛徒。" />
+    <action type="SELECT" value="主角#要接受这个任务吗？#接受！#下次吧。" />
+    <result ret="0" type="story" value="门派古墓_古墓叛徒2" />
+    <result ret="1" type="story" value="门派古墓_古墓叛徒2否" />
+  </story>
+  <story name="门派古墓_古墓叛徒2">
+    <action type="BACKGROUND" value="地图.古墓派" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="主角#好啊，美女师父。" />
+    <action type="DIALOG" value="黄衫女子#就算没有完成也不用担心，师父会保护你周全的。" />
+    <action type="DIALOG" value="主角#嗯！" />
+    <action type="DIALOG" value="黄衫女子#为了自保，我先给你一些灵丹妙药，以供使用。" />
+    <action type="DIALOG" value="主角#哇，太棒了！" />
+    <action type="ITEM" value="九花玉露丸#10" />
+    <action type="DIALOG" value="主角#是哪个不长眼的，还要背叛我们这么好的古墓派，有美女掌门的古墓派！" />
+    <action type="DIALOG" value="黄衫女子#她也是一个女子，一个心狠手辣的女人。" />
+    <action type="DIALOG" value="主角#哦，原来如此，她一定是嫉妒美女师父了。" />
+    <action type="DIALOG" value="黄衫女子#...总之，你找到她，除掉她，回来就算完成任务了。" />
+    <action type="DIALOG" value="主角#嗯！" />
+    <result ret="0" type="story" value="门派古墓_古墓叛徒3" />
+  </story>
+  <story name="门派古墓_古墓叛徒2否">
+    <action type="BACKGROUND" value="地图.古墓派" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="主角#师父，弟子学艺不精，还是下次准备周全了再去吧。" />
+    <action type="DIALOG" value="黄衫女子#好吧，那你继续练习吧。" />
+    <result ret="0" type="map" value="门派古墓" />
+  </story>
+  <story name="门派古墓_古墓叛徒3">
+    <action type="BACKGROUND" value="地图.塞外" />
+    <action type="MUSIC" value="音乐.太行八径" />
+    <action type="COST_DAY" value="10" />
+    <action type="DIALOG" value="主角#呼呼！找了这么久，一定是你了，美女师父口中的叛徒！" />
+    <action type="DIALOG" value="古墓叛徒#哼，我最讨厌的，就是古墓派的。" />
+    <action type="DIALOG" value="主角#纳命来！" />
+    <action type="BATTLE" value="古墓叛徒_战斗" />
+    <result ret="win" type="story" value="门派古墓_古墓叛徒胜" />
+    <result ret="lose" type="story" value="门派古墓_古墓叛徒负" />
+  </story>
+  <story name="门派古墓_古墓叛徒胜">
+    <action type="BACKGROUND" value="地图.塞外" />
+    <action type="MUSIC" value="音乐.太行八径" />
+    <action type="DIALOG" value="主角#哈哈！终于为美女师父手刃仇人！" />
+    <action type="DIALOG" value="黄衫女子#干得不错！" />
+    <action type="DIALOG" value="主角#嘻嘻。" />
+    <action type="ITEM" value="九阴遗篇#1" />
+    <action type="ITEM" value="九阴神功残章#1" />
+    <result ret="0" type="story" value="门派古墓_新的一天" />
+  </story>
+  <story name="门派古墓_古墓叛徒负">
+    <action type="BACKGROUND" value="地图.塞外" />
+    <action type="MUSIC" value="音乐.太行八径" />
+    <action type="DIALOG" value="黄衫女子#贼人，休要伤我徒儿！" />
+    <action type="DIALOG" value="古墓叛徒#可恶，撤退。" />
+    <action type="DIALOG" value="主角#感谢美女师父救命之恩。" />
+    <action type="DIALOG" value="黄衫女子#你干得已经很好了，任务就算是过关了。" />
+    <action type="DIALOG" value="主角#谢谢美女师父。" />
+    <result ret="0" type="story" value="门派古墓_新的一天" />
+  </story>
+  <story name="门派古墓_古墓世仇1">
+    <action type="BACKGROUND" value="地图.古墓派" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="黄衫女子#你来我古墓派，也有一阵子了。" />
+    <action type="DIALOG" value="主角#是的，美女师父。" />
+    <action type="DIALOG" value="黄衫女子#如今，我有个重要的任务交给你。你要去寻全真派一个牛鼻子的晦气。" />
+    <action type="SELECT" value="主角#要接受这个任务吗？#接受！#下次吧。" />
+    <result ret="0" type="story" value="门派古墓_古墓世仇2" />
+    <result ret="1" type="story" value="门派古墓_古墓世仇2否" />
+  </story>
+  <story name="门派古墓_古墓世仇2">
+    <action type="BACKGROUND" value="地图.古墓派" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="主角#好啊，美女师父。" />
+    <action type="DIALOG" value="黄衫女子#就算没有完成也不用担心，师父会保护你周全的。" />
+    <action type="DIALOG" value="主角#嗯！" />
+    <action type="DIALOG" value="黄衫女子#为了自保，我先给你一些灵丹妙药，以供使用。" />
+    <action type="DIALOG" value="主角#哇，太棒了！" />
+    <action type="ITEM" value="九花玉露丸#10" />
+    <action type="DIALOG" value="主角#哼，全真派的，都不是好东西。" />
+    <action type="DIALOG" value="黄衫女子#没错，所以你一定要替师门出气。" />
+    <action type="DIALOG" value="主角#好的，师父，交给我吧！" />
+    <action type="DIALOG" value="黄衫女子#...总之，你找到他，除掉他，回来就算完成任务了。" />
+    <action type="DIALOG" value="主角#嗯！" />
+    <result ret="0" type="story" value="门派古墓_古墓世仇3" />
+  </story>
+  <story name="门派古墓_古墓世仇2否">
+    <action type="BACKGROUND" value="地图.古墓派" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="主角#师父，弟子学艺不精，还是下次准备周全了再去吧。" />
+    <action type="DIALOG" value="黄衫女子#好吧，那你继续练习吧。" />
+    <result ret="0" type="map" value="门派古墓" />
+  </story>
+  <story name="门派古墓_古墓世仇3">
+    <action type="BACKGROUND" value="地图.城市2" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="COST_DAY" value="10" />
+    <action type="DIALOG" value="主角#呼呼！找了这么久，一定是你了，美女师父口中的全真牛鼻子！" />
+    <action type="DIALOG" value="全真高手#哎呀呀，我还以为古墓派只有娇滴滴的小姑娘呢，原来还有这么丑的男人呢。" />
+    <action type="DIALOG" value="主角#纳命来！" />
+    <action type="BATTLE" value="古墓世仇_战斗" />
+    <result ret="win" type="story" value="门派古墓_古墓世仇胜" />
+    <result ret="lose" type="story" value="门派古墓_古墓世仇负" />
+  </story>
+  <story name="门派古墓_古墓世仇胜">
+    <action type="BACKGROUND" value="地图.城市2" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="主角#哈哈！终于为美女师父手刃仇人！" />
+    <action type="DIALOG" value="黄衫女子#干得不错！" />
+    <action type="DIALOG" value="主角#嘻嘻。" />
+    <action type="ITEM" value="玉女素心口诀#1" />
+    <action type="ITEM" value="玉女素心剑残章#1" />
+    <result ret="0" type="story" value="门派古墓_新的一天" />
+  </story>
+  <story name="门派古墓_古墓世仇负">
+    <action type="BACKGROUND" value="地图.城市2" />
+    <action type="MUSIC" value="音乐.紧张感" />
+    <action type="DIALOG" value="黄衫女子#贼人，休要伤我徒儿！" />
+    <action type="DIALOG" value="全真高手#可恶，撤退。" />
+    <action type="DIALOG" value="主角#感谢美女师父救命之恩。" />
+    <action type="DIALOG" value="黄衫女子#你干得已经很好了，任务就算是过关了。" />
+    <action type="DIALOG" value="主角#谢谢美女师父。" />
+    <result ret="0" type="story" value="门派古墓_新的一天" />
+  </story>
+  <story name="门派古墓_古墓故友1">
+    <action type="BACKGROUND" value="地图.古墓派" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="黄衫女子#你来我古墓派，也有一阵子了。" />
+    <action type="DIALOG" value="主角#是的，美女师父。" />
+    <action type="DIALOG" value="黄衫女子#我有个重要的任务交给你。古墓派与桃花岛乃是故交，师父要你去桃花岛，与他们切磋两招。" />
+    <action type="SELECT" value="主角#要接受这个任务吗？#接受！#下次吧。" />
+    <result ret="0" type="story" value="门派古墓_古墓故友2" />
+    <result ret="1" type="story" value="门派古墓_古墓故友2否" />
+  </story>
+  <story name="门派古墓_古墓故友2">
+    <action type="BACKGROUND" value="地图.古墓派" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="主角#好啊，美女师父。" />
+    <action type="DIALOG" value="黄衫女子#就算没有完成也不用担心，师父会保护你周全的。" />
+    <action type="DIALOG" value="主角#嗯！" />
+    <action type="DIALOG" value="黄衫女子#为了自保，我先给你一些灵丹妙药，以供使用。" />
+    <action type="DIALOG" value="主角#哇，太棒了！" />
+    <action type="ITEM" value="九花玉露丸#10" />
+    <action type="DIALOG" value="主角#美女师父，放心，我一定给你争光！" />
+    <action type="DIALOG" value="黄衫女子#记住，友谊第一，比赛第二，别伤了和气。" />
+    <action type="DIALOG" value="主角#好的，师父，交给我吧！" />
+    <action type="DIALOG" value="黄衫女子#...总之，你去比一场，回来就算完成任务了。" />
+    <action type="DIALOG" value="主角#嗯！" />
+    <result ret="0" type="story" value="门派古墓_古墓故友3" />
+  </story>
+  <story name="门派古墓_古墓故友2否">
+    <action type="BACKGROUND" value="地图.古墓派" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="主角#师父，弟子学艺不精，还是下次准备周全了再去吧。" />
+    <action type="DIALOG" value="黄衫女子#好吧，那你继续练习吧。" />
+    <result ret="0" type="map" value="门派古墓" />
+  </story>
+  <story name="门派古墓_古墓故友3">
+    <action type="BACKGROUND" value="地图.风陵渡口" />
+    <action type="MUSIC" value="音乐.神雕.歌泣" />
+    <action type="COST_DAY" value="10" />
+    <action type="DIALOG" value="主角#呼呼！桃花岛真远啊！" />
+    <action type="DIALOG" value="桃花高手#古墓派的朋友，我们来走上两路。" />
+    <action type="DIALOG" value="主角#好！" />
+    <action type="BATTLE" value="古墓故友_战斗" />
+    <result ret="win" type="story" value="门派古墓_古墓故友胜" />
+    <result ret="lose" type="story" value="门派古墓_古墓故友负" />
+  </story>
+  <story name="门派古墓_古墓故友胜">
+    <action type="BACKGROUND" value="地图.风陵渡口" />
+    <action type="MUSIC" value="音乐.神雕.歌泣" />
+    <action type="DIALOG" value="主角#哈哈！我赢了！" />
+    <action type="DIALOG" value="黄衫女子#干得不错！" />
+    <action type="DIALOG" value="主角#嘻嘻。" />
+    <action type="ITEM" value="弹指神通入门#1" />
+    <action type="ITEM" value="弹指神通残章#1" />
+    <result ret="0" type="story" value="门派古墓_新的一天" />
+  </story>
+  <story name="门派古墓_古墓故友负">
+    <action type="BACKGROUND" value="地图.风陵渡口" />
+    <action type="MUSIC" value="音乐.神雕.歌泣" />
+    <action type="DIALOG" value="黄衫女子#好了，就此为止吧。" />
+    <action type="DIALOG" value="主角#感谢美女师父及时为我解围。" />
+    <action type="DIALOG" value="黄衫女子#你干得已经很好了，任务就算是过关了。" />
+    <action type="DIALOG" value="主角#谢谢美女师父。" />
+    <result ret="0" type="story" value="门派古墓_新的一天" />
+  </story>
+  <story name="门派古墓_杨冰儿初登场">
+    <action type="DIALOG" value="主角#咦？你是？（古墓派美女真多啊！）" />
+    <action type="DIALOG" value="杨冰儿#师弟你好，我已经听师父提起你了。我叫杨冰儿，自小在古墓长大，请多多指教。" />
+    <action type="DIALOG" value="主角#师姐好！" />
+    <action type="DIALOG" value="杨冰儿#有个师弟真好呢。师弟，你要谨记，我们古墓派一向讲究内功修为，达到素月冰心、无欲无念的至清之境，方可一窥武学上乘境界。" />
+    <action type="DIALOG" value="主角#谢谢师姐指点，我一定勤加练习，早日练成绝世武功，光大古墓！（我的十级野球拳啊！！南贤你这个混蛋...）" />
+    <action type="DIALOG" value="杨冰儿#嗯，你去练功吧。有不懂的地方我们可以互相切磋印证一下。" />
+    <action type="DIALOG" value="主角#好的，多谢师姐！" />
+  </story>
+  <story name="门派古墓_杨冰儿比武">
+    <action type="DIALOG" value="主角#师姐你好。" />
+    <action type="DIALOG" value="杨冰儿#师弟你好。最近武功进步如何？要和师姐切磋一下吗？" />
+    <action type="SELECT" value="主角#要和杨冰儿比试吗？#比试！#算了。" />
+    <result ret="0" type="story" value="门派古墓_杨冰儿比武_战斗" />
+  </story>
+  <story name="门派古墓_杨冰儿比武_战斗">
+    <action type="BATTLE" value="杨冰儿_战斗" />
+    <result ret="win" type="story" value="门派古墓_杨冰儿比武胜" />
+    <result ret="lose" type="story" value="门派古墓_杨冰儿比武负" />
+  </story>
+  <story name="门派古墓_杨冰儿比武胜">
+    <action type="DIALOG" value="杨冰儿#师弟你真厉害！" />
+    <action type="DIALOG" value="主角#不敢当，明明是师姐让着我。" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="story" value="门派古墓_新的一天" />
+  </story>
+  <story name="门派古墓_杨冰儿比武负">
+    <action type="DIALOG" value="杨冰儿#师弟，本门武功，你还要更勤奋修炼才是。" />
+    <action type="DIALOG" value="主角#嗯，谢谢师姐指点。" />
+    <action type="COST_DAY" value="1" />
+    <result ret="0" type="story" value="门派古墓_新的一天" />
+  </story>
+  <story name="门派古墓_古墓出师">
+    <action type="BACKGROUND" value="地图.古墓派" />
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="黄衫女子#好了，你在古墓内的短暂修行就告一段落了。从今天起，你可以以古墓弟子的身份闯荡江湖了！" />
+    <action type="DIALOG" value="主角#美女师父啊，我舍不得你啊。" />
+    <action type="DIALOG" value="黄衫女子#呵呵，有时间多回来看看吧。" />
+    <action type="DIALOG" value="主角#一定的！美女师父，我走了！" />
+    <action type="DIALOG" value="黄衫女子#哦，等等。" />
+    <action type="DIALOG" value="主角#？" />
+    <action type="DIALOG" value="黄衫女子#你一个人闯荡江湖，还是太凶险了。我让你师姐杨冰儿陪你一起去吧。" />
+    <action type="DIALOG" value="主角#好啊好啊，多谢美女师父！" />
+    <action type="JOIN" value="杨冰儿" />
+    <action type="DIALOG" value="杨冰儿#师弟，以后多多指教。" />
+    <action type="DIALOG" value="主角#有劳师姐了！" />
+    <action type="DIALOG" value="黄衫女子#你们加油，古墓派就靠你们发扬光大了！" />
+    <action type="LOG" value="出师古墓派。" />
+    <result ret="0" type="map" value="大地图" />
+  </story>
+  <story name="门派古墓_回古墓">
+    <action type="DIALOG" value="主角#美女师父好。" />
+    <action type="DIALOG" value="黄衫女子#嗯，你在江湖上闯荡，要多加小心。" />
+  </story>
+  <story name="门派古墓_回古墓.玉蜂浆">
+    <action type="DIALOG" value="主角#美女师父好。" />
+    <action type="DIALOG" value="黄衫女子#嗯，你在江湖上闯荡，要多加小心。" />
+    <action type="DIALOG" value="主角#多谢美女师父，最近江湖确实不太平，但是也是我们古墓派扬名立万的大好机会。" />
+    <action type="DIALOG" value="黄衫女子#不错。师父知道最近你帮助南贤先生打退了黑衣人，颇感欣慰。" />
+    <action type="DIALOG" value="黄衫女子#最近，我在古墓内外酿了一些玉峰浆，你和你杨师姐一起分享吧。" />
+    <action type="DIALOG" value="主角#谢谢师父！" />
+    <action type="ITEM" value="玉蜂浆#10" />
+  </story>
+  <story name="门派古墓_回古墓.玄铁剑法">
+    <action type="DIALOG" value="主角#美女师父好。" />
+    <action type="DIALOG" value="黄衫女子#嗯，你回来了。" />
+    <action type="DIALOG" value="黄衫女子#师父听说你在江湖上大展拳脚，颇感欣慰。" />
+    <action type="DIALOG" value="主角#师父过奖了！" />
+    <action type="DIALOG" value="黄衫女子#以你如今的功夫造诣，我恐怕也不一定是你的对手。" />
+    <action type="DIALOG" value="主角#师父太谦虚了！" />
+    <action type="DIALOG" value="黄衫女子#本门之中，还有不少厉害功夫。以你的男儿之身，师父觉得你可以将本门的玄铁剑法发扬光大。" />
+    <action type="DIALOG" value="主角#哇，不错哦。" />
+    <action type="DIALOG" value="黄衫女子#这玄铁剑法，极其消耗内力。威力固然强大，但对修行者也有很高要求。" />
+    <action type="DIALOG" value="黄衫女子#你去钱塘江口，与海潮搏击练习，方可习得这玄铁剑法。" />
+    <result ret="0" type="story" value="门派古墓_回古墓.玄铁剑法选择" />
+  </story>
+  <story name="门派古墓_回古墓.玄铁剑法选择">
+    <action type="SELECT" value="主角#要修炼玄铁剑法吗？#好！#算了。" />
+    <result ret="0" type="story" value="门派古墓_回古墓.玄铁剑法练习" />
+  </story>
+  <story name="门派古墓_回古墓.玄铁剑法练习">
+    <action type="DIALOG" value="黄衫女子#好。为了加快你的修炼速度，就让师父陪你一起去钱塘江口练这玄铁剑法吧！" />
+    <action type="DIALOG" value="主角#有劳师父！" />
+    <action type="DIALOG" value="黄衫女子#师父与你连战三场，你若都胜了，想必玄铁剑法精髓已经尽在掌握。" />
+    <action type="COST_DAY" value="15" />
+    <action type="BATTLE" value="玄铁剑1_战斗" />
+    <result ret="win" type="story" value="门派古墓_回古墓.玄铁剑法1胜" />
+    <result ret="lose" type="story" value="门派古墓_回古墓.玄铁剑法负" />
+  </story>
+  <story name="门派古墓_回古墓.玄铁剑法1胜">
+    <action type="UPGRADE.SKILL" value="主角#玄铁剑法#3" />
+    <action type="DIALOG" value="黄衫女子#好。干得不错。再来！" />
+    <action type="BATTLE" value="玄铁剑2_战斗" />
+    <result ret="win" type="story" value="门派古墓_回古墓.玄铁剑法2胜" />
+    <result ret="lose" type="story" value="门派古墓_回古墓.玄铁剑法负" />
+  </story>
+  <story name="门派古墓_回古墓.玄铁剑法2胜">
+    <action type="UPGRADE.SKILL" value="主角#玄铁剑法#4" />
+    <action type="DIALOG" value="黄衫女子#好。干得不错。再来！" />
+    <action type="BATTLE" value="玄铁剑3_战斗" />
+    <result ret="win" type="story" value="门派古墓_回古墓.玄铁剑法3胜" />
+    <result ret="lose" type="story" value="门派古墓_回古墓.玄铁剑法负" />
+  </story>
+  <story name="门派古墓_回古墓.玄铁剑法3胜">
+    <action type="UPGRADE.SKILL" value="主角#玄铁剑法#3" />
+    <action type="DIALOG" value="黄衫女子#好！不愧为我古墓新一代中出类拔萃之人！" />
+    <action type="DIALOG" value="黄衫女子#今日你玄铁剑法已然大成，这柄玄铁剑你也拿去吧。" />
+    <action type="ITEM" value="玄铁剑#1" />
+    <action type="DIALOG" value="主角#多谢师父！" />
+    <action type="DIALOG" value="黄衫女子#你得传玄铁剑和玄铁剑法，一定要在江湖上除恶扬善，扬我古墓侠名。" />
+    <action type="DIALOG" value="主角#一定的！" />
+    <result ret="0" type="map" value="门派古墓" />
+  </story>
+  <story name="门派古墓_回古墓.玄铁剑法负">
+    <action type="DIALOG" value="黄衫女子#唉，看来不应该对你期望太高。这玄铁剑法，你还是不适合练习。" />
+    <result ret="0" type="map" value="门派古墓" />
+  </story>
+
+  <story name="门派古墓_左右互搏">
+    <action type="DIALOG" value="主角#美女师父好。" />
+    <action type="DIALOG" value="黄衫女子#你来了，让为师看看你这玄铁剑法练的如何了？" />
+    <action type="DIALOG" value="主角#（在掌门面前打了一遍玄铁剑法的套路）" />
+    <action type="DIALOG" value="黄衫女子#嗯...不错，你的剑法已经十分纯熟。只可惜我古墓派尚有众多顶尖武学，为师却无法向你传授。" />
+    <action type="DIALOG" value="黄衫女子#想当年我古墓派，由林朝英祖师创立，经小龙女发扬光大，虽然弟子人数始终寥寥无几，但武学功底之深，普天之下能较长短者稀矣。" />
+    <action type="DIALOG" value="黄衫女子#可惜为师所学有限，加之你我男女有别，适合修炼武功不同，不能尽数相传，唉。" />
+    <action type="DIALOG" value="主角#美女师父不用介意...有美女师父教我武功我已经很满足了。况且我现在已经很厉害了，我把周伯通都打败了！" />
+    <action type="DIALOG" value="黄衫女子#周伯通？" />
+    <action type="DIALOG" value="主角#嗯？师父，怎么了？" />
+    <action type="DIALOG" value="黄衫女子#你说起周伯通我倒是想起来了！昔日小龙女还曾写下一篇心法，讲述两手分使两种武功的神奇方法，早年也曾凭此独步武林！" />
+    <action type="DIALOG" value="主角#哇！左右互搏！师父你怎么不早说呀？" />
+    <action type="DIALOG" value="黄衫女子#左右互搏需一手画方、一手化圆，定力和悟性要求极高，师父似乎与它并无缘分，所以一直未记在心上。你方才提到会左右互搏的周伯通，我这才想了起来。" />
+    <action type="DIALOG" value="主角#左右互搏之术我也听说过，不是说悟性低才能学会？" />
+    <action type="DIALOG" value="黄衫女子#完全是谬论，你想周伯通自王重阳死后独步武林，悟性怎么会低？我派小龙女冰雪聪明，少年成名，悟性又哪里低了呢。" />
+    <action type="DIALOG" value="主角#嗯...可是那傻乎乎的郭靖似乎也曾学过这个..." />
+    <action type="DIALOG" value="黄衫女子#郭靖能学成降龙十八掌，步入而立之年就已经领导中原武林群豪。人家那叫单纯，不是武学悟性上差了。" />
+    <action type="DIALOG" value="主角#哦...那徒儿能学会吗？" />
+    <action type="DIALOG" value="黄衫女子#我看看..." />
+    <result ret="0">
+      <control type="story" value="门派古墓_左右互搏行">
+        <condition type="dingli_greater_than" value="主角#100" />
+        <condition type="wuxing_greater_than" value="主角#100" />
+      </control>
+      <control type="story" value="门派古墓_左右互搏不行">
+        <condition type="dingli_less_than" value="主角#100" />
+      </control>
+      <control type="story" value="门派古墓_左右互搏不行">
+        <condition type="wuxing_less_than" value="主角#100" />
+      </control>
+    </result>
+  </story>
+  
+  <story name="门派古墓_再试左右互搏">
+    <action type="DIALOG" value="主角#师父，你看我现在能学左右互搏了吗？" />
+    <action type="DIALOG" value="黄衫女子#我看看..." />
+    <result ret="0">
+      <control type="story" value="门派古墓_左右互搏行">
+        <condition type="dingli_greater_than" value="主角#100" />
+        <condition type="wuxing_greater_than" value="主角#120" />
+      </control>
+      <control type="story" value="门派古墓_左右互搏不行">
+        <condition type="dingli_less_than" value="主角#100" />
+      </control>
+      <control type="story" value="门派古墓_左右互搏不行">
+        <condition type="wuxing_less_than" value="主角#120" />
+      </control>
+    </result>
+  </story>
+  
+  <story name="门派古墓_左右互搏不行">
+    <action type="DIALOG" value="黄衫女子#不行，你的悟性、定力还有所不足，你再去锻炼一下吧。" />
+  </story>
+  <story name="门派古墓_左右互搏行">
+    <action type="DIALOG" value="黄衫女子#嗯，不错。你的悟性、定力都很好，我们赶紧开始吧。" />
+    <action type="DIALOG" value="主角#（过了一个时辰...）" />
+    <action type="DIALOG" value="黄衫女子#左右互搏之术的练习方法我都交给你了。关键在于一心二用。只有这最后一关，需要自己用两种功夫对打，稍有不慎就会受伤，你要小心。" />
+    <action type="DIALOG" value="主角#恩，师父。那我开始练习了！" />
+    <action type="BATTLE" value="古墓左右互搏_战斗" />
+    <result ret="win" type="story" value="门派古墓_左右互搏胜" />
+    <result ret="lose" type="story" value="门派古墓_左右互搏负" />
+  </story>
+  <story name="门派古墓_左右互搏胜">
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="主角#这门功夫终于学到了！" />
+    <action type="LEARN.TALENT" value="主角#左右互搏" />
+    <action type="DIALOG" value="黄衫女子#干得漂亮！光大我古墓门楣就靠你了。" />
+    <action type="DIALOG" value="主角#恩，师父。我一定办到！" />
+   </story>
+  <story name="门派古墓_左右互搏负">
+    <action type="MUSIC" value="音乐.神雕.舒缓" />
+    <action type="DIALOG" value="主角#果然很难啊！" />
+    <action type="UPGRADE.MAXHP" value="主角#-500" />
+    <action type="UPGRADE.MAXMP" value="主角#-500" />
+    <action type="UPGRADE.根骨" value="主角#-10" />
+    <action type="UPGRADE.身法" value="主角#-10" />
+    <action type="UPGRADE.定力" value="主角#-10" />
+    <action type="UPGRADE.悟性" value="主角#-10" />
+    <action type="DIALOG" value="主角#不过功夫总算还是学到手了..." />
+    <action type="LEARN.TALENT" value="主角#左右互搏" />
+    <action type="DIALOG" value="黄衫女子#不错，终究还是办到了。光大我古墓门楣就靠你了。" />
+    <action type="DIALOG" value="主角#恩，师父。我一定办到！" />
+  </story>
+</root>

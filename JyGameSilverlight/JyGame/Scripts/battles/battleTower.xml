@@ -1,0 +1,211 @@
+<root>
+  <maptemplates></maptemplates>
+  <battles>
+    <battle key="天关.江湖异人.渔樵耕读" template="襄阳城南_战斗">
+      <roles>
+        <role index="0" team="1" x="4" y="3" face="1" />
+        <role index="1" team="1" x="5" y="4" face="1" />
+        <role index="2" team="1" x="6" y="5" face="1" />
+        <role index="3" team="1" x="6" y="6" face="1" />
+        <role key="褚万里" team="2" x="1" y="5" face="0" />
+        <role key="古笃诚" team="2" x="1" y="6" face="0" />
+        <role key="傅思归" team="2" x="12" y="5" face="1" />
+        <role key="朱丹臣" team="2" x="12" y="6" face="1" />
+      </roles>
+    </battle>
+    <battle key="天关.江湖异人.高手来了！" template="天龙寺_战斗">
+      <roles>
+        <role index="0" team="1" x="4" y="2" face="0" />
+        <role index="1" team="1" x="4" y="6" face="0" />
+      </roles>
+      <random level="3" name="神秘高手" boss="true">
+        <role x="7" y="4" face="1" />
+      </random>
+    </battle>
+    <battle key="天关.江湖异人.四个和尚" template="少林_战斗">
+      <roles>
+        <role index="0" team="1" x="6" y="7" face="1" />
+        <role index="1" team="1" x="7" y="7" face="0" />
+        <role key="玄慈方丈" team="2" x="9" y="7" face="1" />
+        <role key="玄难" team="2" x="4" y="6" face="0" />
+        <role key="玄寂" team="2" x="4" y="8" face="0" />
+        <role key="方证大师" team="2" x="1" y="5" face="0" />
+      </roles>
+    </battle>
+    <battle key="天关.江湖异人.雁门关的雪？血？" template="雁门关_战斗">
+      <roles>
+        <role index="0" team="1" x="6" y="6" face="0" />
+        <role index="1" team="1" x="6" y="7" face="0" />
+        <role index="2" team="1" x="10" y="6" face="1" />
+        <role index="3" team="1" x="10" y="7" face="1" />
+      </roles>
+      <random level="4" name="神秘超级高手" boss="true">
+        <role x="8" y="6" face="1" />
+        <role x="8" y="7" face="1" />
+      </random>
+    </battle>
+    <battle key="天关.江湖异人.终章" template="道家仙境_战斗">
+      <roles>
+        <role index="0" team="1" x="9" y="5" face="0" />
+        <role index="1" team="1" x="9" y="4" face="0" />
+        <role index="2" team="1" x="7" y="5" face="0" />
+        <role index="3" team="1" x="7" y="4" face="0" />
+      </roles>
+      <random level="5" name="神秘绝顶高手" boss="true">
+        <role x="14" y="4" face="1" />
+        <role x="14" y="5" face="1" />
+      </random>
+    </battle>
+    <battle key="天关.炼狱.作为炼狱，一开始就应该很难" template="唐诗山洞_战斗" arena="no">
+      <roles>
+        <role index="0" team="1" x="14" y="5" face="1" />
+        <role index="1" team="1" x="14" y="7" face="1" />
+        <role index="2" team="1" x="4" y="3" face="0" />
+      </roles>
+      <random level="5" name="神秘绝顶高手" boss="true">
+        <role x="9" y="6" face="0" />
+      </random>
+    </battle>
+    <battle key="天关.炼狱.来吧，小规模的华山论剑" template="华山论剑_战斗" arena="no">
+      <roles>
+        <role index="0" team="1" x="2" y="2" face="0" />
+        <role index="1" team="1" x="3" y="7" face="0" />
+        <role index="2" team="1" x="9" y="5" face="0" />
+      </roles>
+      <random level="5" name="神秘绝顶高手" boss="true">
+        <role x="5" y="2" face="1" />
+        <role x="6" y="7" face="1" />
+        <role x="12" y="5" face="1" />
+      </random>
+    </battle>
+    <battle key="天关.炼狱.谁才是高手高手高高手" template="测试战斗" arena="no">
+      <roles>
+        <role index="0" team="1" x="6" y="8" face="0" />
+      </roles>
+      <random level="5" name="神秘绝顶高手" boss="true">
+        <role x="11" y="8" face="1" />
+      </random>
+    </battle>
+    <battle key="天关.炼狱.又见血战重阳宫！" template="全真教_战斗" arena="no">
+      <roles>
+        <role index="0" team="1" x="7" y="7" face="0" />
+      </roles>
+      <random level="5" name="神秘绝顶高手" boss="true">
+        <role x="4" y="7" face="1" />
+        <role x="5" y="8" face="1" />
+        <role x="10" y="7" face="1" />
+        <role x="10" y="8" face="1" />
+      </random>
+    </battle>
+
+    <battle key="江湖生死战.之一" template="襄阳城南_战斗">
+      <roles>
+        <role index="0" team="1" x="4" y="3" face="1" />
+        <role index="1" team="1" x="5" y="4" face="1" />
+        <role index="2" team="1" x="4" y="4" face="1" />
+        
+        <role index="3" team="2" x="1" y="5" face="0" />
+        <role index="4" team="2" x="1" y="6" face="0" />
+        <role index="5" team="2" x="1" y="7" face="0" />
+      </roles>
+    </battle>
+    <battle key="江湖生死战.之二" template="天龙寺_战斗">
+      <roles>
+        <role index="0" team="1" x="4" y="2" face="0" />
+        <role index="1" team="1" x="4" y="6" face="0" />
+        <role index="2" team="2" x="7" y="4" face="1" />
+        <role index="3" team="2" x="7" y="5" face="1" />
+      </roles>
+    </battle>
+    <battle key="江湖生死战.之三" template="少林_战斗">
+      <roles>
+        <role index="0" team="1" x="6" y="7" face="1" />
+        <role index="1" team="1" x="7" y="7" face="0" />
+        <role index="2" team="2" x="9" y="7" face="1" />
+        <role index="3" team="2" x="4" y="6" face="0" />
+      </roles>
+    </battle>
+    <battle key="江湖生死战.之四" template="雁门关_战斗">
+      <roles>
+        <role index="0" team="1" x="6" y="6" face="0" />
+        <role index="1" team="1" x="6" y="7" face="0" />
+        <role index="2" team="2" x="10" y="6" face="1" />
+        <role index="3" team="2" x="10" y="7" face="1" />
+      </roles>
+    </battle>
+    <battle key="江湖生死战.之五" template="道家仙境_战斗">
+      <roles>
+        <role index="0" team="1" x="9" y="5" face="0" />
+        <role index="1" team="1" x="9" y="4" face="0" />
+        <role index="2" team="2" x="14" y="5" face="1" />
+        <role index="3" team="2" x="14" y="4" face="1" />
+      </roles>
+    </battle>
+    <!-- 天关.决战光明顶 -->
+    <battle key="天关.决战光明顶" template="光明顶_战斗">
+      <roles>
+        <role key="光明顶张无忌" team="2" x="11" y="4" face="1" />
+        <role key="韦一笑" team="2" x="11" y="5" face="1" />
+        <role key="殷天正" team="2" x="10" y="5" face="1" />
+        <role key="空性大师" team="1" x="4" y="3" face="0" />
+        <role key="华山长老" team="1" x="5" y="4" face="0" />
+        <role key="华山长老" team="1" x="4" y="4" face="1" />
+        <role key="何太冲" team="1" x="4" y="7" face="1" />
+        <role key="班淑娴" team="1" x="5" y="6" face="0" />
+        <role key="灭绝师太" team="1" x="5" y="8" face="0" />
+      </roles>
+      <story>
+        <action type="DIALOG" value="灭绝师太#魔教妖人，今天就要你们全部葬身在这光明顶之上！" />
+        <action type="DIALOG" value="张无忌#各位且听在下一言！" />
+        <action type="DIALOG" value="何太冲#废话少说，妖人杀无赦！" />
+        <action type="DIALOG" value="班淑娴#大家也不要讲什么江湖道义了，一齐上吧！" />
+      </story>
+    </battle>
+    <battle key="天关.林平之的复仇" template="襄阳城南_战斗" music="音乐.紧张感">
+      <roles>
+        <role key="神林平之" team="1" x="3" y="6" face="1" />
+        <role key="岳灵珊" team="1" x="11" y="6" face="1" />
+        <role key="木高峰" team="2" x="1" y="5" face="0" />
+        <role key="余沧海" team="2" x="1" y="6" face="0" />
+        <role key="青城派高手" team="2" x="6" y="3" face="0" />
+        <role key="青城派高手" team="2" x="9" y="4" face="0" />
+        <role key="青城派高手" team="2" x="10" y="3" face="0" />
+        <role key="青城派高手" team="2" x="10" y="5" face="0" />
+        <role key="青城派高手" team="2" x="12" y="5" face="1" />
+        <role key="青城派高手" team="2" x="12" y="6" face="1" />
+      </roles>
+      <story>
+        <action type="DIALOG" value="岳灵珊#平弟，平弟，快来助我！" />
+        <action type="DIALOG" value="林平之#余矮子要瞧辟邪剑法，让他瞧个明白，死了也好闭眼！" />
+        <action type="DIALOG" value="岳灵珊#平弟，平弟，快来！" />
+        <action type="DIALOG" value="林平之#这就来啦，你再支持一会儿，我得把辟邪剑法使全了，好让他看个明白。" />
+        <action type="DIALOG" value="林平之#余矮子跟我们原没怨仇，一切都是为了这‘辟邪剑法’，总得让他把这套剑法有头有尾的看个分明，你说是不是？" />
+        <action type="DIALOG" value="林平之#我林家的辟邪剑法，你们都看清楚了吗？" />
+        <action type="DIALOG" value="余沧海#（可恶，难道我今天真的要死在这个小子手里……）" />
+        <action type="DIALOG" value="木高峰#（这家伙辟邪剑法练成了，果真是一把活剑谱，待老子擒来好好折磨他，嘿嘿……）" />
+      </story>
+    </battle>
+    <battle key="天关.血战少室山" template="光明顶_战斗">
+      <roles>
+        <role key="天关乔峰" team="2" x="11" y="4" face="1" />
+        <role key="虚竹" team="2" x="11" y="5" face="1" />
+        <role key="天关段誉" team="2" x="10" y="5" face="1" />
+        <role key="天关慕容复" team="1" x="4" y="3" face="0" />
+        <role key="炼狱丁春秋" team="1" x="5" y="8" face="0" />
+        <role key="天关庄聚贤" team="1" x="5" y="3" face="0" />
+      </roles>
+      <story>
+        <action type="DIALOG" value="慕容复#萧兄你是契丹英雄，但你视我中原众豪杰有如物，姑苏慕容复今日想领教阁下高招" />
+        <action type="DIALOG" value="丁春秋#嘿嘿，不管你说是姓萧还是姓乔，刚才老夫看你年轻让你三招，告诉你老夫可不让了啊？" />
+        <action type="DIALOG" value="庄聚贤#萧峰，你我杀父之仇不共戴天，今日我们便来做个了断吧。" />
+        <action type="DIALOG" value="乔峰#来，拿酒来，兄弟，哥哥今天连累了你，你我今日痛痛快快喝一场" />
+        <action type="DIALOG" value="段誉#哥哥这是哪里话，我段誉能认识大哥这样英雄三生有幸，虽死无憾" />
+        <action type="DIALOG" value="虚竹#大哥，三弟，你们喝酒怎么能不叫我啊" />
+        <action type="DIALOG" value="乔峰#这位是？" />
+        <action type="DIALOG" value="段誉#大哥这也是我们的结义兄弟，虚竹，那天我俩结义把你也给拜了" />
+        <action type="DIALOG" value="乔峰#我萧峰今日与天下英雄为敌，你都能挺身而出，足见是重情重义的英雄好汉" />
+        <action type="DIALOG" value="乔峰#来，大家一起喝，痛痛快快的打一场" />
+      </story>
+    </battle>
+  </battles>
+</root>

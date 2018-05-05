@@ -1,0 +1,17 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:JyGame" xmlns:JyGame_UserControls="clr-namespace:JyGame.UserControls" x:Class="JyGame.MainPage"
+    mc:Ignorable="d"
+    KeyDown="UserControl_KeyDown" Loaded="UserControl_Loaded">
+
+    <Canvas x:Name="LayoutRoot" Width="800" Height="600">
+		<Canvas.RenderTransform>
+            <ScaleTransform ScaleX="1" ScaleY="1" x:Name="RootLayoutScaleTransform">
+            </ScaleTransform>
+        </Canvas.RenderTransform>
+    	<local:UIHost x:Name="uiHost" Height="600" Width="800"/>
+    </Canvas>
+</UserControl>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+  <resource key="buff.恢复" value="每回合回复生命值"/>
+  <resource key="buff.集气" value="每回合增加蓄力值"/>
+  <resource key="buff.攻击强化" value="增加攻击力"/>
+  <resource key="buff.飘渺" value="一定概率躲避攻击"/>
+  <resource key="buff.左右互搏" value="一定概率出两次攻击"/>
+  <resource key="buff.神速攻击" value="一定概率出三次攻击"/>
+  <resource key="buff.醉酒" value="20%概率因为醉酒不能行动，80%概率怒气全满，同时攻击有一定几率出两次攻击"/>
+  <resource key="buff.中毒" value="每回合减少生命值"/>
+  <resource key="buff.内伤" value="每回合减少内力值，内力消耗增加"/>
+  <resource key="buff.致盲" value="减少技能攻击范围"/>
+  <resource key="buff.缓速" value="减少移动范围"/>
+  <resource key="buff.晕眩" value="无法行动"/>
+  <resource key="buff.攻击弱化" value="减少攻击力"/>
+  <resource key="buff.诸般封印" value="无法施展拳、刀、剑、奇门外功"/>
+  <resource key="buff.剑封印" value="无法施展剑系外功"/>
+  <resource key="buff.刀封印" value="无法施展刀系外功"/>
+  <resource key="buff.拳掌封印" value="无法施展拳系外功"/>
+  <resource key="buff.奇门封印" value="无法施展奇门外功"/>
+  <resource key="buff.溜须拍马" value="溜须拍马，跪地求饶，不受伤害。"/>
+  <resource key="buff.易容" value="易容改面，藏于暗处。伺机发动致命伤害。"/>
+  <resource key="buff.伤害加深" value="伤害不停加深，受到与BUFF等级相关的额外伤害。"/>
+  <resource key="buff.圣战" value="不受任何不良状态影响。"/>
+  <resource key="buff.重伤" value="受到的任何回复效果减半。"/>
+  <resource key="buff.定身" value="无法移动。"/>
+  <resource key="buff.轻身" value="增加移动能力。"/>
+  <resource key="buff.防御强化" value="提升防御力。"/>
+  <resource key="buff.魔神降临" value="犹如魔神附体，所有攻击必定暴击，暴击伤害提高25%。"/>
+  <resource key="buff.封穴" value="穴道被封，无法通过休息恢复内力。"/>
+  <resource key="buff.麻痹" value="降低战斗中的集气速度。"/>
+  <resource key="buff.神行" value="提高战斗中的集气速度。"/>
+
+  <!--TODO-->
+  <resource key="buff.狂战" value="以受到更多伤害为代价，提升攻击力。"/>
+  <resource key="buff.坚守" value="以减少攻击输出为代价，减少所受伤害。"/>
+  <resource key="buff.沾衣十八跌" value="气劲充满全身，攻击命中的敌人有一定概率被气劲反伤晕眩。"/>
+
+</resources>
