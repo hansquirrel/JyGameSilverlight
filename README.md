@@ -28,12 +28,13 @@
 ### 客户端
 
 * 代码开发：[Visual Studio 2015](http://download.microsoft.com/download/B/4/8/B4870509-05CB-447C-878F-2F80E4CB464C/vs2015.com_chs.iso)
-* UI和界面开发：[Blend for Visual Studio 2015](https://blogs.msdn.microsoft.com/visualstudio/2014/11/13/blend-for-visual-studio-2015-preview/)
+* UI和界面开发：[Blend for Visual Studio 2015](https://blogs.msdn.microsoft.com/visualstudio/2014/11/13/blend-for-visual-studio-2015-preview/)（VS2015自带）
 
 依赖环境：
 
 * [Silverlight5](https://www.microsoft.com/silverlight/)
 * [Silverlight5 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=28359)
+* Silverlight5 Developer（安装VS2015启动可以自动安装）
 
 依赖开源库
 
