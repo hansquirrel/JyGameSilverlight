@@ -186,8 +186,8 @@ namespace JyGame.UserControls
 
         private void UserControl_Loaded(object sender, System.Windows.RoutedEventArgs e)
         {
-            this.Storyboard1.RepeatBehavior = RepeatBehavior.Forever;
-            this.Storyboard1.Begin();
+            //this.Storyboard1.RepeatBehavior = RepeatBehavior.Forever;
+            //this.Storyboard1.Begin();
         }
     }
 }

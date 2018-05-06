@@ -6,14 +6,8 @@
     xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" x:Class="JyGame.UserControls.DialogBox"
     mc:Ignorable="d"
     d:DesignHeight="300" d:DesignWidth="400" Width="800" Height="600" Opacity="1" Cursor="Hand" Loaded="UserControl_Loaded">
-	<UserControl.Resources>
-		<Storyboard x:Name="Storyboard1">
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="blockArrow">
-				<EasingDoubleKeyFrame KeyTime="0" Value="-5.328"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.666"/>
-			</DoubleAnimationUsingKeyFrames>
-		</Storyboard>
-	</UserControl.Resources>
+    <UserControl.Resources>
+    </UserControl.Resources>
     
     <Canvas Margin="0,0,106,265" Width="800" Height="600">
     
