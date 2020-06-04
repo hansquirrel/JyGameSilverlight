@@ -4,6 +4,8 @@
 
 《金庸群侠传X》（以下称“金X”）是由游戏工作室[“汉家松鼠”](https://www.hanjiasongshu.com)的CG和子尹业余时间开发的高自由度武侠RPG游戏。
 
+![image](https://github.com/hansquirrel/JyGameSilverlight/blob/master/docs/83aee1a5e5a2a54aba19239904adf61d.jpg)
+
 
 ## 版权申明
 
