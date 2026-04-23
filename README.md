@@ -51,3 +51,8 @@
 
 * 工作室主页：[https://www.hanjiasongshu.com](https://www.hanjiasongshu.com)
 * 邮件：[opensource@hanjiasongshu.com](mailto://opensource@hanjiasongshu.com)
+
+
+## 友情链接
+
+[金X OpenSilver版本（网友 wangyipeng移植）](https://gitee.com/wyp517144772/jygame)
